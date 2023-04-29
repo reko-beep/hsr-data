@@ -1,0 +1,1602 @@
+{
+ "entries": [
+  {
+   "name": "March 7th",
+   "spRequirement": 0,
+   "rarity": 4,
+   "iconPath": "845a9c92bf8f04c56203cf1c5ef52064bf733aaba749e5f43634cd35c9991dca",
+   "damageType": {
+    "id": 0,
+    "iconPath": "3a4e72fd1d4a41926980ab22b12c81cde3147050577efcfdac462e0f60271b9f",
+    "color": "#47C7FD",
+    "name": "Ice",
+    "rarity": 0
+   },
+   "baseType": {
+    "id": 0,
+    "iconPath": "129eb76a6f0c9be69f8c2263f5e53030909c36d7e4de7a0571dd5665ac645b33",
+    "color": "#FFFFFF",
+    "name": "Preservation",
+    "rarity": 0
+   },
+   "damageTypeId": 4,
+   "baseTypeId": 6,
+   "itemReferences": {},
+   "levelData": [],
+   "ranks": [],
+   "skillGrouping": [],
+   "skills": [],
+   "skillTreePoints": [],
+   "relicRecommend": {
+    "twoPcSets": [],
+    "fourPcSets": [],
+    "props": []
+   },
+   "voiceItems": [],
+   "storyItems": [],
+   "archive": {},
+   "calculator": {
+    "expCost": {},
+    "expItemConfig": {},
+    "sCoinId": 0
+   },
+   "pageId": "mar7th"
+  },
+  {
+   "name": "Dan Heng",
+   "spRequirement": 0,
+   "rarity": 4,
+   "iconPath": "18b9bdf5783e1296ad5fdd09888df5b630c7fe2c11f139286c0d44116aeae69c",
+   "damageType": {
+    "id": 0,
+    "iconPath": "a77d91df3b1045f9fa66ce1300c4d921c0f89e51135df8208904334e8a0f0b80",
+    "color": "#00FF9C",
+    "name": "Wind",
+    "rarity": 0
+   },
+   "baseType": {
+    "id": 0,
+    "iconPath": "f888d91738330cac6e95609d73ab3c9d4be23794bb22c5257171857c4c722262",
+    "color": "#FFFFFF",
+    "name": "The Hunt",
+    "rarity": 0
+   },
+   "damageTypeId": 16,
+   "baseTypeId": 2,
+   "itemReferences": {},
+   "levelData": [],
+   "ranks": [],
+   "skillGrouping": [],
+   "skills": [],
+   "skillTreePoints": [],
+   "relicRecommend": {
+    "twoPcSets": [],
+    "fourPcSets": [],
+    "props": []
+   },
+   "voiceItems": [],
+   "storyItems": [],
+   "archive": {},
+   "calculator": {
+    "expCost": {},
+    "expItemConfig": {},
+    "sCoinId": 0
+   },
+   "pageId": "danheng"
+  },
+  {
+   "name": "Himeko",
+   "spRequirement": 0,
+   "rarity": 5,
+   "iconPath": "14e7dc67afb1c8f570d3ad758e00f46d4af48d45df69c990b19bddc3542aaed6",
+   "damageType": {
+    "id": 0,
+    "iconPath": "de0c257eb00c86e608b1d3a42b9c2aa396a576d29f7d7093fdb0a741c39b23a4",
+    "color": "#F84F36",
+    "name": "Fire",
+    "rarity": 0
+   },
+   "baseType": {
+    "id": 0,
+    "iconPath": "b9e59719a64e109bbcf97e61c2cf3c99730af37cbd230758a45d291825dbd941",
+    "color": "#FFFFFF",
+    "name": "Erudition",
+    "rarity": 0
+   },
+   "damageTypeId": 2,
+   "baseTypeId": 3,
+   "itemReferences": {},
+   "levelData": [],
+   "ranks": [],
+   "skillGrouping": [],
+   "skills": [],
+   "skillTreePoints": [],
+   "relicRecommend": {
+    "twoPcSets": [],
+    "fourPcSets": [],
+    "props": []
+   },
+   "voiceItems": [],
+   "storyItems": [],
+   "archive": {},
+   "calculator": {
+    "expCost": {},
+    "expItemConfig": {},
+    "sCoinId": 0
+   },
+   "pageId": "himeko"
+  },
+  {
+   "name": "Welt",
+   "spRequirement": 0,
+   "rarity": 5,
+   "iconPath": "e4ed0c8ee9065f8d6fd03fdec21b70e1883b05816d890e684e6038bb79ba9e06",
+   "damageType": {
+    "id": 0,
+    "iconPath": "87df7632a4ea2535a7794d3283255fe4f2a80d20e0cf266659a11dbae7549d5b",
+    "color": "#F4D258",
+    "name": "Imaginary",
+    "rarity": 0
+   },
+   "baseType": {
+    "id": 0,
+    "iconPath": "ef1c10d1a5c22dc9e9294e81827aae2ec71c4a79633349c8c9d699a9568a6e00",
+    "color": "#FFFFFF",
+    "name": "Nihility",
+    "rarity": 0
+   },
+   "damageTypeId": 64,
+   "baseTypeId": 5,
+   "itemReferences": {},
+   "levelData": [],
+   "ranks": [],
+   "skillGrouping": [],
+   "skills": [],
+   "skillTreePoints": [],
+   "relicRecommend": {
+    "twoPcSets": [],
+    "fourPcSets": [],
+    "props": []
+   },
+   "voiceItems": [],
+   "storyItems": [],
+   "archive": {},
+   "calculator": {
+    "expCost": {},
+    "expItemConfig": {},
+    "sCoinId": 0
+   },
+   "pageId": "welt"
+  },
+  {
+   "name": "Kafka",
+   "spRequirement": 0,
+   "rarity": 5,
+   "iconPath": "ae5f2457f2598b5a2567bcc4c10450e7e1d18ffb387b36043afb467c7fbb5ef3",
+   "damageType": {
+    "id": 0,
+    "iconPath": "e8e459ad283c3df43713b2d13203b3dc8c636150d0c536f38e2ad62bd72b6e83",
+    "color": "#8872F1",
+    "name": "Lightning",
+    "rarity": 0
+   },
+   "baseType": {
+    "id": 0,
+    "iconPath": "ef1c10d1a5c22dc9e9294e81827aae2ec71c4a79633349c8c9d699a9568a6e00",
+    "color": "#FFFFFF",
+    "name": "Nihility",
+    "rarity": 0
+   },
+   "damageTypeId": 8,
+   "baseTypeId": 5,
+   "itemReferences": {},
+   "levelData": [],
+   "ranks": [],
+   "skillGrouping": [],
+   "skills": [],
+   "skillTreePoints": [],
+   "relicRecommend": {
+    "twoPcSets": [],
+    "fourPcSets": [],
+    "props": []
+   },
+   "voiceItems": [],
+   "storyItems": [],
+   "archive": {},
+   "calculator": {
+    "expCost": {},
+    "expItemConfig": {},
+    "sCoinId": 0
+   },
+   "pageId": "kafka"
+  },
+  {
+   "name": "Silver Wolf",
+   "spRequirement": 0,
+   "rarity": 5,
+   "iconPath": "218e7619314687d972da09543485e643638fcb8cdcc97413256cfc5ea7247d89",
+   "damageType": {
+    "id": 0,
+    "iconPath": "c169a917eb0468e615f318e517070c0288247553d65c5e99ed809233284108e1",
+    "color": "#1C29BA",
+    "name": "Quantum",
+    "rarity": 0
+   },
+   "baseType": {
+    "id": 0,
+    "iconPath": "ef1c10d1a5c22dc9e9294e81827aae2ec71c4a79633349c8c9d699a9568a6e00",
+    "color": "#FFFFFF",
+    "name": "Nihility",
+    "rarity": 0
+   },
+   "damageTypeId": 32,
+   "baseTypeId": 5,
+   "itemReferences": {},
+   "levelData": [],
+   "ranks": [],
+   "skillGrouping": [],
+   "skills": [],
+   "skillTreePoints": [],
+   "relicRecommend": {
+    "twoPcSets": [],
+    "fourPcSets": [],
+    "props": []
+   },
+   "voiceItems": [],
+   "storyItems": [],
+   "archive": {},
+   "calculator": {
+    "expCost": {},
+    "expItemConfig": {},
+    "sCoinId": 0
+   },
+   "pageId": "silverwolf"
+  },
+  {
+   "name": "Arlan",
+   "spRequirement": 0,
+   "rarity": 4,
+   "iconPath": "97ed39640dfea927b355226a5a10d10c9881aa60fd83b8a2235b1dc77d9b6cbd",
+   "damageType": {
+    "id": 0,
+    "iconPath": "e8e459ad283c3df43713b2d13203b3dc8c636150d0c536f38e2ad62bd72b6e83",
+    "color": "#8872F1",
+    "name": "Lightning",
+    "rarity": 0
+   },
+   "baseType": {
+    "id": 0,
+    "iconPath": "57e114954f0de32a3762e77aa2fd4f791deb47497337366308c51de1d0f12430",
+    "color": "#FFFFFF",
+    "name": "Destruction",
+    "rarity": 0
+   },
+   "damageTypeId": 8,
+   "baseTypeId": 1,
+   "itemReferences": {},
+   "levelData": [],
+   "ranks": [],
+   "skillGrouping": [],
+   "skills": [],
+   "skillTreePoints": [],
+   "relicRecommend": {
+    "twoPcSets": [],
+    "fourPcSets": [],
+    "props": []
+   },
+   "voiceItems": [],
+   "storyItems": [],
+   "archive": {},
+   "calculator": {
+    "expCost": {},
+    "expItemConfig": {},
+    "sCoinId": 0
+   },
+   "pageId": "arlan"
+  },
+  {
+   "name": "Asta",
+   "spRequirement": 0,
+   "rarity": 4,
+   "iconPath": "546c0736aea1d847e072a733f25b2f00feb7d6e6b473110ef809d0fd0abdbe8b",
+   "damageType": {
+    "id": 0,
+    "iconPath": "de0c257eb00c86e608b1d3a42b9c2aa396a576d29f7d7093fdb0a741c39b23a4",
+    "color": "#F84F36",
+    "name": "Fire",
+    "rarity": 0
+   },
+   "baseType": {
+    "id": 0,
+    "iconPath": "635d8139b8f487db38f821f15a8b67f9e3c83a06071567b67770b9ca462c237e",
+    "color": "#FFFFFF",
+    "name": "Harmony",
+    "rarity": 0
+   },
+   "damageTypeId": 2,
+   "baseTypeId": 4,
+   "itemReferences": {},
+   "levelData": [],
+   "ranks": [],
+   "skillGrouping": [],
+   "skills": [],
+   "skillTreePoints": [],
+   "relicRecommend": {
+    "twoPcSets": [],
+    "fourPcSets": [],
+    "props": []
+   },
+   "voiceItems": [],
+   "storyItems": [],
+   "archive": {},
+   "calculator": {
+    "expCost": {},
+    "expItemConfig": {},
+    "sCoinId": 0
+   },
+   "pageId": "asta"
+  },
+  {
+   "name": "Herta",
+   "spRequirement": 0,
+   "rarity": 4,
+   "iconPath": "9d9c4b2e2d28a914ab967525fe08bbf827c50f14c04e8abf73af8edb6106d839",
+   "damageType": {
+    "id": 0,
+    "iconPath": "3a4e72fd1d4a41926980ab22b12c81cde3147050577efcfdac462e0f60271b9f",
+    "color": "#47C7FD",
+    "name": "Ice",
+    "rarity": 0
+   },
+   "baseType": {
+    "id": 0,
+    "iconPath": "b9e59719a64e109bbcf97e61c2cf3c99730af37cbd230758a45d291825dbd941",
+    "color": "#FFFFFF",
+    "name": "Erudition",
+    "rarity": 0
+   },
+   "damageTypeId": 4,
+   "baseTypeId": 3,
+   "itemReferences": {},
+   "levelData": [],
+   "ranks": [],
+   "skillGrouping": [],
+   "skills": [],
+   "skillTreePoints": [],
+   "relicRecommend": {
+    "twoPcSets": [],
+    "fourPcSets": [],
+    "props": []
+   },
+   "voiceItems": [],
+   "storyItems": [],
+   "archive": {},
+   "calculator": {
+    "expCost": {},
+    "expItemConfig": {},
+    "sCoinId": 0
+   },
+   "pageId": "herta"
+  },
+  {
+   "name": "Bronya",
+   "spRequirement": 0,
+   "rarity": 5,
+   "iconPath": "055b8bcad58b75e935ef230e8f98214812101765b2106f9051aca37ca7dd2b38",
+   "damageType": {
+    "id": 0,
+    "iconPath": "a77d91df3b1045f9fa66ce1300c4d921c0f89e51135df8208904334e8a0f0b80",
+    "color": "#00FF9C",
+    "name": "Wind",
+    "rarity": 0
+   },
+   "baseType": {
+    "id": 0,
+    "iconPath": "635d8139b8f487db38f821f15a8b67f9e3c83a06071567b67770b9ca462c237e",
+    "color": "#FFFFFF",
+    "name": "Harmony",
+    "rarity": 0
+   },
+   "damageTypeId": 16,
+   "baseTypeId": 4,
+   "itemReferences": {},
+   "levelData": [],
+   "ranks": [],
+   "skillGrouping": [],
+   "skills": [],
+   "skillTreePoints": [],
+   "relicRecommend": {
+    "twoPcSets": [],
+    "fourPcSets": [],
+    "props": []
+   },
+   "voiceItems": [],
+   "storyItems": [],
+   "archive": {},
+   "calculator": {
+    "expCost": {},
+    "expItemConfig": {},
+    "sCoinId": 0
+   },
+   "pageId": "bronya"
+  },
+  {
+   "name": "Seele",
+   "spRequirement": 0,
+   "rarity": 5,
+   "iconPath": "8f89a52834113ea934be4d34a18b8971f3696aec1862a6e89933416570b99eb3",
+   "damageType": {
+    "id": 0,
+    "iconPath": "c169a917eb0468e615f318e517070c0288247553d65c5e99ed809233284108e1",
+    "color": "#1C29BA",
+    "name": "Quantum",
+    "rarity": 0
+   },
+   "baseType": {
+    "id": 0,
+    "iconPath": "f888d91738330cac6e95609d73ab3c9d4be23794bb22c5257171857c4c722262",
+    "color": "#FFFFFF",
+    "name": "The Hunt",
+    "rarity": 0
+   },
+   "damageTypeId": 32,
+   "baseTypeId": 2,
+   "itemReferences": {},
+   "levelData": [],
+   "ranks": [],
+   "skillGrouping": [],
+   "skills": [],
+   "skillTreePoints": [],
+   "relicRecommend": {
+    "twoPcSets": [],
+    "fourPcSets": [],
+    "props": []
+   },
+   "voiceItems": [],
+   "storyItems": [],
+   "archive": {},
+   "calculator": {
+    "expCost": {},
+    "expItemConfig": {},
+    "sCoinId": 0
+   },
+   "pageId": "seele"
+  },
+  {
+   "name": "Serval",
+   "spRequirement": 0,
+   "rarity": 4,
+   "iconPath": "6652458b2ea6d17607863873a3508ca06e43101557c1c7faad5f29b20b16a3be",
+   "damageType": {
+    "id": 0,
+    "iconPath": "e8e459ad283c3df43713b2d13203b3dc8c636150d0c536f38e2ad62bd72b6e83",
+    "color": "#8872F1",
+    "name": "Lightning",
+    "rarity": 0
+   },
+   "baseType": {
+    "id": 0,
+    "iconPath": "b9e59719a64e109bbcf97e61c2cf3c99730af37cbd230758a45d291825dbd941",
+    "color": "#FFFFFF",
+    "name": "Erudition",
+    "rarity": 0
+   },
+   "damageTypeId": 8,
+   "baseTypeId": 3,
+   "itemReferences": {},
+   "levelData": [],
+   "ranks": [],
+   "skillGrouping": [],
+   "skills": [],
+   "skillTreePoints": [],
+   "relicRecommend": {
+    "twoPcSets": [],
+    "fourPcSets": [],
+    "props": []
+   },
+   "voiceItems": [],
+   "storyItems": [],
+   "archive": {},
+   "calculator": {
+    "expCost": {},
+    "expItemConfig": {},
+    "sCoinId": 0
+   },
+   "pageId": "serval"
+  },
+  {
+   "name": "Gepard",
+   "spRequirement": 0,
+   "rarity": 5,
+   "iconPath": "e07822c72adcb2a0a71907bbfe48f7da04a9e34eda152ecbf8ce6d8ec64e313f",
+   "damageType": {
+    "id": 0,
+    "iconPath": "3a4e72fd1d4a41926980ab22b12c81cde3147050577efcfdac462e0f60271b9f",
+    "color": "#47C7FD",
+    "name": "Ice",
+    "rarity": 0
+   },
+   "baseType": {
+    "id": 0,
+    "iconPath": "129eb76a6f0c9be69f8c2263f5e53030909c36d7e4de7a0571dd5665ac645b33",
+    "color": "#FFFFFF",
+    "name": "Preservation",
+    "rarity": 0
+   },
+   "damageTypeId": 4,
+   "baseTypeId": 6,
+   "itemReferences": {},
+   "levelData": [],
+   "ranks": [],
+   "skillGrouping": [],
+   "skills": [],
+   "skillTreePoints": [],
+   "relicRecommend": {
+    "twoPcSets": [],
+    "fourPcSets": [],
+    "props": []
+   },
+   "voiceItems": [],
+   "storyItems": [],
+   "archive": {},
+   "calculator": {
+    "expCost": {},
+    "expItemConfig": {},
+    "sCoinId": 0
+   },
+   "pageId": "gepard"
+  },
+  {
+   "name": "Natasha",
+   "spRequirement": 0,
+   "rarity": 4,
+   "iconPath": "8d749531e40fa03515c5a4e33a7f0c372f07f7f9f420a383dbbce09deff40335",
+   "damageType": {
+    "id": 0,
+    "iconPath": "ae78085438eecf2462f1256329b5aa2369f01b8cda6926ea0a08b1b8affe5108",
+    "color": "#FFFFFF",
+    "name": "Physical",
+    "rarity": 0
+   },
+   "baseType": {
+    "id": 0,
+    "iconPath": "498249f31cf5142d1e1b5285d73ac93049e853b76d92417a8d1e3691e790abd5",
+    "color": "#FFFFFF",
+    "name": "Abundance",
+    "rarity": 0
+   },
+   "damageTypeId": 1,
+   "baseTypeId": 7,
+   "itemReferences": {},
+   "levelData": [],
+   "ranks": [],
+   "skillGrouping": [],
+   "skills": [],
+   "skillTreePoints": [],
+   "relicRecommend": {
+    "twoPcSets": [],
+    "fourPcSets": [],
+    "props": []
+   },
+   "voiceItems": [],
+   "storyItems": [],
+   "archive": {},
+   "calculator": {
+    "expCost": {},
+    "expItemConfig": {},
+    "sCoinId": 0
+   },
+   "pageId": "natasha"
+  },
+  {
+   "name": "Pela",
+   "spRequirement": 0,
+   "rarity": 4,
+   "iconPath": "eb70d6007bfc888b55dedfad69ec60f61c252d37caf79a2b860a48d6eb275c73",
+   "damageType": {
+    "id": 0,
+    "iconPath": "3a4e72fd1d4a41926980ab22b12c81cde3147050577efcfdac462e0f60271b9f",
+    "color": "#47C7FD",
+    "name": "Ice",
+    "rarity": 0
+   },
+   "baseType": {
+    "id": 0,
+    "iconPath": "ef1c10d1a5c22dc9e9294e81827aae2ec71c4a79633349c8c9d699a9568a6e00",
+    "color": "#FFFFFF",
+    "name": "Nihility",
+    "rarity": 0
+   },
+   "damageTypeId": 4,
+   "baseTypeId": 5,
+   "itemReferences": {},
+   "levelData": [],
+   "ranks": [],
+   "skillGrouping": [],
+   "skills": [],
+   "skillTreePoints": [],
+   "relicRecommend": {
+    "twoPcSets": [],
+    "fourPcSets": [],
+    "props": []
+   },
+   "voiceItems": [],
+   "storyItems": [],
+   "archive": {},
+   "calculator": {
+    "expCost": {},
+    "expItemConfig": {},
+    "sCoinId": 0
+   },
+   "pageId": "pela"
+  },
+  {
+   "name": "Clara",
+   "spRequirement": 0,
+   "rarity": 5,
+   "iconPath": "80250b40d167ca2ba09fc4120b67d0321c06c47518189354c650728b9337cb1f",
+   "damageType": {
+    "id": 0,
+    "iconPath": "ae78085438eecf2462f1256329b5aa2369f01b8cda6926ea0a08b1b8affe5108",
+    "color": "#FFFFFF",
+    "name": "Physical",
+    "rarity": 0
+   },
+   "baseType": {
+    "id": 0,
+    "iconPath": "57e114954f0de32a3762e77aa2fd4f791deb47497337366308c51de1d0f12430",
+    "color": "#FFFFFF",
+    "name": "Destruction",
+    "rarity": 0
+   },
+   "damageTypeId": 1,
+   "baseTypeId": 1,
+   "itemReferences": {},
+   "levelData": [],
+   "ranks": [],
+   "skillGrouping": [],
+   "skills": [],
+   "skillTreePoints": [],
+   "relicRecommend": {
+    "twoPcSets": [],
+    "fourPcSets": [],
+    "props": []
+   },
+   "voiceItems": [],
+   "storyItems": [],
+   "archive": {},
+   "calculator": {
+    "expCost": {},
+    "expItemConfig": {},
+    "sCoinId": 0
+   },
+   "pageId": "clara"
+  },
+  {
+   "name": "Sampo",
+   "spRequirement": 0,
+   "rarity": 4,
+   "iconPath": "6e439dff39727f8f2f7c334bce51980fce8b28a87d88fec654f7b24108b8681c",
+   "damageType": {
+    "id": 0,
+    "iconPath": "a77d91df3b1045f9fa66ce1300c4d921c0f89e51135df8208904334e8a0f0b80",
+    "color": "#00FF9C",
+    "name": "Wind",
+    "rarity": 0
+   },
+   "baseType": {
+    "id": 0,
+    "iconPath": "ef1c10d1a5c22dc9e9294e81827aae2ec71c4a79633349c8c9d699a9568a6e00",
+    "color": "#FFFFFF",
+    "name": "Nihility",
+    "rarity": 0
+   },
+   "damageTypeId": 16,
+   "baseTypeId": 5,
+   "itemReferences": {},
+   "levelData": [],
+   "ranks": [],
+   "skillGrouping": [],
+   "skills": [],
+   "skillTreePoints": [],
+   "relicRecommend": {
+    "twoPcSets": [],
+    "fourPcSets": [],
+    "props": []
+   },
+   "voiceItems": [],
+   "storyItems": [],
+   "archive": {},
+   "calculator": {
+    "expCost": {},
+    "expItemConfig": {},
+    "sCoinId": 0
+   },
+   "pageId": "sampo"
+  },
+  {
+   "name": "Hook",
+   "spRequirement": 0,
+   "rarity": 4,
+   "iconPath": "3c65307dfdb5809c5647cce7f01939a514624c14b49cf15f45743ed179ac2258",
+   "damageType": {
+    "id": 0,
+    "iconPath": "de0c257eb00c86e608b1d3a42b9c2aa396a576d29f7d7093fdb0a741c39b23a4",
+    "color": "#F84F36",
+    "name": "Fire",
+    "rarity": 0
+   },
+   "baseType": {
+    "id": 0,
+    "iconPath": "57e114954f0de32a3762e77aa2fd4f791deb47497337366308c51de1d0f12430",
+    "color": "#FFFFFF",
+    "name": "Destruction",
+    "rarity": 0
+   },
+   "damageTypeId": 2,
+   "baseTypeId": 1,
+   "itemReferences": {},
+   "levelData": [],
+   "ranks": [],
+   "skillGrouping": [],
+   "skills": [],
+   "skillTreePoints": [],
+   "relicRecommend": {
+    "twoPcSets": [],
+    "fourPcSets": [],
+    "props": []
+   },
+   "voiceItems": [],
+   "storyItems": [],
+   "archive": {},
+   "calculator": {
+    "expCost": {},
+    "expItemConfig": {},
+    "sCoinId": 0
+   },
+   "pageId": "hook"
+  },
+  {
+   "name": "Qingque",
+   "spRequirement": 0,
+   "rarity": 4,
+   "iconPath": "3a1046dace553ff92a6cc0375fce757d31951f4daa5dce12d15edfdbffc7bbe2",
+   "damageType": {
+    "id": 0,
+    "iconPath": "c169a917eb0468e615f318e517070c0288247553d65c5e99ed809233284108e1",
+    "color": "#1C29BA",
+    "name": "Quantum",
+    "rarity": 0
+   },
+   "baseType": {
+    "id": 0,
+    "iconPath": "b9e59719a64e109bbcf97e61c2cf3c99730af37cbd230758a45d291825dbd941",
+    "color": "#FFFFFF",
+    "name": "Erudition",
+    "rarity": 0
+   },
+   "damageTypeId": 32,
+   "baseTypeId": 3,
+   "itemReferences": {},
+   "levelData": [],
+   "ranks": [],
+   "skillGrouping": [],
+   "skills": [],
+   "skillTreePoints": [],
+   "relicRecommend": {
+    "twoPcSets": [],
+    "fourPcSets": [],
+    "props": []
+   },
+   "voiceItems": [],
+   "storyItems": [],
+   "archive": {},
+   "calculator": {
+    "expCost": {},
+    "expItemConfig": {},
+    "sCoinId": 0
+   },
+   "pageId": "qingque"
+  },
+  {
+   "name": "Tingyun",
+   "spRequirement": 0,
+   "rarity": 4,
+   "iconPath": "3aea41d1eb32d3b951578c913319c43795f2785c70d62c1194f00ddf176a116f",
+   "damageType": {
+    "id": 0,
+    "iconPath": "e8e459ad283c3df43713b2d13203b3dc8c636150d0c536f38e2ad62bd72b6e83",
+    "color": "#8872F1",
+    "name": "Lightning",
+    "rarity": 0
+   },
+   "baseType": {
+    "id": 0,
+    "iconPath": "635d8139b8f487db38f821f15a8b67f9e3c83a06071567b67770b9ca462c237e",
+    "color": "#FFFFFF",
+    "name": "Harmony",
+    "rarity": 0
+   },
+   "damageTypeId": 8,
+   "baseTypeId": 4,
+   "itemReferences": {},
+   "levelData": [],
+   "ranks": [],
+   "skillGrouping": [],
+   "skills": [],
+   "skillTreePoints": [],
+   "relicRecommend": {
+    "twoPcSets": [],
+    "fourPcSets": [],
+    "props": []
+   },
+   "voiceItems": [],
+   "storyItems": [],
+   "archive": {},
+   "calculator": {
+    "expCost": {},
+    "expItemConfig": {},
+    "sCoinId": 0
+   },
+   "pageId": "tingyun"
+  },
+  {
+   "name": "Luocha",
+   "spRequirement": 0,
+   "rarity": 5,
+   "iconPath": "9a06048a91058e05c686230ab1e474b8ba7adcd3f8f2fa348242539347af42e4",
+   "damageType": {
+    "id": 0,
+    "iconPath": "87df7632a4ea2535a7794d3283255fe4f2a80d20e0cf266659a11dbae7549d5b",
+    "color": "#F4D258",
+    "name": "Imaginary",
+    "rarity": 0
+   },
+   "baseType": {
+    "id": 0,
+    "iconPath": "498249f31cf5142d1e1b5285d73ac93049e853b76d92417a8d1e3691e790abd5",
+    "color": "#FFFFFF",
+    "name": "Abundance",
+    "rarity": 0
+   },
+   "damageTypeId": 64,
+   "baseTypeId": 7,
+   "itemReferences": {},
+   "levelData": [],
+   "ranks": [],
+   "skillGrouping": [],
+   "skills": [],
+   "skillTreePoints": [],
+   "relicRecommend": {
+    "twoPcSets": [],
+    "fourPcSets": [],
+    "props": []
+   },
+   "voiceItems": [],
+   "storyItems": [],
+   "archive": {},
+   "calculator": {
+    "expCost": {},
+    "expItemConfig": {},
+    "sCoinId": 0
+   },
+   "pageId": "luocha"
+  },
+  {
+   "name": "Jing Yuan",
+   "spRequirement": 0,
+   "rarity": 5,
+   "iconPath": "a4bb2dc9f7ed523821e893d962c7b0b3318f4c19f74e676e079701103f50c4e6",
+   "damageType": {
+    "id": 0,
+    "iconPath": "e8e459ad283c3df43713b2d13203b3dc8c636150d0c536f38e2ad62bd72b6e83",
+    "color": "#8872F1",
+    "name": "Lightning",
+    "rarity": 0
+   },
+   "baseType": {
+    "id": 0,
+    "iconPath": "b9e59719a64e109bbcf97e61c2cf3c99730af37cbd230758a45d291825dbd941",
+    "color": "#FFFFFF",
+    "name": "Erudition",
+    "rarity": 0
+   },
+   "damageTypeId": 8,
+   "baseTypeId": 3,
+   "itemReferences": {},
+   "levelData": [],
+   "ranks": [],
+   "skillGrouping": [],
+   "skills": [],
+   "skillTreePoints": [],
+   "relicRecommend": {
+    "twoPcSets": [],
+    "fourPcSets": [],
+    "props": []
+   },
+   "voiceItems": [],
+   "storyItems": [],
+   "archive": {},
+   "calculator": {
+    "expCost": {},
+    "expItemConfig": {},
+    "sCoinId": 0
+   },
+   "pageId": "jingyuan"
+  },
+  {
+   "name": "Sushang",
+   "spRequirement": 0,
+   "rarity": 4,
+   "iconPath": "cbe61d37b5bafc6825db783d9274c1ac4495dbb862e154938622ecdd2102bfc9",
+   "damageType": {
+    "id": 0,
+    "iconPath": "ae78085438eecf2462f1256329b5aa2369f01b8cda6926ea0a08b1b8affe5108",
+    "color": "#FFFFFF",
+    "name": "Physical",
+    "rarity": 0
+   },
+   "baseType": {
+    "id": 0,
+    "iconPath": "f888d91738330cac6e95609d73ab3c9d4be23794bb22c5257171857c4c722262",
+    "color": "#FFFFFF",
+    "name": "The Hunt",
+    "rarity": 0
+   },
+   "damageTypeId": 1,
+   "baseTypeId": 2,
+   "itemReferences": {},
+   "levelData": [],
+   "ranks": [],
+   "skillGrouping": [],
+   "skills": [],
+   "skillTreePoints": [],
+   "relicRecommend": {
+    "twoPcSets": [],
+    "fourPcSets": [],
+    "props": []
+   },
+   "voiceItems": [],
+   "storyItems": [],
+   "archive": {},
+   "calculator": {
+    "expCost": {},
+    "expItemConfig": {},
+    "sCoinId": 0
+   },
+   "pageId": "sushang"
+  },
+  {
+   "name": "Yanqing",
+   "spRequirement": 0,
+   "rarity": 5,
+   "iconPath": "1225c60547f6a6064b72314c5d99ff4e54795beee2fbec04c47fca70f65e0eb3",
+   "damageType": {
+    "id": 0,
+    "iconPath": "3a4e72fd1d4a41926980ab22b12c81cde3147050577efcfdac462e0f60271b9f",
+    "color": "#47C7FD",
+    "name": "Ice",
+    "rarity": 0
+   },
+   "baseType": {
+    "id": 0,
+    "iconPath": "f888d91738330cac6e95609d73ab3c9d4be23794bb22c5257171857c4c722262",
+    "color": "#FFFFFF",
+    "name": "The Hunt",
+    "rarity": 0
+   },
+   "damageTypeId": 4,
+   "baseTypeId": 2,
+   "itemReferences": {},
+   "levelData": [],
+   "ranks": [],
+   "skillGrouping": [],
+   "skills": [],
+   "skillTreePoints": [],
+   "relicRecommend": {
+    "twoPcSets": [],
+    "fourPcSets": [],
+    "props": []
+   },
+   "voiceItems": [],
+   "storyItems": [],
+   "archive": {},
+   "calculator": {
+    "expCost": {},
+    "expItemConfig": {},
+    "sCoinId": 0
+   },
+   "pageId": "yanqing"
+  },
+  {
+   "name": "Bailu",
+   "spRequirement": 0,
+   "rarity": 5,
+   "iconPath": "190e9162d9f4d3b560b2354a2a5196042186a968d6624a16a15a5b2891973fa2",
+   "damageType": {
+    "id": 0,
+    "iconPath": "e8e459ad283c3df43713b2d13203b3dc8c636150d0c536f38e2ad62bd72b6e83",
+    "color": "#8872F1",
+    "name": "Lightning",
+    "rarity": 0
+   },
+   "baseType": {
+    "id": 0,
+    "iconPath": "498249f31cf5142d1e1b5285d73ac93049e853b76d92417a8d1e3691e790abd5",
+    "color": "#FFFFFF",
+    "name": "Abundance",
+    "rarity": 0
+   },
+   "damageTypeId": 8,
+   "baseTypeId": 7,
+   "itemReferences": {},
+   "levelData": [],
+   "ranks": [],
+   "skillGrouping": [],
+   "skills": [],
+   "skillTreePoints": [],
+   "relicRecommend": {
+    "twoPcSets": [],
+    "fourPcSets": [],
+    "props": []
+   },
+   "voiceItems": [],
+   "storyItems": [],
+   "archive": {},
+   "calculator": {
+    "expCost": {},
+    "expItemConfig": {},
+    "sCoinId": 0
+   },
+   "pageId": "bailu"
+  },
+  {
+   "name": "Trailblazer",
+   "spRequirement": 0,
+   "rarity": 5,
+   "iconPath": "9bc7388c948cdb91da4a9c8cbbe68e28e796e120097985148efe125282b7312d",
+   "damageType": {
+    "id": 0,
+    "iconPath": "ae78085438eecf2462f1256329b5aa2369f01b8cda6926ea0a08b1b8affe5108",
+    "color": "#FFFFFF",
+    "name": "Physical",
+    "rarity": 0
+   },
+   "baseType": {
+    "id": 0,
+    "iconPath": "57e114954f0de32a3762e77aa2fd4f791deb47497337366308c51de1d0f12430",
+    "color": "#FFFFFF",
+    "name": "Destruction",
+    "rarity": 0
+   },
+   "damageTypeId": 1,
+   "baseTypeId": 1,
+   "itemReferences": {},
+   "levelData": [],
+   "ranks": [],
+   "skillGrouping": [],
+   "skills": [],
+   "skillTreePoints": [],
+   "relicRecommend": {
+    "twoPcSets": [],
+    "fourPcSets": [],
+    "props": []
+   },
+   "voiceItems": [],
+   "storyItems": [],
+   "archive": {},
+   "calculator": {
+    "expCost": {},
+    "expItemConfig": {},
+    "sCoinId": 0
+   },
+   "pageId": "playerboy"
+  },
+  {
+   "name": "Trailblazer",
+   "spRequirement": 0,
+   "rarity": 5,
+   "iconPath": "1b9ea28de9d7ad65ed5c152fce7c744a2f2461d4fae4fd0fd9d662348a96631d",
+   "damageType": {
+    "id": 0,
+    "iconPath": "ae78085438eecf2462f1256329b5aa2369f01b8cda6926ea0a08b1b8affe5108",
+    "color": "#FFFFFF",
+    "name": "Physical",
+    "rarity": 0
+   },
+   "baseType": {
+    "id": 0,
+    "iconPath": "57e114954f0de32a3762e77aa2fd4f791deb47497337366308c51de1d0f12430",
+    "color": "#FFFFFF",
+    "name": "Destruction",
+    "rarity": 0
+   },
+   "damageTypeId": 1,
+   "baseTypeId": 1,
+   "itemReferences": {},
+   "levelData": [],
+   "ranks": [],
+   "skillGrouping": [],
+   "skills": [],
+   "skillTreePoints": [],
+   "relicRecommend": {
+    "twoPcSets": [],
+    "fourPcSets": [],
+    "props": []
+   },
+   "voiceItems": [],
+   "storyItems": [],
+   "archive": {},
+   "calculator": {
+    "expCost": {},
+    "expItemConfig": {},
+    "sCoinId": 0
+   },
+   "pageId": "playergirl"
+  },
+  {
+   "name": "Trailblazer",
+   "spRequirement": 0,
+   "rarity": 5,
+   "iconPath": "c45466822b77169a64474b0fbe8f3e0ef5188da6f387942cabbf45568aa25c29",
+   "damageType": {
+    "id": 0,
+    "iconPath": "de0c257eb00c86e608b1d3a42b9c2aa396a576d29f7d7093fdb0a741c39b23a4",
+    "color": "#F84F36",
+    "name": "Fire",
+    "rarity": 0
+   },
+   "baseType": {
+    "id": 0,
+    "iconPath": "129eb76a6f0c9be69f8c2263f5e53030909c36d7e4de7a0571dd5665ac645b33",
+    "color": "#FFFFFF",
+    "name": "Preservation",
+    "rarity": 0
+   },
+   "damageTypeId": 2,
+   "baseTypeId": 6,
+   "itemReferences": {},
+   "levelData": [],
+   "ranks": [],
+   "skillGrouping": [],
+   "skills": [],
+   "skillTreePoints": [],
+   "relicRecommend": {
+    "twoPcSets": [],
+    "fourPcSets": [],
+    "props": []
+   },
+   "voiceItems": [],
+   "storyItems": [],
+   "archive": {},
+   "calculator": {
+    "expCost": {},
+    "expItemConfig": {},
+    "sCoinId": 0
+   },
+   "pageId": "playerboy2"
+  },
+  {
+   "name": "Trailblazer",
+   "spRequirement": 0,
+   "rarity": 5,
+   "iconPath": "1e4183164345610421b0928f028662a986e3f5dcc1d560d39df4763d717ce3d0",
+   "damageType": {
+    "id": 0,
+    "iconPath": "de0c257eb00c86e608b1d3a42b9c2aa396a576d29f7d7093fdb0a741c39b23a4",
+    "color": "#F84F36",
+    "name": "Fire",
+    "rarity": 0
+   },
+   "baseType": {
+    "id": 0,
+    "iconPath": "129eb76a6f0c9be69f8c2263f5e53030909c36d7e4de7a0571dd5665ac645b33",
+    "color": "#FFFFFF",
+    "name": "Preservation",
+    "rarity": 0
+   },
+   "damageTypeId": 2,
+   "baseTypeId": 6,
+   "itemReferences": {},
+   "levelData": [],
+   "ranks": [],
+   "skillGrouping": [],
+   "skills": [],
+   "skillTreePoints": [],
+   "relicRecommend": {
+    "twoPcSets": [],
+    "fourPcSets": [],
+    "props": []
+   },
+   "voiceItems": [],
+   "storyItems": [],
+   "archive": {},
+   "calculator": {
+    "expCost": {},
+    "expItemConfig": {},
+    "sCoinId": 0
+   },
+   "pageId": "playergirl2"
+  }
+ ],
+ "name": "UI_NAV_AVATAR",
+ "filterCategories": [
+  {
+   "name": "4\u2b50",
+   "group": "rarityChar",
+   "dataKey": "rarity",
+   "dataValue": 4,
+   "rarity": 4,
+   "type": 0
+  },
+  {
+   "name": "5\u2b50",
+   "group": "rarityChar",
+   "dataKey": "rarity",
+   "dataValue": 5,
+   "rarity": 5,
+   "type": 0
+  },
+  {
+   "name": "3\u2b50",
+   "group": "rarityEquipment",
+   "dataKey": "rarity",
+   "dataValue": 3,
+   "rarity": 3,
+   "type": 0
+  },
+  {
+   "name": "4\u2b50",
+   "group": "rarityEquipment",
+   "dataKey": "rarity",
+   "dataValue": 4,
+   "rarity": 4,
+   "type": 0
+  },
+  {
+   "name": "5\u2b50",
+   "group": "rarityEquipment",
+   "dataKey": "rarity",
+   "dataValue": 5,
+   "rarity": 5,
+   "type": 0
+  },
+  {
+   "name": "1\u2b50",
+   "group": "rarityMaterial",
+   "dataKey": "rarity",
+   "dataValue": 1,
+   "rarity": 1,
+   "type": 0
+  },
+  {
+   "name": "2\u2b50",
+   "group": "rarityMaterial",
+   "dataKey": "rarity",
+   "dataValue": 2,
+   "rarity": 2,
+   "type": 0
+  },
+  {
+   "name": "3\u2b50",
+   "group": "rarityMaterial",
+   "dataKey": "rarity",
+   "dataValue": 3,
+   "rarity": 3,
+   "type": 0
+  },
+  {
+   "name": "4\u2b50",
+   "group": "rarityMaterial",
+   "dataKey": "rarity",
+   "dataValue": 4,
+   "rarity": 4,
+   "type": 0
+  },
+  {
+   "name": "5\u2b50",
+   "group": "rarityMaterial",
+   "dataKey": "rarity",
+   "dataValue": 5,
+   "rarity": 5,
+   "type": 0
+  },
+  {
+   "name": "Physical",
+   "group": "damageType",
+   "icon": "541166f5d3254a75e30a3263ab3ccad1c503085220a3bdb0f58f9893874eb111",
+   "dataKey": "damageTypeId",
+   "dataValue": 1,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "Fire",
+   "group": "damageType",
+   "icon": "f497912f929db891b819dc17d9c0124a9c13233f3e02be5b85192af534f17a3c",
+   "dataKey": "damageTypeId",
+   "dataValue": 2,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "Ice",
+   "group": "damageType",
+   "icon": "5f1b104c55cb14b081b2c004245c64dd39e94dd128a9880cd3a2efeb830170a1",
+   "dataKey": "damageTypeId",
+   "dataValue": 4,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "Lightning",
+   "group": "damageType",
+   "icon": "2494da0973fa611a4ff07798992cf2496faa89f7557b6713da75ee5d11eed2ba",
+   "dataKey": "damageTypeId",
+   "dataValue": 8,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "Wind",
+   "group": "damageType",
+   "icon": "547617e1b5c7374fde58450573bf7376fb2cee3079955e09f934fb822a6d5d11",
+   "dataKey": "damageTypeId",
+   "dataValue": 16,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "Quantum",
+   "group": "damageType",
+   "icon": "f67326acd380eb6b452659943906fa6248745b7d58d634b399307b028b9605c0",
+   "dataKey": "damageTypeId",
+   "dataValue": 32,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "Imaginary",
+   "group": "damageType",
+   "icon": "7a40dc5e267fd0b411f265237403a3408433f863d5d1b94b4a9d82e2bab33e32",
+   "dataKey": "damageTypeId",
+   "dataValue": 64,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "Destruction",
+   "group": "baseTypeChar",
+   "icon": "10dae0df031160c29bace386a1220e539f2b5e13765cdd0f6d2a2143bca2755c",
+   "dataKey": "baseTypeId",
+   "dataValue": 1,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "The Hunt",
+   "group": "baseTypeChar",
+   "icon": "c66788e18b85100348634e29b364a9e96096bfcd10a9607ae873ceb817744d83",
+   "dataKey": "baseTypeId",
+   "dataValue": 2,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "Erudition",
+   "group": "baseTypeChar",
+   "icon": "312ed1eeb6d329b90b5506b23fd487883f83124ccabedaf6cfafbb913d86c74c",
+   "dataKey": "baseTypeId",
+   "dataValue": 3,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "Harmony",
+   "group": "baseTypeChar",
+   "icon": "aee7f899a278735eda2872652cca14dc6b4c74c9f5689a59bbf33fa00b64ed44",
+   "dataKey": "baseTypeId",
+   "dataValue": 4,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "Nihility",
+   "group": "baseTypeChar",
+   "icon": "46809b2e4ea3502400dc31a9af1552ced0d5890b1b96f43ab9ac6fdc73fdd5f5",
+   "dataKey": "baseTypeId",
+   "dataValue": 5,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "Preservation",
+   "group": "baseTypeChar",
+   "icon": "7ffdd2cf6f7c119724e700bbf531b0ff62f3f1e2c32159e1a1f2bc6c77416163",
+   "dataKey": "baseTypeId",
+   "dataValue": 6,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "Abundance",
+   "group": "baseTypeChar",
+   "icon": "352fe395cd8f2422b4d89b486957960b86537f34c4921383c1351aa6e34ee70a",
+   "dataKey": "baseTypeId",
+   "dataValue": 7,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "Herta Space Station",
+   "group": "bookSeriesWorld",
+   "icon": "059949bb507fe93b29748aa40f4cfa319019f9013409b39a7fcd8fa0aa602cfc",
+   "dataKey": "worldId",
+   "dataValue": 1,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "Jarilo-VI",
+   "group": "bookSeriesWorld",
+   "icon": "f74ffa769453472a8096959c2747fec3d57acfb6f4b067f1a554d7830a8730fe",
+   "dataKey": "worldId",
+   "dataValue": 2,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "The Xianzhou Luofu",
+   "group": "bookSeriesWorld",
+   "icon": "afa7c01b7344fa1faf275d16dce45e6905e2ae3c7e8a2fe87971eb0ef95523e1",
+   "dataKey": "worldId",
+   "dataValue": 3,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "Character EXP Material",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 1,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "Character Ascension Materials",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 2,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "Trace Material Light Cone Ascension Material",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 3,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "Trace Materials",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 4,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "Light Cone EXP Material",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 5,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "Relic EXP Material",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 6,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "Trace Material Character Ascension Materials",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 7,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "Warp Item",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 8,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "Limited Warp Item",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 9,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "Consumables",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 10,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "Common currency",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 11,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "Rare currency",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 12,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "World currency",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 13,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "Valuable object",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 14,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "Relic Coffret",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 15,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "Synthesis material",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 17,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "Recipe",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 19,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "UI_HOME_SEARCH",
+   "group": "genericSearch",
+   "dataKey": "name",
+   "dataValue": 0,
+   "rarity": 0,
+   "type": 1
+  }
+ ]
+}

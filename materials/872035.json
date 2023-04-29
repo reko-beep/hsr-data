@@ -1,0 +1,129 @@
+{
+ "iconPath": "9b205de1013e20411f1cd304241d4413be61883c099b74665d749e0df7ec64f9",
+ "name": "High-Tech Protective Gear",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 872035,
+  "type": 502,
+  "purposeId": 10,
+  "iconPath": "9b205de1013e20411f1cd304241d4413be61883c099b74665d749e0df7ec64f9",
+  "name": "High-Tech Protective Gear",
+  "desc": "Upon use, increases DEF of all allies by <nobr>15%</nobr> and enhances the max DMG that can be absorbed by Shields cast on allies by <nobr>18%</nobr>.",
+  "lore": "High-Tech protective gear developed by the Intelligentsia Guild. It keeps the most vulnerable parts of your body from harm and converts the impact into energy used to charge the gear, making it fit for prolonged combat operations.<br />The prototypes of this model were distributed in small numbers among the Armed Archaeologists, allowing the Guild to collect large amount of data that help improve the model. The Interastral Peace Corporation was tasked to sell it on the retail market.<br /><br />\"When can we get our hands on the upgraded model?\"<br />\"Soon, my scholars...! You're gonna have to make do with Disposable Shields for the time being.\"",
+  "purpose": "Consumables",
+  "rarity": 3,
+  "rewardPath": "/material/872035",
+  "comeFrom": [
+   "All-in-One Synthesis Machine"
+  ]
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "0e76659bbb3b9d0b1cc6a4e0e8c63a576c7b917f2f740a4b1b8ceab260a8a595",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards"
+   ]
+  },
+  "71948": {
+   "id": 71948,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "66246a134a2466e730d3b928d4fb279d60ec0fadf652363019ced427acbfe988",
+   "name": "Metal",
+   "desc": "Tier 1 Synthesis Material",
+   "lore": "A substance abundant in planets' crust and the ocean.<br />Very useful, very handy.<br /><br />\"I've been to a planet where the locals consume metals to get superpowers. Please don't do that at home, as most metals are not digestible by humans.\"",
+   "purpose": "Synthesis material",
+   "rarity": 1,
+   "rewardPath": "/material/71948",
+   "comeFrom": [
+    "Found in destructible objects in the Herta Space Station",
+    "Administrative District Shop"
+   ]
+  },
+  "155955": {
+   "id": 155955,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "ff86188be988bda41cc33df8e66de42fe7d91a7f2f04a34810080ebf68c8aa2a",
+   "name": "Preservation Construction Material",
+   "desc": "Tier 3 Synthesis Material",
+   "lore": "Construction materials that seem to possess the power of the Preservation.<br />When mixed with water it forms a paste, when exposed to air it turns rock-hard.<br />Please do not use together with Solid Water.<br /><br />\"I regret to say that Intelligentsia Guild's research on the material used to build the Subspace Crystalline Barrier by Amber Lord still needs time to reveal its nature.\"<br />\"I'm sure it's not cement \u2014 am I right, Taravan?\"",
+   "purpose": "Synthesis material",
+   "rarity": 3,
+   "rewardPath": "/material/155955",
+   "comeFrom": [
+    "Corridor of Fading Echoes: Everwinter Shadewalkers or other enemies"
+   ]
+  },
+  "440513": {
+   "id": 440513,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "0c84c872d25ee920b5cd47d5babd1af5b11a0e5546aaf85dec532e1ebe04d393",
+   "name": "Mechanical Parts",
+   "desc": "Tier 2 Synthesis Material",
+   "lore": "Essential components of all machines with strange shapes and specific functions.<br />Without them, nothing can be made.<br /><br />\"With the same parts, Screwllum can make entire planets and create cyborgs. But you can only make me a watch that runs seven seconds late every day.\"<br />\"Seven seconds is good enough! Just a hair later than the clocks they use in observatories.\"",
+   "purpose": "Synthesis material",
+   "rarity": 2,
+   "rewardPath": "/material/440513",
+   "comeFrom": [
+    "Robot Settlement: Automatons or other enemies",
+    "Found in destructible objects in the Herta Space Station",
+    "Administrative District Shop"
+   ]
+  },
+  "872167": {
+   "id": 872167,
+   "type": 507,
+   "purposeId": 19,
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: High-Tech Protective Gear",
+   "desc": "A simple equation. When entered into the Synthesizer, it will unlock a new recipe.",
+   "lore": "",
+   "purpose": "Recipe",
+   "rarity": 3,
+   "rewardPath": "/material/872167",
+   "comeFrom": []
+  }
+ },
+ "composeData": [
+  {
+   "items": [
+    {
+     "id": 71948,
+     "count": 3
+    },
+    {
+     "id": 440513,
+     "count": 3
+    },
+    {
+     "id": 155955,
+     "count": 2
+    },
+    {
+     "id": 872167,
+     "count": 1
+    }
+   ],
+   "tag": {
+    "name": "Defense Consumables",
+    "type": "Consumables",
+    "icon": "afe47a40c1361649152476b603185f0ffb4b55c17408e2629a1489e38daf70a5"
+   }
+  }
+ ],
+ "pageId": "872035"
+}

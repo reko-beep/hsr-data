@@ -1,0 +1,2313 @@
+{
+ "name": "Bailu",
+ "spRequirement": 100,
+ "rarity": 5,
+ "descHash": "The High Elder of the Vidyadhara, who is also known as the \"Healer Lady\" on the Luofu. She uses her unique medical science and the medical treatment that can only be provided by the Vidyadhara dragon race to save lives.",
+ "iconPath": "c062e9f04132a2162baa865baf305e526794937fe50c2503d70e13979456e3ec",
+ "bgPath": "ea3b76a130ab4971b9526ef0137a8bf68e95a05e992a1712f87e7342faa551f6",
+ "figPath": "7959b58990a507b73a75b7675c43ea29f4a7f827f000d6a74a2bd1044e683cd8",
+ "fgPath": "7bc480c126bca25c0477e9363400bd80f7c10e523e977fbff103a45cb11a71da",
+ "artPath": "675c3892de0671c2939203872d3e66147438c434d8c08e495bb5beac629fd129",
+ "miniIconPath": "749852f92a751191414c160b078ff0d9a298924515a85e93b3f2a99758ae88ae",
+ "splashIconPath": "190e9162d9f4d3b560b2354a2a5196042186a968d6624a16a15a5b2891973fa2",
+ "damageType": {
+  "id": 8,
+  "iconPath": "e8e459ad283c3df43713b2d13203b3dc8c636150d0c536f38e2ad62bd72b6e83",
+  "color": "#8872F1",
+  "name": "Lightning",
+  "rarity": 0
+ },
+ "baseType": {
+  "id": 0,
+  "iconPath": "498249f31cf5142d1e1b5285d73ac93049e853b76d92417a8d1e3691e790abd5",
+  "altIconPath": "dd526e763a520081e78efbb08b0dec9a2b2994d95fbe85569c4627b38019a614",
+  "color": "#FFFFFF",
+  "name": "Abundance",
+  "rarity": 0
+ },
+ "damageTypeId": 0,
+ "baseTypeId": 0,
+ "baseTypeTraces": {
+  "id": 7,
+  "iconPath": "352fe395cd8f2422b4d89b486957960b86537f34c4921383c1351aa6e34ee70a",
+  "color": "#FFFFFF",
+  "rarity": 0
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "0e76659bbb3b9d0b1cc6a4e0e8c63a576c7b917f2f740a4b1b8ceab260a8a595",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards"
+   ]
+  },
+  "125435": {
+   "id": 125435,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "75e6d3c477385eb36716ba1798609b01a9fe10893c1b3e9f9dc81046ad10d9b0",
+   "name": "Tracks of Destiny",
+   "desc": "Advanced level-up material for Traces.",
+   "lore": "Your victory is secured by countless failures, and the small steps you have taken led you to the turning point of fate.",
+   "purpose": "Trace Materials",
+   "rarity": 5,
+   "rewardPath": "/material/125435",
+   "comeFrom": [
+    "Simulated Universe Point Rewards",
+    "Nameless Honor",
+    "Embers Exchange",
+    "Limited-Time Event Rewards"
+   ]
+  },
+  "151160": {
+   "id": 151160,
+   "type": 601,
+   "purposeId": 2,
+   "iconPath": "f4e0301b109ba0ab0b633a7186df88a0fa0be8a70edf33c88539672e514bbc8c",
+   "name": "Lightning Crown of the Past Shadow",
+   "desc": "Headwear of the Guardian Shadows. Can be used for the Ascension of Lightning characters.",
+   "lore": "Accessory left behind by the shadow of a past Guardian, telling tales of the city of Everwinter.<br /><br />\"Svetlana the Harsh \u2014 her wrath as terrifying as thunder and her retribution as swift as lightning.\"",
+   "purpose": "Character Ascension Materials",
+   "rarity": 4,
+   "rewardPath": "/material/151160",
+   "comeFrom": [
+    "Stagnant Shadow (Corridor of Fading Echoes)",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "270195": {
+   "id": 270195,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "ed0c6ddf746bb8fe5f178943cd2836c9c4f98c2647479d389e2640b5f38d1317",
+   "name": "Guardian's Lament",
+   "desc": "Advanced level-up material for Traces.",
+   "lore": "Together with this visor, the twisted wish of a Guardian also lies broken.<br />She had wanted to find a way out for her people to escape the Everwinter, but ended up becoming a puppet of a consciousness beyond her.<br /><br />\"Supreme Guardian, the title passed down to generations of Belobog's rulers, the one who looked after all the people \u2014 It never occurred to anyone that the Guardians themselves also long for care and protection.\"",
+   "purpose": "Trace Materials",
+   "rarity": 4,
+   "rewardPath": "/material/270195",
+   "comeFrom": [
+    "Echo of War (Everwinter Hill)"
+   ]
+  },
+  "409960": {
+   "id": 409960,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "607961a38d9fe4f935578e9ea7b4de093d68ff8258b0b52c3cd4261e5cd92932",
+   "name": "Traveler's Guide",
+   "desc": "Experience material for characters. Provides <nobr>20,000</nobr> Character EXP.",
+   "lore": "Required reading for world exploration. Press the \"Read\" button to tune in to an attractive voice in a language you understand, telling you about the legendary encounters of renowned adventurers across different worlds as well as the precious wisdom and knowledge that they have gathered.<br /><br />\"All-new series of the Traveler's Guide, The Chef's Manual to Galactic Cuisine, is now available for purchase.\"<br />\"For submissions, please connect to synesthesia beacon ERD<nobr>-23</nobr>\u03b8 to contact an Intelligentsia Guild representative. Method of payment can be arranged to your convenience.\"",
+   "purpose": "Character EXP Material",
+   "rarity": 4,
+   "rewardPath": "/material/409960",
+   "comeFrom": [
+    "Calyx (Outlying Snow Plains)",
+    "Forgotten Hall"
+   ]
+  },
+  "409961": {
+   "id": 409961,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "05ef6659e951dd69d862823c86470487d68c24209400d4391df1f50bbc21ab42",
+   "name": "Adventure Log",
+   "desc": "Experience material for characters. Provides <nobr>5000</nobr> Character EXP.",
+   "lore": "A neatly organized collection of educational adventure notes containing countless illustrations and texts entailing adventures from beginning to end, as well as valuable information and survival-related techniques.<br /><br />\"Why not just digitize it and save it on a photolith disk? That'd be much more convenient.\"<br />\"Advanced technology is far more fragile than you'd think when faced with stellar storms and neuron flow eruptions. Besides, I'm sure the author of this book wanted people to read it in the simplest of ways.\"",
+   "purpose": "Character EXP Material",
+   "rarity": 3,
+   "rewardPath": "/material/409961",
+   "comeFrom": [
+    "Calyx (Outlying Snow Plains)",
+    "Daily Training"
+   ]
+  },
+  "409962": {
+   "id": 409962,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "ad5070f0ef2447ee09fb3b0d859ab3c594538eaa58b71a14ffcbd4b2b493c1c5",
+   "name": "Travel Encounters",
+   "desc": "Experience material for characters. Provides <nobr>1000</nobr> Character EXP.",
+   "lore": "A travel diary with messy handwriting and random content. It's not of much use to you.<br /><br />\"Dan Heng, hurry up and finish reading it so you can throw it away.\"",
+   "purpose": "Character EXP Material",
+   "rarity": 2,
+   "rewardPath": "/material/409962",
+   "comeFrom": [
+    "Calyx (Outlying Snow Plains)",
+    "Assignment rewards"
+   ]
+  },
+  "549438": {
+   "id": 549438,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "4b2515eee489b695028b8b790795cdd3e71cfd4b1de7a006a6030882b039706c",
+   "name": "Extinguished Core",
+   "desc": "The heart of a monster wandering the Fragmentum. Crude material used for enhancement.",
+   "lore": "It is a lesion that breeds evil, the impulse to sin. It is the source of the Fragmentum distortion.<br />A heavy blow has caused this heart to stop beating and lose its luster.<br /><br />\"Preliminary tests indicate it's some kind of hybrid: one half is primordial, and the other half is something very similar to Stellarons.\" \u2014 Department of Biology, Sarah Castro",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 2,
+   "rewardPath": "/material/549438",
+   "comeFrom": [
+    "Backwater Pass: Flamespawns or other enemies",
+    "Rivet Town: Flamespawns or other enemies",
+    "Simulated Universe enemies",
+    "Assignment rewards",
+    "Embers Exchange",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "633379": {
+   "id": 633379,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "4f83a6b3e1cca8b6421a25a880516c3d27117937ae2f7f196180bbb0e1d28c3f",
+   "name": "Glimmering Core",
+   "desc": "The heart of a monster wandering the Fragmentum. Normal material used for enhancement.",
+   "lore": "It is a lesion that breeds evil, the impulse to sin. It is the source of the Fragmentum distortion.<br />The heart is glimmering and the veins on it indicate it's still alive.<br /><br />\"What kind of monster is this? Did you see it... Its face! It has the face of our previous leader!\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 3,
+   "rewardPath": "/material/633379",
+   "comeFrom": [
+    "Backwater Pass: Equilibrium Level 2+ Flamespawns or other enemies",
+    "Rivet Town: Equilibrium Level 2+ Flamespawns or other enemies",
+    "Omni-Synthesizer \u2014 Material Synthesis",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "635671": {
+   "id": 635671,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "6a16c2294ef90c8cb62d61eff8e1fa277eb6fafdd394ce5e157bd9fd4a7bb701",
+   "name": "Seed of Abundance",
+   "desc": "A seed of blessing sown by the Aeon of Abundance. Used to level up Traces slightly for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Abundance</span> characters.",
+   "lore": "Those who come in contact with it are slowly healed of their wounds and illnesses.<br />People who pray for the blessing of life while in despair will always have their prayers answered.<br /><br />\"You shall be granted what you ask for.\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 2,
+   "rewardPath": "/material/635671",
+   "comeFrom": [
+    "Calyx (Backwater Pass)"
+   ]
+  },
+  "717320": {
+   "id": 717320,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "f32ca1d67c0e385f701d450cae1c5dea41f334e31d61eb331d4be4dc7551c378",
+   "name": "Squirming Core",
+   "desc": "The heart of a monster wandering the Fragmentum. Advanced material used for enhancement.",
+   "lore": "It is a lesion that breeds evil, the impulse to sin. It is the source of the Fragmentum distortion.<br />The heart is pulsating slowly, with a residual force powerful enough to cause a new calamity. It's best to destroy it to prevent further troubles.<br /><br />\"It's like a cancer...\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 4,
+   "rewardPath": "/material/717320",
+   "comeFrom": [
+    "Backwater Pass: Equilibrium Level 4+ Flamespawns or other enemies",
+    "Rivet Town: Equilibrium Level 4+ Flamespawns or other enemies",
+    "Omni-Synthesizer \u2014 Material Synthesis",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "836257": {
+   "id": 836257,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "8b56fa357be53126b0284b12903e0bfd41ace9d4dc155711d0297b70563b3bc7",
+   "name": "Flower of Eternity",
+   "desc": "A gorgeous flower blooming from the Sprout of Life. Used to level up Traces significantly for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Abundance</span> characters.",
+   "lore": "The stamen contains the concentrated power of the Path of Abundance, ensuring the flower's ever-lasting vitality. No fire, ice, or any harshness can hinder the growth of this magnificent life form.<br />Given time, its leaves shall feed upon starlight. Its roots shall burrow into the flesh of every being of this world, all-connected, never-perishing. Its fruits shall fulfill the promise of immortality.<br /><br />\"There be giant ships, eclipsing mountains, drifting over the void. Upon them grows the undying tree. Its consumption grants immortality.\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 4,
+   "rewardPath": "/material/836257",
+   "comeFrom": [
+    "Calyx (Backwater Pass)",
+    "Omni-Synthesizer \u2014 Material Synthesis"
+   ]
+  },
+  "920198": {
+   "id": 920198,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "084dff414a606a7be5ee10de1cda1048d08a87d2dc3587c5e545afb4399e881a",
+   "name": "Sprout of Life",
+   "desc": "A young sprout emerging from the Seed of Abundance. Used to level up Traces moderately for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Abundance</span> characters.",
+   "lore": "Radiating warmth, life and growth flourish around the place where it sinks its roots. Barren wastelands turn into luscious grass fields, withered plants rejuvenate and blossom, and springs burst through the ground to moisten the land.<br />As you get closer to it, your muscles and bones twitch and propagate with an unbearable itch.<br /><br />\"Life is unfailing where the soul abounds.\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 3,
+   "rewardPath": "/material/920198",
+   "comeFrom": [
+    "Calyx (Backwater Pass)",
+    "Omni-Synthesizer \u2014 Material Synthesis"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 4000
+    },
+    {
+     "id": 549438,
+     "count": 5
+    }
+   ],
+   "attackBase": 76.56,
+   "attackAdd": 3.828,
+   "hpBase": 179.52,
+   "hpAdd": 8.976,
+   "defenseBase": 66,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 98,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 8000
+    },
+    {
+     "id": 549438,
+     "count": 10
+    }
+   ],
+   "attackBase": 107.184,
+   "attackAdd": 3.828,
+   "hpBase": 251.328,
+   "hpAdd": 8.976,
+   "defenseBase": 92.4,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 98,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 16000
+    },
+    {
+     "id": 633379,
+     "count": 6
+    },
+    {
+     "id": 151160,
+     "count": 3
+    }
+   ],
+   "attackBase": 137.808,
+   "attackAdd": 3.828,
+   "hpBase": 323.136,
+   "hpAdd": 8.976,
+   "defenseBase": 118.8,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 98,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 40000
+    },
+    {
+     "id": 633379,
+     "count": 9
+    },
+    {
+     "id": 151160,
+     "count": 7
+    }
+   ],
+   "attackBase": 168.432,
+   "attackAdd": 3.828,
+   "hpBase": 394.944,
+   "hpAdd": 8.976,
+   "defenseBase": 145.2,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 98,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 80000
+    },
+    {
+     "id": 717320,
+     "count": 6
+    },
+    {
+     "id": 151160,
+     "count": 20
+    }
+   ],
+   "attackBase": 199.056,
+   "attackAdd": 3.828,
+   "hpBase": 466.752,
+   "hpAdd": 8.976,
+   "defenseBase": 171.6,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 98,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 160000
+    },
+    {
+     "id": 717320,
+     "count": 9
+    },
+    {
+     "id": 151160,
+     "count": 35
+    }
+   ],
+   "attackBase": 229.68,
+   "attackAdd": 3.828,
+   "hpBase": 538.56,
+   "hpAdd": 8.976,
+   "defenseBase": 198,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 98,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": [],
+   "attackBase": 260.304,
+   "attackAdd": 3.828,
+   "hpBase": 610.368,
+   "hpAdd": 8.976,
+   "defenseBase": 224.4,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 98,
+   "speedAdd": 0
+  }
+ ],
+ "ranks": [
+  {
+   "id": 1,
+   "iconPath": "a7d1ad25f5e19c621d1551fe69540eae08af1789213f2faa118152fdf170b8af",
+   "artPath": "94c2470c9ae47ce6ab30beb42310a0c33cb8892b7349162d2fef26d7417c8845",
+   "name": "Ambrosial Aqua",
+   "descHash": "If the target ally's current HP is equal to their Max HP when Invigoration ends, regenerates <nobr>#1[i]</nobr> extra Energy for this target.",
+   "params": [
+    8
+   ]
+  },
+  {
+   "id": 2,
+   "iconPath": "55c3c737f467b50959ad04dc8d871293c768c25df3d6119b2626dd317a356a99",
+   "artPath": "40270411cbfdcc01dc51ea3e5161455158160085ff08e547567232d935beadee",
+   "name": "Sylphic Slumber",
+   "descHash": "After using her Ultimate, Bailu's Outgoing Healing increases by an additional <nobr>#1[i]%</nobr> for <nobr>#2[i]</nobr> turn(s).",
+   "params": [
+    0.15,
+    2
+   ]
+  },
+  {
+   "id": 3,
+   "iconPath": "c9eec4bf636556d41ec982275c1c6fd3b3396b1882437d72e8590e0215466375",
+   "artPath": "2efec8ee00649a6b88a49d97722597a6a9d7ff19297c2821fb32fd587595020f",
+   "name": "Omniscient Opulence",
+   "descHash": "Skill Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Talent Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.",
+   "params": []
+  },
+  {
+   "id": 4,
+   "iconPath": "a2979385d32ee3aaf3f5cdc9bfcc188a06528cef6c02c37e771eefb344841fd2",
+   "artPath": "12b596216ec94360c436dff4d83a4ef4b953720ab9d68f227e4a49b6620ce931",
+   "name": "Evil Excision",
+   "descHash": "Every healing provided by the Skill makes the recipient deal <nobr>#1[i]%</nobr> more DMG for <nobr>#3[i]</nobr> turn(s). This effect can stack up to <nobr>#2[i]</nobr> time(s).",
+   "params": [
+    0.1,
+    3,
+    2
+   ]
+  },
+  {
+   "id": 5,
+   "iconPath": "996a382ab0a2b4d9b1e02320d9a1a734f47c1977816a22a130bd1575b8f5b095",
+   "artPath": "65e978819587bb4501b6ba5f42e549ee244c32352d695625a330d441a9bffe3a",
+   "name": "Waning Worries",
+   "descHash": "Ultimate Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Basic ATK Lv. +1, up to a maximum of Lv. <nobr>10</nobr>.",
+   "params": []
+  },
+  {
+   "id": 6,
+   "iconPath": "3de2b71a946e30dc49ce181bfb1da4c8237ef0664cde7c3e5225b7afa6de2055",
+   "artPath": "a63a4cf137ac38532676141e654c272aaf34ce08b74541ba5dd2ef4ea39deb4c",
+   "name": "Drooling Drop of Draconic Divinity",
+   "descHash": "Bailu can heal allies who received a killing blow <nobr>#1[i]</nobr> more time(s) in a single battle.",
+   "params": [
+    1
+   ]
+  }
+ ],
+ "skillGrouping": [
+  [
+   231592
+  ],
+  [
+   947065
+  ],
+  [
+   31006
+  ],
+  [
+   746479
+  ],
+  [
+   662538
+  ]
+ ],
+ "skills": [
+  {
+   "id": 231592,
+   "name": "Diagnostic Kick",
+   "tagHash": "Single Target",
+   "descHash": "Deals <span style=\"color:#c75de2;\">Lightning</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Bailu's ATK to a single enemy.",
+   "typeDescHash": "Basic ATK",
+   "iconPath": "6f8e7b209de3299b9beef1041c0c05c649064ff7493fdea50b3c060b3959a27f",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      0.5
+     ],
+     "cost": []
+    },
+    {
+     "level": 2,
+     "params": [
+      0.6
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635671,
+       "count": 3
+      },
+      {
+       "id": 549438,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "params": [
+      0.7
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920198,
+       "count": 3
+      },
+      {
+       "id": 633379,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "params": [
+      0.8
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920198,
+       "count": 5
+      },
+      {
+       "id": 633379,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "params": [
+      0.9
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836257,
+       "count": 3
+      },
+      {
+       "id": 717320,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "params": [
+      1
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836257,
+       "count": 8
+      },
+      {
+       "id": 717320,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "params": [
+      1.1
+     ],
+     "cost": []
+    },
+    {
+     "level": 8,
+     "params": [
+      1.2
+     ],
+     "cost": []
+    },
+    {
+     "level": 9,
+     "params": [
+      1.3
+     ],
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  },
+  {
+   "id": 947065,
+   "name": "Singing Among Clouds",
+   "tagHash": "Restore",
+   "descHash": "Heals a single ally for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[f1]%</nobr></span> of Bailu's Max HP plus <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#2[i]</nobr></span>. Bailu then heals random allies <nobr>#4[i]</nobr> time(s). After each healing, HP restored from the next healing is reduced by <nobr>#3[i]%</nobr>.",
+   "typeDescHash": "Skill",
+   "iconPath": "c9eec4bf636556d41ec982275c1c6fd3b3396b1882437d72e8590e0215466375",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      0.078,
+      78,
+      0.15,
+      2
+     ],
+     "cost": []
+    },
+    {
+     "level": 2,
+     "params": [
+      0.082875,
+      124.8,
+      0.15,
+      2
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 549438,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "params": [
+      0.08775,
+      159.9,
+      0.15,
+      2
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635671,
+       "count": 3
+      },
+      {
+       "id": 549438,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "params": [
+      0.092625,
+      195,
+      0.15,
+      2
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920198,
+       "count": 3
+      },
+      {
+       "id": 633379,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "params": [
+      0.0975,
+      218.4,
+      0.15,
+      2
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920198,
+       "count": 5
+      },
+      {
+       "id": 633379,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "params": [
+      0.1014,
+      241.8,
+      0.15,
+      2
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920198,
+       "count": 7
+      },
+      {
+       "id": 633379,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "params": [
+      0.1053,
+      259.35,
+      0.15,
+      2
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836257,
+       "count": 3
+      },
+      {
+       "id": 717320,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "params": [
+      0.1092,
+      276.9,
+      0.15,
+      2
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836257,
+       "count": 5
+      },
+      {
+       "id": 270195,
+       "count": 1
+      },
+      {
+       "id": 717320,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "params": [
+      0.1131,
+      294.45,
+      0.15,
+      2
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836257,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "params": [
+      0.117,
+      312,
+      0.15,
+      2
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836257,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 11,
+     "params": [
+      0.1209,
+      329.55,
+      0.15,
+      2
+     ],
+     "cost": []
+    },
+    {
+     "level": 12,
+     "params": [
+      0.1248,
+      347.1,
+      0.15,
+      2
+     ],
+     "cost": []
+    },
+    {
+     "level": 13,
+     "params": [
+      0.1287,
+      364.65,
+      0.15,
+      2
+     ],
+     "cost": []
+    },
+    {
+     "level": 14,
+     "params": [
+      0.1326,
+      382.2,
+      0.15,
+      2
+     ],
+     "cost": []
+    },
+    {
+     "level": 15,
+     "params": [
+      0.1365,
+      399.75,
+      0.15,
+      2
+     ],
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  },
+  {
+   "id": 31006,
+   "name": "Felicitous Thunderleap",
+   "tagHash": "Restore",
+   "descHash": "Heals all allies for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[f1]%</nobr></span> of Bailu's Max HP plus <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#2[i]</nobr></span>.<br />Bailu applies Invigoration to allies that are not already Invigorated. For those already Invigorated, Bailu extends the duration of their Invigoration by 1 turn.<br />The effect of Invigoration can last for <nobr>#3[i]</nobr> turn(s). This effect cannot stack.",
+   "typeDescHash": "Ultimate",
+   "iconPath": "93eff9757baee7fe01f9a621c789b862842657b17bb7cf92a2c55075846f956a",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      0.09,
+      90,
+      2
+     ],
+     "cost": []
+    },
+    {
+     "level": 2,
+     "params": [
+      0.095625,
+      144,
+      2
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 549438,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "params": [
+      0.10125,
+      184.5,
+      2
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635671,
+       "count": 3
+      },
+      {
+       "id": 549438,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "params": [
+      0.106875,
+      225,
+      2
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920198,
+       "count": 3
+      },
+      {
+       "id": 633379,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "params": [
+      0.1125,
+      252,
+      2
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920198,
+       "count": 5
+      },
+      {
+       "id": 633379,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "params": [
+      0.117,
+      279,
+      2
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920198,
+       "count": 7
+      },
+      {
+       "id": 633379,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "params": [
+      0.1215,
+      299.25,
+      2
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836257,
+       "count": 3
+      },
+      {
+       "id": 717320,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "params": [
+      0.126,
+      319.5,
+      2
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836257,
+       "count": 5
+      },
+      {
+       "id": 270195,
+       "count": 1
+      },
+      {
+       "id": 717320,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "params": [
+      0.1305,
+      339.75,
+      2
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836257,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "params": [
+      0.135,
+      360,
+      2
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836257,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 11,
+     "params": [
+      0.1395,
+      380.25,
+      2
+     ],
+     "cost": []
+    },
+    {
+     "level": 12,
+     "params": [
+      0.144,
+      400.5,
+      2
+     ],
+     "cost": []
+    },
+    {
+     "level": 13,
+     "params": [
+      0.1485,
+      420.75,
+      2
+     ],
+     "cost": []
+    },
+    {
+     "level": 14,
+     "params": [
+      0.153,
+      441,
+      2
+     ],
+     "cost": []
+    },
+    {
+     "level": 15,
+     "params": [
+      0.1575,
+      461.25,
+      2
+     ],
+     "cost": []
+    }
+   ],
+   "ultimateCost": 100
+  },
+  {
+   "id": 746479,
+   "name": "Gourdful of Elixir",
+   "tagHash": "Restore",
+   "descHash": "After an ally with Invigoration is hit, restores the ally's HP for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[f1]%</nobr></span> of Bailu's Max HP plus <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#2[i]</nobr></span>. This effect can trigger <nobr>#5[i]</nobr> time(s).<br />When an ally receives a killing blow, they will not be <u>knocked down</u>. Bailu immediately heals the ally for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#3[i]%</nobr></span> of Bailu's Max HP plus <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#4[i]</nobr></span> HP. This effect can be triggered 1 time per battle.",
+   "typeDescHash": "Talent",
+   "iconPath": "3add5b6aaf74668cca61662bcf92c33ddd93e9d7a53fa01225dc8be4a638b2c3",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      0.036,
+      36,
+      0.12,
+      120,
+      2
+     ],
+     "cost": []
+    },
+    {
+     "level": 2,
+     "params": [
+      0.03825,
+      57.6,
+      0.1275,
+      192,
+      2
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 549438,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "params": [
+      0.0405,
+      73.8,
+      0.135,
+      246,
+      2
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635671,
+       "count": 3
+      },
+      {
+       "id": 549438,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "params": [
+      0.04275,
+      90,
+      0.1425,
+      300,
+      2
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920198,
+       "count": 3
+      },
+      {
+       "id": 633379,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "params": [
+      0.044999998,
+      100.8,
+      0.15,
+      336,
+      2
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920198,
+       "count": 5
+      },
+      {
+       "id": 633379,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "params": [
+      0.0468,
+      111.6,
+      0.156,
+      372,
+      2
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920198,
+       "count": 7
+      },
+      {
+       "id": 633379,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "params": [
+      0.0486,
+      119.7,
+      0.162,
+      399,
+      2
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836257,
+       "count": 3
+      },
+      {
+       "id": 717320,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "params": [
+      0.0504,
+      127.8,
+      0.168,
+      426,
+      2
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836257,
+       "count": 5
+      },
+      {
+       "id": 270195,
+       "count": 1
+      },
+      {
+       "id": 717320,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "params": [
+      0.0522,
+      135.9,
+      0.174,
+      453,
+      2
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836257,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "params": [
+      0.054,
+      144,
+      0.18,
+      480,
+      2
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836257,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 11,
+     "params": [
+      0.0558,
+      152.1,
+      0.186,
+      507,
+      2
+     ],
+     "cost": []
+    },
+    {
+     "level": 12,
+     "params": [
+      0.0576,
+      160.2,
+      0.192,
+      534,
+      2
+     ],
+     "cost": []
+    },
+    {
+     "level": 13,
+     "params": [
+      0.0594,
+      168.3,
+      0.198,
+      561,
+      2
+     ],
+     "cost": []
+    },
+    {
+     "level": 14,
+     "params": [
+      0.0612,
+      176.4,
+      0.204,
+      588,
+      2
+     ],
+     "cost": []
+    },
+    {
+     "level": 15,
+     "params": [
+      0.063,
+      184.5,
+      0.21,
+      615,
+      2
+     ],
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  },
+  {
+   "id": 545893,
+   "name": "Attack",
+   "tagHash": "",
+   "descHash": "Attack an enemy, and when the battle starts, reduce their Toughness of the corresponding Type.",
+   "typeDescHash": "",
+   "iconPath": "6f8e7b209de3299b9beef1041c0c05c649064ff7493fdea50b3c060b3959a27f",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [],
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  },
+  {
+   "id": 662538,
+   "name": "Saunter in the Rain",
+   "tagHash": "Support",
+   "descHash": "After using Technique, at the start of the next battle, all allies are granted Invigoration for <nobr>#1[i]</nobr> turn(s).",
+   "typeDescHash": "Technique",
+   "iconPath": "c91de69a95b01d0c6569eb8cc2264f722785a7a3e695fd06d3c10b99468ecfc2",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      2
+     ],
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  }
+ ],
+ "skillTreePoints": [
+  {
+   "id": 1211101,
+   "type": 1,
+   "children": [
+    {
+     "id": 1211202,
+     "type": 2,
+     "children": [
+      {
+       "id": 1211203,
+       "type": 2,
+       "children": [
+        {
+         "id": 1211204,
+         "type": 2,
+         "children": [],
+         "embedBuff": {
+          "id": 671409,
+          "name": "Effect RES Boost",
+          "levelReq": 0,
+          "promotionReq": 3,
+          "iconPath": "5e0ea9beeaea4aebaec6fa80218757c7123e5d8d63565bc255c08d6af87ebc7e",
+          "statusList": [
+           {
+            "key": "Effect RES",
+            "value": 0.04
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 10000
+           },
+           {
+            "id": 920198,
+            "count": 3
+           },
+           {
+            "id": 633379,
+            "count": 3
+           }
+          ]
+         }
+        }
+       ],
+       "embedBuff": {
+        "id": 671410,
+        "name": "HP Boost",
+        "levelReq": 0,
+        "promotionReq": 3,
+        "iconPath": "9560c98da124f605af2e45c09f26a0b8ee24c3aa357b9701464d7c04adcd0da7",
+        "statusList": [
+         {
+          "key": "HP",
+          "value": 0.04
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 10000
+         },
+         {
+          "id": 920198,
+          "count": 3
+         },
+         {
+          "id": 633379,
+          "count": 3
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 671411,
+      "name": "DEF Boost",
+      "levelReq": 0,
+      "promotionReq": 2,
+      "iconPath": "2077c52919d0f523755a4d92ce338874b71561611a436572d8eb315a34f4a4c2",
+      "statusList": [
+       {
+        "key": "DEF",
+        "value": 0.05
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 635671,
+        "count": 3
+       },
+       {
+        "id": 549438,
+        "count": 6
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "id": 671251,
+    "name": "Qihuang Analects",
+    "descHash": "When Bailu heals a target ally above their normal Max HP, the target's Max HP increases by <nobr>#1[i]%</nobr> for <nobr>#2[i]</nobr> turns.",
+    "iconPath": "8f3fa34b6bf5ef21c658d60c274e5a390a712a2fcd8ea4714ea1d8e6780ea0c0",
+    "levelReq": 0,
+    "promotionReq": 2,
+    "levelData": [
+     {
+      "level": 1,
+      "params": [
+       0.1,
+       2
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 635671,
+        "count": 3
+       },
+       {
+        "id": 270195,
+        "count": 1
+       }
+      ]
+     }
+    ],
+    "ultimateCost": 0
+   }
+  },
+  {
+   "id": 1211103,
+   "type": 1,
+   "children": [
+    {
+     "id": 1211208,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 671421,
+      "name": "Effect RES Boost",
+      "levelReq": 0,
+      "promotionReq": 6,
+      "iconPath": "5e0ea9beeaea4aebaec6fa80218757c7123e5d8d63565bc255c08d6af87ebc7e",
+      "statusList": [
+       {
+        "key": "Effect RES",
+        "value": 0.06
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836257,
+        "count": 8
+       },
+       {
+        "id": 717320,
+        "count": 8
+       }
+      ]
+     }
+    },
+    {
+     "id": 1211209,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 671420,
+      "name": "DEF Boost",
+      "levelReq": 75,
+      "promotionReq": 0,
+      "iconPath": "2077c52919d0f523755a4d92ce338874b71561611a436572d8eb315a34f4a4c2",
+      "statusList": [
+       {
+        "key": "DEF",
+        "value": 0.1
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836257,
+        "count": 8
+       },
+       {
+        "id": 717320,
+        "count": 8
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "id": 671253,
+    "name": "Aquatic Benediction",
+    "descHash": "Characters with Invigoration receive <nobr>#1[i]%</nobr> less DMG.",
+    "iconPath": "2b30a5d162fa653427241306150fb57eea4f244173a365580ab3dbd2918a25a2",
+    "levelReq": 0,
+    "promotionReq": 6,
+    "levelData": [
+     {
+      "level": 1,
+      "params": [
+       0.1
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836257,
+        "count": 8
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 270195,
+        "count": 1
+       }
+      ]
+     }
+    ],
+    "ultimateCost": 0
+   }
+  },
+  {
+   "id": 1211201,
+   "type": 2,
+   "children": [],
+   "embedBuff": {
+    "id": 671412,
+    "name": "HP Boost",
+    "levelReq": 1,
+    "promotionReq": 0,
+    "iconPath": "9560c98da124f605af2e45c09f26a0b8ee24c3aa357b9701464d7c04adcd0da7",
+    "statusList": [
+     {
+      "key": "HP",
+      "value": 0.04
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 2500
+     },
+     {
+      "id": 549438,
+      "count": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": 1211210,
+   "type": 2,
+   "children": [],
+   "embedBuff": {
+    "id": 755354,
+    "name": "HP Boost",
+    "levelReq": 80,
+    "promotionReq": 0,
+    "iconPath": "9560c98da124f605af2e45c09f26a0b8ee24c3aa357b9701464d7c04adcd0da7",
+    "statusList": [
+     {
+      "key": "HP",
+      "value": 0.08
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 160000
+     },
+     {
+      "id": 836257,
+      "count": 8
+     },
+     {
+      "id": 717320,
+      "count": 8
+     }
+    ]
+   }
+  },
+  {
+   "id": 1211102,
+   "type": 1,
+   "children": [
+    {
+     "id": 1211205,
+     "type": 2,
+     "children": [
+      {
+       "id": 1211206,
+       "type": 2,
+       "children": [
+        {
+         "id": 1211207,
+         "type": 2,
+         "children": [],
+         "embedBuff": {
+          "id": 671406,
+          "name": "HP Boost",
+          "levelReq": 0,
+          "promotionReq": 5,
+          "iconPath": "9560c98da124f605af2e45c09f26a0b8ee24c3aa357b9701464d7c04adcd0da7",
+          "statusList": [
+           {
+            "key": "HP",
+            "value": 0.06
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 45000
+           },
+           {
+            "id": 836257,
+            "count": 3
+           },
+           {
+            "id": 717320,
+            "count": 3
+           }
+          ]
+         }
+        }
+       ],
+       "embedBuff": {
+        "id": 671407,
+        "name": "DEF Boost",
+        "levelReq": 0,
+        "promotionReq": 5,
+        "iconPath": "2077c52919d0f523755a4d92ce338874b71561611a436572d8eb315a34f4a4c2",
+        "statusList": [
+         {
+          "key": "DEF",
+          "value": 0.075
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 45000
+         },
+         {
+          "id": 836257,
+          "count": 3
+         },
+         {
+          "id": 717320,
+          "count": 3
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 671408,
+      "name": "HP Boost",
+      "levelReq": 0,
+      "promotionReq": 4,
+      "iconPath": "9560c98da124f605af2e45c09f26a0b8ee24c3aa357b9701464d7c04adcd0da7",
+      "statusList": [
+       {
+        "key": "HP",
+        "value": 0.06
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 920198,
+        "count": 5
+       },
+       {
+        "id": 633379,
+        "count": 4
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "id": 671252,
+    "name": "Vidyadhara Ichor Lines",
+    "descHash": "Invigoration can trigger <nobr>#1[i]</nobr> more time(s).",
+    "iconPath": "76d1b3848b71b57cf95ef0fb2850efdea9a3eea0ebeea0be71e3c00a6a996ef0",
+    "levelReq": 0,
+    "promotionReq": 4,
+    "levelData": [
+     {
+      "level": 1,
+      "params": [
+       1
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 920198,
+        "count": 5
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 270195,
+        "count": 1
+       }
+      ]
+     }
+    ],
+    "ultimateCost": 0
+   }
+  }
+ ],
+ "relicRecommend": {
+  "twoPcSets": [],
+  "fourPcSets": [],
+  "props": [
+   {
+    "relicTypeHash": "Body",
+    "relicTypeIcon": "87a68da58f5ca7f656d3ebf27bc84c5c32aafd164f2406af6b95c0e46277496b",
+    "propertyName": "Outgoing Healing Boost",
+    "propertyIconPath": "a30cffd7e2ccc5db2ee0d1316b1480c7eebc7eb030a727d19c38ee0835cae32d"
+   },
+   {
+    "relicTypeHash": "Feet",
+    "relicTypeIcon": "5d8394f899a9cc41333630a3475d525b65c4a7cf59d16cdc4ac0acccc082259c",
+    "propertyName": "SPD",
+    "propertyIconPath": "2483a985b6f7a2c277835369c71181b7f70d5f25238745319b6328780100a3fd"
+   },
+   {
+    "relicTypeHash": "Planar Sphere",
+    "relicTypeIcon": "fd22786ef5ef0aee8953005c423739fe85fd85b16b82a3f7f18910499a4368b5",
+    "propertyName": "HP",
+    "propertyIconPath": "9560c98da124f605af2e45c09f26a0b8ee24c3aa357b9701464d7c04adcd0da7"
+   },
+   {
+    "relicTypeHash": "Link Rope",
+    "relicTypeIcon": "245bb6e30915d9ab6a042e37499ad3a0b0d022208a5fee05417b7cd3c088e357",
+    "propertyName": "HP",
+    "propertyIconPath": "9560c98da124f605af2e45c09f26a0b8ee24c3aa357b9701464d7c04adcd0da7"
+   }
+  ]
+ },
+ "voiceItems": [
+  {
+   "id": 1,
+   "title": "First Meeting",
+   "text": "I'm Bailu, a doctor from the Alchemy Commission. Come here and let me have a look at you. Hmm... What's wrong? Where does it hurt?",
+   "unlockRequirement": "",
+   "cnUrl": "19b583f7d02a9727ff94c7d9fcfcd05b9aed45145eb749e21d891aa06cc0b5d2",
+   "jpUrl": "106c44500c972b8eed9b09f448612e54f7862e455dc8c6031d94cc8e09488d01",
+   "enUrl": "3d1737c2af422604eaad9e317ea09f54895f38b896e389923442b10d94212df0",
+   "krUrl": "8850259bb1ec2ee2697b31345db5c135d5c8dcd5a0b92311de5d0c6d34f22647"
+  },
+  {
+   "id": 2,
+   "title": "Greeting",
+   "text": "Do you want candy? No? Then I'll have it.",
+   "unlockRequirement": "",
+   "cnUrl": "0dd76050b7f492161420eaf5a1dddfe52bbe093e20ca309bfb18b88793796ac1",
+   "jpUrl": "f5151a5e6b7d27640020fd17708839f63268b6ef39e929dd5adc9c579bf8e8dc",
+   "enUrl": "18c466952b3f907048ff6faa7b70e6886305668de88e6f80decf3d9fa7b00897",
+   "krUrl": "b98cc8442a6ac4defb2027ad76853a18e36d716c52365fbddfd8fb76f9e366fe"
+  },
+  {
+   "id": 3,
+   "title": "Parting",
+   "text": "Huh? I have to go back now...? Please, just a little a bit longer!",
+   "unlockRequirement": "",
+   "cnUrl": "297f5e7b8cfa3e4c42921d6ba7d75bfaefb8d9487ab82c006c43f8bd2a0c79b9",
+   "jpUrl": "21f6f63149a3ab2fcad27a557e8988930478f5a7fe59e9b37a99dbe3b2d51bec",
+   "enUrl": "f67928dbfe4d927f16145d0e6b3bf8eb5d8a6b0054a21df22c171774c7d00a7b",
+   "krUrl": "063a970ee89ead9d035d77b79b89281ff218c49d5ec3ec132df4823754fe2ab9"
+  },
+  {
+   "id": 4,
+   "title": "About Self",
+   "text": "Do I even count as a dragon? ...What kind of a dragon can't step out of her own house, and has to obey the rules of the clan? I'd say I'm more like a fish in a fishbowl!",
+   "unlockRequirement": "",
+   "cnUrl": "69bec961e46f2fa8ddb82c1293d37ed5024d4dc66f4f62c54b1069341b2348b6",
+   "jpUrl": "30e771ce0b9a53759c1412958c791ea977f005204069cab7f36101145b997dea",
+   "enUrl": "c41d1274a9b8fd4e507dcdd70a6a4f827558b6a811c46ccd6e8a584917e0b271",
+   "krUrl": "8244ff0842eaf247c2cb4fbee6f40441b771bf6d08f40d06bd956b7a6c8674eb"
+  },
+  {
+   "id": 5,
+   "title": "Chat: Food",
+   "text": "Lunch is like medicine \u2014 it has to have the right balance of ingredients. Two smoked patties and a cup of milk tea is a great way to heal your heart and lift your spirits!",
+   "unlockRequirement": "",
+   "cnUrl": "d3a131815d8e7f3499ea27b5fa9115332fbeff6a0a16f1680293e4ff2ab595a0",
+   "jpUrl": "3ef86686096d6a98e2fcd674f567de92bf181226569f833fad57872a04339def",
+   "enUrl": "d9dfc5158ae9056b22afda0b5bd47c527a3e673406518c3279da6f26cc9d4cdc",
+   "krUrl": "c767788308dfbdcede5adbc5c727abdcb00010f4059274567b7704f9297f3bec"
+  },
+  {
+   "id": 6,
+   "title": "Hobbies",
+   "text": "Study medicine, find herbs, and broaden my horizons. Everything can be used as a medicine. The rarer a disease is, the bolder the prescription must be~",
+   "unlockRequirement": "",
+   "cnUrl": "295044b42f6928ef57d41686fbb5dffb4b8cb87c3a5405e495fa8f8766a6d283",
+   "jpUrl": "f5ee613338fb7a0a227ac683037d150f8d5a3df651ce7f43f1e2c3c44e1bfcbb",
+   "enUrl": "499c6129ddea4a6a44a10ea51b8d40e5c8a01c9076b99d16add9b20f311392f1",
+   "krUrl": "a4f051bb04c68959a211bbf098cfb6f53e0227dd3ea803f712ead6adf7b0c37a"
+  },
+  {
+   "id": 7,
+   "title": "Annoyances",
+   "text": "There's only one ailment that I can't cure, and that. Is. Being. Short... Hmph!",
+   "unlockRequirement": "",
+   "cnUrl": "dca4ace125240ba97f68b40363de31186057083dc9f3f7a3bf9c3a16325b0db8",
+   "jpUrl": "6a30b69f21646eef7f1d3138025a0252f1e620dae21b50cc216cb095c1bcf202",
+   "enUrl": "43cd5838e103718f38869b65c7cd0f11b70b1ff24eea5b9d11ff4509506832c6",
+   "krUrl": "8cb6ec4a241cc501216890ca78f6774a44d39b6c91be7835adfca496c823a736"
+  },
+  {
+   "id": 8,
+   "title": "Something to Share",
+   "text": "Putting my head in the water, and though it is a small area, I feel I can breathe freer than before, far beyond the boundaries of the water...",
+   "unlockRequirement": "",
+   "cnUrl": "e2b6041a6eae55440c290d863f3f3fb213d3946770270cfbb90efa16da999a88",
+   "jpUrl": "1dcdefe9b5fa55cbcc5170f7e914060d978b2d96a7e2692f540f5de74a130472",
+   "enUrl": "9abe6cec457f63dac32326463a117ab66ce63fb2b877dadf1638cff8c028117f",
+   "krUrl": "4c8565c1dfa25763897f07fdce1613d9d4709af8d54c394e74d7cde269af4b2b"
+  },
+  {
+   "id": 9,
+   "title": "Knowledge",
+   "text": "A patient told me that the Garden of Gourmet released a new dessert called Fallen From the Skies. The sugar threads are suuuper looong... But I can't get my hands on it.",
+   "unlockRequirement": "",
+   "cnUrl": "31e724ec25ce35d100ac94e5e6113f67b44e34915dc8464cc9d5b8d864c21122",
+   "jpUrl": "593826fe8dec663156a969877f7d1eef029d827933f6f656609e6f890b6c4fcd",
+   "enUrl": "e9976cf855bfbf8adcbcb33de4ef64f3654d1e9980c476fa6301f7b7c6453133",
+   "krUrl": "fd009079c44625e992e018f43d2f6593b1b869f74588afbd2ab42ec125430288"
+  },
+  {
+   "id": 10,
+   "title": "About Jing Yuan",
+   "text": "The general comes to me with ailments such as \"too tired to stay awake,\" and then he just asks how I've been and leaves after sitting around for a while. Sometimes he doesn't even take any medicine from me...",
+   "unlockRequirement": "",
+   "cnUrl": "ed4c498956911cc26ed3c771ce297d9464582dbf4d068b00a929fec117b50c90",
+   "jpUrl": "cbbdf0ef4f1e566cc488321b6f83d3773ba0ec1fe15baf1431ed9038da7dba4b",
+   "enUrl": "4cbfe89b66b980a360a84d9041fff30eb82dc8681cc0dc72b84aad5b6aeb0031",
+   "krUrl": "740688aaa998c0a36cecaa8475229f2751b2c4dfb6148000d251384afc423b9d"
+  },
+  {
+   "id": 11,
+   "title": "About Fu Xuan",
+   "text": "Whenever Diviner Fu does overtime, we start running out of sugar powder for the medicinal eye-soothing tea...",
+   "unlockRequirement": "",
+   "cnUrl": "0de0e7839c559c054e9b3745e5ec07478e7a4e60dd19edceb8938ff0e6ddc23f",
+   "jpUrl": "9714d32a7764e03608a7a9a1abdac7d3e6048ed6e43537fe585572f8486d23c9",
+   "enUrl": "679565649c6ec7dde2e6f7dae826df6662d4d6361f4f36c685efcfd605379305",
+   "krUrl": "b0043688c223b7df40b5a9df06a65dd68f26fbfcca4b49059c08db2cac8f2466"
+  },
+  {
+   "id": 12,
+   "title": "About Yukong",
+   "text": "Helm Master Yukong... She says she lets everything go everytime she sees me, but I don't think she has.",
+   "unlockRequirement": "",
+   "cnUrl": "3e461a49b74717837f99dea667d36e7e24c8a0cecffd27e51556da6d6253e66c",
+   "jpUrl": "16d15ef5fd65fe41bfdbbda1d6829c3f162faba28a10f186fc395bf63c9e5ecd",
+   "enUrl": "3ddb8226ea5e2f96d202b911b48ebd8f31ace4d9d2d2b46d079598b10128b3ac",
+   "krUrl": "a4d9a97cce33dce8cacaa74106b18eab7ed6d25f4ff146292500c7b09c1d65de"
+  },
+  {
+   "id": 13,
+   "title": "About Tingyun",
+   "text": "Tingyun can endure more intense massages than other people, so I never show her mercy~",
+   "unlockRequirement": "",
+   "cnUrl": "fb46a84e1dd88f10b0a66eafdada9276f068ac6fe27f2274c0f3a66aa6adaf50",
+   "jpUrl": "884b781c8ca9d210b65e7917cf2ea50de0d52f0891b8b8a5914e8155743178ad",
+   "enUrl": "ab41cb0192f7ff205a923b52cd5c9895b408354a5c083c1996b6c53e8212546e",
+   "krUrl": "6a700d589f2c4ea700e23fe6650d961b6b5bd0bab6554d5ba8fbf6da50214f61"
+  },
+  {
+   "id": 14,
+   "title": "About Sushang",
+   "text": "Ah, even if I don't step outside, I can still hear her. \"Be eager to help those in need\" \u2014 that's her, right?",
+   "unlockRequirement": "",
+   "cnUrl": "c542bf1a2f8b956f798ba800f1a823e9baaa6d17f60dc912d40a0d6acdb74221",
+   "jpUrl": "c0ef58ef233e11cc2503862222a6d4d3371184d84a6182979116658424567522",
+   "enUrl": "6abeb9b81de0adbb093633a1bb8ca0cb54b4ed744a3aae5b2fded4c5f225ea0c",
+   "krUrl": "7d7ea81eedd055d19d66c02229947e29964b4cc8f09c5f618add21effa83107b"
+  },
+  {
+   "id": 15,
+   "title": "About Qingque",
+   "text": "I just wish I met the inventor of Celestial Jade earlier... This activity is great for both physical and mental health! It needs to get popularized!",
+   "unlockRequirement": "",
+   "cnUrl": "7f5ab951ad4e8f9d7d361765ade00d325c3bc3430562943d78ef13ec6a33e287",
+   "jpUrl": "288b074abf7a1481a1fed0f878abe1da389a8104bb30e712e5f86c3549203849",
+   "enUrl": "959eeb3fa1403e397c29c0f79d26252e84326a753cebcb542e8f9043060e011b",
+   "krUrl": "908c0ee5062c773959a4c288252ad0570e75faa65e3f83cd4a1b7986e714ec2c"
+  }
+ ],
+ "storyItems": [
+  {
+   "title": "Character Details",
+   "text": "A vivacious young lady of the Vidyadhara race, she is known as the \"Healer Lady\" due to her expertise with medicine.<br />She often dishes out unorthodox prescriptions such as \"Stay well hydrated\" and \"Get a good night's rest.\"<br />Bailu cannot bear to see people suffer, and that's why you'll see her with her eyes shut tightly as she cures ailments.<br />\"As long as they're cured, that's all that matters, right?\"",
+   "unlockRequirement": ""
+  },
+  {
+   "title": "Character Story: Part I",
+   "text": "Coming soon - Stay tuned!",
+   "unlockRequirement": "Unlocked at Character Level <nobr>20</nobr>"
+  },
+  {
+   "title": "Character Story: Part II",
+   "text": "Coming soon - Stay tuned!",
+   "unlockRequirement": "Unlocked at Character Level <nobr>40</nobr>"
+  },
+  {
+   "title": "Character Story: Part III",
+   "text": "Coming soon - Stay tuned!",
+   "unlockRequirement": "Unlocked at Character Level <nobr>60</nobr>"
+  },
+  {
+   "title": "Character Story: Part IV",
+   "text": "Coming soon - Stay tuned!",
+   "unlockRequirement": "Unlocked at Character Level <nobr>80</nobr>"
+  }
+ ],
+ "archive": {
+  "cvCn": "\u591a\u591a",
+  "cvJp": "\u52a0\u85e4\u82f1\u7f8e\u91cc",
+  "cvKr": "\uc870\ud604\uc815",
+  "cvEn": "Su Ling Chan",
+  "camp": "Xianzhou: The Luofu"
+ },
+ "calculator": {
+  "expCost": {
+   "1": 200,
+   "2": 300,
+   "3": 500,
+   "4": 600,
+   "5": 1050,
+   "6": 1670,
+   "7": 2320,
+   "8": 3060,
+   "9": 3860,
+   "10": 4740,
+   "11": 5710,
+   "12": 6730,
+   "13": 7830,
+   "14": 9000,
+   "15": 10240,
+   "16": 11550,
+   "17": 12920,
+   "18": 14360,
+   "19": 15870,
+   "20": 16580,
+   "21": 16840,
+   "22": 17100,
+   "23": 17370,
+   "24": 17640,
+   "25": 17910,
+   "26": 18190,
+   "27": 18480,
+   "28": 18760,
+   "29": 19040,
+   "30": 19340,
+   "31": 19630,
+   "32": 19930,
+   "33": 20220,
+   "34": 20530,
+   "35": 20840,
+   "36": 21140,
+   "37": 21450,
+   "38": 21760,
+   "39": 22080,
+   "40": 22390,
+   "41": 25550,
+   "42": 29140,
+   "43": 32830,
+   "44": 36600,
+   "45": 40470,
+   "46": 44430,
+   "47": 48480,
+   "48": 52630,
+   "49": 56870,
+   "50": 61190,
+   "51": 65620,
+   "52": 70130,
+   "53": 74740,
+   "54": 79450,
+   "55": 84240,
+   "56": 89120,
+   "57": 94110,
+   "58": 99190,
+   "59": 104350,
+   "60": 106240,
+   "61": 111830,
+   "62": 117530,
+   "63": 123320,
+   "64": 129210,
+   "65": 135200,
+   "66": 141290,
+   "67": 147480,
+   "68": 153780,
+   "69": 160170,
+   "70": 179260,
+   "71": 199920,
+   "72": 220920,
+   "73": 242260,
+   "74": 263930,
+   "75": 285950,
+   "76": 308300,
+   "77": 331000,
+   "78": 354040,
+   "79": 377420,
+   "80": 414350
+  },
+  "expItemConfig": {
+   "1000": 409962,
+   "5000": 409961,
+   "20000": 409960
+  },
+  "sCoinId": 29328
+ },
+ "pageId": "bailu"
+}

@@ -1,0 +1,2311 @@
+{
+ "name": "Jing Yuan",
+ "spRequirement": 130,
+ "rarity": 5,
+ "descHash": "The Divine Foresight, one of the Seven Arbiter-Generals of the Xianzhou Alliance, leads the Cloud Knights of the Xianzhou Luofu. A student of the Luofu's previous Sword Champion, though not known for his martial prowess.",
+ "iconPath": "64ae9b299da4943e1b416a3f2242abe8388cf0c94b8137638eed88b8902164be",
+ "bgPath": "ffef71b666a93c38a4e798fda8a15d0ae469c87ce8f51f9b52ebc61b1748cfbc",
+ "figPath": "013e705d04fe33417d60f9df8d2560aaecba3d9441c6756b2aee9f9eb37ca456",
+ "fgPath": "3b8f6903855819a98478fb8871eeb3d1c1bc342f9a7bc0bf1601348c39938f1e",
+ "artPath": "17fcbab3d01bbab4835aebdf1acfc48bc8bcba1bd2754bbe135026adf1fcedec",
+ "miniIconPath": "1992ce35189fdd378ea28ab9b798a4da202c5dc362ca74afbfb05956902575bb",
+ "splashIconPath": "a4bb2dc9f7ed523821e893d962c7b0b3318f4c19f74e676e079701103f50c4e6",
+ "damageType": {
+  "id": 8,
+  "iconPath": "e8e459ad283c3df43713b2d13203b3dc8c636150d0c536f38e2ad62bd72b6e83",
+  "color": "#8872F1",
+  "name": "Lightning",
+  "rarity": 0
+ },
+ "baseType": {
+  "id": 0,
+  "iconPath": "b9e59719a64e109bbcf97e61c2cf3c99730af37cbd230758a45d291825dbd941",
+  "altIconPath": "2711d1f5592aee2297cc8ef3a82ed4e7b6958efe02a2a79f7ea3e97246ec9837",
+  "color": "#FFFFFF",
+  "name": "Erudition",
+  "rarity": 0
+ },
+ "damageTypeId": 0,
+ "baseTypeId": 0,
+ "baseTypeTraces": {
+  "id": 3,
+  "iconPath": "312ed1eeb6d329b90b5506b23fd487883f83124ccabedaf6cfafbb913d86c74c",
+  "color": "#FFFFFF",
+  "rarity": 0
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "0e76659bbb3b9d0b1cc6a4e0e8c63a576c7b917f2f740a4b1b8ceab260a8a595",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards"
+   ]
+  },
+  "125435": {
+   "id": 125435,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "75e6d3c477385eb36716ba1798609b01a9fe10893c1b3e9f9dc81046ad10d9b0",
+   "name": "Tracks of Destiny",
+   "desc": "Advanced level-up material for Traces.",
+   "lore": "Your victory is secured by countless failures, and the small steps you have taken led you to the turning point of fate.",
+   "purpose": "Trace Materials",
+   "rarity": 5,
+   "rewardPath": "/material/125435",
+   "comeFrom": [
+    "Simulated Universe Point Rewards",
+    "Nameless Honor",
+    "Embers Exchange",
+    "Limited-Time Event Rewards"
+   ]
+  },
+  "151161": {
+   "id": 151161,
+   "type": 601,
+   "purposeId": 2,
+   "iconPath": "6b4243b69df9f37fab4f6cda60edc49711505bf5c2ce0b517d6272be5df311df",
+   "name": "Shape Shifter's Lightning Staff",
+   "desc": "A wooden staff with a pointed tip. It belonged to a shape shifter from the Disciples of Sanctus Medicus. Can be used for the Ascension of Lightning characters.",
+   "lore": "According to ancient Xianzhou records, those who have ascended can summon lightning and command the wind. The Disciples of Sanctus Medicus claimed to have inherited the way of the gods. By demonstrating godly power, the disciples gathered large numbers of worshipers in secret. Branches of lightning coil around this wooden staff \u2014 could it be that the disciples were indeed no mere mortals?<br /><br />\"The mortal body is but an illusion. Truth is only revealed to those who choose to ascend.\"",
+   "purpose": "Character Ascension Materials",
+   "rarity": 4,
+   "rewardPath": "/material/151161",
+   "comeFrom": [
+    "Stagnant Shadow (Stargazer Navalia)",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "409960": {
+   "id": 409960,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "607961a38d9fe4f935578e9ea7b4de093d68ff8258b0b52c3cd4261e5cd92932",
+   "name": "Traveler's Guide",
+   "desc": "Experience material for characters. Provides <nobr>20,000</nobr> Character EXP.",
+   "lore": "Required reading for world exploration. Press the \"Read\" button to tune in to an attractive voice in a language you understand, telling you about the legendary encounters of renowned adventurers across different worlds as well as the precious wisdom and knowledge that they have gathered.<br /><br />\"All-new series of the Traveler's Guide, The Chef's Manual to Galactic Cuisine, is now available for purchase.\"<br />\"For submissions, please connect to synesthesia beacon ERD<nobr>-23</nobr>\u03b8 to contact an Intelligentsia Guild representative. Method of payment can be arranged to your convenience.\"",
+   "purpose": "Character EXP Material",
+   "rarity": 4,
+   "rewardPath": "/material/409960",
+   "comeFrom": [
+    "Calyx (Outlying Snow Plains)",
+    "Forgotten Hall"
+   ]
+  },
+  "409961": {
+   "id": 409961,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "05ef6659e951dd69d862823c86470487d68c24209400d4391df1f50bbc21ab42",
+   "name": "Adventure Log",
+   "desc": "Experience material for characters. Provides <nobr>5000</nobr> Character EXP.",
+   "lore": "A neatly organized collection of educational adventure notes containing countless illustrations and texts entailing adventures from beginning to end, as well as valuable information and survival-related techniques.<br /><br />\"Why not just digitize it and save it on a photolith disk? That'd be much more convenient.\"<br />\"Advanced technology is far more fragile than you'd think when faced with stellar storms and neuron flow eruptions. Besides, I'm sure the author of this book wanted people to read it in the simplest of ways.\"",
+   "purpose": "Character EXP Material",
+   "rarity": 3,
+   "rewardPath": "/material/409961",
+   "comeFrom": [
+    "Calyx (Outlying Snow Plains)",
+    "Daily Training"
+   ]
+  },
+  "409962": {
+   "id": 409962,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "ad5070f0ef2447ee09fb3b0d859ab3c594538eaa58b71a14ffcbd4b2b493c1c5",
+   "name": "Travel Encounters",
+   "desc": "Experience material for characters. Provides <nobr>1000</nobr> Character EXP.",
+   "lore": "A travel diary with messy handwriting and random content. It's not of much use to you.<br /><br />\"Dan Heng, hurry up and finish reading it so you can throw it away.\"",
+   "purpose": "Character EXP Material",
+   "rarity": 2,
+   "rewardPath": "/material/409962",
+   "comeFrom": [
+    "Calyx (Outlying Snow Plains)",
+    "Assignment rewards"
+   ]
+  },
+  "549504": {
+   "id": 549504,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "0c1388031133950e67459c98aad3ef2f784468e8339b131b94a4da88bbd608e3",
+   "name": "Immortal Scionette",
+   "desc": "New and young shoot budding from an ancient divine construct. Crude material used for enhancement.",
+   "lore": "The source of the Xianzhou long-life species' \"Endless Lifespan.\" The remnants of the Aeon of Abundance's influence. Countless years ago, a sovereign's hubris for immortality caused the Xianzhou fleet to sail into the sea of outer space to seek divine recipes.<br /><br />\"We desire to live for endless ages and maintain the empire for all eternity. Unfortunately, human lives have limits and human capacity has its ends. Thus, we send nine Navium Astriger to sail beyond the sky, seeking divine recipes for immortality.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 2,
+   "rewardPath": "/material/549504",
+   "comeFrom": [
+    "Cloudford: Mara-Struck Soldiers or other enemies",
+    "Stargazer Navalia: Mara-Struck Soldiers or other enemies",
+    "Simulated Universe enemies",
+    "Assignment rewards",
+    "Embers Exchange",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "633445": {
+   "id": 633445,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "5697f106bffd77cdaac463118c2612ee69e0d906afac35a2161414374437171c",
+   "name": "Immortal Aeroblossom",
+   "desc": "New flowers blooming out of an ancient divine construct. Normal material used for enhancement.",
+   "lore": "The source of the Xianzhou long-life species' \"Endless Lifespan.\" The remnants of the Aeon of Abundance's influence. After endless trials, the fleet seeking the medicine of immortality was able to behold the visage of the celestial being. The divine one cast down its blessings in material form, and the Ambrosial Arbor sprouted its leaves.<br /><br />\"New buds descend into the moon, divine flowers bloom by the clouds. In the blink of a blossom's life, old wood returns to youthful grove.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 3,
+   "rewardPath": "/material/633445",
+   "comeFrom": [
+    "Cloudford: Equilibrium Level 2+ Mara-Struck Soldiers or other enemies",
+    "Stargazer Navalia: Equilibrium Level 2+ Mara-Struck Soldiers or other enemies",
+    "Omni-Synthesizer \u2014 Material Synthesis",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "635675": {
+   "id": 635675,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "a11149500124597e50362c7c3cd94c209d1a1b48d77ce9f7dfdfac64d8840ef3",
+   "name": "Key of Inspiration",
+   "desc": "A mythical key that appears in the hands of the Meditative Scholars. Used to level up Traces slightly for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Erudition</span> characters.",
+   "lore": "It can unlock inspirations hidden deep within the conscience.<br />To take hold of the key is to grasp at the darting embers of thought that lead to the forward path.<br /><br />\"Eureka!\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 2,
+   "rewardPath": "/material/635675",
+   "comeFrom": [
+    "Calyx (Rivet Town)"
+   ]
+  },
+  "717386": {
+   "id": 717386,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "786a4710552f5db3cdbe821ed399429f2c61f1c0a70c89309cd3e3943a9918e6",
+   "name": "Immortal Lumintwig",
+   "desc": "Deciduous twigs from an ancient divine construct. Advanced material used for enhancement.",
+   "lore": "The source of the Xianzhou long-life species' \"Endless Lifespan.\" The remnants of the Aeon of Abundance's influence. After the Three Sufferings, Xianzhou laid in devastation. The Homo celestinae fell as demons, and catastrophes occurred ceaselessly.<br /><br />\"As decreed by the Ten-Lords Commission, all who are near the mara-struck state will be seized by the infernal judges and cast into the Shackling Prison.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 4,
+   "rewardPath": "/material/717386",
+   "comeFrom": [
+    "Cloudford: Equilibrium Level 4+ Mara-Struck Soldiers or other enemies",
+    "Stargazer Navalia: Equilibrium Level 4+ Mara-Struck Soldiers or other enemies",
+    "Omni-Synthesizer \u2014 Material Synthesis",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "836261": {
+   "id": 836261,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "061bb583c251ea1491996ac5de0e5abb6ad317d66eeb6746872470f0325de7a0",
+   "name": "Key of Wisdom",
+   "desc": "A mythical key that appears in the hands of the greatest prodigies of the galaxy. Used to level up Traces significantly for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Erudition</span> characters.",
+   "lore": "This is the proof of invitation to the halls of the Nous Temple.<br />Finding the door of which this key opens is a far more arduous task than obtaining the key itself. Those who pass through the doors will immediately realize the impossibility of returning to this side.<br /><br />\"The Erudition does not have answers to the universe, but it will teach you how to ask the right questions.\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 4,
+   "rewardPath": "/material/836261",
+   "comeFrom": [
+    "Calyx (Rivet Town)",
+    "Omni-Synthesizer \u2014 Material Synthesis"
+   ]
+  },
+  "920202": {
+   "id": 920202,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "974e6b2e34ddd65a7b7edc1e2edd1b85ffbf62d63b7318313e7f387747d83f4f",
+   "name": "Key of Knowledge",
+   "desc": "A mythical key that appears in the hands of the sages of the worlds. Used to level up Traces moderately for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Erudition</span> characters.",
+   "lore": "It can unlock the mysteries binding the truth of the world and grants knowledge beyond the understanding of humans.<br />No matter how the wielder attempts to display their possession of the key, no one but themselves can see its form. Some people believe that to be a gift from the heavens, while others think it's a sign of mental disorder.<br /><br />\"I had a dream of molecules coiling up into a loop like a snake biting its own tail. I woke up realizing that this is the answer I've been looking for all along!\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 3,
+   "rewardPath": "/material/920202",
+   "comeFrom": [
+    "Calyx (Rivet Town)",
+    "Omni-Synthesizer \u2014 Material Synthesis"
+   ]
+  },
+  "985668": {
+   "id": 985668,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "91205616cca581bc299d91a1af94a91981d58328675779f8e66ccbaf679e5e94",
+   "name": "Destroyer's Final Road",
+   "desc": "Advanced level-up material for Traces.",
+   "lore": "The Leviathan's heart has stopped beating, but its mind lives on despite being trapped in a case. As long as the lid is closed, its mind is simultaneously both alive and dead, driving the engine of destruction.<br /><br />\"Doomsday Beast, a blight made in the Warforge using what's left of a Leviathan and the weeping bones of thousands of the dead. It longs for the destruction of the universe and itself.\"",
+   "purpose": "Trace Materials",
+   "rarity": 4,
+   "rewardPath": "/material/985668",
+   "comeFrom": [
+    "Echo of War (Supply Zone)"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 4000
+    },
+    {
+     "id": 549504,
+     "count": 5
+    }
+   ],
+   "attackBase": 95.04,
+   "attackAdd": 4.752,
+   "hpBase": 158.4,
+   "hpAdd": 7.92,
+   "defenseBase": 66,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 99,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 8000
+    },
+    {
+     "id": 549504,
+     "count": 10
+    }
+   ],
+   "attackBase": 133.056,
+   "attackAdd": 4.752,
+   "hpBase": 221.76,
+   "hpAdd": 7.92,
+   "defenseBase": 92.4,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 99,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 16000
+    },
+    {
+     "id": 633445,
+     "count": 6
+    },
+    {
+     "id": 151161,
+     "count": 3
+    }
+   ],
+   "attackBase": 171.072,
+   "attackAdd": 4.752,
+   "hpBase": 285.12,
+   "hpAdd": 7.92,
+   "defenseBase": 118.8,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 99,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 40000
+    },
+    {
+     "id": 633445,
+     "count": 9
+    },
+    {
+     "id": 151161,
+     "count": 7
+    }
+   ],
+   "attackBase": 209.088,
+   "attackAdd": 4.752,
+   "hpBase": 348.48,
+   "hpAdd": 7.92,
+   "defenseBase": 145.2,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 99,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 80000
+    },
+    {
+     "id": 717386,
+     "count": 6
+    },
+    {
+     "id": 151161,
+     "count": 20
+    }
+   ],
+   "attackBase": 247.104,
+   "attackAdd": 4.752,
+   "hpBase": 411.84,
+   "hpAdd": 7.92,
+   "defenseBase": 171.6,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 99,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 160000
+    },
+    {
+     "id": 717386,
+     "count": 9
+    },
+    {
+     "id": 151161,
+     "count": 35
+    }
+   ],
+   "attackBase": 285.12,
+   "attackAdd": 4.752,
+   "hpBase": 475.2,
+   "hpAdd": 7.92,
+   "defenseBase": 198,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 99,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": [],
+   "attackBase": 323.136,
+   "attackAdd": 4.752,
+   "hpBase": 538.56,
+   "hpAdd": 7.92,
+   "defenseBase": 224.4,
+   "defenseAdd": 3.3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 99,
+   "speedAdd": 0
+  }
+ ],
+ "ranks": [
+  {
+   "id": 1,
+   "iconPath": "",
+   "artPath": "bb6407724936626f9c132a0e5dda78484394b04c9b2838fa6ad4b566891ed4dc",
+   "name": "Slash, Seas Split",
+   "descHash": "When Lightning-Lord attacks, the DMG multiplier on enemies adjacent to the target enemy increases by an extra amount equal to <nobr>#1[i]%</nobr> of the DMG multiplier against the target enemy.",
+   "params": [
+    0.25
+   ]
+  },
+  {
+   "id": 2,
+   "iconPath": "",
+   "artPath": "b9a2c1830b33c850a0b13d96876b37c84ae1b3e3d0ed4fcdca58ccb50a3b39de",
+   "name": "Swing, Skies Squashed",
+   "descHash": "After Lightning-Lord takes action, DMG caused by Jing Yuan's Basic ATK, Skill, and Ultimate increases by <nobr>#1[i]%</nobr> for <nobr>#2[i]</nobr> turn(s).",
+   "params": [
+    0.2,
+    2
+   ]
+  },
+  {
+   "id": 3,
+   "iconPath": "",
+   "artPath": "d3c8ca2ac8364808ddbb02267368dd0b14c088752959ee472a47a3d10bb08a47",
+   "name": "Strike, Suns Subdued",
+   "descHash": "Ultimate Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Basic ATK Lv. +1, up to a maximum of Lv. <nobr>10</nobr>.",
+   "params": []
+  },
+  {
+   "id": 4,
+   "iconPath": "",
+   "artPath": "9e4f61dc0bc37de21a8dde311a72f2f7fe051d87659bfc8c4a56706ec59fe916",
+   "name": "Spin, Stars Sieged",
+   "descHash": "For each hit performed by the Lightning-Lord when it takes action, Jing Yuan regenerates <nobr>#1[i]</nobr> Energy.",
+   "params": [
+    2
+   ]
+  },
+  {
+   "id": 5,
+   "iconPath": "",
+   "artPath": "ee66dd2fafa88e2ab70525fa9599e74aaaaa2ce6cd79f96500605d1a12fd87e0",
+   "name": "Stride, Spoils Seized",
+   "descHash": "Skill Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Talent Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.",
+   "params": []
+  },
+  {
+   "id": 6,
+   "iconPath": "",
+   "artPath": "66f2603a1407e17533a20ec7c3cfba5360a27107b17556e08beaac13117365e8",
+   "name": "Sweep, Souls Slain",
+   "descHash": "Each hit performed by the Lightning-Lord when it takes action will make the target enemy Vulnerable.<br />While Vulnerable, enemies receive <nobr>#1[i]%</nobr> more DMG until the end of the Lightning-Lord's current turn, stacking up to <nobr>#2[i]</nobr> time(s).",
+   "params": [
+    0.12,
+    3
+   ]
+  }
+ ],
+ "skillGrouping": [
+  [
+   418990
+  ],
+  [
+   302345
+  ],
+  [
+   218404
+  ],
+  [
+   904103
+  ],
+  [
+   619576
+  ]
+ ],
+ "skills": [
+  {
+   "id": 418990,
+   "name": "Lux Ignis",
+   "tagHash": "Single Target",
+   "descHash": "Jing Yuan deals <span style=\"color:#c75de2;\">Lightning</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of his ATK to a single enemy.",
+   "typeDescHash": "Basic ATK",
+   "iconPath": "cf45b4f511a518e640d28d3e44f8fbe4ce7a1865a043180f6d42466a4a502307",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      0.5
+     ],
+     "cost": []
+    },
+    {
+     "level": 2,
+     "params": [
+      0.6
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635675,
+       "count": 3
+      },
+      {
+       "id": 549504,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "params": [
+      0.7
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920202,
+       "count": 3
+      },
+      {
+       "id": 633445,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "params": [
+      0.8
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920202,
+       "count": 5
+      },
+      {
+       "id": 633445,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "params": [
+      0.9
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836261,
+       "count": 3
+      },
+      {
+       "id": 717386,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "params": [
+      1
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836261,
+       "count": 8
+      },
+      {
+       "id": 717386,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "params": [
+      1.1
+     ],
+     "cost": []
+    },
+    {
+     "level": 8,
+     "params": [
+      1.2
+     ],
+     "cost": []
+    },
+    {
+     "level": 9,
+     "params": [
+      1.3
+     ],
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  },
+  {
+   "id": 302345,
+   "name": "Rifting Zenith",
+   "tagHash": "AoE",
+   "descHash": "Deals <span style=\"color:#c75de2;\">Lightning</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Jing Yuan's ATK to all enemies and increases <span style=\"color:#c75de2;\">Lightning</span>-Lord's Hits Per Action by <nobr>#2[i]</nobr> for the next turn.",
+   "typeDescHash": "Skill",
+   "iconPath": "878027dd8917c05d7c3092f8dacbf9e65e2435b1f3ed15da6db14d0d6c5ddb1f",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      0.5,
+      2
+     ],
+     "cost": []
+    },
+    {
+     "level": 2,
+     "params": [
+      0.55,
+      2
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 549504,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "params": [
+      0.6,
+      2
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635675,
+       "count": 3
+      },
+      {
+       "id": 549504,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "params": [
+      0.65,
+      2
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920202,
+       "count": 3
+      },
+      {
+       "id": 633445,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "params": [
+      0.7,
+      2
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920202,
+       "count": 5
+      },
+      {
+       "id": 633445,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "params": [
+      0.75,
+      2
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920202,
+       "count": 7
+      },
+      {
+       "id": 633445,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "params": [
+      0.8125,
+      2
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836261,
+       "count": 3
+      },
+      {
+       "id": 717386,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "params": [
+      0.875,
+      2
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836261,
+       "count": 5
+      },
+      {
+       "id": 985668,
+       "count": 1
+      },
+      {
+       "id": 717386,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "params": [
+      0.9375,
+      2
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836261,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 985668,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "params": [
+      1,
+      2
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836261,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 985668,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 11,
+     "params": [
+      1.05,
+      2
+     ],
+     "cost": []
+    },
+    {
+     "level": 12,
+     "params": [
+      1.1,
+      2
+     ],
+     "cost": []
+    },
+    {
+     "level": 13,
+     "params": [
+      1.15,
+      2
+     ],
+     "cost": []
+    },
+    {
+     "level": 14,
+     "params": [
+      1.2,
+      2
+     ],
+     "cost": []
+    },
+    {
+     "level": 15,
+     "params": [
+      1.25,
+      2
+     ],
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  },
+  {
+   "id": 218404,
+   "name": "Lightbringer",
+   "tagHash": "AoE",
+   "descHash": "Deals <span style=\"color:#c75de2;\">Lightning</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Jing Yuan's ATK to all enemies and increases <span style=\"color:#c75de2;\">Lightning</span>-Lord's Hits Per Action by <nobr>#2[i]</nobr> for the next turn.",
+   "typeDescHash": "Ultimate",
+   "iconPath": "f0e53a3bb9b2aaacaea5d582ca0b6da93b6b216fee588cfd76b6c4a47f852bf4",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      1.2,
+      3
+     ],
+     "cost": []
+    },
+    {
+     "level": 2,
+     "params": [
+      1.28,
+      3
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 549504,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "params": [
+      1.36,
+      3
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635675,
+       "count": 3
+      },
+      {
+       "id": 549504,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "params": [
+      1.44,
+      3
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920202,
+       "count": 3
+      },
+      {
+       "id": 633445,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "params": [
+      1.52,
+      3
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920202,
+       "count": 5
+      },
+      {
+       "id": 633445,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "params": [
+      1.6,
+      3
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920202,
+       "count": 7
+      },
+      {
+       "id": 633445,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "params": [
+      1.7,
+      3
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836261,
+       "count": 3
+      },
+      {
+       "id": 717386,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "params": [
+      1.8,
+      3
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836261,
+       "count": 5
+      },
+      {
+       "id": 985668,
+       "count": 1
+      },
+      {
+       "id": 717386,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "params": [
+      1.9,
+      3
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836261,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 985668,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "params": [
+      2,
+      3
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836261,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 985668,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 11,
+     "params": [
+      2.08,
+      3
+     ],
+     "cost": []
+    },
+    {
+     "level": 12,
+     "params": [
+      2.16,
+      3
+     ],
+     "cost": []
+    },
+    {
+     "level": 13,
+     "params": [
+      2.24,
+      3
+     ],
+     "cost": []
+    },
+    {
+     "level": 14,
+     "params": [
+      2.32,
+      3
+     ],
+     "cost": []
+    },
+    {
+     "level": 15,
+     "params": [
+      2.4,
+      3
+     ],
+     "cost": []
+    }
+   ],
+   "ultimateCost": 130
+  },
+  {
+   "id": 904103,
+   "name": "Prana Extirpated",
+   "tagHash": "Bounce",
+   "descHash": "Summons <span style=\"color:#c75de2;\">Lightning</span>-Lord at the start of the battle. <span style=\"color:#c75de2;\">Lightning</span>-Lord has <nobr>#1[i]</nobr> base SPD and <nobr>#4[i]</nobr> base Hits Per Action. When the <span style=\"color:#c75de2;\">Lightning</span>-Lord takes action, its hits are considered as <u>follow-up attacks</u>, with each hit dealing <span style=\"color:#c75de2;\">Lightning</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#2[i]%</nobr></span> of Jing Yuan's ATK to a single enemy, and enemies adjacent to it also receive <span style=\"color:#c75de2;\">Lightning</span> DMG equal to <nobr>#5[i]%</nobr> of the DMG dealt to the target enemy.<br />The <span style=\"color:#c75de2;\">Lightning</span>-Lord's Hits Per Action can reach a max of <nobr>#6[i]</nobr>. Every time <span style=\"color:#c75de2;\">Lightning</span>-Lord's Hits Per Action increases by 1, its SPD increases by <nobr>#3[i]</nobr>. After the <span style=\"color:#c75de2;\">Lightning</span>-Lord's action ends, its SPD and Hits Per Action return to their base values.<br />When Jing Yuan is <u>knocked down</u>, the <span style=\"color:#c75de2;\">Lightning</span>-Lord will disappear.<br />When Jing Yuan is affected by <u>Crowd Control debuff</u>, the <span style=\"color:#c75de2;\">Lightning</span>-Lord is unable to take action.",
+   "typeDescHash": "Talent",
+   "iconPath": "c43b75a1946b584ba59978f9c822b5f9a64f30e4af5e480db25a3a9d7d23f91f",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      60,
+      0.33,
+      10,
+      3,
+      0.25,
+      10
+     ],
+     "cost": []
+    },
+    {
+     "level": 2,
+     "params": [
+      60,
+      0.363,
+      10,
+      3,
+      0.25,
+      10
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 549504,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "params": [
+      60,
+      0.396,
+      10,
+      3,
+      0.25,
+      10
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635675,
+       "count": 3
+      },
+      {
+       "id": 549504,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "params": [
+      60,
+      0.429,
+      10,
+      3,
+      0.25,
+      10
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920202,
+       "count": 3
+      },
+      {
+       "id": 633445,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "params": [
+      60,
+      0.462,
+      10,
+      3,
+      0.25,
+      10
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920202,
+       "count": 5
+      },
+      {
+       "id": 633445,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "params": [
+      60,
+      0.495,
+      10,
+      3,
+      0.25,
+      10
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920202,
+       "count": 7
+      },
+      {
+       "id": 633445,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "params": [
+      60,
+      0.53625,
+      10,
+      3,
+      0.25,
+      10
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836261,
+       "count": 3
+      },
+      {
+       "id": 717386,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "params": [
+      60,
+      0.5775,
+      10,
+      3,
+      0.25,
+      10
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836261,
+       "count": 5
+      },
+      {
+       "id": 985668,
+       "count": 1
+      },
+      {
+       "id": 717386,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "params": [
+      60,
+      0.61875,
+      10,
+      3,
+      0.25,
+      10
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836261,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 985668,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "params": [
+      60,
+      0.66,
+      10,
+      3,
+      0.25,
+      10
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836261,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 985668,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 11,
+     "params": [
+      60,
+      0.693,
+      10,
+      3,
+      0.25,
+      10
+     ],
+     "cost": []
+    },
+    {
+     "level": 12,
+     "params": [
+      60,
+      0.726,
+      10,
+      3,
+      0.25,
+      10
+     ],
+     "cost": []
+    },
+    {
+     "level": 13,
+     "params": [
+      60,
+      0.759,
+      10,
+      3,
+      0.25,
+      10
+     ],
+     "cost": []
+    },
+    {
+     "level": 14,
+     "params": [
+      60,
+      0.792,
+      10,
+      3,
+      0.25,
+      10
+     ],
+     "cost": []
+    },
+    {
+     "level": 15,
+     "params": [
+      60,
+      0.825,
+      10,
+      3,
+      0.25,
+      10
+     ],
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  },
+  {
+   "id": 703517,
+   "name": "Attack",
+   "tagHash": "",
+   "descHash": "Attack an enemy, and when the battle starts, reduce their Toughness of the corresponding Type.",
+   "typeDescHash": "",
+   "iconPath": "cf45b4f511a518e640d28d3e44f8fbe4ce7a1865a043180f6d42466a4a502307",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [],
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  },
+  {
+   "id": 619576,
+   "name": "Spirit Invocation",
+   "tagHash": "Enhance",
+   "descHash": "After using Technique, at the start of the next battle, the <span style=\"color:#c75de2;\">Lightning</span>-Lord's Hits Per Action in the first turn increases by <nobr>#1[i]</nobr>.",
+   "typeDescHash": "Technique",
+   "iconPath": "48a7b2d40c6d609aaaed7a6ea7c8de8c1336dc6f89ca865412b23f8ae78a9a52",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      3
+     ],
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  }
+ ],
+ "skillTreePoints": [
+  {
+   "id": 1204101,
+   "type": 1,
+   "children": [
+    {
+     "id": 1204202,
+     "type": 2,
+     "children": [
+      {
+       "id": 1204203,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 56292,
+        "name": "ATK Boost",
+        "levelReq": 0,
+        "promotionReq": 3,
+        "iconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5",
+        "statusList": [
+         {
+          "key": "ATK",
+          "value": 0.04
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 10000
+         },
+         {
+          "id": 920202,
+          "count": 3
+         },
+         {
+          "id": 633445,
+          "count": 3
+         }
+        ]
+       }
+      },
+      {
+       "id": 1204204,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 56289,
+        "name": "DEF Boost",
+        "levelReq": 0,
+        "promotionReq": 3,
+        "iconPath": "2077c52919d0f523755a4d92ce338874b71561611a436572d8eb315a34f4a4c2",
+        "statusList": [
+         {
+          "key": "DEF",
+          "value": 0.05
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 10000
+         },
+         {
+          "id": 920202,
+          "count": 3
+         },
+         {
+          "id": 633445,
+          "count": 3
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 56291,
+      "name": "CRIT Rate Boost",
+      "levelReq": 0,
+      "promotionReq": 2,
+      "iconPath": "2bf7f8117bb4bac5bac4a4b7866f2bf3c272b526b8d945ece48991383f5f9f96",
+      "statusList": [
+       {
+        "key": "CRIT Rate",
+        "value": 0.026999999
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 635675,
+        "count": 3
+       },
+       {
+        "id": 549504,
+        "count": 6
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "id": 56195,
+    "name": "Battalia Crush",
+    "descHash": "If the <span style=\"color:#c75de2;\">Lightning</span>-Lord's Hits Per Action is greater or equal to <nobr>#1[i]</nobr> in the next turn, its CRIT DMG increases by <nobr>#2[i]%</nobr> for the next turn.",
+    "iconPath": "ad09ab5b01e18d37e87b4999661b4c7b7cb7a781357077da07cd476e023bb383",
+    "levelReq": 0,
+    "promotionReq": 2,
+    "levelData": [
+     {
+      "level": 1,
+      "params": [
+       6,
+       0.25
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 635675,
+        "count": 3
+       },
+       {
+        "id": 985668,
+        "count": 1
+       }
+      ]
+     }
+    ],
+    "ultimateCost": 0
+   }
+  },
+  {
+   "id": 1204102,
+   "type": 1,
+   "children": [
+    {
+     "id": 1204205,
+     "type": 2,
+     "children": [
+      {
+       "id": 1204206,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 56287,
+        "name": "CRIT Rate Boost",
+        "levelReq": 0,
+        "promotionReq": 5,
+        "iconPath": "2bf7f8117bb4bac5bac4a4b7866f2bf3c272b526b8d945ece48991383f5f9f96",
+        "statusList": [
+         {
+          "key": "CRIT Rate",
+          "value": 0.04
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 45000
+         },
+         {
+          "id": 836261,
+          "count": 3
+         },
+         {
+          "id": 717386,
+          "count": 3
+         }
+        ]
+       }
+      },
+      {
+       "id": 1204207,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 56288,
+        "name": "ATK Boost",
+        "levelReq": 0,
+        "promotionReq": 5,
+        "iconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5",
+        "statusList": [
+         {
+          "key": "ATK",
+          "value": 0.06
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 45000
+         },
+         {
+          "id": 836261,
+          "count": 3
+         },
+         {
+          "id": 717386,
+          "count": 3
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 56290,
+      "name": "ATK Boost",
+      "levelReq": 0,
+      "promotionReq": 4,
+      "iconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5",
+      "statusList": [
+       {
+        "key": "ATK",
+        "value": 0.06
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 920202,
+        "count": 5
+       },
+       {
+        "id": 633445,
+        "count": 4
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "id": 56198,
+    "name": "Savant Providence",
+    "descHash": "At the start of the battle, immediately regenerates <nobr>#1[i]</nobr> Energy.",
+    "iconPath": "8987f2ac047783d8eb8ba71e6acea06d38c02040c83a9f90a04d37c3e45ad4d8",
+    "levelReq": 0,
+    "promotionReq": 4,
+    "levelData": [
+     {
+      "level": 1,
+      "params": [
+       15
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 920202,
+        "count": 5
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 985668,
+        "count": 1
+       }
+      ]
+     }
+    ],
+    "ultimateCost": 0
+   }
+  },
+  {
+   "id": 1204103,
+   "type": 1,
+   "children": [
+    {
+     "id": 1204208,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 56301,
+      "name": "DEF Boost",
+      "levelReq": 0,
+      "promotionReq": 6,
+      "iconPath": "2077c52919d0f523755a4d92ce338874b71561611a436572d8eb315a34f4a4c2",
+      "statusList": [
+       {
+        "key": "DEF",
+        "value": 0.075
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836261,
+        "count": 8
+       },
+       {
+        "id": 717386,
+        "count": 8
+       }
+      ]
+     }
+    },
+    {
+     "id": 1204209,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 56302,
+      "name": "CRIT Rate Boost",
+      "levelReq": 75,
+      "promotionReq": 0,
+      "iconPath": "2bf7f8117bb4bac5bac4a4b7866f2bf3c272b526b8d945ece48991383f5f9f96",
+      "statusList": [
+       {
+        "key": "CRIT Rate",
+        "value": 0.053
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836261,
+        "count": 8
+       },
+       {
+        "id": 717386,
+        "count": 8
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "id": 56197,
+    "name": "War Marshal",
+    "descHash": "After using Skill, CRIT Rate increases by <nobr>#1[i]%</nobr> for <nobr>#2[i]</nobr> turn(s).",
+    "iconPath": "cea35b2ef548fded4e88a5f17abbefb2438b752a1d5836ae7682c5813172c2ca",
+    "levelReq": 0,
+    "promotionReq": 6,
+    "levelData": [
+     {
+      "level": 1,
+      "params": [
+       0.1,
+       2
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836261,
+        "count": 8
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 985668,
+        "count": 1
+       }
+      ]
+     }
+    ],
+    "ultimateCost": 0
+   }
+  },
+  {
+   "id": 1204201,
+   "type": 2,
+   "children": [],
+   "embedBuff": {
+    "id": 56294,
+    "name": "ATK Boost",
+    "levelReq": 1,
+    "promotionReq": 0,
+    "iconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5",
+    "statusList": [
+     {
+      "key": "ATK",
+      "value": 0.04
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 2500
+     },
+     {
+      "id": 549504,
+      "count": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": 1204210,
+   "type": 2,
+   "children": [],
+   "embedBuff": {
+    "id": 939648,
+    "name": "ATK Boost",
+    "levelReq": 80,
+    "promotionReq": 0,
+    "iconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5",
+    "statusList": [
+     {
+      "key": "ATK",
+      "value": 0.08
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 160000
+     },
+     {
+      "id": 836261,
+      "count": 8
+     },
+     {
+      "id": 717386,
+      "count": 8
+     }
+    ]
+   }
+  }
+ ],
+ "relicRecommend": {
+  "twoPcSets": [],
+  "fourPcSets": [],
+  "props": [
+   {
+    "relicTypeHash": "Body",
+    "relicTypeIcon": "87a68da58f5ca7f656d3ebf27bc84c5c32aafd164f2406af6b95c0e46277496b",
+    "propertyName": "CRIT Rate",
+    "propertyIconPath": "2bf7f8117bb4bac5bac4a4b7866f2bf3c272b526b8d945ece48991383f5f9f96"
+   },
+   {
+    "relicTypeHash": "Feet",
+    "relicTypeIcon": "5d8394f899a9cc41333630a3475d525b65c4a7cf59d16cdc4ac0acccc082259c",
+    "propertyName": "ATK",
+    "propertyIconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5"
+   },
+   {
+    "relicTypeHash": "Planar Sphere",
+    "relicTypeIcon": "fd22786ef5ef0aee8953005c423739fe85fd85b16b82a3f7f18910499a4368b5",
+    "propertyName": "Lightning DMG Boost",
+    "propertyIconPath": "6acd635b37377d308961b26cf64a7a0ceed4e922bdf0427b620249351796ecd4"
+   },
+   {
+    "relicTypeHash": "Link Rope",
+    "relicTypeIcon": "245bb6e30915d9ab6a042e37499ad3a0b0d022208a5fee05417b7cd3c088e357",
+    "propertyName": "Energy Regeneration Rate",
+    "propertyIconPath": "fa8f924ec11e6c11cad9d7a54d1db3dc1e9ad5a276eeb58ab17f2395a1b3522c"
+   }
+  ]
+ },
+ "voiceItems": [
+  {
+   "id": 1,
+   "title": "First Meeting",
+   "text": "I am Jing Yuan, the general of the Luofu Cloud Knights. There's no need for formality. \"General\" is a temporary title, and you can simply call me Jing Yuan.",
+   "unlockRequirement": "",
+   "cnUrl": "80d0a57a5541f52c6136a7ce385ab5e994e5c7200f34b9c5810859bde312d4d2",
+   "jpUrl": "d47eab6829d2a8f087407bc0a81f2d4b212814d5a728011d83459d0472536c04",
+   "enUrl": "d6a0312d94219eb39d66482df0134b46a8c9d5517eaef37a592483ac8677c490",
+   "krUrl": "1c7bbada75bf893af9d06adaaed0e1d8295eea999d2e0d9273e87a6215e95746"
+  },
+  {
+   "id": 2,
+   "title": "Greeting",
+   "text": "Ah, you're here. If you have any interesting stories from your travels, do share them with me.",
+   "unlockRequirement": "",
+   "cnUrl": "2452db280f98bcabb400cba770790dd9f04f55811054f9b5edcb926055ad5935",
+   "jpUrl": "a3fe4b904443f02abedae504ee947980e43d28dce8c44310bdef2743f3576cf2",
+   "enUrl": "2d9d7b1fb4347849c959483a77e9d914fe9645a926f8fe9143cb4746cc898011",
+   "krUrl": "75748fc90f638dcac46c608f39a6bc35cd2c335655155a8d8727203534a3affd"
+  },
+  {
+   "id": 3,
+   "title": "Parting",
+   "text": "Mmm, rest well... My apologies. There is still some work to be done and I can't see you out personally.",
+   "unlockRequirement": "",
+   "cnUrl": "5c104dc3d7ec3331451e1e0ba1c899999401731de8c92fab5c4b4591be74888a",
+   "jpUrl": "b952ca9d2e0daea05f2fb4adb331f1107b4580fb0060db4d741cf89e9deb0460",
+   "enUrl": "c3989de287f1917e4bb92c1ce5b18d4acdb5ecc4abe3a0b5023ecc992828d96a",
+   "krUrl": "c5c856f9f218806126c2ace59483e7627bf05696610876ee6ff3d28abd9aa433"
+  },
+  {
+   "id": 4,
+   "title": "About Self",
+   "text": "My past enemies are either dead or captured, and my past friends are scattered to the winds. Now that I think about it, I am indeed an old man...",
+   "unlockRequirement": "",
+   "cnUrl": "300c01ac711da4db6a21263f4ee3042a68ad3b7541702025267ce1fa82836566",
+   "jpUrl": "b2566e824ee7ea6cdf3ae2fe3e825d3051c4304eafb34a875a0e536fbadd611a",
+   "enUrl": "d12bd1d15144e93457ddb5e428336ed90f919fb460bbad3614da0a5fa88a0158",
+   "krUrl": "9e251b9d0bd099f27f548febbe2c9c713a1fe8244e288b6d3730f47ab0ce4565"
+  },
+  {
+   "id": 5,
+   "title": "Chat: Chess",
+   "text": "A master of the chessboard does not always make flashy moves. People take delight from one flashy move that saves the day, but never worry when the entire situation teeters towards a loss.",
+   "unlockRequirement": "",
+   "cnUrl": "1cc8c4fb237f07882e3c0ff6edc0695a0f5b1ce5151aec5036ee943a663669e9",
+   "jpUrl": "db544670756f74b97243d565da49a3a146eb747644d1d0f8d7a57a2eb97fb029",
+   "enUrl": "c9a07b05e242e31c317df4bf213b8055da690c01ed38f256f3bf5073fea4a1c3",
+   "krUrl": "55de126e46b4fa6262ad73c801b6cc200c07d785960fb633b7af4f88553ff5e0"
+  },
+  {
+   "id": 6,
+   "title": "Chat: The Luofu",
+   "text": "Outsiders perhaps like to abbreviate the Xianzhou Luofu as just Xianzhou, but... the Luofu is not the Xianzhou. The Luofu is the Luofu, no more, no less.",
+   "unlockRequirement": "",
+   "cnUrl": "3865316d2d22d07131e759d2c0bc2712062540ee9af6da3e9486eda6a63fadc7",
+   "jpUrl": "c9fe48fb247124197bbbc6b92b2ccde52eb844ef94a5b693e0cc731e22f2f9b6",
+   "enUrl": "eab1197b7707f5c491191ac30487abfca6f5bf1a5397cb3087376401be161259",
+   "krUrl": "ea90c2986d8f131c715111e3ba96518fe935d6f2aabb9da3d31a777ca4e7da9b"
+  },
+  {
+   "id": 7,
+   "title": "Hobbies",
+   "text": "Meditating with my eyes closed. That gets more difficult as time goes on.",
+   "unlockRequirement": "",
+   "cnUrl": "6ec0e830f620e160b70bd9e9bd28c4ab2c8cbb4d034640cd5447c96d97aea1b6",
+   "jpUrl": "ca7b1669c12762f704e1bdbb75a5ca34da4dc712a93a983f52f426827ef65ce6",
+   "enUrl": "d62243f05d9575fa79b30f90ec523b5dced65f0fa04d3243cd8b041efac43668",
+   "krUrl": "f4ce9549daf0f19f65ed3ffbdfdddc172e573865c20cb3aa7d21b11a974c0b24"
+  },
+  {
+   "id": 8,
+   "title": "Annoyances",
+   "text": "For all of my life, I've been scared of trouble. There are major troubles and minor ones, distant ones and close ones. They need plans, preparations, and all things that need effort...",
+   "unlockRequirement": "",
+   "cnUrl": "7d324a7219ad836c38a8ed78a102fd281dc2ab88b99a248ba78856ac6775bab1",
+   "jpUrl": "0a1f866568dcdf7543c255eea76b94c4b074a2fd92a5ba071c2672daa87259e2",
+   "enUrl": "2f05fd623660d1602a83e129e4877f6550dd8fb8dfe11d946d3b8a7173523f82",
+   "krUrl": "2014d5825713a158fb5dbecd005ec3cecde8cd912bfb637b399811dd1724a909"
+  },
+  {
+   "id": 9,
+   "title": "Something to Share",
+   "text": "This spirit is called Lightning-Wielding Thunder-Clapping Spirit-Squashing Lord. It's a name I read from an ancient text, but it's too long to remember, so I just abbreviate it to the Lightning... Lord.",
+   "unlockRequirement": "",
+   "cnUrl": "c537fd08e758ef5957ec946e344f2fd1f1a5adfc696f6ec58c4fd6d9e003f1ef",
+   "jpUrl": "2da39e09e7a584061b8163d162546291cabd34d1f4e111ce0deda1599aa97c84",
+   "enUrl": "a9735b666ea282e65100e8931c39307f87cc2d45a7d9f530d5a1717616618e43",
+   "krUrl": "5891c71d3edb9ebee07b94ef993abf930ac0fac845497da0e491f1682db28f46"
+  },
+  {
+   "id": 10,
+   "title": "Knowledge",
+   "text": "I have been bound by mundane duties for years. Not only do I find no fun in my surroundings, but I'm also becoming a rather boring person. If I must talk about something interesting, then it'd be meeting space travelers like yourself.",
+   "unlockRequirement": "",
+   "cnUrl": "872ada57c0b00f76f73bb3a7383c156207eab6a5e2bdf94461653ab6e80bc8ec",
+   "jpUrl": "0e55c1215e220ad458ae7c86e87fb10f5e6fd7f2a8a28faf97a132e4dfa9e176",
+   "enUrl": "9bc426f72860e5637f62ae1dfc4d29968daef068b0d88efa2e40992a31c2513b",
+   "krUrl": "70e8c394ebd21265b8558895ac63b323ae131cc0793cc193f9e40f697d203337"
+  },
+  {
+   "id": 11,
+   "title": "About Yanqing",
+   "text": "If you treat him as a child, he'll put on the airs of an adult. If you treat him as an adult, he'll show the temperament of a child.",
+   "unlockRequirement": "",
+   "cnUrl": "c3326ddac6da7e1d905996c05bd95a5d146948d59768963f2911acb42a0daa5b",
+   "jpUrl": "1d1e7ed1216eccda57b24d5c9f7f978f6a51a4eeed7e5f538a21cbb5c61dc6ef",
+   "enUrl": "a5525651791027d928d37473e9cbde516dc58188b1bb4a9f9b4b3df657152662",
+   "krUrl": "af6421bdc3f4ae4c5872a34dd17cceb2b102188d811e49a218370b7f010e85b3"
+  },
+  {
+   "id": 12,
+   "title": "About Fu Xuan",
+   "text": "I know what Fu Xuan is thinking of, so I must make her wait. If she is patient enough to wait, then that would be the time.",
+   "unlockRequirement": "",
+   "cnUrl": "e43e67c82a391b2b22ada506afefa29de704842df2f83714e885453699b6abb3",
+   "jpUrl": "9bc686af3b9bbd6b1bf22d0fdff4a55c9de9cf356e2ceb21cebf8f749bfbc5e4",
+   "enUrl": "4aebcb66e940f4d79e68019996da501385c388fbe3994ed4813c412abb143bd2",
+   "krUrl": "321f4194f32cdc19e521ffb6ee4d08e658eaf9bd7fe32700d2fed4239d17b4db"
+  },
+  {
+   "id": 13,
+   "title": "About Yukong",
+   "text": "Everyone believes Helm Master Yukong had retired... They don't know that she chose an even harder path after she left her beloved skies behind.",
+   "unlockRequirement": "",
+   "cnUrl": "2ae80aae77930e53aa32ffcdafc35c1ffaa9ca85bd99cccab886db5aeb60fecc",
+   "jpUrl": "27155476f35911f500af0550142fed4174d6d485dceba11016b6e8b994d96fb6",
+   "enUrl": "24168c5cf5ddbe076c2e3a1876f878491c5303202bc41d16cc6df6e6d6899485",
+   "krUrl": "b469a0891190fcbf2b749e31292928c4b56bb983a0782ad1e20b1394cf886783"
+  },
+  {
+   "id": 14,
+   "title": "About Tingyun",
+   "text": "Xianzhou is capable of such bustling trade because of how Amicassadors such as Tingyun socialize so much with the outsiders.",
+   "unlockRequirement": "",
+   "cnUrl": "9ac4ef22d307ce33419e2a5be24a7b0322212253c17ad64074e233741c59b39b",
+   "jpUrl": "8fbe00b17a9e332e6c15240e98f45bf77f896913bcbd9a9fa897bffacd721fb5",
+   "enUrl": "cd1672dd0ebdd704eaadd6ca38d7b16bfc7367141fe2fb6302663648444d4513",
+   "krUrl": "42a23a9dd556d5f1528fad52ab4c384d4e052e50446bf4e17eca9f65a8ae4a1c"
+  },
+  {
+   "id": 15,
+   "title": "About Luocha",
+   "text": "I have seen many merchants in my life, but don't you think there aren't many like him, who are in no hurry to do business?",
+   "unlockRequirement": "",
+   "cnUrl": "c311f1c4ec7b4779228e4dd24643521aa85f5ca100ca28d7783e0fed2adf4c3f",
+   "jpUrl": "1dd5c54139d3d1f818575045d479c77fae1e42c19004f9b701460d114150b35d",
+   "enUrl": "c38d788ad5fe328aa34d73e8a6f769ae5d6e538fd7fd3f78a588c9ad93955ca0",
+   "krUrl": "d380fee36725ae9f798437ff8e348afb6391b382cb0ee4d518820bb93008994e"
+  },
+  {
+   "id": 16,
+   "title": "About Sushang",
+   "text": "A careless Cloud Knight new recruit, huh... I was like that once upon a time, but it was a long while ago.",
+   "unlockRequirement": "",
+   "cnUrl": "5fd08c58370919154f00545bb114c45eb6bda9e6389148f6e3c58594e2b3083f",
+   "jpUrl": "2b43008b11cfa5255b6e314f67654a15a03c4428cc14938c86ed365b7990b9ca",
+   "enUrl": "ef214f59320e82262d061e8968557e1f91462db2eff7e84e284c8cb25c47d156",
+   "krUrl": "2b429a409cdb8e286e0000190c776179d8ca223489b435973bb493b0b933cf6a"
+  },
+  {
+   "id": 17,
+   "title": "About Bailu",
+   "text": "It's hard being the High Elder of the Vidyadhara... I hope she remains well in this lifetime.",
+   "unlockRequirement": "",
+   "cnUrl": "e5a4a0411b78025c8ae519b3313cedba69165735ba09bc89512d55dc1e926b66",
+   "jpUrl": "95f1383a63e25ffba40375671e77b8e972e6ad64ddbee4d54f70142c44e68a22",
+   "enUrl": "562c71b4b42d597987f08c358451a29f9bbd4469fae2d029b8b8ccd2bd4a10ea",
+   "krUrl": "673855766357fd0ecb3dcc5939d7b62b9f01db588966b764361e48b67df8d38d"
+  },
+  {
+   "id": 18,
+   "title": "About Jingliu",
+   "text": "She taught me the skills with a blade, but we never became close... *sigh* In an endless night, there is nothing closer than the bright moon, always hanging in the sky.",
+   "unlockRequirement": "",
+   "cnUrl": "b076be3fb86e19a1c6cafef2f7c0bdd09119ac5ee9068f29c2441fd405893552",
+   "jpUrl": "0296cf16daf09fc870b007e35ce9575ea0838f86810a4467b42645d52ac41be6",
+   "enUrl": "0bce97771eba2a84e0b8386ef6ac6a7d5fb79ed7a84776334733b833d1168937",
+   "krUrl": "e6895184e4873a6e2646b3c0d9748cd892b537f6dd5c042675a2f53a217e89f5"
+  }
+ ],
+ "storyItems": [
+  {
+   "title": "Character Details",
+   "text": "The Divine Foresight, one of the Seven Arbiter-Generals. Although his appearance may be one of indolence, he is more meticulous than seemingly meets the eye. He does not consider saving a situation from the brink of disaster to be a show of wisdom, and is thus fastidious with routine affairs to avoid any potential problems. Due to his careful management, Xianzhou has enjoyed many years of peace, with Jing Yuan's seemingly lazy demeanor having earned him the moniker of the \"Dozing General.\"",
+   "unlockRequirement": ""
+  },
+  {
+   "title": "Character Story: Part I",
+   "text": "Coming soon - Stay tuned!",
+   "unlockRequirement": "Unlocked at Character Level <nobr>20</nobr>"
+  },
+  {
+   "title": "Character Story: Part II",
+   "text": "Coming soon - Stay tuned!",
+   "unlockRequirement": "Unlocked at Character Level <nobr>40</nobr>"
+  },
+  {
+   "title": "Character Story: Part III",
+   "text": "Coming soon - Stay tuned!",
+   "unlockRequirement": "Unlocked at Character Level <nobr>60</nobr>"
+  },
+  {
+   "title": "Character Story: Part IV",
+   "text": "Coming soon - Stay tuned!",
+   "unlockRequirement": "Unlocked at Character Level <nobr>80</nobr>"
+  }
+ ],
+ "archive": {
+  "cvCn": "\u5b59\u6654",
+  "cvJp": "\u5c0f\u91ce\u5927\u8f14",
+  "cvKr": "\ub958\uc2b9\uace4",
+  "cvEn": "Alejandro Saab",
+  "camp": "Xianzhou: The Luofu"
+ },
+ "calculator": {
+  "expCost": {
+   "1": 200,
+   "2": 300,
+   "3": 500,
+   "4": 600,
+   "5": 1050,
+   "6": 1670,
+   "7": 2320,
+   "8": 3060,
+   "9": 3860,
+   "10": 4740,
+   "11": 5710,
+   "12": 6730,
+   "13": 7830,
+   "14": 9000,
+   "15": 10240,
+   "16": 11550,
+   "17": 12920,
+   "18": 14360,
+   "19": 15870,
+   "20": 16580,
+   "21": 16840,
+   "22": 17100,
+   "23": 17370,
+   "24": 17640,
+   "25": 17910,
+   "26": 18190,
+   "27": 18480,
+   "28": 18760,
+   "29": 19040,
+   "30": 19340,
+   "31": 19630,
+   "32": 19930,
+   "33": 20220,
+   "34": 20530,
+   "35": 20840,
+   "36": 21140,
+   "37": 21450,
+   "38": 21760,
+   "39": 22080,
+   "40": 22390,
+   "41": 25550,
+   "42": 29140,
+   "43": 32830,
+   "44": 36600,
+   "45": 40470,
+   "46": 44430,
+   "47": 48480,
+   "48": 52630,
+   "49": 56870,
+   "50": 61190,
+   "51": 65620,
+   "52": 70130,
+   "53": 74740,
+   "54": 79450,
+   "55": 84240,
+   "56": 89120,
+   "57": 94110,
+   "58": 99190,
+   "59": 104350,
+   "60": 106240,
+   "61": 111830,
+   "62": 117530,
+   "63": 123320,
+   "64": 129210,
+   "65": 135200,
+   "66": 141290,
+   "67": 147480,
+   "68": 153780,
+   "69": 160170,
+   "70": 179260,
+   "71": 199920,
+   "72": 220920,
+   "73": 242260,
+   "74": 263930,
+   "75": 285950,
+   "76": 308300,
+   "77": 331000,
+   "78": 354040,
+   "79": 377420,
+   "80": 414350
+  },
+  "expItemConfig": {
+   "1000": 409962,
+   "5000": 409961,
+   "20000": 409960
+  },
+  "sCoinId": 29328
+ },
+ "pageId": "jingyuan"
+}

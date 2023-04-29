@@ -1,0 +1,24 @@
+{
+ "iconPath": "cb316badc06db5719753768d375ae94463fad49721b56569985ab88a684474c4",
+ "name": "Arrow of the Beast Hunter",
+ "rarity": 2,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 635674,
+  "type": 601,
+  "purposeId": 3,
+  "iconPath": "cb316badc06db5719753768d375ae94463fad49721b56569985ab88a684474c4",
+  "name": "Arrow of the Beast Hunter",
+  "desc": "An arrowhead forged with Frost Steel by the craftsmen of Xianzhou. Used to level up Traces slightly for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Hunt</span> characters.",
+  "lore": "A gift that parents give to their children who've successfully hunted their first prey at their coming of age ceremony. It is a blessing that their life would be as successful and true as an arrow heading towards its mark.<br /><br />\"May the arrow on your waist and the sword in your sheath stay true and always find its target.\"",
+  "purpose": "Trace Material<br />Light Cone Ascension Material",
+  "rarity": 2,
+  "rewardPath": "/material/635674",
+  "comeFrom": [
+   "Calyx (Outlying Snow Plains)"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "pageId": "635674"
+}

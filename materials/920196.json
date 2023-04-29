@@ -1,0 +1,76 @@
+{
+ "iconPath": "ce4a765c779cfd1480029c5f6daa7ea755b5c3ec5661609bfd2dd5191b55f2d0",
+ "name": "Obsidian of Desolation",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 920196,
+  "type": 601,
+  "purposeId": 3,
+  "iconPath": "ce4a765c779cfd1480029c5f6daa7ea755b5c3ec5661609bfd2dd5191b55f2d0",
+  "name": "Obsidian of Desolation",
+  "desc": "A chunk of dark matter captured from the void. Used to level up Traces moderately for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Nihility</span> characters.",
+  "lore": "No reflections can be seen on the surface of the black prism. Not only does it suck in all the light, it seems to also absorb the wielder's emotions, leaving only a faint feeling of emptiness.<br /><br />\"...\"",
+  "purpose": "Trace Material<br />Light Cone Ascension Material",
+  "rarity": 3,
+  "rewardPath": "/material/920196",
+  "comeFrom": [
+   "Calyx (Great Mine)",
+   "Omni-Synthesizer \u2014 Material Synthesis"
+  ]
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "0e76659bbb3b9d0b1cc6a4e0e8c63a576c7b917f2f740a4b1b8ceab260a8a595",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards"
+   ]
+  },
+  "635669": {
+   "id": 635669,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "eb2e2feca2b8c63d7bd3d8b8e5a296d336fa0e30ca425e8e5489df4c015d1685",
+   "name": "Obsidian of Dread",
+   "desc": "A fragment of dark matter captured from the void. Used to level up Traces slightly for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Nihility</span> characters.",
+   "lore": "Nothing can prove its noumenon.<br />Touch gently to hear an unclear murmur from the shard.<br /><br />\"\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588 \u2588\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 2,
+   "rewardPath": "/material/635669",
+   "comeFrom": [
+    "Calyx (Great Mine)"
+   ]
+  }
+ },
+ "composeData": [
+  {
+   "items": [
+    {
+     "id": 635669,
+     "count": 3
+    },
+    {
+     "id": 29328,
+     "count": 20
+    }
+   ],
+   "tag": {
+    "name": "Traces Leveling Material",
+    "type": "Traces Activation Materials",
+    "icon": "ffdbab3c38d4fc15596f399cfde9f2eb0717184b00df444cbae165a965fb928a"
+   }
+  }
+ ],
+ "pageId": "920196"
+}

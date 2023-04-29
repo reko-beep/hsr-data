@@ -1,0 +1,25 @@
+{
+ "iconPath": "7a42ca2323eb2224644c54f364da09df012442c0e83d9b460e8bf46348bcd8f1",
+ "name": "Enigmatic Ectostella",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 782692,
+  "type": 601,
+  "purposeId": 2,
+  "iconPath": "7a42ca2323eb2224644c54f364da09df012442c0e83d9b460e8bf46348bcd8f1",
+  "name": "Enigmatic Ectostella",
+  "desc": "A fathomless crystal. Ascension material for the Trailblazer.",
+  "lore": "Severed from the highest of beings, this crystal reflects ever-changing mirages. The Past and future intertwine on each of its countless facets, attempting to swallow up all observers.<br /><br />\"Civilization is but a thin sheet of ice on top of the deep dark ocean of chaos.\"",
+  "purpose": "Character Ascension Materials",
+  "rarity": 4,
+  "rewardPath": "/material/782692",
+  "comeFrom": [
+   "Mission Rewards",
+   "Level Rewards"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "pageId": "782692"
+}

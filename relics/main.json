@@ -1,0 +1,857 @@
+{
+ "entries": [
+  {
+   "name": "Passerby of Wandering Cloud",
+   "iconPath": "4572d979d27faa81ae07050fd777b65e7ad6e293fa40303c3eae2fbd18c60aee",
+   "rarity": 5,
+   "embeddedBaseTypes": {},
+   "skills": [
+    {
+     "useNum": 2,
+     "desc": "Increases Outgoing Healing by <nobr>#1[i]%</nobr>.",
+     "params": [
+      0.1
+     ]
+    },
+    {
+     "useNum": 4,
+     "desc": "At the start of the battle, immediately regenerates 1 Skill Point.",
+     "params": []
+    }
+   ],
+   "pieces": {
+    "1": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "d5e67bb31d32bfc148fe04c747128cdc3250983a1f6f7259883a85f63248c592",
+     "rarityData": {}
+    },
+    "2": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "8a3b080e3d3b24761d15a3f41fdf6e4a7ced1e9db87f437d44c11cb5e683f876",
+     "rarityData": {}
+    },
+    "3": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "19afab2e4510e199b56b1a383cfe81d36ed149c85bac756bab12be0e8988e764",
+     "rarityData": {}
+    },
+    "4": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "1a44dece7019c509cf09433adc71e6d6c872f695cc4fd18e5f369a169bfb90e4",
+     "rarityData": {}
+    }
+   },
+   "pageId": "101"
+  },
+  {
+   "name": "Musketeer of Wild Wheat",
+   "iconPath": "121a65d8ba9ed102ed5e4186970c2a5543facd2fd9dd6551cac82e0c0b54dbde",
+   "rarity": 5,
+   "embeddedBaseTypes": {},
+   "skills": [
+    {
+     "useNum": 2,
+     "desc": "ATK increases by <nobr>#1[i]%</nobr>.",
+     "params": [
+      0.12
+     ]
+    },
+    {
+     "useNum": 4,
+     "desc": "The wearer's SPD increases by <nobr>#1[i]%</nobr> and Basic ATK DMG increases by <nobr>#2[i]%</nobr>.",
+     "params": [
+      0.06,
+      0.1
+     ]
+    }
+   ],
+   "pieces": {
+    "1": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "1588b0126a96193943eaa9a08ee8e141a3c6ec98cf3b856eae3b72c4de1da59d",
+     "rarityData": {}
+    },
+    "2": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "0cf76a86a4b9d29140f12f60924fe5184a6528ed1e32738072d3db94ea885ba5",
+     "rarityData": {}
+    },
+    "3": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "58f55920fa16d86c56bb7269949d3c0ffa6fa55e02128ec4b0c4c6ba1013582e",
+     "rarityData": {}
+    },
+    "4": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "2260511a91a66279a7819d4c892042f8ab1ed7bae88d3163b07df278584862ca",
+     "rarityData": {}
+    }
+   },
+   "pageId": "102"
+  },
+  {
+   "name": "Knight of Purity Palace",
+   "iconPath": "1abd2de49fe9971a1a5aa0d3d80e595785635d0e0d51666160c821ddfe205105",
+   "rarity": 5,
+   "embeddedBaseTypes": {},
+   "skills": [
+    {
+     "useNum": 2,
+     "desc": "Increases DEF by <nobr>#1[i]%</nobr>.",
+     "params": [
+      0.15
+     ]
+    },
+    {
+     "useNum": 4,
+     "desc": "Increases the max DMG that can be absorbed by the Shield created by the wearer by <nobr>#1[i]%</nobr>.",
+     "params": [
+      0.2
+     ]
+    }
+   ],
+   "pieces": {
+    "1": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "87dc9c6187c34b827308962a7627978d01682a46e346ee38b9f7d834391ff7b1",
+     "rarityData": {}
+    },
+    "2": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "0b7b7246183e55256e238919cebd6e3de7bcf5cac4ed58bd99cd28c263068e8c",
+     "rarityData": {}
+    },
+    "3": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "1d8c5bc372ea1a226f14060088746ed376ab304494915cc214cb30bbd8fe24de",
+     "rarityData": {}
+    },
+    "4": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "e77ac080d3e312dcdc98b25967fe5596b9d227dfa05934f8f2638f1eaf2993d5",
+     "rarityData": {}
+    }
+   },
+   "pageId": "103"
+  },
+  {
+   "name": "Hunter of Glacial Forest",
+   "iconPath": "70456333828f6e1d48741b77983a8465f38a751c388cebecff2b59a83cc00e21",
+   "rarity": 5,
+   "embeddedBaseTypes": {},
+   "skills": [
+    {
+     "useNum": 2,
+     "desc": "Increases <span style=\"color:#47C7FD;\">Ice</span> DMG by <nobr>#1[i]%</nobr>.",
+     "params": [
+      0.1
+     ]
+    },
+    {
+     "useNum": 4,
+     "desc": "After the wearer uses their Ultimate, their CRIT DMG increases by <nobr>#1[i]%</nobr> for <nobr>#2[i]</nobr> turn(s).",
+     "params": [
+      0.25,
+      2
+     ]
+    }
+   ],
+   "pieces": {
+    "1": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "86e1fb9234e82b0cc68a712e1b1f3720ea6021ee26a857eb8a441ef2d49d8dcf",
+     "rarityData": {}
+    },
+    "2": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "c3f4d0097f0a4d81e54ba98f597a6400ef1e938b486a461e9dd0836c86c62109",
+     "rarityData": {}
+    },
+    "3": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "2b487e20ff8a9caecee51ef40b680b63f4ae203d009316433fcca3f17ad18cfa",
+     "rarityData": {}
+    },
+    "4": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "0ed113676576958ef50437019b73827ea3cf1404d2a6a27f8d8c43bd17940380",
+     "rarityData": {}
+    }
+   },
+   "pageId": "104"
+  },
+  {
+   "name": "Champion of Streetwise Boxing",
+   "iconPath": "7a3c23b747faa58bfe3cc64383e4914be65ab64d56e1e906f391bcd398306fcd",
+   "rarity": 5,
+   "embeddedBaseTypes": {},
+   "skills": [
+    {
+     "useNum": 2,
+     "desc": "Increases <span style=\"color:#FFFFFF;\">Physical</span> DMG by <nobr>#1[i]%</nobr>.",
+     "params": [
+      0.1
+     ]
+    },
+    {
+     "useNum": 4,
+     "desc": "After the wearer attacks or is hit, their ATK increases by <nobr>#1[i]%</nobr> for the rest of the battle. This effect can stack up to <nobr>#2[i]</nobr> time(s).",
+     "params": [
+      0.05,
+      5
+     ]
+    }
+   ],
+   "pieces": {
+    "1": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "36203e2d2ff2c1f00dce58238f171df5c7c1822ad70ba60f1727429f0805616a",
+     "rarityData": {}
+    },
+    "2": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "b28428f8da4842916af5acdab4928612e3cce35f0927249e13ef98c0c60d24db",
+     "rarityData": {}
+    },
+    "3": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "6ce1794b4d406eb900857a3560fb7d841e4ada07875d798e8d70e26940a61c6d",
+     "rarityData": {}
+    },
+    "4": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "fda5b5ab70ad3a973fd77f2b473f19589d21e7c2abbbaa752bb6c603cc39827e",
+     "rarityData": {}
+    }
+   },
+   "pageId": "105"
+  },
+  {
+   "name": "Guard of Wuthering Snow",
+   "iconPath": "5387b9eece909d074da7ce98479d53c957c019f5653ab5cd62071026d78f9440",
+   "rarity": 5,
+   "embeddedBaseTypes": {},
+   "skills": [
+    {
+     "useNum": 2,
+     "desc": "Reduces DMG taken by <nobr>#1[i]%</nobr>.",
+     "params": [
+      0.08
+     ]
+    },
+    {
+     "useNum": 4,
+     "desc": "At the beginning of the turn, if the wearer's HP is equal to or less than <nobr>#1[i]%</nobr>, restores HP equal to <nobr>#2[i]%</nobr> of their Max HP and regenerates <nobr>#3[i]</nobr> Energy.",
+     "params": [
+      0.5,
+      0.08,
+      5
+     ]
+    }
+   ],
+   "pieces": {
+    "1": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "79c5f3679cd3931751183349fc811a35ccab908524b7009369041e8608d43706",
+     "rarityData": {}
+    },
+    "2": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "ca985fdcaa593fadda0a2dfe1464c4767bf19b7b08ee5e1f2912fa6688676012",
+     "rarityData": {}
+    },
+    "3": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "40f55c3ef12dd5723ab994a31b239b8147d7415bc391c86fea875c38cf023d89",
+     "rarityData": {}
+    },
+    "4": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "b926f82fd03be76eab4a37f96ff87913317be48ecd65a0ff060d0871399ef2ac",
+     "rarityData": {}
+    }
+   },
+   "pageId": "106"
+  },
+  {
+   "name": "Firesmith of Lava-Forging",
+   "iconPath": "4e1b9c5acb703068e9f801a1346f839f36b9e1b2116fe7c0d893c73141fbf96d",
+   "rarity": 5,
+   "embeddedBaseTypes": {},
+   "skills": [
+    {
+     "useNum": 2,
+     "desc": "Increases <span style=\"color:#F84F36;\">Fire</span> DMG by <nobr>#1[i]%</nobr>.",
+     "params": [
+      0.1
+     ]
+    },
+    {
+     "useNum": 4,
+     "desc": "Increases the wearer's Skill DMG by <nobr>#1[i]%</nobr>. After unleashing Ultimate, increases the wearer's <span style=\"color:#F84F36;\">Fire</span> DMG by <nobr>#2[i]%</nobr> for the next attack.",
+     "params": [
+      0.12,
+      0.12
+     ]
+    }
+   ],
+   "pieces": {
+    "1": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "663aa82b56bd772db05ca0ff7e40f9c30d38a0e29884f08749c5bef08b57e967",
+     "rarityData": {}
+    },
+    "2": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "6989e7265a092b2c88b4584a14ceed3092594790e79022ac606b58a05edbe53a",
+     "rarityData": {}
+    },
+    "3": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "78fbe0a20c1ac910090219deb7118bea26021ad6825622d6b2cb1e4962ef511c",
+     "rarityData": {}
+    },
+    "4": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "cab0e0b62ec5485d34ce0d77413b7aca9b91a299ac31880c891d2456ea42019c",
+     "rarityData": {}
+    }
+   },
+   "pageId": "107"
+  },
+  {
+   "name": "Genius of Brilliant Stars",
+   "iconPath": "01ff058abcb56326a11be25c95871633d466e099d5709daf863695cbe9a94729",
+   "rarity": 5,
+   "embeddedBaseTypes": {},
+   "skills": [
+    {
+     "useNum": 2,
+     "desc": "Increases <span style=\"color:#7788ff;\">Quantum</span> DMG by <nobr>#1[i]%</nobr>.",
+     "params": [
+      0.1
+     ]
+    },
+    {
+     "useNum": 4,
+     "desc": "When the wearer deals DMG to the target enemy, ignores <nobr>#1[i]%</nobr> DEF. If the target enemy has <span style=\"color:#7788ff;\">Quantum</span> Weakness, the wearer additionally ignores <nobr>#2[i]%</nobr> DEF.",
+     "params": [
+      0.1,
+      0.1
+     ]
+    }
+   ],
+   "pieces": {
+    "1": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "a508391b9c6dd2e90eb8c377a6746da18b12bca11ad8b7a538cfca4acf7ecc65",
+     "rarityData": {}
+    },
+    "2": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "e8ab4cd406c4cf8eebe73fe197b0fdb553df3dd27f2b81eba4b11628af3faf2e",
+     "rarityData": {}
+    },
+    "3": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "076162ee3cd094b0539ff53fb4b93b2df90e43cfd8c3cd3926e4662ed6c7cc26",
+     "rarityData": {}
+    },
+    "4": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "dcd2bf7a0719ff3113dc30207611fb24a483cb108d0955d0395ae4b51ca66ce7",
+     "rarityData": {}
+    }
+   },
+   "pageId": "108"
+  },
+  {
+   "name": "Band of Sizzling Thunder",
+   "iconPath": "b7b20a8282eb8d6045208a7e35dff5a8fa5c1d8aaffa02e9c76d576ff65033b4",
+   "rarity": 5,
+   "embeddedBaseTypes": {},
+   "skills": [
+    {
+     "useNum": 2,
+     "desc": "Increases <span style=\"color:#c75de2;\">Lightning</span> DMG by <nobr>#1[i]%</nobr>.",
+     "params": [
+      0.1
+     ]
+    },
+    {
+     "useNum": 4,
+     "desc": "When the wearer uses their Skill, increases the wearer's ATK by <nobr>#1[i]%</nobr> for <nobr>#2[i]</nobr> turn(s).",
+     "params": [
+      0.2,
+      1
+     ]
+    }
+   ],
+   "pieces": {
+    "1": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "de35a87c793cfbfcaffb0d3f995906f67f304cd6c2e7885490b44e4d857fe46e",
+     "rarityData": {}
+    },
+    "2": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "8dbfbf710f9b8595d5f5eef2c3a3a6d9ff93a58656f73f8992e95c4cebdd3acc",
+     "rarityData": {}
+    },
+    "3": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "bcaeb79928376074434d48386d03cc8984138d2ef7637903d945e51a6f787b41",
+     "rarityData": {}
+    },
+    "4": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "33e259b895925c672de9d08235d3ddbf98bc85f573d8fdcb0e7fd988c9e06b30",
+     "rarityData": {}
+    }
+   },
+   "pageId": "109"
+  },
+  {
+   "name": "Eagle of Twilight Line",
+   "iconPath": "3b01acc8fcf8d38b88f6146eb5a882f4adef67ad4b25d359bb5ee31e258037d6",
+   "rarity": 5,
+   "embeddedBaseTypes": {},
+   "skills": [
+    {
+     "useNum": 2,
+     "desc": "Increases <span style=\"color:#00FF9C;\">Wind</span> DMG by <nobr>#1[i]%</nobr>.",
+     "params": [
+      0.1
+     ]
+    },
+    {
+     "useNum": 4,
+     "desc": "After the wearer uses their Ultimate, their action is Advanced Forward by <nobr>#1[i]%</nobr>.",
+     "params": [
+      0.25
+     ]
+    }
+   ],
+   "pieces": {
+    "1": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "9923be8d687f5b225ce3b3f0910f4756023f9ecf062b25fb69bf6647820f8892",
+     "rarityData": {}
+    },
+    "2": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "909ba62e619738bc195f2e745c7c0151ee3e336c506b8bf23dfc252a9413cc08",
+     "rarityData": {}
+    },
+    "3": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "8308b5471092c445f1dd203fd7e73472c09cedd64ec6687a368f4449da2acaca",
+     "rarityData": {}
+    },
+    "4": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "0bda8981918784fbfaa875bf0c8da2b118ccfa9412a94a95c02c438a09a20a9c",
+     "rarityData": {}
+    }
+   },
+   "pageId": "110"
+  },
+  {
+   "name": "Thief of Shooting Meteor",
+   "iconPath": "51a481ff9141faba4f8141c4e0c4f93e9b747b483dac0f673cc4b8b0f21ba9d6",
+   "rarity": 5,
+   "embeddedBaseTypes": {},
+   "skills": [
+    {
+     "useNum": 2,
+     "desc": "Increases Break Effect by <nobr>#1[i]%</nobr>.",
+     "params": [
+      0.16
+     ]
+    },
+    {
+     "useNum": 4,
+     "desc": "Increases the wearer's Break Effect by <nobr>#1[i]%</nobr>. When the wearer inflicts Weakness Break on an enemy, regenerates <nobr>#2[i]</nobr> Energy.",
+     "params": [
+      0.16,
+      3
+     ]
+    }
+   ],
+   "pieces": {
+    "1": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "2a1287a65a9dd6547d92d22e41c973963729f2e03ba621d3395f1e74e0500bbb",
+     "rarityData": {}
+    },
+    "2": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "c7af60c238cbbcc28673176945983125550706100683cd3d2c09c4c80f41c647",
+     "rarityData": {}
+    },
+    "3": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "f20a8f2ada06588b33b0ffc8ac79980d6b054e1f3fc14729bcf1b2b4a02f88e5",
+     "rarityData": {}
+    },
+    "4": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "d5dad23aee70972a12d5196d1b7d4e1d59e72f194119af99c6eab77bd3348bd3",
+     "rarityData": {}
+    }
+   },
+   "pageId": "111"
+  },
+  {
+   "name": "Wastelander of Banditry Desert",
+   "iconPath": "8f83c05bff62fee55a1e33e4f84eb24c758b745cfea48920170bf0811e86872e",
+   "rarity": 5,
+   "embeddedBaseTypes": {},
+   "skills": [
+    {
+     "useNum": 2,
+     "desc": "Increases <span style=\"color:#F4D258;\">Imaginary</span> DMG by <nobr>#1[i]%</nobr>.",
+     "params": [
+      0.1
+     ]
+    },
+    {
+     "useNum": 4,
+     "desc": "When attacking debuffed enemies, the wearer's CRIT Rate increases by <nobr>#1[i]%</nobr>, and their CRIT DMG increases by <nobr>#2[i]%</nobr> against Imprisoned enemies.",
+     "params": [
+      0.1,
+      0.2
+     ]
+    }
+   ],
+   "pieces": {
+    "1": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "ce2a1ab232c3a0e3231ff59222845b38401ba25e5bc25616b8e1326ec0531c99",
+     "rarityData": {}
+    },
+    "2": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "ef6702157e57692775ff034dc70273bb7fdaf3ea257751563fe10054b49b265d",
+     "rarityData": {}
+    },
+    "3": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "02f539281409eb9ab36ee809763e9808f5b3243b6301412984a0b8062b0a38cc",
+     "rarityData": {}
+    },
+    "4": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "c4b5a59fbedba0c2ade23e60cbaf4541aba62c7952b378368cf3092aabac9a6b",
+     "rarityData": {}
+    }
+   },
+   "pageId": "112"
+  },
+  {
+   "name": "Space Sealing Station",
+   "iconPath": "c5aad3c155e119e2e175b097e7912c1a74cf758534fa44294c63a575c7f55a76",
+   "rarity": 5,
+   "embeddedBaseTypes": {},
+   "skills": [
+    {
+     "useNum": 2,
+     "desc": "Increases the wearer's ATK by <nobr>#1[i]%</nobr>. When the wearer's SPD reaches <nobr>#2[i]</nobr> or higher, the wearer's ATK increases by an extra <nobr>#3[i]%</nobr>.",
+     "params": [
+      0.12,
+      120,
+      0.12
+     ]
+    }
+   ],
+   "pieces": {
+    "5": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "403554d4dcab5244d8129959011db766b1104929fd6ca5cc3f777452805ed566",
+     "rarityData": {}
+    },
+    "6": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "57d78b8cc2171b21fc2c67a6963c6ee035054f90656b7c72a55993f6165d526b",
+     "rarityData": {}
+    }
+   },
+   "pageId": "301"
+  },
+  {
+   "name": "Fleet of the Ageless",
+   "iconPath": "d3531db70ba1031ef6cf5fb925d63711fb3e47b689e452dae1505fe25d47343b",
+   "rarity": 5,
+   "embeddedBaseTypes": {},
+   "skills": [
+    {
+     "useNum": 2,
+     "desc": "Increases the wearer's Max HP by <nobr>#1[i]%</nobr>. When the wearer's SPD reaches <nobr>#2[i]</nobr> or higher, all allies' ATK increases by <nobr>#3[i]%</nobr>.",
+     "params": [
+      0.12,
+      120,
+      0.08
+     ]
+    }
+   ],
+   "pieces": {
+    "5": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "c8a3d199729886e27c259053e978468570fc445ac86b8a1bc6440e5fd65c0b65",
+     "rarityData": {}
+    },
+    "6": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "a7e9e3b8d8327be81fb592d5e16cb72bc7e6e4f2a792630889a63a90a0846868",
+     "rarityData": {}
+    }
+   },
+   "pageId": "302"
+  },
+  {
+   "name": "Pan-Galactic Commercial Enterprise",
+   "iconPath": "9df9239633c0b285c13d23a9f4da4bd33fe6318a10955ff265f560a1e54052f6",
+   "rarity": 5,
+   "embeddedBaseTypes": {},
+   "skills": [
+    {
+     "useNum": 2,
+     "desc": "Increases the wearer's Effect Hit Rate by <nobr>#1[i]%</nobr>. Meanwhile, the wearer's ATK increases by an amount that is equal to <nobr>#2[i]%</nobr> of the current Effect Hit Rate, up to a maximum of <nobr>#3[i]%</nobr>.",
+     "params": [
+      0.1,
+      0.25,
+      0.25
+     ]
+    }
+   ],
+   "pieces": {
+    "5": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "6552e608b375fbcb80132c6ea30d1b6550ccfdec6fc0c915705d9410e7450c96",
+     "rarityData": {}
+    },
+    "6": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "406a6ca11ee1da36a555d7667868daec9ee9b677ea5317a791c58b4be41429de",
+     "rarityData": {}
+    }
+   },
+   "pageId": "303"
+  },
+  {
+   "name": "Belobog of the Architects",
+   "iconPath": "5b8e8b61c45c44cf07bc14f7eddd33e32ea8761627aab1052979c83a7bb326ed",
+   "rarity": 5,
+   "embeddedBaseTypes": {},
+   "skills": [
+    {
+     "useNum": 2,
+     "desc": "Increases the wearer's DEF by <nobr>#1[i]%</nobr>. When the wearer's Effect Hit Rate is <nobr>#2[i]%</nobr> or higher, the wearer gains an extra <nobr>#3[i]%</nobr> DEF.",
+     "params": [
+      0.15,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "pieces": {
+    "5": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "3e6b4c8ee8f8f0edd429f78d39814c60c84b97e381ef74641196e6ca4f2cae52",
+     "rarityData": {}
+    },
+    "6": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "4510f5699684b635b41ead62de3fe68ef17f033c0ab893c68e83acfb15c66150",
+     "rarityData": {}
+    }
+   },
+   "pageId": "304"
+  },
+  {
+   "name": "Celestial Differentiator",
+   "iconPath": "96b6ac2607c4b7ab5ae14ca6132d19d27b448f2eecca85bc5d4f16aea0957640",
+   "rarity": 5,
+   "embeddedBaseTypes": {},
+   "skills": [
+    {
+     "useNum": 2,
+     "desc": "Increases the wearer's CRIT DMG by <nobr>#1[i]%</nobr>. When the wearer's current CRIT DMG reaches <nobr>#2[i]%</nobr> or higher, after entering battle, the wearer's CRIT Rate increases by <nobr>#3[i]%</nobr> until the end of their first attack.",
+     "params": [
+      0.16,
+      1.2,
+      0.6
+     ]
+    }
+   ],
+   "pieces": {
+    "5": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "82579734a3703afa3eed52537033edfbd2d78221cfa94f3c3f10849d23d92a97",
+     "rarityData": {}
+    },
+    "6": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "72562e1a0677f0b59018691749c5e9d5f633da393b06a3e2e2abcdb66823b047",
+     "rarityData": {}
+    }
+   },
+   "pageId": "305"
+  },
+  {
+   "name": "Inert Salsotto",
+   "iconPath": "c3df329c6926cc79122e1428b77166f45bffcafaae212565eed0effe766e4003",
+   "rarity": 5,
+   "embeddedBaseTypes": {},
+   "skills": [
+    {
+     "useNum": 2,
+     "desc": "Increases the wearer's CRIT Rate by <nobr>#1[i]%</nobr>. When the wearer's current CRIT Rate reaches <nobr>#2[i]%</nobr> or higher, the wearer's Ultimate and follow-up attack DMG increases by <nobr>#3[i]%</nobr>.",
+     "params": [
+      0.08,
+      0.5,
+      0.15
+     ]
+    }
+   ],
+   "pieces": {
+    "5": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "7d57346f4dac2972202027be0261c640582717f4d4aeac8ba1471145e99cdc66",
+     "rarityData": {}
+    },
+    "6": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "04ef76e67e9b9a6513dd2ee595a73fc8d42741e56a58dbe96f129784e98af541",
+     "rarityData": {}
+    }
+   },
+   "pageId": "306"
+  },
+  {
+   "name": "Talia: Kingdom of Banditry",
+   "iconPath": "ecf141fb92ccea612ae84be895512df9f52eb9cdc28babd4560c1a76064896e1",
+   "rarity": 5,
+   "embeddedBaseTypes": {},
+   "skills": [
+    {
+     "useNum": 2,
+     "desc": "Increases the wearer's Break Effect by <nobr>#1[i]%</nobr>. When the wearer's SPD reaches <nobr>#2[i]</nobr> or higher, the wearer's Break effect increases by an extra <nobr>#3[i]%</nobr>.",
+     "params": [
+      0.16,
+      145,
+      0.2
+     ]
+    }
+   ],
+   "pieces": {
+    "5": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "e4e091edd382fd401fdc86c8379b5c4374a6f753addd6d5a2d1c310f5a1ac9eb",
+     "rarityData": {}
+    },
+    "6": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "7af0926f7d60a11f3e380b9407f73fb2741974079e702e4f9100c0f01d2c5743",
+     "rarityData": {}
+    }
+   },
+   "pageId": "307"
+  },
+  {
+   "name": "Sprightly Vonwacq",
+   "iconPath": "89f5c282838fae9425e1b4eb92aba28ba135ae1f09591fcd21ec836e3b6d321c",
+   "rarity": 5,
+   "embeddedBaseTypes": {},
+   "skills": [
+    {
+     "useNum": 2,
+     "desc": "Increases the wearer's Energy Regeneration Rate by <nobr>#1[i]%</nobr>. When the wearer's SPD reaches <nobr>#2[i]</nobr> or higher, the wearer's action is Advanced Forward by <nobr>#3[i]%</nobr> immediately upon entering battle.",
+     "params": [
+      0.05,
+      120,
+      0.4
+     ]
+    }
+   ],
+   "pieces": {
+    "5": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "fca70141496bc9fbdccee666a9dc9195af5e6d1a98ad453dde80e4b19b4a8d47",
+     "rarityData": {}
+    },
+    "6": {
+     "type": 0,
+     "maxRarity": 0,
+     "iconPath": "1ab3bd2e8408d9a7c0aa33e6796cdb8867153bcdd447a7e423f742742bbdfaa6",
+     "rarityData": {}
+    }
+   },
+   "pageId": "308"
+  }
+ ],
+ "name": "UI_ITEMS_TAB_RELIC"
+}

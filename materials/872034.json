@@ -1,0 +1,128 @@
+{
+ "iconPath": "66a2bc9e0ac94bc98ba20a6f9dbae7e62433b8be8f4041ac358084d3cc5e6513",
+ "name": "Enhancement Paste: Imaginary",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 872034,
+  "type": 502,
+  "purposeId": 10,
+  "iconPath": "66a2bc9e0ac94bc98ba20a6f9dbae7e62433b8be8f4041ac358084d3cc5e6513",
+  "name": "Enhancement Paste: Imaginary",
+  "desc": "Upon use, increases Imaginary DMG of all allies by <nobr>24%</nobr> for the next battle.",
+  "lore": "A cream made from a mixture of Path materials and other things.<br />Apply it to the right weapon to boost combat effectiveness.<br /><br />\"Half the effort, double the result.\"",
+  "purpose": "Consumables",
+  "rarity": 3,
+  "rewardPath": "/material/872034",
+  "comeFrom": [
+   "All-in-One Synthesis Machine"
+  ]
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "0e76659bbb3b9d0b1cc6a4e0e8c63a576c7b917f2f740a4b1b8ceab260a8a595",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards"
+   ]
+  },
+  "72014": {
+   "id": 72014,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "0e478e8e79698ab7512128e32bb7be826d4a6b311e36bf0196220b15dc6d4b20",
+   "name": "Hard Chip of Nihility",
+   "desc": "Tier 3 Synthesis Material",
+   "lore": "A chip made of iron that seems to possess the power of the Nihility.<br />It may have been a coin that people use to buy things.<br />But apparently, as the engravings on it fade away, its value went with them.<br /><br />\"I don't know what I'm writing between these quotation marks. What's the point of this item description? My life is meaningless, so is this piece of flavor text.\"",
+   "purpose": "Synthesis material",
+   "rarity": 3,
+   "rewardPath": "/material/72014",
+   "comeFrom": [
+    "Rivet Town: Imaginary Weavers or other enemies"
+   ]
+  },
+  "272534": {
+   "id": 272534,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "5db97bdea9c76ccfce23e02737cd906c0dd066dd18fef2935c7e5e0617770096",
+   "name": "Seed",
+   "desc": "Tier 1 Synthesis Material",
+   "lore": "Reproductive unit unique to plants.<br />Most of them symbolize life, some of them taste pretty good.<br /><br />\"Sow in the spring, harvest in the Autumn.\"",
+   "purpose": "Synthesis material",
+   "rarity": 1,
+   "rewardPath": "/material/272534",
+   "comeFrom": [
+    "Found in destructible objects in Jarilo-VI",
+    "Grocery Stand"
+   ]
+  },
+  "703577": {
+   "id": 703577,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "3652795592451684da31b73d554dd630aad6965b2db09dd1cd2a8b66e2b8516b",
+   "name": "Leaf of Imaginary",
+   "desc": "Tier 2 Synthesis Material",
+   "lore": "A leaf of unknown origin.<br />It doesn't belong to any plant and is more of a representation of something more abstract.<br />The ancient light nourishes the leaf through its veins, displaying its faded but remnant power.<br /><br />\"One leaf, one world.\"",
+   "purpose": "Synthesis material",
+   "rarity": 2,
+   "rewardPath": "/material/703577",
+   "comeFrom": [
+    "Backwater Pass: Flamespawns or other enemies",
+    "Grocery Stand"
+   ]
+  },
+  "872166": {
+   "id": 872166,
+   "type": 507,
+   "purposeId": 19,
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: Enhancement Paste: Imaginary",
+   "desc": "A simple equation. When entered into the Synthesizer, it will unlock a new recipe.",
+   "lore": "",
+   "purpose": "Recipe",
+   "rarity": 3,
+   "rewardPath": "/material/872166",
+   "comeFrom": []
+  }
+ },
+ "composeData": [
+  {
+   "items": [
+    {
+     "id": 272534,
+     "count": 5
+    },
+    {
+     "id": 703577,
+     "count": 2
+    },
+    {
+     "id": 72014,
+     "count": 2
+    },
+    {
+     "id": 872166,
+     "count": 1
+    }
+   ],
+   "tag": {
+    "name": "Attack Consumables",
+    "type": "Consumables",
+    "icon": "afe47a40c1361649152476b603185f0ffb4b55c17408e2629a1489e38daf70a5"
+   }
+  }
+ ],
+ "pageId": "872034"
+}

@@ -1,0 +1,129 @@
+{
+ "iconPath": "bfc142e2ce3f42c64d5ceced893a0f9f5748209053095b1b3c6046cd3796d890",
+ "name": "Enhancement Paste: Ice",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 557733,
+  "type": 502,
+  "purposeId": 10,
+  "iconPath": "bfc142e2ce3f42c64d5ceced893a0f9f5748209053095b1b3c6046cd3796d890",
+  "name": "Enhancement Paste: Ice",
+  "desc": "Upon use, increases Ice DMG of all allies by <nobr>24%</nobr> for the next battle.",
+  "lore": "A cream made from a mixture of Path materials and other things.<br />Apply it to the right weapon to boost combat effectiveness.<br /><br />\"Half the effort, double the result.\"",
+  "purpose": "Consumables",
+  "rarity": 3,
+  "rewardPath": "/material/557733",
+  "comeFrom": [
+   "All-in-One Synthesis Machine"
+  ]
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "0e76659bbb3b9d0b1cc6a4e0e8c63a576c7b917f2f740a4b1b8ceab260a8a595",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards"
+   ]
+  },
+  "72045": {
+   "id": 72045,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "a42063d1bdcbc0358b070e2f0fa04227294af443f4c149cd7f0dc160f3d5c73e",
+   "name": "Core of Ice",
+   "desc": "Tier 2 Synthesis Material",
+   "lore": "Shattered ice fallen from the stars.<br />The frosty mist it emits when removed from a specialized canister looks like the breath of wintertime.<br /><br />\"Zoom in on a snowflake <nobr>100</nobr> times and behold the wonder of nature.\"",
+   "purpose": "Synthesis material",
+   "rarity": 2,
+   "rewardPath": "/material/72045",
+   "comeFrom": [
+    "Corridor of Fading Echoes: Everwinter Shadewalkers or other enemies",
+    "Administrative District Shop"
+   ]
+  },
+  "356541": {
+   "id": 356541,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "253bb7948ea55d68037ca9f96574e2af6e647b9d76d46967f2d4e2899bfb9d69",
+   "name": "Tree Bark of Erudition",
+   "desc": "Tier 3 Synthesis Material",
+   "lore": "Dried tree bark that seems to possess the power of the Erudition.<br />Its creases tell the story of the years passed and the wisdom of nature.<br />It says a lot more when beaten into pulp used for papermaking.<br /><br />\"The wisdom of mankind is contained in this one word.\"",
+   "purpose": "Synthesis material",
+   "rarity": 3,
+   "rewardPath": "/material/356541",
+   "comeFrom": [
+    "Robot Settlement: Automatons or other enemies"
+   ]
+  },
+  "440416": {
+   "id": 440416,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "5f6ef03c4f12b96cc2193222e934c3229bacddb41cbda2d3d0380af6be039443",
+   "name": "Solid Water",
+   "desc": "Tier 1 Synthesis Material",
+   "lore": "Compound composed of hydrogen and oxygen, essential to support carbon-based life. <br />Keeping it in the solid state makes it easy to carry.<br /><br />\"...Isn't it ice?\"<br />\"No, no, no. Ice is ice, this is water, just in the solid state.\"<br />\"...Isn't that the definition of ice?\"",
+   "purpose": "Synthesis material",
+   "rarity": 1,
+   "rewardPath": "/material/440416",
+   "comeFrom": [
+    "Storage Zone: Baryons or other enemies",
+    "Found in destructible objects in Jarilo-VI",
+    "Administrative District Shop"
+   ]
+  },
+  "557865": {
+   "id": 557865,
+   "type": 507,
+   "purposeId": 19,
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: Enhancement Paste: Ice",
+   "desc": "A simple equation. When entered into the Synthesizer, it will unlock a new recipe.",
+   "lore": "",
+   "purpose": "Recipe",
+   "rarity": 3,
+   "rewardPath": "/material/557865",
+   "comeFrom": []
+  }
+ },
+ "composeData": [
+  {
+   "items": [
+    {
+     "id": 440416,
+     "count": 5
+    },
+    {
+     "id": 72045,
+     "count": 2
+    },
+    {
+     "id": 356541,
+     "count": 2
+    },
+    {
+     "id": 557865,
+     "count": 1
+    }
+   ],
+   "tag": {
+    "name": "Attack Consumables",
+    "type": "Consumables",
+    "icon": "afe47a40c1361649152476b603185f0ffb4b55c17408e2629a1489e38daf70a5"
+   }
+  }
+ ],
+ "pageId": "557733"
+}

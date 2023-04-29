@@ -1,0 +1,128 @@
+{
+ "iconPath": "2a21a19b3371405447b443af4c5d2d72e58c7d71bac4a54cd6751d80ea08422f",
+ "name": "Enhancement Paste: Quantum",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 988679,
+  "type": 502,
+  "purposeId": 10,
+  "iconPath": "2a21a19b3371405447b443af4c5d2d72e58c7d71bac4a54cd6751d80ea08422f",
+  "name": "Enhancement Paste: Quantum",
+  "desc": "Upon use, increases Quantum DMG of all allies by <nobr>24%</nobr> for the next battle.",
+  "lore": "A cream made from a mixture of Path materials and other things.<br />Apply it to the right weapon to boost combat effectiveness.<br /><br />\"Half the effort, double the result.\"",
+  "purpose": "Consumables",
+  "rarity": 3,
+  "rewardPath": "/material/988679",
+  "comeFrom": [
+   "All-in-One Synthesis Machine"
+  ]
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "0e76659bbb3b9d0b1cc6a4e0e8c63a576c7b917f2f740a4b1b8ceab260a8a595",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards"
+   ]
+  },
+  "272600": {
+   "id": 272600,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "ded7154553ddefdabeaa866736266e0b2f25467fea728b9a78eb11c7ec229f1b",
+   "name": "Slime of Harmony",
+   "desc": "Tier 3 Synthesis Material",
+   "lore": "A torus that seems to possess the power of the Harmony.<br />It only has one surface. No matter where you depart, you're destined to not reach your destination.<br />A tiny complaint would be that it is a bit sticky, as if it does not want to let you go.<br /><br />\"All are connected and the wind of blessing breathes across the lands!\"",
+   "purpose": "Synthesis material",
+   "rarity": 3,
+   "rewardPath": "/material/272600",
+   "comeFrom": [
+    "Stargazer Navalia: Entranced Ingenium: Obedient Dracolion or other enemies"
+   ]
+  },
+  "356475": {
+   "id": 356475,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "9dd77277c28117c06c0fb78cdf1accc3736022cb5bb39fd15fab2d13e9a8675e",
+   "name": "Gaseous liquid",
+   "desc": "Tier 1 Synthesis Material",
+   "lore": "Is it fog, rain, or wind?<br />You can't tell if it's still in the container without lifting the lid.<br /><br />\"The answer my friend, is blowing in the gaseous liquid...\"<br />\"The answer is blowing in the gaseous liquid.\"",
+   "purpose": "Synthesis material",
+   "rarity": 1,
+   "rewardPath": "/material/356475",
+   "comeFrom": [
+    "Found in destructible objects in Jarilo-VI",
+    "Grocery Stand"
+   ]
+  },
+  "787518": {
+   "id": 787518,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "361423a2291c50f0bb5a644d0cb7fb8747cb8306fc7d7af70fe2a751186a9b0c",
+   "name": "Quantum Ripples",
+   "desc": "Tier 2 Synthesis Material",
+   "lore": "Ripples in the Sea of Quanta.<br />Although called \"ripples,\" they are in fact the most basic form of energy fluctuation.<br /><br />\"Time, there's so much time.\"<br />\"All the time there is.\"",
+   "purpose": "Synthesis material",
+   "rarity": 2,
+   "rewardPath": "/material/787518",
+   "comeFrom": [
+    "Rivet Town: Imaginary Weavers or other enemies",
+    "Administrative District Shop"
+   ]
+  },
+  "988811": {
+   "id": 988811,
+   "type": 507,
+   "purposeId": 19,
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: Enhancement Paste: Quantum",
+   "desc": "A simple equation. When entered into the Synthesizer, it will unlock a new recipe.",
+   "lore": "",
+   "purpose": "Recipe",
+   "rarity": 3,
+   "rewardPath": "/material/988811",
+   "comeFrom": []
+  }
+ },
+ "composeData": [
+  {
+   "items": [
+    {
+     "id": 356475,
+     "count": 5
+    },
+    {
+     "id": 787518,
+     "count": 2
+    },
+    {
+     "id": 272600,
+     "count": 2
+    },
+    {
+     "id": 988811,
+     "count": 1
+    }
+   ],
+   "tag": {
+    "name": "Attack Consumables",
+    "type": "Consumables",
+    "icon": "afe47a40c1361649152476b603185f0ffb4b55c17408e2629a1489e38daf70a5"
+   }
+  }
+ ],
+ "pageId": "988679"
+}

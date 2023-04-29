@@ -1,0 +1,93 @@
+{
+ "iconPath": "ac39ef9904d105058ca85d878a972930af784c940f26fd4909b2ea86eee7c5c5",
+ "name": "Simple Protective Gear",
+ "rarity": 2,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 42812,
+  "type": 502,
+  "purposeId": 10,
+  "iconPath": "ac39ef9904d105058ca85d878a972930af784c940f26fd4909b2ea86eee7c5c5",
+  "name": "Simple Protective Gear",
+  "desc": "Increase DEF of all allies by <nobr>25%</nobr> in the next battle.",
+  "lore": "Simple protection gear to cover the most vulnerable part of your body.<br /><br />\"Don't assume only your head and neck need protection. There're no rules in a real fight.\"",
+  "purpose": "Consumables",
+  "rarity": 2,
+  "rewardPath": "/material/42812",
+  "comeFrom": [
+   "All-in-One Synthesis Machine"
+  ]
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "0e76659bbb3b9d0b1cc6a4e0e8c63a576c7b917f2f740a4b1b8ceab260a8a595",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards"
+   ]
+  },
+  "71948": {
+   "id": 71948,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "66246a134a2466e730d3b928d4fb279d60ec0fadf652363019ced427acbfe988",
+   "name": "Metal",
+   "desc": "Tier 1 Synthesis Material",
+   "lore": "A substance abundant in planets' crust and the ocean.<br />Very useful, very handy.<br /><br />\"I've been to a planet where the locals consume metals to get superpowers. Please don't do that at home, as most metals are not digestible by humans.\"",
+   "purpose": "Synthesis material",
+   "rarity": 1,
+   "rewardPath": "/material/71948",
+   "comeFrom": [
+    "Found in destructible objects in the Herta Space Station",
+    "Administrative District Shop"
+   ]
+  },
+  "440513": {
+   "id": 440513,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "0c84c872d25ee920b5cd47d5babd1af5b11a0e5546aaf85dec532e1ebe04d393",
+   "name": "Mechanical Parts",
+   "desc": "Tier 2 Synthesis Material",
+   "lore": "Essential components of all machines with strange shapes and specific functions.<br />Without them, nothing can be made.<br /><br />\"With the same parts, Screwllum can make entire planets and create cyborgs. But you can only make me a watch that runs seven seconds late every day.\"<br />\"Seven seconds is good enough! Just a hair later than the clocks they use in observatories.\"",
+   "purpose": "Synthesis material",
+   "rarity": 2,
+   "rewardPath": "/material/440513",
+   "comeFrom": [
+    "Robot Settlement: Automatons or other enemies",
+    "Found in destructible objects in the Herta Space Station",
+    "Administrative District Shop"
+   ]
+  }
+ },
+ "composeData": [
+  {
+   "items": [
+    {
+     "id": 71948,
+     "count": 2
+    },
+    {
+     "id": 440513,
+     "count": 2
+    }
+   ],
+   "tag": {
+    "name": "Defense Consumables",
+    "type": "Consumables",
+    "icon": "afe47a40c1361649152476b603185f0ffb4b55c17408e2629a1489e38daf70a5"
+   }
+  }
+ ],
+ "pageId": "42812"
+}

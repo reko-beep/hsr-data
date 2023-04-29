@@ -1,0 +1,24 @@
+{
+ "iconPath": "eb2e2feca2b8c63d7bd3d8b8e5a296d336fa0e30ca425e8e5489df4c015d1685",
+ "name": "Obsidian of Dread",
+ "rarity": 2,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 635669,
+  "type": 601,
+  "purposeId": 3,
+  "iconPath": "eb2e2feca2b8c63d7bd3d8b8e5a296d336fa0e30ca425e8e5489df4c015d1685",
+  "name": "Obsidian of Dread",
+  "desc": "A fragment of dark matter captured from the void. Used to level up Traces slightly for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Nihility</span> characters.",
+  "lore": "Nothing can prove its noumenon.<br />Touch gently to hear an unclear murmur from the shard.<br /><br />\"\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588 \u2588\"",
+  "purpose": "Trace Material<br />Light Cone Ascension Material",
+  "rarity": 2,
+  "rewardPath": "/material/635669",
+  "comeFrom": [
+   "Calyx (Great Mine)"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "pageId": "635669"
+}

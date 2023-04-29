@@ -1,0 +1,24 @@
+{
+ "iconPath": "0cf2469f493df67754573918796792f6261f45f7d34020462dfb52a2c61eb045",
+ "name": "Trash",
+ "rarity": 1,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 273405,
+  "type": 502,
+  "purposeId": 10,
+  "iconPath": "0cf2469f493df67754573918796792f6261f45f7d34020462dfb52a2c61eb045",
+  "name": "Trash",
+  "desc": "Upon use, immediately causes a single ally to lose HP equal to <nobr>15%</nobr> of their Max HP.",
+  "lore": "Worthless trash.<br />Better carry some with you.<br /><br />\"Some say that in the deep retreats of the Galaxy, an invisible portal will open to those carrying a piece of junk.\"",
+  "purpose": "Consumables",
+  "rarity": 1,
+  "rewardPath": "/material/273405",
+  "comeFrom": [
+   "Found in destructible objects in Jarilo-VI"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "pageId": "273405"
+}

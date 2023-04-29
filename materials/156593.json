@@ -1,0 +1,165 @@
+{
+ "iconPath": "25f010a94313a76916f56b1491cb7535985dc5bcfa1c1fb0f3794144d3a01776",
+ "name": "Longevity Pill of Cruelty",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 156593,
+  "type": 502,
+  "purposeId": 10,
+  "iconPath": "25f010a94313a76916f56b1491cb7535985dc5bcfa1c1fb0f3794144d3a01776",
+  "name": "Longevity Pill of Cruelty",
+  "desc": "Upon use, increases Max HP of all allies by <nobr>20%</nobr> and Effect RES by 6% in the next 3 battles.",
+  "lore": "A medicine exclusive to the Xianzhou Yaoqing, said to have the effect of improving overall fitness and rendering those who take it immune to all diseases for a short period of time.<br />On the Yaoqing, legend holds that a healer who went by the name of Yu fell in love with a Foxian trader girl. But the Vidyadhara race could live for a thousand years, much longer than the Foxians. Yu searched for ways to release his lover from the grip of death. He fell for the trickery of the Disciples of Sanctus Medicus and asked his lover to take the longevity medicine of the Abundance without telling her what it was. The Foxian girl turned into an abomination that no longer loved him before being slain by the Cloud Knights. To prevent Yu, who was overwhelmed by grief, from becoming mara-struck, the Alchemy Commission ordered him to take the Longevity Pill of Cruelty that deprived him of love and desire until his demise.<br />The legend has another version, in which Yu was not of the Vidyadhara race but a mere mortal, and the Foxian girl was a spy planted by the Disciples to infiltrate the Alchemy Commission. This version is not as popular, for it turns a romance story into a power struggle.<br /><br />\"Longevity is a curse when life is deprived of passion and desire.\"",
+  "purpose": "Consumables",
+  "rarity": 4,
+  "rewardPath": "/material/156593",
+  "comeFrom": [
+   "All-in-One Synthesis Machine"
+  ]
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "0e76659bbb3b9d0b1cc6a4e0e8c63a576c7b917f2f740a4b1b8ceab260a8a595",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards"
+   ]
+  },
+  "72014": {
+   "id": 72014,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "0e478e8e79698ab7512128e32bb7be826d4a6b311e36bf0196220b15dc6d4b20",
+   "name": "Hard Chip of Nihility",
+   "desc": "Tier 3 Synthesis Material",
+   "lore": "A chip made of iron that seems to possess the power of the Nihility.<br />It may have been a coin that people use to buy things.<br />But apparently, as the engravings on it fade away, its value went with them.<br /><br />\"I don't know what I'm writing between these quotation marks. What's the point of this item description? My life is meaningless, so is this piece of flavor text.\"",
+   "purpose": "Synthesis material",
+   "rarity": 3,
+   "rewardPath": "/material/72014",
+   "comeFrom": [
+    "Rivet Town: Imaginary Weavers or other enemies"
+   ]
+  },
+  "155955": {
+   "id": 155955,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "ff86188be988bda41cc33df8e66de42fe7d91a7f2f04a34810080ebf68c8aa2a",
+   "name": "Preservation Construction Material",
+   "desc": "Tier 3 Synthesis Material",
+   "lore": "Construction materials that seem to possess the power of the Preservation.<br />When mixed with water it forms a paste, when exposed to air it turns rock-hard.<br />Please do not use together with Solid Water.<br /><br />\"I regret to say that Intelligentsia Guild's research on the material used to build the Subspace Crystalline Barrier by Amber Lord still needs time to reveal its nature.\"<br />\"I'm sure it's not cement \u2014 am I right, Taravan?\"",
+   "purpose": "Synthesis material",
+   "rarity": 3,
+   "rewardPath": "/material/155955",
+   "comeFrom": [
+    "Corridor of Fading Echoes: Everwinter Shadewalkers or other enemies"
+   ]
+  },
+  "156725": {
+   "id": 156725,
+   "type": 507,
+   "purposeId": 19,
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: Longevity Pill of Cruelty",
+   "desc": "A simple equation. When entered into the Synthesizer, it will unlock a new recipe.",
+   "lore": "",
+   "purpose": "Recipe",
+   "rarity": 4,
+   "rewardPath": "/material/156725",
+   "comeFrom": []
+  },
+  "272534": {
+   "id": 272534,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "5db97bdea9c76ccfce23e02737cd906c0dd066dd18fef2935c7e5e0617770096",
+   "name": "Seed",
+   "desc": "Tier 1 Synthesis Material",
+   "lore": "Reproductive unit unique to plants.<br />Most of them symbolize life, some of them taste pretty good.<br /><br />\"Sow in the spring, harvest in the Autumn.\"",
+   "purpose": "Synthesis material",
+   "rarity": 1,
+   "rewardPath": "/material/272534",
+   "comeFrom": [
+    "Found in destructible objects in Jarilo-VI",
+    "Grocery Stand"
+   ]
+  },
+  "440579": {
+   "id": 440579,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "c2c0c181db42dcfcb2b6d8cc2ad0b69cb38b87fb661dec642104a76a6b6fb311",
+   "name": "Interdimensional Leaf",
+   "desc": "Tier 4 Synthesis Material",
+   "lore": "The gravity of the planet Arivanta is not fixed. Rather, it changes all the time according to a Bode plot due to the influence of Arivanta's three moons. Ordinary life forms cannot survive such volatility, so the planet developed its unique eco-system, in which the herbal plant Interdimensional Tree is the most famous.<br />For plants in a world where gravity is constantly subject to change, their leaves often have a hard time landing on the planet's ancient and solid ground. It is for this reason that the Interdimensional Trees tend to shake off their leaves rather late in the year. To help their leaves land, these trees, in the course of evolution, gave their leaves the ability to conduct fast short-distance warp-jumps towards the ground at frequencies that cannot be observed by naked eyes. Even so, not every leaf gets to land on the ground. Those lucky enough to make it watch others rise into the sky and burn as they are devoured by the atmosphere.<br /><br />\"Wow.\"",
+   "purpose": "Synthesis material",
+   "rarity": 4,
+   "rewardPath": "/material/440579",
+   "comeFrom": [
+    "Cloudford: Mara-Struck Soldiers or other enemies"
+   ]
+  },
+  "757713": {
+   "id": 757713,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "e939622ff07310220b4ae6be382615a1ef5a34b0a8830a21e5e2fd2ed6129a30",
+   "name": "Ambergris of Abundance",
+   "desc": "Tier 3 Synthesis Material",
+   "lore": "Jelly-like substance that contains the power of Abundance.<br />Firm but not stiff, with notes of fragrance, it fills your heart with hope the moment it touches your fingertip.<br />Do not ask what it's made of.<br /><br />\"It gives you longevity and abundance, dispelling misfortune and illness.\"",
+   "purpose": "Synthesis material",
+   "rarity": 3,
+   "rewardPath": "/material/757713",
+   "comeFrom": [
+    "Cloudford: Mara-Struck Soldiers or other enemies"
+   ]
+  }
+ },
+ "composeData": [
+  {
+   "items": [
+    {
+     "id": 272534,
+     "count": 5
+    },
+    {
+     "id": 757713,
+     "count": 2
+    },
+    {
+     "id": 72014,
+     "count": 2
+    },
+    {
+     "id": 155955,
+     "count": 2
+    },
+    {
+     "id": 440579,
+     "count": 1
+    },
+    {
+     "id": 156725,
+     "count": 1
+    }
+   ],
+   "tag": {
+    "name": "Defense Consumables",
+    "type": "Consumables",
+    "icon": "afe47a40c1361649152476b603185f0ffb4b55c17408e2629a1489e38daf70a5"
+   }
+  }
+ ],
+ "pageId": "156593"
+}

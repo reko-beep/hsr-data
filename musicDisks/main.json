@@ -1,0 +1,600 @@
+{
+ "entries": [
+  {
+   "iconPath": "0ef04da3183a898840aa77c2c3e4f8f1c1480618230d13c9105429b55628e837",
+   "name": "\"Dawn of Disaster\"",
+   "rarity": 3,
+   "purposeId": 20,
+   "itemReferences": {},
+   "pageId": "550496"
+  },
+  {
+   "iconPath": "0ef04da3183a898840aa77c2c3e4f8f1c1480618230d13c9105429b55628e837",
+   "name": "\"fReeStyLE\"",
+   "rarity": 3,
+   "purposeId": 20,
+   "itemReferences": {},
+   "pageId": "718378"
+  },
+  {
+   "iconPath": "0ef04da3183a898840aa77c2c3e4f8f1c1480618230d13c9105429b55628e837",
+   "name": "\"Crises\"",
+   "rarity": 3,
+   "purposeId": 20,
+   "itemReferences": {},
+   "pageId": "203491"
+  },
+  {
+   "iconPath": "0ef04da3183a898840aa77c2c3e4f8f1c1480618230d13c9105429b55628e837",
+   "name": "\"Weightless\"",
+   "rarity": 3,
+   "purposeId": 20,
+   "itemReferences": {},
+   "pageId": "433850"
+  },
+  {
+   "iconPath": "0ef04da3183a898840aa77c2c3e4f8f1c1480618230d13c9105429b55628e837",
+   "name": "\"Order\"",
+   "rarity": 3,
+   "purposeId": 20,
+   "itemReferences": {},
+   "pageId": "753472"
+  },
+  {
+   "iconPath": "0ef04da3183a898840aa77c2c3e4f8f1c1480618230d13c9105429b55628e837",
+   "name": "\"Kindling\"",
+   "rarity": 3,
+   "purposeId": 20,
+   "itemReferences": {},
+   "pageId": "636827"
+  },
+  {
+   "iconPath": "0ef04da3183a898840aa77c2c3e4f8f1c1480618230d13c9105429b55628e837",
+   "name": "\"Underground\"",
+   "rarity": 3,
+   "purposeId": 20,
+   "itemReferences": {},
+   "pageId": "921354"
+  },
+  {
+   "iconPath": "0ef04da3183a898840aa77c2c3e4f8f1c1480618230d13c9105429b55628e837",
+   "name": "\"Godfather\"",
+   "rarity": 3,
+   "purposeId": 20,
+   "itemReferences": {},
+   "pageId": "837413"
+  },
+  {
+   "iconPath": "0ef04da3183a898840aa77c2c3e4f8f1c1480618230d13c9105429b55628e837",
+   "name": "\"Frozen March\"",
+   "rarity": 3,
+   "purposeId": 20,
+   "itemReferences": {},
+   "pageId": "352300"
+  },
+  {
+   "iconPath": "0ef04da3183a898840aa77c2c3e4f8f1c1480618230d13c9105429b55628e837",
+   "name": "\"A Trap With No Return\"",
+   "rarity": 3,
+   "purposeId": 20,
+   "itemReferences": {},
+   "pageId": "268359"
+  },
+  {
+   "iconPath": "0ef04da3183a898840aa77c2c3e4f8f1c1480618230d13c9105429b55628e837",
+   "name": "\"Abjuration of the False God\"",
+   "rarity": 3,
+   "purposeId": 20,
+   "itemReferences": {},
+   "pageId": "552886"
+  },
+  {
+   "iconPath": "0ef04da3183a898840aa77c2c3e4f8f1c1480618230d13c9105429b55628e837",
+   "name": "\"Faded Sun\"",
+   "rarity": 3,
+   "purposeId": 20,
+   "itemReferences": {},
+   "pageId": "436241"
+  },
+  {
+   "iconPath": "0ef04da3183a898840aa77c2c3e4f8f1c1480618230d13c9105429b55628e837",
+   "name": "\"Ghost From the Past\"",
+   "rarity": 3,
+   "purposeId": 20,
+   "itemReferences": {},
+   "pageId": "490408"
+  },
+  {
+   "iconPath": "0ef04da3183a898840aa77c2c3e4f8f1c1480618230d13c9105429b55628e837",
+   "name": "\"Everwinter\"",
+   "rarity": 3,
+   "purposeId": 20,
+   "itemReferences": {},
+   "pageId": "406467"
+  },
+  {
+   "iconPath": "0ef04da3183a898840aa77c2c3e4f8f1c1480618230d13c9105429b55628e837",
+   "name": "\"Fate\"",
+   "rarity": 3,
+   "purposeId": 20,
+   "itemReferences": {},
+   "pageId": "753471"
+  },
+  {
+   "iconPath": "0ef04da3183a898840aa77c2c3e4f8f1c1480618230d13c9105429b55628e837",
+   "name": "\"Embers\"",
+   "rarity": 3,
+   "purposeId": 20,
+   "itemReferences": {},
+   "pageId": "636826"
+  },
+  {
+   "iconPath": "0ef04da3183a898840aa77c2c3e4f8f1c1480618230d13c9105429b55628e837",
+   "name": "\"Hearthfire\"",
+   "rarity": 3,
+   "purposeId": 20,
+   "itemReferences": {},
+   "pageId": "921353"
+  },
+  {
+   "iconPath": "0ef04da3183a898840aa77c2c3e4f8f1c1480618230d13c9105429b55628e837",
+   "name": "\"Warm Sun\"",
+   "rarity": 3,
+   "purposeId": 20,
+   "itemReferences": {},
+   "pageId": "837412"
+  },
+  {
+   "iconPath": "0ef04da3183a898840aa77c2c3e4f8f1c1480618230d13c9105429b55628e837",
+   "name": "\"Cumulus Formations\"",
+   "rarity": 3,
+   "purposeId": 20,
+   "itemReferences": {},
+   "pageId": "758853"
+  },
+  {
+   "iconPath": "0ef04da3183a898840aa77c2c3e4f8f1c1480618230d13c9105429b55628e837",
+   "name": "\"Ave Astra et Viator\"",
+   "rarity": 3,
+   "purposeId": 20,
+   "itemReferences": {},
+   "pageId": "875498"
+  },
+  {
+   "iconPath": "0ef04da3183a898840aa77c2c3e4f8f1c1480618230d13c9105429b55628e837",
+   "name": "\"Upon the Firmament\"",
+   "rarity": 3,
+   "purposeId": 20,
+   "itemReferences": {},
+   "pageId": "590971"
+  },
+  {
+   "iconPath": "0ef04da3183a898840aa77c2c3e4f8f1c1480618230d13c9105429b55628e837",
+   "name": "\"Exquisite Ingenuity\"",
+   "rarity": 3,
+   "purposeId": 20,
+   "itemReferences": {},
+   "pageId": "674912"
+  },
+  {
+   "iconPath": "0ef04da3183a898840aa77c2c3e4f8f1c1480618230d13c9105429b55628e837",
+   "name": "\"Anthropic Domain\"",
+   "rarity": 3,
+   "purposeId": 20,
+   "itemReferences": {},
+   "pageId": "390385"
+  },
+  {
+   "iconPath": "0ef04da3183a898840aa77c2c3e4f8f1c1480618230d13c9105429b55628e837",
+   "name": "\"Deerstalker\"",
+   "rarity": 3,
+   "purposeId": 20,
+   "itemReferences": {},
+   "pageId": "528493"
+  },
+  {
+   "iconPath": "0ef04da3183a898840aa77c2c3e4f8f1c1480618230d13c9105429b55628e837",
+   "name": "\"Lustrous Moonlight\"",
+   "rarity": 3,
+   "purposeId": 20,
+   "itemReferences": {},
+   "pageId": "645138"
+  },
+  {
+   "iconPath": "0ef04da3183a898840aa77c2c3e4f8f1c1480618230d13c9105429b55628e837",
+   "name": "\"Fabulous Foresight\"",
+   "rarity": 3,
+   "purposeId": 20,
+   "itemReferences": {},
+   "pageId": "758852"
+  },
+  {
+   "iconPath": "0ef04da3183a898840aa77c2c3e4f8f1c1480618230d13c9105429b55628e837",
+   "name": "\"Thundering Chariot\"",
+   "rarity": 3,
+   "purposeId": 20,
+   "itemReferences": {},
+   "pageId": "875497"
+  }
+ ],
+ "name": "UI_ITEMS_TAB_DISK",
+ "filterCategories": [
+  {
+   "name": "4\u2b50",
+   "group": "rarityChar",
+   "dataKey": "rarity",
+   "dataValue": 4,
+   "rarity": 4,
+   "type": 0
+  },
+  {
+   "name": "5\u2b50",
+   "group": "rarityChar",
+   "dataKey": "rarity",
+   "dataValue": 5,
+   "rarity": 5,
+   "type": 0
+  },
+  {
+   "name": "3\u2b50",
+   "group": "rarityEquipment",
+   "dataKey": "rarity",
+   "dataValue": 3,
+   "rarity": 3,
+   "type": 0
+  },
+  {
+   "name": "4\u2b50",
+   "group": "rarityEquipment",
+   "dataKey": "rarity",
+   "dataValue": 4,
+   "rarity": 4,
+   "type": 0
+  },
+  {
+   "name": "5\u2b50",
+   "group": "rarityEquipment",
+   "dataKey": "rarity",
+   "dataValue": 5,
+   "rarity": 5,
+   "type": 0
+  },
+  {
+   "name": "1\u2b50",
+   "group": "rarityMaterial",
+   "dataKey": "rarity",
+   "dataValue": 1,
+   "rarity": 1,
+   "type": 0
+  },
+  {
+   "name": "2\u2b50",
+   "group": "rarityMaterial",
+   "dataKey": "rarity",
+   "dataValue": 2,
+   "rarity": 2,
+   "type": 0
+  },
+  {
+   "name": "3\u2b50",
+   "group": "rarityMaterial",
+   "dataKey": "rarity",
+   "dataValue": 3,
+   "rarity": 3,
+   "type": 0
+  },
+  {
+   "name": "4\u2b50",
+   "group": "rarityMaterial",
+   "dataKey": "rarity",
+   "dataValue": 4,
+   "rarity": 4,
+   "type": 0
+  },
+  {
+   "name": "5\u2b50",
+   "group": "rarityMaterial",
+   "dataKey": "rarity",
+   "dataValue": 5,
+   "rarity": 5,
+   "type": 0
+  },
+  {
+   "name": "Physical",
+   "group": "damageType",
+   "icon": "541166f5d3254a75e30a3263ab3ccad1c503085220a3bdb0f58f9893874eb111",
+   "dataKey": "damageTypeId",
+   "dataValue": 1,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "Fire",
+   "group": "damageType",
+   "icon": "f497912f929db891b819dc17d9c0124a9c13233f3e02be5b85192af534f17a3c",
+   "dataKey": "damageTypeId",
+   "dataValue": 2,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "Ice",
+   "group": "damageType",
+   "icon": "5f1b104c55cb14b081b2c004245c64dd39e94dd128a9880cd3a2efeb830170a1",
+   "dataKey": "damageTypeId",
+   "dataValue": 4,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "Lightning",
+   "group": "damageType",
+   "icon": "2494da0973fa611a4ff07798992cf2496faa89f7557b6713da75ee5d11eed2ba",
+   "dataKey": "damageTypeId",
+   "dataValue": 8,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "Wind",
+   "group": "damageType",
+   "icon": "547617e1b5c7374fde58450573bf7376fb2cee3079955e09f934fb822a6d5d11",
+   "dataKey": "damageTypeId",
+   "dataValue": 16,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "Quantum",
+   "group": "damageType",
+   "icon": "f67326acd380eb6b452659943906fa6248745b7d58d634b399307b028b9605c0",
+   "dataKey": "damageTypeId",
+   "dataValue": 32,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "Imaginary",
+   "group": "damageType",
+   "icon": "7a40dc5e267fd0b411f265237403a3408433f863d5d1b94b4a9d82e2bab33e32",
+   "dataKey": "damageTypeId",
+   "dataValue": 64,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "The Destruction",
+   "group": "baseTypeChar",
+   "icon": "10dae0df031160c29bace386a1220e539f2b5e13765cdd0f6d2a2143bca2755c",
+   "dataKey": "baseTypeId",
+   "dataValue": 1,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "The Hunt",
+   "group": "baseTypeChar",
+   "icon": "c66788e18b85100348634e29b364a9e96096bfcd10a9607ae873ceb817744d83",
+   "dataKey": "baseTypeId",
+   "dataValue": 2,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "The Erudition",
+   "group": "baseTypeChar",
+   "icon": "312ed1eeb6d329b90b5506b23fd487883f83124ccabedaf6cfafbb913d86c74c",
+   "dataKey": "baseTypeId",
+   "dataValue": 3,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "The Harmony",
+   "group": "baseTypeChar",
+   "icon": "aee7f899a278735eda2872652cca14dc6b4c74c9f5689a59bbf33fa00b64ed44",
+   "dataKey": "baseTypeId",
+   "dataValue": 4,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "The Nihility",
+   "group": "baseTypeChar",
+   "icon": "46809b2e4ea3502400dc31a9af1552ced0d5890b1b96f43ab9ac6fdc73fdd5f5",
+   "dataKey": "baseTypeId",
+   "dataValue": 5,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "The Preservation",
+   "group": "baseTypeChar",
+   "icon": "7ffdd2cf6f7c119724e700bbf531b0ff62f3f1e2c32159e1a1f2bc6c77416163",
+   "dataKey": "baseTypeId",
+   "dataValue": 6,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "The Abundance",
+   "group": "baseTypeChar",
+   "icon": "352fe395cd8f2422b4d89b486957960b86537f34c4921383c1351aa6e34ee70a",
+   "dataKey": "baseTypeId",
+   "dataValue": 7,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "Herta Space Station",
+   "group": "bookSeriesWorld",
+   "icon": "059949bb507fe93b29748aa40f4cfa319019f9013409b39a7fcd8fa0aa602cfc",
+   "dataKey": "worldId",
+   "dataValue": 1,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "Jarilo-VI",
+   "group": "bookSeriesWorld",
+   "icon": "f74ffa769453472a8096959c2747fec3d57acfb6f4b067f1a554d7830a8730fe",
+   "dataKey": "worldId",
+   "dataValue": 2,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "The Xianzhou Luofu",
+   "group": "bookSeriesWorld",
+   "icon": "afa7c01b7344fa1faf275d16dce45e6905e2ae3c7e8a2fe87971eb0ef95523e1",
+   "dataKey": "worldId",
+   "dataValue": 3,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "Character EXP Material",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 1,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "Character Ascension Materials",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 2,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "Trace Material Light Cone Ascension Material",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 3,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "Trace Materials",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 4,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "Light Cone EXP Material",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 5,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "Relic EXP Material",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 6,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "Trace Material Character Ascension Materials",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 7,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "Warp Item",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 8,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "Limited Warp Item",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 9,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "Consumable",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 10,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "Common currency",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 11,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "Rare currency",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 12,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "World currency",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 13,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "Valuable object",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 14,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "Relic Coffret",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 15,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "Synthesis material",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 17,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "Recipe",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 19,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "UI_HOME_SEARCH",
+   "group": "genericSearch",
+   "dataKey": "name",
+   "dataValue": 0,
+   "rarity": 0,
+   "type": 1
+  }
+ ]
+}

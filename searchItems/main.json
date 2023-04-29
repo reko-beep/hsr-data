@@ -1,0 +1,3973 @@
+{
+ "entries": [
+  {
+   "url": "character/mar7th",
+   "name": "March 7th",
+   "iconPath": "ffcd4f65588b0d7103a41e71f375a404f57597e6fecec282b79f167c70ecccf5",
+   "type": 0,
+   "rarity": 4
+  },
+  {
+   "url": "character/danheng",
+   "name": "Dan Heng",
+   "iconPath": "767b0693fbb4caa2c7d3a40b1b80636aea3e0f9357bb0b7f363d808230d92c51",
+   "type": 0,
+   "rarity": 4
+  },
+  {
+   "url": "character/himeko",
+   "name": "Himeko",
+   "iconPath": "cc3a5cff4b9aed0e18c927e60cb25fe51144fa8f25477da99f27f514fa956b65",
+   "type": 0,
+   "rarity": 5
+  },
+  {
+   "url": "character/welt",
+   "name": "Welt",
+   "iconPath": "2b3a25ef0c12e85b5e78c78b5f08a03e745d7b2e35c5ca564c1d1d96bcd7688b",
+   "type": 0,
+   "rarity": 5
+  },
+  {
+   "url": "character/kafka",
+   "name": "Kafka",
+   "iconPath": "490fd18d97462b88b6559e735b6f696745cd72dc3f43879dd90940f50ded9f80",
+   "type": 0,
+   "rarity": 5
+  },
+  {
+   "url": "character/silverwolf",
+   "name": "Silver Wolf",
+   "iconPath": "1f47684f58cea2223830cdec14081d5677e9fe083a200b9ddad6a09c4aa17fd0",
+   "type": 0,
+   "rarity": 5
+  },
+  {
+   "url": "character/arlan",
+   "name": "Arlan",
+   "iconPath": "4cddd180d1802750591c017f12dfd28755697e3cd821bf7fa31f8111411ef008",
+   "type": 0,
+   "rarity": 4
+  },
+  {
+   "url": "character/asta",
+   "name": "Asta",
+   "iconPath": "dce21bb3c06f264b6acc9af0d1fa60873e65fd2a5ab2f217aa80328022eaa78a",
+   "type": 0,
+   "rarity": 4
+  },
+  {
+   "url": "character/herta",
+   "name": "Herta",
+   "iconPath": "ddbd1e68b252839f7338ad8410b2a8291ebe9fc416e61dbe9f94d5303206b1dd",
+   "type": 0,
+   "rarity": 4
+  },
+  {
+   "url": "character/bronya",
+   "name": "Bronya",
+   "iconPath": "8ac0c4431202cbbafa651660036fa49a15e1c14ca2674c18e9a60ee904db31ca",
+   "type": 0,
+   "rarity": 5
+  },
+  {
+   "url": "character/seele",
+   "name": "Seele",
+   "iconPath": "ad793ee91085bfdc5c1c60934bb86df7fcf344a91de8b5ba3141a6655901b579",
+   "type": 0,
+   "rarity": 5
+  },
+  {
+   "url": "character/serval",
+   "name": "Serval",
+   "iconPath": "af2dda50f7907c178345610d7b71de325aa634a392f2856ec630f52954ad6724",
+   "type": 0,
+   "rarity": 4
+  },
+  {
+   "url": "character/gepard",
+   "name": "Gepard",
+   "iconPath": "cff242d83528bc8051b118c1a90ec6a5d6f63091acfaf0e139e8ba0532715f6e",
+   "type": 0,
+   "rarity": 5
+  },
+  {
+   "url": "character/natasha",
+   "name": "Natasha",
+   "iconPath": "92a851f74199ca6d556563dd70b88d91220f3f2f542e513279f29db8bb8106f9",
+   "type": 0,
+   "rarity": 4
+  },
+  {
+   "url": "character/pela",
+   "name": "Pela",
+   "iconPath": "164282638a1cce9537aefc54264a353ae058b92cac1828ac995abe49f8259a8e",
+   "type": 0,
+   "rarity": 4
+  },
+  {
+   "url": "character/clara",
+   "name": "Clara",
+   "iconPath": "f6809c62b85e05914e3507624eabb1939109f9c38f1fde352626f54888cfcba2",
+   "type": 0,
+   "rarity": 5
+  },
+  {
+   "url": "character/sampo",
+   "name": "Sampo",
+   "iconPath": "f4b35a0b3ac81dab0e3384e0736f95068b7ca3130ae1df5b0cb916db3b7ea377",
+   "type": 0,
+   "rarity": 4
+  },
+  {
+   "url": "character/hook",
+   "name": "Hook",
+   "iconPath": "4582bff28b6c956723cf4a3d72725a1ee68de806da5f54e543d697a397503541",
+   "type": 0,
+   "rarity": 4
+  },
+  {
+   "url": "character/qingque",
+   "name": "Qingque",
+   "iconPath": "518a90b3238644f143c3aa92838ea918c17b79b89f5c80503e608c1fd3f9bfa1",
+   "type": 0,
+   "rarity": 4
+  },
+  {
+   "url": "character/tingyun",
+   "name": "Tingyun",
+   "iconPath": "cac6913dde5736f954cac07f8420bfb6254a619e0ee465d407947973004ddda5",
+   "type": 0,
+   "rarity": 4
+  },
+  {
+   "url": "character/luocha",
+   "name": "Luocha",
+   "iconPath": "55817a6d6a91bb49553ddee399c5489167d633977596e74cb5293bfcca0da751",
+   "type": 0,
+   "rarity": 5
+  },
+  {
+   "url": "character/jingyuan",
+   "name": "Jing Yuan",
+   "iconPath": "1992ce35189fdd378ea28ab9b798a4da202c5dc362ca74afbfb05956902575bb",
+   "type": 0,
+   "rarity": 5
+  },
+  {
+   "url": "character/sushang",
+   "name": "Sushang",
+   "iconPath": "3aed4d7fdbe85d9f52d4c5d0dfcea6aac5acc9ec50af06aa486f8584ae5b3299",
+   "type": 0,
+   "rarity": 4
+  },
+  {
+   "url": "character/yanqing",
+   "name": "Yanqing",
+   "iconPath": "399deabff741710c511cf291ef46a6749285c60f146c7acd5a8d581c2dc46fa3",
+   "type": 0,
+   "rarity": 5
+  },
+  {
+   "url": "character/bailu",
+   "name": "Bailu",
+   "iconPath": "749852f92a751191414c160b078ff0d9a298924515a85e93b3f2a99758ae88ae",
+   "type": 0,
+   "rarity": 5
+  },
+  {
+   "url": "character/playerboy",
+   "name": "Trailblazer",
+   "iconPath": "5089e473e31d0b24e67cec3546cfd4e3c5fb40d982eab9560134c6ecd6aedaf9",
+   "type": 0,
+   "rarity": 5
+  },
+  {
+   "url": "character/playergirl",
+   "name": "Trailblazer",
+   "iconPath": "b986cea1eea406367b330789022d63877567bac48a65d659da75fd795e8f7dda",
+   "type": 0,
+   "rarity": 5
+  },
+  {
+   "url": "character/playerboy2",
+   "name": "Trailblazer",
+   "iconPath": "54ef6bb2a396a11466b4997c1d854e76ad86e41800682d634fa0e99a26f5adaa",
+   "type": 0,
+   "rarity": 5
+  },
+  {
+   "url": "character/playergirl2",
+   "name": "Trailblazer",
+   "iconPath": "eed775dba2c173e43028cdeab0773a091b2d1beb5a4841f0fb1f816eca4fd0fe",
+   "type": 0,
+   "rarity": 5
+  },
+  {
+   "url": "lightcone/20000",
+   "name": "Arrows",
+   "iconPath": "c6f40a38c08af9b8a029fb6eba3194ecb3ef6046052350dfea11fb4bd147f022",
+   "type": 1,
+   "rarity": 3
+  },
+  {
+   "url": "lightcone/20001",
+   "name": "Cornucopia",
+   "iconPath": "aece7f7ff82f6b25759cc7f2fac5c6f6122caf9fb3d70cb119005b9d0a700867",
+   "type": 1,
+   "rarity": 3
+  },
+  {
+   "url": "lightcone/20002",
+   "name": "Collapsing Sky",
+   "iconPath": "17fddcf3643b03d56cea887150680fb2163b6711b5a12d5bdf8199cd66f011d0",
+   "type": 1,
+   "rarity": 3
+  },
+  {
+   "url": "lightcone/20003",
+   "name": "Amber",
+   "iconPath": "296d5d96702c53ba00eaecbc4798c7b484057b2a5ae92a1bb1af5a4cd27d3158",
+   "type": 1,
+   "rarity": 3
+  },
+  {
+   "url": "lightcone/20004",
+   "name": "Void",
+   "iconPath": "5642254b3bcf6ce3e5bf53cf8b590f358da2f8a575681221bf079c6a44a460e4",
+   "type": 1,
+   "rarity": 3
+  },
+  {
+   "url": "lightcone/20005",
+   "name": "Chorus",
+   "iconPath": "355cedd2ebf13edb19c1646277663ebc12a72a613cf3e5032c875fa35131db38",
+   "type": 1,
+   "rarity": 3
+  },
+  {
+   "url": "lightcone/20006",
+   "name": "Data Bank",
+   "iconPath": "e97f9d673be927b03df7da4e4b2bc29f764c45ea23737e7f4fa77f0448b69907",
+   "type": 1,
+   "rarity": 3
+  },
+  {
+   "url": "lightcone/20007",
+   "name": "Darting Arrow",
+   "iconPath": "618d559fc90972bcad57bcf11ba5ee296895d580963c383b077218ac6b5ac35c",
+   "type": 1,
+   "rarity": 3
+  },
+  {
+   "url": "lightcone/20008",
+   "name": "Fine Fruit",
+   "iconPath": "7c76063ab0e5b2ce0d8ccfc1ec1ba7eae0e51b4f3af070ce88d07611b68aab08",
+   "type": 1,
+   "rarity": 3
+  },
+  {
+   "url": "lightcone/20009",
+   "name": "Shattered Home",
+   "iconPath": "a229598642066f42a7be480584ed03e12b000744080f4b4cbad7785f5453bba3",
+   "type": 1,
+   "rarity": 3
+  },
+  {
+   "url": "lightcone/20010",
+   "name": "Defense",
+   "iconPath": "ce043c4821f233e294ec39edd93e7178d3658e7c7f1bd419b56a443ec110cb32",
+   "type": 1,
+   "rarity": 3
+  },
+  {
+   "url": "lightcone/20011",
+   "name": "Loop",
+   "iconPath": "ce68d0c4da4814e00bc49bcb1f687449a522737b9df3a8b52a0158c9d844a58e",
+   "type": 1,
+   "rarity": 3
+  },
+  {
+   "url": "lightcone/20012",
+   "name": "Meshing Cogs",
+   "iconPath": "56a38064d87b335b2bb2699e8a8eb70395c13aa70cde009ef5c7776f8c356aab",
+   "type": 1,
+   "rarity": 3
+  },
+  {
+   "url": "lightcone/20013",
+   "name": "Passkey",
+   "iconPath": "ce2c46a2bd53676d8c4c9d29f5e474eb38fd87d4f2721db62df2fbec16e01b44",
+   "type": 1,
+   "rarity": 3
+  },
+  {
+   "url": "lightcone/20014",
+   "name": "Adversarial",
+   "iconPath": "848a049d2354c1f77ac6762b2d3376cc80ee276fc9f9bf57aef0e8a8c666c535",
+   "type": 1,
+   "rarity": 3
+  },
+  {
+   "url": "lightcone/20015",
+   "name": "Multiplication",
+   "iconPath": "648dce7f005ac090148fbb9476aa2f47c8995c2d8caa486e1b72dd159437336a",
+   "type": 1,
+   "rarity": 3
+  },
+  {
+   "url": "lightcone/20016",
+   "name": "Mutual Demise",
+   "iconPath": "8a4f9e4cbf341d8ea7f5f446a8cff63edda8db06feefefa95f3bdb2bb54278c1",
+   "type": 1,
+   "rarity": 3
+  },
+  {
+   "url": "lightcone/20017",
+   "name": "Pioneering",
+   "iconPath": "08fa6a67e0350820177ad9229d1c936a85bcca3ad67436cd60b511ee4f7544a1",
+   "type": 1,
+   "rarity": 3
+  },
+  {
+   "url": "lightcone/20018",
+   "name": "Hidden Shadow",
+   "iconPath": "e7c0c99e2e2cae9ce8bdab27f648fa0f7fa00d14ee15f98460b423020c74e350",
+   "type": 1,
+   "rarity": 3
+  },
+  {
+   "url": "lightcone/20019",
+   "name": "Mediation",
+   "iconPath": "5ecf5d21966ea38bb3ece174a5847b71ddaa9f9b327ce4bedaa1ac319dbf358e",
+   "type": 1,
+   "rarity": 3
+  },
+  {
+   "url": "lightcone/20020",
+   "name": "Sagacity",
+   "iconPath": "2918d0650e88aa10d220cd3289544540a184ba51d40c91ded44cc421d207bc73",
+   "type": 1,
+   "rarity": 3
+  },
+  {
+   "url": "lightcone/21000",
+   "name": "Post-Op Conversation",
+   "iconPath": "c5b214212b1db9ee497d25ec04b02576d1857ed2dd39ebac656ab8a1bfa1bb69",
+   "type": 1,
+   "rarity": 4
+  },
+  {
+   "url": "lightcone/21001",
+   "name": "Good Night and Sleep Well",
+   "iconPath": "120b247009c9656da9bdbcca8d3d99d8eb36ba9d35ad8dd3b08b535db30db80d",
+   "type": 1,
+   "rarity": 4
+  },
+  {
+   "url": "lightcone/21002",
+   "name": "Day One of My New Life",
+   "iconPath": "c2e20657ed52e6ecb34febf581d627f4d6a394854fd8ba3301f2a0af16d927ea",
+   "type": 1,
+   "rarity": 4
+  },
+  {
+   "url": "lightcone/21003",
+   "name": "Only Silence Remains",
+   "iconPath": "4db9a8d9accd05d8334fdc4eeae8e4a0f828723cf1de98f3bd1a0fa38e0a2262",
+   "type": 1,
+   "rarity": 4
+  },
+  {
+   "url": "lightcone/21004",
+   "name": "Memories of the Past",
+   "iconPath": "ab2e42bfac5438196efd4340017a4428dc4cb391e1e51d7b16ace98c4deed3e0",
+   "type": 1,
+   "rarity": 4
+  },
+  {
+   "url": "lightcone/21005",
+   "name": "The Moles Welcome You",
+   "iconPath": "1438f682f950a421e8e52b633c3a923e00677229586fa59be0eacb3d64bec04b",
+   "type": 1,
+   "rarity": 4
+  },
+  {
+   "url": "lightcone/21006",
+   "name": "The Birth of the Self",
+   "iconPath": "62d92d4759fb218f1f544f44c149e726b0e029d8c23d839e8c3083bbbd3428e4",
+   "type": 1,
+   "rarity": 4
+  },
+  {
+   "url": "lightcone/21007",
+   "name": "Shared Feeling",
+   "iconPath": "517600238394cdbd5d39888120805209b670325dfcfca43b03af17c701f6c576",
+   "type": 1,
+   "rarity": 4
+  },
+  {
+   "url": "lightcone/21008",
+   "name": "Eyes of the Prey",
+   "iconPath": "16fc110a4846027c8ea0654178b1262d554c465c092dfd8e0608eea362f05be8",
+   "type": 1,
+   "rarity": 4
+  },
+  {
+   "url": "lightcone/21009",
+   "name": "Landau's Choice",
+   "iconPath": "f7315eef452c093475a620ffd48550e682ff880641a61b440e10a8cde8e7552c",
+   "type": 1,
+   "rarity": 4
+  },
+  {
+   "url": "lightcone/21010",
+   "name": "Swordplay",
+   "iconPath": "09017ba4ae5694fc300f9812149618f264af8ad38b8a7c918da9a5d5b1aca551",
+   "type": 1,
+   "rarity": 4
+  },
+  {
+   "url": "lightcone/21011",
+   "name": "Planetary Rendezvous",
+   "iconPath": "a41907c35b20d73063735d0d14e4275f5cd8571bb69f0223fa706f49e63d935a",
+   "type": 1,
+   "rarity": 4
+  },
+  {
+   "url": "lightcone/21012",
+   "name": "A Secret Vow",
+   "iconPath": "8dbd150ab2e1b6e0409338b255272350d1c9aae5eb53fbe0eec564e4ccd672ab",
+   "type": 1,
+   "rarity": 4
+  },
+  {
+   "url": "lightcone/21014",
+   "name": "Perfect Timing",
+   "iconPath": "670e55b088eb71d6237a2065cb2d32b28a006c2d241c6b9150f8c924c7334b6c",
+   "type": 1,
+   "rarity": 4
+  },
+  {
+   "url": "lightcone/21015",
+   "name": "Resolution Shines As Pearls of Sweat",
+   "iconPath": "7a4dee4fdd0b6acdeef19c646af6284e95a0d65f4d75aa47276fbc0436655b7a",
+   "type": 1,
+   "rarity": 4
+  },
+  {
+   "url": "lightcone/21016",
+   "name": "Trend of the Universal Market",
+   "iconPath": "b2c47a05f8a13b423a16c8d3f4389b6f991cbfb6e3f619bf4a74e08fa018d0aa",
+   "type": 1,
+   "rarity": 4
+  },
+  {
+   "url": "lightcone/21017",
+   "name": "Subscribe for More!",
+   "iconPath": "ae58dcc97625b0e8a36073f923bacc6d3ec0badcf4f1087ed2721fa6ccb9fc38",
+   "type": 1,
+   "rarity": 4
+  },
+  {
+   "url": "lightcone/21021",
+   "name": "Quid Pro Quo",
+   "iconPath": "bcfa11f20db988541c83e319225dcb865a394c9c672c8f887a294cfea37dd97c",
+   "type": 1,
+   "rarity": 4
+  },
+  {
+   "url": "lightcone/21028",
+   "name": "Warmth Shortens Cold Nights",
+   "iconPath": "aface7f32cf26b1dc23248c44e9348566dd609fdcbb51b6926514d3edeed06d8",
+   "type": 1,
+   "rarity": 4
+  },
+  {
+   "url": "lightcone/23001",
+   "name": "In the Night",
+   "iconPath": "8140a05ece6e783f02642882f87073893e2b50633bbb7d4f51cb9ce4cc692ed0",
+   "type": 1,
+   "rarity": 5
+  },
+  {
+   "url": "lightcone/23003",
+   "name": "But the Battle Isn't Over",
+   "iconPath": "cece5d235c61858d14d477257f5dd467309bcc2590ee465b0f93bdda9335e2d9",
+   "type": 1,
+   "rarity": 5
+  },
+  {
+   "url": "lightcone/23004",
+   "name": "In the Name of the World",
+   "iconPath": "199429d56131ab7e1c1fb86147613628307b586e3b6b26ecc5d6c3d0a1e6c149",
+   "type": 1,
+   "rarity": 5
+  },
+  {
+   "url": "lightcone/23005",
+   "name": "Moment of Victory",
+   "iconPath": "dbf8d7176365570575a5dc2182846d3e84ffa03522137c1ec1d502ff67612be6",
+   "type": 1,
+   "rarity": 5
+  },
+  {
+   "url": "lightcone/23012",
+   "name": "Sleep Like the Dead",
+   "iconPath": "33c3d4d30df774ba408d9bca6da0866a11204c2de0d4e5520f5864c17618d80b",
+   "type": 1,
+   "rarity": 5
+  },
+  {
+   "url": "lightcone/23013",
+   "name": "Time Waits for No One",
+   "iconPath": "e4250b2f9a6e238646e989f9ec186d11be75b48ff11758025f47f2b14d0d6436",
+   "type": 1,
+   "rarity": 5
+  },
+  {
+   "url": "lightcone/24000",
+   "name": "On the Fall of an Aeon",
+   "iconPath": "d145da74911f5549ab569a0f034e34baa4e998f8327e814d10df604b4f5c4b18",
+   "type": 1,
+   "rarity": 5
+  },
+  {
+   "url": "lightcone/24001",
+   "name": "Cruising in the Stellar Sea",
+   "iconPath": "55020259d03d4da06f62e7a38648eb01cdc47e3cf1b6e3bce421e29cd1f463df",
+   "type": 1,
+   "rarity": 5
+  },
+  {
+   "url": "lightcone/24002",
+   "name": "Texture of Memories",
+   "iconPath": "fc8258b0bfd49682a8cd24e02e01c0d652b9052db066d52d53ba4d271123c9bf",
+   "type": 1,
+   "rarity": 5
+  },
+  {
+   "url": "lightcone/21013",
+   "name": "Make the World Clamor",
+   "iconPath": "08f83c3968090a56cb195ff4a272d7f19d952be6997bc7cf47e9e6060f0a539e",
+   "type": 1,
+   "rarity": 4
+  },
+  {
+   "url": "lightcone/23000",
+   "name": "Night on the Milky Way",
+   "iconPath": "9a14b8f28502cf5ceb4cb50e75ef11e332b6bf8b149b3fbbc2fb036168f45c88",
+   "type": 1,
+   "rarity": 5
+  },
+  {
+   "url": "lightcone/23010",
+   "name": "Before Dawn",
+   "iconPath": "c5dee3abeaa2b7d6e71705a8f00e50e7555eb582324213eff15ed805a55d9047",
+   "type": 1,
+   "rarity": 5
+  },
+  {
+   "url": "lightcone/21019",
+   "name": "Under the Blue Sky",
+   "iconPath": "f8ab6ec716da1a4fd72a6560372b8db60c51fef3d3c7df27e49fe6c59675d76a",
+   "type": 1,
+   "rarity": 4
+  },
+  {
+   "url": "lightcone/21020",
+   "name": "Geniuses' Repose",
+   "iconPath": "f1d758f76d351d45e689394bcb42b8c8bdfd6665d52c4377f4f9836a489fb05c",
+   "type": 1,
+   "rarity": 4
+  },
+  {
+   "url": "lightcone/21023",
+   "name": "We Are Wildfire",
+   "iconPath": "b9b2d14ff95435f8315755cfef7ba7a7c01ebb4ed367b95e724a42fe61eb8440",
+   "type": 1,
+   "rarity": 4
+  },
+  {
+   "url": "lightcone/21024",
+   "name": "River Flows in Spring",
+   "iconPath": "8b78d8f98b46a3c08affa1bb1b45c55bc76bfb4a859bef72685671d77cee598c",
+   "type": 1,
+   "rarity": 4
+  },
+  {
+   "url": "lightcone/21022",
+   "name": "Fermata",
+   "iconPath": "3b04d8d6f6ddcf141579874b4e025c24000221acf4d7defee285a0722446f651",
+   "type": 1,
+   "rarity": 4
+  },
+  {
+   "url": "lightcone/21026",
+   "name": "Woof! Walk Time!",
+   "iconPath": "edde98a3b72cb162122712f99681e701b8f34fb7c5668a4e0705fe6db15c04bb",
+   "type": 1,
+   "rarity": 4
+  },
+  {
+   "url": "lightcone/21027",
+   "name": "The Seriousness of Breakfast",
+   "iconPath": "89a780723d8e86fa2df5907689faf1496e6657fe490b0e96df72d3b0f0d5eef8",
+   "type": 1,
+   "rarity": 4
+  },
+  {
+   "url": "lightcone/21029",
+   "name": "We Will Meet Again",
+   "iconPath": "4477f1462bc0722af15705669cd973255099b95a1f7c36f58ba91c021439a1f4",
+   "type": 1,
+   "rarity": 4
+  },
+  {
+   "url": "lightcone/21030",
+   "name": "This Is Me!",
+   "iconPath": "cecf6704fd0a30e0e7d2ae46b4cd743ed94f347ad34e9f1e4b5a882e0a19b032",
+   "type": 1,
+   "rarity": 4
+  },
+  {
+   "url": "lightcone/21031",
+   "name": "Return to Darkness",
+   "iconPath": "659d2259f7ad6ff3dffded3db1d4f2f2f48cf637d43285633f856a657f376a79",
+   "type": 1,
+   "rarity": 4
+  },
+  {
+   "url": "lightcone/21032",
+   "name": "Carve the Moon, Weave the Clouds",
+   "iconPath": "0a503b994b5072a87ac5159632f0e30289601632e4c0c10afac8070a569e95bc",
+   "type": 1,
+   "rarity": 4
+  },
+  {
+   "url": "lightcone/21033",
+   "name": "Nowhere to Run",
+   "iconPath": "9a5989e695e79a083de5aa398b731835bf7b94076d8faf4610db9ee85bde576c",
+   "type": 1,
+   "rarity": 4
+  },
+  {
+   "url": "lightcone/21034",
+   "name": "Today Is Another Peaceful Day",
+   "iconPath": "0ea53ab2fe661e5ef5b70541b6ad835f9dbee0a1bb2f6a2a835b7d9c9a39042b",
+   "type": 1,
+   "rarity": 4
+  },
+  {
+   "url": "lightcone/23002",
+   "name": "Something Irreplaceable",
+   "iconPath": "6055da303bb75b0bd788ff1f7c95eed8bbde4bc2ba24805df60eb0ce633d2dad",
+   "type": 1,
+   "rarity": 5
+  },
+  {
+   "url": "lightcone/21018",
+   "name": "Dance! Dance! Dance!",
+   "iconPath": "a81b6edfe45162eeb38bb9cacea96d337b7b6f4f4e4bd849742d643db4b919bf",
+   "type": 1,
+   "rarity": 4
+  },
+  {
+   "url": "lightcone/21025",
+   "name": "Past and Future",
+   "iconPath": "3f04a75ad5633c8f4ce3acdd5539d6c5710f22328b5ac6b6740da50491964c03",
+   "type": 1,
+   "rarity": 4
+  },
+  {
+   "url": "relics/101",
+   "name": "Passerby of Wandering Cloud",
+   "iconPath": "4572d979d27faa81ae07050fd777b65e7ad6e293fa40303c3eae2fbd18c60aee",
+   "type": 2,
+   "rarity": 5
+  },
+  {
+   "url": "relics/102",
+   "name": "Musketeer of Wild Wheat",
+   "iconPath": "121a65d8ba9ed102ed5e4186970c2a5543facd2fd9dd6551cac82e0c0b54dbde",
+   "type": 2,
+   "rarity": 5
+  },
+  {
+   "url": "relics/103",
+   "name": "Knight of Purity Palace",
+   "iconPath": "1abd2de49fe9971a1a5aa0d3d80e595785635d0e0d51666160c821ddfe205105",
+   "type": 2,
+   "rarity": 5
+  },
+  {
+   "url": "relics/104",
+   "name": "Hunter of Glacial Forest",
+   "iconPath": "70456333828f6e1d48741b77983a8465f38a751c388cebecff2b59a83cc00e21",
+   "type": 2,
+   "rarity": 5
+  },
+  {
+   "url": "relics/105",
+   "name": "Champion of Streetwise Boxing",
+   "iconPath": "7a3c23b747faa58bfe3cc64383e4914be65ab64d56e1e906f391bcd398306fcd",
+   "type": 2,
+   "rarity": 5
+  },
+  {
+   "url": "relics/106",
+   "name": "Guard of Wuthering Snow",
+   "iconPath": "5387b9eece909d074da7ce98479d53c957c019f5653ab5cd62071026d78f9440",
+   "type": 2,
+   "rarity": 5
+  },
+  {
+   "url": "relics/107",
+   "name": "Firesmith of Lava-Forging",
+   "iconPath": "4e1b9c5acb703068e9f801a1346f839f36b9e1b2116fe7c0d893c73141fbf96d",
+   "type": 2,
+   "rarity": 5
+  },
+  {
+   "url": "relics/108",
+   "name": "Genius of Brilliant Stars",
+   "iconPath": "01ff058abcb56326a11be25c95871633d466e099d5709daf863695cbe9a94729",
+   "type": 2,
+   "rarity": 5
+  },
+  {
+   "url": "relics/109",
+   "name": "Band of Sizzling Thunder",
+   "iconPath": "b7b20a8282eb8d6045208a7e35dff5a8fa5c1d8aaffa02e9c76d576ff65033b4",
+   "type": 2,
+   "rarity": 5
+  },
+  {
+   "url": "relics/110",
+   "name": "Eagle of Twilight Line",
+   "iconPath": "3b01acc8fcf8d38b88f6146eb5a882f4adef67ad4b25d359bb5ee31e258037d6",
+   "type": 2,
+   "rarity": 5
+  },
+  {
+   "url": "relics/111",
+   "name": "Thief of Shooting Meteor",
+   "iconPath": "51a481ff9141faba4f8141c4e0c4f93e9b747b483dac0f673cc4b8b0f21ba9d6",
+   "type": 2,
+   "rarity": 5
+  },
+  {
+   "url": "relics/112",
+   "name": "Wastelander of Banditry Desert",
+   "iconPath": "8f83c05bff62fee55a1e33e4f84eb24c758b745cfea48920170bf0811e86872e",
+   "type": 2,
+   "rarity": 5
+  },
+  {
+   "url": "relics/301",
+   "name": "Space Sealing Station",
+   "iconPath": "c5aad3c155e119e2e175b097e7912c1a74cf758534fa44294c63a575c7f55a76",
+   "type": 2,
+   "rarity": 5
+  },
+  {
+   "url": "relics/302",
+   "name": "Fleet of the Ageless",
+   "iconPath": "d3531db70ba1031ef6cf5fb925d63711fb3e47b689e452dae1505fe25d47343b",
+   "type": 2,
+   "rarity": 5
+  },
+  {
+   "url": "relics/303",
+   "name": "Pan-Galactic Commercial Enterprise",
+   "iconPath": "9df9239633c0b285c13d23a9f4da4bd33fe6318a10955ff265f560a1e54052f6",
+   "type": 2,
+   "rarity": 5
+  },
+  {
+   "url": "relics/304",
+   "name": "Belobog of the Architects",
+   "iconPath": "5b8e8b61c45c44cf07bc14f7eddd33e32ea8761627aab1052979c83a7bb326ed",
+   "type": 2,
+   "rarity": 5
+  },
+  {
+   "url": "relics/305",
+   "name": "Celestial Differentiator",
+   "iconPath": "96b6ac2607c4b7ab5ae14ca6132d19d27b448f2eecca85bc5d4f16aea0957640",
+   "type": 2,
+   "rarity": 5
+  },
+  {
+   "url": "relics/306",
+   "name": "Inert Salsotto",
+   "iconPath": "c3df329c6926cc79122e1428b77166f45bffcafaae212565eed0effe766e4003",
+   "type": 2,
+   "rarity": 5
+  },
+  {
+   "url": "relics/307",
+   "name": "Talia: Kingdom of Banditry",
+   "iconPath": "ecf141fb92ccea612ae84be895512df9f52eb9cdc28babd4560c1a76064896e1",
+   "type": 2,
+   "rarity": 5
+  },
+  {
+   "url": "relics/308",
+   "name": "Sprightly Vonwacq",
+   "iconPath": "89f5c282838fae9425e1b4eb92aba28ba135ae1f09591fcd21ec836e3b6d321c",
+   "type": 2,
+   "rarity": 5
+  },
+  {
+   "url": "book/29325",
+   "name": "Floriography Manual Attached to a Bouquet",
+   "iconPath": "eedd69791825aae6ec8afe50d7ee82de0c23cabd752daad49972af7ebde46407",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/29328",
+   "name": "Remnants of a Barista's Handbook",
+   "iconPath": "405319a2f549be8628150bdc7e35362215fa60e6cfa5794f4e2ed15b4ed1340f",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/29327",
+   "name": "Miner's Safety Manual",
+   "iconPath": "eedd69791825aae6ec8afe50d7ee82de0c23cabd752daad49972af7ebde46407",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/29322",
+   "name": "Solwarm Festival Celebration Plans",
+   "iconPath": "405319a2f549be8628150bdc7e35362215fa60e6cfa5794f4e2ed15b4ed1340f",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/29321",
+   "name": "Mining Equipment Order List",
+   "iconPath": "405319a2f549be8628150bdc7e35362215fa60e6cfa5794f4e2ed15b4ed1340f",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/29324",
+   "name": "Tempering Workshop: A Fresh Start!",
+   "iconPath": "405319a2f549be8628150bdc7e35362215fa60e6cfa5794f4e2ed15b4ed1340f",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/29323",
+   "name": "Notice Under Bridge",
+   "iconPath": "405319a2f549be8628150bdc7e35362215fa60e6cfa5794f4e2ed15b4ed1340f",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/29334",
+   "name": "Family Secret: Spicy Puffy Mushrooms",
+   "iconPath": "eedd69791825aae6ec8afe50d7ee82de0c23cabd752daad49972af7ebde46407",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/29333",
+   "name": "Great Mine Shift Board",
+   "iconPath": "405319a2f549be8628150bdc7e35362215fa60e6cfa5794f4e2ed15b4ed1340f",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/844765",
+   "name": "Miners Weekly",
+   "iconPath": "eedd69791825aae6ec8afe50d7ee82de0c23cabd752daad49972af7ebde46407",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/728120",
+   "name": "Stardust Rose Program",
+   "iconPath": "405319a2f549be8628150bdc7e35362215fa60e6cfa5794f4e2ed15b4ed1340f",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/12647",
+   "name": "Citizen Alexandra Program",
+   "iconPath": "405319a2f549be8628150bdc7e35362215fa60e6cfa5794f4e2ed15b4ed1340f",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/928706",
+   "name": "Wildfire Flier",
+   "iconPath": "405319a2f549be8628150bdc7e35362215fa60e6cfa5794f4e2ed15b4ed1340f",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/443593",
+   "name": "Miners' Ultimatum",
+   "iconPath": "405319a2f549be8628150bdc7e35362215fa60e6cfa5794f4e2ed15b4ed1340f",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/359652",
+   "name": "Great Mine Code of Conduct",
+   "iconPath": "405319a2f549be8628150bdc7e35362215fa60e6cfa5794f4e2ed15b4ed1340f",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/644179",
+   "name": "Customer Notice From Balaway the Miner's Lamp",
+   "iconPath": "4e0866b22989204a87eab3ea324bc86095448fa550cadaec043651d70044e0b7",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/527534",
+   "name": "Ice Storm Causes",
+   "iconPath": "eedd69791825aae6ec8afe50d7ee82de0c23cabd752daad49972af7ebde46407",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/581701",
+   "name": "Jarilo: God of Spring and War",
+   "iconPath": "eedd69791825aae6ec8afe50d7ee82de0c23cabd752daad49972af7ebde46407",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/497760",
+   "name": "Message For New Repairers",
+   "iconPath": "405319a2f549be8628150bdc7e35362215fa60e6cfa5794f4e2ed15b4ed1340f",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/844768",
+   "name": "Interview of Daily Life Before the Solwarm Festival",
+   "iconPath": "405319a2f549be8628150bdc7e35362215fa60e6cfa5794f4e2ed15b4ed1340f",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/728123",
+   "name": "Fashion Brand \"Suburbia\"",
+   "iconPath": "eedd69791825aae6ec8afe50d7ee82de0c23cabd752daad49972af7ebde46407",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/12650",
+   "name": "Mine Poison Antidote Inhalant Manual",
+   "iconPath": "405319a2f549be8628150bdc7e35362215fa60e6cfa5794f4e2ed15b4ed1340f",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/928709",
+   "name": "Diary of a Civilian Scientist",
+   "iconPath": "eedd69791825aae6ec8afe50d7ee82de0c23cabd752daad49972af7ebde46407",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/443596",
+   "name": "A Letter Pieced Together",
+   "iconPath": "4e0866b22989204a87eab3ea324bc86095448fa550cadaec043651d70044e0b7",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/359655",
+   "name": "Snapper Jam Appetizer",
+   "iconPath": "eedd69791825aae6ec8afe50d7ee82de0c23cabd752daad49972af7ebde46407",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/644182",
+   "name": "The Traveler Who Survived the Blizzard",
+   "iconPath": "eedd69791825aae6ec8afe50d7ee82de0c23cabd752daad49972af7ebde46407",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/527537",
+   "name": "Salmon Bread",
+   "iconPath": "eedd69791825aae6ec8afe50d7ee82de0c23cabd752daad49972af7ebde46407",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/581704",
+   "name": "Oratorio \"Supreme Guardian\" Premiere Spectacular",
+   "iconPath": "405319a2f549be8628150bdc7e35362215fa60e6cfa5794f4e2ed15b4ed1340f",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/497763",
+   "name": "Rye Bread Soda Iceberg",
+   "iconPath": "eedd69791825aae6ec8afe50d7ee82de0c23cabd752daad49972af7ebde46407",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/844767",
+   "name": "Bellerain Petroleum Jelly",
+   "iconPath": "eedd69791825aae6ec8afe50d7ee82de0c23cabd752daad49972af7ebde46407",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/728122",
+   "name": "Dreamland Analysis",
+   "iconPath": "eedd69791825aae6ec8afe50d7ee82de0c23cabd752daad49972af7ebde46407",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/12649",
+   "name": "Time Change Notice For Oratorio Rehearsal",
+   "iconPath": "405319a2f549be8628150bdc7e35362215fa60e6cfa5794f4e2ed15b4ed1340f",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/928708",
+   "name": "Belobog Sausage",
+   "iconPath": "eedd69791825aae6ec8afe50d7ee82de0c23cabd752daad49972af7ebde46407",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/443595",
+   "name": "A Child's Letter",
+   "iconPath": "4e0866b22989204a87eab3ea324bc86095448fa550cadaec043651d70044e0b7",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/359654",
+   "name": "Underground Encyclopedia: Plants and Fungi",
+   "iconPath": "eedd69791825aae6ec8afe50d7ee82de0c23cabd752daad49972af7ebde46407",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/644181",
+   "name": "Recipe: Crystal Lizard Satay",
+   "iconPath": "eedd69791825aae6ec8afe50d7ee82de0c23cabd752daad49972af7ebde46407",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/527536",
+   "name": "The Seven Wonders of Belobog",
+   "iconPath": "eedd69791825aae6ec8afe50d7ee82de0c23cabd752daad49972af7ebde46407",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/581703",
+   "name": "Herta Asset Damage Evaluation List",
+   "iconPath": "43df4ebbe92632aeab37fc7c04ae2b7346eebf4a58b1a0a8398fc384ee90908a",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/497762",
+   "name": "Galaxy Public Service Award",
+   "iconPath": "2c8612a35e8ca114c3cc53eb7811d329897b780d1b5ccbabe5f7febcde188b0c",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/844762",
+   "name": "Notice of Ad Hoc Transfer",
+   "iconPath": "2c8612a35e8ca114c3cc53eb7811d329897b780d1b5ccbabe5f7febcde188b0c",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/728117",
+   "name": "Letter From the Comet Hunter",
+   "iconPath": "e62106c0375abafd4163fa3a58ed5892173a6269469a817691463a1735344978",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/12644",
+   "name": "Comet Hunter's Treasure",
+   "iconPath": "43df4ebbe92632aeab37fc7c04ae2b7346eebf4a58b1a0a8398fc384ee90908a",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/928703",
+   "name": "Kapo-Kali Secret Recipe",
+   "iconPath": "43df4ebbe92632aeab37fc7c04ae2b7346eebf4a58b1a0a8398fc384ee90908a",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/443590",
+   "name": "Species of the Galaxy: Wubbaboo",
+   "iconPath": "2c8612a35e8ca114c3cc53eb7811d329897b780d1b5ccbabe5f7febcde188b0c",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/359649",
+   "name": "Xin<nobr>-41</nobr> Homeward Cloud Messaging",
+   "iconPath": "2c8612a35e8ca114c3cc53eb7811d329897b780d1b5ccbabe5f7febcde188b0c",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/644176",
+   "name": "Aeons",
+   "iconPath": "eedd69791825aae6ec8afe50d7ee82de0c23cabd752daad49972af7ebde46407",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/527531",
+   "name": "Factions",
+   "iconPath": "eedd69791825aae6ec8afe50d7ee82de0c23cabd752daad49972af7ebde46407",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/581698",
+   "name": "Researcher Eikura Shuu's Diary",
+   "iconPath": "2c8612a35e8ca114c3cc53eb7811d329897b780d1b5ccbabe5f7febcde188b0c",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/497757",
+   "name": "Observation on Wubbaboo Behavior",
+   "iconPath": "2c8612a35e8ca114c3cc53eb7811d329897b780d1b5ccbabe5f7febcde188b0c",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/844761",
+   "name": "Fragments of Herta Research Atlas Volume 7: Traffic",
+   "iconPath": "43df4ebbe92632aeab37fc7c04ae2b7346eebf4a58b1a0a8398fc384ee90908a",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/728116",
+   "name": "Researcher Profile: Gunn",
+   "iconPath": "2c8612a35e8ca114c3cc53eb7811d329897b780d1b5ccbabe5f7febcde188b0c",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/12643",
+   "name": "The Adventurous Moles: Hidden Treasure",
+   "iconPath": "eedd69791825aae6ec8afe50d7ee82de0c23cabd752daad49972af7ebde46407",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/928702",
+   "name": "Researcher Profile: Hosea",
+   "iconPath": "2c8612a35e8ca114c3cc53eb7811d329897b780d1b5ccbabe5f7febcde188b0c",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/443589",
+   "name": "Researcher Profile: Eikura Shuu",
+   "iconPath": "2c8612a35e8ca114c3cc53eb7811d329897b780d1b5ccbabe5f7febcde188b0c",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/359648",
+   "name": "Bye, Herta",
+   "iconPath": "2c8612a35e8ca114c3cc53eb7811d329897b780d1b5ccbabe5f7febcde188b0c",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/644175",
+   "name": "Letter From Locus Silentii",
+   "iconPath": "2c8612a35e8ca114c3cc53eb7811d329897b780d1b5ccbabe5f7febcde188b0c",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/527530",
+   "name": "Herta's Manuscripts",
+   "iconPath": "2c8612a35e8ca114c3cc53eb7811d329897b780d1b5ccbabe5f7febcde188b0c",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/728119",
+   "name": "Space Station Love Poems",
+   "iconPath": "2c8612a35e8ca114c3cc53eb7811d329897b780d1b5ccbabe5f7febcde188b0c",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/12646",
+   "name": "Signal Log: <nobr>2157</nobr> AE, Months <nobr>40</nobr>-<nobr>43</nobr>",
+   "iconPath": "2c8612a35e8ca114c3cc53eb7811d329897b780d1b5ccbabe5f7febcde188b0c",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/928705",
+   "name": "Signal Log: <nobr>2157</nobr> AE, Months <nobr>44</nobr>-<nobr>47</nobr>",
+   "iconPath": "2c8612a35e8ca114c3cc53eb7811d329897b780d1b5ccbabe5f7febcde188b0c",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/443592",
+   "name": "Signal Log: <nobr>2157</nobr> AE, Months <nobr>48</nobr>-<nobr>51</nobr>",
+   "iconPath": "2c8612a35e8ca114c3cc53eb7811d329897b780d1b5ccbabe5f7febcde188b0c",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/359651",
+   "name": "Tale of the Winterlands",
+   "iconPath": "eedd69791825aae6ec8afe50d7ee82de0c23cabd752daad49972af7ebde46407",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/644178",
+   "name": "Letter attached to a package",
+   "iconPath": "4e0866b22989204a87eab3ea324bc86095448fa550cadaec043651d70044e0b7",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/527533",
+   "name": "Pet Diary: Sesame",
+   "iconPath": "405319a2f549be8628150bdc7e35362215fa60e6cfa5794f4e2ed15b4ed1340f",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/581700",
+   "name": "Underground Encyclopedia: Animals",
+   "iconPath": "eedd69791825aae6ec8afe50d7ee82de0c23cabd752daad49972af7ebde46407",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/497759",
+   "name": "Miner's Lamp Ancient Relic Appraisal Record",
+   "iconPath": "eedd69791825aae6ec8afe50d7ee82de0c23cabd752daad49972af7ebde46407",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/844763",
+   "name": "Miner's Medical Certificate",
+   "iconPath": "405319a2f549be8628150bdc7e35362215fa60e6cfa5794f4e2ed15b4ed1340f",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/728118",
+   "name": "Maddon Tunnel Is Collapsing",
+   "iconPath": "eedd69791825aae6ec8afe50d7ee82de0c23cabd752daad49972af7ebde46407",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/12645",
+   "name": "Kluzer's Letter",
+   "iconPath": "4e0866b22989204a87eab3ea324bc86095448fa550cadaec043651d70044e0b7",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/928704",
+   "name": "Admonition From Ancestors",
+   "iconPath": "eedd69791825aae6ec8afe50d7ee82de0c23cabd752daad49972af7ebde46407",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/443591",
+   "name": "Letter From Bronya",
+   "iconPath": "4e0866b22989204a87eab3ea324bc86095448fa550cadaec043651d70044e0b7",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/359650",
+   "name": "Vache's Letter",
+   "iconPath": "4e0866b22989204a87eab3ea324bc86095448fa550cadaec043651d70044e0b7",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/644177",
+   "name": "Blizzard Immunity Lab Records",
+   "iconPath": "405319a2f549be8628150bdc7e35362215fa60e6cfa5794f4e2ed15b4ed1340f",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/527532",
+   "name": "Sheila's Character Script",
+   "iconPath": "2c8612a35e8ca114c3cc53eb7811d329897b780d1b5ccbabe5f7febcde188b0c",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/581699",
+   "name": "Confession Letter",
+   "iconPath": "2c8612a35e8ca114c3cc53eb7811d329897b780d1b5ccbabe5f7febcde188b0c",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/497758",
+   "name": "Data Record: Joanne",
+   "iconPath": "43df4ebbe92632aeab37fc7c04ae2b7346eebf4a58b1a0a8398fc384ee90908a",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/844774",
+   "name": "Data Record: Mare",
+   "iconPath": "43df4ebbe92632aeab37fc7c04ae2b7346eebf4a58b1a0a8398fc384ee90908a",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/728129",
+   "name": "Data Record: Chris",
+   "iconPath": "43df4ebbe92632aeab37fc7c04ae2b7346eebf4a58b1a0a8398fc384ee90908a",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/12656",
+   "name": "Asta's Letters From Home",
+   "iconPath": "e62106c0375abafd4163fa3a58ed5892173a6269469a817691463a1735344978",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/928715",
+   "name": "Asta's Shopping List",
+   "iconPath": "43df4ebbe92632aeab37fc7c04ae2b7346eebf4a58b1a0a8398fc384ee90908a",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/443602",
+   "name": "Asta and Business Elite Correspondence Records",
+   "iconPath": "43df4ebbe92632aeab37fc7c04ae2b7346eebf4a58b1a0a8398fc384ee90908a",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/359661",
+   "name": "Note to Intruders",
+   "iconPath": "43df4ebbe92632aeab37fc7c04ae2b7346eebf4a58b1a0a8398fc384ee90908a",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/644188",
+   "name": "A Good Establishment Births Generations of Wealth",
+   "iconPath": "eedd69791825aae6ec8afe50d7ee82de0c23cabd752daad49972af7ebde46407",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/527543",
+   "name": "Mining Equipment Purchase Order",
+   "iconPath": "405319a2f549be8628150bdc7e35362215fa60e6cfa5794f4e2ed15b4ed1340f",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/497769",
+   "name": "Request for Provisions",
+   "iconPath": "405319a2f549be8628150bdc7e35362215fa60e6cfa5794f4e2ed15b4ed1340f",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/844773",
+   "name": "Fragmented Diary",
+   "iconPath": "405319a2f549be8628150bdc7e35362215fa60e6cfa5794f4e2ed15b4ed1340f",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/728128",
+   "name": "Notice: Additional Barricades on the Main Road of the Plaza",
+   "iconPath": "405319a2f549be8628150bdc7e35362215fa60e6cfa5794f4e2ed15b4ed1340f",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/12655",
+   "name": "Greasy Food Magazine",
+   "iconPath": "405319a2f549be8628150bdc7e35362215fa60e6cfa5794f4e2ed15b4ed1340f",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/928714",
+   "name": "Venerable Guards Will Defend Us From Enemies!",
+   "iconPath": "405319a2f549be8628150bdc7e35362215fa60e6cfa5794f4e2ed15b4ed1340f",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/443601",
+   "name": "Dreamchaser's Letter",
+   "iconPath": "4e0866b22989204a87eab3ea324bc86095448fa550cadaec043651d70044e0b7",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/359660",
+   "name": "Opening of the New Tempering Workshop!",
+   "iconPath": "405319a2f549be8628150bdc7e35362215fa60e6cfa5794f4e2ed15b4ed1340f",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/644187",
+   "name": "Observation Diary of a \"Changed\" Child",
+   "iconPath": "eedd69791825aae6ec8afe50d7ee82de0c23cabd752daad49972af7ebde46407",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/527542",
+   "name": "Military Machinery Routine Maintenance Record Form",
+   "iconPath": "405319a2f549be8628150bdc7e35362215fa60e6cfa5794f4e2ed15b4ed1340f",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/581709",
+   "name": "Rap Battle Voting Channel Opens",
+   "iconPath": "405319a2f549be8628150bdc7e35362215fa60e6cfa5794f4e2ed15b4ed1340f",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/497768",
+   "name": "Will Bite, Do Not Approach!",
+   "iconPath": "405319a2f549be8628150bdc7e35362215fa60e6cfa5794f4e2ed15b4ed1340f",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/526573",
+   "name": "Boxer Recruitment Form",
+   "iconPath": "405319a2f549be8628150bdc7e35362215fa60e6cfa5794f4e2ed15b4ed1340f",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/526574",
+   "name": "Musicians of Belobog",
+   "iconPath": "eedd69791825aae6ec8afe50d7ee82de0c23cabd752daad49972af7ebde46407",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/526575",
+   "name": "Unsent Letter",
+   "iconPath": "4e0866b22989204a87eab3ea324bc86095448fa550cadaec043651d70044e0b7",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/526576",
+   "name": "Goethe Hotel Tea Time Menu",
+   "iconPath": "eedd69791825aae6ec8afe50d7ee82de0c23cabd752daad49972af7ebde46407",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/526569",
+   "name": "Gathering Place Message Board",
+   "iconPath": "eedd69791825aae6ec8afe50d7ee82de0c23cabd752daad49972af7ebde46407",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/526570",
+   "name": "A Letter to All of Furnace Core Base",
+   "iconPath": "4e0866b22989204a87eab3ea324bc86095448fa550cadaec043651d70044e0b7",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/526571",
+   "name": "Old Newspapers of Backwater Pass",
+   "iconPath": "405319a2f549be8628150bdc7e35362215fa60e6cfa5794f4e2ed15b4ed1340f",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/526572",
+   "name": "Night and Fog",
+   "iconPath": "eedd69791825aae6ec8afe50d7ee82de0c23cabd752daad49972af7ebde46407",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/526581",
+   "name": "Once Upon a Snowsieged Country Program",
+   "iconPath": "eedd69791825aae6ec8afe50d7ee82de0c23cabd752daad49972af7ebde46407",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/526582",
+   "name": "Leisha and Mrs. Trude Program",
+   "iconPath": "eedd69791825aae6ec8afe50d7ee82de0c23cabd752daad49972af7ebde46407",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/409928",
+   "name": "Roadside Picnic Program",
+   "iconPath": "eedd69791825aae6ec8afe50d7ee82de0c23cabd752daad49972af7ebde46407",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/409929",
+   "name": "Beneath the White Cloak Program",
+   "iconPath": "eedd69791825aae6ec8afe50d7ee82de0c23cabd752daad49972af7ebde46407",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/409930",
+   "name": "An Evening Journey Through Exalting Sanctum",
+   "iconPath": "e69628154d47624c817ac558d87a95794422ca0cc5705d58039f03145823a595",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/409931",
+   "name": "Review on the Ninefold Peace set menu from the Garden of Gourmet",
+   "iconPath": "e69628154d47624c817ac558d87a95794422ca0cc5705d58039f03145823a595",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/409924",
+   "name": "Starskiff Safety Inspection Guide",
+   "iconPath": "a3dcdeaef3a7d460de1b86b57c802fe293c53246d3b55b49d94ae502d9f3d275",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/409925",
+   "name": "Management Strategy for Reporting Starskiff Traffic",
+   "iconPath": "e69628154d47624c817ac558d87a95794422ca0cc5705d58039f03145823a595",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/409926",
+   "name": "The startaro bubble tea tastes horrible.",
+   "iconPath": "e69628154d47624c817ac558d87a95794422ca0cc5705d58039f03145823a595",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/409927",
+   "name": "Return to the Future",
+   "iconPath": "e69628154d47624c817ac558d87a95794422ca0cc5705d58039f03145823a595",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/409936",
+   "name": "A Drizzle Douses Dust",
+   "iconPath": "e69628154d47624c817ac558d87a95794422ca0cc5705d58039f03145823a595",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/409937",
+   "name": "<nobr>100</nobr> Common Xianzhou Proverbs for Outworlders",
+   "iconPath": "e69628154d47624c817ac558d87a95794422ca0cc5705d58039f03145823a595",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/694455",
+   "name": "Clara Protection Society Is Seeking New Members!",
+   "iconPath": "eedd69791825aae6ec8afe50d7ee82de0c23cabd752daad49972af7ebde46407",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/694456",
+   "name": "Natasha's List",
+   "iconPath": "405319a2f549be8628150bdc7e35362215fa60e6cfa5794f4e2ed15b4ed1340f",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/694457",
+   "name": "Densely Packed Schedule",
+   "iconPath": "405319a2f549be8628150bdc7e35362215fa60e6cfa5794f4e2ed15b4ed1340f",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/694458",
+   "name": "Report on Recent Activities in the Silvermane Guard Restricted Zone and Related Suggestions",
+   "iconPath": "405319a2f549be8628150bdc7e35362215fa60e6cfa5794f4e2ed15b4ed1340f",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/694451",
+   "name": "Crystal Daily's Sample Article for the Censorship Office",
+   "iconPath": "405319a2f549be8628150bdc7e35362215fa60e6cfa5794f4e2ed15b4ed1340f",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/694452",
+   "name": "Journey of the Moles \u2014 Belobog Ancient Poetry Collection",
+   "iconPath": "eedd69791825aae6ec8afe50d7ee82de0c23cabd752daad49972af7ebde46407",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/694453",
+   "name": "Belobog Academy's Mid-Term Exam Paper",
+   "iconPath": "405319a2f549be8628150bdc7e35362215fa60e6cfa5794f4e2ed15b4ed1340f",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/694454",
+   "name": "Anti-Fraud Guide, Edited Version",
+   "iconPath": "eedd69791825aae6ec8afe50d7ee82de0c23cabd752daad49972af7ebde46407",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/694463",
+   "name": "Looking for a Friend",
+   "iconPath": "405319a2f549be8628150bdc7e35362215fa60e6cfa5794f4e2ed15b4ed1340f",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/694464",
+   "name": "Oath of the Silvermane Guards",
+   "iconPath": "405319a2f549be8628150bdc7e35362215fa60e6cfa5794f4e2ed15b4ed1340f",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/610514",
+   "name": "Asta's Equipment Purchase Contract",
+   "iconPath": "43df4ebbe92632aeab37fc7c04ae2b7346eebf4a58b1a0a8398fc384ee90908a",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/610515",
+   "name": "\"Home-Use Object Finder\" After-Sales Feedback Form",
+   "iconPath": "e62106c0375abafd4163fa3a58ed5892173a6269469a817691463a1735344978",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/610516",
+   "name": "Species of the Galaxy: Tottonid",
+   "iconPath": "2c8612a35e8ca114c3cc53eb7811d329897b780d1b5ccbabe5f7febcde188b0c",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/610517",
+   "name": "(Recording) A Fool's Play: Calamity's Wrath Seeks Olden Clash, Fool's Blade Rends Divine Flesh",
+   "iconPath": "2c8612a35e8ca114c3cc53eb7811d329897b780d1b5ccbabe5f7febcde188b0c",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/610510",
+   "name": "The Well-Kept Secret of the Maintenance Department",
+   "iconPath": "2c8612a35e8ca114c3cc53eb7811d329897b780d1b5ccbabe5f7febcde188b0c",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/610511",
+   "name": "Notification for Physical Examinations",
+   "iconPath": "2c8612a35e8ca114c3cc53eb7811d329897b780d1b5ccbabe5f7febcde188b0c",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/610512",
+   "name": "Space Station Introductory Guide",
+   "iconPath": "2c8612a35e8ca114c3cc53eb7811d329897b780d1b5ccbabe5f7febcde188b0c",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/610513",
+   "name": "Herta Collection Room Code of Conduct",
+   "iconPath": "2c8612a35e8ca114c3cc53eb7811d329897b780d1b5ccbabe5f7febcde188b0c",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/610522",
+   "name": "Research Report: Tottonid Crystals",
+   "iconPath": "2c8612a35e8ca114c3cc53eb7811d329897b780d1b5ccbabe5f7febcde188b0c",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/610523",
+   "name": "An Incomplete Automatic Transcript",
+   "iconPath": "43df4ebbe92632aeab37fc7c04ae2b7346eebf4a58b1a0a8398fc384ee90908a",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/125401",
+   "name": "Attack Records of the Obstacle Detection Terminal",
+   "iconPath": "2c8612a35e8ca114c3cc53eb7811d329897b780d1b5ccbabe5f7febcde188b0c",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/125402",
+   "name": "Researchers' Memo Notes",
+   "iconPath": "43df4ebbe92632aeab37fc7c04ae2b7346eebf4a58b1a0a8398fc384ee90908a",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/125403",
+   "name": "Feedback Form for the Space Station Staff Cafeteria",
+   "iconPath": "2c8612a35e8ca114c3cc53eb7811d329897b780d1b5ccbabe5f7febcde188b0c",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/125404",
+   "name": "Fragment of a Weekly Report by a Department of Ecology Researcher",
+   "iconPath": "2c8612a35e8ca114c3cc53eb7811d329897b780d1b5ccbabe5f7febcde188b0c",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/125397",
+   "name": "Chat History Between Researchers",
+   "iconPath": "2c8612a35e8ca114c3cc53eb7811d329897b780d1b5ccbabe5f7febcde188b0c",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/125398",
+   "name": "Tottonids Are Rocks",
+   "iconPath": "2c8612a35e8ca114c3cc53eb7811d329897b780d1b5ccbabe5f7febcde188b0c",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/125399",
+   "name": "Pascal's Diary",
+   "iconPath": "eedd69791825aae6ec8afe50d7ee82de0c23cabd752daad49972af7ebde46407",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/125400",
+   "name": "The Afro Hairstyle Association Guidelines",
+   "iconPath": "2c8612a35e8ca114c3cc53eb7811d329897b780d1b5ccbabe5f7febcde188b0c",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/125409",
+   "name": "Update Notes for Master Capote's Life Wiki Version <nobr>12.0</nobr>",
+   "iconPath": "2c8612a35e8ca114c3cc53eb7811d329897b780d1b5ccbabe5f7febcde188b0c",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/125410",
+   "name": "Arlan's Work Log",
+   "iconPath": "2c8612a35e8ca114c3cc53eb7811d329897b780d1b5ccbabe5f7febcde188b0c",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/41460",
+   "name": "Ministry of Education Quiz",
+   "iconPath": "eedd69791825aae6ec8afe50d7ee82de0c23cabd752daad49972af7ebde46407",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/41461",
+   "name": "A Call From The Fragmentum",
+   "iconPath": "405319a2f549be8628150bdc7e35362215fa60e6cfa5794f4e2ed15b4ed1340f",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/41462",
+   "name": "Cyrille",
+   "iconPath": "405319a2f549be8628150bdc7e35362215fa60e6cfa5794f4e2ed15b4ed1340f",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/41463",
+   "name": "An Unsuitable Job for A Puppet",
+   "iconPath": "e69628154d47624c817ac558d87a95794422ca0cc5705d58039f03145823a595",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/41456",
+   "name": "Protecting Starskiff Haven",
+   "iconPath": "e69628154d47624c817ac558d87a95794422ca0cc5705d58039f03145823a595",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/41457",
+   "name": "Travelogue on Xianzhou",
+   "iconPath": "e69628154d47624c817ac558d87a95794422ca0cc5705d58039f03145823a595",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/41458",
+   "name": "Cloud Knights Against the Borisin",
+   "iconPath": "e69628154d47624c817ac558d87a95794422ca0cc5705d58039f03145823a595",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/41459",
+   "name": "Echoes of Antiquity: A Grand Overview of Traditional Xianzhou Folk Culture",
+   "iconPath": "e69628154d47624c817ac558d87a95794422ca0cc5705d58039f03145823a595",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/41468",
+   "name": "Amnesic Meditation Therapy: A Guide to A Long, Healthy Life!",
+   "iconPath": "e69628154d47624c817ac558d87a95794422ca0cc5705d58039f03145823a595",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/41469",
+   "name": "Codex of Apocrypha",
+   "iconPath": "e69628154d47624c817ac558d87a95794422ca0cc5705d58039f03145823a595",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/325987",
+   "name": "Annotations from \"Ode to Reignbow Path\"",
+   "iconPath": "e69628154d47624c817ac558d87a95794422ca0cc5705d58039f03145823a595",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/325988",
+   "name": "Mei's Notes",
+   "iconPath": "e69628154d47624c817ac558d87a95794422ca0cc5705d58039f03145823a595",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/325989",
+   "name": "Mei's Notes",
+   "iconPath": "e69628154d47624c817ac558d87a95794422ca0cc5705d58039f03145823a595",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/325990",
+   "name": "Mei's Notes",
+   "iconPath": "e69628154d47624c817ac558d87a95794422ca0cc5705d58039f03145823a595",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/325983",
+   "name": "Mei's Notes",
+   "iconPath": "e69628154d47624c817ac558d87a95794422ca0cc5705d58039f03145823a595",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/325984",
+   "name": "Liangmu's Message (I)",
+   "iconPath": "a3dcdeaef3a7d460de1b86b57c802fe293c53246d3b55b49d94ae502d9f3d275",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/325985",
+   "name": "Liangmu's Message (II)",
+   "iconPath": "a3dcdeaef3a7d460de1b86b57c802fe293c53246d3b55b49d94ae502d9f3d275",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/325986",
+   "name": "Liangmu's Letter",
+   "iconPath": "438f4f52bcea0dbb77f1306c255fcfbc7f007697913788c280069da015bcc0e8",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/325995",
+   "name": "The Angler Mystery",
+   "iconPath": "e69628154d47624c817ac558d87a95794422ca0cc5705d58039f03145823a595",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/325996",
+   "name": "Disciples of Sanctus Medicus: Collection of Exhibits",
+   "iconPath": "e69628154d47624c817ac558d87a95794422ca0cc5705d58039f03145823a595",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/209342",
+   "name": "General's Diary",
+   "iconPath": "e69628154d47624c817ac558d87a95794422ca0cc5705d58039f03145823a595",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/209343",
+   "name": "Adler's Research Report on Ghost Stories",
+   "iconPath": "2c8612a35e8ca114c3cc53eb7811d329897b780d1b5ccbabe5f7febcde188b0c",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/209344",
+   "name": "Belobog Chronicles: Before the Eternal Freeze",
+   "iconPath": "eedd69791825aae6ec8afe50d7ee82de0c23cabd752daad49972af7ebde46407",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/209345",
+   "name": "Wanted Poster Gallery",
+   "iconPath": "eedd69791825aae6ec8afe50d7ee82de0c23cabd752daad49972af7ebde46407",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/209338",
+   "name": "Curio Management Log",
+   "iconPath": "2c8612a35e8ca114c3cc53eb7811d329897b780d1b5ccbabe5f7febcde188b0c",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/209339",
+   "name": "Butterfly Shadow's Special Issue: The Ten Best Butterfly Immersias of the Millennium",
+   "iconPath": "e69628154d47624c817ac558d87a95794422ca0cc5705d58039f03145823a595",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/209340",
+   "name": "The Title Page of a Detective Novel Torn Off by Luocha",
+   "iconPath": "a3dcdeaef3a7d460de1b86b57c802fe293c53246d3b55b49d94ae502d9f3d275",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/209341",
+   "name": "The Luofu Sky-Faring Commission Guilds List",
+   "iconPath": "a3dcdeaef3a7d460de1b86b57c802fe293c53246d3b55b49d94ae502d9f3d275",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/209350",
+   "name": "Tiger Boxing Gym Admissions Ad",
+   "iconPath": "e69628154d47624c817ac558d87a95794422ca0cc5705d58039f03145823a595",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/209351",
+   "name": "Advocate legal and reasonable care for animals, strictly prohibit illegal wildlife trades for \"releases\"",
+   "iconPath": "e69628154d47624c817ac558d87a95794422ca0cc5705d58039f03145823a595",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/263509",
+   "name": "History of the Xianzhou: Errata",
+   "iconPath": "e69628154d47624c817ac558d87a95794422ca0cc5705d58039f03145823a595",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/263510",
+   "name": "Mysterious Advisory Letter",
+   "iconPath": "438f4f52bcea0dbb77f1306c255fcfbc7f007697913788c280069da015bcc0e8",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/263511",
+   "name": "Thank-You Letter",
+   "iconPath": "438f4f52bcea0dbb77f1306c255fcfbc7f007697913788c280069da015bcc0e8",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/263512",
+   "name": "Bereaved Letter",
+   "iconPath": "438f4f52bcea0dbb77f1306c255fcfbc7f007697913788c280069da015bcc0e8",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/263505",
+   "name": "Cloudcry Songbook",
+   "iconPath": "a3dcdeaef3a7d460de1b86b57c802fe293c53246d3b55b49d94ae502d9f3d275",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/263506",
+   "name": "Green Hibiscus' Secret Letter",
+   "iconPath": "438f4f52bcea0dbb77f1306c255fcfbc7f007697913788c280069da015bcc0e8",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/263507",
+   "name": "A Study into the Mara-Struck",
+   "iconPath": "e69628154d47624c817ac558d87a95794422ca0cc5705d58039f03145823a595",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/263508",
+   "name": "Surveillance Report from the Xianzhou Yuque",
+   "iconPath": "e69628154d47624c817ac558d87a95794422ca0cc5705d58039f03145823a595",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/263517",
+   "name": "List of Archenemies",
+   "iconPath": "e69628154d47624c817ac558d87a95794422ca0cc5705d58039f03145823a595",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/263518",
+   "name": "Dahao's Diary",
+   "iconPath": "e69628154d47624c817ac558d87a95794422ca0cc5705d58039f03145823a595",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/179568",
+   "name": "Record of Reignbow's Road",
+   "iconPath": "e69628154d47624c817ac558d87a95794422ca0cc5705d58039f03145823a595",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/179569",
+   "name": "Divination Report",
+   "iconPath": "e69628154d47624c817ac558d87a95794422ca0cc5705d58039f03145823a595",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/179570",
+   "name": "Glimpses into the Beyond",
+   "iconPath": "e69628154d47624c817ac558d87a95794422ca0cc5705d58039f03145823a595",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/179571",
+   "name": "Records of Yellowbell Resonance",
+   "iconPath": "e69628154d47624c817ac558d87a95794422ca0cc5705d58039f03145823a595",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/179564",
+   "name": "Records of Mingyue Divinations",
+   "iconPath": "e69628154d47624c817ac558d87a95794422ca0cc5705d58039f03145823a595",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/179565",
+   "name": "Records of Jingzhai Divinations",
+   "iconPath": "e69628154d47624c817ac558d87a95794422ca0cc5705d58039f03145823a595",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/526602",
+   "name": "A Collection of Intelligence on the Xianzhou Luofu",
+   "iconPath": "e69628154d47624c817ac558d87a95794422ca0cc5705d58039f03145823a595",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "book/526601",
+   "name": "Dan Shu's Diary",
+   "iconPath": "e69628154d47624c817ac558d87a95794422ca0cc5705d58039f03145823a595",
+   "type": 3,
+   "rarity": 1
+  },
+  {
+   "url": "material/29325",
+   "name": "Stellar Jade",
+   "iconPath": "5baabe27c5361e08ffda706e3183d6618d2ea0ab2629319fda2a442761d59747",
+   "type": 4,
+   "rarity": 5
+  },
+  {
+   "url": "material/29328",
+   "name": "Credit",
+   "iconPath": "0e76659bbb3b9d0b1cc6a4e0e8c63a576c7b917f2f740a4b1b8ceab260a8a595",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/29327",
+   "name": "Oneiric Shard",
+   "iconPath": "3603508772eb0384c68779b5d8017f1052f90f1f468c886ab1f6ad875d00dfce",
+   "type": 4,
+   "rarity": 5
+  },
+  {
+   "url": "material/728120",
+   "name": "Trailblaze Power",
+   "iconPath": "8f4e646b6e15421453cff9feee84e56bafd2b8fe83abca36ed66834c5b367305",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/728123",
+   "name": "EXP",
+   "iconPath": "f32f0343563fe00385620060cebf96265dc354a90a3f44c6cc8c10f97e21b0ed",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/12650",
+   "name": "Trailblaze EXP",
+   "iconPath": "3e8616a355dbba92b0731b9a9e29967d09cd8e9a69ab2a1ec0b9896db6660aed",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/443596",
+   "name": "Trailblaze Timer",
+   "iconPath": "a047ec528781335b883dd5e7aafe4c3b2a1622eccdbaa57bbf35f3644ff8dd8a",
+   "type": 4,
+   "rarity": 5
+  },
+  {
+   "url": "material/728122",
+   "name": "Cosmic Fragment",
+   "iconPath": "b553076008cb3e4f538999c07ccd51d64ad91d52a0577acb02ff3a6de13d77f7",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/12649",
+   "name": "Ability Point",
+   "iconPath": "7e8e4a861c9e0765c5267616795c5fbf86cdae38e527e71e4a169dff71027db8",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/928708",
+   "name": "Immersifier",
+   "iconPath": "2576e9161a4cfe2cd2dd0729a4b8fb4602be2336cc8598c53f14a74d6a5e9a95",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/728117",
+   "name": "Achievement Points",
+   "iconPath": "f4b4a2c3c8e02d86c2a6272eb911bd352f6c1231c3faec958f41547f65d7ff4e",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/728116",
+   "name": "The Nameless EXP",
+   "iconPath": "6a1f733efe9ec5173f7388cc96d8c53edf6224d9183719dca40b02bb16317056",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/12643",
+   "name": "The Nameless EXP",
+   "iconPath": "6a1f733efe9ec5173f7388cc96d8c53edf6224d9183719dca40b02bb16317056",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/526574",
+   "name": "Star Rail Pass",
+   "iconPath": "83187f05670032ca8f551e9727f39bae12983f7f7953b17d84df8ab894a89978",
+   "type": 4,
+   "rarity": 5
+  },
+  {
+   "url": "material/526575",
+   "name": "Star Rail Special Pass",
+   "iconPath": "10094cc418b4b4a4d1f464c924baef62df8278dd4bfa043f17c04593f8cc3e37",
+   "type": 4,
+   "rarity": 5
+  },
+  {
+   "url": "material/526607",
+   "name": "Fuel",
+   "iconPath": "50291de9f52348fc3e223665229c1396e19aca8a5a2f405592a499f2dd0ec609",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/409962",
+   "name": "Travel Encounters",
+   "iconPath": "ad5070f0ef2447ee09fb3b0d859ab3c594538eaa58b71a14ffcbd4b2b493c1c5",
+   "type": 4,
+   "rarity": 2
+  },
+  {
+   "url": "material/409961",
+   "name": "Adventure Log",
+   "iconPath": "05ef6659e951dd69d862823c86470487d68c24209400d4391df1f50bbc21ab42",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/409960",
+   "name": "Traveler's Guide",
+   "iconPath": "607961a38d9fe4f935578e9ea7b4de093d68ff8258b0b52c3cd4261e5cd92932",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/694489",
+   "name": "Sparse Aether",
+   "iconPath": "554d37978b82c3f38bafee8771f8ab4248a1fe9d4e130bb5711064238666f491",
+   "type": 4,
+   "rarity": 2
+  },
+  {
+   "url": "material/694488",
+   "name": "Condensed Aether",
+   "iconPath": "91f62f32ecd1e7b88c9e30002d215b1a5936ac221782a17d2f34837a967ed557",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/694487",
+   "name": "Refined Aether",
+   "iconPath": "a5f4de7a7ad08a1676729853622d0e38b14de79b20465aa9c738e6105a8c746d",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/610548",
+   "name": "Lost Lightdust",
+   "iconPath": "1b3183a7185ccc854b89261ccafed31e73f2b8e138d4e59705658b6482006610",
+   "type": 4,
+   "rarity": 2
+  },
+  {
+   "url": "material/610547",
+   "name": "Lost Gold Fragment",
+   "iconPath": "d9d322b88f43e9cba958e177229bfa6da5b57c16e11db9534f6ffc1b2176f24c",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/610546",
+   "name": "Lost Crystal",
+   "iconPath": "8a562c0b5e4b6dd33e83b1f4cba7af19620d5c13791c1f504513e3dbf3bf2f13",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/610545",
+   "name": "Lost Essence",
+   "iconPath": "d2c1ce1f74db4ab33ca1815959cb274f129d5c387c6151d449a0ea437e3cea8b",
+   "type": 4,
+   "rarity": 5
+  },
+  {
+   "url": "material/610544",
+   "name": "Relic Remains",
+   "iconPath": "4df08949abaefed6275e890fd33402b4c485b6a83886e7a16774c5ea01878298",
+   "type": 4,
+   "rarity": 5
+  },
+  {
+   "url": "material/610543",
+   "name": "Self-Modeling Resin",
+   "iconPath": "eb5d92e88ecb15a07c78b7532e6c3204ce295d91c3f23e44346d8092c0646d35",
+   "type": 4,
+   "rarity": 5
+  },
+  {
+   "url": "material/125435",
+   "name": "Tracks of Destiny",
+   "iconPath": "75e6d3c477385eb36716ba1798609b01a9fe10893c1b3e9f9dc81046ad10d9b0",
+   "type": 4,
+   "rarity": 5
+  },
+  {
+   "url": "material/41494",
+   "name": "Undying Embers",
+   "iconPath": "41099a54ac0ae0e8d6d6673202121ce2032159228c48ef8c4b597cb30e3898af",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/41493",
+   "name": "Undying Starlight",
+   "iconPath": "8de44042e38f299001ea2711773722f38e9e17713e631f8083b5cf998208d2cf",
+   "type": 4,
+   "rarity": 5
+  },
+  {
+   "url": "material/326021",
+   "name": "Lucent Afterglow",
+   "iconPath": "aa5ed263695b55e4cb83cb5f97ca8eddecd821454c9d55de86d1bde1c7a87a9c",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/209376",
+   "name": "Superimposer (Custom-made)",
+   "iconPath": "85406673e8a50fc5b79a3ae611542481d45924584fd3823fe91760a6c3c4de51",
+   "type": 4,
+   "rarity": 5
+  },
+  {
+   "url": "material/526444",
+   "name": "Herta Bond",
+   "iconPath": "07bf52fe919022ed4417d0f3d5838de47a75b6885ceb4bf9786a785b20b0e75c",
+   "type": 4,
+   "rarity": 5
+  },
+  {
+   "url": "material/526806",
+   "name": "First Voyage's Blessing",
+   "iconPath": "3f671d22c9ca81857fd1954fcd5618bcce5b58bba56252850377df105fee3d86",
+   "type": 4,
+   "rarity": 5
+  },
+  {
+   "url": "material/526805",
+   "name": "First Voyage's Blessing",
+   "iconPath": "3f671d22c9ca81857fd1954fcd5618bcce5b58bba56252850377df105fee3d86",
+   "type": 4,
+   "rarity": 5
+  },
+  {
+   "url": "material/751494",
+   "name": "Relic Coffret: Passerby of Wandering Cloud",
+   "iconPath": "4572d979d27faa81ae07050fd777b65e7ad6e293fa40303c3eae2fbd18c60aee",
+   "type": 4,
+   "rarity": 5
+  },
+  {
+   "url": "material/751495",
+   "name": "Relic Coffret: Musketeer of Wild Wheat",
+   "iconPath": "121a65d8ba9ed102ed5e4186970c2a5543facd2fd9dd6551cac82e0c0b54dbde",
+   "type": 4,
+   "rarity": 5
+  },
+  {
+   "url": "material/751492",
+   "name": "Relic Coffret: Knight of Purity Palace",
+   "iconPath": "1abd2de49fe9971a1a5aa0d3d80e595785635d0e0d51666160c821ddfe205105",
+   "type": 4,
+   "rarity": 5
+  },
+  {
+   "url": "material/751493",
+   "name": "Relic Coffret: Hunter of Glacial Forest",
+   "iconPath": "70456333828f6e1d48741b77983a8465f38a751c388cebecff2b59a83cc00e21",
+   "type": 4,
+   "rarity": 5
+  },
+  {
+   "url": "material/751498",
+   "name": "Relic Coffret: Champion of Streetwise Boxing",
+   "iconPath": "7a3c23b747faa58bfe3cc64383e4914be65ab64d56e1e906f391bcd398306fcd",
+   "type": 4,
+   "rarity": 5
+  },
+  {
+   "url": "material/751499",
+   "name": "Relic Coffret: Guard of Wuthering Snow",
+   "iconPath": "5387b9eece909d074da7ce98479d53c957c019f5653ab5cd62071026d78f9440",
+   "type": 4,
+   "rarity": 5
+  },
+  {
+   "url": "material/751496",
+   "name": "Relic Coffret: Firesmith of Lava-Forging",
+   "iconPath": "4e1b9c5acb703068e9f801a1346f839f36b9e1b2116fe7c0d893c73141fbf96d",
+   "type": 4,
+   "rarity": 5
+  },
+  {
+   "url": "material/751497",
+   "name": "Relic Coffret: Genius of Brilliant Stars",
+   "iconPath": "01ff058abcb56326a11be25c95871633d466e099d5709daf863695cbe9a94729",
+   "type": 4,
+   "rarity": 5
+  },
+  {
+   "url": "material/751502",
+   "name": "Relic Coffret: Band of Sizzling Thunder",
+   "iconPath": "b7b20a8282eb8d6045208a7e35dff5a8fa5c1d8aaffa02e9c76d576ff65033b4",
+   "type": 4,
+   "rarity": 5
+  },
+  {
+   "url": "material/751503",
+   "name": "Relic Coffret: Eagle of Twilight Line",
+   "iconPath": "3b01acc8fcf8d38b88f6146eb5a882f4adef67ad4b25d359bb5ee31e258037d6",
+   "type": 4,
+   "rarity": 5
+  },
+  {
+   "url": "material/835435",
+   "name": "Relic Coffret: Thief of Shooting Meteor",
+   "iconPath": "51a481ff9141faba4f8141c4e0c4f93e9b747b483dac0f673cc4b8b0f21ba9d6",
+   "type": 4,
+   "rarity": 5
+  },
+  {
+   "url": "material/835436",
+   "name": "Relic Coffret: Wastelander of Banditry Desert",
+   "iconPath": "8f83c05bff62fee55a1e33e4f84eb24c758b745cfea48920170bf0811e86872e",
+   "type": 4,
+   "rarity": 5
+  },
+  {
+   "url": "material/835433",
+   "name": "Relic Coffret: Space Sealing Station",
+   "iconPath": "c5aad3c155e119e2e175b097e7912c1a74cf758534fa44294c63a575c7f55a76",
+   "type": 4,
+   "rarity": 5
+  },
+  {
+   "url": "material/835434",
+   "name": "Relic Coffret: Fleet of the Ageless",
+   "iconPath": "d3531db70ba1031ef6cf5fb925d63711fb3e47b689e452dae1505fe25d47343b",
+   "type": 4,
+   "rarity": 5
+  },
+  {
+   "url": "material/835439",
+   "name": "Relic Coffret: Pan-Galactic Commercial Enterprise",
+   "iconPath": "9df9239633c0b285c13d23a9f4da4bd33fe6318a10955ff265f560a1e54052f6",
+   "type": 4,
+   "rarity": 5
+  },
+  {
+   "url": "material/835440",
+   "name": "Relic Coffret: Belobog of the Architects",
+   "iconPath": "5b8e8b61c45c44cf07bc14f7eddd33e32ea8761627aab1052979c83a7bb326ed",
+   "type": 4,
+   "rarity": 5
+  },
+  {
+   "url": "material/835437",
+   "name": "Relic Coffret: Celestial Differentiator",
+   "iconPath": "96b6ac2607c4b7ab5ae14ca6132d19d27b448f2eecca85bc5d4f16aea0957640",
+   "type": 4,
+   "rarity": 5
+  },
+  {
+   "url": "material/835438",
+   "name": "Relic Coffret: Inert Salsotto",
+   "iconPath": "c3df329c6926cc79122e1428b77166f45bffcafaae212565eed0effe766e4003",
+   "type": 4,
+   "rarity": 5
+  },
+  {
+   "url": "material/835443",
+   "name": "Relic Coffret: Talia \u2014 Kingdom of Banditry",
+   "iconPath": "ecf141fb92ccea612ae84be895512df9f52eb9cdc28babd4560c1a76064896e1",
+   "type": 4,
+   "rarity": 5
+  },
+  {
+   "url": "material/835444",
+   "name": "Relic Coffret: Sprightly Vonwacq",
+   "iconPath": "89f5c282838fae9425e1b4eb92aba28ba135ae1f09591fcd21ec836e3b6d321c",
+   "type": 4,
+   "rarity": 5
+  },
+  {
+   "url": "material/362461",
+   "name": "Star of Honor",
+   "iconPath": "12ee09dd1dde25c933aee6e7070bcaa19cf4f7f622ab75128a9e628bc9cfc415",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/278520",
+   "name": "Pixel Warhead",
+   "iconPath": "73648cb0ee3089026f2f6cbb12879ccf3851151d142b9f7c0880cbbf1a42a34e",
+   "type": 4,
+   "rarity": 1
+  },
+  {
+   "url": "material/635673",
+   "name": "Shattered Blade",
+   "iconPath": "1cfcf420c7cd53b503eead070d126b1448cd68bf3f9b0ddca916d10b1747537b",
+   "type": 4,
+   "rarity": 2
+  },
+  {
+   "url": "material/920200",
+   "name": "Lifeless Blade",
+   "iconPath": "8e1da1734309fa1e0ed5035575293caab81cfa7723f7bf4a81d36d9833d80b36",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/836259",
+   "name": "Worldbreaker Blade",
+   "iconPath": "e50443a4312313a9e0eac79179944cf272f37c4a395e09c74f76542b13531122",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/635674",
+   "name": "Arrow of the Beast Hunter",
+   "iconPath": "cb316badc06db5719753768d375ae94463fad49721b56569985ab88a684474c4",
+   "type": 4,
+   "rarity": 2
+  },
+  {
+   "url": "material/920201",
+   "name": "Arrow of the Demon Slayer",
+   "iconPath": "a9dabc100dfb0916188799f2d83770e60721301f4d7c930b850ae55815281ad1",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/836260",
+   "name": "Arrow of the Starchaser",
+   "iconPath": "f0bb6fd4143f707987f651fa21b81257202d038949944fa22d7615ad342d5bfa",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/635675",
+   "name": "Key of Inspiration",
+   "iconPath": "a11149500124597e50362c7c3cd94c209d1a1b48d77ce9f7dfdfac64d8840ef3",
+   "type": 4,
+   "rarity": 2
+  },
+  {
+   "url": "material/920202",
+   "name": "Key of Knowledge",
+   "iconPath": "974e6b2e34ddd65a7b7edc1e2edd1b85ffbf62d63b7318313e7f387747d83f4f",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/836261",
+   "name": "Key of Wisdom",
+   "iconPath": "061bb583c251ea1491996ac5de0e5abb6ad317d66eeb6746872470f0325de7a0",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/635668",
+   "name": "Endurance of Bronze",
+   "iconPath": "751785c1795d0c216b39deec5fa263ee8119f6295a1582c75e5f4a958a17a385",
+   "type": 4,
+   "rarity": 2
+  },
+  {
+   "url": "material/920195",
+   "name": "Oath of Steel",
+   "iconPath": "40bec463d92cede13fc22b7ac618c83f9d27e06e1a8c95a37d32cedc83fffe17",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/836254",
+   "name": "Safeguard of Amber",
+   "iconPath": "1313f4b8549d0b129fb33fcd3745a87a8030d13fc8c28159f0dd2868a203ac2f",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/635669",
+   "name": "Obsidian of Dread",
+   "iconPath": "eb2e2feca2b8c63d7bd3d8b8e5a296d336fa0e30ca425e8e5489df4c015d1685",
+   "type": 4,
+   "rarity": 2
+  },
+  {
+   "url": "material/920196",
+   "name": "Obsidian of Desolation",
+   "iconPath": "ce4a765c779cfd1480029c5f6daa7ea755b5c3ec5661609bfd2dd5191b55f2d0",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/836255",
+   "name": "Obsidian of Obsession",
+   "iconPath": "328bab8dd4185cff98748182d80e550a23f12b7288da5caa228cc8407cea56df",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/635670",
+   "name": "Harmonic Tune",
+   "iconPath": "a327a767852b95b69b5d25ec4abc08aa0a548455bcf70fa743c6b9acc9356a38",
+   "type": 4,
+   "rarity": 2
+  },
+  {
+   "url": "material/920197",
+   "name": "Ancestral Hymn",
+   "iconPath": "2e991dc7b3d976ae72c1f7dfcc0cfb1ff4c33223d33db5479a3dcd8d039ffa1a",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/836256",
+   "name": "Stellaris Symphony",
+   "iconPath": "e0a98987f6f4c66f28c5b9b79a757e590ae649d0e44ec47ada0ec1bac39e78fa",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/635671",
+   "name": "Seed of Abundance",
+   "iconPath": "6a16c2294ef90c8cb62d61eff8e1fa277eb6fafdd394ce5e157bd9fd4a7bb701",
+   "type": 4,
+   "rarity": 2
+  },
+  {
+   "url": "material/920198",
+   "name": "Sprout of Life",
+   "iconPath": "084dff414a606a7be5ee10de1cda1048d08a87d2dc3587c5e545afb4399e881a",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/836257",
+   "name": "Flower of Eternity",
+   "iconPath": "8b56fa357be53126b0284b12903e0bfd41ace9d4dc155711d0297b70563b3bc7",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/782692",
+   "name": "Enigmatic Ectostella",
+   "iconPath": "7a42ca2323eb2224644c54f364da09df012442c0e83d9b460e8bf46348bcd8f1",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/866633",
+   "name": "Broken Teeth of Iron Wolf",
+   "iconPath": "d97cb9072570df0b85725f8a0783d22e500c3e06e49b7fbc8dd485e7ba1b9516",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/983278",
+   "name": "Endotherm Chitin",
+   "iconPath": "1f3033f7a0d40ab304f7c4af7eaa7a00cc0b0a1cfd9f7698fcbf0b0b8d9321d5",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/67219",
+   "name": "Horn of Snow",
+   "iconPath": "03a85f3ccfcb36eb4e371d602e552113e1ada82e6ca848ca9d4f2761f6991e5e",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/151160",
+   "name": "Lightning Crown of the Past Shadow",
+   "iconPath": "f4e0301b109ba0ab0b633a7186df88a0fa0be8a70edf33c88539672e514bbc8c",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/267805",
+   "name": "Storm Eye",
+   "iconPath": "822b1e8c023333b210f71f503cce58516c58ffc4f47c709a4ba4bc03387fdd68",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/351746",
+   "name": "Void Cast Iron",
+   "iconPath": "559c24ffae40e390bfec262f621e30b0b209f6d487b122f6bc54b0e7dada8353",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/468391",
+   "name": "Golden Crown of the Past Shadow",
+   "iconPath": "e8d74f9705754fb743acb234866d6e64a1f2354cb71bf2263579546b256a8913",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/67220",
+   "name": "Gelid Chitin",
+   "iconPath": "454d7cc126855797ffe9e381f1c4516d3fa988feafd6ed05db41cfe55b21f309",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/151161",
+   "name": "Shape Shifter's Lightning Staff",
+   "iconPath": "6b4243b69df9f37fab4f6cda60edc49711505bf5c2ce0b517d6272be5df311df",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/985668",
+   "name": "Destroyer's Final Road",
+   "iconPath": "91205616cca581bc299d91a1af94a91981d58328675779f8e66ccbaf679e5e94",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/270195",
+   "name": "Guardian's Lament",
+   "iconPath": "ed0c6ddf746bb8fe5f178943cd2836c9c4f98c2647479d389e2640b5f38d1317",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/549438",
+   "name": "Extinguished Core",
+   "iconPath": "4b2515eee489b695028b8b790795cdd3e71cfd4b1de7a006a6030882b039706c",
+   "type": 4,
+   "rarity": 2
+  },
+  {
+   "url": "material/633379",
+   "name": "Glimmering Core",
+   "iconPath": "4f83a6b3e1cca8b6421a25a880516c3d27117937ae2f7f196180bbb0e1d28c3f",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/717320",
+   "name": "Squirming Core",
+   "iconPath": "f32ca1d67c0e385f701d450cae1c5dea41f334e31d61eb331d4be4dc7551c378",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/549437",
+   "name": "Thief's Instinct",
+   "iconPath": "5930a427c19aedca23d55eb6ef670cc8ecf07466630281586f32f4d5e8d49409",
+   "type": 4,
+   "rarity": 2
+  },
+  {
+   "url": "material/633378",
+   "name": "Usurper's Scheme",
+   "iconPath": "69d0630f4dc8d8bb4706a8a973f720ce46452e189a62c7b8b6f2ca8d567ca8ae",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/717319",
+   "name": "Conqueror's Will",
+   "iconPath": "ea7f9727e8ba2c2039043d319ab4aa087ca6dbf08ec08876b1418d42c0f8a670",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/549407",
+   "name": "Silvermane Badge",
+   "iconPath": "2901efa774991b0ce2037520ce85ff99af64f37ee6364ffda560278736df6a19",
+   "type": 4,
+   "rarity": 2
+  },
+  {
+   "url": "material/633348",
+   "name": "Silvermane Insignia",
+   "iconPath": "042dc7973ef7c36858a4aa58ef7d32335f528b3c4bc4f0c4ce2e7f401039a7c5",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/717289",
+   "name": "Silvermane Medal",
+   "iconPath": "ec7d9dcb72593120a29744b7c2741fc2cf9d247469b89988c274ef108dc56b38",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/549408",
+   "name": "Ancient Part",
+   "iconPath": "a01d7231993bf0450534073f8515ba34a99653c455e03f9f43053719a34aff98",
+   "type": 4,
+   "rarity": 2
+  },
+  {
+   "url": "material/633349",
+   "name": "Ancient Spindle",
+   "iconPath": "191ad5f4b9fd5180b9065e05d463d6df35334c87ce1428e89d8d507e69177dc7",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/717290",
+   "name": "Ancient Engine",
+   "iconPath": "70ecbc31091590eedbe7999413b138778e67af4ce3797e4e47860fa6b5867fbe",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/549504",
+   "name": "Immortal Scionette",
+   "iconPath": "0c1388031133950e67459c98aad3ef2f784468e8339b131b94a4da88bbd608e3",
+   "type": 4,
+   "rarity": 2
+  },
+  {
+   "url": "material/633445",
+   "name": "Immortal Aeroblossom",
+   "iconPath": "5697f106bffd77cdaac463118c2612ee69e0d906afac35a2161414374437171c",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/717386",
+   "name": "Immortal Lumintwig",
+   "iconPath": "786a4710552f5db3cdbe821ed399429f2c61f1c0a70c89309cd3e3943a9918e6",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/549503",
+   "name": "Artifex's Module",
+   "iconPath": "fcb7215a2a17b09cd16362b5e1b398eaaf2fde23a94057c5f961151885a620c5",
+   "type": 4,
+   "rarity": 2
+  },
+  {
+   "url": "material/633444",
+   "name": "Artifex's Cogwheel",
+   "iconPath": "1977002edbf48f44c49d08284ce2681f622e70c447d50de10a8b9491dfcb719c",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/717385",
+   "name": "Artifex's Gyreheart",
+   "iconPath": "058379eb2e88612f2b1f78a6c3195c457e124c9b6de602d6dd2fe0b2d17245f3",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/152935",
+   "name": "Hertareum",
+   "iconPath": "658cb5dd7c47041670545c8777310123c6e78d7465d2b2468587467b13560639",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/68994",
+   "name": "Shield",
+   "iconPath": "3d7ac38cf7bedeca2e738c766ff861df8dc2c0861bbb21b5fb34764f152d9991",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/985053",
+   "name": "Strale",
+   "iconPath": "1321cf88075014f07adc93d90046be90de72abb3a5dd229f580b104dd66ed346",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/440416",
+   "name": "Solid Water",
+   "iconPath": "5f6ef03c4f12b96cc2193222e934c3229bacddb41cbda2d3d0380af6be039443",
+   "type": 4,
+   "rarity": 1
+  },
+  {
+   "url": "material/757647",
+   "name": "Basic Ingredients",
+   "iconPath": "55c753d85b97ea3bc3edbc6670d7957e812c7e408fdd5a609f86fbe52be0e0da",
+   "type": 4,
+   "rarity": 1
+  },
+  {
+   "url": "material/155889",
+   "name": "Phlogiston",
+   "iconPath": "cfad18793e3010265b0a82281326cc0f601968956adb8794c535341c0974f83b",
+   "type": 4,
+   "rarity": 1
+  },
+  {
+   "url": "material/71948",
+   "name": "Metal",
+   "iconPath": "66246a134a2466e730d3b928d4fb279d60ec0fadf652363019ced427acbfe988",
+   "type": 4,
+   "rarity": 1
+  },
+  {
+   "url": "material/356475",
+   "name": "Gaseous liquid",
+   "iconPath": "9dd77277c28117c06c0fb78cdf1accc3736022cb5bb39fd15fab2d13e9a8675e",
+   "type": 4,
+   "rarity": 1
+  },
+  {
+   "url": "material/272534",
+   "name": "Seed",
+   "iconPath": "5db97bdea9c76ccfce23e02737cd906c0dd066dd18fef2935c7e5e0617770096",
+   "type": 4,
+   "rarity": 1
+  },
+  {
+   "url": "material/440513",
+   "name": "Mechanical Parts",
+   "iconPath": "0c84c872d25ee920b5cd47d5babd1af5b11a0e5546aaf85dec532e1ebe04d393",
+   "type": 4,
+   "rarity": 2
+  },
+  {
+   "url": "material/757744",
+   "name": "Virtual Particle",
+   "iconPath": "268a72e23652901539d20e40ce25f9b04cacc505a518f49b3e0953d31a51a3cd",
+   "type": 4,
+   "rarity": 2
+  },
+  {
+   "url": "material/641099",
+   "name": "Protein Rice",
+   "iconPath": "3dd2e9d2839205b554c4b4a088806a5af824956d255f1c0b4158b5ad7e9fb09e",
+   "type": 4,
+   "rarity": 2
+  },
+  {
+   "url": "material/155986",
+   "name": "Feather of Flame",
+   "iconPath": "8311a39a76b297161d373d9e853dfe0a17c80bec249f5757f1794577d3c32840",
+   "type": 4,
+   "rarity": 2
+  },
+  {
+   "url": "material/72045",
+   "name": "Core of Ice",
+   "iconPath": "a42063d1bdcbc0358b070e2f0fa04227294af443f4c149cd7f0dc160f3d5c73e",
+   "type": 4,
+   "rarity": 2
+  },
+  {
+   "url": "material/356572",
+   "name": "Eye of Lightning",
+   "iconPath": "8d90bd4133eef94103c2ffc3afcd71a252832a99a4fce6bbe5dedb9bd571b0bc",
+   "type": 4,
+   "rarity": 2
+  },
+  {
+   "url": "material/272631",
+   "name": "Vortex of Wind",
+   "iconPath": "c56d9ab576f8077b55249ba302320edab04dd431bb233c6aa40fd2e8d689dcb8",
+   "type": 4,
+   "rarity": 2
+  },
+  {
+   "url": "material/787518",
+   "name": "Quantum Ripples",
+   "iconPath": "361423a2291c50f0bb5a644d0cb7fb8747cb8306fc7d7af70fe2a751186a9b0c",
+   "type": 4,
+   "rarity": 2
+  },
+  {
+   "url": "material/703577",
+   "name": "Leaf of Imaginary",
+   "iconPath": "3652795592451684da31b73d554dd630aad6965b2db09dd1cd2a8b66e2b8516b",
+   "type": 4,
+   "rarity": 2
+  },
+  {
+   "url": "material/557157",
+   "name": "Meteoric Alloy",
+   "iconPath": "a3312b403220e7c88f83773bc362fc380d8110ab29027bf04598a7b2f9facf05",
+   "type": 4,
+   "rarity": 2
+  },
+  {
+   "url": "material/440482",
+   "name": "Strange Matter of Destruction",
+   "iconPath": "99c760e7e0f562be3af0e92dfa57ece9d29db751534ea0f7e67d0e1469804749",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/757713",
+   "name": "Ambergris of Abundance",
+   "iconPath": "e939622ff07310220b4ae6be382615a1ef5a34b0a8830a21e5e2fd2ed6129a30",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/641068",
+   "name": "Stone of The Hunt",
+   "iconPath": "e75e51963b701a4d4b40b49f6074ade438199004d4c89d645a2777f14db50804",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/155955",
+   "name": "Preservation Construction Material",
+   "iconPath": "ff86188be988bda41cc33df8e66de42fe7d91a7f2f04a34810080ebf68c8aa2a",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/72014",
+   "name": "Hard Chip of Nihility",
+   "iconPath": "0e478e8e79698ab7512128e32bb7be826d4a6b311e36bf0196220b15dc6d4b20",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/356541",
+   "name": "Tree Bark of Erudition",
+   "iconPath": "253bb7948ea55d68037ca9f96574e2af6e647b9d76d46967f2d4e2899bfb9d69",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/272600",
+   "name": "Slime of Harmony",
+   "iconPath": "ded7154553ddefdabeaa866736266e0b2f25467fea728b9a78eb11c7ec229f1b",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/440579",
+   "name": "Interdimensional Leaf",
+   "iconPath": "c2c0c181db42dcfcb2b6d8cc2ad0b69cb38b87fb661dec642104a76a6b6fb311",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/757810",
+   "name": "Phase Flame",
+   "iconPath": "e87542e95eeee521b6a4e490f9d71ee5a731a4d2c7d5868512dda4b7e05f4b91",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/641165",
+   "name": "Tear Crystal of Glorious Death",
+   "iconPath": "dd455f01643b5e280e9a70b288071367d21326e8968aa3bee9b71d488f8f14a1",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/156052",
+   "name": "Mythus Knots",
+   "iconPath": "8946b2666635fce3e3ddde78442609d32f68743d2b45df662d9e7ee7fe7c7221",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/565225",
+   "name": "Gift of the Pathstriders",
+   "iconPath": "0400af1e6bdc5205f50eefc4dfbc789e845befa60aaf7bf95c8cd7fa09eb0632",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/481284",
+   "name": "Grand Gift of the Pathstriders",
+   "iconPath": "5683763f4097fc9ecbb98bebc7149eb5c216bcd98a40d66a4bc735e8770c7541",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/280699",
+   "name": "Treasure of the Starry Seas",
+   "iconPath": "992f0a93ef4437227174fa630e83181f8752369cb73fc56257673d98431da8d1",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/280697",
+   "name": "Gift of the Stars",
+   "iconPath": "d887f1a45f7d0f6780b9499e3e13c60366dac61e3acf930e278f352e726ec0df",
+   "type": 4,
+   "rarity": 5
+  },
+  {
+   "url": "material/443199",
+   "name": "Express Supply Pass",
+   "iconPath": "9b91f277655b50f74eb163a37e2b3b08ea20c87dbe318086c0755d416538fd43",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/527140",
+   "name": "Nameless Glory (Unopened)",
+   "iconPath": "1c52554ba778f671593c540efe669768f1d54b62738658edaf2cd226dfd7e8a3",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/643785",
+   "name": "Nameless Medal (Unopened)",
+   "iconPath": "1cb2bab15dc1dfb64ba3e9e415b72e5a39e6be5da1b9d8243f93552553d21fb7",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/958086",
+   "name": "Honor Badge (Unopened)",
+   "iconPath": "1cb2bab15dc1dfb64ba3e9e415b72e5a39e6be5da1b9d8243f93552553d21fb7",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/689641",
+   "name": "The Adventurous Moles: Hidden Treasure",
+   "iconPath": "eedd69791825aae6ec8afe50d7ee82de0c23cabd752daad49972af7ebde46407",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/551519",
+   "name": "Herta Contract: Trailblaze Aid",
+   "iconPath": "f1ee9aeaf79709bd231d57a09963ce74b213d784c64208d10a3ab96b350093f4",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/635460",
+   "name": "Herta Contract: Fuel Refill",
+   "iconPath": "8aa3da407648861a2df593731d433fa5bd2fc763a0020fc85ff76264c5f69ec5",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/719401",
+   "name": "Herta Contract: Quest Sharing",
+   "iconPath": "13f05f9e01735b16f2d1952c7685928c65e8a68bf5082b900be2c648f0e38546",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/988614",
+   "name": "Comfort Food",
+   "iconPath": "3bdaf19dc7a8a73c20888e07022d535b643781c20b3c6708bc4fc02ed86e13f2",
+   "type": 6,
+   "rarity": 1
+  },
+  {
+   "url": "material/871969",
+   "name": "Punitive Food",
+   "iconPath": "e8d961a8f43e6aa00c30acb56f86d5e99d32e5a19bcbc7a52683da7a318c0633",
+   "type": 6,
+   "rarity": 1
+  },
+  {
+   "url": "material/156496",
+   "name": "Trick Snack",
+   "iconPath": "8400bdb63bc65891326d2f113022205f7e236107041d343f882641cd7fb7d53f",
+   "type": 6,
+   "rarity": 1
+  },
+  {
+   "url": "material/72555",
+   "name": "Simple First-Aid Device",
+   "iconPath": "9beab99b92229be8aeb7b0bfdba1a138cb10c18c1c2169b59cf689dba3ebde5a",
+   "type": 6,
+   "rarity": 1
+  },
+  {
+   "url": "material/473758",
+   "name": "Cosmic Fried Rice",
+   "iconPath": "bc9fdfc374e9cb68472b1b4f76afb7f7e9c2c0212cf378ecee7aae1158e8f81d",
+   "type": 6,
+   "rarity": 2
+  },
+  {
+   "url": "material/988645",
+   "name": "Yucky Fried Rice",
+   "iconPath": "53d1f9b22c279fc5bbc6368f89be00e4fb0e9900118af43fa2235c897abb27cc",
+   "type": 6,
+   "rarity": 2
+  },
+  {
+   "url": "material/872000",
+   "name": "Punitive Energy",
+   "iconPath": "c83db4d9126864680087c14f1bdb3247f371b457279fd32361a06ca213cb1d6c",
+   "type": 6,
+   "rarity": 2
+  },
+  {
+   "url": "material/156527",
+   "name": "Energy Drink",
+   "iconPath": "5a08dc85993826401a774e09e3004c27d872cd54ec052f4f8714edf0072edee3",
+   "type": 6,
+   "rarity": 2
+  },
+  {
+   "url": "material/72586",
+   "name": "Life Transmitter",
+   "iconPath": "da6bce0b6bd854685093e84ea1b1dee7d16210dc8ea3e905e394f437a2681a62",
+   "type": 6,
+   "rarity": 2
+  },
+  {
+   "url": "material/126753",
+   "name": "Bottled Soda",
+   "iconPath": "4fd24c9880ec928f57f228b9629341860aea69064a46be667d49d6a8b787f8bf",
+   "type": 6,
+   "rarity": 2
+  },
+  {
+   "url": "material/42812",
+   "name": "Simple Protective Gear",
+   "iconPath": "ac39ef9904d105058ca85d878a972930af784c940f26fd4909b2ea86eee7c5c5",
+   "type": 6,
+   "rarity": 2
+  },
+  {
+   "url": "material/357114",
+   "name": "Rice Plant Panicle",
+   "iconPath": "2fee961723db140e8948fab1cf502bf9797c71ce2f72b2221c64aae138249c7c",
+   "type": 6,
+   "rarity": 2
+  },
+  {
+   "url": "material/273173",
+   "name": "Camo Paint",
+   "iconPath": "c70d7e83536077830ea36786bf65327dd7a3c97e3e70e02764955e6d8bcbda42",
+   "type": 6,
+   "rarity": 2
+  },
+  {
+   "url": "material/557700",
+   "name": "Diet Fried Rice",
+   "iconPath": "f8c945914c651ce3f6ef633f9457ce3d9c5d9972aa684f8c99bde1414a69745b",
+   "type": 6,
+   "rarity": 2
+  },
+  {
+   "url": "material/473759",
+   "name": "Wrathful Gauntlets",
+   "iconPath": "82b2a15501facdb07d3e9abf87b706b92f7a2291032ddd8c021edb64aad0a6a6",
+   "type": 6,
+   "rarity": 2
+  },
+  {
+   "url": "material/273207",
+   "name": "Healing Spray",
+   "iconPath": "cd2c17b85270bee7f945368582fc96645436ecd134602906a57c71f15e90819d",
+   "type": 6,
+   "rarity": 3
+  },
+  {
+   "url": "material/557734",
+   "name": "Disposable Shield",
+   "iconPath": "fa20b68b09a9e3a98460997f0f2a46a86ddb8c4d10c7fc3f4d57fbac000578f9",
+   "type": 6,
+   "rarity": 3
+  },
+  {
+   "url": "material/473793",
+   "name": "Energy Drink (sugar-free)",
+   "iconPath": "9127326df37ad5c0b45ce4a43a9915b47befcba3537ecc4f2e02c106e34d7dd9",
+   "type": 6,
+   "rarity": 3
+  },
+  {
+   "url": "material/988680",
+   "name": "Antimatter Field Generator",
+   "iconPath": "b8bfb98a4b4835debc1fb60627a45e14585244053569a66e9332f31a36b01902",
+   "type": 6,
+   "rarity": 3
+  },
+  {
+   "url": "material/872035",
+   "name": "High-Tech Protective Gear",
+   "iconPath": "9b205de1013e20411f1cd304241d4413be61883c099b74665d749e0df7ec64f9",
+   "type": 6,
+   "rarity": 3
+  },
+  {
+   "url": "material/156562",
+   "name": "Inferior Protective Gear",
+   "iconPath": "db67f3ace268b369c42ad008a78ac4bf5f1c6e3309836579a70deddc60b70d58",
+   "type": 6,
+   "rarity": 3
+  },
+  {
+   "url": "material/72621",
+   "name": "Tasty Field Nutrient Bar",
+   "iconPath": "afe705730dfa398c6e0126c4531615ac43828926f5dc7f9782307fdb7fe463ae",
+   "type": 6,
+   "rarity": 3
+  },
+  {
+   "url": "material/126788",
+   "name": "Dust of Alacrity",
+   "iconPath": "c5a0e4334adf322326c48c03f9fd6fc43827777854c8c881a2dfd7868c638f42",
+   "type": 6,
+   "rarity": 3
+  },
+  {
+   "url": "material/42847",
+   "name": "Enhancement Paste: Physical",
+   "iconPath": "7d67c37a4186dda696e35ea7a17484d8621ed92f5eea6a06d64abfe17bb35027",
+   "type": 6,
+   "rarity": 3
+  },
+  {
+   "url": "material/357147",
+   "name": "Enhancement Paste: Wind",
+   "iconPath": "bcd786b4337910400687d37849c3dde7fcb355b01690c1ba644d502a8737b605",
+   "type": 6,
+   "rarity": 3
+  },
+  {
+   "url": "material/273206",
+   "name": "Enhancement Paste: Fire",
+   "iconPath": "db6930d4174944203fa0239efab25dfb9080e518be7373292126e52c79d55d2b",
+   "type": 6,
+   "rarity": 3
+  },
+  {
+   "url": "material/557733",
+   "name": "Enhancement Paste: Ice",
+   "iconPath": "bfc142e2ce3f42c64d5ceced893a0f9f5748209053095b1b3c6046cd3796d890",
+   "type": 6,
+   "rarity": 3
+  },
+  {
+   "url": "material/473792",
+   "name": "Enhancement Paste: Lightning",
+   "iconPath": "ce7eebea328db270af1b7ea466b421b94ce53871a3339a2588ffe104f427560b",
+   "type": 6,
+   "rarity": 3
+  },
+  {
+   "url": "material/988679",
+   "name": "Enhancement Paste: Quantum",
+   "iconPath": "2a21a19b3371405447b443af4c5d2d72e58c7d71bac4a54cd6751d80ea08422f",
+   "type": 6,
+   "rarity": 3
+  },
+  {
+   "url": "material/872034",
+   "name": "Enhancement Paste: Imaginary",
+   "iconPath": "66a2bc9e0ac94bc98ba20a6f9dbae7e62433b8be8f4041ac358084d3cc5e6513",
+   "type": 6,
+   "rarity": 3
+  },
+  {
+   "url": "material/156561",
+   "name": "Vomit Inducing Agent",
+   "iconPath": "bc3eb8fbe97d51da7488d5a4d9e5ac4cfc30b8c742a1a8a0c1e9af7ccb557756",
+   "type": 6,
+   "rarity": 3
+  },
+  {
+   "url": "material/273238",
+   "name": "Disposable Kinetic Arm",
+   "iconPath": "798a9f4e6a3d0d4f1a2f0e7ff8ef84f8c8354b9a013d5c7e111e901e1a0da77d",
+   "type": 6,
+   "rarity": 4
+  },
+  {
+   "url": "material/557765",
+   "name": "Ruby Potion",
+   "iconPath": "95b9ecc145b516b22ac3f3aed631e8da23e9780eb109ed1e3d7d4aa342cc2985",
+   "type": 6,
+   "rarity": 4
+  },
+  {
+   "url": "material/473824",
+   "name": "Disposable Kinetic Cannon",
+   "iconPath": "4d36cb6336df6fb4d9a10d3bb081809ca231831c3216776a04582e4931c3e394",
+   "type": 6,
+   "rarity": 4
+  },
+  {
+   "url": "material/988711",
+   "name": "Stone From the Everwinter Monument",
+   "iconPath": "a4496ff8529b65393b5690b00c85e23c5b7d8b6f375a04b0811222d75c8fa933",
+   "type": 6,
+   "rarity": 4
+  },
+  {
+   "url": "material/872066",
+   "name": "Topological Acceleration Band",
+   "iconPath": "dc1ecae0925b80bfb9ffa404776ec92a11ee4c756ee2bf9b44ef63367e1b2cbd",
+   "type": 6,
+   "rarity": 4
+  },
+  {
+   "url": "material/156593",
+   "name": "Longevity Pill of Cruelty",
+   "iconPath": "25f010a94313a76916f56b1491cb7535985dc5bcfa1c1fb0f3794144d3a01776",
+   "type": 6,
+   "rarity": 4
+  },
+  {
+   "url": "material/988746",
+   "name": "Recipe: Comfort Food",
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "type": 4,
+   "rarity": 1
+  },
+  {
+   "url": "material/872101",
+   "name": "Recipe: Punitive Food",
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "type": 4,
+   "rarity": 1
+  },
+  {
+   "url": "material/156628",
+   "name": "Recipe: Trick Snack",
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "type": 4,
+   "rarity": 1
+  },
+  {
+   "url": "material/72687",
+   "name": "Recipe: Simple First-Aid Device",
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "type": 4,
+   "rarity": 1
+  },
+  {
+   "url": "material/473890",
+   "name": "Recipe: Cosmic Fried Rice",
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "type": 4,
+   "rarity": 2
+  },
+  {
+   "url": "material/988777",
+   "name": "Recipe: Yucky Fried Rice",
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "type": 4,
+   "rarity": 2
+  },
+  {
+   "url": "material/872132",
+   "name": "Recipe: Punitive Energy",
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "type": 4,
+   "rarity": 2
+  },
+  {
+   "url": "material/156659",
+   "name": "Recipe: Energy Drink",
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "type": 4,
+   "rarity": 2
+  },
+  {
+   "url": "material/72718",
+   "name": "Recipe: Life Transmitter",
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "type": 4,
+   "rarity": 2
+  },
+  {
+   "url": "material/126885",
+   "name": "Recipe: Bottled Soda",
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "type": 4,
+   "rarity": 2
+  },
+  {
+   "url": "material/42944",
+   "name": "Recipe: Simple Protective Gear",
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "type": 4,
+   "rarity": 2
+  },
+  {
+   "url": "material/357246",
+   "name": "Recipe: Rice Plant Panicle",
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "type": 4,
+   "rarity": 2
+  },
+  {
+   "url": "material/273305",
+   "name": "Recipe: Camo Paint",
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "type": 4,
+   "rarity": 2
+  },
+  {
+   "url": "material/557832",
+   "name": "Recipe: Diet Fried Rice",
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "type": 4,
+   "rarity": 2
+  },
+  {
+   "url": "material/473891",
+   "name": "Recipe: Wrathful Gauntlets",
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "type": 4,
+   "rarity": 2
+  },
+  {
+   "url": "material/273339",
+   "name": "Recipe: Healing Spray",
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "type": 4,
+   "rarity": 2
+  },
+  {
+   "url": "material/557866",
+   "name": "Recipe: Disposable Shield",
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/473925",
+   "name": "Recipe: Energy Drink (sugar-free)",
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/988812",
+   "name": "Recipe: Antimatter Field Generator",
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/872167",
+   "name": "Recipe: High-Tech Protective Gear",
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/156694",
+   "name": "Recipe: Inferior Protective Gear",
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/72753",
+   "name": "Recipe: Tasty Field Nutrient Bar",
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/126920",
+   "name": "Recipe: Dust of Alacrity",
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/42979",
+   "name": "Recipe: Enhancement Paste: Physical",
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/357279",
+   "name": "Recipe: Enhancement Paste: Wind",
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/273338",
+   "name": "Recipe: Enhancement Paste: Fire",
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/557865",
+   "name": "Recipe: Enhancement Paste: Ice",
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/473924",
+   "name": "Recipe: Enhancement Paste: Lightning",
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/988811",
+   "name": "Recipe: Enhancement Paste: Quantum",
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/872166",
+   "name": "Recipe: Enhancement Paste: Imaginary",
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/156693",
+   "name": "Recipe: Vomit Inducing Agent",
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "type": 4,
+   "rarity": 3
+  },
+  {
+   "url": "material/273370",
+   "name": "Recipe: Disposable Kinetic Arm",
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/557897",
+   "name": "Recipe: Ruby Potion",
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/473956",
+   "name": "Recipe: Disposable Kinetic Cannon",
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/988843",
+   "name": "Recipe: Stone from the Everwinter Monument",
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/872198",
+   "name": "Recipe: Topological Acceleration Band",
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/156725",
+   "name": "Recipe: Longevity Pill of Cruelty",
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "type": 4,
+   "rarity": 4
+  },
+  {
+   "url": "material/273405",
+   "name": "Trash",
+   "iconPath": "0cf2469f493df67754573918796792f6261f45f7d34020462dfb52a2c61eb045",
+   "type": 6,
+   "rarity": 1
+  },
+  {
+   "url": "material/557932",
+   "name": "Pleasant-Looking Trash",
+   "iconPath": "997a411b362df9849695dad0b8e7cda36293617906cdbb23dd493ab3dfcb28c5",
+   "type": 6,
+   "rarity": 3
+  },
+  {
+   "url": "material/473991",
+   "name": "Sanctity of the Trash Can",
+   "iconPath": "c1638e63ca0bd03687d88d998c75dfa993a0699bdc639427aaf068576accd48a",
+   "type": 6,
+   "rarity": 3
+  },
+  {
+   "url": "material/988878",
+   "name": "Jim Roger Bread Soda",
+   "iconPath": "fcf0b7069699cb3b81db325ef60654cd834688669817b94f1069bab5f01b18f1",
+   "type": 6,
+   "rarity": 3
+  },
+  {
+   "url": "material/872233",
+   "name": "Kapo-Kali",
+   "iconPath": "c7982a49f0178a3beb83830ef8fe5102510620c23c36580150e56633434db4f5",
+   "type": 6,
+   "rarity": 3
+  },
+  {
+   "url": "material/598407",
+   "name": "Tuskpir Wrap",
+   "iconPath": "7a7d40cd7a8299ae2e44bae00d6d3ef08ba430270cc1734663ff8ad63f6ad7b3",
+   "type": 6,
+   "rarity": 1
+  },
+  {
+   "url": "material/481762",
+   "name": "Berrypheasant Skewers",
+   "iconPath": "bad437b820e9c444ef516292c6806a77ca324a5338ecfab8781e61bd6dfd9a80",
+   "type": 6,
+   "rarity": 1
+  },
+  {
+   "url": "material/397821",
+   "name": "Rye Bread Soda Iceberg",
+   "iconPath": "57e007c9c09f1d1c296856cee2940b3d6e5627ff50e21e6257b0a356ccf0bca7",
+   "type": 6,
+   "rarity": 1
+  },
+  {
+   "url": "material/623401",
+   "name": "Snapper Jam Appetizer",
+   "iconPath": "d7dca76bc92c862110e5120da64acc9cdb92d3edaa53573eed151cc9ca54d99a",
+   "type": 6,
+   "rarity": 2
+  },
+  {
+   "url": "material/907928",
+   "name": "Crystal Lizard Satay",
+   "iconPath": "520870feff53010a0140a8873c51f11d9abde273976bad03956c5e560eb9ecb7",
+   "type": 6,
+   "rarity": 2
+  },
+  {
+   "url": "material/791283",
+   "name": "Wild Herb Soup",
+   "iconPath": "f1074719cc77c1b9353514c295a8f5444452be3050e3f5f38c97a2156450bf32",
+   "type": 6,
+   "rarity": 2
+  },
+  {
+   "url": "material/75810",
+   "name": "Deep-Fried Rock Crab",
+   "iconPath": "0cd2c6c1bdbdd0b053fd83eb36a6ff9db6a5dc27c4f7401cb51abcbc25af0940",
+   "type": 6,
+   "rarity": 2
+  },
+  {
+   "url": "material/991869",
+   "name": "Mung Bean Soda",
+   "iconPath": "9b226cd99a46cbfb8f6e33f4e3fffa5dcc25c0a33c890fc76d58ff97ebcd7793",
+   "type": 6,
+   "rarity": 2
+  },
+  {
+   "url": "material/276396",
+   "name": "Whale-Tide Water",
+   "iconPath": "da0b66697a5bcea780a1c49fe80251bd0e18e3771c79bf4907d052451a1231cd",
+   "type": 6,
+   "rarity": 2
+  },
+  {
+   "url": "material/192455",
+   "name": "Songlotus Cake",
+   "iconPath": "e259a4c2673ac1fe779b53ddaefc5163e27bf01cf574b102f05065abdb068589",
+   "type": 6,
+   "rarity": 2
+  },
+  {
+   "url": "material/476982",
+   "name": "Steamed Puffergoat Milk",
+   "iconPath": "c4982c2386092a121781ab284e6bfed5e4543ac6a0ae9667d443db24d31c9fcf",
+   "type": 6,
+   "rarity": 2
+  },
+  {
+   "url": "material/948403",
+   "name": "Belobog Sausage",
+   "iconPath": "66e5ff2ddee25cdc0ae77b54e651d4e75f6545d67a7863e86396b5477528c67e",
+   "type": 6,
+   "rarity": 3
+  },
+  {
+   "url": "material/831758",
+   "name": "Stone-Grilled Olm",
+   "iconPath": "e967ba0fc569606c298cccf31e42eeea871a7426a1a8b8c4d0bdb522999c1e27",
+   "type": 6,
+   "rarity": 3
+  },
+  {
+   "url": "material/747817",
+   "name": "Immortal's Delight",
+   "iconPath": "b3854459a6cf6c36ee54f5173bab8a8e6855ccb8a491193374622cb483954401",
+   "type": 6,
+   "rarity": 3
+  },
+  {
+   "url": "material/433516",
+   "name": "Resurrection Pellet",
+   "iconPath": "4bdd66ba249e348a37caaf7ce086c164865b043d8e856ade35dd2f6959c99867",
+   "type": 6,
+   "rarity": 3
+  },
+  {
+   "url": "material/442176",
+   "name": "March 7th \u2014 Welcome",
+   "iconPath": "2e2e6106bc274c2433e2166d7221f3990f284beae119c278d28c18fde3cb334b",
+   "type": 5,
+   "rarity": 5
+  },
+  {
+   "url": "material/526117",
+   "name": "Dan Heng \u2014 Welcome",
+   "iconPath": "b1845e8e04d78a3fe54c30553b3df6bca678cba59b4f3439cb3341800e38535d",
+   "type": 5,
+   "rarity": 5
+  },
+  {
+   "url": "material/642762",
+   "name": "Himeko \u2014 Welcome",
+   "iconPath": "701a2e0d0e54774d89199a3d5d78ab162ea70cf36e638fbff2b2bb9f9f157f8a",
+   "type": 5,
+   "rarity": 5
+  },
+  {
+   "url": "material/957063",
+   "name": "Welt \u2014 Welcome",
+   "iconPath": "db0488e01a46c5488def6b0bf91874dfb24999bfa1e692e2611945bd03628084",
+   "type": 5,
+   "rarity": 5
+  },
+  {
+   "url": "material/41004",
+   "name": "Trailblazer \u2014 Welcome",
+   "iconPath": "e835463531d1223c3ca6d93c3bba4fca1fe19930abd420cc77e9158b28aa09f9",
+   "type": 5,
+   "rarity": 5
+  },
+  {
+   "url": "material/157649",
+   "name": "Trailblazer \u2014 Welcome",
+   "iconPath": "ecfc6563c93f1c63ea3bb00c76aaa369a933990f1004631e49952d501233e808",
+   "type": 5,
+   "rarity": 5
+  },
+  {
+   "url": "material/279609",
+   "name": "Wubbaboo",
+   "iconPath": "7263178787584e0af45730cde41f8861673ce06d6a0b301ff9c0b5dd09e396b8",
+   "type": 5,
+   "rarity": 4
+  },
+  {
+   "url": "material/564136",
+   "name": "Trash Can",
+   "iconPath": "8da590a8a9f5bd3b1178647e22ba08711180fa8a0b3ff39a5ffe10de5b67e855",
+   "type": 5,
+   "rarity": 4
+  },
+  {
+   "url": "material/480195",
+   "name": "Junjun",
+   "iconPath": "9f23dd9c8a1bd11cb374a70a1d3f498e0d2ec2d808278feb3b6a732a75d923d7",
+   "type": 5,
+   "rarity": 4
+  },
+  {
+   "url": "material/995082",
+   "name": "Peppy",
+   "iconPath": "9c424b13d69dfc5599dd553fe528acc0e5a73f327c3101029a80cf1ac99c8a22",
+   "type": 5,
+   "rarity": 4
+  },
+  {
+   "url": "material/878437",
+   "name": "Diting",
+   "iconPath": "6f16ffd11e0bef07507512892a72e49bdd75a167a106392f3eb6645ca65854fe",
+   "type": 5,
+   "rarity": 4
+  },
+  {
+   "url": "material/162964",
+   "name": "Wanted Poster",
+   "iconPath": "a30bc8cb7d4bed2a72c52b43949ac07e010f3ba1c5f6fe05c70d7f31feb234f1",
+   "type": 5,
+   "rarity": 4
+  }
+ ]
+}

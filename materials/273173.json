@@ -1,0 +1,111 @@
+{
+ "iconPath": "c70d7e83536077830ea36786bf65327dd7a3c97e3e70e02764955e6d8bcbda42",
+ "name": "Camo Paint",
+ "rarity": 2,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 273173,
+  "type": 502,
+  "purposeId": 10,
+  "iconPath": "c70d7e83536077830ea36786bf65327dd7a3c97e3e70e02764955e6d8bcbda42",
+  "name": "Camo Paint",
+  "desc": "Upon use, enemies will be less likely to detect your team for <nobr>75</nobr>s.",
+  "lore": "The mysterious liquid changes color based on the environment.<br />You'll do the same in a few years' time after graduation.<br /><br />\"You're a chameleon, Oswaldo. You know what I mean?\"<br />\"The IPC could use a few chameleons.\"",
+  "purpose": "Consumables",
+  "rarity": 2,
+  "rewardPath": "/material/273173",
+  "comeFrom": [
+   "All-in-One Synthesis Machine"
+  ]
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "0e76659bbb3b9d0b1cc6a4e0e8c63a576c7b917f2f740a4b1b8ceab260a8a595",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards"
+   ]
+  },
+  "273305": {
+   "id": 273305,
+   "type": 507,
+   "purposeId": 19,
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: Camo Paint",
+   "desc": "A simple equation. When entered into the Synthesizer, it will unlock a new recipe.",
+   "lore": "",
+   "purpose": "Recipe",
+   "rarity": 2,
+   "rewardPath": "/material/273305",
+   "comeFrom": []
+  },
+  "440416": {
+   "id": 440416,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "5f6ef03c4f12b96cc2193222e934c3229bacddb41cbda2d3d0380af6be039443",
+   "name": "Solid Water",
+   "desc": "Tier 1 Synthesis Material",
+   "lore": "Compound composed of hydrogen and oxygen, essential to support carbon-based life. <br />Keeping it in the solid state makes it easy to carry.<br /><br />\"...Isn't it ice?\"<br />\"No, no, no. Ice is ice, this is water, just in the solid state.\"<br />\"...Isn't that the definition of ice?\"",
+   "purpose": "Synthesis material",
+   "rarity": 1,
+   "rewardPath": "/material/440416",
+   "comeFrom": [
+    "Storage Zone: Baryons or other enemies",
+    "Found in destructible objects in Jarilo-VI",
+    "Administrative District Shop"
+   ]
+  },
+  "757744": {
+   "id": 757744,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "268a72e23652901539d20e40ce25f9b04cacc505a518f49b3e0953d31a51a3cd",
+   "name": "Virtual Particle",
+   "desc": "Tier 2 Synthesis Material",
+   "lore": "Tiny particles commonly found in the universe but cannot be observed in theory.<br />Scientists are good at transforming theories into reality.<br /><br />\"I've got a virtual particle and an anti virtual particle here. How do we turn them into a real particle and a real antiparticle? Now, look closely...\"",
+   "purpose": "Synthesis material",
+   "rarity": 2,
+   "rewardPath": "/material/757744",
+   "comeFrom": [
+    "Storage Zone: Baryons or other enemies",
+    "Found in destructible objects in the Herta Space Station",
+    "Grocery Stand"
+   ]
+  }
+ },
+ "composeData": [
+  {
+   "items": [
+    {
+     "id": 440416,
+     "count": 2
+    },
+    {
+     "id": 757744,
+     "count": 2
+    },
+    {
+     "id": 273305,
+     "count": 1
+    }
+   ],
+   "tag": {
+    "name": "Special Consumables",
+    "type": "Consumables",
+    "icon": "afe47a40c1361649152476b603185f0ffb4b55c17408e2629a1489e38daf70a5"
+   }
+  }
+ ],
+ "pageId": "273173"
+}

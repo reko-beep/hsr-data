@@ -1,0 +1,2357 @@
+{
+ "name": "Qingque",
+ "spRequirement": 140,
+ "rarity": 4,
+ "descHash": "Diviner of the Divination Commission on the Xianzhou Luofu, and a librarian. Always slacks off and is about to be demoted to a \"door guardian.\"",
+ "iconPath": "f81b47e347f7155616be9b134202ede37cc21d879d8987adb28305e32ca66585",
+ "bgPath": "a0558806f1979517101b119e571d0310bb3513b43a98c7744092a50c3b11d93a",
+ "figPath": "b8941502c247558ae03a258872b341e641a8c3f02fbac30f47246afe02b18b9d",
+ "fgPath": "1320fa86c14f851ed0bf3c8a0695749918a258aad1b415a894ccc5152e621576",
+ "artPath": "c05693dd7becec89317ea84659378de53a1486702d0db84a277fa9367f1dd056",
+ "miniIconPath": "518a90b3238644f143c3aa92838ea918c17b79b89f5c80503e608c1fd3f9bfa1",
+ "splashIconPath": "3a1046dace553ff92a6cc0375fce757d31951f4daa5dce12d15edfdbffc7bbe2",
+ "damageType": {
+  "id": 32,
+  "iconPath": "c169a917eb0468e615f318e517070c0288247553d65c5e99ed809233284108e1",
+  "color": "#1C29BA",
+  "name": "Quantum",
+  "rarity": 0
+ },
+ "baseType": {
+  "id": 0,
+  "iconPath": "b9e59719a64e109bbcf97e61c2cf3c99730af37cbd230758a45d291825dbd941",
+  "altIconPath": "2711d1f5592aee2297cc8ef3a82ed4e7b6958efe02a2a79f7ea3e97246ec9837",
+  "color": "#FFFFFF",
+  "name": "Erudition",
+  "rarity": 0
+ },
+ "damageTypeId": 0,
+ "baseTypeId": 0,
+ "baseTypeTraces": {
+  "id": 3,
+  "iconPath": "312ed1eeb6d329b90b5506b23fd487883f83124ccabedaf6cfafbb913d86c74c",
+  "color": "#FFFFFF",
+  "rarity": 0
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "0e76659bbb3b9d0b1cc6a4e0e8c63a576c7b917f2f740a4b1b8ceab260a8a595",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards"
+   ]
+  },
+  "125435": {
+   "id": 125435,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "75e6d3c477385eb36716ba1798609b01a9fe10893c1b3e9f9dc81046ad10d9b0",
+   "name": "Tracks of Destiny",
+   "desc": "Advanced level-up material for Traces.",
+   "lore": "Your victory is secured by countless failures, and the small steps you have taken led you to the turning point of fate.",
+   "purpose": "Trace Materials",
+   "rarity": 5,
+   "rewardPath": "/material/125435",
+   "comeFrom": [
+    "Simulated Universe Point Rewards",
+    "Nameless Honor",
+    "Embers Exchange",
+    "Limited-Time Event Rewards"
+   ]
+  },
+  "270195": {
+   "id": 270195,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "ed0c6ddf746bb8fe5f178943cd2836c9c4f98c2647479d389e2640b5f38d1317",
+   "name": "Guardian's Lament",
+   "desc": "Advanced level-up material for Traces.",
+   "lore": "Together with this visor, the twisted wish of a Guardian also lies broken.<br />She had wanted to find a way out for her people to escape the Everwinter, but ended up becoming a puppet of a consciousness beyond her.<br /><br />\"Supreme Guardian, the title passed down to generations of Belobog's rulers, the one who looked after all the people \u2014 It never occurred to anyone that the Guardians themselves also long for care and protection.\"",
+   "purpose": "Trace Materials",
+   "rarity": 4,
+   "rewardPath": "/material/270195",
+   "comeFrom": [
+    "Echo of War (Everwinter Hill)"
+   ]
+  },
+  "351746": {
+   "id": 351746,
+   "type": 601,
+   "purposeId": 2,
+   "iconPath": "559c24ffae40e390bfec262f621e30b0b209f6d487b122f6bc54b0e7dada8353",
+   "name": "Void Cast Iron",
+   "desc": "Horseshoe of a Voidranger: Trampler. Can be used for the Ascension of Quantum characters.",
+   "lore": "Rare horseshoe obtained when a Trampler of the Antimatter Legion is defeated. When no one is observing, it pops in and out of existence.<br /><br />\"The name of the experiment? It's just called \"Horseshoe of the Trampler\"... \"",
+   "purpose": "Character Ascension Materials",
+   "rarity": 4,
+   "rewardPath": "/material/351746",
+   "comeFrom": [
+    "Stagnant Shadow (Base Zone)",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "409960": {
+   "id": 409960,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "607961a38d9fe4f935578e9ea7b4de093d68ff8258b0b52c3cd4261e5cd92932",
+   "name": "Traveler's Guide",
+   "desc": "Experience material for characters. Provides <nobr>20,000</nobr> Character EXP.",
+   "lore": "Required reading for world exploration. Press the \"Read\" button to tune in to an attractive voice in a language you understand, telling you about the legendary encounters of renowned adventurers across different worlds as well as the precious wisdom and knowledge that they have gathered.<br /><br />\"All-new series of the Traveler's Guide, The Chef's Manual to Galactic Cuisine, is now available for purchase.\"<br />\"For submissions, please connect to synesthesia beacon ERD<nobr>-23</nobr>\u03b8 to contact an Intelligentsia Guild representative. Method of payment can be arranged to your convenience.\"",
+   "purpose": "Character EXP Material",
+   "rarity": 4,
+   "rewardPath": "/material/409960",
+   "comeFrom": [
+    "Calyx (Outlying Snow Plains)",
+    "Forgotten Hall"
+   ]
+  },
+  "409961": {
+   "id": 409961,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "05ef6659e951dd69d862823c86470487d68c24209400d4391df1f50bbc21ab42",
+   "name": "Adventure Log",
+   "desc": "Experience material for characters. Provides <nobr>5000</nobr> Character EXP.",
+   "lore": "A neatly organized collection of educational adventure notes containing countless illustrations and texts entailing adventures from beginning to end, as well as valuable information and survival-related techniques.<br /><br />\"Why not just digitize it and save it on a photolith disk? That'd be much more convenient.\"<br />\"Advanced technology is far more fragile than you'd think when faced with stellar storms and neuron flow eruptions. Besides, I'm sure the author of this book wanted people to read it in the simplest of ways.\"",
+   "purpose": "Character EXP Material",
+   "rarity": 3,
+   "rewardPath": "/material/409961",
+   "comeFrom": [
+    "Calyx (Outlying Snow Plains)",
+    "Daily Training"
+   ]
+  },
+  "409962": {
+   "id": 409962,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "ad5070f0ef2447ee09fb3b0d859ab3c594538eaa58b71a14ffcbd4b2b493c1c5",
+   "name": "Travel Encounters",
+   "desc": "Experience material for characters. Provides <nobr>1000</nobr> Character EXP.",
+   "lore": "A travel diary with messy handwriting and random content. It's not of much use to you.<br /><br />\"Dan Heng, hurry up and finish reading it so you can throw it away.\"",
+   "purpose": "Character EXP Material",
+   "rarity": 2,
+   "rewardPath": "/material/409962",
+   "comeFrom": [
+    "Calyx (Outlying Snow Plains)",
+    "Assignment rewards"
+   ]
+  },
+  "549437": {
+   "id": 549437,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "5930a427c19aedca23d55eb6ef670cc8ecf07466630281586f32f4d5e8d49409",
+   "name": "Thief's Instinct",
+   "desc": "A small amount of anti-matter. Crude material used for enhancement.",
+   "lore": "A small amount of anti-matter that emanates out of the Voidranger: Reaver like the materialization of its destructive instinct.<br /><br />\"They are all looking forward to the moment of obliteration, when they will be reforged and fused with the entire world.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 2,
+   "rewardPath": "/material/549437",
+   "comeFrom": [
+    "Storage Zone: Voidranger: Reavers or other enemies",
+    "Supply Zone: Voidranger: Reavers or other enemies",
+    "Simulated Universe enemies",
+    "Assignment rewards",
+    "Embers Exchange",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "633378": {
+   "id": 633378,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "69d0630f4dc8d8bb4706a8a973f720ce46452e189a62c7b8b6f2ca8d567ca8ae",
+   "name": "Usurper's Scheme",
+   "desc": "A moderate amount of anti-matter. Normal material used for enhancement.",
+   "lore": "A moderate amount of anti-matter that floats around the Voidranger: Distorter. The amount of matter and anti-matter particles has reached a dangerous balance...<br /><br />\"They are all looking forward to the moment of obliteration, when they will be reforged and fused with the entire world.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 3,
+   "rewardPath": "/material/633378",
+   "comeFrom": [
+    "Storage Zone: Equilibrium Level 2+ Voidranger: Reavers or other enemies",
+    "Supply Zone: Equilibrium Level 2+ Voidranger: Reavers or other enemies",
+    "Omni-Synthesizer \u2014 Material Synthesis",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "635675": {
+   "id": 635675,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "a11149500124597e50362c7c3cd94c209d1a1b48d77ce9f7dfdfac64d8840ef3",
+   "name": "Key of Inspiration",
+   "desc": "A mythical key that appears in the hands of the Meditative Scholars. Used to level up Traces slightly for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Erudition</span> characters.",
+   "lore": "It can unlock inspirations hidden deep within the conscience.<br />To take hold of the key is to grasp at the darting embers of thought that lead to the forward path.<br /><br />\"Eureka!\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 2,
+   "rewardPath": "/material/635675",
+   "comeFrom": [
+    "Calyx (Rivet Town)"
+   ]
+  },
+  "717319": {
+   "id": 717319,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "ea7f9727e8ba2c2039043d319ab4aa087ca6dbf08ec08876b1418d42c0f8a670",
+   "name": "Conqueror's Will",
+   "desc": "Condensed anti-matter. Advanced material used for enhancement.",
+   "lore": "Highly condensed anti-matter within the body of the Voidranger: Trampler. The moment of obliteration is the trumpet call for civilizations' destruction.<br /><br />\"They are all looking forward to the moment of obliteration, when they will be reforged and fused with the entire world.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 4,
+   "rewardPath": "/material/717319",
+   "comeFrom": [
+    "Storage Zone: Equilibrium Level 4+ Voidranger: Reavers or other enemies",
+    "Supply Zone: Equilibrium Level 4+ Voidranger: Reavers or other enemies",
+    "Omni-Synthesizer \u2014 Material Synthesis",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "836261": {
+   "id": 836261,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "061bb583c251ea1491996ac5de0e5abb6ad317d66eeb6746872470f0325de7a0",
+   "name": "Key of Wisdom",
+   "desc": "A mythical key that appears in the hands of the greatest prodigies of the galaxy. Used to level up Traces significantly for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Erudition</span> characters.",
+   "lore": "This is the proof of invitation to the halls of the Nous Temple.<br />Finding the door of which this key opens is a far more arduous task than obtaining the key itself. Those who pass through the doors will immediately realize the impossibility of returning to this side.<br /><br />\"The Erudition does not have answers to the universe, but it will teach you how to ask the right questions.\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 4,
+   "rewardPath": "/material/836261",
+   "comeFrom": [
+    "Calyx (Rivet Town)",
+    "Omni-Synthesizer \u2014 Material Synthesis"
+   ]
+  },
+  "920202": {
+   "id": 920202,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "974e6b2e34ddd65a7b7edc1e2edd1b85ffbf62d63b7318313e7f387747d83f4f",
+   "name": "Key of Knowledge",
+   "desc": "A mythical key that appears in the hands of the sages of the worlds. Used to level up Traces moderately for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Erudition</span> characters.",
+   "lore": "It can unlock the mysteries binding the truth of the world and grants knowledge beyond the understanding of humans.<br />No matter how the wielder attempts to display their possession of the key, no one but themselves can see its form. Some people believe that to be a gift from the heavens, while others think it's a sign of mental disorder.<br /><br />\"I had a dream of molecules coiling up into a loop like a snake biting its own tail. I woke up realizing that this is the answer I've been looking for all along!\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 3,
+   "rewardPath": "/material/920202",
+   "comeFrom": [
+    "Calyx (Rivet Town)",
+    "Omni-Synthesizer \u2014 Material Synthesis"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 3200
+    },
+    {
+     "id": 549437,
+     "count": 4
+    }
+   ],
+   "attackBase": 88.8,
+   "attackAdd": 4.44,
+   "hpBase": 139.2,
+   "hpAdd": 6.96,
+   "defenseBase": 60,
+   "defenseAdd": 3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 98,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 6400
+    },
+    {
+     "id": 549437,
+     "count": 8
+    }
+   ],
+   "attackBase": 124.32,
+   "attackAdd": 4.44,
+   "hpBase": 194.88,
+   "hpAdd": 6.96,
+   "defenseBase": 84,
+   "defenseAdd": 3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 98,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 12800
+    },
+    {
+     "id": 633378,
+     "count": 5
+    },
+    {
+     "id": 351746,
+     "count": 2
+    }
+   ],
+   "attackBase": 159.84,
+   "attackAdd": 4.44,
+   "hpBase": 250.56,
+   "hpAdd": 6.96,
+   "defenseBase": 108,
+   "defenseAdd": 3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 98,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 32000
+    },
+    {
+     "id": 633378,
+     "count": 8
+    },
+    {
+     "id": 351746,
+     "count": 5
+    }
+   ],
+   "attackBase": 195.36,
+   "attackAdd": 4.44,
+   "hpBase": 306.24,
+   "hpAdd": 6.96,
+   "defenseBase": 132,
+   "defenseAdd": 3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 98,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 64000
+    },
+    {
+     "id": 717319,
+     "count": 5
+    },
+    {
+     "id": 351746,
+     "count": 15
+    }
+   ],
+   "attackBase": 230.88,
+   "attackAdd": 4.44,
+   "hpBase": 361.92,
+   "hpAdd": 6.96,
+   "defenseBase": 156,
+   "defenseAdd": 3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 98,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 128000
+    },
+    {
+     "id": 717319,
+     "count": 7
+    },
+    {
+     "id": 351746,
+     "count": 28
+    }
+   ],
+   "attackBase": 266.4,
+   "attackAdd": 4.44,
+   "hpBase": 417.6,
+   "hpAdd": 6.96,
+   "defenseBase": 180,
+   "defenseAdd": 3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 98,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": [],
+   "attackBase": 301.92,
+   "attackAdd": 4.44,
+   "hpBase": 473.28,
+   "hpAdd": 6.96,
+   "defenseBase": 204,
+   "defenseAdd": 3,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 98,
+   "speedAdd": 0
+  }
+ ],
+ "ranks": [
+  {
+   "id": 1,
+   "iconPath": "",
+   "artPath": "4b46007f1ae172c169c75ed12cb41c72ddaf8d72b96abb82af014341c3b81d30",
+   "name": "Rise Through the Tiles",
+   "descHash": "Ultimate deals <nobr>#1[i]%</nobr> more DMG.",
+   "params": [
+    0.1
+   ]
+  },
+  {
+   "id": 2,
+   "iconPath": "",
+   "artPath": "fb5ef0eac3e051e882a2fd6ed3b892e8595e6a12231b160e1c4287d24bf16907",
+   "name": "Sleep on the Tiles",
+   "descHash": "Every time Draw Tile is triggered, Qingque immediately regenerates <nobr>#1[i]</nobr> Energy.",
+   "params": [
+    1
+   ]
+  },
+  {
+   "id": 3,
+   "iconPath": "",
+   "artPath": "e338d84c01738d3cfd26c286f56d8857a805b5d0a76c035cb78ae91b8dcfe7d5",
+   "name": "Read Between the Tiles",
+   "descHash": "Ultimate Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Talent Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.",
+   "params": []
+  },
+  {
+   "id": 4,
+   "iconPath": "",
+   "artPath": "373b79b2c24b2e58888ee99ef99d97e91b627f2d1315c4c53e1c03dbd684d89f",
+   "name": "Right on the Tiles",
+   "descHash": "After this character's Skill is used, there is a <nobr>#1[i]%</nobr> fixed chance to gain Autarky, which lasts until the end of the current turn. <br />With Autarky, using Basic ATK or Enhanced Basic ATK immediately launches 1 follow-up attack on the same target, dealing Quantum DMG equal to <nobr>100%</nobr> of the previous Basic ATK (or Enhanced Basic ATK)'s DMG.",
+   "params": [
+    0.24
+   ]
+  },
+  {
+   "id": 5,
+   "iconPath": "",
+   "artPath": "d41854e9ee71200393a122db0e0480227a7f7490a4b88914e522ca2ed04e0a3c",
+   "name": "Gambit for the Tiles",
+   "descHash": "Skill Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Basic ATK Lv. +1, up to a maximum of Lv. <nobr>10</nobr>.",
+   "params": []
+  },
+  {
+   "id": 6,
+   "iconPath": "",
+   "artPath": "d8b7db32f329fab7d199e9e268b2182e9367fec59792b33b9da2205385c35235",
+   "name": "Prevail Beyond the Tiles",
+   "descHash": "Recovers 1 Skill Point after using Enhanced Basic ATK.",
+   "params": []
+  }
+ ],
+ "skillGrouping": [
+  [
+   231495,
+   917194
+  ],
+  [
+   946968
+  ],
+  [
+   30909
+  ],
+  [
+   746382
+  ],
+  [
+   662441
+  ]
+ ],
+ "skills": [
+  {
+   "id": 231495,
+   "name": "Flower Pick",
+   "tagHash": "Single Target",
+   "descHash": "Tosses 1 jade tile from the suit with the fewest tiles in hand to deal <span style=\"color:#7788ff;\">Quantum</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Qingque's ATK to a single enemy.",
+   "typeDescHash": "Basic ATK",
+   "iconPath": "396133d02c35647181ca18469408714f8189192544173f7d755db22ac2c78825",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      0.5
+     ],
+     "cost": []
+    },
+    {
+     "level": 2,
+     "params": [
+      0.6
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 635675,
+       "count": 2
+      },
+      {
+       "id": 549437,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "params": [
+      0.7
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 920202,
+       "count": 2
+      },
+      {
+       "id": 633378,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "params": [
+      0.8
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 920202,
+       "count": 4
+      },
+      {
+       "id": 633378,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "params": [
+      0.9
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 36000
+      },
+      {
+       "id": 836261,
+       "count": 2
+      },
+      {
+       "id": 717319,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "params": [
+      1
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 128000
+      },
+      {
+       "id": 836261,
+       "count": 6
+      },
+      {
+       "id": 717319,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "params": [
+      1.1
+     ],
+     "cost": []
+    },
+    {
+     "level": 8,
+     "params": [
+      1.2
+     ],
+     "cost": []
+    },
+    {
+     "level": 9,
+     "params": [
+      1.3
+     ],
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  },
+  {
+   "id": 946968,
+   "name": "A Scoop of Moon",
+   "tagHash": "Enhance",
+   "descHash": "Immediately draws <nobr>#1[i]</nobr> jade tile(s) and increases DMG by <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#2[i]%</nobr></span> until the end of the current turn. This effect can stack up to <nobr>#3[i]</nobr> time(s). The turn will not end after this Skill is used.",
+   "typeDescHash": "Skill",
+   "iconPath": "f7b226838162be45185aad445206ade0c28af91ab1adb39fa19101b3308bc411",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      2,
+      0.14,
+      4
+     ],
+     "cost": []
+    },
+    {
+     "level": 2,
+     "params": [
+      2,
+      0.154,
+      4
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2000
+      },
+      {
+       "id": 549437,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "params": [
+      2,
+      0.168,
+      4
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 635675,
+       "count": 2
+      },
+      {
+       "id": 549437,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "params": [
+      2,
+      0.182,
+      4
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 920202,
+       "count": 2
+      },
+      {
+       "id": 633378,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "params": [
+      2,
+      0.196,
+      4
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 920202,
+       "count": 4
+      },
+      {
+       "id": 633378,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "params": [
+      2,
+      0.21,
+      4
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 24000
+      },
+      {
+       "id": 920202,
+       "count": 6
+      },
+      {
+       "id": 633378,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "params": [
+      2,
+      0.2275,
+      4
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 36000
+      },
+      {
+       "id": 836261,
+       "count": 2
+      },
+      {
+       "id": 717319,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "params": [
+      2,
+      0.245,
+      4
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 64000
+      },
+      {
+       "id": 836261,
+       "count": 4
+      },
+      {
+       "id": 270195,
+       "count": 1
+      },
+      {
+       "id": 717319,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "params": [
+      2,
+      0.2625,
+      4
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 128000
+      },
+      {
+       "id": 836261,
+       "count": 6
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "params": [
+      2,
+      0.28,
+      4
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 836261,
+       "count": 11
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 11,
+     "params": [
+      2,
+      0.294,
+      4
+     ],
+     "cost": []
+    },
+    {
+     "level": 12,
+     "params": [
+      2,
+      0.308,
+      4
+     ],
+     "cost": []
+    },
+    {
+     "level": 13,
+     "params": [
+      2,
+      0.322,
+      4
+     ],
+     "cost": []
+    },
+    {
+     "level": 14,
+     "params": [
+      2,
+      0.336,
+      4
+     ],
+     "cost": []
+    },
+    {
+     "level": 15,
+     "params": [
+      2,
+      0.35,
+      4
+     ],
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  },
+  {
+   "id": 30909,
+   "name": "A Quartet? Woo-hoo!",
+   "tagHash": "AoE",
+   "descHash": "Deals <span style=\"color:#7788ff;\">Quantum</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Qingque's ATK to all enemies, and obtain 4 jade tiles of the same suit.",
+   "typeDescHash": "Ultimate",
+   "iconPath": "369f61ac524c1ed30bc71a4a575b9017bdaf7a9a0488d28e3106f2d61d010c7e",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      1.2
+     ],
+     "cost": []
+    },
+    {
+     "level": 2,
+     "params": [
+      1.28
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2000
+      },
+      {
+       "id": 549437,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "params": [
+      1.36
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 635675,
+       "count": 2
+      },
+      {
+       "id": 549437,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "params": [
+      1.44
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 920202,
+       "count": 2
+      },
+      {
+       "id": 633378,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "params": [
+      1.52
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 920202,
+       "count": 4
+      },
+      {
+       "id": 633378,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "params": [
+      1.6
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 24000
+      },
+      {
+       "id": 920202,
+       "count": 6
+      },
+      {
+       "id": 633378,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "params": [
+      1.7
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 36000
+      },
+      {
+       "id": 836261,
+       "count": 2
+      },
+      {
+       "id": 717319,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "params": [
+      1.8
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 64000
+      },
+      {
+       "id": 836261,
+       "count": 4
+      },
+      {
+       "id": 270195,
+       "count": 1
+      },
+      {
+       "id": 717319,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "params": [
+      1.9
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 128000
+      },
+      {
+       "id": 836261,
+       "count": 6
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "params": [
+      2
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 836261,
+       "count": 11
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 11,
+     "params": [
+      2.08
+     ],
+     "cost": []
+    },
+    {
+     "level": 12,
+     "params": [
+      2.16
+     ],
+     "cost": []
+    },
+    {
+     "level": 13,
+     "params": [
+      2.24
+     ],
+     "cost": []
+    },
+    {
+     "level": 14,
+     "params": [
+      2.32
+     ],
+     "cost": []
+    },
+    {
+     "level": 15,
+     "params": [
+      2.4
+     ],
+     "cost": []
+    }
+   ],
+   "ultimateCost": 140
+  },
+  {
+   "id": 746382,
+   "name": "Celestial Jade",
+   "tagHash": "Enhance",
+   "descHash": "When an ally's turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time.<br />If Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the \"Hidden Hand\" state.<br />While in this state, Qingque cannot use her Skill again. At the same time, Qingque's ATK increases by <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span>, and her Basic ATK \"Flower Pick\" is enhanced, becoming \"Cherry on Top!\" The \"Hidden Hand\" state ends after using \"Cherry on Top!\".",
+   "typeDescHash": "Talent",
+   "iconPath": "5aab6396bbe77a62d49a9e5e245cdd3ec31d90367584950f4950ec5aad3d6de5",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      0.36
+     ],
+     "cost": []
+    },
+    {
+     "level": 2,
+     "params": [
+      0.396
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2000
+      },
+      {
+       "id": 549437,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "params": [
+      0.432
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 635675,
+       "count": 2
+      },
+      {
+       "id": 549437,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "params": [
+      0.468
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 920202,
+       "count": 2
+      },
+      {
+       "id": 633378,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "params": [
+      0.504
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 920202,
+       "count": 4
+      },
+      {
+       "id": 633378,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "params": [
+      0.54
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 24000
+      },
+      {
+       "id": 920202,
+       "count": 6
+      },
+      {
+       "id": 633378,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "params": [
+      0.585
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 36000
+      },
+      {
+       "id": 836261,
+       "count": 2
+      },
+      {
+       "id": 717319,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "params": [
+      0.63
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 64000
+      },
+      {
+       "id": 836261,
+       "count": 4
+      },
+      {
+       "id": 270195,
+       "count": 1
+      },
+      {
+       "id": 717319,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "params": [
+      0.675
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 128000
+      },
+      {
+       "id": 836261,
+       "count": 6
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "params": [
+      0.72
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 836261,
+       "count": 11
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 11,
+     "params": [
+      0.756
+     ],
+     "cost": []
+    },
+    {
+     "level": 12,
+     "params": [
+      0.792
+     ],
+     "cost": []
+    },
+    {
+     "level": 13,
+     "params": [
+      0.828
+     ],
+     "cost": []
+    },
+    {
+     "level": 14,
+     "params": [
+      0.864
+     ],
+     "cost": []
+    },
+    {
+     "level": 15,
+     "params": [
+      0.9
+     ],
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  },
+  {
+   "id": 545796,
+   "name": "Attack",
+   "tagHash": "",
+   "descHash": "Attack an enemy, and when the battle starts, reduce their Toughness of the corresponding Type.",
+   "typeDescHash": "",
+   "iconPath": "396133d02c35647181ca18469408714f8189192544173f7d755db22ac2c78825",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [],
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  },
+  {
+   "id": 662441,
+   "name": "Game Solitaire",
+   "tagHash": "Enhance",
+   "descHash": "After using Technique, Qingque draws <nobr>#1[i]</nobr> jade tile(s) when the battle starts.",
+   "typeDescHash": "Technique",
+   "iconPath": "5a6ec83a2b61d13ee3a0e2b56ba7c6cef4a2786560499b65707e8bb33fb0600e",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      2
+     ],
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  },
+  {
+   "id": 917194,
+   "name": "Cherry on Top!",
+   "tagHash": "Blast",
+   "descHash": "Deals <span style=\"color:#7788ff;\">Quantum</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Qingque's ATK to a single enemy, and deals <span style=\"color:#7788ff;\">Quantum</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#2[i]%</nobr></span> of Qingque's ATK to enemies adjacent to it.<br />\"Cherry on Top!\" cannot recover Skill Points.",
+   "typeDescHash": "Basic ATK",
+   "iconPath": "73ae96fd42e84fc3743b12a2964d346133f4ebbed22a2a88b4e586994416a647",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      1.2,
+      0.5
+     ],
+     "cost": []
+    },
+    {
+     "level": 2,
+     "params": [
+      1.44,
+      0.6
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 635675,
+       "count": 2
+      },
+      {
+       "id": 549437,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "params": [
+      1.68,
+      0.7
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 920202,
+       "count": 2
+      },
+      {
+       "id": 633378,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "params": [
+      1.92,
+      0.8
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 920202,
+       "count": 4
+      },
+      {
+       "id": 633378,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "params": [
+      2.16,
+      0.9
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 36000
+      },
+      {
+       "id": 836261,
+       "count": 2
+      },
+      {
+       "id": 717319,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "params": [
+      2.4,
+      1
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 128000
+      },
+      {
+       "id": 836261,
+       "count": 6
+      },
+      {
+       "id": 717319,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "params": [
+      2.64,
+      1.1
+     ],
+     "cost": []
+    },
+    {
+     "level": 8,
+     "params": [
+      2.88,
+      1.2
+     ],
+     "cost": []
+    },
+    {
+     "level": 9,
+     "params": [
+      3.12,
+      1.3
+     ],
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  }
+ ],
+ "skillTreePoints": [
+  {
+   "id": 1201101,
+   "type": 1,
+   "children": [
+    {
+     "id": 1201202,
+     "type": 2,
+     "children": [
+      {
+       "id": 1201203,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 668211,
+        "name": "ATK Boost",
+        "levelReq": 0,
+        "promotionReq": 3,
+        "iconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5",
+        "statusList": [
+         {
+          "key": "ATK",
+          "value": 0.04
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 8000
+         },
+         {
+          "id": 920202,
+          "count": 2
+         },
+         {
+          "id": 633378,
+          "count": 2
+         }
+        ]
+       }
+      },
+      {
+       "id": 1201204,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 668208,
+        "name": "DEF Boost",
+        "levelReq": 0,
+        "promotionReq": 3,
+        "iconPath": "2077c52919d0f523755a4d92ce338874b71561611a436572d8eb315a34f4a4c2",
+        "statusList": [
+         {
+          "key": "DEF",
+          "value": 0.05
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 8000
+         },
+         {
+          "id": 920202,
+          "count": 2
+         },
+         {
+          "id": 633378,
+          "count": 2
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 668210,
+      "name": "DMG Boost: Quantum",
+      "levelReq": 0,
+      "promotionReq": 2,
+      "iconPath": "7a1ea0cc58c53a61531e85b23c6f87852baae61b6f28018447b08a617cb93e1d",
+      "statusList": [
+       {
+        "key": "<span style=\"color:#7788ff;\">Quantum</span> DMG Boost",
+        "value": 0.032
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 4000
+       },
+       {
+        "id": 635675,
+        "count": 2
+       },
+       {
+        "id": 549437,
+        "count": 4
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "id": 668114,
+    "name": "Tile Battle",
+    "descHash": "Restores 1 Skill Point when using the Skill. This effect can only be triggered 1 time per battle.",
+    "iconPath": "86d09f9be82751ee3001542bc045d19459353397521a6dfb51b372afffee9886",
+    "levelReq": 0,
+    "promotionReq": 2,
+    "levelData": [
+     {
+      "level": 1,
+      "params": [],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 4000
+       },
+       {
+        "id": 635675,
+        "count": 2
+       },
+       {
+        "id": 270195,
+        "count": 1
+       }
+      ]
+     }
+    ],
+    "ultimateCost": 0
+   }
+  },
+  {
+   "id": 1201102,
+   "type": 1,
+   "children": [
+    {
+     "id": 1201205,
+     "type": 2,
+     "children": [
+      {
+       "id": 1201206,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 668206,
+        "name": "DMG Boost: Quantum",
+        "levelReq": 0,
+        "promotionReq": 5,
+        "iconPath": "7a1ea0cc58c53a61531e85b23c6f87852baae61b6f28018447b08a617cb93e1d",
+        "statusList": [
+         {
+          "key": "<span style=\"color:#7788ff;\">Quantum</span> DMG Boost",
+          "value": 0.048
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 36000
+         },
+         {
+          "id": 836261,
+          "count": 2
+         },
+         {
+          "id": 717319,
+          "count": 2
+         }
+        ]
+       }
+      },
+      {
+       "id": 1201207,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 668207,
+        "name": "ATK Boost",
+        "levelReq": 0,
+        "promotionReq": 5,
+        "iconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5",
+        "statusList": [
+         {
+          "key": "ATK",
+          "value": 0.06
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 36000
+         },
+         {
+          "id": 836261,
+          "count": 2
+         },
+         {
+          "id": 717319,
+          "count": 2
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 668209,
+      "name": "ATK Boost",
+      "levelReq": 0,
+      "promotionReq": 4,
+      "iconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5",
+      "statusList": [
+       {
+        "key": "ATK",
+        "value": 0.06
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 920202,
+        "count": 4
+       },
+       {
+        "id": 633378,
+        "count": 3
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "id": 668117,
+    "name": "Bide Time",
+    "descHash": "Using the Skill increases DMG Boost effect of attacks by an extra <nobr>#1[i]%</nobr>.",
+    "iconPath": "bf9d4ecea46e0cfe02824d924a24aca82ec1f48522524f450d77ed64b7a84e8c",
+    "levelReq": 0,
+    "promotionReq": 4,
+    "levelData": [
+     {
+      "level": 1,
+      "params": [
+       0.1
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 920202,
+        "count": 4
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 270195,
+        "count": 1
+       }
+      ]
+     }
+    ],
+    "ultimateCost": 0
+   }
+  },
+  {
+   "id": 1201103,
+   "type": 1,
+   "children": [
+    {
+     "id": 1201208,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 668220,
+      "name": "DEF Boost",
+      "levelReq": 0,
+      "promotionReq": 6,
+      "iconPath": "2077c52919d0f523755a4d92ce338874b71561611a436572d8eb315a34f4a4c2",
+      "statusList": [
+       {
+        "key": "DEF",
+        "value": 0.075
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 128000
+       },
+       {
+        "id": 836261,
+        "count": 6
+       },
+       {
+        "id": 717319,
+        "count": 6
+       }
+      ]
+     }
+    },
+    {
+     "id": 1201209,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 668221,
+      "name": "DMG Boost: Quantum",
+      "levelReq": 75,
+      "promotionReq": 0,
+      "iconPath": "7a1ea0cc58c53a61531e85b23c6f87852baae61b6f28018447b08a617cb93e1d",
+      "statusList": [
+       {
+        "key": "<span style=\"color:#7788ff;\">Quantum</span> DMG Boost",
+        "value": 0.064
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 128000
+       },
+       {
+        "id": 836261,
+        "count": 6
+       },
+       {
+        "id": 717319,
+        "count": 6
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "id": 668116,
+    "name": "Winning Hand",
+    "descHash": "Qingque's SPD increases by <nobr>#1[i]%</nobr> for 1 turn after using the Enhanced Basic ATK.",
+    "iconPath": "1754c646be8fc7ba3ddc0ee59f471818b34df422c15a3d9c539b5596324d3d3c",
+    "levelReq": 0,
+    "promotionReq": 6,
+    "levelData": [
+     {
+      "level": 1,
+      "params": [
+       0.1
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 128000
+       },
+       {
+        "id": 836261,
+        "count": 6
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 270195,
+        "count": 1
+       }
+      ]
+     }
+    ],
+    "ultimateCost": 0
+   }
+  },
+  {
+   "id": 1201201,
+   "type": 2,
+   "children": [],
+   "embedBuff": {
+    "id": 668213,
+    "name": "ATK Boost",
+    "levelReq": 1,
+    "promotionReq": 0,
+    "iconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5",
+    "statusList": [
+     {
+      "key": "ATK",
+      "value": 0.04
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 2000
+     },
+     {
+      "id": 549437,
+      "count": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": 1201210,
+   "type": 2,
+   "children": [],
+   "embedBuff": {
+    "id": 752153,
+    "name": "ATK Boost",
+    "levelReq": 80,
+    "promotionReq": 0,
+    "iconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5",
+    "statusList": [
+     {
+      "key": "ATK",
+      "value": 0.08
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 128000
+     },
+     {
+      "id": 836261,
+      "count": 6
+     },
+     {
+      "id": 717319,
+      "count": 6
+     }
+    ]
+   }
+  }
+ ],
+ "relicRecommend": {
+  "twoPcSets": [],
+  "fourPcSets": [],
+  "props": [
+   {
+    "relicTypeHash": "Body",
+    "relicTypeIcon": "87a68da58f5ca7f656d3ebf27bc84c5c32aafd164f2406af6b95c0e46277496b",
+    "propertyName": "CRIT Rate",
+    "propertyIconPath": "2bf7f8117bb4bac5bac4a4b7866f2bf3c272b526b8d945ece48991383f5f9f96"
+   },
+   {
+    "relicTypeHash": "Feet",
+    "relicTypeIcon": "5d8394f899a9cc41333630a3475d525b65c4a7cf59d16cdc4ac0acccc082259c",
+    "propertyName": "ATK",
+    "propertyIconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5"
+   },
+   {
+    "relicTypeHash": "Planar Sphere",
+    "relicTypeIcon": "fd22786ef5ef0aee8953005c423739fe85fd85b16b82a3f7f18910499a4368b5",
+    "propertyName": "Quantum DMG Boost",
+    "propertyIconPath": "7a1ea0cc58c53a61531e85b23c6f87852baae61b6f28018447b08a617cb93e1d"
+   },
+   {
+    "relicTypeHash": "Link Rope",
+    "relicTypeIcon": "245bb6e30915d9ab6a042e37499ad3a0b0d022208a5fee05417b7cd3c088e357",
+    "propertyName": "Energy Regeneration Rate",
+    "propertyIconPath": "fa8f924ec11e6c11cad9d7a54d1db3dc1e9ad5a276eeb58ab17f2395a1b3522c"
+   }
+  ]
+ },
+ "voiceItems": [
+  {
+   "id": 1,
+   "title": "First Meeting",
+   "text": "I'm Qingque, a diviner from the Divination Commission. You wanna play Celestial Jade? Okay, come back during my work hours.",
+   "unlockRequirement": "",
+   "cnUrl": "3888724ba53d87acce8af109c6d82d55ef5d2b78a98530624bc5148182c0fc11",
+   "jpUrl": "7c62e9b70d15ab366e226d55ddfa963fea900f6f153f4ccd862e86b3cec0eb58",
+   "enUrl": "345ebab610cc4c6b652f7f0b3cdde0937a1b3fa72a922bd57f5e706aab35308a",
+   "krUrl": "4c8d921b1c75a01dffa73958ca60170aae9d8ab109db1d8920ab783dd41e28c2"
+  },
+  {
+   "id": 2,
+   "title": "Greeting",
+   "text": "You're here this early again? So diligent...",
+   "unlockRequirement": "",
+   "cnUrl": "bdc75c64ad212c9d3d436dfabb43e581a02feb0fa627e07d13e1ae02651519c6",
+   "jpUrl": "cc2da3f6412654d1a296b1ec4e7d7aae5bff62ac1efbfd02573406b696fa15a9",
+   "enUrl": "35e1e19ccd33f0ee587e1808e2c5fab020a04d4a6b8b6d1b58ae7a34dd887136",
+   "krUrl": "93be51ce4a168d78623c2f52daf7c9bcf8a76fcd212981ba9d1647fb70cfd51c"
+  },
+  {
+   "id": 3,
+   "title": "Parting",
+   "text": "Let's go, let's go, time to play. Are you... thinking of working overtime!?",
+   "unlockRequirement": "",
+   "cnUrl": "4921f03648bb5082b63026c93eac70ce5617faab3b8357ca06fbad45181e39fc",
+   "jpUrl": "e00c49cb9d056a57c9bbb49c662531ead14536e6e077dc27bc3b95cc6624e4ba",
+   "enUrl": "e12f21e61ddd47196aad1e749f58f9f5aed71c4b3c004790c08d66eb9a87946c",
+   "krUrl": "ce398bab88247d7d42e3c9f5a58605c5906027c8f50cfe3d661e1256a0618717"
+  },
+  {
+   "id": 4,
+   "title": "About Self: Work Attitude",
+   "text": "Work is not about increasing value. It just pays your bills. The trick is to increase value for yourself at your employer's expense.",
+   "unlockRequirement": "",
+   "cnUrl": "e4a364e792b5734fafff0a0f6e302d2d3baf4be040899952b29437018885eb56",
+   "jpUrl": "84a0c76e2cc15f22fcbcd13eef40da360799d59f3d5056a646495bd79d8da075",
+   "enUrl": "b86be9c7f1cd30eb5935608b1d256c5530e6533968a696aad38ea4c781b7dcba",
+   "krUrl": "fb9e71e8929c91412966e0b5474f3448333b8330b45e8ef39dc6390d18a589b1"
+  },
+  {
+   "id": 5,
+   "title": "Chat: Divination Commission",
+   "text": "My Mom said I could relax in a secure job once I passed the Divination Commission entrance exam. Now that I'm in, I feel like I should be doing more...",
+   "unlockRequirement": "",
+   "cnUrl": "29da359b3523f4b3d9d89041c330966d81e039474ba630943f0c6db1d5730a0a",
+   "jpUrl": "569ec7e6832dee6f25e5b220a14a566abbf9c100fe22475b0f61058b35be784e",
+   "enUrl": "837a5dcb64489152af4c93e4dba4bd3df440f21ad4c0f96915b03a75a47d0272",
+   "krUrl": "64acfca78623ea131f326d25203aea73d97fe0e83be6f15eb6292201836f7b6e"
+  },
+  {
+   "id": 6,
+   "title": "Hobbies",
+   "text": "Told off by my manager? Go play some Celestial Jade. Too much work? Go play some Celestial Jade. Ahhhh, Celestial Jade is my savior!",
+   "unlockRequirement": "",
+   "cnUrl": "879cfc20b71db68ac768340e5e8f8acfa3ba3b06b6daf092ad3feaa537a4d396",
+   "jpUrl": "a42c3896a0eceb4c93b91d77070b2d3ee20aec40c78d647517fea145eed968ca",
+   "enUrl": "82ce46a9c10437e1ba2837c444056f12ce36b8f8406374053abb7a6019c873bd",
+   "krUrl": "217380d0c2d04293a4d673c0bc2053f151d398d9db435a3e5ffdaa00a7fcedfa"
+  },
+  {
+   "id": 7,
+   "title": "Annoyances",
+   "text": "I can't play Celestial Jade on my own. How come Celestial Jade isn't omnipotent...",
+   "unlockRequirement": "",
+   "cnUrl": "e5b04a3eeeb445a23932e8d7fb44fd21b5d4e7b139d911d3b03f7eb106882d95",
+   "jpUrl": "68540b22702b994663e72e89220c7dcb8d7940fdbdad502729bfcc1b63e50a46",
+   "enUrl": "7f7af8b157653c28a6f3a323aaea18975b8bf3ce05c642c9bf0ee228fe6cd317",
+   "krUrl": "cf7d51f8c81f9bc77a8edeaae931a1207b46d1168e177ba97fe3a5c18dcc868a"
+  },
+  {
+   "id": 8,
+   "title": "Something to Share",
+   "text": "There are three basic principles for happiness at work \u2013 do not be proactive, do not say no, and do not be responsible. You should give it a try~",
+   "unlockRequirement": "",
+   "cnUrl": "1afaacb9966452e700344c6914d7ec1cd23375d818fbfbf6b5fcd901030dc48c",
+   "jpUrl": "d18a29f24de3e2c98f029ee2855cd3f8df6fbfa58488ff1bc89b21eaca9b2c9d",
+   "enUrl": "6a9a81158696167eb7529311a30efe7d2304bba1e79be2a107ea7a5b9074ebcd",
+   "krUrl": "b8bf6070cf25d25d4e513d51b41b3ff50188c8f3ab38de5d0bcfc8ee120bf3c6"
+  },
+  {
+   "id": 9,
+   "title": "Knowledge",
+   "text": "Fun number one, knowing there are books for leisure on the Xianzhou. Fun number two, browsing these books in the Spare Time Bookshop. Fun number three \u2014 the greatest fun \u2014 reading those books at work.",
+   "unlockRequirement": "",
+   "cnUrl": "05cd9b9029f11416e35a0618030aedb28ea49574aa7734bda9f44e767fc3ef21",
+   "jpUrl": "02a6ca5cddeba1f1b487920228c3c6d1d52c59e6e12dfc31112977fcf63b0988",
+   "enUrl": "ad600e0d100782c5cedc3d5ae7962f0b418f5bd56525849826a4342b2393e074",
+   "krUrl": "4588001a52098d5307861a05c5dd45ab016b2950bb975630847bd5e0a3902619"
+  },
+  {
+   "id": 10,
+   "title": "About Jing Yuan",
+   "text": "I heard the general often listens to music with his eyes closed. Can we promote that in the Divination Commission? Thank you, general.",
+   "unlockRequirement": "",
+   "cnUrl": "aabb1897bf891f244336b1acd2a91acd9b1c85b40c37ffac14e0c912fdb62688",
+   "jpUrl": "8efbf54dc720f50fc764600e797a2cae88df16625aa6a3e581bad383a162afee",
+   "enUrl": "2d80f418e36508ae8a8f770bb95e67c09b4a9ca6decab961e43f7764a436171f",
+   "krUrl": "1062936665d5f10c9f08a2dbcda603e6bbe706506bb763a3e7bc05c7a8baed7c"
+  },
+  {
+   "id": 11,
+   "title": "About Yanqing",
+   "text": "I've heard his name. A genius boy, and working every day at such a young age? Sounds exhausting.",
+   "unlockRequirement": "",
+   "cnUrl": "5fe791d7823473db282ad5240b9a0f376a6c9c26642959c685faf115bcab7d55",
+   "jpUrl": "cac37f3bfca221e84f350ba2ae50b898796c29e1f1f5b53c26d65d1b4b3d9ae8",
+   "enUrl": "697f695742c7590461f9b29d43b19937e7d856e56a856609b5b17e79fbf42028",
+   "krUrl": "0bb6959153126ffa5902ae5a8ee5b280dd155ac0ae5bb58f39d9e0e064c454c0"
+  },
+  {
+   "id": 12,
+   "title": "About Fu Xuan",
+   "text": "As soon as I have free time, the master diviner immediately appears and gives me mundane jobs to do... It looks like I need to work on time management more...",
+   "unlockRequirement": "",
+   "cnUrl": "0393934c1b7d56e5d9bd67cb7028d3bd05336b9167e70f2c5b98c7d1d215ad34",
+   "jpUrl": "68b69e4e3009ec27ffa9bd92f38dad4cb482b7725b6db37c9bf3e1ed36d39e50",
+   "enUrl": "a34097e628b0414534988064c6a8eeadbbaf8fae7ab146aa82c5d6d225c58f21",
+   "krUrl": "e393e098377f5122f5dbaec15d5793a0f9dfc596c01943ac8c3939eff4999099"
+  },
+  {
+   "id": 13,
+   "title": "About Yukong",
+   "text": "She's a big shot from the Sky-Faring Commission who can't rest even after retiring from the front lines. It's hard being a powerful official.",
+   "unlockRequirement": "",
+   "cnUrl": "979f753de272ebd0b01e0f79ad50991dc4d1d7920a73e12d8f870ea45bbae6fd",
+   "jpUrl": "28afaed18e9c73700e36251d67d49dc3c5dfd1325fb2cac7e2f72b7df6cb0250",
+   "enUrl": "0df9c41ca9fd61afb1d65a9ae3138931b846394f127f9266cf56570cc1bb045b",
+   "krUrl": "77bfd60376ca580468bc4ab64d62d0b618fbe1191ec3c992a10c1d4835ab0a74"
+  },
+  {
+   "id": 14,
+   "title": "About Tingyun",
+   "text": "I saw Tingyun stopping in front of the games parlor once, so I invited her to play a round. Tingyun is pretty and her play is entertaining. People crowded around the game table that day and the mood was on fire. The owner lost all his money \u2014 it was great to watch.",
+   "unlockRequirement": "",
+   "cnUrl": "6a58f567e601884e96e06f8e61dff44fe028392df7f2bee113c346fdb63588a1",
+   "jpUrl": "933dcd444e1cf94b643f837b913c550ae2afb7f80e33587582c70a88008f6f3d",
+   "enUrl": "2a885a9d3fd85639b13f9ea91ae05e1c8777bcd1b8bec9b44053b36a8dd6c277",
+   "krUrl": "71dcbc998f7a73d40f86abb30ad407fba31d27c3e2786c5165fd336c09dabd74"
+  },
+  {
+   "id": 15,
+   "title": "About Luocha",
+   "text": "Who? That sounds like an outsider... We've got a lot of outsiders. You'll come across them a lot in The Looking Bronze. He's probably here to seek success in \"Seeking Immortality\" for himself... Yes, I did say \"seek\" twice.",
+   "unlockRequirement": "",
+   "cnUrl": "96d4ededf86fe26cb0059e2686186b617c715602febc79b1551cff8d1ba0b19b",
+   "jpUrl": "a6c77a92fb2aabd4ecc052359d20c68476ae146a9753d21e40bb75846c52b1e2",
+   "enUrl": "23c3f3aab4e811789c3753641460b496fa0df38a287b629b6a457476bd502b28",
+   "krUrl": "ce9f687e7392d7caa7a48e651e9167fb5d59ff08b0f6fd627188da22e16fa274"
+  },
+  {
+   "id": 16,
+   "title": "About Sushang",
+   "text": "A newcomer with the Cloud Knights? *sigh* Just go back to where she's from. Everything is so competitive here in the Luofu. You can't get promoted.",
+   "unlockRequirement": "",
+   "cnUrl": "7c9a2ff500d816847ff7fd20cfcc011d1f808b0f4a64cfeb95a8aed38296a8db",
+   "jpUrl": "cc8bc34a85038118f7ef84917d1a69bde9366214fc6220e610a7f75a1e884df3",
+   "enUrl": "d55915c4520658d3326ced369d28efa465df13d156f7edf97ee5432d3fc6fbdc",
+   "krUrl": "9716f61616490e73003c66b48374c2ff11ea4c143c42f148ec4ce4c5a08c2b80"
+  },
+  {
+   "id": 17,
+   "title": "About Bailu",
+   "text": "I got a bit too excited playing Celestial Jade once and sprained my wrist \u2014 a friend recommended her to me. I had my doubts at first, but as soon as she'd written out my prescription, she took out a Celestial Jade set. She told me to practice stacking the tiles to improve wrist flexibility. Naturally, I instantly respected her.",
+   "unlockRequirement": "",
+   "cnUrl": "e3f9a99c5d5e748caa2ef0cfcc6c5e93da37b758c2145ae584efc8856149621a",
+   "jpUrl": "4185b49423f465c1cffdace60984dcc7f2ac387bae2961601478a2655f13ac74",
+   "enUrl": "f8e2522b5e7d27392dfe26876db345d93e710bba98bd02527502e74a85e78559",
+   "krUrl": "f0771693f5e1967eb65dc18bfba7f771402ddfd8f339525b9a7407b52f4c33d4"
+  }
+ ],
+ "storyItems": [
+  {
+   "title": "Character Details",
+   "text": "An ordinary diviner at the Divination Commission. She would never slack off in slacking off.<br />Following her parents' wishes, Qingque qualified for the Divination Commission, but the relaxing post she was expecting was in fact a brutal, high-intensity workplace.<br />After several years of work, Qingque has honed her skills \u2014 no matter which department she's transferred to, she's still the lowest-leveled diviner.<br />She would browse books and play ancient tile games to wile away the hours... What more could one ask for than a life like this?",
+   "unlockRequirement": ""
+  },
+  {
+   "title": "Character Story: Part I",
+   "text": "Coming soon - Stay tuned!",
+   "unlockRequirement": "Unlocked at Character Level <nobr>20</nobr>"
+  },
+  {
+   "title": "Character Story: Part II",
+   "text": "Coming soon - Stay tuned!",
+   "unlockRequirement": "Unlocked at Character Level <nobr>40</nobr>"
+  },
+  {
+   "title": "Character Story: Part III",
+   "text": "Coming soon - Stay tuned!",
+   "unlockRequirement": "Unlocked at Character Level <nobr>60</nobr>"
+  },
+  {
+   "title": "Character Story: Part IV",
+   "text": "Coming soon - Stay tuned!",
+   "unlockRequirement": "Unlocked at Character Level <nobr>80</nobr>"
+  }
+ ],
+ "archive": {
+  "cvCn": "\u5218\u5341\u56db",
+  "cvJp": "\u4f0a\u9054\u6731\u91cc\u7d17",
+  "cvKr": "\uc11c\ub2e4\ud61c",
+  "cvEn": "Bryn Apprill",
+  "camp": "Xianzhou: The Luofu"
+ },
+ "calculator": {
+  "expCost": {
+   "1": 200,
+   "2": 300,
+   "3": 500,
+   "4": 600,
+   "5": 1050,
+   "6": 1670,
+   "7": 2320,
+   "8": 3060,
+   "9": 3860,
+   "10": 4740,
+   "11": 5710,
+   "12": 6730,
+   "13": 7830,
+   "14": 9000,
+   "15": 10240,
+   "16": 11550,
+   "17": 12920,
+   "18": 14360,
+   "19": 15870,
+   "20": 16580,
+   "21": 16840,
+   "22": 17100,
+   "23": 17370,
+   "24": 17640,
+   "25": 17910,
+   "26": 18190,
+   "27": 18480,
+   "28": 18760,
+   "29": 19040,
+   "30": 19340,
+   "31": 19630,
+   "32": 19930,
+   "33": 20220,
+   "34": 20530,
+   "35": 20840,
+   "36": 21140,
+   "37": 21450,
+   "38": 21760,
+   "39": 22080,
+   "40": 22390,
+   "41": 25550,
+   "42": 29140,
+   "43": 32830,
+   "44": 36600,
+   "45": 40470,
+   "46": 44430,
+   "47": 48480,
+   "48": 52630,
+   "49": 56870,
+   "50": 61190,
+   "51": 65620,
+   "52": 70130,
+   "53": 74740,
+   "54": 79450,
+   "55": 84240,
+   "56": 89120,
+   "57": 94110,
+   "58": 99190,
+   "59": 104350,
+   "60": 106240,
+   "61": 111830,
+   "62": 117530,
+   "63": 123320,
+   "64": 129210,
+   "65": 135200,
+   "66": 141290,
+   "67": 147480,
+   "68": 153780,
+   "69": 160170,
+   "70": 179260,
+   "71": 199920,
+   "72": 220920,
+   "73": 242260,
+   "74": 263930,
+   "75": 285950,
+   "76": 308300,
+   "77": 331000,
+   "78": 354040,
+   "79": 377420,
+   "80": 414350
+  },
+  "expItemConfig": {
+   "1000": 409962,
+   "5000": 409961,
+   "20000": 409960
+  },
+  "sCoinId": 29328
+ },
+ "pageId": "qingque"
+}

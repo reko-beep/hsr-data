@@ -1,0 +1,1888 @@
+{
+ "entries": [
+  {
+   "iconPath": "5baabe27c5361e08ffda706e3183d6618d2ea0ab2629319fda2a442761d59747",
+   "name": "Stellar Jade",
+   "rarity": 5,
+   "purposeId": 12,
+   "itemReferences": {},
+   "pageId": "29325"
+  },
+  {
+   "iconPath": "0e76659bbb3b9d0b1cc6a4e0e8c63a576c7b917f2f740a4b1b8ceab260a8a595",
+   "name": "Credit",
+   "rarity": 3,
+   "purposeId": 11,
+   "itemReferences": {},
+   "pageId": "29328"
+  },
+  {
+   "iconPath": "3603508772eb0384c68779b5d8017f1052f90f1f468c886ab1f6ad875d00dfce",
+   "name": "Oneiric Shard",
+   "rarity": 5,
+   "purposeId": 12,
+   "itemReferences": {},
+   "pageId": "29327"
+  },
+  {
+   "iconPath": "8f4e646b6e15421453cff9feee84e56bafd2b8fe83abca36ed66834c5b367305",
+   "name": "Trailblaze Power",
+   "rarity": 4,
+   "purposeId": 0,
+   "itemReferences": {},
+   "pageId": "728120"
+  },
+  {
+   "iconPath": "f32f0343563fe00385620060cebf96265dc354a90a3f44c6cc8c10f97e21b0ed",
+   "name": "EXP",
+   "rarity": 3,
+   "purposeId": 0,
+   "itemReferences": {},
+   "pageId": "728123"
+  },
+  {
+   "iconPath": "3e8616a355dbba92b0731b9a9e29967d09cd8e9a69ab2a1ec0b9896db6660aed",
+   "name": "Trailblaze EXP",
+   "rarity": 3,
+   "purposeId": 0,
+   "itemReferences": {},
+   "pageId": "12650"
+  },
+  {
+   "iconPath": "a047ec528781335b883dd5e7aafe4c3b2a1622eccdbaa57bbf35f3644ff8dd8a",
+   "name": "Trailblaze Timer",
+   "rarity": 5,
+   "purposeId": 0,
+   "itemReferences": {},
+   "pageId": "443596"
+  },
+  {
+   "iconPath": "b553076008cb3e4f538999c07ccd51d64ad91d52a0577acb02ff3a6de13d77f7",
+   "name": "Cosmic Fragment",
+   "rarity": 3,
+   "purposeId": 0,
+   "itemReferences": {},
+   "pageId": "728122"
+  },
+  {
+   "iconPath": "7e8e4a861c9e0765c5267616795c5fbf86cdae38e527e71e4a169dff71027db8",
+   "name": "Ability Point",
+   "rarity": 3,
+   "purposeId": 0,
+   "itemReferences": {},
+   "pageId": "12649"
+  },
+  {
+   "iconPath": "2576e9161a4cfe2cd2dd0729a4b8fb4602be2336cc8598c53f14a74d6a5e9a95",
+   "name": "Immersifier",
+   "rarity": 4,
+   "purposeId": 0,
+   "itemReferences": {},
+   "pageId": "928708"
+  },
+  {
+   "iconPath": "f4b4a2c3c8e02d86c2a6272eb911bd352f6c1231c3faec958f41547f65d7ff4e",
+   "name": "Achievement Points",
+   "rarity": 3,
+   "purposeId": 0,
+   "itemReferences": {},
+   "pageId": "728117"
+  },
+  {
+   "iconPath": "6a1f733efe9ec5173f7388cc96d8c53edf6224d9183719dca40b02bb16317056",
+   "name": "The Nameless EXP",
+   "rarity": 3,
+   "purposeId": 0,
+   "itemReferences": {},
+   "pageId": "728116"
+  },
+  {
+   "iconPath": "6a1f733efe9ec5173f7388cc96d8c53edf6224d9183719dca40b02bb16317056",
+   "name": "The Nameless EXP",
+   "rarity": 3,
+   "purposeId": 0,
+   "itemReferences": {},
+   "pageId": "12643"
+  },
+  {
+   "iconPath": "83187f05670032ca8f551e9727f39bae12983f7f7953b17d84df8ab894a89978",
+   "name": "Star Rail Pass",
+   "rarity": 5,
+   "purposeId": 8,
+   "itemReferences": {},
+   "pageId": "526574"
+  },
+  {
+   "iconPath": "10094cc418b4b4a4d1f464c924baef62df8278dd4bfa043f17c04593f8cc3e37",
+   "name": "Star Rail Special Pass",
+   "rarity": 5,
+   "purposeId": 9,
+   "itemReferences": {},
+   "pageId": "526575"
+  },
+  {
+   "iconPath": "50291de9f52348fc3e223665229c1396e19aca8a5a2f405592a499f2dd0ec609",
+   "name": "Fuel",
+   "rarity": 4,
+   "purposeId": 10,
+   "itemReferences": {},
+   "pageId": "526607"
+  },
+  {
+   "iconPath": "ad5070f0ef2447ee09fb3b0d859ab3c594538eaa58b71a14ffcbd4b2b493c1c5",
+   "name": "Travel Encounters",
+   "rarity": 2,
+   "purposeId": 1,
+   "itemReferences": {},
+   "pageId": "409962"
+  },
+  {
+   "iconPath": "05ef6659e951dd69d862823c86470487d68c24209400d4391df1f50bbc21ab42",
+   "name": "Adventure Log",
+   "rarity": 3,
+   "purposeId": 1,
+   "itemReferences": {},
+   "pageId": "409961"
+  },
+  {
+   "iconPath": "607961a38d9fe4f935578e9ea7b4de093d68ff8258b0b52c3cd4261e5cd92932",
+   "name": "Traveler's Guide",
+   "rarity": 4,
+   "purposeId": 1,
+   "itemReferences": {},
+   "pageId": "409960"
+  },
+  {
+   "iconPath": "554d37978b82c3f38bafee8771f8ab4248a1fe9d4e130bb5711064238666f491",
+   "name": "Sparse Aether",
+   "rarity": 2,
+   "purposeId": 5,
+   "itemReferences": {},
+   "pageId": "694489"
+  },
+  {
+   "iconPath": "91f62f32ecd1e7b88c9e30002d215b1a5936ac221782a17d2f34837a967ed557",
+   "name": "Condensed Aether",
+   "rarity": 3,
+   "purposeId": 5,
+   "itemReferences": {},
+   "pageId": "694488"
+  },
+  {
+   "iconPath": "a5f4de7a7ad08a1676729853622d0e38b14de79b20465aa9c738e6105a8c746d",
+   "name": "Refined Aether",
+   "rarity": 4,
+   "purposeId": 5,
+   "itemReferences": {},
+   "pageId": "694487"
+  },
+  {
+   "iconPath": "1b3183a7185ccc854b89261ccafed31e73f2b8e138d4e59705658b6482006610",
+   "name": "Lost Lightdust",
+   "rarity": 2,
+   "purposeId": 6,
+   "itemReferences": {},
+   "pageId": "610548"
+  },
+  {
+   "iconPath": "d9d322b88f43e9cba958e177229bfa6da5b57c16e11db9534f6ffc1b2176f24c",
+   "name": "Lost Gold Fragment",
+   "rarity": 3,
+   "purposeId": 6,
+   "itemReferences": {},
+   "pageId": "610547"
+  },
+  {
+   "iconPath": "8a562c0b5e4b6dd33e83b1f4cba7af19620d5c13791c1f504513e3dbf3bf2f13",
+   "name": "Lost Crystal",
+   "rarity": 4,
+   "purposeId": 6,
+   "itemReferences": {},
+   "pageId": "610546"
+  },
+  {
+   "iconPath": "d2c1ce1f74db4ab33ca1815959cb274f129d5c387c6151d449a0ea437e3cea8b",
+   "name": "Lost Essence",
+   "rarity": 5,
+   "purposeId": 6,
+   "itemReferences": {},
+   "pageId": "610545"
+  },
+  {
+   "iconPath": "4df08949abaefed6275e890fd33402b4c485b6a83886e7a16774c5ea01878298",
+   "name": "Relic Remains",
+   "rarity": 5,
+   "purposeId": 10,
+   "itemReferences": {},
+   "pageId": "610544"
+  },
+  {
+   "iconPath": "eb5d92e88ecb15a07c78b7532e6c3204ce295d91c3f23e44346d8092c0646d35",
+   "name": "Self-Modeling Resin",
+   "rarity": 5,
+   "purposeId": 10,
+   "itemReferences": {},
+   "pageId": "610543"
+  },
+  {
+   "iconPath": "75e6d3c477385eb36716ba1798609b01a9fe10893c1b3e9f9dc81046ad10d9b0",
+   "name": "Tracks of Destiny",
+   "rarity": 5,
+   "purposeId": 4,
+   "itemReferences": {},
+   "pageId": "125435"
+  },
+  {
+   "iconPath": "41099a54ac0ae0e8d6d6673202121ce2032159228c48ef8c4b597cb30e3898af",
+   "name": "Undying Embers",
+   "rarity": 4,
+   "purposeId": 0,
+   "itemReferences": {},
+   "pageId": "41494"
+  },
+  {
+   "iconPath": "8de44042e38f299001ea2711773722f38e9e17713e631f8083b5cf998208d2cf",
+   "name": "Undying Starlight",
+   "rarity": 5,
+   "purposeId": 0,
+   "itemReferences": {},
+   "pageId": "41493"
+  },
+  {
+   "iconPath": "aa5ed263695b55e4cb83cb5f97ca8eddecd821454c9d55de86d1bde1c7a87a9c",
+   "name": "Lucent Afterglow",
+   "rarity": 4,
+   "purposeId": 11,
+   "itemReferences": {},
+   "pageId": "326021"
+  },
+  {
+   "iconPath": "85406673e8a50fc5b79a3ae611542481d45924584fd3823fe91760a6c3c4de51",
+   "name": "Superimposer (Custom-made)",
+   "rarity": 5,
+   "purposeId": 14,
+   "itemReferences": {},
+   "pageId": "209376"
+  },
+  {
+   "iconPath": "07bf52fe919022ed4417d0f3d5838de47a75b6885ceb4bf9786a785b20b0e75c",
+   "name": "Herta Bond",
+   "rarity": 5,
+   "purposeId": 11,
+   "itemReferences": {},
+   "pageId": "526444"
+  },
+  {
+   "iconPath": "3f671d22c9ca81857fd1954fcd5618bcce5b58bba56252850377df105fee3d86",
+   "name": "First Voyage's Blessing",
+   "rarity": 5,
+   "purposeId": 14,
+   "itemReferences": {},
+   "pageId": "526806"
+  },
+  {
+   "iconPath": "3f671d22c9ca81857fd1954fcd5618bcce5b58bba56252850377df105fee3d86",
+   "name": "First Voyage's Blessing",
+   "rarity": 5,
+   "purposeId": 14,
+   "itemReferences": {},
+   "pageId": "526805"
+  },
+  {
+   "iconPath": "4572d979d27faa81ae07050fd777b65e7ad6e293fa40303c3eae2fbd18c60aee",
+   "name": "Relic Coffret: Passerby of Wandering Cloud",
+   "rarity": 5,
+   "purposeId": 15,
+   "itemReferences": {},
+   "pageId": "751494"
+  },
+  {
+   "iconPath": "121a65d8ba9ed102ed5e4186970c2a5543facd2fd9dd6551cac82e0c0b54dbde",
+   "name": "Relic Coffret: Musketeer of Wild Wheat",
+   "rarity": 5,
+   "purposeId": 15,
+   "itemReferences": {},
+   "pageId": "751495"
+  },
+  {
+   "iconPath": "1abd2de49fe9971a1a5aa0d3d80e595785635d0e0d51666160c821ddfe205105",
+   "name": "Relic Coffret: Knight of Purity Palace",
+   "rarity": 5,
+   "purposeId": 15,
+   "itemReferences": {},
+   "pageId": "751492"
+  },
+  {
+   "iconPath": "70456333828f6e1d48741b77983a8465f38a751c388cebecff2b59a83cc00e21",
+   "name": "Relic Coffret: Hunter of Glacial Forest",
+   "rarity": 5,
+   "purposeId": 15,
+   "itemReferences": {},
+   "pageId": "751493"
+  },
+  {
+   "iconPath": "7a3c23b747faa58bfe3cc64383e4914be65ab64d56e1e906f391bcd398306fcd",
+   "name": "Relic Coffret: Champion of Streetwise Boxing",
+   "rarity": 5,
+   "purposeId": 15,
+   "itemReferences": {},
+   "pageId": "751498"
+  },
+  {
+   "iconPath": "5387b9eece909d074da7ce98479d53c957c019f5653ab5cd62071026d78f9440",
+   "name": "Relic Coffret: Guard of Wuthering Snow",
+   "rarity": 5,
+   "purposeId": 15,
+   "itemReferences": {},
+   "pageId": "751499"
+  },
+  {
+   "iconPath": "4e1b9c5acb703068e9f801a1346f839f36b9e1b2116fe7c0d893c73141fbf96d",
+   "name": "Relic Coffret: Firesmith of Lava-Forging",
+   "rarity": 5,
+   "purposeId": 15,
+   "itemReferences": {},
+   "pageId": "751496"
+  },
+  {
+   "iconPath": "01ff058abcb56326a11be25c95871633d466e099d5709daf863695cbe9a94729",
+   "name": "Relic Coffret: Genius of Brilliant Stars",
+   "rarity": 5,
+   "purposeId": 15,
+   "itemReferences": {},
+   "pageId": "751497"
+  },
+  {
+   "iconPath": "b7b20a8282eb8d6045208a7e35dff5a8fa5c1d8aaffa02e9c76d576ff65033b4",
+   "name": "Relic Coffret: Band of Sizzling Thunder",
+   "rarity": 5,
+   "purposeId": 15,
+   "itemReferences": {},
+   "pageId": "751502"
+  },
+  {
+   "iconPath": "3b01acc8fcf8d38b88f6146eb5a882f4adef67ad4b25d359bb5ee31e258037d6",
+   "name": "Relic Coffret: Eagle of Twilight Line",
+   "rarity": 5,
+   "purposeId": 15,
+   "itemReferences": {},
+   "pageId": "751503"
+  },
+  {
+   "iconPath": "51a481ff9141faba4f8141c4e0c4f93e9b747b483dac0f673cc4b8b0f21ba9d6",
+   "name": "Relic Coffret: Thief of Shooting Meteor",
+   "rarity": 5,
+   "purposeId": 15,
+   "itemReferences": {},
+   "pageId": "835435"
+  },
+  {
+   "iconPath": "8f83c05bff62fee55a1e33e4f84eb24c758b745cfea48920170bf0811e86872e",
+   "name": "Relic Coffret: Wastelander of Banditry Desert",
+   "rarity": 5,
+   "purposeId": 15,
+   "itemReferences": {},
+   "pageId": "835436"
+  },
+  {
+   "iconPath": "c5aad3c155e119e2e175b097e7912c1a74cf758534fa44294c63a575c7f55a76",
+   "name": "Relic Coffret: Space Sealing Station",
+   "rarity": 5,
+   "purposeId": 15,
+   "itemReferences": {},
+   "pageId": "835433"
+  },
+  {
+   "iconPath": "d3531db70ba1031ef6cf5fb925d63711fb3e47b689e452dae1505fe25d47343b",
+   "name": "Relic Coffret: Fleet of the Ageless",
+   "rarity": 5,
+   "purposeId": 15,
+   "itemReferences": {},
+   "pageId": "835434"
+  },
+  {
+   "iconPath": "9df9239633c0b285c13d23a9f4da4bd33fe6318a10955ff265f560a1e54052f6",
+   "name": "Relic Coffret: Pan-Galactic Commercial Enterprise",
+   "rarity": 5,
+   "purposeId": 15,
+   "itemReferences": {},
+   "pageId": "835439"
+  },
+  {
+   "iconPath": "5b8e8b61c45c44cf07bc14f7eddd33e32ea8761627aab1052979c83a7bb326ed",
+   "name": "Relic Coffret: Belobog of the Architects",
+   "rarity": 5,
+   "purposeId": 15,
+   "itemReferences": {},
+   "pageId": "835440"
+  },
+  {
+   "iconPath": "96b6ac2607c4b7ab5ae14ca6132d19d27b448f2eecca85bc5d4f16aea0957640",
+   "name": "Relic Coffret: Celestial Differentiator",
+   "rarity": 5,
+   "purposeId": 15,
+   "itemReferences": {},
+   "pageId": "835437"
+  },
+  {
+   "iconPath": "c3df329c6926cc79122e1428b77166f45bffcafaae212565eed0effe766e4003",
+   "name": "Relic Coffret: Inert Salsotto",
+   "rarity": 5,
+   "purposeId": 15,
+   "itemReferences": {},
+   "pageId": "835438"
+  },
+  {
+   "iconPath": "ecf141fb92ccea612ae84be895512df9f52eb9cdc28babd4560c1a76064896e1",
+   "name": "Relic Coffret: Talia \u2014 Kingdom of Banditry",
+   "rarity": 5,
+   "purposeId": 15,
+   "itemReferences": {},
+   "pageId": "835443"
+  },
+  {
+   "iconPath": "89f5c282838fae9425e1b4eb92aba28ba135ae1f09591fcd21ec836e3b6d321c",
+   "name": "Relic Coffret: Sprightly Vonwacq",
+   "rarity": 5,
+   "purposeId": 15,
+   "itemReferences": {},
+   "pageId": "835444"
+  },
+  {
+   "iconPath": "12ee09dd1dde25c933aee6e7070bcaa19cf4f7f622ab75128a9e628bc9cfc415",
+   "name": "Star of Honor",
+   "rarity": 3,
+   "purposeId": 0,
+   "itemReferences": {},
+   "pageId": "362461"
+  },
+  {
+   "iconPath": "73648cb0ee3089026f2f6cbb12879ccf3851151d142b9f7c0880cbbf1a42a34e",
+   "name": "Pixel Warhead",
+   "rarity": 1,
+   "purposeId": 0,
+   "itemReferences": {},
+   "pageId": "278520"
+  },
+  {
+   "iconPath": "1cfcf420c7cd53b503eead070d126b1448cd68bf3f9b0ddca916d10b1747537b",
+   "name": "Shattered Blade",
+   "rarity": 2,
+   "purposeId": 3,
+   "itemReferences": {},
+   "pageId": "635673"
+  },
+  {
+   "iconPath": "8e1da1734309fa1e0ed5035575293caab81cfa7723f7bf4a81d36d9833d80b36",
+   "name": "Lifeless Blade",
+   "rarity": 3,
+   "purposeId": 3,
+   "itemReferences": {},
+   "pageId": "920200"
+  },
+  {
+   "iconPath": "e50443a4312313a9e0eac79179944cf272f37c4a395e09c74f76542b13531122",
+   "name": "Worldbreaker Blade",
+   "rarity": 4,
+   "purposeId": 3,
+   "itemReferences": {},
+   "pageId": "836259"
+  },
+  {
+   "iconPath": "cb316badc06db5719753768d375ae94463fad49721b56569985ab88a684474c4",
+   "name": "Arrow of the Beast Hunter",
+   "rarity": 2,
+   "purposeId": 3,
+   "itemReferences": {},
+   "pageId": "635674"
+  },
+  {
+   "iconPath": "a9dabc100dfb0916188799f2d83770e60721301f4d7c930b850ae55815281ad1",
+   "name": "Arrow of the Demon Slayer",
+   "rarity": 3,
+   "purposeId": 3,
+   "itemReferences": {},
+   "pageId": "920201"
+  },
+  {
+   "iconPath": "f0bb6fd4143f707987f651fa21b81257202d038949944fa22d7615ad342d5bfa",
+   "name": "Arrow of the Starchaser",
+   "rarity": 4,
+   "purposeId": 3,
+   "itemReferences": {},
+   "pageId": "836260"
+  },
+  {
+   "iconPath": "a11149500124597e50362c7c3cd94c209d1a1b48d77ce9f7dfdfac64d8840ef3",
+   "name": "Key of Inspiration",
+   "rarity": 2,
+   "purposeId": 3,
+   "itemReferences": {},
+   "pageId": "635675"
+  },
+  {
+   "iconPath": "974e6b2e34ddd65a7b7edc1e2edd1b85ffbf62d63b7318313e7f387747d83f4f",
+   "name": "Key of Knowledge",
+   "rarity": 3,
+   "purposeId": 3,
+   "itemReferences": {},
+   "pageId": "920202"
+  },
+  {
+   "iconPath": "061bb583c251ea1491996ac5de0e5abb6ad317d66eeb6746872470f0325de7a0",
+   "name": "Key of Wisdom",
+   "rarity": 4,
+   "purposeId": 3,
+   "itemReferences": {},
+   "pageId": "836261"
+  },
+  {
+   "iconPath": "751785c1795d0c216b39deec5fa263ee8119f6295a1582c75e5f4a958a17a385",
+   "name": "Endurance of Bronze",
+   "rarity": 2,
+   "purposeId": 3,
+   "itemReferences": {},
+   "pageId": "635668"
+  },
+  {
+   "iconPath": "40bec463d92cede13fc22b7ac618c83f9d27e06e1a8c95a37d32cedc83fffe17",
+   "name": "Oath of Steel",
+   "rarity": 3,
+   "purposeId": 3,
+   "itemReferences": {},
+   "pageId": "920195"
+  },
+  {
+   "iconPath": "1313f4b8549d0b129fb33fcd3745a87a8030d13fc8c28159f0dd2868a203ac2f",
+   "name": "Safeguard of Amber",
+   "rarity": 4,
+   "purposeId": 3,
+   "itemReferences": {},
+   "pageId": "836254"
+  },
+  {
+   "iconPath": "eb2e2feca2b8c63d7bd3d8b8e5a296d336fa0e30ca425e8e5489df4c015d1685",
+   "name": "Obsidian of Dread",
+   "rarity": 2,
+   "purposeId": 3,
+   "itemReferences": {},
+   "pageId": "635669"
+  },
+  {
+   "iconPath": "ce4a765c779cfd1480029c5f6daa7ea755b5c3ec5661609bfd2dd5191b55f2d0",
+   "name": "Obsidian of Desolation",
+   "rarity": 3,
+   "purposeId": 3,
+   "itemReferences": {},
+   "pageId": "920196"
+  },
+  {
+   "iconPath": "328bab8dd4185cff98748182d80e550a23f12b7288da5caa228cc8407cea56df",
+   "name": "Obsidian of Obsession",
+   "rarity": 4,
+   "purposeId": 3,
+   "itemReferences": {},
+   "pageId": "836255"
+  },
+  {
+   "iconPath": "a327a767852b95b69b5d25ec4abc08aa0a548455bcf70fa743c6b9acc9356a38",
+   "name": "Harmonic Tune",
+   "rarity": 2,
+   "purposeId": 3,
+   "itemReferences": {},
+   "pageId": "635670"
+  },
+  {
+   "iconPath": "2e991dc7b3d976ae72c1f7dfcc0cfb1ff4c33223d33db5479a3dcd8d039ffa1a",
+   "name": "Ancestral Hymn",
+   "rarity": 3,
+   "purposeId": 3,
+   "itemReferences": {},
+   "pageId": "920197"
+  },
+  {
+   "iconPath": "e0a98987f6f4c66f28c5b9b79a757e590ae649d0e44ec47ada0ec1bac39e78fa",
+   "name": "Stellaris Symphony",
+   "rarity": 4,
+   "purposeId": 3,
+   "itemReferences": {},
+   "pageId": "836256"
+  },
+  {
+   "iconPath": "6a16c2294ef90c8cb62d61eff8e1fa277eb6fafdd394ce5e157bd9fd4a7bb701",
+   "name": "Seed of Abundance",
+   "rarity": 2,
+   "purposeId": 3,
+   "itemReferences": {},
+   "pageId": "635671"
+  },
+  {
+   "iconPath": "084dff414a606a7be5ee10de1cda1048d08a87d2dc3587c5e545afb4399e881a",
+   "name": "Sprout of Life",
+   "rarity": 3,
+   "purposeId": 3,
+   "itemReferences": {},
+   "pageId": "920198"
+  },
+  {
+   "iconPath": "8b56fa357be53126b0284b12903e0bfd41ace9d4dc155711d0297b70563b3bc7",
+   "name": "Flower of Eternity",
+   "rarity": 4,
+   "purposeId": 3,
+   "itemReferences": {},
+   "pageId": "836257"
+  },
+  {
+   "iconPath": "7a42ca2323eb2224644c54f364da09df012442c0e83d9b460e8bf46348bcd8f1",
+   "name": "Enigmatic Ectostella",
+   "rarity": 4,
+   "purposeId": 2,
+   "itemReferences": {},
+   "pageId": "782692"
+  },
+  {
+   "iconPath": "d97cb9072570df0b85725f8a0783d22e500c3e06e49b7fbc8dd485e7ba1b9516",
+   "name": "Broken Teeth of Iron Wolf",
+   "rarity": 4,
+   "purposeId": 2,
+   "itemReferences": {},
+   "pageId": "866633"
+  },
+  {
+   "iconPath": "1f3033f7a0d40ab304f7c4af7eaa7a00cc0b0a1cfd9f7698fcbf0b0b8d9321d5",
+   "name": "Endotherm Chitin",
+   "rarity": 4,
+   "purposeId": 2,
+   "itemReferences": {},
+   "pageId": "983278"
+  },
+  {
+   "iconPath": "03a85f3ccfcb36eb4e371d602e552113e1ada82e6ca848ca9d4f2761f6991e5e",
+   "name": "Horn of Snow",
+   "rarity": 4,
+   "purposeId": 2,
+   "itemReferences": {},
+   "pageId": "67219"
+  },
+  {
+   "iconPath": "f4e0301b109ba0ab0b633a7186df88a0fa0be8a70edf33c88539672e514bbc8c",
+   "name": "Lightning Crown of the Past Shadow",
+   "rarity": 4,
+   "purposeId": 2,
+   "itemReferences": {},
+   "pageId": "151160"
+  },
+  {
+   "iconPath": "822b1e8c023333b210f71f503cce58516c58ffc4f47c709a4ba4bc03387fdd68",
+   "name": "Storm Eye",
+   "rarity": 4,
+   "purposeId": 2,
+   "itemReferences": {},
+   "pageId": "267805"
+  },
+  {
+   "iconPath": "559c24ffae40e390bfec262f621e30b0b209f6d487b122f6bc54b0e7dada8353",
+   "name": "Void Cast Iron",
+   "rarity": 4,
+   "purposeId": 2,
+   "itemReferences": {},
+   "pageId": "351746"
+  },
+  {
+   "iconPath": "e8d74f9705754fb743acb234866d6e64a1f2354cb71bf2263579546b256a8913",
+   "name": "Golden Crown of the Past Shadow",
+   "rarity": 4,
+   "purposeId": 2,
+   "itemReferences": {},
+   "pageId": "468391"
+  },
+  {
+   "iconPath": "454d7cc126855797ffe9e381f1c4516d3fa988feafd6ed05db41cfe55b21f309",
+   "name": "Gelid Chitin",
+   "rarity": 4,
+   "purposeId": 2,
+   "itemReferences": {},
+   "pageId": "67220"
+  },
+  {
+   "iconPath": "6b4243b69df9f37fab4f6cda60edc49711505bf5c2ce0b517d6272be5df311df",
+   "name": "Shape Shifter's Lightning Staff",
+   "rarity": 4,
+   "purposeId": 2,
+   "itemReferences": {},
+   "pageId": "151161"
+  },
+  {
+   "iconPath": "91205616cca581bc299d91a1af94a91981d58328675779f8e66ccbaf679e5e94",
+   "name": "Destroyer's Final Road",
+   "rarity": 4,
+   "purposeId": 4,
+   "itemReferences": {},
+   "pageId": "985668"
+  },
+  {
+   "iconPath": "ed0c6ddf746bb8fe5f178943cd2836c9c4f98c2647479d389e2640b5f38d1317",
+   "name": "Guardian's Lament",
+   "rarity": 4,
+   "purposeId": 4,
+   "itemReferences": {},
+   "pageId": "270195"
+  },
+  {
+   "iconPath": "4b2515eee489b695028b8b790795cdd3e71cfd4b1de7a006a6030882b039706c",
+   "name": "Extinguished Core",
+   "rarity": 2,
+   "purposeId": 7,
+   "itemReferences": {},
+   "pageId": "549438"
+  },
+  {
+   "iconPath": "4f83a6b3e1cca8b6421a25a880516c3d27117937ae2f7f196180bbb0e1d28c3f",
+   "name": "Glimmering Core",
+   "rarity": 3,
+   "purposeId": 7,
+   "itemReferences": {},
+   "pageId": "633379"
+  },
+  {
+   "iconPath": "f32ca1d67c0e385f701d450cae1c5dea41f334e31d61eb331d4be4dc7551c378",
+   "name": "Squirming Core",
+   "rarity": 4,
+   "purposeId": 7,
+   "itemReferences": {},
+   "pageId": "717320"
+  },
+  {
+   "iconPath": "5930a427c19aedca23d55eb6ef670cc8ecf07466630281586f32f4d5e8d49409",
+   "name": "Thief's Instinct",
+   "rarity": 2,
+   "purposeId": 7,
+   "itemReferences": {},
+   "pageId": "549437"
+  },
+  {
+   "iconPath": "69d0630f4dc8d8bb4706a8a973f720ce46452e189a62c7b8b6f2ca8d567ca8ae",
+   "name": "Usurper's Scheme",
+   "rarity": 3,
+   "purposeId": 7,
+   "itemReferences": {},
+   "pageId": "633378"
+  },
+  {
+   "iconPath": "ea7f9727e8ba2c2039043d319ab4aa087ca6dbf08ec08876b1418d42c0f8a670",
+   "name": "Conqueror's Will",
+   "rarity": 4,
+   "purposeId": 7,
+   "itemReferences": {},
+   "pageId": "717319"
+  },
+  {
+   "iconPath": "2901efa774991b0ce2037520ce85ff99af64f37ee6364ffda560278736df6a19",
+   "name": "Silvermane Badge",
+   "rarity": 2,
+   "purposeId": 7,
+   "itemReferences": {},
+   "pageId": "549407"
+  },
+  {
+   "iconPath": "042dc7973ef7c36858a4aa58ef7d32335f528b3c4bc4f0c4ce2e7f401039a7c5",
+   "name": "Silvermane Insignia",
+   "rarity": 3,
+   "purposeId": 7,
+   "itemReferences": {},
+   "pageId": "633348"
+  },
+  {
+   "iconPath": "ec7d9dcb72593120a29744b7c2741fc2cf9d247469b89988c274ef108dc56b38",
+   "name": "Silvermane Medal",
+   "rarity": 4,
+   "purposeId": 7,
+   "itemReferences": {},
+   "pageId": "717289"
+  },
+  {
+   "iconPath": "a01d7231993bf0450534073f8515ba34a99653c455e03f9f43053719a34aff98",
+   "name": "Ancient Part",
+   "rarity": 2,
+   "purposeId": 7,
+   "itemReferences": {},
+   "pageId": "549408"
+  },
+  {
+   "iconPath": "191ad5f4b9fd5180b9065e05d463d6df35334c87ce1428e89d8d507e69177dc7",
+   "name": "Ancient Spindle",
+   "rarity": 3,
+   "purposeId": 7,
+   "itemReferences": {},
+   "pageId": "633349"
+  },
+  {
+   "iconPath": "70ecbc31091590eedbe7999413b138778e67af4ce3797e4e47860fa6b5867fbe",
+   "name": "Ancient Engine",
+   "rarity": 4,
+   "purposeId": 7,
+   "itemReferences": {},
+   "pageId": "717290"
+  },
+  {
+   "iconPath": "0c1388031133950e67459c98aad3ef2f784468e8339b131b94a4da88bbd608e3",
+   "name": "Immortal Scionette",
+   "rarity": 2,
+   "purposeId": 7,
+   "itemReferences": {},
+   "pageId": "549504"
+  },
+  {
+   "iconPath": "5697f106bffd77cdaac463118c2612ee69e0d906afac35a2161414374437171c",
+   "name": "Immortal Aeroblossom",
+   "rarity": 3,
+   "purposeId": 7,
+   "itemReferences": {},
+   "pageId": "633445"
+  },
+  {
+   "iconPath": "786a4710552f5db3cdbe821ed399429f2c61f1c0a70c89309cd3e3943a9918e6",
+   "name": "Immortal Lumintwig",
+   "rarity": 4,
+   "purposeId": 7,
+   "itemReferences": {},
+   "pageId": "717386"
+  },
+  {
+   "iconPath": "fcb7215a2a17b09cd16362b5e1b398eaaf2fde23a94057c5f961151885a620c5",
+   "name": "Artifex's Module",
+   "rarity": 2,
+   "purposeId": 7,
+   "itemReferences": {},
+   "pageId": "549503"
+  },
+  {
+   "iconPath": "1977002edbf48f44c49d08284ce2681f622e70c447d50de10a8b9491dfcb719c",
+   "name": "Artifex's Cogwheel",
+   "rarity": 3,
+   "purposeId": 7,
+   "itemReferences": {},
+   "pageId": "633444"
+  },
+  {
+   "iconPath": "058379eb2e88612f2b1f78a6c3195c457e124c9b6de602d6dd2fe0b2d17245f3",
+   "name": "Artifex's Gyreheart",
+   "rarity": 4,
+   "purposeId": 7,
+   "itemReferences": {},
+   "pageId": "717385"
+  },
+  {
+   "iconPath": "658cb5dd7c47041670545c8777310123c6e78d7465d2b2468587467b13560639",
+   "name": "Hertareum",
+   "rarity": 3,
+   "purposeId": 13,
+   "itemReferences": {},
+   "pageId": "152935"
+  },
+  {
+   "iconPath": "3d7ac38cf7bedeca2e738c766ff861df8dc2c0861bbb21b5fb34764f152d9991",
+   "name": "Shield",
+   "rarity": 3,
+   "purposeId": 13,
+   "itemReferences": {},
+   "pageId": "68994"
+  },
+  {
+   "iconPath": "1321cf88075014f07adc93d90046be90de72abb3a5dd229f580b104dd66ed346",
+   "name": "Strale",
+   "rarity": 3,
+   "purposeId": 13,
+   "itemReferences": {},
+   "pageId": "985053"
+  },
+  {
+   "iconPath": "5f6ef03c4f12b96cc2193222e934c3229bacddb41cbda2d3d0380af6be039443",
+   "name": "Solid Water",
+   "rarity": 1,
+   "purposeId": 17,
+   "itemReferences": {},
+   "pageId": "440416"
+  },
+  {
+   "iconPath": "55c753d85b97ea3bc3edbc6670d7957e812c7e408fdd5a609f86fbe52be0e0da",
+   "name": "Basic Ingredients",
+   "rarity": 1,
+   "purposeId": 17,
+   "itemReferences": {},
+   "pageId": "757647"
+  },
+  {
+   "iconPath": "cfad18793e3010265b0a82281326cc0f601968956adb8794c535341c0974f83b",
+   "name": "Phlogiston",
+   "rarity": 1,
+   "purposeId": 17,
+   "itemReferences": {},
+   "pageId": "155889"
+  },
+  {
+   "iconPath": "66246a134a2466e730d3b928d4fb279d60ec0fadf652363019ced427acbfe988",
+   "name": "Metal",
+   "rarity": 1,
+   "purposeId": 17,
+   "itemReferences": {},
+   "pageId": "71948"
+  },
+  {
+   "iconPath": "9dd77277c28117c06c0fb78cdf1accc3736022cb5bb39fd15fab2d13e9a8675e",
+   "name": "Gaseous liquid",
+   "rarity": 1,
+   "purposeId": 17,
+   "itemReferences": {},
+   "pageId": "356475"
+  },
+  {
+   "iconPath": "5db97bdea9c76ccfce23e02737cd906c0dd066dd18fef2935c7e5e0617770096",
+   "name": "Seed",
+   "rarity": 1,
+   "purposeId": 17,
+   "itemReferences": {},
+   "pageId": "272534"
+  },
+  {
+   "iconPath": "0c84c872d25ee920b5cd47d5babd1af5b11a0e5546aaf85dec532e1ebe04d393",
+   "name": "Mechanical Parts",
+   "rarity": 2,
+   "purposeId": 17,
+   "itemReferences": {},
+   "pageId": "440513"
+  },
+  {
+   "iconPath": "268a72e23652901539d20e40ce25f9b04cacc505a518f49b3e0953d31a51a3cd",
+   "name": "Virtual Particle",
+   "rarity": 2,
+   "purposeId": 17,
+   "itemReferences": {},
+   "pageId": "757744"
+  },
+  {
+   "iconPath": "3dd2e9d2839205b554c4b4a088806a5af824956d255f1c0b4158b5ad7e9fb09e",
+   "name": "Protein Rice",
+   "rarity": 2,
+   "purposeId": 17,
+   "itemReferences": {},
+   "pageId": "641099"
+  },
+  {
+   "iconPath": "8311a39a76b297161d373d9e853dfe0a17c80bec249f5757f1794577d3c32840",
+   "name": "Feather of Flame",
+   "rarity": 2,
+   "purposeId": 17,
+   "itemReferences": {},
+   "pageId": "155986"
+  },
+  {
+   "iconPath": "a42063d1bdcbc0358b070e2f0fa04227294af443f4c149cd7f0dc160f3d5c73e",
+   "name": "Core of Ice",
+   "rarity": 2,
+   "purposeId": 17,
+   "itemReferences": {},
+   "pageId": "72045"
+  },
+  {
+   "iconPath": "8d90bd4133eef94103c2ffc3afcd71a252832a99a4fce6bbe5dedb9bd571b0bc",
+   "name": "Eye of Lightning",
+   "rarity": 2,
+   "purposeId": 17,
+   "itemReferences": {},
+   "pageId": "356572"
+  },
+  {
+   "iconPath": "c56d9ab576f8077b55249ba302320edab04dd431bb233c6aa40fd2e8d689dcb8",
+   "name": "Vortex of Wind",
+   "rarity": 2,
+   "purposeId": 17,
+   "itemReferences": {},
+   "pageId": "272631"
+  },
+  {
+   "iconPath": "361423a2291c50f0bb5a644d0cb7fb8747cb8306fc7d7af70fe2a751186a9b0c",
+   "name": "Quantum Ripples",
+   "rarity": 2,
+   "purposeId": 17,
+   "itemReferences": {},
+   "pageId": "787518"
+  },
+  {
+   "iconPath": "3652795592451684da31b73d554dd630aad6965b2db09dd1cd2a8b66e2b8516b",
+   "name": "Leaf of Imaginary",
+   "rarity": 2,
+   "purposeId": 17,
+   "itemReferences": {},
+   "pageId": "703577"
+  },
+  {
+   "iconPath": "a3312b403220e7c88f83773bc362fc380d8110ab29027bf04598a7b2f9facf05",
+   "name": "Meteoric Alloy",
+   "rarity": 2,
+   "purposeId": 17,
+   "itemReferences": {},
+   "pageId": "557157"
+  },
+  {
+   "iconPath": "99c760e7e0f562be3af0e92dfa57ece9d29db751534ea0f7e67d0e1469804749",
+   "name": "Strange Matter of Destruction",
+   "rarity": 3,
+   "purposeId": 17,
+   "itemReferences": {},
+   "pageId": "440482"
+  },
+  {
+   "iconPath": "e939622ff07310220b4ae6be382615a1ef5a34b0a8830a21e5e2fd2ed6129a30",
+   "name": "Ambergris of Abundance",
+   "rarity": 3,
+   "purposeId": 17,
+   "itemReferences": {},
+   "pageId": "757713"
+  },
+  {
+   "iconPath": "e75e51963b701a4d4b40b49f6074ade438199004d4c89d645a2777f14db50804",
+   "name": "Stone of The Hunt",
+   "rarity": 3,
+   "purposeId": 17,
+   "itemReferences": {},
+   "pageId": "641068"
+  },
+  {
+   "iconPath": "ff86188be988bda41cc33df8e66de42fe7d91a7f2f04a34810080ebf68c8aa2a",
+   "name": "Preservation Construction Material",
+   "rarity": 3,
+   "purposeId": 17,
+   "itemReferences": {},
+   "pageId": "155955"
+  },
+  {
+   "iconPath": "0e478e8e79698ab7512128e32bb7be826d4a6b311e36bf0196220b15dc6d4b20",
+   "name": "Hard Chip of Nihility",
+   "rarity": 3,
+   "purposeId": 17,
+   "itemReferences": {},
+   "pageId": "72014"
+  },
+  {
+   "iconPath": "253bb7948ea55d68037ca9f96574e2af6e647b9d76d46967f2d4e2899bfb9d69",
+   "name": "Tree Bark of Erudition",
+   "rarity": 3,
+   "purposeId": 17,
+   "itemReferences": {},
+   "pageId": "356541"
+  },
+  {
+   "iconPath": "ded7154553ddefdabeaa866736266e0b2f25467fea728b9a78eb11c7ec229f1b",
+   "name": "Slime of Harmony",
+   "rarity": 3,
+   "purposeId": 17,
+   "itemReferences": {},
+   "pageId": "272600"
+  },
+  {
+   "iconPath": "c2c0c181db42dcfcb2b6d8cc2ad0b69cb38b87fb661dec642104a76a6b6fb311",
+   "name": "Interdimensional Leaf",
+   "rarity": 4,
+   "purposeId": 17,
+   "itemReferences": {},
+   "pageId": "440579"
+  },
+  {
+   "iconPath": "e87542e95eeee521b6a4e490f9d71ee5a731a4d2c7d5868512dda4b7e05f4b91",
+   "name": "Phase Flame",
+   "rarity": 4,
+   "purposeId": 17,
+   "itemReferences": {},
+   "pageId": "757810"
+  },
+  {
+   "iconPath": "dd455f01643b5e280e9a70b288071367d21326e8968aa3bee9b71d488f8f14a1",
+   "name": "Tear Crystal of Glorious Death",
+   "rarity": 4,
+   "purposeId": 17,
+   "itemReferences": {},
+   "pageId": "641165"
+  },
+  {
+   "iconPath": "8946b2666635fce3e3ddde78442609d32f68743d2b45df662d9e7ee7fe7c7221",
+   "name": "Mythus Knots",
+   "rarity": 4,
+   "purposeId": 17,
+   "itemReferences": {},
+   "pageId": "156052"
+  },
+  {
+   "iconPath": "0400af1e6bdc5205f50eefc4dfbc789e845befa60aaf7bf95c8cd7fa09eb0632",
+   "name": "Gift of the Pathstriders",
+   "rarity": 3,
+   "purposeId": 0,
+   "itemReferences": {},
+   "pageId": "565225"
+  },
+  {
+   "iconPath": "5683763f4097fc9ecbb98bebc7149eb5c216bcd98a40d66a4bc735e8770c7541",
+   "name": "Grand Gift of the Pathstriders",
+   "rarity": 4,
+   "purposeId": 0,
+   "itemReferences": {},
+   "pageId": "481284"
+  },
+  {
+   "iconPath": "992f0a93ef4437227174fa630e83181f8752369cb73fc56257673d98431da8d1",
+   "name": "Treasure of the Starry Seas",
+   "rarity": 4,
+   "purposeId": 0,
+   "itemReferences": {},
+   "pageId": "280699"
+  },
+  {
+   "iconPath": "d887f1a45f7d0f6780b9499e3e13c60366dac61e3acf930e278f352e726ec0df",
+   "name": "Gift of the Stars",
+   "rarity": 5,
+   "purposeId": 14,
+   "itemReferences": {},
+   "pageId": "280697"
+  },
+  {
+   "iconPath": "9b91f277655b50f74eb163a37e2b3b08ea20c87dbe318086c0755d416538fd43",
+   "name": "Express Supply Pass",
+   "rarity": 4,
+   "purposeId": 14,
+   "itemReferences": {},
+   "pageId": "443199"
+  },
+  {
+   "iconPath": "1c52554ba778f671593c540efe669768f1d54b62738658edaf2cd226dfd7e8a3",
+   "name": "Nameless Glory (Unopened)",
+   "rarity": 4,
+   "purposeId": 14,
+   "itemReferences": {},
+   "pageId": "527140"
+  },
+  {
+   "iconPath": "1cb2bab15dc1dfb64ba3e9e415b72e5a39e6be5da1b9d8243f93552553d21fb7",
+   "name": "Nameless Medal (Unopened)",
+   "rarity": 4,
+   "purposeId": 14,
+   "itemReferences": {},
+   "pageId": "643785"
+  },
+  {
+   "iconPath": "1cb2bab15dc1dfb64ba3e9e415b72e5a39e6be5da1b9d8243f93552553d21fb7",
+   "name": "Honor Badge (Unopened)",
+   "rarity": 4,
+   "purposeId": 14,
+   "itemReferences": {},
+   "pageId": "958086"
+  },
+  {
+   "iconPath": "eedd69791825aae6ec8afe50d7ee82de0c23cabd752daad49972af7ebde46407",
+   "name": "The Adventurous Moles: Hidden Treasure",
+   "rarity": 3,
+   "purposeId": 0,
+   "itemReferences": {},
+   "pageId": "689641"
+  },
+  {
+   "iconPath": "f1ee9aeaf79709bd231d57a09963ce74b213d784c64208d10a3ab96b350093f4",
+   "name": "Herta Contract: Trailblaze Aid",
+   "rarity": 4,
+   "purposeId": 0,
+   "itemReferences": {},
+   "pageId": "551519"
+  },
+  {
+   "iconPath": "8aa3da407648861a2df593731d433fa5bd2fc763a0020fc85ff76264c5f69ec5",
+   "name": "Herta Contract: Fuel Refill",
+   "rarity": 4,
+   "purposeId": 0,
+   "itemReferences": {},
+   "pageId": "635460"
+  },
+  {
+   "iconPath": "13f05f9e01735b16f2d1952c7685928c65e8a68bf5082b900be2c648f0e38546",
+   "name": "Herta Contract: Quest Sharing",
+   "rarity": 3,
+   "purposeId": 0,
+   "itemReferences": {},
+   "pageId": "719401"
+  },
+  {
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: Comfort Food",
+   "rarity": 1,
+   "purposeId": 19,
+   "itemReferences": {},
+   "pageId": "988746"
+  },
+  {
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: Punitive Food",
+   "rarity": 1,
+   "purposeId": 19,
+   "itemReferences": {},
+   "pageId": "872101"
+  },
+  {
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: Trick Snack",
+   "rarity": 1,
+   "purposeId": 19,
+   "itemReferences": {},
+   "pageId": "156628"
+  },
+  {
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: Simple First-Aid Device",
+   "rarity": 1,
+   "purposeId": 19,
+   "itemReferences": {},
+   "pageId": "72687"
+  },
+  {
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: Cosmic Fried Rice",
+   "rarity": 2,
+   "purposeId": 19,
+   "itemReferences": {},
+   "pageId": "473890"
+  },
+  {
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: Yucky Fried Rice",
+   "rarity": 2,
+   "purposeId": 19,
+   "itemReferences": {},
+   "pageId": "988777"
+  },
+  {
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: Punitive Energy",
+   "rarity": 2,
+   "purposeId": 19,
+   "itemReferences": {},
+   "pageId": "872132"
+  },
+  {
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: Energy Drink",
+   "rarity": 2,
+   "purposeId": 19,
+   "itemReferences": {},
+   "pageId": "156659"
+  },
+  {
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: Life Transmitter",
+   "rarity": 2,
+   "purposeId": 19,
+   "itemReferences": {},
+   "pageId": "72718"
+  },
+  {
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: Bottled Soda",
+   "rarity": 2,
+   "purposeId": 19,
+   "itemReferences": {},
+   "pageId": "126885"
+  },
+  {
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: Simple Protective Gear",
+   "rarity": 2,
+   "purposeId": 19,
+   "itemReferences": {},
+   "pageId": "42944"
+  },
+  {
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: Rice Plant Panicle",
+   "rarity": 2,
+   "purposeId": 19,
+   "itemReferences": {},
+   "pageId": "357246"
+  },
+  {
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: Camo Paint",
+   "rarity": 2,
+   "purposeId": 19,
+   "itemReferences": {},
+   "pageId": "273305"
+  },
+  {
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: Diet Fried Rice",
+   "rarity": 2,
+   "purposeId": 19,
+   "itemReferences": {},
+   "pageId": "557832"
+  },
+  {
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: Wrathful Gauntlets",
+   "rarity": 2,
+   "purposeId": 19,
+   "itemReferences": {},
+   "pageId": "473891"
+  },
+  {
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: Healing Spray",
+   "rarity": 2,
+   "purposeId": 19,
+   "itemReferences": {},
+   "pageId": "273339"
+  },
+  {
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: Disposable Shield",
+   "rarity": 3,
+   "purposeId": 19,
+   "itemReferences": {},
+   "pageId": "557866"
+  },
+  {
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: Energy Drink (sugar-free)",
+   "rarity": 3,
+   "purposeId": 19,
+   "itemReferences": {},
+   "pageId": "473925"
+  },
+  {
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: Antimatter Field Generator",
+   "rarity": 3,
+   "purposeId": 19,
+   "itemReferences": {},
+   "pageId": "988812"
+  },
+  {
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: High-Tech Protective Gear",
+   "rarity": 3,
+   "purposeId": 19,
+   "itemReferences": {},
+   "pageId": "872167"
+  },
+  {
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: Inferior Protective Gear",
+   "rarity": 3,
+   "purposeId": 19,
+   "itemReferences": {},
+   "pageId": "156694"
+  },
+  {
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: Tasty Field Nutrient Bar",
+   "rarity": 3,
+   "purposeId": 19,
+   "itemReferences": {},
+   "pageId": "72753"
+  },
+  {
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: Dust of Alacrity",
+   "rarity": 3,
+   "purposeId": 19,
+   "itemReferences": {},
+   "pageId": "126920"
+  },
+  {
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: Enhancement Paste: Physical",
+   "rarity": 3,
+   "purposeId": 19,
+   "itemReferences": {},
+   "pageId": "42979"
+  },
+  {
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: Enhancement Paste: Wind",
+   "rarity": 3,
+   "purposeId": 19,
+   "itemReferences": {},
+   "pageId": "357279"
+  },
+  {
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: Enhancement Paste: Fire",
+   "rarity": 3,
+   "purposeId": 19,
+   "itemReferences": {},
+   "pageId": "273338"
+  },
+  {
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: Enhancement Paste: Ice",
+   "rarity": 3,
+   "purposeId": 19,
+   "itemReferences": {},
+   "pageId": "557865"
+  },
+  {
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: Enhancement Paste: Lightning",
+   "rarity": 3,
+   "purposeId": 19,
+   "itemReferences": {},
+   "pageId": "473924"
+  },
+  {
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: Enhancement Paste: Quantum",
+   "rarity": 3,
+   "purposeId": 19,
+   "itemReferences": {},
+   "pageId": "988811"
+  },
+  {
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: Enhancement Paste: Imaginary",
+   "rarity": 3,
+   "purposeId": 19,
+   "itemReferences": {},
+   "pageId": "872166"
+  },
+  {
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: Vomit Inducing Agent",
+   "rarity": 3,
+   "purposeId": 19,
+   "itemReferences": {},
+   "pageId": "156693"
+  },
+  {
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: Disposable Kinetic Arm",
+   "rarity": 4,
+   "purposeId": 19,
+   "itemReferences": {},
+   "pageId": "273370"
+  },
+  {
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: Ruby Potion",
+   "rarity": 4,
+   "purposeId": 19,
+   "itemReferences": {},
+   "pageId": "557897"
+  },
+  {
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: Disposable Kinetic Cannon",
+   "rarity": 4,
+   "purposeId": 19,
+   "itemReferences": {},
+   "pageId": "473956"
+  },
+  {
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: Stone from the Everwinter Monument",
+   "rarity": 4,
+   "purposeId": 19,
+   "itemReferences": {},
+   "pageId": "988843"
+  },
+  {
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: Topological Acceleration Band",
+   "rarity": 4,
+   "purposeId": 19,
+   "itemReferences": {},
+   "pageId": "872198"
+  },
+  {
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: Longevity Pill of Cruelty",
+   "rarity": 4,
+   "purposeId": 19,
+   "itemReferences": {},
+   "pageId": "156725"
+  }
+ ],
+ "name": "UI_ITEMS_TAB_MATERIAL",
+ "filterCategories": [
+  {
+   "name": "4\u2b50",
+   "group": "rarityChar",
+   "dataKey": "rarity",
+   "dataValue": 4,
+   "rarity": 4,
+   "type": 0
+  },
+  {
+   "name": "5\u2b50",
+   "group": "rarityChar",
+   "dataKey": "rarity",
+   "dataValue": 5,
+   "rarity": 5,
+   "type": 0
+  },
+  {
+   "name": "3\u2b50",
+   "group": "rarityEquipment",
+   "dataKey": "rarity",
+   "dataValue": 3,
+   "rarity": 3,
+   "type": 0
+  },
+  {
+   "name": "4\u2b50",
+   "group": "rarityEquipment",
+   "dataKey": "rarity",
+   "dataValue": 4,
+   "rarity": 4,
+   "type": 0
+  },
+  {
+   "name": "5\u2b50",
+   "group": "rarityEquipment",
+   "dataKey": "rarity",
+   "dataValue": 5,
+   "rarity": 5,
+   "type": 0
+  },
+  {
+   "name": "1\u2b50",
+   "group": "rarityMaterial",
+   "dataKey": "rarity",
+   "dataValue": 1,
+   "rarity": 1,
+   "type": 0
+  },
+  {
+   "name": "2\u2b50",
+   "group": "rarityMaterial",
+   "dataKey": "rarity",
+   "dataValue": 2,
+   "rarity": 2,
+   "type": 0
+  },
+  {
+   "name": "3\u2b50",
+   "group": "rarityMaterial",
+   "dataKey": "rarity",
+   "dataValue": 3,
+   "rarity": 3,
+   "type": 0
+  },
+  {
+   "name": "4\u2b50",
+   "group": "rarityMaterial",
+   "dataKey": "rarity",
+   "dataValue": 4,
+   "rarity": 4,
+   "type": 0
+  },
+  {
+   "name": "5\u2b50",
+   "group": "rarityMaterial",
+   "dataKey": "rarity",
+   "dataValue": 5,
+   "rarity": 5,
+   "type": 0
+  },
+  {
+   "name": "Physical",
+   "group": "damageType",
+   "icon": "541166f5d3254a75e30a3263ab3ccad1c503085220a3bdb0f58f9893874eb111",
+   "dataKey": "damageTypeId",
+   "dataValue": 1,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "Fire",
+   "group": "damageType",
+   "icon": "f497912f929db891b819dc17d9c0124a9c13233f3e02be5b85192af534f17a3c",
+   "dataKey": "damageTypeId",
+   "dataValue": 2,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "Ice",
+   "group": "damageType",
+   "icon": "5f1b104c55cb14b081b2c004245c64dd39e94dd128a9880cd3a2efeb830170a1",
+   "dataKey": "damageTypeId",
+   "dataValue": 4,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "Lightning",
+   "group": "damageType",
+   "icon": "2494da0973fa611a4ff07798992cf2496faa89f7557b6713da75ee5d11eed2ba",
+   "dataKey": "damageTypeId",
+   "dataValue": 8,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "Wind",
+   "group": "damageType",
+   "icon": "547617e1b5c7374fde58450573bf7376fb2cee3079955e09f934fb822a6d5d11",
+   "dataKey": "damageTypeId",
+   "dataValue": 16,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "Quantum",
+   "group": "damageType",
+   "icon": "f67326acd380eb6b452659943906fa6248745b7d58d634b399307b028b9605c0",
+   "dataKey": "damageTypeId",
+   "dataValue": 32,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "Imaginary",
+   "group": "damageType",
+   "icon": "7a40dc5e267fd0b411f265237403a3408433f863d5d1b94b4a9d82e2bab33e32",
+   "dataKey": "damageTypeId",
+   "dataValue": 64,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "Destruction",
+   "group": "baseTypeChar",
+   "icon": "10dae0df031160c29bace386a1220e539f2b5e13765cdd0f6d2a2143bca2755c",
+   "dataKey": "baseTypeId",
+   "dataValue": 1,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "The Hunt",
+   "group": "baseTypeChar",
+   "icon": "c66788e18b85100348634e29b364a9e96096bfcd10a9607ae873ceb817744d83",
+   "dataKey": "baseTypeId",
+   "dataValue": 2,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "Erudition",
+   "group": "baseTypeChar",
+   "icon": "312ed1eeb6d329b90b5506b23fd487883f83124ccabedaf6cfafbb913d86c74c",
+   "dataKey": "baseTypeId",
+   "dataValue": 3,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "Harmony",
+   "group": "baseTypeChar",
+   "icon": "aee7f899a278735eda2872652cca14dc6b4c74c9f5689a59bbf33fa00b64ed44",
+   "dataKey": "baseTypeId",
+   "dataValue": 4,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "Nihility",
+   "group": "baseTypeChar",
+   "icon": "46809b2e4ea3502400dc31a9af1552ced0d5890b1b96f43ab9ac6fdc73fdd5f5",
+   "dataKey": "baseTypeId",
+   "dataValue": 5,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "Preservation",
+   "group": "baseTypeChar",
+   "icon": "7ffdd2cf6f7c119724e700bbf531b0ff62f3f1e2c32159e1a1f2bc6c77416163",
+   "dataKey": "baseTypeId",
+   "dataValue": 6,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "Abundance",
+   "group": "baseTypeChar",
+   "icon": "352fe395cd8f2422b4d89b486957960b86537f34c4921383c1351aa6e34ee70a",
+   "dataKey": "baseTypeId",
+   "dataValue": 7,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "Herta Space Station",
+   "group": "bookSeriesWorld",
+   "icon": "059949bb507fe93b29748aa40f4cfa319019f9013409b39a7fcd8fa0aa602cfc",
+   "dataKey": "worldId",
+   "dataValue": 1,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "Jarilo-VI",
+   "group": "bookSeriesWorld",
+   "icon": "f74ffa769453472a8096959c2747fec3d57acfb6f4b067f1a554d7830a8730fe",
+   "dataKey": "worldId",
+   "dataValue": 2,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "The Xianzhou Luofu",
+   "group": "bookSeriesWorld",
+   "icon": "afa7c01b7344fa1faf275d16dce45e6905e2ae3c7e8a2fe87971eb0ef95523e1",
+   "dataKey": "worldId",
+   "dataValue": 3,
+   "rarity": 0,
+   "type": 0
+  },
+  {
+   "name": "Character EXP Material",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 1,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "Character Ascension Materials",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 2,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "Trace Material Light Cone Ascension Material",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 3,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "Trace Materials",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 4,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "Light Cone EXP Material",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 5,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "Relic EXP Material",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 6,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "Trace Material Character Ascension Materials",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 7,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "Warp Item",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 8,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "Limited Warp Item",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 9,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "Consumables",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 10,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "Common currency",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 11,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "Rare currency",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 12,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "World currency",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 13,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "Valuable object",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 14,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "Relic Coffret",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 15,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "Synthesis material",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 17,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "Recipe",
+   "group": "itemPurpose",
+   "dataKey": "purposeId",
+   "dataValue": 19,
+   "rarity": 0,
+   "type": 2
+  },
+  {
+   "name": "UI_HOME_SEARCH",
+   "group": "genericSearch",
+   "dataKey": "name",
+   "dataValue": 0,
+   "rarity": 0,
+   "type": 1
+  }
+ ]
+}

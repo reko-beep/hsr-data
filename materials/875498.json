@@ -1,0 +1,22 @@
+{
+ "iconPath": "0ef04da3183a898840aa77c2c3e4f8f1c1480618230d13c9105429b55628e837",
+ "name": "\"Ave Astra et Viator\"",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 875498,
+  "type": 506,
+  "purposeId": 20,
+  "iconPath": "0ef04da3183a898840aa77c2c3e4f8f1c1480618230d13c9105429b55628e837",
+  "name": "\"Ave Astra et Viator\"",
+  "desc": "A record that can be played on the Express' phonograph. It might be a chance acquisition or a gift from someone else. All sorts of memories surge up when the music plays \u2014 the smiles, encounters, touches, and the excitement of battle. Maybe that is why people still collect records even as society rapidly advances.<br />The current record contains the track, \"Ave Astra et Viator.\"",
+  "lore": "<br />The traveler's spirit wanders on, showered in starlight evermore.",
+  "purpose": "Disk",
+  "rarity": 3,
+  "rewardPath": "/material/875498",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "pageId": "875498"
+}

@@ -1,0 +1,128 @@
+{
+ "iconPath": "db67f3ace268b369c42ad008a78ac4bf5f1c6e3309836579a70deddc60b70d58",
+ "name": "Inferior Protective Gear",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 156562,
+  "type": 502,
+  "purposeId": 10,
+  "iconPath": "db67f3ace268b369c42ad008a78ac4bf5f1c6e3309836579a70deddc60b70d58",
+  "name": "Inferior Protective Gear",
+  "desc": "Upon use, immediately causes all allies to lose HP equal to <nobr>15%</nobr> of their Max HP, and increases their DEF by <nobr>15%</nobr> for the next battle.",
+  "lore": "High-Tech protective gear that keeps the most vulnerable parts of your body from harm.<br />But its manufacturer saved on costs at the expense of quality, rendering its charging system not functional at all. It also has a revolting smell.<br />You feel more determined just by putting it on.<br /><br />\"That's impossible. I, Sampo, do not sell counterfeits. I'm a reputable businessman after all!\"",
+  "purpose": "Consumables",
+  "rarity": 3,
+  "rewardPath": "/material/156562",
+  "comeFrom": [
+   "All-in-One Synthesis Machine"
+  ]
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "0e76659bbb3b9d0b1cc6a4e0e8c63a576c7b917f2f740a4b1b8ceab260a8a595",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards"
+   ]
+  },
+  "155955": {
+   "id": 155955,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "ff86188be988bda41cc33df8e66de42fe7d91a7f2f04a34810080ebf68c8aa2a",
+   "name": "Preservation Construction Material",
+   "desc": "Tier 3 Synthesis Material",
+   "lore": "Construction materials that seem to possess the power of the Preservation.<br />When mixed with water it forms a paste, when exposed to air it turns rock-hard.<br />Please do not use together with Solid Water.<br /><br />\"I regret to say that Intelligentsia Guild's research on the material used to build the Subspace Crystalline Barrier by Amber Lord still needs time to reveal its nature.\"<br />\"I'm sure it's not cement \u2014 am I right, Taravan?\"",
+   "purpose": "Synthesis material",
+   "rarity": 3,
+   "rewardPath": "/material/155955",
+   "comeFrom": [
+    "Corridor of Fading Echoes: Everwinter Shadewalkers or other enemies"
+   ]
+  },
+  "156694": {
+   "id": 156694,
+   "type": 507,
+   "purposeId": 19,
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: Inferior Protective Gear",
+   "desc": "A simple equation. When entered into the Synthesizer, it will unlock a new recipe.",
+   "lore": "",
+   "purpose": "Recipe",
+   "rarity": 3,
+   "rewardPath": "/material/156694",
+   "comeFrom": []
+  },
+  "273405": {
+   "id": 273405,
+   "type": 502,
+   "purposeId": 10,
+   "iconPath": "0cf2469f493df67754573918796792f6261f45f7d34020462dfb52a2c61eb045",
+   "name": "Trash",
+   "desc": "Upon use, immediately causes a single ally to lose HP equal to <nobr>15%</nobr> of their Max HP.",
+   "lore": "Worthless trash.<br />Better carry some with you.<br /><br />\"Some say that in the deep retreats of the Galaxy, an invisible portal will open to those carrying a piece of junk.\"",
+   "purpose": "Consumables",
+   "rarity": 1,
+   "rewardPath": "/material/273405",
+   "comeFrom": [
+    "Found in destructible objects in Jarilo-VI"
+   ]
+  },
+  "440513": {
+   "id": 440513,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "0c84c872d25ee920b5cd47d5babd1af5b11a0e5546aaf85dec532e1ebe04d393",
+   "name": "Mechanical Parts",
+   "desc": "Tier 2 Synthesis Material",
+   "lore": "Essential components of all machines with strange shapes and specific functions.<br />Without them, nothing can be made.<br /><br />\"With the same parts, Screwllum can make entire planets and create cyborgs. But you can only make me a watch that runs seven seconds late every day.\"<br />\"Seven seconds is good enough! Just a hair later than the clocks they use in observatories.\"",
+   "purpose": "Synthesis material",
+   "rarity": 2,
+   "rewardPath": "/material/440513",
+   "comeFrom": [
+    "Robot Settlement: Automatons or other enemies",
+    "Found in destructible objects in the Herta Space Station",
+    "Administrative District Shop"
+   ]
+  }
+ },
+ "composeData": [
+  {
+   "items": [
+    {
+     "id": 273405,
+     "count": 3
+    },
+    {
+     "id": 440513,
+     "count": 3
+    },
+    {
+     "id": 155955,
+     "count": 2
+    },
+    {
+     "id": 156694,
+     "count": 1
+    }
+   ],
+   "tag": {
+    "name": "Defense Consumables",
+    "type": "Consumables",
+    "icon": "afe47a40c1361649152476b603185f0ffb4b55c17408e2629a1489e38daf70a5"
+   }
+  }
+ ],
+ "pageId": "156562"
+}

@@ -1,0 +1,24 @@
+{
+ "iconPath": "ed0c6ddf746bb8fe5f178943cd2836c9c4f98c2647479d389e2640b5f38d1317",
+ "name": "Guardian's Lament",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 270195,
+  "type": 601,
+  "purposeId": 4,
+  "iconPath": "ed0c6ddf746bb8fe5f178943cd2836c9c4f98c2647479d389e2640b5f38d1317",
+  "name": "Guardian's Lament",
+  "desc": "Advanced level-up material for Traces.",
+  "lore": "Together with this visor, the twisted wish of a Guardian also lies broken.<br />She had wanted to find a way out for her people to escape the Everwinter, but ended up becoming a puppet of a consciousness beyond her.<br /><br />\"Supreme Guardian, the title passed down to generations of Belobog's rulers, the one who looked after all the people \u2014 It never occurred to anyone that the Guardians themselves also long for care and protection.\"",
+  "purpose": "Trace Materials",
+  "rarity": 4,
+  "rewardPath": "/material/270195",
+  "comeFrom": [
+   "Echo of War (Everwinter Hill)"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "pageId": "270195"
+}

@@ -1,0 +1,77 @@
+{
+ "iconPath": "e50443a4312313a9e0eac79179944cf272f37c4a395e09c74f76542b13531122",
+ "name": "Worldbreaker Blade",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 836259,
+  "type": 601,
+  "purposeId": 3,
+  "iconPath": "e50443a4312313a9e0eac79179944cf272f37c4a395e09c74f76542b13531122",
+  "name": "Worldbreaker Blade",
+  "desc": "Broken weapon left behind by members of the Antimatter Legion. Used to level up Traces significantly for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Destruction</span> characters.",
+  "lore": "This weapon represents its owner's rank and accomplishments in the name of Destruction.<br />The owner of this weapon makes their appearance at the end of a war to fan the embers to consume the world. Regardless of the glories of the past or the blessing of its deities, this planet is destined to return to the ashes it came from, and to wither away in the depths of the starry sky.<br /><br />The bearer of this brand is tasked with purifying the world.",
+  "purpose": "Trace Material<br />Light Cone Ascension Material",
+  "rarity": 4,
+  "rewardPath": "/material/836259",
+  "comeFrom": [
+   "Calyx (Storage Zone)",
+   "Omni-Synthesizer \u2014 Material Synthesis"
+  ]
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "0e76659bbb3b9d0b1cc6a4e0e8c63a576c7b917f2f740a4b1b8ceab260a8a595",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards"
+   ]
+  },
+  "920200": {
+   "id": 920200,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "8e1da1734309fa1e0ed5035575293caab81cfa7723f7bf4a81d36d9833d80b36",
+   "name": "Lifeless Blade",
+   "desc": "Weapon remnants left behind by members of the Antimatter Legion. Used to level up Traces moderately for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Destruction</span> characters.",
+   "lore": "This brand represents their rank and accomplishments in the name of Destruction.<br />The master of this weapon carries a strong hatred for all sentient beings. They relish in the lament of intelligent beings as sweet melodies and topple civilizations with millennia of history in the blink of an eye.<br /><br />\"The bearer of this brand is tasked with stopping breath among the living.\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 3,
+   "rewardPath": "/material/920200",
+   "comeFrom": [
+    "Calyx (Storage Zone)",
+    "Omni-Synthesizer \u2014 Material Synthesis"
+   ]
+  }
+ },
+ "composeData": [
+  {
+   "items": [
+    {
+     "id": 920200,
+     "count": 3
+    },
+    {
+     "id": 29328,
+     "count": 20
+    }
+   ],
+   "tag": {
+    "name": "Traces Leveling Material",
+    "type": "Traces Activation Materials",
+    "icon": "ffdbab3c38d4fc15596f399cfde9f2eb0717184b00df444cbae165a965fb928a"
+   }
+  }
+ ],
+ "pageId": "836259"
+}

@@ -1,0 +1,129 @@
+{
+ "iconPath": "afe705730dfa398c6e0126c4531615ac43828926f5dc7f9782307fdb7fe463ae",
+ "name": "Tasty Field Nutrient Bar",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 72621,
+  "type": 502,
+  "purposeId": 10,
+  "iconPath": "afe705730dfa398c6e0126c4531615ac43828926f5dc7f9782307fdb7fe463ae",
+  "name": "Tasty Field Nutrient Bar",
+  "desc": "Upon use, Max HP of all allies increases by <nobr>14%</nobr> plus an extra <nobr>360</nobr> for the next battle.",
+  "lore": "The wars between Cloud Knights and Denizens of Abundance can last for a long time, even across several Amber Eras. The Cloud Knights tend to spend a long time in garrisons and invented many tasty foods for field consumption. The Field Nutrient Bar is easy to carry and particularly sought-after by the troops.<br />The nutrient bar tastes like smoked meat with notes of honey and candy.<br /><br />\"Mix peanuts with dried bean curds and wrap with ambergris. Has a nutty flavor to it.\"",
+  "purpose": "Consumables",
+  "rarity": 3,
+  "rewardPath": "/material/72621",
+  "comeFrom": [
+   "All-in-One Synthesis Machine"
+  ]
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "0e76659bbb3b9d0b1cc6a4e0e8c63a576c7b917f2f740a4b1b8ceab260a8a595",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards"
+   ]
+  },
+  "72753": {
+   "id": 72753,
+   "type": 507,
+   "purposeId": 19,
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: Tasty Field Nutrient Bar",
+   "desc": "A simple equation. When entered into the Synthesizer, it will unlock a new recipe.",
+   "lore": "",
+   "purpose": "Recipe",
+   "rarity": 3,
+   "rewardPath": "/material/72753",
+   "comeFrom": []
+  },
+  "641099": {
+   "id": 641099,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "3dd2e9d2839205b554c4b4a088806a5af824956d255f1c0b4158b5ad7e9fb09e",
+   "name": "Protein Rice",
+   "desc": "Tier 2 Synthesis Material",
+   "lore": "Nature's gift to human society, friend of mankind, savior of lives.<br />Smooth as egg white and full of protein.<br /><br />\"Every grain costs sweat and blood.\"",
+   "purpose": "Synthesis material",
+   "rarity": 2,
+   "rewardPath": "/material/641099",
+   "comeFrom": [
+    "Storage Zone: Voidranger: Reavers or other enemies",
+    "Found in destructible objects in the Herta Space Station",
+    "Grocery Stand"
+   ]
+  },
+  "757647": {
+   "id": 757647,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "55c753d85b97ea3bc3edbc6670d7957e812c7e408fdd5a609f86fbe52be0e0da",
+   "name": "Basic Ingredients",
+   "desc": "Tier 1 Synthesis Material",
+   "lore": "Ingredients that keep you fed but taste less than ideal.<br />Not particularly good, but keep you fed.<br /><br />\"Can I eat it? Is it good? What do I eat it with?\"",
+   "purpose": "Synthesis material",
+   "rarity": 1,
+   "rewardPath": "/material/757647",
+   "comeFrom": [
+    "Found in destructible objects in the Herta Space Station",
+    "Administrative District Shop"
+   ]
+  },
+  "757713": {
+   "id": 757713,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "e939622ff07310220b4ae6be382615a1ef5a34b0a8830a21e5e2fd2ed6129a30",
+   "name": "Ambergris of Abundance",
+   "desc": "Tier 3 Synthesis Material",
+   "lore": "Jelly-like substance that contains the power of Abundance.<br />Firm but not stiff, with notes of fragrance, it fills your heart with hope the moment it touches your fingertip.<br />Do not ask what it's made of.<br /><br />\"It gives you longevity and abundance, dispelling misfortune and illness.\"",
+   "purpose": "Synthesis material",
+   "rarity": 3,
+   "rewardPath": "/material/757713",
+   "comeFrom": [
+    "Cloudford: Mara-Struck Soldiers or other enemies"
+   ]
+  }
+ },
+ "composeData": [
+  {
+   "items": [
+    {
+     "id": 757647,
+     "count": 5
+    },
+    {
+     "id": 641099,
+     "count": 3
+    },
+    {
+     "id": 757713,
+     "count": 1
+    },
+    {
+     "id": 72753,
+     "count": 1
+    }
+   ],
+   "tag": {
+    "name": "Defense Consumables",
+    "type": "Consumables",
+    "icon": "afe47a40c1361649152476b603185f0ffb4b55c17408e2629a1489e38daf70a5"
+   }
+  }
+ ],
+ "pageId": "72621"
+}

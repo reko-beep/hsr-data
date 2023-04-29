@@ -1,0 +1,2254 @@
+{
+ "name": "Bronya",
+ "spRequirement": 120,
+ "rarity": 5,
+ "descHash": "Heir apparent to the Supreme Guardian of Belobog. She possesses pride befitting of a princess, but also the determination and integrity of a soldier.",
+ "iconPath": "879c32651bb4bfdb65cb21106775fec38cdbb78182e5990075684c6fdd9e4203",
+ "bgPath": "e57cf98c24b0cc0a2f94518809c9c9dbb7e385260427d58cda64ee2fad810c1e",
+ "figPath": "c22dfae7568a1d31d238ad50ad01c6226d04d58e8b7346def94044b4f70cdcae",
+ "fgPath": "65e49ee3a665e199ef715fd786505bd391cb2c10dab627b3bd8001f399f91edb",
+ "artPath": "409f4e40234348f6545d322934289836a77025a8bbb6d2bb1062ee032f77c1eb",
+ "miniIconPath": "8ac0c4431202cbbafa651660036fa49a15e1c14ca2674c18e9a60ee904db31ca",
+ "splashIconPath": "055b8bcad58b75e935ef230e8f98214812101765b2106f9051aca37ca7dd2b38",
+ "damageType": {
+  "id": 16,
+  "iconPath": "a77d91df3b1045f9fa66ce1300c4d921c0f89e51135df8208904334e8a0f0b80",
+  "color": "#00FF9C",
+  "name": "Wind",
+  "rarity": 0
+ },
+ "baseType": {
+  "id": 0,
+  "iconPath": "635d8139b8f487db38f821f15a8b67f9e3c83a06071567b67770b9ca462c237e",
+  "altIconPath": "25e370b70daf67ebcfb8c270316852f47bd3e32b3459b4c8c5ca206da4c7860b",
+  "color": "#FFFFFF",
+  "name": "Harmony",
+  "rarity": 0
+ },
+ "damageTypeId": 0,
+ "baseTypeId": 0,
+ "baseTypeTraces": {
+  "id": 4,
+  "iconPath": "aee7f899a278735eda2872652cca14dc6b4c74c9f5689a59bbf33fa00b64ed44",
+  "color": "#FFFFFF",
+  "rarity": 0
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "0e76659bbb3b9d0b1cc6a4e0e8c63a576c7b917f2f740a4b1b8ceab260a8a595",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards"
+   ]
+  },
+  "125435": {
+   "id": 125435,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "75e6d3c477385eb36716ba1798609b01a9fe10893c1b3e9f9dc81046ad10d9b0",
+   "name": "Tracks of Destiny",
+   "desc": "Advanced level-up material for Traces.",
+   "lore": "Your victory is secured by countless failures, and the small steps you have taken led you to the turning point of fate.",
+   "purpose": "Trace Materials",
+   "rarity": 5,
+   "rewardPath": "/material/125435",
+   "comeFrom": [
+    "Simulated Universe Point Rewards",
+    "Nameless Honor",
+    "Embers Exchange",
+    "Limited-Time Event Rewards"
+   ]
+  },
+  "267805": {
+   "id": 267805,
+   "type": 601,
+   "purposeId": 2,
+   "iconPath": "822b1e8c023333b210f71f503cce58516c58ffc4f47c709a4ba4bc03387fdd68",
+   "name": "Storm Eye",
+   "desc": "Arrows belonged to a Stormbringer. Can be used for the Ascension of Wind characters.",
+   "lore": "Used to belong to a certain Fragmentum monster modeled after a certain kind of Voidrangers. An arrowhead can be barely seen buried in the center of the vortex.<br /><br />\"Those who perish in the Fragmentum shall rise again where they met their demise.\"",
+   "purpose": "Character Ascension Materials",
+   "rarity": 4,
+   "rewardPath": "/material/267805",
+   "comeFrom": [
+    "Stagnant Shadow (Rivet Town)",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "270195": {
+   "id": 270195,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "ed0c6ddf746bb8fe5f178943cd2836c9c4f98c2647479d389e2640b5f38d1317",
+   "name": "Guardian's Lament",
+   "desc": "Advanced level-up material for Traces.",
+   "lore": "Together with this visor, the twisted wish of a Guardian also lies broken.<br />She had wanted to find a way out for her people to escape the Everwinter, but ended up becoming a puppet of a consciousness beyond her.<br /><br />\"Supreme Guardian, the title passed down to generations of Belobog's rulers, the one who looked after all the people \u2014 It never occurred to anyone that the Guardians themselves also long for care and protection.\"",
+   "purpose": "Trace Materials",
+   "rarity": 4,
+   "rewardPath": "/material/270195",
+   "comeFrom": [
+    "Echo of War (Everwinter Hill)"
+   ]
+  },
+  "409960": {
+   "id": 409960,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "607961a38d9fe4f935578e9ea7b4de093d68ff8258b0b52c3cd4261e5cd92932",
+   "name": "Traveler's Guide",
+   "desc": "Experience material for characters. Provides <nobr>20,000</nobr> Character EXP.",
+   "lore": "Required reading for world exploration. Press the \"Read\" button to tune in to an attractive voice in a language you understand, telling you about the legendary encounters of renowned adventurers across different worlds as well as the precious wisdom and knowledge that they have gathered.<br /><br />\"All-new series of the Traveler's Guide, The Chef's Manual to Galactic Cuisine, is now available for purchase.\"<br />\"For submissions, please connect to synesthesia beacon ERD<nobr>-23</nobr>\u03b8 to contact an Intelligentsia Guild representative. Method of payment can be arranged to your convenience.\"",
+   "purpose": "Character EXP Material",
+   "rarity": 4,
+   "rewardPath": "/material/409960",
+   "comeFrom": [
+    "Calyx (Outlying Snow Plains)",
+    "Forgotten Hall"
+   ]
+  },
+  "409961": {
+   "id": 409961,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "05ef6659e951dd69d862823c86470487d68c24209400d4391df1f50bbc21ab42",
+   "name": "Adventure Log",
+   "desc": "Experience material for characters. Provides <nobr>5000</nobr> Character EXP.",
+   "lore": "A neatly organized collection of educational adventure notes containing countless illustrations and texts entailing adventures from beginning to end, as well as valuable information and survival-related techniques.<br /><br />\"Why not just digitize it and save it on a photolith disk? That'd be much more convenient.\"<br />\"Advanced technology is far more fragile than you'd think when faced with stellar storms and neuron flow eruptions. Besides, I'm sure the author of this book wanted people to read it in the simplest of ways.\"",
+   "purpose": "Character EXP Material",
+   "rarity": 3,
+   "rewardPath": "/material/409961",
+   "comeFrom": [
+    "Calyx (Outlying Snow Plains)",
+    "Daily Training"
+   ]
+  },
+  "409962": {
+   "id": 409962,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "ad5070f0ef2447ee09fb3b0d859ab3c594538eaa58b71a14ffcbd4b2b493c1c5",
+   "name": "Travel Encounters",
+   "desc": "Experience material for characters. Provides <nobr>1000</nobr> Character EXP.",
+   "lore": "A travel diary with messy handwriting and random content. It's not of much use to you.<br /><br />\"Dan Heng, hurry up and finish reading it so you can throw it away.\"",
+   "purpose": "Character EXP Material",
+   "rarity": 2,
+   "rewardPath": "/material/409962",
+   "comeFrom": [
+    "Calyx (Outlying Snow Plains)",
+    "Assignment rewards"
+   ]
+  },
+  "549407": {
+   "id": 549407,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "2901efa774991b0ce2037520ce85ff99af64f37ee6364ffda560278736df6a19",
+   "name": "Silvermane Badge",
+   "desc": "Pin badge worn by soldiers of the Silvermane Guards. Crude material used for enhancement.",
+   "lore": "It is full of scratches from the erosion of wind and snow.<br /><br />\"In ancient times, there was only one way Silvermane Guards could retire: death.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 2,
+   "rewardPath": "/material/549407",
+   "comeFrom": [
+    "Outlying Snow Plains: Silvermane Guards or other enemies",
+    "Corridor of Fading Echoes: Everwinter Shadewalkers or other enemies",
+    "Simulated Universe enemies",
+    "Assignment rewards",
+    "Embers Exchange",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "633348": {
+   "id": 633348,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "042dc7973ef7c36858a4aa58ef7d32335f528b3c4bc4f0c4ce2e7f401039a7c5",
+   "name": "Silvermane Insignia",
+   "desc": "Military rank insignia worn by captains of the Silvermane Guard. Normal material used for enhancement.",
+   "lore": "Maybe it's a proof of heroics that you can brag about to your family. Maybe it's a lucky charm that protects you from a bullet.<br /><br />\"Times have changed.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 3,
+   "rewardPath": "/material/633348",
+   "comeFrom": [
+    "Outlying Snow Plains: Equilibrium Level 2+ Silvermane Guards or other enemies",
+    "Corridor of Fading Echoes: Equilibrium Level 2+ Everwinter Shadewalkers or other enemies",
+    "Omni-Synthesizer \u2014 Material Synthesis",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "635670": {
+   "id": 635670,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "a327a767852b95b69b5d25ec4abc08aa0a548455bcf70fa743c6b9acc9356a38",
+   "name": "Harmonic Tune",
+   "desc": "A compact music box made by an unknown person. Used to level up Traces slightly for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Harmony</span> characters.",
+   "lore": "It plays a relaxing and joyful tune.<br />Even through the simplistic tune, anyone with the slightest understanding of music can tell the mastery of the composer of the piece.<br /><br />\"Grab the hands of your Family and let us dance!\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 2,
+   "rewardPath": "/material/635670",
+   "comeFrom": [
+    "Calyx (Robot Settlement)"
+   ]
+  },
+  "717289": {
+   "id": 717289,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "ec7d9dcb72593120a29744b7c2741fc2cf9d247469b89988c274ef108dc56b38",
+   "name": "Silvermane Medal",
+   "desc": "Medal of honor worn by soldiers of the Silvermane Guards with gallant and meritorious service. Advanced material used for enhancement.",
+   "lore": "A proof of honor awarded to those that fought against Fragmentum creatures, Underworlders, and sudden disasters.<br />It is not usually pinned onto the recipient's chest, but rather placed onto his coffin.<br /><br />\"Remember, young Gepard. It is not a toy: it is the destiny and blood of the Landau family.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 4,
+   "rewardPath": "/material/717289",
+   "comeFrom": [
+    "Outlying Snow Plains: Equilibrium Level 4+ Silvermane Guards or other enemies",
+    "Corridor of Fading Echoes: Equilibrium Level 4+ Everwinter Shadewalkers or other enemies",
+    "Omni-Synthesizer \u2014 Material Synthesis",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "836256": {
+   "id": 836256,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "e0a98987f6f4c66f28c5b9b79a757e590ae649d0e44ec47ada0ec1bac39e78fa",
+   "name": "Stellaris Symphony",
+   "desc": "A music box with complex structures made by an unknown person. Used to level up Traces significantly for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Harmony</span> characters.",
+   "lore": "It plays a powerful galactic symphony.<br /><br />\"Some astronomers believe that the revolutions of the heavenly spheres work the same as complex mechanical structures. The crystal clear and pleasant notes emitted during the movements of the stars are known as the 'Harmony of the Heavenly Spheres.'\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 4,
+   "rewardPath": "/material/836256",
+   "comeFrom": [
+    "Calyx (Robot Settlement)",
+    "Omni-Synthesizer \u2014 Material Synthesis"
+   ]
+  },
+  "920197": {
+   "id": 920197,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "2e991dc7b3d976ae72c1f7dfcc0cfb1ff4c33223d33db5479a3dcd8d039ffa1a",
+   "name": "Ancestral Hymn",
+   "desc": "A music box made by an unknown person. Used to level up Traces moderately for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Harmony</span> characters.",
+   "lore": "It plays a hymn sung by a small band.<br />It is impossible to find out to whom the lyric of the hymn sends its praise.<br /><br />\"Penury, trial of the Great One! Wealth, grace of the Great One!\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 3,
+   "rewardPath": "/material/920197",
+   "comeFrom": [
+    "Calyx (Robot Settlement)",
+    "Omni-Synthesizer \u2014 Material Synthesis"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 4000
+    },
+    {
+     "id": 549407,
+     "count": 5
+    }
+   ],
+   "attackBase": 79.2,
+   "attackAdd": 3.96,
+   "hpBase": 168.96,
+   "hpAdd": 8.448,
+   "defenseBase": 72.6,
+   "defenseAdd": 3.63,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 99,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 8000
+    },
+    {
+     "id": 549407,
+     "count": 10
+    }
+   ],
+   "attackBase": 110.88,
+   "attackAdd": 3.96,
+   "hpBase": 236.544,
+   "hpAdd": 8.448,
+   "defenseBase": 101.64,
+   "defenseAdd": 3.63,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 99,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 16000
+    },
+    {
+     "id": 633348,
+     "count": 6
+    },
+    {
+     "id": 267805,
+     "count": 3
+    }
+   ],
+   "attackBase": 142.56,
+   "attackAdd": 3.96,
+   "hpBase": 304.128,
+   "hpAdd": 8.448,
+   "defenseBase": 130.68,
+   "defenseAdd": 3.63,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 99,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 40000
+    },
+    {
+     "id": 633348,
+     "count": 9
+    },
+    {
+     "id": 267805,
+     "count": 7
+    }
+   ],
+   "attackBase": 174.24,
+   "attackAdd": 3.96,
+   "hpBase": 371.712,
+   "hpAdd": 8.448,
+   "defenseBase": 159.72,
+   "defenseAdd": 3.63,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 99,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 80000
+    },
+    {
+     "id": 717289,
+     "count": 6
+    },
+    {
+     "id": 267805,
+     "count": 20
+    }
+   ],
+   "attackBase": 205.92,
+   "attackAdd": 3.96,
+   "hpBase": 439.296,
+   "hpAdd": 8.448,
+   "defenseBase": 188.76,
+   "defenseAdd": 3.63,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 99,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 160000
+    },
+    {
+     "id": 717289,
+     "count": 9
+    },
+    {
+     "id": 267805,
+     "count": 35
+    }
+   ],
+   "attackBase": 237.6,
+   "attackAdd": 3.96,
+   "hpBase": 506.88,
+   "hpAdd": 8.448,
+   "defenseBase": 217.8,
+   "defenseAdd": 3.63,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 99,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": [],
+   "attackBase": 269.28,
+   "attackAdd": 3.96,
+   "hpBase": 574.464,
+   "hpAdd": 8.448,
+   "defenseBase": 246.84,
+   "defenseAdd": 3.63,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 99,
+   "speedAdd": 0
+  }
+ ],
+ "ranks": [
+  {
+   "id": 1,
+   "iconPath": "",
+   "artPath": "f76fc71fe532ff644df5522a6541d5970783fbeeb04c4f11b29fa344e2eb36ae",
+   "name": "Hone Your Strength",
+   "descHash": "When using Skill, there is a <nobr>#1[i]%</nobr> fixed chance of recovering 1 Skill Point. This effect has a 1-turn cooldown.",
+   "params": [
+    0.5
+   ]
+  },
+  {
+   "id": 2,
+   "iconPath": "",
+   "artPath": "43746abe73215a5325802ea470ca97170943c151f38823f0f8d73888c4a08898",
+   "name": "Quick March",
+   "descHash": "When using Skill, the target ally's SPD increases by <nobr>#1[i]%</nobr> after taking action, lasting for 1 turn.",
+   "params": [
+    0.3
+   ]
+  },
+  {
+   "id": 3,
+   "iconPath": "",
+   "artPath": "986959668883d50b9a6632a24d6bc0ce671bea47de2221c48c98389ce76b6152",
+   "name": "Bombardment",
+   "descHash": "Ultimate Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Talent Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.",
+   "params": []
+  },
+  {
+   "id": 4,
+   "iconPath": "",
+   "artPath": "8a624bd9da254480123bcf3b1ca27f1f89a0f1d04702d8df44094dfc69fe293a",
+   "name": "Take by Surprise",
+   "descHash": "After an ally other than Bronya uses Basic ATK on an enemy with Wind Weakness, Bronya immediately launches a follow-up attack on the target, dealing Wind DMG equal to <nobr>#1[i]%</nobr> of Bronya's Basic ATK DMG. This effect can only be triggered 1 time per turn.",
+   "params": [
+    0.8
+   ]
+  },
+  {
+   "id": 5,
+   "iconPath": "",
+   "artPath": "36052e2484e82b6621315cea8235494fc3fceebfabc62d18efa4842fe214d792",
+   "name": "Unstoppable",
+   "descHash": "Skill Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Basic ATK Lv. +1, up to a maximum of Lv. <nobr>10</nobr>.",
+   "params": []
+  },
+  {
+   "id": 6,
+   "iconPath": "",
+   "artPath": "7e64c42ea80c261f077c7b6ee1fddf7974d68fce70df4ad892b8e6fc37dbfbc6",
+   "name": "Piercing Rainbow",
+   "descHash": "The duration of the DMG Boost effect placed by the Skill on the target ally increases by <nobr>#1[i]</nobr> turn(s).",
+   "params": [
+    1
+   ]
+  }
+ ],
+ "skillGrouping": [
+  [
+   635672
+  ],
+  [
+   920199
+  ],
+  [
+   836258
+  ],
+  [
+   351145
+  ],
+  [
+   435086
+  ]
+ ],
+ "skills": [
+  {
+   "id": 635672,
+   "name": "Windrider Bullet",
+   "tagHash": "Single Target",
+   "descHash": "Deals <span style=\"color:#00FF9C;\">Wind</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Bronya's ATK to a single enemy.",
+   "typeDescHash": "Basic ATK",
+   "iconPath": "71c81ecfb436d5e7f326d39471b3c2f190ec56300a71bd4e1f97640a8dbd3f47",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      0.5
+     ],
+     "cost": []
+    },
+    {
+     "level": 2,
+     "params": [
+      0.6
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635670,
+       "count": 3
+      },
+      {
+       "id": 549407,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "params": [
+      0.7
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920197,
+       "count": 3
+      },
+      {
+       "id": 633348,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "params": [
+      0.8
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920197,
+       "count": 5
+      },
+      {
+       "id": 633348,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "params": [
+      0.9
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836256,
+       "count": 3
+      },
+      {
+       "id": 717289,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "params": [
+      1
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836256,
+       "count": 8
+      },
+      {
+       "id": 717289,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "params": [
+      1.1
+     ],
+     "cost": []
+    },
+    {
+     "level": 8,
+     "params": [
+      1.2
+     ],
+     "cost": []
+    },
+    {
+     "level": 9,
+     "params": [
+      1.3
+     ],
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  },
+  {
+   "id": 920199,
+   "name": "Combat Redeployment",
+   "tagHash": "Support",
+   "descHash": "Dispels a <u>debuff</u> from a single ally, allows them to immediately take action, and increases their DMG by <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span> for <nobr>#3[i]</nobr> turn(s).<br />When this Skill is used on Bronya herself, she cannot immediately take action again.",
+   "typeDescHash": "Skill",
+   "iconPath": "1c0b1d3bbd2b7376e6934f4ae327361d80d54137a5f16ccbe5830eabf235ffe0",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      0.33,
+      0,
+      1,
+      1
+     ],
+     "cost": []
+    },
+    {
+     "level": 2,
+     "params": [
+      0.363,
+      0,
+      1,
+      1
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 549407,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "params": [
+      0.396,
+      0,
+      1,
+      1
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635670,
+       "count": 3
+      },
+      {
+       "id": 549407,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "params": [
+      0.429,
+      0,
+      1,
+      1
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920197,
+       "count": 3
+      },
+      {
+       "id": 633348,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "params": [
+      0.462,
+      0,
+      1,
+      1
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920197,
+       "count": 5
+      },
+      {
+       "id": 633348,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "params": [
+      0.495,
+      0,
+      1,
+      1
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920197,
+       "count": 7
+      },
+      {
+       "id": 633348,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "params": [
+      0.53625,
+      0,
+      1,
+      1
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836256,
+       "count": 3
+      },
+      {
+       "id": 717289,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "params": [
+      0.5775,
+      0,
+      1,
+      1
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836256,
+       "count": 5
+      },
+      {
+       "id": 270195,
+       "count": 1
+      },
+      {
+       "id": 717289,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "params": [
+      0.61875,
+      0,
+      1,
+      1
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836256,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "params": [
+      0.66,
+      0,
+      1,
+      1
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836256,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 11,
+     "params": [
+      0.693,
+      0,
+      1,
+      1
+     ],
+     "cost": []
+    },
+    {
+     "level": 12,
+     "params": [
+      0.726,
+      0,
+      1,
+      1
+     ],
+     "cost": []
+    },
+    {
+     "level": 13,
+     "params": [
+      0.759,
+      0,
+      1,
+      1
+     ],
+     "cost": []
+    },
+    {
+     "level": 14,
+     "params": [
+      0.792,
+      0,
+      1,
+      1
+     ],
+     "cost": []
+    },
+    {
+     "level": 15,
+     "params": [
+      0.825,
+      0,
+      1,
+      1
+     ],
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  },
+  {
+   "id": 836258,
+   "name": "The Belobog March",
+   "tagHash": "Support",
+   "descHash": "Increases the ATK of all allies by <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span>, and increases their CRIT DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#2[f1]%</nobr></span> of Bronya's CRIT DMG plus <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#3[f1]%</nobr></span> for <nobr>#4[i]</nobr> turn(s).",
+   "typeDescHash": "Ultimate",
+   "iconPath": "97459612506624e7a1ea8dbc485b2fede3ab5c7b5dab887c41594cd6b92bad2f",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      0.33,
+      0.12,
+      0.12,
+      2
+     ],
+     "cost": []
+    },
+    {
+     "level": 2,
+     "params": [
+      0.352,
+      0.124,
+      0.128,
+      2
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 549407,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "params": [
+      0.374,
+      0.128,
+      0.13599999,
+      2
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635670,
+       "count": 3
+      },
+      {
+       "id": 549407,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "params": [
+      0.396,
+      0.132,
+      0.144,
+      2
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920197,
+       "count": 3
+      },
+      {
+       "id": 633348,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "params": [
+      0.418,
+      0.13599999,
+      0.152,
+      2
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920197,
+       "count": 5
+      },
+      {
+       "id": 633348,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "params": [
+      0.44,
+      0.14,
+      0.16,
+      2
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920197,
+       "count": 7
+      },
+      {
+       "id": 633348,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "params": [
+      0.4675,
+      0.145,
+      0.17,
+      2
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836256,
+       "count": 3
+      },
+      {
+       "id": 717289,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "params": [
+      0.495,
+      0.15,
+      0.18,
+      2
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836256,
+       "count": 5
+      },
+      {
+       "id": 270195,
+       "count": 1
+      },
+      {
+       "id": 717289,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "params": [
+      0.5225,
+      0.155,
+      0.19,
+      2
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836256,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "params": [
+      0.55,
+      0.16,
+      0.2,
+      2
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836256,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 11,
+     "params": [
+      0.572,
+      0.164,
+      0.208,
+      2
+     ],
+     "cost": []
+    },
+    {
+     "level": 12,
+     "params": [
+      0.594,
+      0.168,
+      0.216,
+      2
+     ],
+     "cost": []
+    },
+    {
+     "level": 13,
+     "params": [
+      0.616,
+      0.172,
+      0.224,
+      2
+     ],
+     "cost": []
+    },
+    {
+     "level": 14,
+     "params": [
+      0.638,
+      0.176,
+      0.232,
+      2
+     ],
+     "cost": []
+    },
+    {
+     "level": 15,
+     "params": [
+      0.66,
+      0.18,
+      0.24,
+      2
+     ],
+     "cost": []
+    }
+   ],
+   "ultimateCost": 120
+  },
+  {
+   "id": 351145,
+   "name": "Leading the Way",
+   "tagHash": "Enhance",
+   "descHash": "After using her Basic ATK, Bronya's next action will be <u>Advanced Forward</u> by <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span>.",
+   "typeDescHash": "Talent",
+   "iconPath": "af4b47219312bba33ddc3d06dec20136ae3313551cdaf78be06f76448476e39f",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      0.15
+     ],
+     "cost": []
+    },
+    {
+     "level": 2,
+     "params": [
+      0.165
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 549407,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "params": [
+      0.18
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635670,
+       "count": 3
+      },
+      {
+       "id": 549407,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "params": [
+      0.195
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920197,
+       "count": 3
+      },
+      {
+       "id": 633348,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "params": [
+      0.21
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920197,
+       "count": 5
+      },
+      {
+       "id": 633348,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "params": [
+      0.225
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920197,
+       "count": 7
+      },
+      {
+       "id": 633348,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "params": [
+      0.24375
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836256,
+       "count": 3
+      },
+      {
+       "id": 717289,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "params": [
+      0.2625
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836256,
+       "count": 5
+      },
+      {
+       "id": 270195,
+       "count": 1
+      },
+      {
+       "id": 717289,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "params": [
+      0.28125
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836256,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "params": [
+      0.3
+     ],
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836256,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 11,
+     "params": [
+      0.315
+     ],
+     "cost": []
+    },
+    {
+     "level": 12,
+     "params": [
+      0.33
+     ],
+     "cost": []
+    },
+    {
+     "level": 13,
+     "params": [
+      0.345
+     ],
+     "cost": []
+    },
+    {
+     "level": 14,
+     "params": [
+      0.36
+     ],
+     "cost": []
+    },
+    {
+     "level": 15,
+     "params": [
+      0.375
+     ],
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  },
+  {
+   "id": 551731,
+   "name": "Attack",
+   "tagHash": "",
+   "descHash": "Attack an enemy, and when the battle starts, reduce their Toughness of the corresponding Type.",
+   "typeDescHash": "",
+   "iconPath": "71c81ecfb436d5e7f326d39471b3c2f190ec56300a71bd4e1f97640a8dbd3f47",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [],
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  },
+  {
+   "id": 435086,
+   "name": "Banner of Command",
+   "tagHash": "Support",
+   "descHash": "After using Bronya's Technique, at the start of the next battle, all allies' ATK increases by <nobr>#1[i]%</nobr> for <nobr>#2[i]</nobr> turn(s).",
+   "typeDescHash": "Technique",
+   "iconPath": "0e1d0e8ee9e043657c77874148bdd0901db777dc33d3e5dab84437789275bfe4",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      0.15,
+      2
+     ],
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  }
+ ],
+ "skillTreePoints": [
+  {
+   "id": 1101101,
+   "type": 1,
+   "children": [
+    {
+     "id": 1101202,
+     "type": 2,
+     "children": [
+      {
+       "id": 1101203,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 272974,
+        "name": "DMG Boost: Wind",
+        "levelReq": 0,
+        "promotionReq": 3,
+        "iconPath": "fe44fb655f65017dcad0c260b4dcffe14de4b14816734239c2c60d4624cf8163",
+        "statusList": [
+         {
+          "key": "<span style=\"color:#00FF9C;\">Wind</span> DMG Boost",
+          "value": 0.032
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 10000
+         },
+         {
+          "id": 920197,
+          "count": 3
+         },
+         {
+          "id": 633348,
+          "count": 3
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 272973,
+      "name": "CRIT DMG Boost",
+      "levelReq": 0,
+      "promotionReq": 2,
+      "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+      "statusList": [
+       {
+        "key": "CRIT DMG",
+        "value": 0.053
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 635670,
+        "count": 3
+       },
+       {
+        "id": 549407,
+        "count": 6
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "id": 272877,
+    "name": "Command",
+    "descHash": "The CRIT Rate for Basic ATK increases to <nobr>100%</nobr>.",
+    "iconPath": "2092bf49734665b568a478fac87adf54c7b9ad73b553081527308605fe476349",
+    "levelReq": 0,
+    "promotionReq": 2,
+    "levelData": [
+     {
+      "level": 1,
+      "params": [],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 635670,
+        "count": 3
+       },
+       {
+        "id": 270195,
+        "count": 1
+       }
+      ]
+     }
+    ],
+    "ultimateCost": 0
+   }
+  },
+  {
+   "id": 1101102,
+   "type": 1,
+   "children": [
+    {
+     "id": 1101205,
+     "type": 2,
+     "children": [
+      {
+       "id": 1101206,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 272969,
+        "name": "CRIT DMG Boost",
+        "levelReq": 0,
+        "promotionReq": 5,
+        "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+        "statusList": [
+         {
+          "key": "CRIT DMG",
+          "value": 0.08
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 45000
+         },
+         {
+          "id": 836256,
+          "count": 3
+         },
+         {
+          "id": 717289,
+          "count": 3
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 272972,
+      "name": "DMG Boost: Wind",
+      "levelReq": 0,
+      "promotionReq": 4,
+      "iconPath": "fe44fb655f65017dcad0c260b4dcffe14de4b14816734239c2c60d4624cf8163",
+      "statusList": [
+       {
+        "key": "<span style=\"color:#00FF9C;\">Wind</span> DMG Boost",
+        "value": 0.048
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 920197,
+        "count": 5
+       },
+       {
+        "id": 633348,
+        "count": 4
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "id": 272880,
+    "name": "Battlefield",
+    "descHash": "At the start of the battle, all allies' DEF increases by <nobr>#2[i]%</nobr> for <nobr>#1[i]</nobr> turn(s).",
+    "iconPath": "b296f3e7e18add176b9c2d4d7c88919d6a0f589d00f05f672fa369d7317c92d0",
+    "levelReq": 0,
+    "promotionReq": 4,
+    "levelData": [
+     {
+      "level": 1,
+      "params": [
+       2,
+       0.2
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 920197,
+        "count": 5
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 270195,
+        "count": 1
+       }
+      ]
+     }
+    ],
+    "ultimateCost": 0
+   }
+  },
+  {
+   "id": 1101103,
+   "type": 1,
+   "children": [
+    {
+     "id": 1101208,
+     "type": 2,
+     "children": [
+      {
+       "id": 1101209,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 272984,
+        "name": "CRIT DMG Boost",
+        "levelReq": 75,
+        "promotionReq": 0,
+        "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+        "statusList": [
+         {
+          "key": "CRIT DMG",
+          "value": 0.107
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 160000
+         },
+         {
+          "id": 836256,
+          "count": 8
+         },
+         {
+          "id": 717289,
+          "count": 8
+         }
+        ]
+       }
+      },
+      {
+       "id": 1101210,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 189034,
+        "name": "DMG Boost: Wind",
+        "levelReq": 80,
+        "promotionReq": 0,
+        "iconPath": "fe44fb655f65017dcad0c260b4dcffe14de4b14816734239c2c60d4624cf8163",
+        "statusList": [
+         {
+          "key": "<span style=\"color:#00FF9C;\">Wind</span> DMG Boost",
+          "value": 0.064
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 160000
+         },
+         {
+          "id": 836256,
+          "count": 8
+         },
+         {
+          "id": 717289,
+          "count": 8
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 272983,
+      "name": "Effect RES Boost",
+      "levelReq": 0,
+      "promotionReq": 6,
+      "iconPath": "5e0ea9beeaea4aebaec6fa80218757c7123e5d8d63565bc255c08d6af87ebc7e",
+      "statusList": [
+       {
+        "key": "Effect RES",
+        "value": 0.06
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836256,
+        "count": 8
+       },
+       {
+        "id": 717289,
+        "count": 8
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "id": 272879,
+    "name": "Military Might",
+    "descHash": "When Bronya is on the field, all allies deal <nobr>#1[i]%</nobr> more DMG.",
+    "iconPath": "cee850bc7d23edfcd0e72754f7fa01f4f51d1f0ab52f0f69ed86518550f20553",
+    "levelReq": 0,
+    "promotionReq": 6,
+    "levelData": [
+     {
+      "level": 1,
+      "params": [
+       0.1
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836256,
+        "count": 8
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 270195,
+        "count": 1
+       }
+      ]
+     }
+    ],
+    "ultimateCost": 0
+   }
+  },
+  {
+   "id": 1101201,
+   "type": 2,
+   "children": [
+    {
+     "id": 1101204,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 272971,
+      "name": "Effect RES Boost",
+      "levelReq": 0,
+      "promotionReq": 3,
+      "iconPath": "5e0ea9beeaea4aebaec6fa80218757c7123e5d8d63565bc255c08d6af87ebc7e",
+      "statusList": [
+       {
+        "key": "Effect RES",
+        "value": 0.04
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 10000
+       },
+       {
+        "id": 920197,
+        "count": 3
+       },
+       {
+        "id": 633348,
+        "count": 3
+       }
+      ]
+     }
+    },
+    {
+     "id": 1101207,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 272970,
+      "name": "DMG Boost: Wind",
+      "levelReq": 0,
+      "promotionReq": 5,
+      "iconPath": "fe44fb655f65017dcad0c260b4dcffe14de4b14816734239c2c60d4624cf8163",
+      "statusList": [
+       {
+        "key": "<span style=\"color:#00FF9C;\">Wind</span> DMG Boost",
+        "value": 0.048
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 45000
+       },
+       {
+        "id": 836256,
+        "count": 3
+       },
+       {
+        "id": 717289,
+        "count": 3
+       }
+      ]
+     }
+    }
+   ],
+   "embedBuff": {
+    "id": 272976,
+    "name": "DMG Boost: Wind",
+    "levelReq": 1,
+    "promotionReq": 0,
+    "iconPath": "fe44fb655f65017dcad0c260b4dcffe14de4b14816734239c2c60d4624cf8163",
+    "statusList": [
+     {
+      "key": "<span style=\"color:#00FF9C;\">Wind</span> DMG Boost",
+      "value": 0.032
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 2500
+     },
+     {
+      "id": 549407,
+      "count": 2
+     }
+    ]
+   }
+  }
+ ],
+ "relicRecommend": {
+  "twoPcSets": [],
+  "fourPcSets": [],
+  "props": [
+   {
+    "relicTypeHash": "Body",
+    "relicTypeIcon": "87a68da58f5ca7f656d3ebf27bc84c5c32aafd164f2406af6b95c0e46277496b",
+    "propertyName": "CRIT DMG",
+    "propertyIconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648"
+   },
+   {
+    "relicTypeHash": "Feet",
+    "relicTypeIcon": "5d8394f899a9cc41333630a3475d525b65c4a7cf59d16cdc4ac0acccc082259c",
+    "propertyName": "SPD",
+    "propertyIconPath": "2483a985b6f7a2c277835369c71181b7f70d5f25238745319b6328780100a3fd"
+   },
+   {
+    "relicTypeHash": "Planar Sphere",
+    "relicTypeIcon": "fd22786ef5ef0aee8953005c423739fe85fd85b16b82a3f7f18910499a4368b5",
+    "propertyName": "Wind DMG Boost",
+    "propertyIconPath": "fe44fb655f65017dcad0c260b4dcffe14de4b14816734239c2c60d4624cf8163"
+   },
+   {
+    "relicTypeHash": "Link Rope",
+    "relicTypeIcon": "245bb6e30915d9ab6a042e37499ad3a0b0d022208a5fee05417b7cd3c088e357",
+    "propertyName": "Energy Regeneration Rate",
+    "propertyIconPath": "fa8f924ec11e6c11cad9d7a54d1db3dc1e9ad5a276eeb58ab17f2395a1b3522c"
+   }
+  ]
+ },
+ "voiceItems": [
+  {
+   "id": 1,
+   "title": "First Meeting",
+   "text": "My name is Bronya Rand, heir to Belobog's supreme guardian and acting commander of the Silvermane... Apologies, I'm used to introducing myself like that \u2014 you can call me Bronya.",
+   "unlockRequirement": "",
+   "cnUrl": "cf0ec5d65d93cceef3429e0b4e4165383588e7918faa3d2c2a207f9b6fd03160",
+   "jpUrl": "92d31127c64503d8720030d7001b5a26b53a8b8d4189bd657e2e537e28912d48",
+   "enUrl": "03bb6cdfb05c087b68efc39617f7672d0cea569ec39078817a2984421f129f69",
+   "krUrl": "71db2e347b1dd3d7daec16a6b97c29042b1c6642f76fa3cb865fa4bf073333e9"
+  },
+  {
+   "id": 2,
+   "title": "Greeting",
+   "text": "I had a nightmare last night... S\u2014Sorry, I'm not fully awake yet.",
+   "unlockRequirement": "",
+   "cnUrl": "6f40660c8885b5d20f348466f5cd00c62f2c8d31bcc2fb6957ac325c309377c4",
+   "jpUrl": "6aae5bb0160b35ff0ad5f813a0e6fc70e12e250027e0f1c86c230cd19dffdb34",
+   "enUrl": "987ab014a81dafb0161c6b21d0bbfc2b10927c464261d50de746f7c3e8ce010e",
+   "krUrl": "f68d2f30c30edf4659f8038ebc9f8c2d2bafde4da08d642821836cef80bbcafe"
+  },
+  {
+   "id": 3,
+   "title": "Parting",
+   "text": "I'd like to walk around a bit more... Don't worry, I won't go far. See you tomorrow.",
+   "unlockRequirement": "",
+   "cnUrl": "9e85d4ee50b2022ab3187e09175855fa75be5e2a55eb29e494d67b9891250e3f",
+   "jpUrl": "77217cbce6758885a0d37e126cf6a8d7ef5933e711fd5c324e6f085268e0ff54",
+   "enUrl": "29ea778b58a4d521a7d9a4b6a8d2f6b481d8db7fb6545043022a2097a24a8bc6",
+   "krUrl": "d86071ecc0449273745ac047fc693fc0656c695692154ca3f368fc8ea7052457"
+  },
+  {
+   "id": 4,
+   "title": "About Self",
+   "text": "Sometimes I feel like I don't represent myself... that I'm a symbol in human form, and anyone could have been given the title of \"heir to the supreme guardian.\" I don't know where the feeling comes from, but I hope it doesn't become the truth.",
+   "unlockRequirement": "",
+   "cnUrl": "3311756f7a6c02702768be4e2b01f5c8fabfdcd08dc46d29bad0324b35c1ad7f",
+   "jpUrl": "59c8d58cc6b9373b2e561ca2e673094b324838a7a47aa0e66dd1cc998527de11",
+   "enUrl": "5264f21bfdc7b4e954ae52ac6b2206eab9d0041d02c7a9a006963286cab78f1c",
+   "krUrl": "55af2c717b21ae82a7c896e31e08f0ebbe1cb893a5ad12b098e45e8eefecacbd"
+  },
+  {
+   "id": 5,
+   "title": "Chat: The Architects",
+   "text": "The Architects built us a fortress to keep the blizzards at bay, but we must never forget that those blizzards are still on the horizon.",
+   "unlockRequirement": "",
+   "cnUrl": "5133ff7f465838a5817852fd303a5962936aaf209d09b4c7146facd087505d8b",
+   "jpUrl": "c2698438a8e713d89989bb5ecaa0f9e3b8935372c33248c15db7848917c97a5e",
+   "enUrl": "23c47ab25b7bdd0a9a5a42083a822d8574a704b499d0b271eca6df31206ddf42",
+   "krUrl": "dc401d53afddbf7f8faaa7e9239437f46775199f7fefa17c91466fda9d875d2f"
+  },
+  {
+   "id": 6,
+   "title": "Hobbies",
+   "text": "The faint singing that emanates from Golden Theater, the sound of hurried footsteps in the early morning, the night-time tranquility of Qlipoth Fort... I know they might seem contradictory, but I like all of them.",
+   "unlockRequirement": "",
+   "cnUrl": "c2d6270a15dedd06caee797aa5a009fead37b9fde640deb9337e8f9cd4cdc91c",
+   "jpUrl": "3374894b982100263c9c1d6027468ac145f8d2012a969080121d6a5a898e310e",
+   "enUrl": "66f03a0d0b57fe97ca8ea18236cce1e0d8d9aa6b71e3a8ce85e63e35e52aef41",
+   "krUrl": "b51efe5342431cfaf131cb84519c2f235f3d5cf03a688c909a8fc1870fca6b98"
+  },
+  {
+   "id": 7,
+   "title": "Annoyances",
+   "text": "You have to suppress your anger during an interrogation, or you might find yourself using... indelicate vocabulary.",
+   "unlockRequirement": "",
+   "cnUrl": "1ceacb1f2d477f2c0a5d70729253e82064e5e37c1eca616f3aac17b6e11431bc",
+   "jpUrl": "4aff692201cbf8bb5b5abc97998b54e13259ebd43da0df4177eedb9dba1ac4ba",
+   "enUrl": "2a27dd5f2fd1b83784c2c47f195bb3d51e88795b0762559ad9392178c01a4824",
+   "krUrl": "c5c4967862748799a2065817d72dff7c1764f3f33c010baaae1564b7f0b562fd"
+  },
+  {
+   "id": 8,
+   "title": "Something to Share",
+   "text": "When you've been on the front line for a while, you start to get an overwhelming urge to return to the guardian's residence and rest. But then as soon as you're lying in bed, all your worries about the front line come to the fore... Perhaps that's the \"responsibility\" that mother used to talk about.",
+   "unlockRequirement": "",
+   "cnUrl": "d42b6886efd76c29bdade3e763a46cda3d697f3e56ca215ac5c37c0a7673c074",
+   "jpUrl": "d4485238be42a519ec6e2a81854145ea56fa78d7d83c75bbd5ce5a47d30226b2",
+   "enUrl": "a51d731a779bdf3f05fada6b0240b28a436e06d4c68c24d9539ea5846629293d",
+   "krUrl": "6971b62614345eeae793e59a32b1bbd327376c503dbaa103959c6ca0ab8a1279"
+  },
+  {
+   "id": 9,
+   "title": "Knowledge",
+   "text": "I heard the Solwarm Festival was first established to celebrate the arrival of spring, but Belobog citizens these days just see it as a few days off... I want to bring the original meaning back again.",
+   "unlockRequirement": "",
+   "cnUrl": "5dbc66851ff21a062af3a0393ab9a6501815e135cb87c40cd6a97e7b0a4cb21e",
+   "jpUrl": "c7ccec1b14a0ede8d862fbf5df8398249606d9de1be9225fca0dcdfad6b2b14a",
+   "enUrl": "2cc7a0df5e4d620462ebebe7a26baa5edea83d50143da9e64b7fd708b1dfda14",
+   "krUrl": "0e1c5f729de2251ab6d0971dbd308e02862a2d6338a15dc0b111c8394bf1bb47"
+  },
+  {
+   "id": 10,
+   "title": "About Gepard",
+   "text": "Captain Gepard...? I think he could accurately be described as Belobog's iron wall. In this city, it's more difficult to defend than go on the offensive.",
+   "unlockRequirement": "",
+   "cnUrl": "77b1303d805f6470350d03b74b3abb178c6cb6f2eae6b303f59ef4d2b5a8223d",
+   "jpUrl": "70a5ed88dec5ffb422b72916abc25a017d1774a4702a15dd3dd465a5762909f4",
+   "enUrl": "9e07cab37de890e7a6e1ed3c349657b89629894e02954fe911ee38b109a17812",
+   "krUrl": "2584ea8a405a20539da54c83e07b1710778c8fd85037d451719d77b9f2ab34ea"
+  },
+  {
+   "id": 11,
+   "title": "About Serval",
+   "text": "I remember I'd be there when mother and the rest of them would convene, and Serval would always patiently answer any questions I had... *sigh* I'm starting to feel like that was a long, long time ago.",
+   "unlockRequirement": "",
+   "cnUrl": "37b982b2b17f48bf9ab98da1d8ed3e1038fd312c59507184032b61fa0aa2655f",
+   "jpUrl": "3cada34457b9b9d075fa4d307879471a91f75e8a15a10f2f52cb804351167862",
+   "enUrl": "3a1ca99da9118b27a6cc3d5e0faad17565f3a4a169215dbd0b36da8a1afe5447",
+   "krUrl": "d7ecea75230de1c0f32a1fa4ca84d3a1bbfdf9bb5b40dd1a22795ed07ec67ea1"
+  },
+  {
+   "id": 12,
+   "title": "About Pela",
+   "text": "Whenever I praise her, she does her utmost to keep a straight face and hide any trace of happiness she might be feeling... I can tell, because I've practiced the same thing.",
+   "unlockRequirement": "",
+   "cnUrl": "271d598790f78403a6f13468a4772b651a1c3f1bcbf2142d832a5ade2cabea77",
+   "jpUrl": "2d5e89c6ddef64437e1eb9745ac2d47f4354d3282b0f7717d5e9b512a4b32400",
+   "enUrl": "f306f24e236634ae33fe0550fdc84523d53f24dd3fee0778e1716616e0ec2ef7",
+   "krUrl": "26ad46ad3ec8c16c39f82f7d7f43b0f729e7cf628bc453b8bf8d41870247a075"
+  },
+  {
+   "id": 13,
+   "title": "About Cocolia",
+   "text": "I have deep respect for my mother, but she's no longer how I remember her. Perhaps I never realized who she truly was...",
+   "unlockRequirement": "",
+   "cnUrl": "d7bd9e45846b273b1fe1cf160786997e6cbf413cc973760571db3e1d21ad3a29",
+   "jpUrl": "dbed4f1b326b0c328c06c199c746a37ea445c84c5d632f99cab3ea3df36491d2",
+   "enUrl": "60ac582d7220f149bf179aeb8006eef8118f4787007b59f6c54db60b03aac70f",
+   "krUrl": "800004b457d938d65b51da2ca10fb704a9569a2c07808b2cbb7ad457950d7caa"
+  },
+  {
+   "id": 14,
+   "title": "About Seele",
+   "text": "Coming soon - Stay tuned!",
+   "unlockRequirement": "Unlocked after completing Trailblaze Mission \"The Return.\"",
+   "cnUrl": "",
+   "jpUrl": "",
+   "enUrl": "",
+   "krUrl": ""
+  }
+ ],
+ "storyItems": [
+  {
+   "title": "Character Details",
+   "text": "Heir to the Supreme Guardian of Belobog, she is the young and capable commander of the Silvermane Guards.<br />Bronya received a rigorous education from an early age, and as such, possesses the grace and affinity as expected of an heir.<br />However, after witnessing the abysmal conditions in the Underworld, seeds of doubt begin growing in the mind of Belobog's future leader. \"Can all the training I've received really help me lead the people to the lives they want?\"",
+   "unlockRequirement": ""
+  },
+  {
+   "title": "Character Story: Part I",
+   "text": "Coming soon - Stay tuned!",
+   "unlockRequirement": "Unlocked at Character Level <nobr>20</nobr>"
+  },
+  {
+   "title": "Character Story: Part II",
+   "text": "Coming soon - Stay tuned!",
+   "unlockRequirement": "Unlocked at Character Level <nobr>40</nobr>"
+  },
+  {
+   "title": "Character Story: Part III",
+   "text": "Coming soon - Stay tuned!",
+   "unlockRequirement": "Unlocked at Character Level <nobr>60</nobr>"
+  },
+  {
+   "title": "Character Story: Part IV",
+   "text": "Coming soon - Stay tuned!",
+   "unlockRequirement": "Unlocked at Character Level <nobr>80</nobr>"
+  }
+ ],
+ "archive": {
+  "cvCn": "\u8c22\u83b9",
+  "cvJp": "\u963f\u6f84\u4f73\u5948",
+  "cvKr": "\uc774\ubcf4\ud76c",
+  "cvEn": "Madeline Reiter",
+  "camp": "Belobog"
+ },
+ "calculator": {
+  "expCost": {
+   "1": 200,
+   "2": 300,
+   "3": 500,
+   "4": 600,
+   "5": 1050,
+   "6": 1670,
+   "7": 2320,
+   "8": 3060,
+   "9": 3860,
+   "10": 4740,
+   "11": 5710,
+   "12": 6730,
+   "13": 7830,
+   "14": 9000,
+   "15": 10240,
+   "16": 11550,
+   "17": 12920,
+   "18": 14360,
+   "19": 15870,
+   "20": 16580,
+   "21": 16840,
+   "22": 17100,
+   "23": 17370,
+   "24": 17640,
+   "25": 17910,
+   "26": 18190,
+   "27": 18480,
+   "28": 18760,
+   "29": 19040,
+   "30": 19340,
+   "31": 19630,
+   "32": 19930,
+   "33": 20220,
+   "34": 20530,
+   "35": 20840,
+   "36": 21140,
+   "37": 21450,
+   "38": 21760,
+   "39": 22080,
+   "40": 22390,
+   "41": 25550,
+   "42": 29140,
+   "43": 32830,
+   "44": 36600,
+   "45": 40470,
+   "46": 44430,
+   "47": 48480,
+   "48": 52630,
+   "49": 56870,
+   "50": 61190,
+   "51": 65620,
+   "52": 70130,
+   "53": 74740,
+   "54": 79450,
+   "55": 84240,
+   "56": 89120,
+   "57": 94110,
+   "58": 99190,
+   "59": 104350,
+   "60": 106240,
+   "61": 111830,
+   "62": 117530,
+   "63": 123320,
+   "64": 129210,
+   "65": 135200,
+   "66": 141290,
+   "67": 147480,
+   "68": 153780,
+   "69": 160170,
+   "70": 179260,
+   "71": 199920,
+   "72": 220920,
+   "73": 242260,
+   "74": 263930,
+   "75": 285950,
+   "76": 308300,
+   "77": 331000,
+   "78": 354040,
+   "79": 377420,
+   "80": 414350
+  },
+  "expItemConfig": {
+   "1000": 409962,
+   "5000": 409961,
+   "20000": 409960
+  },
+  "sCoinId": 29328
+ },
+ "pageId": "bronya"
+}

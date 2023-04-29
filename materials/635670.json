@@ -1,0 +1,24 @@
+{
+ "iconPath": "a327a767852b95b69b5d25ec4abc08aa0a548455bcf70fa743c6b9acc9356a38",
+ "name": "Harmonic Tune",
+ "rarity": 2,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 635670,
+  "type": 601,
+  "purposeId": 3,
+  "iconPath": "a327a767852b95b69b5d25ec4abc08aa0a548455bcf70fa743c6b9acc9356a38",
+  "name": "Harmonic Tune",
+  "desc": "A compact music box made by an unknown person. Used to level up Traces slightly for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Harmony</span> characters.",
+  "lore": "It plays a relaxing and joyful tune.<br />Even through the simplistic tune, anyone with the slightest understanding of music can tell the mastery of the composer of the piece.<br /><br />\"Grab the hands of your Family and let us dance!\"",
+  "purpose": "Trace Material<br />Light Cone Ascension Material",
+  "rarity": 2,
+  "rewardPath": "/material/635670",
+  "comeFrom": [
+   "Calyx (Robot Settlement)"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "pageId": "635670"
+}

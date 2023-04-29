@@ -1,0 +1,22 @@
+{
+ "iconPath": "0cd2c6c1bdbdd0b053fd83eb36a6ff9db6a5dc27c4f7401cb51abcbc25af0940",
+ "name": "Deep-Fried Rock Crab",
+ "rarity": 2,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 75810,
+  "type": 502,
+  "purposeId": 10,
+  "iconPath": "0cd2c6c1bdbdd0b053fd83eb36a6ff9db6a5dc27c4f7401cb51abcbc25af0940",
+  "name": "Deep-Fried Rock Crab",
+  "desc": "Upon use, immediately recovers 3 Technique Points for the team.",
+  "lore": "Fried Rock Crab with a crispy crust and tender inside. This kind of crab wreaked havoc in Belobog before the Eternal Freeze occurred, and then inexplicably almost became extinct.<br />The meat of it is soft, tender, and delicious. Could this be the reason for their extinction? You dare not think further.<br /><br />\"Even if Rock Crabs live in rocks, they are still seafood. Don't you see they have the word \"crab\" in their name?\"",
+  "purpose": "Consumables",
+  "rarity": 2,
+  "rewardPath": "/material/75810",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "pageId": "75810"
+}

@@ -1,0 +1,147 @@
+{
+ "iconPath": "95b9ecc145b516b22ac3f3aed631e8da23e9780eb109ed1e3d7d4aa342cc2985",
+ "name": "Ruby Potion",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 557765,
+  "type": 502,
+  "purposeId": 10,
+  "iconPath": "95b9ecc145b516b22ac3f3aed631e8da23e9780eb109ed1e3d7d4aa342cc2985",
+  "name": "Ruby Potion",
+  "desc": "When used, increase SPD of all allies by 8%, and Effect Hit Rate by <nobr>20%</nobr> for the next battle.",
+  "lore": "Adding water to coffee powder gets you coffee. Adding water to the mixture of Stone of The Hunt and Interdimensional Leaf plus a touch of virtual particle gives you Ruby Potion!<br /><br />\"Ruby Potion gets you addictive to thinking fast, not to the potion itself!\"",
+  "purpose": "Consumables",
+  "rarity": 4,
+  "rewardPath": "/material/557765",
+  "comeFrom": [
+   "All-in-One Synthesis Machine"
+  ]
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "0e76659bbb3b9d0b1cc6a4e0e8c63a576c7b917f2f740a4b1b8ceab260a8a595",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards"
+   ]
+  },
+  "72014": {
+   "id": 72014,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "0e478e8e79698ab7512128e32bb7be826d4a6b311e36bf0196220b15dc6d4b20",
+   "name": "Hard Chip of Nihility",
+   "desc": "Tier 3 Synthesis Material",
+   "lore": "A chip made of iron that seems to possess the power of the Nihility.<br />It may have been a coin that people use to buy things.<br />But apparently, as the engravings on it fade away, its value went with them.<br /><br />\"I don't know what I'm writing between these quotation marks. What's the point of this item description? My life is meaningless, so is this piece of flavor text.\"",
+   "purpose": "Synthesis material",
+   "rarity": 3,
+   "rewardPath": "/material/72014",
+   "comeFrom": [
+    "Rivet Town: Imaginary Weavers or other enemies"
+   ]
+  },
+  "440579": {
+   "id": 440579,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "c2c0c181db42dcfcb2b6d8cc2ad0b69cb38b87fb661dec642104a76a6b6fb311",
+   "name": "Interdimensional Leaf",
+   "desc": "Tier 4 Synthesis Material",
+   "lore": "The gravity of the planet Arivanta is not fixed. Rather, it changes all the time according to a Bode plot due to the influence of Arivanta's three moons. Ordinary life forms cannot survive such volatility, so the planet developed its unique eco-system, in which the herbal plant Interdimensional Tree is the most famous.<br />For plants in a world where gravity is constantly subject to change, their leaves often have a hard time landing on the planet's ancient and solid ground. It is for this reason that the Interdimensional Trees tend to shake off their leaves rather late in the year. To help their leaves land, these trees, in the course of evolution, gave their leaves the ability to conduct fast short-distance warp-jumps towards the ground at frequencies that cannot be observed by naked eyes. Even so, not every leaf gets to land on the ground. Those lucky enough to make it watch others rise into the sky and burn as they are devoured by the atmosphere.<br /><br />\"Wow.\"",
+   "purpose": "Synthesis material",
+   "rarity": 4,
+   "rewardPath": "/material/440579",
+   "comeFrom": [
+    "Cloudford: Mara-Struck Soldiers or other enemies"
+   ]
+  },
+  "557897": {
+   "id": 557897,
+   "type": 507,
+   "purposeId": 19,
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: Ruby Potion",
+   "desc": "A simple equation. When entered into the Synthesizer, it will unlock a new recipe.",
+   "lore": "",
+   "purpose": "Recipe",
+   "rarity": 4,
+   "rewardPath": "/material/557897",
+   "comeFrom": []
+  },
+  "641068": {
+   "id": 641068,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "e75e51963b701a4d4b40b49f6074ade438199004d4c89d645a2777f14db50804",
+   "name": "Stone of The Hunt",
+   "desc": "Tier 3 Synthesis Material",
+   "lore": "Small stone with the power of The Hunt.<br />As if guided by someone's will, it moves by itself towards a certain direction.<br />Sounds like what a magnet would do? I assure you it is not.<br /><br />\"The destination lies where my arrow is heading.\"",
+   "purpose": "Synthesis material",
+   "rarity": 3,
+   "rewardPath": "/material/641068",
+   "comeFrom": [
+    "Grocery Stand"
+   ]
+  },
+  "757744": {
+   "id": 757744,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "268a72e23652901539d20e40ce25f9b04cacc505a518f49b3e0953d31a51a3cd",
+   "name": "Virtual Particle",
+   "desc": "Tier 2 Synthesis Material",
+   "lore": "Tiny particles commonly found in the universe but cannot be observed in theory.<br />Scientists are good at transforming theories into reality.<br /><br />\"I've got a virtual particle and an anti virtual particle here. How do we turn them into a real particle and a real antiparticle? Now, look closely...\"",
+   "purpose": "Synthesis material",
+   "rarity": 2,
+   "rewardPath": "/material/757744",
+   "comeFrom": [
+    "Storage Zone: Baryons or other enemies",
+    "Found in destructible objects in the Herta Space Station",
+    "Grocery Stand"
+   ]
+  }
+ },
+ "composeData": [
+  {
+   "items": [
+    {
+     "id": 757744,
+     "count": 3
+    },
+    {
+     "id": 641068,
+     "count": 2
+    },
+    {
+     "id": 72014,
+     "count": 3
+    },
+    {
+     "id": 440579,
+     "count": 1
+    },
+    {
+     "id": 557897,
+     "count": 1
+    }
+   ],
+   "tag": {
+    "name": "Attack Consumables",
+    "type": "Consumables",
+    "icon": "afe47a40c1361649152476b603185f0ffb4b55c17408e2629a1489e38daf70a5"
+   }
+  }
+ ],
+ "pageId": "557765"
+}

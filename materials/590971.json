@@ -1,0 +1,22 @@
+{
+ "iconPath": "0ef04da3183a898840aa77c2c3e4f8f1c1480618230d13c9105429b55628e837",
+ "name": "\"Upon the Firmament\"",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 590971,
+  "type": 506,
+  "purposeId": 20,
+  "iconPath": "0ef04da3183a898840aa77c2c3e4f8f1c1480618230d13c9105429b55628e837",
+  "name": "\"Upon the Firmament\"",
+  "desc": "A record that can be played on the Express' phonograph. It might be a chance acquisition or a gift from someone else. All sorts of memories surge up when the music plays \u2014 the smiles, encounters, touches, and the excitement of battle. Maybe that is why people still collect records even as society rapidly advances.<br />The current record contains the track \"Upon the Firmament.\"",
+  "lore": "<br />Gaze up, and study the laws of astronomy. Look down, and observe the features of geography. Only then would the formation of night and day be clear in your mind.",
+  "purpose": "Disk",
+  "rarity": 3,
+  "rewardPath": "/material/590971",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "pageId": "590971"
+}

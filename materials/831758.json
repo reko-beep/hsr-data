@@ -1,0 +1,22 @@
+{
+ "iconPath": "e967ba0fc569606c298cccf31e42eeea871a7426a1a8b8c4d0bdb522999c1e27",
+ "name": "Stone-Grilled Olm",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 831758,
+  "type": 502,
+  "purposeId": 10,
+  "iconPath": "e967ba0fc569606c298cccf31e42eeea871a7426a1a8b8c4d0bdb522999c1e27",
+  "name": "Stone-Grilled Olm",
+  "desc": "Upon use, immediately heals one downed character for <nobr>30%</nobr> of the character's Max HP.",
+  "lore": "Roasted Olm is one of the monotonous sources of protein in the Underworld of Belobog.<br />The texture of this amphibian's flesh is indistinguishable from chicken. Alas, most Belobogians today have never seen chicken.<br /><br />\"The trick to eating an Olm is not to see it as it was when it was alive.\"",
+  "purpose": "Consumables",
+  "rarity": 3,
+  "rewardPath": "/material/831758",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "pageId": "831758"
+}

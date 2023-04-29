@@ -1,0 +1,176 @@
+{
+ "iconPath": "a01d7231993bf0450534073f8515ba34a99653c455e03f9f43053719a34aff98",
+ "name": "Ancient Part",
+ "rarity": 2,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 549408,
+  "type": 601,
+  "purposeId": 7,
+  "iconPath": "a01d7231993bf0450534073f8515ba34a99653c455e03f9f43053719a34aff98",
+  "name": "Ancient Part",
+  "desc": "Mechanical part left behind from the Old World. Crude material used for enhancement.",
+  "lore": "Despite its size, it was cast and polished in a way that people today would struggle to replicate.<br /><br />\"A small screw in the Old World is stronger than our armor.\"",
+  "purpose": "Trace Material<br />Character Ascension Materials",
+  "rarity": 2,
+  "rewardPath": "/material/549408",
+  "comeFrom": [
+   "Robot Settlement: Automatons or other enemies",
+   "Great Mine: Automatons or other enemies",
+   "Simulated Universe enemies",
+   "Assignment rewards",
+   "Embers Exchange",
+   "Omni-Synthesizer \u2014 Material Exchange"
+  ]
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "0e76659bbb3b9d0b1cc6a4e0e8c63a576c7b917f2f740a4b1b8ceab260a8a595",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards"
+   ]
+  },
+  "549407": {
+   "id": 549407,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "2901efa774991b0ce2037520ce85ff99af64f37ee6364ffda560278736df6a19",
+   "name": "Silvermane Badge",
+   "desc": "Pin badge worn by soldiers of the Silvermane Guards. Crude material used for enhancement.",
+   "lore": "It is full of scratches from the erosion of wind and snow.<br /><br />\"In ancient times, there was only one way Silvermane Guards could retire: death.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 2,
+   "rewardPath": "/material/549407",
+   "comeFrom": [
+    "Outlying Snow Plains: Silvermane Guards or other enemies",
+    "Corridor of Fading Echoes: Everwinter Shadewalkers or other enemies",
+    "Simulated Universe enemies",
+    "Assignment rewards",
+    "Embers Exchange",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "549437": {
+   "id": 549437,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "5930a427c19aedca23d55eb6ef670cc8ecf07466630281586f32f4d5e8d49409",
+   "name": "Thief's Instinct",
+   "desc": "A small amount of anti-matter. Crude material used for enhancement.",
+   "lore": "A small amount of anti-matter that emanates out of the Voidranger: Reaver like the materialization of its destructive instinct.<br /><br />\"They are all looking forward to the moment of obliteration, when they will be reforged and fused with the entire world.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 2,
+   "rewardPath": "/material/549437",
+   "comeFrom": [
+    "Storage Zone: Voidranger: Reavers or other enemies",
+    "Supply Zone: Voidranger: Reavers or other enemies",
+    "Simulated Universe enemies",
+    "Assignment rewards",
+    "Embers Exchange",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "549438": {
+   "id": 549438,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "4b2515eee489b695028b8b790795cdd3e71cfd4b1de7a006a6030882b039706c",
+   "name": "Extinguished Core",
+   "desc": "The heart of a monster wandering the Fragmentum. Crude material used for enhancement.",
+   "lore": "It is a lesion that breeds evil, the impulse to sin. It is the source of the Fragmentum distortion.<br />A heavy blow has caused this heart to stop beating and lose its luster.<br /><br />\"Preliminary tests indicate it's some kind of hybrid: one half is primordial, and the other half is something very similar to Stellarons.\" \u2014 Department of Biology, Sarah Castro",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 2,
+   "rewardPath": "/material/549438",
+   "comeFrom": [
+    "Backwater Pass: Flamespawns or other enemies",
+    "Rivet Town: Flamespawns or other enemies",
+    "Simulated Universe enemies",
+    "Assignment rewards",
+    "Embers Exchange",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "549503": {
+   "id": 549503,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "fcb7215a2a17b09cd16362b5e1b398eaaf2fde23a94057c5f961151885a620c5",
+   "name": "Artifex's Module",
+   "desc": "Components used in Xianzhou's ingenium creations. Crude material used for enhancement.",
+   "lore": "The foundation of Xianzhou's ingenium technology. The smallest constituent of all machine parts. Breaking it apart would be akin to destroying the cellular structure of a living being.<br /><br />\"The Intelligentsia Guild put up a bounty of two million credits for technical plans that can flawlessly disassemble Xianzhou mechanical puppets.\"<br />\"If you know Screwllum, then these two millions are basically yours to take...\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 2,
+   "rewardPath": "/material/549503",
+   "comeFrom": [
+    "Stargazer Navalia: Entranced Ingenia or other enemies",
+    "Simulated Universe enemies",
+    "Assignment rewards",
+    "Embers Exchange",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "549504": {
+   "id": 549504,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "0c1388031133950e67459c98aad3ef2f784468e8339b131b94a4da88bbd608e3",
+   "name": "Immortal Scionette",
+   "desc": "New and young shoot budding from an ancient divine construct. Crude material used for enhancement.",
+   "lore": "The source of the Xianzhou long-life species' \"Endless Lifespan.\" The remnants of the Aeon of Abundance's influence. Countless years ago, a sovereign's hubris for immortality caused the Xianzhou fleet to sail into the sea of outer space to seek divine recipes.<br /><br />\"We desire to live for endless ages and maintain the empire for all eternity. Unfortunately, human lives have limits and human capacity has its ends. Thus, we send nine Navium Astriger to sail beyond the sky, seeking divine recipes for immortality.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 2,
+   "rewardPath": "/material/549504",
+   "comeFrom": [
+    "Cloudford: Mara-Struck Soldiers or other enemies",
+    "Stargazer Navalia: Mara-Struck Soldiers or other enemies",
+    "Simulated Universe enemies",
+    "Assignment rewards",
+    "Embers Exchange",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  }
+ },
+ "composeData": [
+  {
+   "items": [
+    {
+     "id": 549438,
+     "count": 2
+    },
+    {
+     "id": 549437,
+     "count": 2
+    },
+    {
+     "id": 549407,
+     "count": 2
+    },
+    {
+     "id": 549504,
+     "count": 2
+    },
+    {
+     "id": 549503,
+     "count": 2
+    }
+   ],
+   "tag": {
+    "name": "Universal Enhancement Material",
+    "type": "Material Exchange",
+    "icon": "07b7fcac4bd26cf308fecb4d737b3da33218a22ae49d9c72509601add9025ce8"
+   }
+  }
+ ],
+ "pageId": "549408"
+}

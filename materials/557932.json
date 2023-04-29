@@ -1,0 +1,22 @@
+{
+ "iconPath": "997a411b362df9849695dad0b8e7cda36293617906cdbb23dd493ab3dfcb28c5",
+ "name": "Pleasant-Looking Trash",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 557932,
+  "type": 502,
+  "purposeId": 10,
+  "iconPath": "997a411b362df9849695dad0b8e7cda36293617906cdbb23dd493ab3dfcb28c5",
+  "name": "Pleasant-Looking Trash",
+  "desc": "When used, instantly recovers 4 Technique Points for the team.",
+  "lore": "Worthless things are beautiful in their own way.",
+  "purpose": "Consumables",
+  "rarity": 3,
+  "rewardPath": "/material/557932",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "pageId": "557932"
+}

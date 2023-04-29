@@ -1,0 +1,111 @@
+{
+ "iconPath": "82b2a15501facdb07d3e9abf87b706b92f7a2291032ddd8c021edb64aad0a6a6",
+ "name": "Wrathful Gauntlets",
+ "rarity": 2,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 473759,
+  "type": 502,
+  "purposeId": 10,
+  "iconPath": "82b2a15501facdb07d3e9abf87b706b92f7a2291032ddd8c021edb64aad0a6a6",
+  "name": "Wrathful Gauntlets",
+  "desc": "Upon use, increases ATK of all allies by 5% with an extra <nobr>170</nobr> to ATK for the next battle.",
+  "lore": "This pair of gauntlets are driven by pure flame of anger.<br />Pure flame would also work.<br /><br />\"Scott Business Alliance, made for the champions!\"",
+  "purpose": "Consumables",
+  "rarity": 2,
+  "rewardPath": "/material/473759",
+  "comeFrom": [
+   "All-in-One Synthesis Machine"
+  ]
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "0e76659bbb3b9d0b1cc6a4e0e8c63a576c7b917f2f740a4b1b8ceab260a8a595",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards"
+   ]
+  },
+  "155889": {
+   "id": 155889,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "cfad18793e3010265b0a82281326cc0f601968956adb8794c535341c0974f83b",
+   "name": "Phlogiston",
+   "desc": "Tier 1 Synthesis Material",
+   "lore": "Particles that form the flame.<br />Genius Society #2 Harald Punch proved its existence, but #3 Nyul Iman disproved it.<br />#7 Bohdan overthrew Iman's conclusion and proved it again before getting killed by #4 Polka Kakamond days after announcing Phlogiston's existence.<br /><br />\"Does it exist or not? We're not interested, frankly speaking.\"",
+   "purpose": "Synthesis material",
+   "rarity": 1,
+   "rewardPath": "/material/155889",
+   "comeFrom": [
+    "Backwater Pass: Flamespawns or other enemies",
+    "Found in destructible objects in the Herta Space Station",
+    "Administrative District Shop"
+   ]
+  },
+  "440513": {
+   "id": 440513,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "0c84c872d25ee920b5cd47d5babd1af5b11a0e5546aaf85dec532e1ebe04d393",
+   "name": "Mechanical Parts",
+   "desc": "Tier 2 Synthesis Material",
+   "lore": "Essential components of all machines with strange shapes and specific functions.<br />Without them, nothing can be made.<br /><br />\"With the same parts, Screwllum can make entire planets and create cyborgs. But you can only make me a watch that runs seven seconds late every day.\"<br />\"Seven seconds is good enough! Just a hair later than the clocks they use in observatories.\"",
+   "purpose": "Synthesis material",
+   "rarity": 2,
+   "rewardPath": "/material/440513",
+   "comeFrom": [
+    "Robot Settlement: Automatons or other enemies",
+    "Found in destructible objects in the Herta Space Station",
+    "Administrative District Shop"
+   ]
+  },
+  "473891": {
+   "id": 473891,
+   "type": 507,
+   "purposeId": 19,
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: Wrathful Gauntlets",
+   "desc": "A simple equation. When entered into the Synthesizer, it will unlock a new recipe.",
+   "lore": "",
+   "purpose": "Recipe",
+   "rarity": 2,
+   "rewardPath": "/material/473891",
+   "comeFrom": []
+  }
+ },
+ "composeData": [
+  {
+   "items": [
+    {
+     "id": 155889,
+     "count": 3
+    },
+    {
+     "id": 440513,
+     "count": 2
+    },
+    {
+     "id": 473891,
+     "count": 1
+    }
+   ],
+   "tag": {
+    "name": "Attack Consumables",
+    "type": "Consumables",
+    "icon": "afe47a40c1361649152476b603185f0ffb4b55c17408e2629a1489e38daf70a5"
+   }
+  }
+ ],
+ "pageId": "473759"
+}

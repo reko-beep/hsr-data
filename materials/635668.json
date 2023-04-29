@@ -1,0 +1,24 @@
+{
+ "iconPath": "751785c1795d0c216b39deec5fa263ee8119f6295a1582c75e5f4a958a17a385",
+ "name": "Endurance of Bronze",
+ "rarity": 2,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 635668,
+  "type": 601,
+  "purposeId": 3,
+  "iconPath": "751785c1795d0c216b39deec5fa263ee8119f6295a1582c75e5f4a958a17a385",
+  "name": "Endurance of Bronze",
+  "desc": "A crude but durable ancient hand-held bronze shield. Used to level up Traces slightly for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Preservation</span> characters.",
+  "lore": "Ancient legends entail a war where humans exhausted all primitive methods, following the gods into battle against overwhelmingly powerful beasts.<br />This shield is a witness to that war.<br /><br />\"There's no choice but to stop it, even if the efforts are futile.\"",
+  "purpose": "Trace Material<br />Light Cone Ascension Material",
+  "rarity": 2,
+  "rewardPath": "/material/635668",
+  "comeFrom": [
+   "Calyx (Supply Zone)"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "pageId": "635668"
+}
