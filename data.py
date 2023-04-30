@@ -10,30 +10,139 @@ from io import BytesIO
 
 path = getcwd()
 
-def create_first_ids():
-    with open('first_ids.json', 'r') as f:
-        data = load(f)
-        
-    fixed = {}
-    for k in data:
-        
-        main_key = k.split('/')[2]
-        if main_key not in fixed:
-                fixed[main_key] = {}
-                print(len(k.split("/")) > 3)
-        if len(k.split("/")) > 3:
-            sub_key = k.split('/')[3]
-            fixed[main_key][sub_key] = data[k][0]
-        else:
-            fixed[main_key] = data[k][0]
 
 
-    with open('obj_ids.json', 'w') as f:
-        dump(fixed, f, indent=1)
+
+def fetch_all_ids():
+
+    '''
+    fetches all ids from starrailstation.com
+    and updates in json files
+
+    ------------
+    creates:
+    ------------
+
+    'first_ids.json'
+    'second_ids.json'
+    
+    '''
+    data = {
+        'first_ids.json': {},
+        'second_ids.json': {}
+    }
+    LINK = 'https://starrailstation.com/static/js/main.1a526542.js'
+
+    with requests.get(LINK) as r:
+        if r.status_code <= 300:
+
+            json_raw = r.text     
+
+            second_ids = json_raw[json_raw.find('s.u='):]        
+            second_ids = second_ids[second_ids.find('{'):]
+            second_ids = second_ids[:second_ids.find('}')+1]
+            second_ids = second_ids[second_ids.find('+{')+1:]
+            second_ids = ast.literal_eval(second_ids)
+
+            first_ids = json_raw[json_raw.find('52280:function(e,n,s){var o={')+len('52280:function(e,n,s){var o='):]
+            first_ids = first_ids[:first_ids.find('}')+1]
+            first_ids = ast.literal_eval(first_ids)
+
+
+            data['first_ids.json'] = first_ids
+            data['second_ids.json'] = second_ids
+
+
+    for d in data:
+        
+        prev_data = {}
+        if exists(d):
+            with open(d, 'r') as f:
+                prev_data = load(f)
+        print(list(set(data[d].keys()).difference(prev_data.keys())))
+        if len(list(set(data[d].keys()).difference(prev_data.keys()))) != 0:
+
+            with open(d, 'w') as f:
+                dump(data[d], f, indent=1)
+
+
+def beautify_first_ids(language: str):
+    '''
+
+    beautify first ids in a seperate json file to be used by script 
+
+    
+
+    ------------
+    requirements:
+    ------------
+
+    language: es, en, vi, cn, de ,fr, id, jp, kr
+
+    ------------
+    creates:
+    ------------
+
+    b_first_ids.json
+    '''
+    if exists('first_ids.json'):
+
+        with open('first_ids.json', 'r') as f:
+            data = load(f)
+            
+        fixed = {}
+        for k in data:
+            if language == k.split('/')[1]:                                   
+                main_key = k.split('/')[2]
+                if main_key not in fixed:
+                        fixed[main_key] = {}
+                        print(len(k.split("/")) > 3)
+                if len(k.split("/")) > 3:
+                    sub_key = k.split('/')[3]
+                    fixed[main_key][sub_key] = data[k][0]
+                else:
+                    fixed[main_key] = data[k][0]
+            else:
+                raise Exception('[hsr-data] error: language not found in first ids')
+
+        with open('b_first_ids.json', 'w') as f:
+            dump(fixed, f, indent=1)
+    
+    else:
+
+        raise Exception('[hsr-data] error: run fetch_all_ids first.')
 
 def create_links():
+
+    '''
+    creates links from beautified first ids and second ids
+
+    ------------
+    requirements:
+    ------------
+
+    b_first_ids.json
+    second_ids.json
+
+    ------------
+    creates:
+    ------------
+    links.json
+
+
+    '''
     
-    with open('obj_ids.json', 'r') as f:
+    if not exists('b_first_ids.json'):      
+
+        raise Exception('[hsr-data] error: file not found b_first_ids.json, run beautify_first_ids first')
+    
+    if not exists('first_ids.json') or not exists('second_ids.json'):      
+
+        raise Exception('[hsr-data] error: file not found first_ids.json, run fetch_all_ids first')
+    
+
+
+    with open('b_first_ids.json', 'r') as f:
         obj_ids = load(f)
     
     with open('second_ids.json', 'r') as f:
@@ -53,6 +162,21 @@ def create_links():
         dump(urls, f, indent=1)
 
 def fetch_data():
+    '''
+    fetches all data in relevant directories
+
+    ------------
+    requirements:
+    ------------
+
+    links.json
+
+    ------------
+    creates:
+    ------------
+    json files in relevant directories
+    
+    '''
     with open("links.json", 'r') as f:        
         links = load(f)
     
@@ -111,6 +235,24 @@ def detect_hash(st_: str):
     return re.match(pattern, "e8e459ad283c3df43713b2d13203b3dc8c636150d0c536f38e2ad62bd72b6e83")
 
 def get_image_props(filename: str, dict: dict):
+
+    '''
+    returns a dicts having image props from a json file
+    and data
+
+    ------------
+    requirements:
+    ------------
+
+     - fetched data    
+        json files in relevant directories
+
+    ------------
+    creates | returns
+    ------------
+    
+        dictionary : {propKey : propValue}
+    '''
     
     r = {}
     nameProps = ['name', 'title']
@@ -126,6 +268,22 @@ def get_image_props(filename: str, dict: dict):
         
 
 def download_all_images(dir: str = ''):
+    '''
+    downloads all images
+
+    ------------
+    requirements:
+    ------------
+
+     - dir [optional]
+        category : any folder name
+
+    ------------
+    creates | returns
+    ------------
+    
+        images in images folder
+    '''
     dirs = [d for d in listdir(getcwd()) if isdir(d)]
     if dir  == '':
         print(dirs)
@@ -151,7 +309,19 @@ def download_all_images(dir: str = ''):
             for n in imgs:
                 get_image(imgs[n], dir, f"{filename}-{n}")
      
-create_first_ids()
+'''
+
+
+------------
+REMOVE QUOTATION MARKS
+-----------
+
+fetch_all_ids()
+beautify_first_ids()
 create_links()
 fetch_data()
 download_all_images()
+
+
+'''
+
