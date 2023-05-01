@@ -6,7 +6,9 @@
 
 
 
-This repository contains data that [starrailstation](https://starrailstation.com) uses. This is in no way affiliated to the developer of the site. It just scrapes or fetches data from the site, is meant to be used by bots or anyone who wishes to use for bot development or application.
+
+This repository contains data that [starrailstation](https://starrailstation.com) uses. This is in no way affiliated to the developer of the site. It just scrapes or fetches data from the site, is meant to be used by bots or anyone who wishes to use it for bot development or any application.
+
 
 
 # How to Use this
