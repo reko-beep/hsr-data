@@ -59,9 +59,9 @@ def fetch_all_ids():
         if exists(d):
             with open(d, 'r') as f:
                 prev_data = load(f)
-        print(list(set(data[d].keys()).difference(prev_data.keys())))
+        
         if len(list(set(data[d].keys()).difference(prev_data.keys()))) != 0:
-
+            print('[hsr-data]: new data found for',d)
             with open(d, 'w') as f:
                 dump(data[d], f, indent=1)
 
@@ -89,21 +89,21 @@ def beautify_first_ids(language: str):
 
         with open('first_ids.json', 'r') as f:
             data = load(f)
-            
+
+        pass_langs_keys =  ["bannedDetailAvatars.json","bannedLoreAvatars.json", "warpInfo.json"]
         fixed = {}
         for k in data:
-            if language == k.split('/')[1]:                                   
-                main_key = k.split('/')[2]
-                if main_key not in fixed:
-                        fixed[main_key] = {}
-                        print(len(k.split("/")) > 3)
-                if len(k.split("/")) > 3:
-                    sub_key = k.split('/')[3]
-                    fixed[main_key][sub_key] = data[k][0]
-                else:
-                    fixed[main_key] = data[k][0]
-            else:
-                raise Exception('[hsr-data] error: language not found in first ids')
+            if k.split('/')[1] not in pass_langs_keys:                       
+                if k.split('/')[1] == language:                                   
+                    main_key = k.split('/')[2]
+                    if main_key not in fixed:
+                            fixed[main_key] = {}
+                    if len(k.split("/")) > 3:
+                        sub_key = k.split('/')[3]
+                        fixed[main_key][sub_key] = int(data[k][0])
+                    else:
+                        fixed[main_key] = int(data[k][0])
+              
 
         with open('b_first_ids.json', 'w') as f:
             dump(fixed, f, indent=1)
@@ -190,17 +190,21 @@ def fetch_data():
                     f.encoding = 'utf-8'
                     text_ = f.text
                     text = text_[text_.find("JSON.parse(")+len("JSON.parse("): ]
-                    text = text[:text.find(")}}]);")]                        
+                    text = text[:text.find(")}}]);")]    
+                    print('[hsr-data]: downloading ',links[link])                    
                     data = ast.literal_eval(text)
                     data = loads(data)
                     with open(path+f"/{link.replace('.json', '', 1)}/main.json", 'w') as r:
                         dump(data, r, indent=1)
                 sleep(2)
+            else:                
+                print('[hsr-data]: ',links[link], ' already exists!') 
         else:
             for sub_link in links[link]:
                 if not exists(path+f"/{link.replace('.json', '', 1)}/{sub_link}"):
-                    print(link, sub_link)
+                    
                     with requests.get(links[link][sub_link]) as f:
+                        print('[hsr-data]: downloading ',links[link][sub_link])  
                         f.encoding = 'utf-8'
                         text_ = f.text
                         text = text_[text_.find("JSON.parse(")+len("JSON.parse("): ]
@@ -211,14 +215,37 @@ def fetch_data():
                         with open(path+f"/{link.replace('.json', '', 1)}/{sub_link}", 'w') as r:
                             dump(data, r, indent=1)
                     sleep(2)
+                else:
+                    print('[hsr-data]: ',links[link][sub_link], ' already exists!') 
                 
 def get_image(assetid: str, category: str = '', name: str = ''):
+    '''
+    downloads image in categoary
+
+    ---------
+    requirements
+    --------
+    json files in folders
+     -assetid
+        image assetid
+     -category
+        directory name
+     -name
+        image file name
+
+    ----
+    creates
+    ----
+
+     image file
+    '''
     if not exists (path+"/images/"):
         mkdir(path+"/images/")
     if not exists(path+f'/images/{category}/'):
         mkdir(path+f'/images/{category}/')
-    print(name)
+    
     name = name.lower().replace(' ','_',99).replace("<br>",'',99)
+    print('[hsr-data]: downloading image for',name)
     url =  f'https://starrailstation.com/assets/{assetid}.webp'
     if not exists(path+f'/images/{category}/{name}.png'):
         with requests.get(url) as f:
@@ -228,6 +255,9 @@ def get_image(assetid: str, category: str = '', name: str = ''):
                 img.save(path+f'/images/{category}/{name}.png')
             else:
                 img.save(path+f'/images/{name}.png')
+    else:
+        print('[hsr-data]: image ',f'{name}.png', ' already exists in ', path+f'/images/{category}/')
+
 
 def detect_hash(st_: str):
     
@@ -286,10 +316,8 @@ def download_all_images(dir: str = ''):
     '''
     dirs = [d for d in listdir(getcwd()) if isdir(d)]
     if dir  == '':
-        print(dirs)
         for dir in dirs:
             files = [f"{getcwd()}/{dir}/{f}" for f in listdir(getcwd()+"/"+dir) if isfile(getcwd()+"/"+dir+"/"+f) and 'json' in f]
-            print(files)
             for f in files:
                 with open(f, 'r') as f_:
                     data = load(f_)
@@ -303,7 +331,7 @@ def download_all_images(dir: str = ''):
             with open(f, 'r') as f_:
                 data = load(f_)
             filename = str(f).split('/')[-1].replace('.json','',1)
-            print(filename)
+            print('[hsr-data]: finding images in ',filename)
             imgs = get_image_props(filename, data)
            
             for n in imgs:
@@ -325,3 +353,9 @@ download_all_images()
 
 '''
 
+
+fetch_all_ids()
+beautify_first_ids('en')
+create_links()
+fetch_data()
+download_all_images()
