@@ -245,16 +245,19 @@ def get_image(assetid: str, category: str = '', name: str = ''):
         mkdir(path+f'/images/{category}/')
     
     name = name.lower().replace(' ','_',99).replace("<br>",'',99)
-    print('[hsr-data]: downloading image for',name)
+    
+
     url =  f'https://starrailstation.com/assets/{assetid}.webp'
     if not exists(path+f'/images/{category}/{name}.png'):
         with requests.get(url) as f:
-            c = BytesIO(f.content)
-            img = Image.open(c, mode='r').convert("RGBA")
-            if exists(path+f'/{category}'):
-                img.save(path+f'/images/{category}/{name}.png')
-            else:
-                img.save(path+f'/images/{name}.png')
+            if 'image' in f.headers['content-type']:    
+                print('[hsr-data]: downloading image for',name)        
+                c = BytesIO(f.content)
+                img = Image.open(c, mode='r').convert("RGBA")
+                if exists(path+f'/{category}'):
+                    img.save(path+f'/images/{category}/{name}.png')
+                else:
+                    img.save(path+f'/images/{name}.png')
     else:
         print('[hsr-data]: image ',f'{name}.png', ' already exists in ', path+f'/images/{category}/')
 
@@ -287,12 +290,24 @@ def get_image_props(filename: str, dict: dict):
     r = {}
     nameProps = ['name', 'title']
     imagesProp = ["iconPath", "bgPath", "figPath", "fgPath", "artPath", "miniIconPath", "splashIconPath", "altIconPath"]
-    
-    keys = set(list(dict.keys())).intersection(imagesProp)
-    title = list(set(list(dict.keys())).intersection(nameProps))
-    for k in keys:
-        if dict[k] != "":
-            r[f"{filename}-{k}"] = dict[k]
+
+    if 'entries' in dict:
+        data_ = dict['entries']
+        for c,item in enumerate(data_,1):
+            keys = set(list(item.keys())).intersection(imagesProp)
+            title = item.get('pageId', c)
+            if title == c:
+                title = f"{filename}-{c}"
+            for k in keys:
+                if item[k] != "":
+                    r[f"{title}-{k}"] = item[k]        
+    else:
+        keys = set(list(dict.keys())).intersection(imagesProp)
+        title = list(set(list(dict.keys())).intersection(nameProps))
+        for k in keys:
+            if dict[k] != "":
+                r[f"{filename}-{k}"] = dict[k]
+                
     return r
         
         
@@ -352,6 +367,7 @@ download_all_images()
 
 
 '''
+
 
 
 fetch_all_ids()
