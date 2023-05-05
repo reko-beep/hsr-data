@@ -11,10 +11,10 @@ class Routes:
 
     def __init__(self, file: str) -> None:
         self.file = file
-        self.path = f"/{file.replace('.json','/',1)}"    
+        self.path = f"{file.replace('.json','/',1)}"    
 
     def generate_goto_lang_path(self, lang: str):
-        return f'{lang}{self.path}'
+        return f'{lang}/{self.path}'
 
     def generate_main_lang_path(self, lang: str):
         return f"{lang}/{self.file}"

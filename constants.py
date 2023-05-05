@@ -10,8 +10,11 @@ class Types(int, Enum):
     LIGHTCONES = 1
     RELICS = 2
     BOOKS = 3
-    MATERIALS = 4
-    FOODS = 6
+    MATERIALS = 4    
     PLAYERCARDS = 5
+    FOODS = 6
+
+    def __str__(self) -> int:
+        return self.value
 
     

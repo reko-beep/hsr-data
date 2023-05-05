@@ -3,6 +3,7 @@ from datamodels.searchItem import *
 from routes import *
 from typing import Union, List
 from utils import generate_t, base36encode
+from constants import Types
 
 class SRSClient:
     '''
@@ -82,6 +83,28 @@ class SRSClient:
                 return data
             
 
-    def get_all_items(self, language: str = 'en') -> list[SearchItem]:
+    def get_all_items(self, language: str = 'en', type: Types = None) -> list[SearchItem]:
+        '''
+        
+        :fetches all items from api route
+        --
+        params
+        --
 
-        pass
+        language: en, vi, de, etc
+        type : a type object 
+            - Types.MATERIALS, Types.PLAYERCARDS, Types.CHARACTERS etc
+        
+        
+        '''
+
+
+        response = self.fetch(language, SEARCH, False)
+
+        if response is not None:
+            all_items = [SearchItem(**{ **d, **{'id': d['url'].split("/")[1]}}) for d in response]
+            if type is not None:
+                return list(filter(lambda x: x.type == type, all_items))
+           
+      
+            return all_items

@@ -1,5 +1,8 @@
 from main import SRSClient
-from routes import MATERIALS
+from constants import Types
+
+
+
 client = SRSClient()
-r = client.generate_hash_route('en', MATERIALS,True, 872066)
+r = client.get_all_items('cn')
 print(r)
