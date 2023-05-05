@@ -12,66 +12,33 @@ import requests
 from io import BytesIO
 from colorthief import ColorThief
 
-if typing.TYPE_CHECKING:
-    import zerochan
 
 import random
-@dataclass
-class URL:
 
-    '''
-    URL data class
-    for easy extending of url and manipulation
+def generate_t(input):
+    t = 0
 
-    attrs
-    --------
+    for n in range(len(input)):
+        t = (t << 5) -t + list(bytes(input, encoding="utf8"))[n]
+        t = t & t
+    t = t % (2**32) 
+    return t
 
+def base36encode(number):
+    if not isinstance(number, int):
+        raise TypeError('number must be an integer')
+    is_negative = number < 0
+    number = abs(number)
 
-    root: base url
-    path: pathname
-    
-    '''
+    alphabet, base36 = ['0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ', '']
 
-    
-    def __init__(self, root: str,
-                       path:str= '') -> None:
+    while number:
+        number, i = divmod(number, 36)
+        base36 = alphabet[i] + base36
+    if is_negative:
+        base36 = '-' + base36
 
-        self.root = str(root)
-        self.path = str(path)        
-        self.__fix_url()
-
-    def __fix_url(self):
-
-        self.path = self.path.replace(' ','_',99)
-        if self.root.endswith('/'):
-            self.root = self.root[:-1]
-
-
-    def __repr__(self) -> str:
-        dict_ = ' '.join([f'{k}={self.__dict__[k]}' for k in self.__dict__])
-        return f"<URL {dict_}>"
-
-    def __add__(self, otherURL):
-
-        if isinstance(otherURL, str):
-
-            __url = str(self)
-            print(__url[:-1])
-            if __url.endswith('/'):
-                return URL(__url[:-1], otherURL)   
-        
-        else:
-
-            __url = str(self)
-            if __url.endswith('/'):
-                return URL(__url[:-1], otherURL.path)   
-        
-    
-    def __str__(self) -> str:   
-             
-        return self.root+"/"+self.path.replace(' ','_',99)
-
-
+    return base36.lower() or alphabet[0].lower()
 class ImageManipulation:
 
     @classmethod
