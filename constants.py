@@ -17,4 +17,20 @@ class Types(int, Enum):
     def __str__(self) -> int:
         return self.value
 
-    
+
+class Languages(str, Enum):
+
+    ENG = 'en'
+    CN = 'cn'
+    DE = 'de'
+    ES = 'es'
+    FR = 'fr'
+    ID = 'id'
+    JP = 'jp'
+    KR = 'kr'
+    PT = 'pt'
+    RU = 'ru'
+    TH = 'th'
+
+    def __str__(self) -> str:
+        return str(self.value)

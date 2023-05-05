@@ -1,6 +1,5 @@
 
 from constants import O_VALUE
-from utils import generate_t, base36encode
 
 
 MAIN_ROUTE = f'https://starrailstation.com/api/v1/data/{O_VALUE}/'

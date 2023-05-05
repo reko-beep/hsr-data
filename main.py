@@ -3,7 +3,9 @@ from datamodels.searchItem import *
 from routes import *
 from typing import Union, List
 from utils import generate_t, base36encode
-from constants import Types
+from constants import *
+from errors import *
+
 
 class SRSClient:
     '''
@@ -23,7 +25,7 @@ class SRSClient:
              'referer': 'https://starrailstation.com/'}
         )
 
-    def generate_hash_route(self, language: str, route: Routes, goto: bool = False, item_id : str=''):
+    def generate_hash_route(self, language: Languages, route: Routes, goto: bool = False, item_id : str=''):
         '''
         
         :generates hashed route for fetching data
@@ -40,11 +42,13 @@ class SRSClient:
         item_id : id of the item you want to search in a route
         
         '''
+
+        if not isinstance(language, Languages):
+            raise InvalidLanguage
         
         url = route.generate_main_lang_path(language)
         if goto:
             url = f"{route.generate_goto_lang_path(language)}{item_id}.json"
-        print(url)
         hashed_path = base36encode(generate_t(url))
 
         return  f"{MAIN_ROUTE}{hashed_path}"
@@ -54,7 +58,7 @@ class SRSClient:
 
         
     
-    def fetch(self, language: str , route: Routes, goto: bool = False, item_id : str = '') -> List[dict] | dict | None:
+    def fetch(self, language: Languages , route: Routes, goto: bool = False, item_id : str = '') -> List[dict] | dict | None:
         '''
         
         :fetches data from the api route
@@ -71,6 +75,8 @@ class SRSClient:
         
         '''
 
+        if not isinstance(language, Languages):
+            raise InvalidLanguage
 
         response = self.__session.get(self.generate_hash_route(language, route, goto, item_id))
     
@@ -83,7 +89,7 @@ class SRSClient:
                 return data
             
 
-    def get_all_items(self, language: str = 'en', type: Types = None) -> list[SearchItem]:
+    def get_all_items(self, language: Languages = Languages.ENG, type: Types = None) -> list[SearchItem]:
         '''
         
         :fetches all items from api route
@@ -98,6 +104,8 @@ class SRSClient:
         
         '''
 
+        if not isinstance(language, Languages):
+            raise InvalidLanguage
 
         response = self.fetch(language, SEARCH, False)
 
