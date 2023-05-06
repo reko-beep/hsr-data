@@ -21,3 +21,8 @@ This repository contains data that [starrailstation](https://starrailstation.com
 
 * Open an issue if script stops working or data is outdated.
 * You can clone and run the script yourself.
+
+# API Wrapper
+
+api wrapper is under development un der **dev** branch.
+If you want to contribule, fork it and open pull request.
