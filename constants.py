@@ -34,3 +34,14 @@ class Languages(str, Enum):
 
     def __str__(self) -> str:
         return str(self.value)
+
+class RelicTypes(str, Enum):
+
+    BODY = 'Body'
+    FEET = 'Feet'
+    PLANAR_SPHERE = 'Planar Sphere'
+    LINK_ROPE = 'Link Rope'
+    HANDS = 'Hands'
+
+    def __str__(self) -> str:
+        return str(self.value)

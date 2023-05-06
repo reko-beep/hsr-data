@@ -6,13 +6,12 @@ from constants import Types
 
 class SearchItem(BaseModel):
 
-    url : str
-    iconPath : str
-    type : int
-    name : str
-    rarity : int
-    id : Optional[int | str]
-
+    url : Optional[str]
+    iconPath : Optional[str]
+    type : Optional[int]
+    name : Optional[str]
+    rarity : Optional[int]
+    id : int | str
 
     class Config:
         extra = Extra.allow

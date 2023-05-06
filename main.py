@@ -1,5 +1,6 @@
 from requests_cache import CachedSession
 from datamodels.searchItem import *
+from datamodels.character import Character
 from routes import *
 from typing import Union, List
 from utils import generate_t, base36encode
@@ -34,7 +35,8 @@ class SRSClient:
         params
         --
 
-        language: en, vi, de, etc
+        language: Languages Enum
+            - Languages.ENG, Languages.RU etc
         route: a Routes object
         goto: if you want to search in a specific route [True] 
             - defaults to False
@@ -66,7 +68,8 @@ class SRSClient:
         params
         --
 
-        language: en, vi, de, etc
+        language: Languages Enum
+            - Languages.ENG, Languages.RU etc
         route: a Routes object
         goto: if you want to search in a specific route [True] 
             - defaults to False
@@ -89,7 +92,7 @@ class SRSClient:
                 return data
             
 
-    def get_all_items(self, language: Languages = Languages.ENG, type: Types = None) -> list[SearchItem]:
+    def get_all_items(self,  type: Types = None, language: Languages = Languages.ENG) -> list[SearchItem]:
         '''
         
         :fetches all items from api route
@@ -97,7 +100,8 @@ class SRSClient:
         params
         --
 
-        language: en, vi, de, etc
+        language: Languages Enum
+            - Languages.ENG, Languages.RU etc
         type : a type object 
             - Types.MATERIALS, Types.PLAYERCARDS, Types.CHARACTERS etc
         
@@ -116,3 +120,35 @@ class SRSClient:
            
       
             return all_items
+        
+    def get_all_character_details(self,item: Union[SearchItem , int], language: Languages = Languages.ENG) -> Character:
+        '''
+        
+        :fetches character details from api route provided a search item or character id
+        --
+        params
+        --
+
+        item: [SearchItem of Character Type] or [Character ID]
+        language: Languages Enum
+            - Languages.ENG, Languages.RU etc
+        
+        
+        '''
+        if isinstance(item, SearchItem):
+            if item.type == Types.CHARACTERS:
+
+                response = self.fetch(language, CHARACTERS, True, item.id)
+                if response is not None:
+                    return Character(**response)
+            
+            else:
+
+                raise InvalidItemType
+        
+        else:
+
+            response = self.fetch(language, CHARACTERS, True, item)
+            if response is not None:
+                    return Character(**response)
+

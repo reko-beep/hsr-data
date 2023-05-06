@@ -4,6 +4,7 @@ from constants import O_VALUE
 
 MAIN_ROUTE = f'https://starrailstation.com/api/v1/data/{O_VALUE}/'
 IMAGE_ROUTE = 'https://starrailstation.com/assets/{assetId}.webp'
+AUDIO_ROUTE = 'https://starrailstation.com/assets/{assetId}.mp3'
 
 
 class Routes:

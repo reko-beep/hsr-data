@@ -1,2 +1,3 @@
 **/__pycache__/
-srs.cache
+/srs.cache
+/__pycache__
