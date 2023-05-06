@@ -24,5 +24,5 @@ This repository contains data that [starrailstation](https://starrailstation.com
 
 # API Wrapper
 
-api wrapper is under development un der **dev** branch.
+api wrapper is under development under **dev** branch.
 If you want to contribule, fork it and open pull request.
