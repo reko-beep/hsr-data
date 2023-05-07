@@ -1,0 +1,27 @@
+{
+ "iconPath": "8d90bd4133eef94103c2ffc3afcd71a252832a99a4fce6bbe5dedb9bd571b0bc",
+ "name": "Eye of Lightning",
+ "rarity": 2,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 356572,
+  "type": 601,
+  "purposeId": 17,
+  "iconPath": "8d90bd4133eef94103c2ffc3afcd71a252832a99a4fce6bbe5dedb9bd571b0bc",
+  "name": "Eye of Lightning",
+  "desc": "Tier 2 Synthesis Material",
+  "lore": "An electric ball made from captured lightning.<br />If its balance is tipped by a conductor, it emits a lightning ball.<br /><br />\"A genius in the past wanted to use Eye of Lightning to search for aliens. For this, Nous cast their gaze upon her. Not sure which is the bigger win: found aliens for real or got noticed by Nous?\"",
+  "purpose": "Synthesis material",
+  "rarity": 2,
+  "rewardPath": "/material/356572",
+  "comeFrom": [
+   "Corridor of Fading Echoes: Everwinter Shadewalkers or other enemies",
+   "Grocery Stand"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "356572"
+}

@@ -1,0 +1,27 @@
+{
+ "iconPath": "1321cf88075014f07adc93d90046be90de72abb3a5dd229f580b104dd66ed346",
+ "name": "Strale",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 985053,
+  "type": 601,
+  "purposeId": 13,
+  "iconPath": "1321cf88075014f07adc93d90046be90de72abb3a5dd229f580b104dd66ed346",
+  "name": "Strale",
+  "desc": "The internal currency of the Xianzhou Alliance with strales as its basic monetary unit. Can be used to purchase goods in Special Stores.",
+  "lore": "The Xianzhou strales has long been digitized before Xianzhou's interactions with the IPC ever happened. However, there are some collectors who still kept the Celest-Gold coins minted when the Alliance first came into existence. Shaped like the tip of an arrow or a narrow leaf, it seems to allude to the past and future of that civilization.",
+  "purpose": "World currency",
+  "rarity": 3,
+  "rewardPath": "/material/985053",
+  "comeFrom": [
+   "Exploring the Xianzhou Luofu",
+   "Adventure Missions"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "985053"
+}

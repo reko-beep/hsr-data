@@ -1,0 +1,318 @@
+{
+ "iconPath": "40bec463d92cede13fc22b7ac618c83f9d27e06e1a8c95a37d32cedc83fffe17",
+ "name": "Oath of Steel",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 920195,
+  "type": 601,
+  "purposeId": 3,
+  "iconPath": "40bec463d92cede13fc22b7ac618c83f9d27e06e1a8c95a37d32cedc83fffe17",
+  "name": "Oath of Steel",
+  "desc": "A shield forged with irreplaceable craftsmanship from an unknown alloy. Used to level up Traces moderately for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Preservation</span> characters.",
+  "lore": "It may be a large shield, but it feels as light as a feather. Even after taking on a full charge, no marks can be seen on the face of the shield.<br />Ancient legends tell of a war where high-spirited warriors wielded deathray-beaming spears and shields forged of Frost Steel, defended a nation destined to falter in the face of war.<br />This shield is a witness to that war.<br /><br />\"Powerful voices chant: 'The enemies are at our gates!'\"",
+  "purpose": "Trace Material<br />Light Cone Ascension Material",
+  "rarity": 3,
+  "rewardPath": "/material/920195",
+  "comeFrom": [
+   "Calyx (Supply Zone)",
+   "Omni-Synthesizer \u2014 Material Synthesis"
+  ]
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "0e76659bbb3b9d0b1cc6a4e0e8c63a576c7b917f2f740a4b1b8ceab260a8a595",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards"
+   ]
+  },
+  "39354": {
+   "id": 39354,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "cecf6704fd0a30e0e7d2ae46b4cd743ed94f347ad34e9f1e4b5a882e0a19b032",
+   "name": "This Is Me!",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Preservation</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "The girl could rock any outfit she chooses, but she was unsatisfied, judging by the dozen sets of clothing piled up behind her.<br /><br />\"Will this be the last outfit for today?\"<br /><br />She thought silently to herself and looked at the girl in the mirror. She looked extra happy on this day.<br /><br />\"Okay! This is me!\"",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21030",
+   "comeFrom": []
+  },
+  "79824": {
+   "id": 79824,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "dbf8d7176365570575a5dc2182846d3e84ffa03522137c1ec1d502ff67612be6",
+   "name": "Moment of Victory",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Preservation</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "\"If you want to cry after your loss, Gepard, then cry.\"<br />\"But you need to stand back up even you are crying, until you can defeat me... Even if it takes years.\"<br />A few years later, the boy no longer cried or lost to his sister.<br /><br />Now on the battle field, the courageous Silvermane Guard captain will defend till the end no matter what<br />\u2014 all to find the moment to completely destroy the enemy.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/lightcone/23005",
+   "comeFrom": []
+  },
+  "142906": {
+   "id": 142906,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "fc8258b0bfd49682a8cd24e02e01c0d652b9052db066d52d53ba4d271123c9bf",
+   "name": "Texture of Memories",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Preservation</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "The universe was like a badland filled with rubbish.<br />There were the occasional treasure that lies undiscovered.<br />They looked through the cracks of the past, choosing seeds of memory.<br />...If a new life was to be born, its seed has to be dead.<br />Precious stones of pink, blue, and white were brought forth,<br />twinkling gently in their seed plot,<br />even though the universe held onto its enigmatic silence.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/lightcone/24002",
+   "comeFrom": []
+  },
+  "175480": {
+   "id": 175480,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "5792f07862d451fa3e15d3656f705d3dcf66e0bd24ceaaf286603c1c82933796",
+   "name": "March 7th",
+   "desc": "",
+   "lore": "A girl who once slumbered in eternal ice and knows nothing about her past.<br />To find out the truth about her origins, she decided to travel with the Astral Express.<br />As of right now, she has prepared about <nobr>67</nobr> different versions of her life story for herself.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/character/mar7th",
+   "comeFrom": []
+  },
+  "376299": {
+   "id": 376299,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "1d71c664653895890d5301323d29970f48a296f75bb928b550c109a9f7152c3d",
+   "name": "Trailblazer",
+   "desc": "",
+   "lore": "",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/playerboy2",
+   "comeFrom": []
+  },
+  "635668": {
+   "id": 635668,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "751785c1795d0c216b39deec5fa263ee8119f6295a1582c75e5f4a958a17a385",
+   "name": "Endurance of Bronze",
+   "desc": "A crude but durable ancient hand-held bronze shield. Used to level up Traces slightly for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Preservation</span> characters.",
+   "lore": "Ancient legends entail a war where humans exhausted all primitive methods, following the gods into battle against overwhelmingly powerful beasts.<br />This shield is a witness to that war.<br /><br />\"There's no choice but to stop it, even if the efforts are futile.\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 2,
+   "rewardPath": "/material/635668",
+   "comeFrom": [
+    "Calyx (Supply Zone)"
+   ]
+  },
+  "676260": {
+   "id": 676260,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "08fa6a67e0350820177ad9229d1c936a85bcca3ad67436cd60b511ee4f7544a1",
+   "name": "Pioneering",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Preservation</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.<br /><br />\"We will no longer fight alone. The IPC will stand alongside everyone in assistance.\"",
+   "purpose": "",
+   "rarity": 3,
+   "rewardPath": "/lightcone/20017",
+   "comeFrom": []
+  },
+  "676267": {
+   "id": 676267,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "ce043c4821f233e294ec39edd93e7178d3658e7c7f1bd419b56a443ec110cb32",
+   "name": "Defense",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Preservation</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate. <br /><br />\"If you ever doubt these walls will lead us to victory, just look at these brave souls standing atop them.\"",
+   "purpose": "",
+   "rarity": 3,
+   "rewardPath": "/lightcone/20010",
+   "comeFrom": []
+  },
+  "754825": {
+   "id": 754825,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "c2e20657ed52e6ecb34febf581d627f4d6a394854fd8ba3301f2a0af16d927ea",
+   "name": "Day One of My New Life",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Preservation</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "\"So happy I got to see Pom-Pom in new clothes today! I like it~\"<br />\"Today's my birthday! I'm still as cute as ever.\"<br />\"Today, I finally finally finally have a junior! Isn't that right, Trailblazer?\"<br /><br />We click the shutter many times without thinking.<br />Do we do that to capture the happiness at that moment?<br />Or to capture ourselves at that moment?",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21002",
+   "comeFrom": []
+  },
+  "754834": {
+   "id": 754834,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "f7315eef452c093475a620ffd48550e682ff880641a61b440e10a8cde8e7552c",
+   "name": "Landau's Choice",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Preservation</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "\"Did you not hear me? Don't go there ever again! What good can peasants learn in a group!\"<br />\"But I've never heard of the Belobog stories they tell...\"<br /><br />She pulled her brother behind her, denying him the chance to talk back.<br />\"You are both Landaus! One day, you'll face hard choices. Especially you, Serval.\"<br /><br />She knew that her brother did nothing wrong, but she couldn't think of a rebuttal.<br />She went to bed angry after the argument, vowing to herself:<br />\"I will be a grown-up one day. And when that day comes, I will make choices...\"<br />\"My own choices...\"",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21009",
+   "comeFrom": []
+  },
+  "792909": {
+   "id": 792909,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "296d5d96702c53ba00eaecbc4798c7b484057b2a5ae92a1bb1af5a4cd27d3158",
+   "name": "Amber",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Preservation</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.<br /><br />\"Only those who aren't affected by time can survive in time.\"",
+   "purpose": "",
+   "rarity": 3,
+   "rewardPath": "/lightcone/20003",
+   "comeFrom": []
+  },
+  "838762": {
+   "id": 838762,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "b2c47a05f8a13b423a16c8d3f4389b6f991cbfb6e3f619bf4a74e08fa018d0aa",
+   "name": "Trend of the Universal Market",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Preservation</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "The planet is receiving a revaluation...<br /><br />\"Will this project show that it's mutually beneficial to collect any outstanding debts?\"<br />\"But we only need to convey one message \u2014 our existence.\"<br /><br />\"If it were to have a value of its own, then it must create value for the corporation.\"",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21016",
+   "comeFrom": []
+  },
+  "885572": {
+   "id": 885572,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "0696b2bfa4fa4763b3e71ddcb8b490aaae91958a512d1e596fad958e897a87b1",
+   "name": "Gepard",
+   "desc": "",
+   "lore": "A captain in the Silvermane Guards and an outstanding warrior of Belobog.<br />He is meticulous and vigilant to the core and is always true to himself.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/gepard",
+   "comeFrom": []
+  },
+  "891186": {
+   "id": 891186,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "eddef3d9b243093277acad00b38aff343f50e752d5f1231ba6464661a1eb0581",
+   "name": "Trailblazer",
+   "desc": "",
+   "lore": "",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/playergirl2",
+   "comeFrom": []
+  },
+  "955410": {
+   "id": 955410,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "b9b2d14ff95435f8315755cfef7ba7a7c01ebb4ed367b95e724a42fe61eb8440",
+   "name": "We Are Wildfire",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Preservation</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "She got used to people losing their homes.<br />And she got used to people losing their lives.<br />But crying alone was useless.<br /><br />\"Wear this red scarf, and then we shall share each other's pain.\"<br />\"We are family. We are Wildfire.\"<br /><br />The moment that pair of big hands held her head, she could no longer hold back her tears.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21023",
+   "comeFrom": []
+  }
+ },
+ "composeData": [
+  {
+   "items": [
+    {
+     "id": 635668,
+     "count": 3
+    },
+    {
+     "id": 29328,
+     "count": 20
+    }
+   ],
+   "tag": {
+    "name": "Traces Leveling Material",
+    "type": "Traces Activation Materials",
+    "icon": "ffdbab3c38d4fc15596f399cfde9f2eb0717184b00df444cbae165a965fb928a"
+   }
+  }
+ ],
+ "avatarUsedBy": [
+  {
+   "id": 175480,
+   "rarity": 4
+  },
+  {
+   "id": 885572,
+   "rarity": 5
+  },
+  {
+   "id": 376299,
+   "rarity": 5
+  },
+  {
+   "id": 891186,
+   "rarity": 5
+  }
+ ],
+ "equipmentUsedBy": [
+  {
+   "id": 792909,
+   "rarity": 3
+  },
+  {
+   "id": 676267,
+   "rarity": 3
+  },
+  {
+   "id": 676260,
+   "rarity": 3
+  },
+  {
+   "id": 754825,
+   "rarity": 4
+  },
+  {
+   "id": 754834,
+   "rarity": 4
+  },
+  {
+   "id": 838762,
+   "rarity": 4
+  },
+  {
+   "id": 79824,
+   "rarity": 5
+  },
+  {
+   "id": 142906,
+   "rarity": 5
+  },
+  {
+   "id": 955410,
+   "rarity": 4
+  },
+  {
+   "id": 39354,
+   "rarity": 4
+  }
+ ],
+ "pageId": "920195"
+}

@@ -1,0 +1,26 @@
+{
+ "iconPath": "ff86188be988bda41cc33df8e66de42fe7d91a7f2f04a34810080ebf68c8aa2a",
+ "name": "Preservation Construction Material",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 155955,
+  "type": 601,
+  "purposeId": 17,
+  "iconPath": "ff86188be988bda41cc33df8e66de42fe7d91a7f2f04a34810080ebf68c8aa2a",
+  "name": "Preservation Construction Material",
+  "desc": "Tier 3 Synthesis Material",
+  "lore": "Construction materials that seem to possess the power of the Preservation.<br />When mixed with water it forms a paste, when exposed to air it turns rock-hard.<br />Please do not use together with Solid Water.<br /><br />\"I regret to say that Intelligentsia Guild's research on the material used to build the Subspace Crystalline Barrier by Amber Lord still needs time to reveal its nature.\"<br />\"I'm sure it's not cement \u2014 am I right, Taravan?\"",
+  "purpose": "Synthesis material",
+  "rarity": 3,
+  "rewardPath": "/material/155955",
+  "comeFrom": [
+   "Corridor of Fading Echoes: Everwinter Shadewalkers or other enemies"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "155955"
+}

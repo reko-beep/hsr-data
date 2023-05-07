@@ -1,0 +1,148 @@
+{
+ "iconPath": "a4496ff8529b65393b5690b00c85e23c5b7d8b6f375a04b0811222d75c8fa933",
+ "name": "Stone From the Everwinter Monument",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 988711,
+  "type": 502,
+  "purposeId": 10,
+  "iconPath": "a4496ff8529b65393b5690b00c85e23c5b7d8b6f375a04b0811222d75c8fa933",
+  "name": "Stone From the Everwinter Monument",
+  "desc": "Upon use, increases all allies' chance to resist Frozen by <nobr>50%</nobr> for the next battle.",
+  "lore": "The Mourning Actors came to Jarilo-VI a long time ago when the Stellaron had not appeared on the planet, nor was there the blight known as the Eternal Freeze. The only threat this fragile little planet was facing was the merciless war with the Antimatter Legion. The Mourning Actors were not aware of the Architects. The only sight they witnessed was the trail of destruction left by the Legion. They rowed their gondolas quietly above the planet and left before the Legion could notice them, leaving behind a silent eulogy.<br />Time flew by and the Belobog Architects found a type of beautiful stone that glimmered with bright colors. They mixed the stone with Geomarrow and built a monument, which some say still stands at the heart of Qlipoth Fort in the city of Belobog.<br /><br />\"Even if we fail, this monument will stand for all eternity. Those who come after will find it and know that we had once existed.\"",
+  "purpose": "Consumables",
+  "rarity": 4,
+  "rewardPath": "/material/988711",
+  "comeFrom": [
+   "All-in-One Synthesis Machine"
+  ]
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "0e76659bbb3b9d0b1cc6a4e0e8c63a576c7b917f2f740a4b1b8ceab260a8a595",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards"
+   ]
+  },
+  "72014": {
+   "id": 72014,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "0e478e8e79698ab7512128e32bb7be826d4a6b311e36bf0196220b15dc6d4b20",
+   "name": "Hard Chip of Nihility",
+   "desc": "Tier 3 Synthesis Material",
+   "lore": "A chip made of iron that seems to possess the power of the Nihility.<br />It may have been a coin that people use to buy things.<br />But apparently, as the engravings on it fade away, its value went with them.<br /><br />\"I don't know what I'm writing between these quotation marks. What's the point of this item description? My life is meaningless, so is this piece of flavor text.\"",
+   "purpose": "Synthesis material",
+   "rarity": 3,
+   "rewardPath": "/material/72014",
+   "comeFrom": [
+    "Rivet Town: Imaginary Weavers or other enemies"
+   ]
+  },
+  "72045": {
+   "id": 72045,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "a42063d1bdcbc0358b070e2f0fa04227294af443f4c149cd7f0dc160f3d5c73e",
+   "name": "Core of Ice",
+   "desc": "Tier 2 Synthesis Material",
+   "lore": "Shattered ice fallen from the stars.<br />The frosty mist it emits when removed from a specialized canister looks like the breath of wintertime.<br /><br />\"Zoom in on a snowflake <nobr>100</nobr> times and behold the wonder of nature.\"",
+   "purpose": "Synthesis material",
+   "rarity": 2,
+   "rewardPath": "/material/72045",
+   "comeFrom": [
+    "Corridor of Fading Echoes: Everwinter Shadewalkers or other enemies",
+    "Administrative District Shop"
+   ]
+  },
+  "155955": {
+   "id": 155955,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "ff86188be988bda41cc33df8e66de42fe7d91a7f2f04a34810080ebf68c8aa2a",
+   "name": "Preservation Construction Material",
+   "desc": "Tier 3 Synthesis Material",
+   "lore": "Construction materials that seem to possess the power of the Preservation.<br />When mixed with water it forms a paste, when exposed to air it turns rock-hard.<br />Please do not use together with Solid Water.<br /><br />\"I regret to say that Intelligentsia Guild's research on the material used to build the Subspace Crystalline Barrier by Amber Lord still needs time to reveal its nature.\"<br />\"I'm sure it's not cement \u2014 am I right, Taravan?\"",
+   "purpose": "Synthesis material",
+   "rarity": 3,
+   "rewardPath": "/material/155955",
+   "comeFrom": [
+    "Corridor of Fading Echoes: Everwinter Shadewalkers or other enemies"
+   ]
+  },
+  "641165": {
+   "id": 641165,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "dd455f01643b5e280e9a70b288071367d21326e8968aa3bee9b71d488f8f14a1",
+   "name": "Tear Crystal of Glorious Death",
+   "desc": "Tier 4 Synthesis Material",
+   "lore": "A Mourning Actor took a gondola and rowed towards a silent world of barrenness, humming an elegy for civilizations long gone. Not a single soul could be found at the site of the doomsday battlefield, but like nacre, the world that had turned into ashes gave birth to pearls of sorrow. The ghosts of the past condensed into clouds and rained down crystals like teardrops. The Actor held a fine grain of such crystal in hand and immediately heard in a dream the glorious chorus of civilizations at their height \u2014 heroes with godly might, starships like towering mountains, the whimper of stars, and the rage of the enemy. The Actor became restless in sleep, dragged into silent dreams.<br /><br />\"Every single joy I had in my dreams breaks my heart.\"",
+   "purpose": "Synthesis material",
+   "rarity": 4,
+   "rewardPath": "/material/641165",
+   "comeFrom": [
+    "Corridor of Fading Echoes: Everwinter Shadewalkers or other enemies"
+   ]
+  },
+  "988843": {
+   "id": 988843,
+   "type": 507,
+   "purposeId": 19,
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: Stone from the Everwinter Monument",
+   "desc": "A simple equation. When entered into the Synthesizer, it will unlock a new recipe.",
+   "lore": "",
+   "purpose": "Recipe",
+   "rarity": 4,
+   "rewardPath": "/material/988843",
+   "comeFrom": []
+  }
+ },
+ "composeData": [
+  {
+   "items": [
+    {
+     "id": 72045,
+     "count": 3
+    },
+    {
+     "id": 155955,
+     "count": 3
+    },
+    {
+     "id": 72014,
+     "count": 2
+    },
+    {
+     "id": 641165,
+     "count": 1
+    },
+    {
+     "id": 988843,
+     "count": 1
+    }
+   ],
+   "tag": {
+    "name": "Defense Consumables",
+    "type": "Consumables",
+    "icon": "afe47a40c1361649152476b603185f0ffb4b55c17408e2629a1489e38daf70a5"
+   }
+  }
+ ],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "988711"
+}

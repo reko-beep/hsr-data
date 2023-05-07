@@ -1,0 +1,24 @@
+{
+ "iconPath": "3f671d22c9ca81857fd1954fcd5618bcce5b58bba56252850377df105fee3d86",
+ "name": "First Voyage's Blessing",
+ "rarity": 5,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 526806,
+  "type": 601,
+  "purposeId": 14,
+  "iconPath": "3f671d22c9ca81857fd1954fcd5618bcce5b58bba56252850377df105fee3d86",
+  "name": "First Voyage's Blessing",
+  "desc": "Use to gain <nobr>60</nobr> Trailblaze Power and a 1:1 replica.",
+  "lore": "A blessing offered to those starting their journey.<br /><br />May you embrace the skies and give the greetings of your first voyage to the endless starry seas.<br />May you cross the snowstorm and ignite an eternal flame at the end of the frigid winter.<br />The footsteps you leave behind will one day become a road upon which stars would shine.",
+  "purpose": "Valuable object",
+  "rarity": 5,
+  "rewardPath": "/material/526806",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "526806"
+}

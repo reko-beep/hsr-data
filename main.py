@@ -51,7 +51,9 @@ class SRSClient:
         
         url = route.generate_main_lang_path(language)
         if goto:
-            url = f"{route.generate_goto_lang_path(language)}{item_id}.json"
+            if route.path is not None:
+                url = f"{route.generate_goto_lang_path(language)}{item_id}.json"            
+
         hashed_path = base36encode(generate_t(url))
 
         return  f"{MAIN_ROUTE}{hashed_path}"

@@ -1,0 +1,24 @@
+{
+ "iconPath": "6f16ffd11e0bef07507512892a72e49bdd75a167a106392f3eb6645ca65854fe",
+ "name": "Diting",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 878437,
+  "type": 505,
+  "purposeId": 0,
+  "iconPath": "6f16ffd11e0bef07507512892a72e49bdd75a167a106392f3eb6645ca65854fe",
+  "name": "Diting",
+  "desc": "Complete the mission \"Stars Spun, Prescience Sprung\" to get an Avatar reward.",
+  "lore": "It only takes three days to analyze the entire archives of the Artisanship Commission and customize its own staff profile pic.<br /><br />\"Master Artisan, I found this in the payroll. It... What's this money for?\"",
+  "purpose": "",
+  "rarity": 4,
+  "rewardPath": "/material/878437",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "878437"
+}

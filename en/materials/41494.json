@@ -1,0 +1,26 @@
+{
+ "iconPath": "41099a54ac0ae0e8d6d6673202121ce2032159228c48ef8c4b597cb30e3898af",
+ "name": "Undying Embers",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 41494,
+  "type": 601,
+  "purposeId": 0,
+  "iconPath": "41099a54ac0ae0e8d6d6673202121ce2032159228c48ef8c4b597cb30e3898af",
+  "name": "Undying Embers",
+  "desc": "",
+  "lore": "Cold ashes of a shooting star fell from the sky.<br /><br />\"At least they were once hot and bright.\"",
+  "purpose": "",
+  "rarity": 4,
+  "rewardPath": "/material/41494",
+  "comeFrom": [
+   "Warp"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "41494"
+}

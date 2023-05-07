@@ -1,0 +1,26 @@
+{
+ "iconPath": "1b3183a7185ccc854b89261ccafed31e73f2b8e138d4e59705658b6482006610",
+ "name": "Lost Lightdust",
+ "rarity": 2,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 610548,
+  "type": 601,
+  "purposeId": 6,
+  "iconPath": "1b3183a7185ccc854b89261ccafed31e73f2b8e138d4e59705658b6482006610",
+  "name": "Lost Lightdust",
+  "desc": "Enhancement material for Relics. Provides <nobr>100</nobr> Relic EXP.",
+  "lore": "Lightdust permeated the Fragmentum, carrying what seems to indicate the existence of another civilization.<br /><br />\"Theosophy holds that the database used to store information of the material world is called the Akasha Records. I don't necessarily support this, but... these dust indeed store information from the past. They are like... seeds? When you water them, they can yield bountiful fruit.\"",
+  "purpose": "Relic EXP Material",
+  "rarity": 2,
+  "rewardPath": "/material/610548",
+  "comeFrom": [
+   "Salvage Relic"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "610548"
+}

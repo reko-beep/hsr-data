@@ -1,0 +1,319 @@
+{
+ "iconPath": "328bab8dd4185cff98748182d80e550a23f12b7288da5caa228cc8407cea56df",
+ "name": "Obsidian of Obsession",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 836255,
+  "type": 601,
+  "purposeId": 3,
+  "iconPath": "328bab8dd4185cff98748182d80e550a23f12b7288da5caa228cc8407cea56df",
+  "name": "Obsidian of Obsession",
+  "desc": "A sizable piece of dark matter captured from the void. Used to level up Traces significantly for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Nihility</span> characters.",
+  "lore": "The weak-minded and soft-willed will spend their eternity in chaos from just a simple glance into the prism.<br /><br />\"         \"",
+  "purpose": "Trace Material<br />Light Cone Ascension Material",
+  "rarity": 4,
+  "rewardPath": "/material/836255",
+  "comeFrom": [
+   "Calyx (Great Mine)",
+   "Omni-Synthesizer \u2014 Material Synthesis"
+  ]
+ },
+ "itemReferences": {
+  "23680": {
+   "id": 23680,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "081f215e852fda9d7d093d8233e0925f4e6ce557f6d2645fa580b862dfd4df70",
+   "name": "Sampo",
+   "desc": "",
+   "lore": "A merchant who freely travels between the Overworld and the Underworld.<br />He acts like he is everyone's friend, is enthusiastically humorous, and is good at bantering.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/character/sampo",
+   "comeFrom": []
+  },
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "0e76659bbb3b9d0b1cc6a4e0e8c63a576c7b917f2f740a4b1b8ceab260a8a595",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards"
+   ]
+  },
+  "53454": {
+   "id": 53454,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "0d268365922a8480563e12ba32d63b946e39df9d589492687fc3031fe4a2fb45",
+   "name": "Pela",
+   "desc": "",
+   "lore": "A secretarial officer for the Silvermane Guards.<br />She has a serious personality and is revered by other members of the Silvermane Guards.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/character/pela",
+   "comeFrom": []
+  },
+  "79825": {
+   "id": 79825,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "199429d56131ab7e1c1fb86147613628307b586e3b6b26ecc5d6c3d0a1e6c149",
+   "name": "In the Name of the World",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Nihility</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "\"Welt...?\"<br />\"It's a... great name, right?\"<br />\"Then...\"<br />\"From now on, you are Welt.\"<br />\"This Herrscher core... and the mission to protect the world...\"<br />\"I'll leave them to you, Welt.\"",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/lightcone/23004",
+   "comeFrom": []
+  },
+  "91539": {
+   "id": 91539,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "8e97e5da61d4c1cd101cebc6b32e366bafd51ad7381cecb81afca39b2ed30829",
+   "name": "Silver Wolf",
+   "desc": "",
+   "lore": "A member of the Stellaron Hunters and a genius hacker.<br />She sees the universe as a massive immersive simulation game and has fun with it.<br />She's mastered the skill known as \"aether editing,\" which can be used to tamper with the data of reality.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/silverwolf",
+   "comeFrom": []
+  },
+  "676266": {
+   "id": 676266,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "ce68d0c4da4814e00bc49bcb1f687449a522737b9df3a8b52a0158c9d844a58e",
+   "name": "Loop",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Nihility</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate. <br /><br />\"Those running away from the past think no one understands their despair. When they finally take a breather, they'll find their future selves staring right at them with bloodshot eyes.\"",
+   "purpose": "",
+   "rarity": 3,
+   "rewardPath": "/lightcone/20011",
+   "comeFrom": []
+  },
+  "676275": {
+   "id": 676275,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "e7c0c99e2e2cae9ce8bdab27f648fa0f7fa00d14ee15f98460b423020c74e350",
+   "name": "Hidden Shadow",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Nihility</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate. <br /><br />\"The Nihility might find us, but there is a non-zero chance that they might not.\"",
+   "purpose": "",
+   "rarity": 3,
+   "rewardPath": "/lightcone/20018",
+   "comeFrom": []
+  },
+  "754826": {
+   "id": 754826,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "120b247009c9656da9bdbcca8d3d99d8eb36ba9d35ad8dd3b08b535db30db80d",
+   "name": "Good Night and Sleep Well",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Nihility</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "The dim light outlines the dust tracks,<br />As a young girl mumbles sweetly in her sleep.<br />A silent figure appears behind her.<br />\"Well, well, well, you're cuter without those glasses \u2014 I knew it.\"<br />The guitarist stares at her sleeping face, muttering to herself:<br />\"Good night, the genius girl that worries a lot.\"",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21001",
+   "comeFrom": []
+  },
+  "754835": {
+   "id": 754835,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "16fc110a4846027c8ea0654178b1262d554c465c092dfd8e0608eea362f05be8",
+   "name": "Eyes of the Prey",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Nihility</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "In reality, most prey don't realize when danger is encroaching.<br />This one's no exception.<br />The sniper's scope slowly centers on a man throwing banknotes stack after stack, who seems completely oblivious to his impending demise.<br />\"So that's what greed looks like. That amount is equal to several of my contracts already... No wonder someone wants him dead.\"<br /><br />As if these thoughts were broadcasted out loud, the man in the scope turns his head, looking straight into the eyes of the sniper. <br />\"I've been waiting for you. Would this much be enough for you to hear me out?\"",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21008",
+   "comeFrom": []
+  },
+  "792908": {
+   "id": 792908,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "5642254b3bcf6ce3e5bf53cf8b590f358da2f8a575681221bf079c6a44a460e4",
+   "name": "Void",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Nihility</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.<br /><br />\"He stared into the void, hanging high like the dark sun at the end of all matter, or a mouth that answered all questions. It said: \u2588\u2588\u2588 \u2588 \u2588\u2588\u2588 \u2588\u2588 The answer couldn't be expressed in any human language, but could be understood by all.\"",
+   "purpose": "",
+   "rarity": 3,
+   "rewardPath": "/lightcone/20004",
+   "comeFrom": []
+  },
+  "807012": {
+   "id": 807012,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "3245159af32d69709bd5c59c447dffd2035aef63678fcc417f9e5111c0b47489",
+   "name": "Kafka",
+   "desc": "",
+   "lore": "A member of the Stellaron Hunters. A dashing, collected, and professional beauty.<br />Used the enchantment of Spirit Whisper to set up Trailblazer to absorb the Stellaron.<br />Her hobby is shopping for and organizing her collection of coats.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/kafka",
+   "comeFrom": []
+  },
+  "838763": {
+   "id": 838763,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "7a4dee4fdd0b6acdeef19c646af6284e95a0d65f4d75aa47276fbc0436655b7a",
+   "name": "Resolution Shines As Pearls of Sweat",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Nihility</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "The limelight cast on the boxing ring is bright, but no brighter than all those beads of sweat running down his back.<br /><br />He has long been determined to use his two fists to protect those he cherishes the most.<br />After all, they are the ones who ignited his determination in the first place.<br />They are the ones who have always been there for him, be it inside or outside the boxing ring.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21015",
+   "comeFrom": []
+  },
+  "890953": {
+   "id": 890953,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "259c3885c12479f2cb2ab0a569732ed73e08bcec91b3611069e66b8df1d6d601",
+   "name": "Welt",
+   "desc": "",
+   "lore": "A seasoned member of the Express Crew.<br />The passion buried in his heart burns anew as he enjoys this fresh adventure.<br />Occasionally, he would sketch the experiences in a notebook.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/welt",
+   "comeFrom": []
+  },
+  "920196": {
+   "id": 920196,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "ce4a765c779cfd1480029c5f6daa7ea755b5c3ec5661609bfd2dd5191b55f2d0",
+   "name": "Obsidian of Desolation",
+   "desc": "A chunk of dark matter captured from the void. Used to level up Traces moderately for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Nihility</span> characters.",
+   "lore": "No reflections can be seen on the surface of the black prism. Not only does it suck in all the light, it seems to also absorb the wielder's emotions, leaving only a faint feeling of emptiness.<br /><br />\"...\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 3,
+   "rewardPath": "/material/920196",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Omni-Synthesizer \u2014 Material Synthesis"
+   ]
+  },
+  "955411": {
+   "id": 955411,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "3b04d8d6f6ddcf141579874b4e025c24000221acf4d7defee285a0722446f651",
+   "name": "Fermata",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Nihility</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "The phonograph record is being played, spinning nonstop. Even the sounds of all those hoarse shrieks cannot escape the heatwave and are dampened by its tepidity.<br />She seemed unprepared and utterly enthralled by the fascinating melodies:<br /><br />It started with sincerity and anticipation...<br />...followed by a passionate catharsis...<br />...with one climax after another...<br /><br />...until the record's spinning came to a final stop and those hoarse shrieks were no longer audible.<br />\"Mission accomplished.\"",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21022",
+   "comeFrom": []
+  },
+  "955420": {
+   "id": 955420,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "4477f1462bc0722af15705669cd973255099b95a1f7c36f58ba91c021439a1f4",
+   "name": "We Will Meet Again",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Nihility</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "She had once thought it was some sort of program. How else would it never tire?<br />But a program would never actively discard the optimal solution and bypass her trap.<br /><br />\"Seems like we'll have a war of attrition.\"<br />She yawns.<br /><br />\"Time to sleep. Organic lifeforms should treasure rest.\"<br />The surroundings dim.<br /><br />She suddenly bolts awake, but the residues of data are swept away and destroyed. It all seems like a dream<br />\u2014 but the taste of defeat is very real.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21029",
+   "comeFrom": []
+  }
+ },
+ "composeData": [
+  {
+   "items": [
+    {
+     "id": 920196,
+     "count": 3
+    },
+    {
+     "id": 29328,
+     "count": 20
+    }
+   ],
+   "tag": {
+    "name": "Traces Leveling Material",
+    "type": "Traces Activation Materials",
+    "icon": "ffdbab3c38d4fc15596f399cfde9f2eb0717184b00df444cbae165a965fb928a"
+   }
+  }
+ ],
+ "avatarUsedBy": [
+  {
+   "id": 890953,
+   "rarity": 5
+  },
+  {
+   "id": 807012,
+   "rarity": 5
+  },
+  {
+   "id": 91539,
+   "rarity": 5
+  },
+  {
+   "id": 53454,
+   "rarity": 4
+  },
+  {
+   "id": 23680,
+   "rarity": 4
+  }
+ ],
+ "equipmentUsedBy": [
+  {
+   "id": 792908,
+   "rarity": 3
+  },
+  {
+   "id": 676266,
+   "rarity": 3
+  },
+  {
+   "id": 676275,
+   "rarity": 3
+  },
+  {
+   "id": 754826,
+   "rarity": 4
+  },
+  {
+   "id": 754835,
+   "rarity": 4
+  },
+  {
+   "id": 838763,
+   "rarity": 4
+  },
+  {
+   "id": 79825,
+   "rarity": 5
+  },
+  {
+   "id": 955411,
+   "rarity": 4
+  },
+  {
+   "id": 955420,
+   "rarity": 4
+  }
+ ],
+ "pageId": "836255"
+}

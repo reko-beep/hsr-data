@@ -1,0 +1,27 @@
+{
+ "iconPath": "d9d322b88f43e9cba958e177229bfa6da5b57c16e11db9534f6ffc1b2176f24c",
+ "name": "Lost Gold Fragment",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 610547,
+  "type": 601,
+  "purposeId": 6,
+  "iconPath": "d9d322b88f43e9cba958e177229bfa6da5b57c16e11db9534f6ffc1b2176f24c",
+  "name": "Lost Gold Fragment",
+  "desc": "Enhancement material for Relics. Provides <nobr>500</nobr> Relic EXP.",
+  "lore": "Carefully collected Fragmentum dust with irregular shapes. Under the right conditions, they can express specific forms of relics.<br /><br />When the stars return to the right position... Ha! Just kidding.",
+  "purpose": "Relic EXP Material",
+  "rarity": 3,
+  "rewardPath": "/material/610547",
+  "comeFrom": [
+   "Daily Training",
+   "Salvage Relic"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "610547"
+}

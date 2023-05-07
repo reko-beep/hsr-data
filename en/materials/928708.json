@@ -1,0 +1,24 @@
+{
+ "iconPath": "2576e9161a4cfe2cd2dd0729a4b8fb4602be2336cc8598c53f14a74d6a5e9a95",
+ "name": "Immersifier",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 928708,
+  "type": 101,
+  "purposeId": 0,
+  "iconPath": "2576e9161a4cfe2cd2dd0729a4b8fb4602be2336cc8598c53f14a74d6a5e9a95",
+  "name": "Immersifier",
+  "desc": "This item can be exchanged for <nobr>40</nobr> Trailblaze Power, and is used to exchange for Immersion Rewards in the Simulated Universe",
+  "lore": "This digitized Trailblaze Power can only be used in the Simulated Universe.<br /><br />\"Explore, understand, establish, and connect \u2014 that is what it means to trailblaze. Akivili may have fallen, but their legacy continues!\"",
+  "purpose": "",
+  "rarity": 4,
+  "rewardPath": "/material/928708",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "928708"
+}

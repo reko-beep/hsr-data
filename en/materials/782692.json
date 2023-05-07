@@ -1,0 +1,97 @@
+{
+ "iconPath": "7a42ca2323eb2224644c54f364da09df012442c0e83d9b460e8bf46348bcd8f1",
+ "name": "Enigmatic Ectostella",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 782692,
+  "type": 601,
+  "purposeId": 2,
+  "iconPath": "7a42ca2323eb2224644c54f364da09df012442c0e83d9b460e8bf46348bcd8f1",
+  "name": "Enigmatic Ectostella",
+  "desc": "A fathomless crystal. Ascension material for the Trailblazer.",
+  "lore": "Severed from the highest of beings, this crystal reflects ever-changing mirages. The Past and future intertwine on each of its countless facets, attempting to swallow up all observers.<br /><br />\"Civilization is but a thin sheet of ice on top of the deep dark ocean of chaos.\"",
+  "purpose": "Character Ascension Materials",
+  "rarity": 4,
+  "rewardPath": "/material/782692",
+  "comeFrom": [
+   "Mission Rewards",
+   "Level Rewards"
+  ]
+ },
+ "itemReferences": {
+  "175713": {
+   "id": 175713,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "f43b619415520e92c63ac94bfd8f3ee6549e93db005820f66930fe060f5f50dc",
+   "name": "Trailblazer",
+   "desc": "",
+   "lore": "",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/playerboy",
+   "comeFrom": []
+  },
+  "376299": {
+   "id": 376299,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "1d71c664653895890d5301323d29970f48a296f75bb928b550c109a9f7152c3d",
+   "name": "Trailblazer",
+   "desc": "",
+   "lore": "",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/playerboy2",
+   "comeFrom": []
+  },
+  "460240": {
+   "id": 460240,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "49c86bee23a1299d009fec8b67d38f0759dd4a35470643219317db4e498a8f37",
+   "name": "Trailblazer",
+   "desc": "",
+   "lore": "",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/playergirl",
+   "comeFrom": []
+  },
+  "891186": {
+   "id": 891186,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "eddef3d9b243093277acad00b38aff343f50e752d5f1231ba6464661a1eb0581",
+   "name": "Trailblazer",
+   "desc": "",
+   "lore": "",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/playergirl2",
+   "comeFrom": []
+  }
+ },
+ "composeData": [],
+ "avatarUsedBy": [
+  {
+   "id": 175713,
+   "rarity": 5
+  },
+  {
+   "id": 460240,
+   "rarity": 5
+  },
+  {
+   "id": 376299,
+   "rarity": 5
+  },
+  {
+   "id": 891186,
+   "rarity": 5
+  }
+ ],
+ "equipmentUsedBy": [],
+ "pageId": "782692"
+}

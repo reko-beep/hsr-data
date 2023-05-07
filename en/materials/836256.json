@@ -1,0 +1,285 @@
+{
+ "iconPath": "e0a98987f6f4c66f28c5b9b79a757e590ae649d0e44ec47ada0ec1bac39e78fa",
+ "name": "Stellaris Symphony",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 836256,
+  "type": 601,
+  "purposeId": 3,
+  "iconPath": "e0a98987f6f4c66f28c5b9b79a757e590ae649d0e44ec47ada0ec1bac39e78fa",
+  "name": "Stellaris Symphony",
+  "desc": "A music box with complex structures made by an unknown person. Used to level up Traces significantly for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Harmony</span> characters.",
+  "lore": "It plays a powerful galactic symphony.<br /><br />\"Some astronomers believe that the revolutions of the heavenly spheres work the same as complex mechanical structures. The crystal clear and pleasant notes emitted during the movements of the stars are known as the 'Harmony of the Heavenly Spheres.'\"",
+  "purpose": "Trace Material<br />Light Cone Ascension Material",
+  "rarity": 4,
+  "rewardPath": "/material/836256",
+  "comeFrom": [
+   "Calyx (Robot Settlement)",
+   "Omni-Synthesizer \u2014 Material Synthesis"
+  ]
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "0e76659bbb3b9d0b1cc6a4e0e8c63a576c7b917f2f740a4b1b8ceab260a8a595",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards"
+   ]
+  },
+  "39352": {
+   "id": 39352,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "0a503b994b5072a87ac5159632f0e30289601632e4c0c10afac8070a569e95bc",
+   "name": "Carve the Moon, Weave the Clouds",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Harmony</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "He immediately falls in love with the golden vessel and is about to buy it,<br />but the Foxian girl drags him aside and whispers:<br />\"Please return at night, Mr. Benefactor, and make up your mind then.\"<br /><br />As promised, he returns at night.<br />The same Foxian girl opens the door and smiles at him.<br />\"Please follow me, Mr. Benefactor.\"<br /><br />A ray of moonlight shines onto the base of the etched plate.<br />The artisan had traced the petals with lines of various depths, and he would not be able to see such details without the moonlight.<br /><br />He finally recalls why this item is called \"Carve the Moon, Weave the Clouds.\"",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21032",
+   "comeFrom": []
+  },
+  "79826": {
+   "id": 79826,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "cece5d235c61858d14d477257f5dd467309bcc2590ee465b0f93bdda9335e2d9",
+   "name": "But the Battle Isn't Over",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Harmony</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "\"Remember, the war with the monsters cannot be won by retreating.\"<br />\"We are the last defense, the final iron wall between them and Belobog...\"<br />\"We cannot retreat under any circumstances!\"<br /><br />She looks up to see the frozen earth and endless winter ahead.<br />Business as usual.<br />Only that... the figure at which she had been gazing is gone.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/lightcone/23003",
+   "comeFrom": []
+  },
+  "337981": {
+   "id": 337981,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "879c32651bb4bfdb65cb21106775fec38cdbb78182e5990075684c6fdd9e4203",
+   "name": "Bronya",
+   "desc": "",
+   "lore": "Heir apparent to the Supreme Guardian of Belobog.<br />She possesses pride befitting of a princess, but also the determination and integrity of a soldier.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/bronya",
+   "comeFrom": []
+  },
+  "416541": {
+   "id": 416541,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "f577f6f4c33429a9b2c5c5836f8426f78808cfed465b9baedfea917c17de2f4b",
+   "name": "Tingyun",
+   "desc": "",
+   "lore": "Amicassador of the Sky-Faring Commission of the Xianzhou Luofu.<br />She travels with business delegates, forging trade relationships and alliances with many worlds.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/character/tingyun",
+   "comeFrom": []
+  },
+  "676265": {
+   "id": 676265,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "56a38064d87b335b2bb2699e8a8eb70395c13aa70cde009ef5c7776f8c356aab",
+   "name": "Meshing Cogs",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Harmony</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate. <br /><br />\"Harmony is achieved when everyone does their bit amidst the clunking of machines.\"",
+   "purpose": "",
+   "rarity": 3,
+   "rewardPath": "/lightcone/20012",
+   "comeFrom": []
+  },
+  "676274": {
+   "id": 676274,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "5ecf5d21966ea38bb3ece174a5847b71ddaa9f9b327ce4bedaa1ac319dbf358e",
+   "name": "Mediation",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Harmony</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate. <br /><br />\"What can be more joyous than purging disharmony?\"",
+   "purpose": "",
+   "rarity": 3,
+   "rewardPath": "/lightcone/20019",
+   "comeFrom": []
+  },
+  "754823": {
+   "id": 754823,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "ab2e42bfac5438196efd4340017a4428dc4cb391e1e51d7b16ace98c4deed3e0",
+   "name": "Memories of the Past",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Harmony</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "An old photo lies on the far end of the table in the guardian's residence.<br />She would always subconsciously move her eyes away whenever she happened to see it.<br />The memories of the past had already become distant, but the dreams of today still linger.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21004",
+   "comeFrom": []
+  },
+  "792907": {
+   "id": 792907,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "355cedd2ebf13edb19c1646277663ebc12a72a613cf3e5032c875fa35131db38",
+   "name": "Chorus",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Harmony</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.<br /><br />\"Fingers clutch to make a fist, strength is built via numbers. I give myself for something higher \u2014 the concept of us.\"",
+   "purpose": "",
+   "rarity": 3,
+   "rewardPath": "/lightcone/20005",
+   "comeFrom": []
+  },
+  "838767": {
+   "id": 838767,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "a41907c35b20d73063735d0d14e4275f5cd8571bb69f0223fa706f49e63d935a",
+   "name": "Planetary Rendezvous",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Harmony</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "She had no idea what to expect when she first started out on this journey.<br />All she knew was that she could at long last be rid of the judgmental eyes and petty bickering of her family.<br />She felt she finally understood what the poet was trying to say.<br />\"One day, we would grow wings and forget what it was like to walk.\"<br /><br />The light in her eyes became the glittering stars.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21011",
+   "comeFrom": []
+  },
+  "838776": {
+   "id": 838776,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "a81b6edfe45162eeb38bb9cacea96d337b7b6f4f4e4bd849742d643db4b919bf",
+   "name": "Dance! Dance! Dance!",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Harmony</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "\"Why couldn't Hook do a spinning dance move, just like how Clara does?\"<br />She clenched her tiny fists and pouted her cute lips, her chubby little face looking redder than ever under her signature felt hat.<br />\"Please, Mr. Svarog, can you please help Hook with this?\"<br />Without saying any words, Mr. Svarog began to hold out his robotic arm.<br /><br />\"I'm g\u2014gonna be sick!!! Put me down now! Please!\"",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21018",
+   "comeFrom": []
+  },
+  "920197": {
+   "id": 920197,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "2e991dc7b3d976ae72c1f7dfcc0cfb1ff4c33223d33db5479a3dcd8d039ffa1a",
+   "name": "Ancestral Hymn",
+   "desc": "A music box made by an unknown person. Used to level up Traces moderately for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Harmony</span> characters.",
+   "lore": "It plays a hymn sung by a small band.<br />It is impossible to find out to whom the lyric of the hymn sends its praise.<br /><br />\"Penury, trial of the Great One! Wealth, grace of the Great One!\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 3,
+   "rewardPath": "/material/920197",
+   "comeFrom": [
+    "Calyx (Robot Settlement)",
+    "Omni-Synthesizer \u2014 Material Synthesis"
+   ]
+  },
+  "945120": {
+   "id": 945120,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "901e84e641fd918331aa8318217d907c9164dd25ef7b0a240c96ba910447e913",
+   "name": "Asta",
+   "desc": "",
+   "lore": "The lead researcher of Herta Space Station and a lady from a renowned family.<br />She's an astronomer overflowing with curiosity, and excels at managing the disparate staff of the space station.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/character/asta",
+   "comeFrom": []
+  },
+  "955408": {
+   "id": 955408,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "3f04a75ad5633c8f4ce3acdd5539d6c5710f22328b5ac6b6740da50491964c03",
+   "name": "Past and Future",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Harmony</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "The wings of the paper kite in her hands were broken, brutally reminding her of her beloved's tragic passing.<br />She kneeled next to the fire of war, eyes full of sorrow.<br /><br />\"If you are the only one left to do this, then our sacrifice would...\"<br /><br />Gunfire raged on, painting the sky red without dampening its majesty.<br />She looked up at the sky, eyes full of fury.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21025",
+   "comeFrom": []
+  }
+ },
+ "composeData": [
+  {
+   "items": [
+    {
+     "id": 920197,
+     "count": 3
+    },
+    {
+     "id": 29328,
+     "count": 20
+    }
+   ],
+   "tag": {
+    "name": "Traces Leveling Material",
+    "type": "Traces Activation Materials",
+    "icon": "ffdbab3c38d4fc15596f399cfde9f2eb0717184b00df444cbae165a965fb928a"
+   }
+  }
+ ],
+ "avatarUsedBy": [
+  {
+   "id": 945120,
+   "rarity": 4
+  },
+  {
+   "id": 337981,
+   "rarity": 5
+  },
+  {
+   "id": 416541,
+   "rarity": 4
+  }
+ ],
+ "equipmentUsedBy": [
+  {
+   "id": 792907,
+   "rarity": 3
+  },
+  {
+   "id": 676265,
+   "rarity": 3
+  },
+  {
+   "id": 676274,
+   "rarity": 3
+  },
+  {
+   "id": 754823,
+   "rarity": 4
+  },
+  {
+   "id": 838767,
+   "rarity": 4
+  },
+  {
+   "id": 79826,
+   "rarity": 5
+  },
+  {
+   "id": 39352,
+   "rarity": 4
+  },
+  {
+   "id": 838776,
+   "rarity": 4
+  },
+  {
+   "id": 955408,
+   "rarity": 4
+  }
+ ],
+ "pageId": "836256"
+}

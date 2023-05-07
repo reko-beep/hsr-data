@@ -1,0 +1,2349 @@
+{
+ "name": "Seele",
+ "spRequirement": 120,
+ "rarity": 5,
+ "descHash": "A resident of the Underworld and the backbone of Wildfire. She goes by the alias \"Babochka.\" She has a frank personality, but there is a delicate and sensitive hidden side to her deep in her heart.",
+ "iconPath": "82af8b28075e3b76482cd8c9a67106bb819646927a136753603250e879e14c58",
+ "bgPath": "43e8fa3216ad1250402bfa2cf36e5520995aeda8d2e7a895edc624f5e83d83c7",
+ "figPath": "7d916b660465d09876ee97d3c48fc8c308077cc742480ac2ca9d0b578f304ef5",
+ "fgPath": "90884972fb20b6cdc4ed6352d6a8598e297a4abe8f734a50849e1cef82d38951",
+ "artPath": "5c896521b207aa106834188ed16787bf281928ed30ec3344209cd75f596cc52b",
+ "miniIconPath": "ad793ee91085bfdc5c1c60934bb86df7fcf344a91de8b5ba3141a6655901b579",
+ "splashIconPath": "8f89a52834113ea934be4d34a18b8971f3696aec1862a6e89933416570b99eb3",
+ "damageType": {
+  "id": 32,
+  "iconPath": "c169a917eb0468e615f318e517070c0288247553d65c5e99ed809233284108e1",
+  "color": "#1C29BA",
+  "name": "Quantum",
+  "rarity": 0
+ },
+ "baseType": {
+  "id": 0,
+  "iconPath": "f888d91738330cac6e95609d73ab3c9d4be23794bb22c5257171857c4c722262",
+  "altIconPath": "09f49c24cff05770b7c6decea7821c42fb5ddb87f1141b08d9a2c7d8d9344efc",
+  "color": "#FFFFFF",
+  "name": "The Hunt",
+  "rarity": 0
+ },
+ "damageTypeId": 0,
+ "baseTypeId": 0,
+ "baseTypeTraces": {
+  "id": 2,
+  "iconPath": "c66788e18b85100348634e29b364a9e96096bfcd10a9607ae873ceb817744d83",
+  "color": "#FFFFFF",
+  "rarity": 0
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "0e76659bbb3b9d0b1cc6a4e0e8c63a576c7b917f2f740a4b1b8ceab260a8a595",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards"
+   ]
+  },
+  "125435": {
+   "id": 125435,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "75e6d3c477385eb36716ba1798609b01a9fe10893c1b3e9f9dc81046ad10d9b0",
+   "name": "Tracks of Destiny",
+   "desc": "Advanced level-up material for Traces.",
+   "lore": "Your victory is secured by countless failures, and the small steps you have taken led you to the turning point of fate.",
+   "purpose": "Trace Materials",
+   "rarity": 5,
+   "rewardPath": "/material/125435",
+   "comeFrom": [
+    "Simulated Universe Point Rewards",
+    "Nameless Honor",
+    "Embers Exchange",
+    "Limited-Time Event Rewards"
+   ]
+  },
+  "270195": {
+   "id": 270195,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "ed0c6ddf746bb8fe5f178943cd2836c9c4f98c2647479d389e2640b5f38d1317",
+   "name": "Guardian's Lament",
+   "desc": "Advanced level-up material for Traces.",
+   "lore": "Together with this visor, the twisted wish of a Guardian also lies broken.<br />She had wanted to find a way out for her people to escape the Everwinter, but ended up becoming a puppet of a consciousness beyond her.<br /><br />\"Supreme Guardian, the title passed down to generations of Belobog's rulers, the one who looked after all the people \u2014 It never occurred to anyone that the Guardians themselves also long for care and protection.\"",
+   "purpose": "Trace Materials",
+   "rarity": 4,
+   "rewardPath": "/material/270195",
+   "comeFrom": [
+    "Echo of War (Everwinter Hill)"
+   ]
+  },
+  "351746": {
+   "id": 351746,
+   "type": 601,
+   "purposeId": 2,
+   "iconPath": "559c24ffae40e390bfec262f621e30b0b209f6d487b122f6bc54b0e7dada8353",
+   "name": "Void Cast Iron",
+   "desc": "Horseshoe of a Voidranger: Trampler. Can be used for the Ascension of Quantum characters.",
+   "lore": "Rare horseshoe obtained when a Trampler of the Antimatter Legion is defeated. When no one is observing, it pops in and out of existence.<br /><br />\"The name of the experiment? It's just called \"Horseshoe of the Trampler\"... \"",
+   "purpose": "Character Ascension Materials",
+   "rarity": 4,
+   "rewardPath": "/material/351746",
+   "comeFrom": [
+    "Stagnant Shadow (Base Zone)",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "409960": {
+   "id": 409960,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "607961a38d9fe4f935578e9ea7b4de093d68ff8258b0b52c3cd4261e5cd92932",
+   "name": "Traveler's Guide",
+   "desc": "Experience material for characters. Provides <nobr>20,000</nobr> Character EXP.",
+   "lore": "Required reading for world exploration. Press the \"Read\" button to tune in to an attractive voice in a language you understand, telling you about the legendary encounters of renowned adventurers across different worlds as well as the precious wisdom and knowledge that they have gathered.<br /><br />\"All-new series of the Traveler's Guide, The Chef's Manual to Galactic Cuisine, is now available for purchase.\"<br />\"For submissions, please connect to synesthesia beacon ERD<nobr>-23</nobr>\u03b8 to contact an Intelligentsia Guild representative. Method of payment can be arranged to your convenience.\"",
+   "purpose": "Character EXP Material",
+   "rarity": 4,
+   "rewardPath": "/material/409960",
+   "comeFrom": [
+    "Calyx (Outlying Snow Plains)",
+    "Forgotten Hall"
+   ]
+  },
+  "409961": {
+   "id": 409961,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "05ef6659e951dd69d862823c86470487d68c24209400d4391df1f50bbc21ab42",
+   "name": "Adventure Log",
+   "desc": "Experience material for characters. Provides <nobr>5000</nobr> Character EXP.",
+   "lore": "A neatly organized collection of educational adventure notes containing countless illustrations and texts entailing adventures from beginning to end, as well as valuable information and survival-related techniques.<br /><br />\"Why not just digitize it and save it on a photolith disk? That'd be much more convenient.\"<br />\"Advanced technology is far more fragile than you'd think when faced with stellar storms and neuron flow eruptions. Besides, I'm sure the author of this book wanted people to read it in the simplest of ways.\"",
+   "purpose": "Character EXP Material",
+   "rarity": 3,
+   "rewardPath": "/material/409961",
+   "comeFrom": [
+    "Calyx (Outlying Snow Plains)",
+    "Daily Training"
+   ]
+  },
+  "409962": {
+   "id": 409962,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "ad5070f0ef2447ee09fb3b0d859ab3c594538eaa58b71a14ffcbd4b2b493c1c5",
+   "name": "Travel Encounters",
+   "desc": "Experience material for characters. Provides <nobr>1000</nobr> Character EXP.",
+   "lore": "A travel diary with messy handwriting and random content. It's not of much use to you.<br /><br />\"Dan Heng, hurry up and finish reading it so you can throw it away.\"",
+   "purpose": "Character EXP Material",
+   "rarity": 2,
+   "rewardPath": "/material/409962",
+   "comeFrom": [
+    "Calyx (Outlying Snow Plains)",
+    "Assignment rewards"
+   ]
+  },
+  "549437": {
+   "id": 549437,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "5930a427c19aedca23d55eb6ef670cc8ecf07466630281586f32f4d5e8d49409",
+   "name": "Thief's Instinct",
+   "desc": "A small amount of anti-matter. Crude material used for enhancement.",
+   "lore": "A small amount of anti-matter that emanates out of the Voidranger: Reaver like the materialization of its destructive instinct.<br /><br />\"They are all looking forward to the moment of obliteration, when they will be reforged and fused with the entire world.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 2,
+   "rewardPath": "/material/549437",
+   "comeFrom": [
+    "Storage Zone: Voidranger: Reavers or other enemies",
+    "Supply Zone: Voidranger: Reavers or other enemies",
+    "Simulated Universe enemies",
+    "Assignment rewards",
+    "Embers Exchange",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "633378": {
+   "id": 633378,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "69d0630f4dc8d8bb4706a8a973f720ce46452e189a62c7b8b6f2ca8d567ca8ae",
+   "name": "Usurper's Scheme",
+   "desc": "A moderate amount of anti-matter. Normal material used for enhancement.",
+   "lore": "A moderate amount of anti-matter that floats around the Voidranger: Distorter. The amount of matter and anti-matter particles has reached a dangerous balance...<br /><br />\"They are all looking forward to the moment of obliteration, when they will be reforged and fused with the entire world.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 3,
+   "rewardPath": "/material/633378",
+   "comeFrom": [
+    "Storage Zone: Equilibrium Level 2+ Voidranger: Reavers or other enemies",
+    "Supply Zone: Equilibrium Level 2+ Voidranger: Reavers or other enemies",
+    "Omni-Synthesizer \u2014 Material Synthesis",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "635674": {
+   "id": 635674,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "cb316badc06db5719753768d375ae94463fad49721b56569985ab88a684474c4",
+   "name": "Arrow of the Beast Hunter",
+   "desc": "An arrowhead forged with Frost Steel by the craftsmen of Xianzhou. Used to level up Traces slightly for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Hunt</span> characters.",
+   "lore": "A gift that parents give to their children who've successfully hunted their first prey at their coming of age ceremony. It is a blessing that their life would be as successful and true as an arrow heading towards its mark.<br /><br />\"May the arrow on your waist and the sword in your sheath stay true and always find its target.\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 2,
+   "rewardPath": "/material/635674",
+   "comeFrom": [
+    "Calyx (Outlying Snow Plains)"
+   ]
+  },
+  "717319": {
+   "id": 717319,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "ea7f9727e8ba2c2039043d319ab4aa087ca6dbf08ec08876b1418d42c0f8a670",
+   "name": "Conqueror's Will",
+   "desc": "Condensed anti-matter. Advanced material used for enhancement.",
+   "lore": "Highly condensed anti-matter within the body of the Voidranger: Trampler. The moment of obliteration is the trumpet call for civilizations' destruction.<br /><br />\"They are all looking forward to the moment of obliteration, when they will be reforged and fused with the entire world.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 4,
+   "rewardPath": "/material/717319",
+   "comeFrom": [
+    "Storage Zone: Equilibrium Level 4+ Voidranger: Reavers or other enemies",
+    "Supply Zone: Equilibrium Level 4+ Voidranger: Reavers or other enemies",
+    "Omni-Synthesizer \u2014 Material Synthesis",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "836260": {
+   "id": 836260,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "f0bb6fd4143f707987f651fa21b81257202d038949944fa22d7615ad342d5bfa",
+   "name": "Arrow of the Starchaser",
+   "desc": "A shard of the Sky-Shattering Lux Arrow shot by the Reignbow Arbiter. Used to level up Traces significantly for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Hunt</span> characters.",
+   "lore": "The remains of a divine construct that ordinary humans can rarely behold. What kind of force can shatter stars that are light-years away? Humanity can only imagine the power of the Lux Arrow from the ashes it left behind.<br />Only the Furnace Master, chief of the Xianzhou artisans, has the rights to reforge the shards for those who are worthy.<br /><br />\"The death of a star shall shine bright for ages to come.\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 4,
+   "rewardPath": "/material/836260",
+   "comeFrom": [
+    "Calyx (Outlying Snow Plains)",
+    "Omni-Synthesizer \u2014 Material Synthesis"
+   ]
+  },
+  "920201": {
+   "id": 920201,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "a9dabc100dfb0916188799f2d83770e60721301f4d7c930b850ae55815281ad1",
+   "name": "Arrow of the Demon Slayer",
+   "desc": "An arrowhead forged with Stellaris Essence by the craftsmen of Xianzhou. Used to level up Traces moderately for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Hunt</span> characters.",
+   "lore": "An arrow narrower than a finger's width. It can be loaded into an electromagnetic crossbow or a thermal seeking bow as ammunition. Its power is enough to penetrate the tough shells of abominations with just one strike.<br /><br />\"The celestial banished arrives from afar, great distances journeyed 'twixt oceans of stars. Like rain falls a cloudburst of arrows below, in a helmet reflected the bright lunar glow.\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 3,
+   "rewardPath": "/material/920201",
+   "comeFrom": [
+    "Calyx (Outlying Snow Plains)",
+    "Omni-Synthesizer \u2014 Material Synthesis"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 4000
+    },
+    {
+     "id": 549437,
+     "count": 5
+    }
+   ],
+   "attackBase": 87.12,
+   "attackAdd": 4.356,
+   "hpBase": 126.72,
+   "hpAdd": 6.336,
+   "defenseBase": 49.5,
+   "defenseAdd": 2.475,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 115,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 8000
+    },
+    {
+     "id": 549437,
+     "count": 10
+    }
+   ],
+   "attackBase": 121.968,
+   "attackAdd": 4.356,
+   "hpBase": 177.408,
+   "hpAdd": 6.336,
+   "defenseBase": 69.3,
+   "defenseAdd": 2.475,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 115,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 16000
+    },
+    {
+     "id": 633378,
+     "count": 6
+    },
+    {
+     "id": 351746,
+     "count": 3
+    }
+   ],
+   "attackBase": 156.816,
+   "attackAdd": 4.356,
+   "hpBase": 228.096,
+   "hpAdd": 6.336,
+   "defenseBase": 89.1,
+   "defenseAdd": 2.475,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 115,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 40000
+    },
+    {
+     "id": 633378,
+     "count": 9
+    },
+    {
+     "id": 351746,
+     "count": 7
+    }
+   ],
+   "attackBase": 191.664,
+   "attackAdd": 4.356,
+   "hpBase": 278.784,
+   "hpAdd": 6.336,
+   "defenseBase": 108.9,
+   "defenseAdd": 2.475,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 115,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 80000
+    },
+    {
+     "id": 717319,
+     "count": 6
+    },
+    {
+     "id": 351746,
+     "count": 20
+    }
+   ],
+   "attackBase": 226.512,
+   "attackAdd": 4.356,
+   "hpBase": 329.472,
+   "hpAdd": 6.336,
+   "defenseBase": 128.7,
+   "defenseAdd": 2.475,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 115,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 160000
+    },
+    {
+     "id": 717319,
+     "count": 9
+    },
+    {
+     "id": 351746,
+     "count": 35
+    }
+   ],
+   "attackBase": 261.36,
+   "attackAdd": 4.356,
+   "hpBase": 380.16,
+   "hpAdd": 6.336,
+   "defenseBase": 148.5,
+   "defenseAdd": 2.475,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 115,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": [],
+   "attackBase": 296.208,
+   "attackAdd": 4.356,
+   "hpBase": 430.848,
+   "hpAdd": 6.336,
+   "defenseBase": 168.3,
+   "defenseAdd": 2.475,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 115,
+   "speedAdd": 0
+  }
+ ],
+ "ranks": [
+  {
+   "id": 1,
+   "iconPath": "",
+   "artPath": "56a9be2b9e98f2f997108499b65b029469a392d6a2d36e7fb6ec9d3fde3c4d1a",
+   "name": "Extirpating Slash",
+   "descHash": "When dealing DMG to an enemy whose HP percentage is <nobr>#1[i]%</nobr> or lower, CRIT Rate increases by <nobr>#2[i]%</nobr>.",
+   "params": [
+    0.8,
+    0.15
+   ]
+  },
+  {
+   "id": 2,
+   "iconPath": "",
+   "artPath": "f8912ea29ebc428335a54ca7b1f89be47e5f23b44dcfba789549c4b77a73cd4e",
+   "name": "Dancing Butterfly",
+   "descHash": "The SPD Boost effect of Seele's Skill can stack up to <nobr>#1[i]</nobr> time(s).",
+   "params": [
+    2
+   ]
+  },
+  {
+   "id": 3,
+   "iconPath": "",
+   "artPath": "11be4a7265373af56c41688243f0cd5ae37ee02df7878700c3283b536ea9c6f1",
+   "name": "Dazzling Tumult",
+   "descHash": "Skill Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Talent Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.",
+   "params": []
+  },
+  {
+   "id": 4,
+   "iconPath": "",
+   "artPath": "9eac8cad91e0501ffdaeab4571f8a74d562c532a0d8e0e24e8d17cd49b301aff",
+   "name": "Flitting Phantasm",
+   "descHash": "Seele regenerates <nobr>#1[i]</nobr> Energy when she defeats an enemy.",
+   "params": [
+    15
+   ]
+  },
+  {
+   "id": 5,
+   "iconPath": "",
+   "artPath": "e5450fddc3f6c0e50f9f8012a539bf2af1318cdc4ba1e3215af7aabbc2fa8091",
+   "name": "Piercing Shards",
+   "descHash": "Ultimate Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Basic ATK Lv. +1, up to a maximum of Lv. <nobr>10</nobr>.",
+   "params": []
+  },
+  {
+   "id": 6,
+   "iconPath": "",
+   "artPath": "38d038492be0bd081aee0530f492e4b4e7d9c6b229be43c99e66a2583aebc9be",
+   "name": "Shattering Shambles",
+   "descHash": "After Seele uses her Ultimate, inflict the target enemy with Butterfly Flurry for <nobr>#2[i]</nobr> turn(s). Enemies suffering from Butterfly Flurry will take Additional Quantum DMG equal to <nobr>#1[i]%</nobr> of Seele's Ultimate DMG every time they are attacked. If the target enemy is defeated by the Butterfly Flurry DMG triggered by other allies' attacks, Seele's Talent will not be triggered.<br />When Seele is knocked down, the Butterfly Flurry inflicted on the enemies will be removed.",
+   "params": [
+    0.15,
+    1
+   ]
+  }
+ ],
+ "skillGrouping": [
+  [
+   874343
+  ],
+  [
+   589816
+  ],
+  [
+   673757
+  ],
+  [
+   389230
+  ],
+  [
+   272585
+  ]
+ ],
+ "skills": [
+  {
+   "id": 874343,
+   "name": "Thwack",
+   "tagHash": "Single Target",
+   "descHash": "Deals <span style=\"color:#7788ff;\">Quantum</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Seele's ATK to a single enemy.",
+   "typeDescHash": "Basic ATK",
+   "iconPath": "3dc25766cb3a1542f3656de8afd55add0ef6132135d3d4fde192a407dfd7afba",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      0.5
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 2,
+     "params": [
+      0.6
+     ],
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635674,
+       "count": 3
+      },
+      {
+       "id": 549437,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "params": [
+      0.7
+     ],
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920201,
+       "count": 3
+      },
+      {
+       "id": 633378,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "params": [
+      0.8
+     ],
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920201,
+       "count": 5
+      },
+      {
+       "id": 633378,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "params": [
+      0.9
+     ],
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836260,
+       "count": 3
+      },
+      {
+       "id": 717319,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "params": [
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836260,
+       "count": 8
+      },
+      {
+       "id": 717319,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "params": [
+      1.1
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 8,
+     "params": [
+      1.2
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 9,
+     "params": [
+      1.3
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  },
+  {
+   "id": 589816,
+   "name": "Sheathed Blade",
+   "tagHash": "Single Target",
+   "descHash": "Increases Seele's SPD by <nobr>#2[i]%</nobr> for <nobr>#3[i]</nobr> turn(s) and deals <span style=\"color:#7788ff;\">Quantum</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Seele's ATK to a single enemy.",
+   "typeDescHash": "Skill",
+   "iconPath": "f2b12b4ab57dfb38258b09bd8ae76ea0447d1ea2ce0be028d435eb61e5cab77c",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      1.1,
+      0.25,
+      2
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 2,
+     "params": [
+      1.21,
+      0.25,
+      2
+     ],
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 549437,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "params": [
+      1.32,
+      0.25,
+      2
+     ],
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635674,
+       "count": 3
+      },
+      {
+       "id": 549437,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "params": [
+      1.43,
+      0.25,
+      2
+     ],
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920201,
+       "count": 3
+      },
+      {
+       "id": 633378,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "params": [
+      1.54,
+      0.25,
+      2
+     ],
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920201,
+       "count": 5
+      },
+      {
+       "id": 633378,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "params": [
+      1.65,
+      0.25,
+      2
+     ],
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920201,
+       "count": 7
+      },
+      {
+       "id": 633378,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "params": [
+      1.7875,
+      0.25,
+      2
+     ],
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836260,
+       "count": 3
+      },
+      {
+       "id": 717319,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "params": [
+      1.925,
+      0.25,
+      2
+     ],
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836260,
+       "count": 5
+      },
+      {
+       "id": 270195,
+       "count": 1
+      },
+      {
+       "id": 717319,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "params": [
+      2.0625,
+      0.25,
+      2
+     ],
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836260,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "params": [
+      2.2,
+      0.25,
+      2
+     ],
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836260,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 11,
+     "params": [
+      2.31,
+      0.25,
+      2
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 12,
+     "params": [
+      2.42,
+      0.25,
+      2
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 13,
+     "params": [
+      2.53,
+      0.25,
+      2
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 14,
+     "params": [
+      2.64,
+      0.25,
+      2
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 15,
+     "params": [
+      2.75,
+      0.25,
+      2
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  },
+  {
+   "id": 673757,
+   "name": "Butterfly Flurry",
+   "tagHash": "Single Target",
+   "descHash": "Seele enters the buffed state and deals <span style=\"color:#7788ff;\">Quantum</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of her ATK to a single enemy.",
+   "typeDescHash": "Ultimate",
+   "iconPath": "0b58694d637f21bd32a46d37b23baf1f2e502f0761bab031c7cfed8f9aed3d6e",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      2.55
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 2,
+     "params": [
+      2.72
+     ],
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 549437,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "params": [
+      2.89
+     ],
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635674,
+       "count": 3
+      },
+      {
+       "id": 549437,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "params": [
+      3.06
+     ],
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920201,
+       "count": 3
+      },
+      {
+       "id": 633378,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "params": [
+      3.23
+     ],
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920201,
+       "count": 5
+      },
+      {
+       "id": 633378,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "params": [
+      3.4
+     ],
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920201,
+       "count": 7
+      },
+      {
+       "id": 633378,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "params": [
+      3.6125
+     ],
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836260,
+       "count": 3
+      },
+      {
+       "id": 717319,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "params": [
+      3.825
+     ],
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836260,
+       "count": 5
+      },
+      {
+       "id": 270195,
+       "count": 1
+      },
+      {
+       "id": 717319,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "params": [
+      4.0375
+     ],
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836260,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "params": [
+      4.25
+     ],
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836260,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 11,
+     "params": [
+      4.42
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 12,
+     "params": [
+      4.59
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 13,
+     "params": [
+      4.76
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 14,
+     "params": [
+      4.93
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 15,
+     "params": [
+      5.1
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ],
+   "ultimateCost": 120
+  },
+  {
+   "id": 389230,
+   "name": "Resurgence",
+   "tagHash": "Enhance",
+   "descHash": "Enters the buffed state upon defeating an enemy with Basic ATK, Skill, or Ultimate, and receives an <u>extra turn</u>. While in the buffed state, the DMG of Seele's attacks increases by <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span> for <nobr>#2[i]</nobr> turn(s).<br />Enemies defeated in the <u>extra turn</u> provided by \"Resurgence\" will not trigger another \"Resurgence.\"",
+   "typeDescHash": "Talent",
+   "iconPath": "031e3d850b19c3d4db0e143da5d4da9690e7f26f4be15f06aca1ad2e7aa36d1b",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      0.4,
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 2,
+     "params": [
+      0.44,
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 549437,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "params": [
+      0.48,
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635674,
+       "count": 3
+      },
+      {
+       "id": 549437,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "params": [
+      0.52,
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920201,
+       "count": 3
+      },
+      {
+       "id": 633378,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "params": [
+      0.56,
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920201,
+       "count": 5
+      },
+      {
+       "id": 633378,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "params": [
+      0.6,
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920201,
+       "count": 7
+      },
+      {
+       "id": 633378,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "params": [
+      0.65,
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836260,
+       "count": 3
+      },
+      {
+       "id": 717319,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "params": [
+      0.7,
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836260,
+       "count": 5
+      },
+      {
+       "id": 270195,
+       "count": 1
+      },
+      {
+       "id": 717319,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "params": [
+      0.75,
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836260,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "params": [
+      0.8,
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836260,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 11,
+     "params": [
+      0.84,
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 12,
+     "params": [
+      0.88,
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 13,
+     "params": [
+      0.92,
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 14,
+     "params": [
+      0.96,
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 15,
+     "params": [
+      1,
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  },
+  {
+   "id": 188644,
+   "name": "Attack",
+   "tagHash": "",
+   "descHash": "Attack an enemy, and when the battle starts, reduce their Toughness of the corresponding Type.",
+   "typeDescHash": "",
+   "iconPath": "3dc25766cb3a1542f3656de8afd55add0ef6132135d3d4fde192a407dfd7afba",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  },
+  {
+   "id": 272585,
+   "name": "Phantom Illusion",
+   "tagHash": "Enhance",
+   "descHash": "After using her Technique, Seele gains Stealth for <nobr>#1[i]</nobr> second(s). While Stealth is active, Seele cannot be detected by enemies. And when entering battle by attacking enemies, Seele will immediately enter the buffed state.",
+   "typeDescHash": "Technique",
+   "iconPath": "e0c8d8119099a67d94c6d734040e9e904157b2a8a73fa563402f2aca5d9a2c72",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      20
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  }
+ ],
+ "skillTreePoints": [
+  {
+   "id": 1102101,
+   "type": 1,
+   "children": [
+    {
+     "id": 1102202,
+     "type": 2,
+     "children": [
+      {
+       "id": 1102203,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 311059,
+        "name": "ATK Boost",
+        "levelReq": 0,
+        "promotionReq": 3,
+        "iconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5",
+        "statusList": [
+         {
+          "key": "ATK",
+          "value": 0.04
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 10000
+         },
+         {
+          "id": 920201,
+          "count": 3
+         },
+         {
+          "id": 633378,
+          "count": 3
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 311058,
+      "name": "CRIT DMG Boost",
+      "levelReq": 0,
+      "promotionReq": 2,
+      "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+      "statusList": [
+       {
+        "key": "CRIT DMG",
+        "value": 0.053
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 635674,
+        "count": 3
+       },
+       {
+        "id": 549437,
+        "count": 6
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "id": 310962,
+    "name": "Nightshade",
+    "descHash": "When current HP percentage is <nobr>#1[i]%</nobr> or lower, reduces the chance of being attacked by enemies.",
+    "iconPath": "59fa04bc855c9b919b8bec70290997266d3736c0cd7ededcb88f44887402f422",
+    "levelReq": 0,
+    "promotionReq": 2,
+    "levelData": [
+     {
+      "level": 1,
+      "params": [
+       0.5,
+       0.5
+      ],
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 635674,
+        "count": 3
+       },
+       {
+        "id": 270195,
+        "count": 1
+       }
+      ]
+     }
+    ],
+    "ultimateCost": 0
+   }
+  },
+  {
+   "id": 1102201,
+   "type": 2,
+   "children": [],
+   "embedBuff": {
+    "id": 311061,
+    "name": "ATK Boost",
+    "levelReq": 1,
+    "promotionReq": 0,
+    "iconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5",
+    "statusList": [
+     {
+      "key": "ATK",
+      "value": 0.04
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 2500
+     },
+     {
+      "id": 549437,
+      "count": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": 1102204,
+   "type": 2,
+   "children": [],
+   "embedBuff": {
+    "id": 311056,
+    "name": "DEF Boost",
+    "levelReq": 0,
+    "promotionReq": 3,
+    "iconPath": "2077c52919d0f523755a4d92ce338874b71561611a436572d8eb315a34f4a4c2",
+    "statusList": [
+     {
+      "key": "DEF",
+      "value": 0.05
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 10000
+     },
+     {
+      "id": 920201,
+      "count": 3
+     },
+     {
+      "id": 633378,
+      "count": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": 1102207,
+   "type": 2,
+   "children": [],
+   "embedBuff": {
+    "id": 311055,
+    "name": "ATK Boost",
+    "levelReq": 0,
+    "promotionReq": 5,
+    "iconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5",
+    "statusList": [
+     {
+      "key": "ATK",
+      "value": 0.06
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 45000
+     },
+     {
+      "id": 836260,
+      "count": 3
+     },
+     {
+      "id": 717319,
+      "count": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": 1102102,
+   "type": 1,
+   "children": [
+    {
+     "id": 1102205,
+     "type": 2,
+     "children": [
+      {
+       "id": 1102206,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 311054,
+        "name": "CRIT DMG Boost",
+        "levelReq": 0,
+        "promotionReq": 5,
+        "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+        "statusList": [
+         {
+          "key": "CRIT DMG",
+          "value": 0.08
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 45000
+         },
+         {
+          "id": 836260,
+          "count": 3
+         },
+         {
+          "id": 717319,
+          "count": 3
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 311057,
+      "name": "ATK Boost",
+      "levelReq": 0,
+      "promotionReq": 4,
+      "iconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5",
+      "statusList": [
+       {
+        "key": "ATK",
+        "value": 0.06
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 920201,
+        "count": 5
+       },
+       {
+        "id": 633378,
+        "count": 4
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "id": 310965,
+    "name": "Lacerate",
+    "descHash": "While Seele is in the buffed state, her <span style=\"color:#7788ff;\">Quantum</span> RES PEN increases by <nobr>#1[i]%</nobr>.",
+    "iconPath": "751b66713ea5d5812c3d419eb91e9b6b8b71e74656d343c19c3afca0aea3b9f9",
+    "levelReq": 0,
+    "promotionReq": 4,
+    "levelData": [
+     {
+      "level": 1,
+      "params": [
+       0.2
+      ],
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 920201,
+        "count": 5
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 270195,
+        "count": 1
+       }
+      ]
+     }
+    ],
+    "ultimateCost": 0
+   }
+  },
+  {
+   "id": 1102103,
+   "type": 1,
+   "children": [
+    {
+     "id": 1102208,
+     "type": 2,
+     "children": [
+      {
+       "id": 1102209,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 311069,
+        "name": "CRIT DMG Boost",
+        "levelReq": 75,
+        "promotionReq": 0,
+        "iconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648",
+        "statusList": [
+         {
+          "key": "CRIT DMG",
+          "value": 0.107
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 160000
+         },
+         {
+          "id": 836260,
+          "count": 8
+         },
+         {
+          "id": 717319,
+          "count": 8
+         }
+        ]
+       }
+      },
+      {
+       "id": 1102210,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 395001,
+        "name": "ATK Boost",
+        "levelReq": 80,
+        "promotionReq": 0,
+        "iconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5",
+        "statusList": [
+         {
+          "key": "ATK",
+          "value": 0.08
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 160000
+         },
+         {
+          "id": 836260,
+          "count": 8
+         },
+         {
+          "id": 717319,
+          "count": 8
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 311068,
+      "name": "DEF Boost",
+      "levelReq": 0,
+      "promotionReq": 6,
+      "iconPath": "2077c52919d0f523755a4d92ce338874b71561611a436572d8eb315a34f4a4c2",
+      "statusList": [
+       {
+        "key": "DEF",
+        "value": 0.075
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836260,
+        "count": 8
+       },
+       {
+        "id": 717319,
+        "count": 8
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "id": 310964,
+    "name": "Rippling Waves",
+    "descHash": "After using a Basic ATK, Seele's next action will be Advanced Forward by <nobr>#1[i]%</nobr>.",
+    "iconPath": "ec387810622f8115534010d35c2849406dd69598f72fe87404fad1bd6786a96d",
+    "levelReq": 0,
+    "promotionReq": 6,
+    "levelData": [
+     {
+      "level": 1,
+      "params": [
+       0.2
+      ],
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836260,
+        "count": 8
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 270195,
+        "count": 1
+       }
+      ]
+     }
+    ],
+    "ultimateCost": 0
+   }
+  }
+ ],
+ "relicRecommend": {
+  "twoPcSets": [],
+  "fourPcSets": [],
+  "props": [
+   {
+    "relicTypeHash": "Body",
+    "relicTypeIcon": "87a68da58f5ca7f656d3ebf27bc84c5c32aafd164f2406af6b95c0e46277496b",
+    "propertyName": "CRIT Rate",
+    "propertyIconPath": "2bf7f8117bb4bac5bac4a4b7866f2bf3c272b526b8d945ece48991383f5f9f96"
+   },
+   {
+    "relicTypeHash": "Feet",
+    "relicTypeIcon": "5d8394f899a9cc41333630a3475d525b65c4a7cf59d16cdc4ac0acccc082259c",
+    "propertyName": "SPD",
+    "propertyIconPath": "2483a985b6f7a2c277835369c71181b7f70d5f25238745319b6328780100a3fd"
+   },
+   {
+    "relicTypeHash": "Planar Sphere",
+    "relicTypeIcon": "fd22786ef5ef0aee8953005c423739fe85fd85b16b82a3f7f18910499a4368b5",
+    "propertyName": "Quantum DMG Boost",
+    "propertyIconPath": "7a1ea0cc58c53a61531e85b23c6f87852baae61b6f28018447b08a617cb93e1d"
+   },
+   {
+    "relicTypeHash": "Link Rope",
+    "relicTypeIcon": "245bb6e30915d9ab6a042e37499ad3a0b0d022208a5fee05417b7cd3c088e357",
+    "propertyName": "ATK",
+    "propertyIconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5"
+   }
+  ]
+ },
+ "voiceItems": [
+  {
+   "id": 1,
+   "title": "First Meeting",
+   "text": "Hey, I'm Seele. I'm a member of Wildfire down here in the Underworld. Wanna help me forge a future for the people?",
+   "unlockRequirement": "",
+   "cnUrl": "bc4a90259317351d5f79342989f0eaf0b63e47d32c1fcc6e9871d16b3bc6b541",
+   "jpUrl": "12ab5c01d0f240e9dff95fbeb40042cf275fe650f7e9f44724e35de6361de3b3",
+   "enUrl": "6ffd140f9c4043d391b06576561bb4dc9aa3aae93a196e31fdf42237bedb84d5",
+   "krUrl": "6c167ce09fd45d01da252a258d2acbc8fe53c5083c1924ae043bfa0e68753d6d"
+  },
+  {
+   "id": 2,
+   "title": "Greeting",
+   "text": "Right on time \u2014 let's start the patrol.",
+   "unlockRequirement": "",
+   "cnUrl": "efb33cb3b80fff1d8e6fab9c70d2d800e718820d4d608a3e32abe3491e88f6a7",
+   "jpUrl": "08d3367c7bb3da16eee006c8334dcddda0f209e0045d1534ddd074c1fa139388",
+   "enUrl": "766403fcaa12729428d908f21852fcda58cd7590684799c5227d93015876fdc9",
+   "krUrl": "afd33d09fabd7ec6382b631eaf4c3ce36b3827141fa800b47c0747c2c23c58d4"
+  },
+  {
+   "id": 3,
+   "title": "Parting",
+   "text": "Hey, you're about to fall asleep on your feet. Don't push yourself \u2014 I got this. Go get some rest.",
+   "unlockRequirement": "",
+   "cnUrl": "ae4e37f909c77e214d2911de44b1ba3f8a2e248ff0e6e345801fdc1909396c23",
+   "jpUrl": "9dcccb16749592b0ae2578456e470b02d8d6d23039a45e094134a2ae89ba3ed3",
+   "enUrl": "3cbac76ce413eac367903155c46f07877cd489b822bb8e0266ce7cded5cde5a7",
+   "krUrl": "8140999cba1d8187a1d0ed7dad28893f6d37983875509f0c07a2e447c6858bf5"
+  },
+  {
+   "id": 4,
+   "title": "About Self: Childhood",
+   "text": "Me as a child? Hook times ten.",
+   "unlockRequirement": "",
+   "cnUrl": "3aa461971a60f72fe6f1f401b7f8f034695614dbceef1ee08284ab1d1eb6a228",
+   "jpUrl": "21ab853c4186770c072d221465b6c83eab41df468cb2a0b5e87726055528da2d",
+   "enUrl": "908147a064e47cb93e012d404cc44c66a45d1e9b12cd5015cec4ebbf89b0df59",
+   "krUrl": "cfbd7640ce234a9197a5fa8241a7b37f444c63614d0e52a6bda49625ba3412d2"
+  },
+  {
+   "id": 5,
+   "title": "Chat: Life Underground",
+   "text": "We may live underground, but we won't be buried by this city.",
+   "unlockRequirement": "",
+   "cnUrl": "dc567903c7198625f220bab2da4d96fa5bc972f921beb56855834d3d77af751e",
+   "jpUrl": "989969911afd2d2aff15d5ad2b926633e4d6509fade1119e533bb7752dd58b5a",
+   "enUrl": "167052dac0618eff31ce06ed57a30763a13495eb647cb97746f2d13ac08a64bf",
+   "krUrl": "9f3f0ed21f599089305cad13c0bb0f5198c9e32dc878edfb25e9e00e603ae012"
+  },
+  {
+   "id": 6,
+   "title": "Hobbies",
+   "text": "I like to keep my scythe sharp so I can get a good night's sleep on it.",
+   "unlockRequirement": "",
+   "cnUrl": "15615cd19c8e48ce37bf49b9fdd0caa5777bfd1e9504cf4139d9e0bcc06071b7",
+   "jpUrl": "39975fdf809513bf36ed3d1b3fc6eef48988d7827ba2531b0d35dc02621620c2",
+   "enUrl": "d951f1f42adc3a157a869e4b2bd331296024e452af3b59d6de7295df6d69a254",
+   "krUrl": "ce68faadf92897e467a1e0248e0b7ff05578ff05b20f3b3a26a05e8e2bf16c54"
+  },
+  {
+   "id": 7,
+   "title": "Annoyances",
+   "text": "I'm over it now, but... when I was young, I used to keep my favorite comic books in the clinic. Then the other kids started borrowing them... permanently.",
+   "unlockRequirement": "",
+   "cnUrl": "a45eef42a3a38bb484b787d0c3bcafeb8610c8c6a2f8106fef942980c8768c0c",
+   "jpUrl": "ad9eb6361549839a09359fdef4332add7afefc3bf6d46a14d072253838a4391e",
+   "enUrl": "329100376a617c3a9a7daf4cfc53b8503bb40db09bf4ec53cc6488fd0d3ade71",
+   "krUrl": "35c620cda4aebd2c63d5755b7bc419d1ef13fe192b288d32277825f8ea6100ed"
+  },
+  {
+   "id": 8,
+   "title": "Something to Share",
+   "text": "The chief's right \u2014 sometimes a sharp blade is the only way to get people to come to their senses.",
+   "unlockRequirement": "",
+   "cnUrl": "b8b30988681e48078c5e5032c1bb109fbdbd6e81ab40b46507d5f1bdc8f99c33",
+   "jpUrl": "454345ac04ccd0243978560d64186839a81626ca5ba2702bc44d27714db53004",
+   "enUrl": "527c3ab151961b14b9a7c308230961f59dabb66059a8ab60eaac353be57a86a8",
+   "krUrl": "55322f5dbbf015c967ab50d5bdf28dd6dd8281d532677925e6feb5e55c0b463e"
+  },
+  {
+   "id": 9,
+   "title": "Knowledge",
+   "text": "Hmm... Can I see this Pom-Pom? Sounds like a talking teddy bear to me.",
+   "unlockRequirement": "",
+   "cnUrl": "35cccd1ddbd04303ce03a56510713b18b44d3f1b10c837d63495ac9d95118d12",
+   "jpUrl": "fe0d2f9342ea33b034e2ed1b11a773bf6816792b074d7498e1cde92333033dcd",
+   "enUrl": "c77471889a5b02b0751a281bc304e5a1314860ec22eaa9fa489da9e910d99d50",
+   "krUrl": "635824dde9382f8ae6cee81aeb29a2682a52a245a246f7278838d7f57e9ca95b"
+  },
+  {
+   "id": 10,
+   "title": "About Natasha",
+   "text": "I learned when I was a kid I that temper tantrums won't get you anywhere with Nat... Let's just say she knew how to give you a taste of your own medicine.",
+   "unlockRequirement": "",
+   "cnUrl": "8738734d45deb2e6ec83c510680d17ca9972d5883c47bc4195d1683c3008e930",
+   "jpUrl": "7413057f8c3986cabbf5a3fd40b173b96de7e62dfe54cef3707f58d1e83a579b",
+   "enUrl": "35202b0330712113c0382c6d5130af32d7bef226dfb8e9a7334baea7f0d4573d",
+   "krUrl": "5a34342a81ceca5e4bc886d3519b9c704ef7747aee0b5e1a3c502d732d5edabe"
+  },
+  {
+   "id": 11,
+   "title": "About Clara",
+   "text": "That girl doesn't talk much, but... I know she doesn't see us as her enemy.",
+   "unlockRequirement": "",
+   "cnUrl": "84d89a08dac05507d88d6489575927465d1b7253c6dab313f5851cdddea3af6b",
+   "jpUrl": "6167b396c093df8e9102ce67c7a9c84928b7a5a8bfd9eb17348244443c453376",
+   "enUrl": "3db28688d4c20e88d04aeb3f6c2b3cc0e03ae0c4ee76558eb893ff70d596af08",
+   "krUrl": "c2f3f1417c02b488461654188d2ebe53a9117fd922fbc2d4e5ba2c6d9113e059"
+  },
+  {
+   "id": 12,
+   "title": "About Svarog",
+   "text": "Heh, Svarog's always going on about \"humanity's endless conflicts,\" but you don't get peace by offering everything up on a silver platter.",
+   "unlockRequirement": "",
+   "cnUrl": "dc41147639515e894189c0a0d2856d8f6c773b0c56026e0ccc11b134830d07c0",
+   "jpUrl": "bab65a98a9e300ab06e2ffe99a92b1bc324a56dbdf1cd554fb2b1329a80a4043",
+   "enUrl": "a8ddb9a162370bfe01728e6da0afee4e84e6c983a2ae6f05308cee61502b284d",
+   "krUrl": "eed786c2fb6c4c6f2373d71838d31fdd723cf4772cc8476eaed6cb1a6615331a"
+  },
+  {
+   "id": 13,
+   "title": "About Sampo",
+   "text": "If you need something doing, he might be your man. But if you feel like befriending him, do yourself a favor: don't.",
+   "unlockRequirement": "",
+   "cnUrl": "23513b7d6db94d5e54ee4a671803d44f28d4196c9edd422aa683a325e02d5459",
+   "jpUrl": "06774f45d1a0fb34a6a15dc1ccaccac0d1fb11cfa46c44a7ec2d2692609a5d84",
+   "enUrl": "86a1305a1d477a3543c598195eca08cc417a97724da83e0d4a6b215c5d94393a",
+   "krUrl": "7f677ca67f9507d7771e885d9bb9a85566b9dfb1157ad6ac9024bd23b0262633"
+  },
+  {
+   "id": 14,
+   "title": "About Hook",
+   "text": "Don't let her appetite for chaos fool you \u2014 I think that kid's going places.",
+   "unlockRequirement": "",
+   "cnUrl": "c36d2a8ceeaf7b518c684cc6c0228358b4d82ea5d66b8625bf338e1cbe4e0ea4",
+   "jpUrl": "acc39d2013cc68f5321e3297d57435092a53cf2192b88f33f34bcd5525f9f42a",
+   "enUrl": "b39ab93c4e50a00f0b0577b820eea5cff9d74eaaa23753ecaadccfa34020e71a",
+   "krUrl": "5d146752e6a676b5468762cab744c5d29bc950694ab14cd7d35636f424a39fdc"
+  },
+  {
+   "id": 15,
+   "title": "About Oleg",
+   "text": "I probably owe my life to the chief.",
+   "unlockRequirement": "",
+   "cnUrl": "b706ebd2b24a05f7db81853b108f2fad5418d541573852e15c3e5d2d0902fe94",
+   "jpUrl": "253be307885b8245322ce826a2122178a58a64d3f4b18a3820fb0be54e0be958",
+   "enUrl": "c9ea9cc9ce9e1fb26984a2959d9e3a1b97c55dfe9d8fb1e8a09d0583f9b2c76b",
+   "krUrl": "aefb1f69461e01635e3065cc4b5bfb8a27b159978be61805230ddbb0b95b611f"
+  },
+  {
+   "id": 16,
+   "title": "About Bronya",
+   "text": "It was the first time both of us had seen Belobog's real sky... the same sky.",
+   "unlockRequirement": "Unlocked after completing Trailblaze Mission \"The Return.\"",
+   "cnUrl": "82d2e3795f2df77b2c12efcc4b6d74280e09b1704477c256b59d988ada9c4fac",
+   "jpUrl": "1cc571358c3f94cf49231037938179ef30c212ff44bbae443f2b52f906c358b5",
+   "enUrl": "73efc7c81871464144430c698d14c7779f7601f30f0795cad988fee083a01067",
+   "krUrl": "e9a9791430310ac5e21adb0596816bcad3ee49e7455479b40902810ffaa91df7"
+  }
+ ],
+ "storyItems": [
+  {
+   "title": "Character Details",
+   "text": "A spirited and valiant member of Wildfire who grew up in the perilous Underworld of Belobog. She is accustomed to being on her own.<br />The protectors and the protected, the oppressors and the oppressed... The world Seele grew up knowing was just a simple dichotomy...<br />That is, until \"that girl\" appeared.",
+   "unlockRequirement": ""
+  },
+  {
+   "title": "Character Story: Part I",
+   "text": "Seele's first fight in her life was for herself.<br /><br />Back then, she would wander aimlessly through the alleyways each day. When she was thirsty, she'd beg for water at the orphanage. When she was hungry, she'd swap scraps she found with the merchants for biscuits. Everyone in the dark side of Rivet Town knew that fearless homeless girl, and everyone was keen to avoid this wild, stubborn little rascal.<br /><br />One hot evening, she felt very thirsty from too much playing. She arrived at the orphanage to discover the bucket containing water from the well is almost empty. Another shriveled homeless man was also there trying to get a drink \u2014 and after a power struggle which involved fists and even teeth, the man fled and Seele earned the right to slake her thirst alone.<br /><br />Seele saw the man three days later. Through the window of the clinic, she saw that wizened figure at death's door, lying on a stretcher.<br /><br />Ever since then, she's always left a little water in the bucket for the people coming later.",
+   "unlockRequirement": "Unlocked at Character Level <nobr>20</nobr>"
+  },
+  {
+   "title": "Character Story: Part II",
+   "text": "As a child, Seele only ever went up to the Overworld once. That was after she'd met Oleg \u2014 who at the time was still captain of the Underworld's Silvermane Guards. Oleg hid Seele in his supply bag one day and took her up to the Overworld by cable car to give her a peek at the city she yearned for.<br /><br />Seele followed Oleg around the sights of Belobog, eating delicious foods and dressing up in splendid clothes beyond her wildest imagination. She scared off a group of kids with her uncouth miner slang, which caused Oleg to burst out into laughter. Those two short days were full of joy and laughter.<br /><br />Before leaving that evening, they sat on a bench in the Executive Plaza as Seele stared at the restaurant opposite them.<br /><br />\"Was the Overworld fun, Seele? Wanna come back again later?\"<br />\"Can I ask you something?\"<br />\"...What's up? Ask away.\"<br />\"Those Overworlders are only eating half their meal, and threw the rest away.\"<br />\"...\"<br />\"Do they know that people down below haven't got enough food to eat?\"<br />\"...\"<br /><br />Oleg saw how a look of gloom passed over her tender face.<br /><br />\"Let's go back, Oleg. I don't want to come back here again.\"",
+   "unlockRequirement": "Unlocked at Character Level <nobr>40</nobr>"
+  },
+  {
+   "title": "Character Story: Part III",
+   "text": "Lying on the clinic's bed, Seele is finally able to calm herself down as she silently thought over her experiences since becoming a member of Wildfire.<br /><br />Injuries and blood are routine occurrences for her. Seele has a better-than-average tolerance for pain, which allows her to fully unleash herself in combat \u2014 ignoring any lingering bumps and bruises.<br /><br />Wounds will always heal, just as the threat of the Fragmentum will always grow. Just as people always return to their boring lives once rescued. Sometimes, a misconception would pop up in Seele's mind, as if time in the Underworld had come to a standstill... It somehow seems that all the efforts she and Wildfire had made are all in vain.<br /><br />The doctor comes over and gently asks about her injury. Seele struggles to organize words, and conveys her confusion to the doctor.<br /><br />\"What's more important than miracles, Seele,\" the doctor says with a smile as she places her palm lightly on Seele's forehead, \"is to protect people's hopes for miracles.\"",
+   "unlockRequirement": "Unlocked at Character Level <nobr>60</nobr>"
+  },
+  {
+   "title": "Character Story: Part IV",
+   "text": "The Administrative District Plaza is a crowded place, and it's where almost half the residents of Belobog are now gathering. Suppressing her disdain for bustling crowds, Seele scans across the faces in the Plaza with her careful gaze.<br /><br />Her hard work pays off, and she soon locks onto a target. A man wearing a gray hat, his hands in his pockets, is scuttling back and forth through the crowds while slyly looking from side to side with a sharp expression. After confirming that nobody is watching \u2014 at least, so he thinks \u2014 the man reaches out to grab the satchel of the woman beside him.<br /><br />But before his fingers could reach the bag's zip, a slender but forceful hand quickly grabs his wrist. He nearly cries out with the pain, but Seele clasps her other hand over his mouth.<br /><br />\"Not a peep from you.\"<br /><br />The majestic cry of horns resounds throughout the skies, and the bustling crowd falls silent immediately. A man in a comical outfit rushes to the podium, and shouts in a piercing voice \u2014<br /><br />\"Ladies and gentlemen! For the ribbon-cutting part of this ceremony, please welcome to the stage \u2014 the Supreme Guardian herself, Madam Bronya Rand!\"<br /><br />Deafening cheers erupt from the plaza. Seele quietly pulls the pickpocket out of the crowd during the ruckus, and escorts him to the Silvermane Guards on duty. She turns to look back at the distant stage, and briefly locks eyes with the woman in the white dress. The Supreme Guardian flashes her an ever-so-brief smile, and Seele nods slightly in response.<br /><br />And then, they go their separate ways \u2014 one stepping into the light, the other into the shadows.<br />\u2014 One day, they will finally meet again.",
+   "unlockRequirement": "Unlocked at Character Level <nobr>80</nobr>"
+  }
+ ],
+ "archive": {
+  "cvCn": "\u5510\u96c5\u83c1",
+  "cvJp": "\u4e2d\u539f\u9ebb\u8863",
+  "cvKr": "\uc1a1\ud558\ub9bc",
+  "cvEn": "Molly Zhang",
+  "camp": "Belobog"
+ },
+ "calculator": {
+  "expCost": {
+   "1": 200,
+   "2": 300,
+   "3": 500,
+   "4": 600,
+   "5": 1050,
+   "6": 1670,
+   "7": 2320,
+   "8": 3060,
+   "9": 3860,
+   "10": 4740,
+   "11": 5710,
+   "12": 6730,
+   "13": 7830,
+   "14": 9000,
+   "15": 10240,
+   "16": 11550,
+   "17": 12920,
+   "18": 14360,
+   "19": 15870,
+   "20": 16580,
+   "21": 16840,
+   "22": 17100,
+   "23": 17370,
+   "24": 17640,
+   "25": 17910,
+   "26": 18190,
+   "27": 18480,
+   "28": 18760,
+   "29": 19040,
+   "30": 19340,
+   "31": 19630,
+   "32": 19930,
+   "33": 20220,
+   "34": 20530,
+   "35": 20840,
+   "36": 21140,
+   "37": 21450,
+   "38": 21760,
+   "39": 22080,
+   "40": 22390,
+   "41": 25550,
+   "42": 29140,
+   "43": 32830,
+   "44": 36600,
+   "45": 40470,
+   "46": 44430,
+   "47": 48480,
+   "48": 52630,
+   "49": 56870,
+   "50": 61190,
+   "51": 65620,
+   "52": 70130,
+   "53": 74740,
+   "54": 79450,
+   "55": 84240,
+   "56": 89120,
+   "57": 94110,
+   "58": 99190,
+   "59": 104350,
+   "60": 106240,
+   "61": 111830,
+   "62": 117530,
+   "63": 123320,
+   "64": 129210,
+   "65": 135200,
+   "66": 141290,
+   "67": 147480,
+   "68": 153780,
+   "69": 160170,
+   "70": 179260,
+   "71": 199920,
+   "72": 220920,
+   "73": 242260,
+   "74": 263930,
+   "75": 285950,
+   "76": 308300,
+   "77": 331000,
+   "78": 354040,
+   "79": 377420,
+   "80": 414350
+  },
+  "expItemConfig": {
+   "1000": 409962,
+   "5000": 409961,
+   "20000": 409960
+  },
+  "sCoinId": 29328
+ },
+ "pageId": "seele"
+}

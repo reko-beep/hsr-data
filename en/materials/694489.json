@@ -1,0 +1,27 @@
+{
+ "iconPath": "554d37978b82c3f38bafee8771f8ab4248a1fe9d4e130bb5711064238666f491",
+ "name": "Sparse Aether",
+ "rarity": 2,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 694489,
+  "type": 601,
+  "purposeId": 5,
+  "iconPath": "554d37978b82c3f38bafee8771f8ab4248a1fe9d4e130bb5711064238666f491",
+  "name": "Sparse Aether",
+  "desc": "Enhancement material for Light Cones, provides <nobr>500</nobr> Light Cone EXP.",
+  "lore": "An imaginary substance that shouldn't exist in reality. The basic material to create Light Cones.<br />The images contained in the Light Cones become clearer when infused with this substance.<br /><br />\"I see, so this is the supposed 'Sentiention' of the Garden of Recollection. No wonder the Memokeepers can set off on galactic voyages with memories.\"",
+  "purpose": "Light Cone EXP Material",
+  "rarity": 2,
+  "rewardPath": "/material/694489",
+  "comeFrom": [
+   "Calyx (Backwater Pass)",
+   "Assignment rewards"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "694489"
+}

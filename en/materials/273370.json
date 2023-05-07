@@ -1,0 +1,24 @@
+{
+ "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+ "name": "Recipe: Disposable Kinetic Arm",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 273370,
+  "type": 507,
+  "purposeId": 19,
+  "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+  "name": "Recipe: Disposable Kinetic Arm",
+  "desc": "A simple equation. When entered into the Synthesizer, it will unlock a new recipe.",
+  "lore": "",
+  "purpose": "Recipe",
+  "rarity": 4,
+  "rewardPath": "/material/273370",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "273370"
+}

@@ -1,0 +1,24 @@
+{
+ "iconPath": "8f83c05bff62fee55a1e33e4f84eb24c758b745cfea48920170bf0811e86872e",
+ "name": "Relic Coffret: Wastelander of Banditry Desert",
+ "rarity": 5,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 835436,
+  "type": 501,
+  "purposeId": 15,
+  "iconPath": "8f83c05bff62fee55a1e33e4f84eb24c758b745cfea48920170bf0811e86872e",
+  "name": "Relic Coffret: Wastelander of Banditry Desert",
+  "desc": "A device used to collect and restore the Lightdust in the Fragmentum to its original form. Use this to obtain a random 5-star relic from the Wastelander of Banditry Desert set.",
+  "lore": "You never know what's in the box until you open it.<br /><br />\"So it's essentially like buying a lottery ticket?\"<br />\"At least we don't need to worry about finding a cat that is both dead and alive.\"",
+  "purpose": "Relic Coffret",
+  "rarity": 5,
+  "rewardPath": "/material/835436",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "835436"
+}

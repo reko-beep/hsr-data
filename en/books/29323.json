@@ -1,0 +1,14 @@
+{
+ "name": "Notice Under Bridge",
+ "iconPath": "405319a2f549be8628150bdc7e35362215fa60e6cfa5794f4e2ed15b4ed1340f",
+ "desc": "A series of notices. They appear to have been hastily placed at the entrance of Rivet Town during its evacuation.",
+ "volumes": [
+  {
+   "title": "Notice Under Bridge",
+   "localTitle": "Notice Under Bridge",
+   "localDesc": "Many notices are placed at the entrance under the Rivet Town bridge. The content ranges anywhere from official Rivet Town announcements, to missing persons notices posted by individuals.<br /><br />#1<br /><br /><align=\"center\">No Entry</align><br /><br /><align=\"center\">Due to the uncontrollable invasion of monsters, Rivet Town is now completely abandoned.</align><br /><align=\"center\">The residents of the town have been evacuated. If you lose contact, please do not return to the town without prior authorization. </align><br /><align=\"center\">The town entrance will be henceforth closed.</align><br /><align=\"center\">The time to return will be informed at a later date.</align><br /><align=\"center\">During the restriction period, no one will be permitted to enter the area ahead.</align><br /><align=\"center\">Notice is hereby given.</align><br /><br /><align=\"right\">Rivet Town Administrative Committee & Rivet Town Chamber of Commerce</align><br /><br />#2<br /><br /><align=\"center\">Notice of Minecart Passage Blockade</align><br /><br />Due to the invasion of monsters in Rivet Town's mineshaft, the town's main road is now under traffic control (level 1 restriction). Details are as follows:<br /><br />1. Restriction period: Indefinite<br />2. Restricted vehicles: All railway cars<br /><br />During the traffic control period, please make a detour for the aforementioned restricted vehicles when passing through Rivet Town.<br /><br /><align=\"right\">Rivet Town Mining Association</align><br /><br />#3<br /><br /><align=\"center\">Missing Person</align><br /><br />Kalinka Modric, 6 years old, timid and shy. She was separated from her family during the emergency evacuation. She wore a brown and white patterned fur bucket hat, a brown padded jacket, and tan fur boots. If any kind soul finds this child, please take her to Dr. Natasha's clinic in Boulder Town immediately. You have my sincerest gratitude!<br /><br />I am Maria Modric, the mother of the child. I have yet to find a stable residence. If there is any news, please contact Dr. Natasha directly, she knows where I will be.",
+   "images": []
+  }
+ ],
+ "pageId": "29323"
+}

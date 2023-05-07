@@ -1,0 +1,26 @@
+{
+ "iconPath": "e75e51963b701a4d4b40b49f6074ade438199004d4c89d645a2777f14db50804",
+ "name": "Stone of The Hunt",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 641068,
+  "type": 601,
+  "purposeId": 17,
+  "iconPath": "e75e51963b701a4d4b40b49f6074ade438199004d4c89d645a2777f14db50804",
+  "name": "Stone of The Hunt",
+  "desc": "Tier 3 Synthesis Material",
+  "lore": "Small stone with the power of The Hunt.<br />As if guided by someone's will, it moves by itself towards a certain direction.<br />Sounds like what a magnet would do? I assure you it is not.<br /><br />\"The destination lies where my arrow is heading.\"",
+  "purpose": "Synthesis material",
+  "rarity": 3,
+  "rewardPath": "/material/641068",
+  "comeFrom": [
+   "Grocery Stand"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "641068"
+}

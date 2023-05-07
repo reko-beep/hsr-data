@@ -1,0 +1,24 @@
+{
+ "iconPath": "73648cb0ee3089026f2f6cbb12879ccf3851151d142b9f7c0880cbbf1a42a34e",
+ "name": "Pixel Warhead",
+ "rarity": 1,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 278520,
+  "type": 101,
+  "purposeId": 0,
+  "iconPath": "73648cb0ee3089026f2f6cbb12879ccf3851151d142b9f7c0880cbbf1a42a34e",
+  "name": "Pixel Warhead",
+  "desc": "Necessary item for Encirclement. Consumes 1 each use and will regenerate over time.",
+  "lore": "",
+  "purpose": "",
+  "rarity": 1,
+  "rewardPath": "/material/278520",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "278520"
+}

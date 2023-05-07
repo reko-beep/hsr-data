@@ -1,0 +1,300 @@
+{
+ "iconPath": "91205616cca581bc299d91a1af94a91981d58328675779f8e66ccbaf679e5e94",
+ "name": "Destroyer's Final Road",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 985668,
+  "type": 601,
+  "purposeId": 4,
+  "iconPath": "91205616cca581bc299d91a1af94a91981d58328675779f8e66ccbaf679e5e94",
+  "name": "Destroyer's Final Road",
+  "desc": "Advanced level-up material for Traces.",
+  "lore": "The Leviathan's heart has stopped beating, but its mind lives on despite being trapped in a case. As long as the lid is closed, its mind is simultaneously both alive and dead, driving the engine of destruction.<br /><br />\"Doomsday Beast, a blight made in the Warforge using what's left of a Leviathan and the weeping bones of thousands of the dead. It longs for the destruction of the universe and itself.\"",
+  "purpose": "Trace Materials",
+  "rarity": 4,
+  "rewardPath": "/material/985668",
+  "comeFrom": [
+   "Echo of War (Supply Zone)"
+  ]
+ },
+ "itemReferences": {
+  "61765": {
+   "id": 61765,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "ac8a9eb26e24f09b6343fd984cbaadf23a722e6b84355b7fef4e36411b15b3e8",
+   "name": "Arlan",
+   "desc": "",
+   "lore": "The head of Herta Space Station's Security Department.<br />This quiet boy hopes to protect the researchers who value their pursuit of knowledge, and to help them to complete their work.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/character/arlan",
+   "comeFrom": []
+  },
+  "91539": {
+   "id": 91539,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "8e97e5da61d4c1cd101cebc6b32e366bafd51ad7381cecb81afca39b2ed30829",
+   "name": "Silver Wolf",
+   "desc": "",
+   "lore": "A member of the Stellaron Hunters and a genius hacker.<br />She sees the universe as a massive immersive simulation game and has fun with it.<br />She's mastered the skill known as \"aether editing,\" which can be used to tamper with the data of reality.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/silverwolf",
+   "comeFrom": []
+  },
+  "175480": {
+   "id": 175480,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "5792f07862d451fa3e15d3656f705d3dcf66e0bd24ceaaf286603c1c82933796",
+   "name": "March 7th",
+   "desc": "",
+   "lore": "A girl who once slumbered in eternal ice and knows nothing about her past.<br />To find out the truth about her origins, she decided to travel with the Astral Express.<br />As of right now, she has prepared about <nobr>67</nobr> different versions of her life story for herself.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/character/mar7th",
+   "comeFrom": []
+  },
+  "175713": {
+   "id": 175713,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "f43b619415520e92c63ac94bfd8f3ee6549e93db005820f66930fe060f5f50dc",
+   "name": "Trailblazer",
+   "desc": "",
+   "lore": "",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/playerboy",
+   "comeFrom": []
+  },
+  "215955": {
+   "id": 215955,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "64ae9b299da4943e1b416a3f2242abe8388cf0c94b8137638eed88b8902164be",
+   "name": "Jing Yuan",
+   "desc": "",
+   "lore": "The Divine Foresight, one of the Seven Arbiter-Generals of the Xianzhou Alliance, leads the Cloud Knights of the Xianzhou Luofu.<br />A student of the Luofu's previous Sword Champion, though not known for his martial prowess.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/jingyuan",
+   "comeFrom": []
+  },
+  "332600": {
+   "id": 332600,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "4abe429751143578a15ed740c6b73d2ea0b89800e10d096e6b6fde92c21a9ed2",
+   "name": "Luocha",
+   "desc": "",
+   "lore": "Carrying a coffin wherever he goes, he is a foreign trader who came from beyond the stellar seas.<br />Has excellent medical skills.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/luocha",
+   "comeFrom": []
+  },
+  "376066": {
+   "id": 376066,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "0cbbd0a9edba3981d2d72a570ab7f21697b2260f9df1235b048374b2fd3d70e4",
+   "name": "Himeko",
+   "desc": "",
+   "lore": "The one who repaired the Astral Express.<br />To witness the vast starry sky, she decided to travel with the Astral Express.<br />Her hobby is brewing hand-made coffee.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/himeko",
+   "comeFrom": []
+  },
+  "376067": {
+   "id": 376067,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "0370a9361da99a8ded5747197b038720dc88fe85cd2e249dd53825b15a606294",
+   "name": "Herta",
+   "desc": "",
+   "lore": "Member <nobr>83</nobr> of the Genius Society. The real master of the space station.<br />An incredibly intelligent yet unsympathetic scientist.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/character/herta",
+   "comeFrom": []
+  },
+  "376299": {
+   "id": 376299,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "1d71c664653895890d5301323d29970f48a296f75bb928b550c109a9f7152c3d",
+   "name": "Trailblazer",
+   "desc": "",
+   "lore": "",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/playerboy2",
+   "comeFrom": []
+  },
+  "416541": {
+   "id": 416541,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "f577f6f4c33429a9b2c5c5836f8426f78808cfed465b9baedfea917c17de2f4b",
+   "name": "Tingyun",
+   "desc": "",
+   "lore": "Amicassador of the Sky-Faring Commission of the Xianzhou Luofu.<br />She travels with business delegates, forging trade relationships and alliances with many worlds.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/character/tingyun",
+   "comeFrom": []
+  },
+  "460007": {
+   "id": 460007,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "e1e77d134a9a40a1924ccf07ba1a79fa1c2a8f5462aa5e9367292c108bbed09b",
+   "name": "Dan Heng",
+   "desc": "",
+   "lore": "A cold and reserved young man who is reticent about his past.<br />To avoid his kin, he decided to travel with the Astral Express.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/character/danheng",
+   "comeFrom": []
+  },
+  "460240": {
+   "id": 460240,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "49c86bee23a1299d009fec8b67d38f0759dd4a35470643219317db4e498a8f37",
+   "name": "Trailblazer",
+   "desc": "",
+   "lore": "",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/playergirl",
+   "comeFrom": []
+  },
+  "807012": {
+   "id": 807012,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "3245159af32d69709bd5c59c447dffd2035aef63678fcc417f9e5111c0b47489",
+   "name": "Kafka",
+   "desc": "",
+   "lore": "A member of the Stellaron Hunters. A dashing, collected, and professional beauty.<br />Used the enchantment of Spirit Whisper to set up Trailblazer to absorb the Stellaron.<br />Her hobby is shopping for and organizing her collection of coats.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/kafka",
+   "comeFrom": []
+  },
+  "890953": {
+   "id": 890953,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "259c3885c12479f2cb2ab0a569732ed73e08bcec91b3611069e66b8df1d6d601",
+   "name": "Welt",
+   "desc": "",
+   "lore": "A seasoned member of the Express Crew.<br />The passion buried in his heart burns anew as he enjoys this fresh adventure.<br />Occasionally, he would sketch the experiences in a notebook.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/welt",
+   "comeFrom": []
+  },
+  "891186": {
+   "id": 891186,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "eddef3d9b243093277acad00b38aff343f50e752d5f1231ba6464661a1eb0581",
+   "name": "Trailblazer",
+   "desc": "",
+   "lore": "",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/playergirl2",
+   "comeFrom": []
+  },
+  "945120": {
+   "id": 945120,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "901e84e641fd918331aa8318217d907c9164dd25ef7b0a240c96ba910447e913",
+   "name": "Asta",
+   "desc": "",
+   "lore": "The lead researcher of Herta Space Station and a lady from a renowned family.<br />She's an astronomer overflowing with curiosity, and excels at managing the disparate staff of the space station.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/character/asta",
+   "comeFrom": []
+  }
+ },
+ "composeData": [],
+ "avatarUsedBy": [
+  {
+   "id": 175480,
+   "rarity": 4
+  },
+  {
+   "id": 460007,
+   "rarity": 4
+  },
+  {
+   "id": 376066,
+   "rarity": 5
+  },
+  {
+   "id": 890953,
+   "rarity": 5
+  },
+  {
+   "id": 807012,
+   "rarity": 5
+  },
+  {
+   "id": 91539,
+   "rarity": 5
+  },
+  {
+   "id": 61765,
+   "rarity": 4
+  },
+  {
+   "id": 945120,
+   "rarity": 4
+  },
+  {
+   "id": 376067,
+   "rarity": 4
+  },
+  {
+   "id": 416541,
+   "rarity": 4
+  },
+  {
+   "id": 332600,
+   "rarity": 5
+  },
+  {
+   "id": 215955,
+   "rarity": 5
+  },
+  {
+   "id": 175713,
+   "rarity": 5
+  },
+  {
+   "id": 460240,
+   "rarity": 5
+  },
+  {
+   "id": 376299,
+   "rarity": 5
+  },
+  {
+   "id": 891186,
+   "rarity": 5
+  }
+ ],
+ "equipmentUsedBy": [],
+ "pageId": "985668"
+}

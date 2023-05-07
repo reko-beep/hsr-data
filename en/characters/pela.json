@@ -1,0 +1,2318 @@
+{
+ "name": "Pela",
+ "spRequirement": 110,
+ "rarity": 4,
+ "descHash": "A secretarial officer for the Silvermane Guards. She has a serious personality and is revered by other members of the Silvermane Guards.",
+ "iconPath": "0d268365922a8480563e12ba32d63b946e39df9d589492687fc3031fe4a2fb45",
+ "bgPath": "8578ef9d06f734f7dbc2b4b556fe125d94853279cb81b3373a4d515070434aaa",
+ "figPath": "1321d4a8dd502bda698db54d5d93b37b598f2f1aef50daf9064e44541543d1fd",
+ "fgPath": "964a8feb605ad7114098a1c6917d4f54eec2481583ee5ea11de80701f4e236cb",
+ "artPath": "acc6514e14da5103a7be582f5a0eacfd09a04e4e0fd31559ac90def093a97bff",
+ "miniIconPath": "164282638a1cce9537aefc54264a353ae058b92cac1828ac995abe49f8259a8e",
+ "splashIconPath": "eb70d6007bfc888b55dedfad69ec60f61c252d37caf79a2b860a48d6eb275c73",
+ "damageType": {
+  "id": 4,
+  "iconPath": "3a4e72fd1d4a41926980ab22b12c81cde3147050577efcfdac462e0f60271b9f",
+  "color": "#47C7FD",
+  "name": "Ice",
+  "rarity": 0
+ },
+ "baseType": {
+  "id": 0,
+  "iconPath": "ef1c10d1a5c22dc9e9294e81827aae2ec71c4a79633349c8c9d699a9568a6e00",
+  "altIconPath": "0df2cbf11d8f19f8c650742d8717144159e74ae7608dfb17c31734925e8ee7c3",
+  "color": "#FFFFFF",
+  "name": "Nihility",
+  "rarity": 0
+ },
+ "damageTypeId": 0,
+ "baseTypeId": 0,
+ "baseTypeTraces": {
+  "id": 5,
+  "iconPath": "46809b2e4ea3502400dc31a9af1552ced0d5890b1b96f43ab9ac6fdc73fdd5f5",
+  "color": "#FFFFFF",
+  "rarity": 0
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "0e76659bbb3b9d0b1cc6a4e0e8c63a576c7b917f2f740a4b1b8ceab260a8a595",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards"
+   ]
+  },
+  "67219": {
+   "id": 67219,
+   "type": 601,
+   "purposeId": 2,
+   "iconPath": "03a85f3ccfcb36eb4e371d602e552113e1ada82e6ca848ca9d4f2761f6991e5e",
+   "name": "Horn of Snow",
+   "desc": "Broken horn of a Frigid Prowler. Can be used for the Ascension of Ice characters.",
+   "lore": "The Silvermane Guards would host contests where the winner must take a body part from a monster and bring it back within a set time limit. This cold broken horn must have been a trophy of one such contest.<br /><br />\"Sir Bova, this is no moose horn and is certainly not fit for decoration above the Geomarrow furnace.\"",
+   "purpose": "Character Ascension Materials",
+   "rarity": 4,
+   "rewardPath": "/material/67219",
+   "comeFrom": [
+    "Stagnant Shadow (Corridor of Fading Echoes)",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "125435": {
+   "id": 125435,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "75e6d3c477385eb36716ba1798609b01a9fe10893c1b3e9f9dc81046ad10d9b0",
+   "name": "Tracks of Destiny",
+   "desc": "Advanced level-up material for Traces.",
+   "lore": "Your victory is secured by countless failures, and the small steps you have taken led you to the turning point of fate.",
+   "purpose": "Trace Materials",
+   "rarity": 5,
+   "rewardPath": "/material/125435",
+   "comeFrom": [
+    "Simulated Universe Point Rewards",
+    "Nameless Honor",
+    "Embers Exchange",
+    "Limited-Time Event Rewards"
+   ]
+  },
+  "270195": {
+   "id": 270195,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "ed0c6ddf746bb8fe5f178943cd2836c9c4f98c2647479d389e2640b5f38d1317",
+   "name": "Guardian's Lament",
+   "desc": "Advanced level-up material for Traces.",
+   "lore": "Together with this visor, the twisted wish of a Guardian also lies broken.<br />She had wanted to find a way out for her people to escape the Everwinter, but ended up becoming a puppet of a consciousness beyond her.<br /><br />\"Supreme Guardian, the title passed down to generations of Belobog's rulers, the one who looked after all the people \u2014 It never occurred to anyone that the Guardians themselves also long for care and protection.\"",
+   "purpose": "Trace Materials",
+   "rarity": 4,
+   "rewardPath": "/material/270195",
+   "comeFrom": [
+    "Echo of War (Everwinter Hill)"
+   ]
+  },
+  "409960": {
+   "id": 409960,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "607961a38d9fe4f935578e9ea7b4de093d68ff8258b0b52c3cd4261e5cd92932",
+   "name": "Traveler's Guide",
+   "desc": "Experience material for characters. Provides <nobr>20,000</nobr> Character EXP.",
+   "lore": "Required reading for world exploration. Press the \"Read\" button to tune in to an attractive voice in a language you understand, telling you about the legendary encounters of renowned adventurers across different worlds as well as the precious wisdom and knowledge that they have gathered.<br /><br />\"All-new series of the Traveler's Guide, The Chef's Manual to Galactic Cuisine, is now available for purchase.\"<br />\"For submissions, please connect to synesthesia beacon ERD<nobr>-23</nobr>\u03b8 to contact an Intelligentsia Guild representative. Method of payment can be arranged to your convenience.\"",
+   "purpose": "Character EXP Material",
+   "rarity": 4,
+   "rewardPath": "/material/409960",
+   "comeFrom": [
+    "Calyx (Outlying Snow Plains)",
+    "Forgotten Hall"
+   ]
+  },
+  "409961": {
+   "id": 409961,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "05ef6659e951dd69d862823c86470487d68c24209400d4391df1f50bbc21ab42",
+   "name": "Adventure Log",
+   "desc": "Experience material for characters. Provides <nobr>5000</nobr> Character EXP.",
+   "lore": "A neatly organized collection of educational adventure notes containing countless illustrations and texts entailing adventures from beginning to end, as well as valuable information and survival-related techniques.<br /><br />\"Why not just digitize it and save it on a photolith disk? That'd be much more convenient.\"<br />\"Advanced technology is far more fragile than you'd think when faced with stellar storms and neuron flow eruptions. Besides, I'm sure the author of this book wanted people to read it in the simplest of ways.\"",
+   "purpose": "Character EXP Material",
+   "rarity": 3,
+   "rewardPath": "/material/409961",
+   "comeFrom": [
+    "Calyx (Outlying Snow Plains)",
+    "Daily Training"
+   ]
+  },
+  "409962": {
+   "id": 409962,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "ad5070f0ef2447ee09fb3b0d859ab3c594538eaa58b71a14ffcbd4b2b493c1c5",
+   "name": "Travel Encounters",
+   "desc": "Experience material for characters. Provides <nobr>1000</nobr> Character EXP.",
+   "lore": "A travel diary with messy handwriting and random content. It's not of much use to you.<br /><br />\"Dan Heng, hurry up and finish reading it so you can throw it away.\"",
+   "purpose": "Character EXP Material",
+   "rarity": 2,
+   "rewardPath": "/material/409962",
+   "comeFrom": [
+    "Calyx (Outlying Snow Plains)",
+    "Assignment rewards"
+   ]
+  },
+  "549438": {
+   "id": 549438,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "4b2515eee489b695028b8b790795cdd3e71cfd4b1de7a006a6030882b039706c",
+   "name": "Extinguished Core",
+   "desc": "The heart of a monster wandering the Fragmentum. Crude material used for enhancement.",
+   "lore": "It is a lesion that breeds evil, the impulse to sin. It is the source of the Fragmentum distortion.<br />A heavy blow has caused this heart to stop beating and lose its luster.<br /><br />\"Preliminary tests indicate it's some kind of hybrid: one half is primordial, and the other half is something very similar to Stellarons.\" \u2014 Department of Biology, Sarah Castro",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 2,
+   "rewardPath": "/material/549438",
+   "comeFrom": [
+    "Backwater Pass: Flamespawns or other enemies",
+    "Rivet Town: Flamespawns or other enemies",
+    "Simulated Universe enemies",
+    "Assignment rewards",
+    "Embers Exchange",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "633379": {
+   "id": 633379,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "4f83a6b3e1cca8b6421a25a880516c3d27117937ae2f7f196180bbb0e1d28c3f",
+   "name": "Glimmering Core",
+   "desc": "The heart of a monster wandering the Fragmentum. Normal material used for enhancement.",
+   "lore": "It is a lesion that breeds evil, the impulse to sin. It is the source of the Fragmentum distortion.<br />The heart is glimmering and the veins on it indicate it's still alive.<br /><br />\"What kind of monster is this? Did you see it... Its face! It has the face of our previous leader!\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 3,
+   "rewardPath": "/material/633379",
+   "comeFrom": [
+    "Backwater Pass: Equilibrium Level 2+ Flamespawns or other enemies",
+    "Rivet Town: Equilibrium Level 2+ Flamespawns or other enemies",
+    "Omni-Synthesizer \u2014 Material Synthesis",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "635669": {
+   "id": 635669,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "eb2e2feca2b8c63d7bd3d8b8e5a296d336fa0e30ca425e8e5489df4c015d1685",
+   "name": "Obsidian of Dread",
+   "desc": "A fragment of dark matter captured from the void. Used to level up Traces slightly for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Nihility</span> characters.",
+   "lore": "Nothing can prove its noumenon.<br />Touch gently to hear an unclear murmur from the shard.<br /><br />\"\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588 \u2588\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 2,
+   "rewardPath": "/material/635669",
+   "comeFrom": [
+    "Calyx (Great Mine)"
+   ]
+  },
+  "717320": {
+   "id": 717320,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "f32ca1d67c0e385f701d450cae1c5dea41f334e31d61eb331d4be4dc7551c378",
+   "name": "Squirming Core",
+   "desc": "The heart of a monster wandering the Fragmentum. Advanced material used for enhancement.",
+   "lore": "It is a lesion that breeds evil, the impulse to sin. It is the source of the Fragmentum distortion.<br />The heart is pulsating slowly, with a residual force powerful enough to cause a new calamity. It's best to destroy it to prevent further troubles.<br /><br />\"It's like a cancer...\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 4,
+   "rewardPath": "/material/717320",
+   "comeFrom": [
+    "Backwater Pass: Equilibrium Level 4+ Flamespawns or other enemies",
+    "Rivet Town: Equilibrium Level 4+ Flamespawns or other enemies",
+    "Omni-Synthesizer \u2014 Material Synthesis",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "836255": {
+   "id": 836255,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "328bab8dd4185cff98748182d80e550a23f12b7288da5caa228cc8407cea56df",
+   "name": "Obsidian of Obsession",
+   "desc": "A sizable piece of dark matter captured from the void. Used to level up Traces significantly for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Nihility</span> characters.",
+   "lore": "The weak-minded and soft-willed will spend their eternity in chaos from just a simple glance into the prism.<br /><br />\"         \"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 4,
+   "rewardPath": "/material/836255",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Omni-Synthesizer \u2014 Material Synthesis"
+   ]
+  },
+  "920196": {
+   "id": 920196,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "ce4a765c779cfd1480029c5f6daa7ea755b5c3ec5661609bfd2dd5191b55f2d0",
+   "name": "Obsidian of Desolation",
+   "desc": "A chunk of dark matter captured from the void. Used to level up Traces moderately for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Nihility</span> characters.",
+   "lore": "No reflections can be seen on the surface of the black prism. Not only does it suck in all the light, it seems to also absorb the wielder's emotions, leaving only a faint feeling of emptiness.<br /><br />\"...\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 3,
+   "rewardPath": "/material/920196",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Omni-Synthesizer \u2014 Material Synthesis"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 3200
+    },
+    {
+     "id": 549438,
+     "count": 4
+    }
+   ],
+   "attackBase": 74.4,
+   "attackAdd": 3.72,
+   "hpBase": 134.4,
+   "hpAdd": 6.72,
+   "defenseBase": 63,
+   "defenseAdd": 3.15,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 105,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 6400
+    },
+    {
+     "id": 549438,
+     "count": 8
+    }
+   ],
+   "attackBase": 104.16,
+   "attackAdd": 3.72,
+   "hpBase": 188.16,
+   "hpAdd": 6.72,
+   "defenseBase": 88.2,
+   "defenseAdd": 3.15,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 105,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 12800
+    },
+    {
+     "id": 633379,
+     "count": 5
+    },
+    {
+     "id": 67219,
+     "count": 2
+    }
+   ],
+   "attackBase": 133.92,
+   "attackAdd": 3.72,
+   "hpBase": 241.92,
+   "hpAdd": 6.72,
+   "defenseBase": 113.4,
+   "defenseAdd": 3.15,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 105,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 32000
+    },
+    {
+     "id": 633379,
+     "count": 8
+    },
+    {
+     "id": 67219,
+     "count": 5
+    }
+   ],
+   "attackBase": 163.68,
+   "attackAdd": 3.72,
+   "hpBase": 295.68,
+   "hpAdd": 6.72,
+   "defenseBase": 138.6,
+   "defenseAdd": 3.15,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 105,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 64000
+    },
+    {
+     "id": 717320,
+     "count": 5
+    },
+    {
+     "id": 67219,
+     "count": 15
+    }
+   ],
+   "attackBase": 193.44,
+   "attackAdd": 3.72,
+   "hpBase": 349.44,
+   "hpAdd": 6.72,
+   "defenseBase": 163.8,
+   "defenseAdd": 3.15,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 105,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 128000
+    },
+    {
+     "id": 717320,
+     "count": 7
+    },
+    {
+     "id": 67219,
+     "count": 28
+    }
+   ],
+   "attackBase": 223.2,
+   "attackAdd": 3.72,
+   "hpBase": 403.2,
+   "hpAdd": 6.72,
+   "defenseBase": 189,
+   "defenseAdd": 3.15,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 105,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": [],
+   "attackBase": 252.96,
+   "attackAdd": 3.72,
+   "hpBase": 456.96,
+   "hpAdd": 6.72,
+   "defenseBase": 214.2,
+   "defenseAdd": 3.15,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 105,
+   "speedAdd": 0
+  }
+ ],
+ "ranks": [
+  {
+   "id": 1,
+   "iconPath": "",
+   "artPath": "d4114c037d7a07e42460ad13a395d206a2fba0644a3135f2ab6ce7f1dcce4626",
+   "name": "Victory Report",
+   "descHash": "When Pela defeats an enemy, Pela regenerates <nobr>#1[i]</nobr> Energy.",
+   "params": [
+    5
+   ]
+  },
+  {
+   "id": 2,
+   "iconPath": "",
+   "artPath": "4e8ad81a5d85153d77764b3083a3266a782139d0c9f16408b7d0c4375a66e54d",
+   "name": "Adamant Charge",
+   "descHash": "Using Skill to remove buff(s) increases SPD by <nobr>#1[i]%</nobr> for <nobr>#2[i]</nobr> turn(s).",
+   "params": [
+    0.1,
+    2,
+    1
+   ]
+  },
+  {
+   "id": 3,
+   "iconPath": "",
+   "artPath": "d637b7565f5ce4298b6e0618378eb540886b90af9ec4e16b50f9854ddd12460c",
+   "name": "Suppressive Force",
+   "descHash": "Skill Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Basic ATK Lv. +1, up to a maximum of Lv. <nobr>10</nobr>.",
+   "params": []
+  },
+  {
+   "id": 4,
+   "iconPath": "",
+   "artPath": "eec73281b60086e0ddea088883a3b8f5f2cf0741ebfbba8dc9590307f60399d8",
+   "name": "Full Analysis",
+   "descHash": "When using Skill, there is a <nobr>#1[i]%</nobr> base chance to reduce the target enemy's Ice RES by <nobr>#2[i]%</nobr> for <nobr>#3[i]</nobr> turn(s).",
+   "params": [
+    1,
+    0.12,
+    2
+   ]
+  },
+  {
+   "id": 5,
+   "iconPath": "",
+   "artPath": "9c3d8c451016d0c7d7f47df0cf39e49611a4f18e7ff2949d3dbde8f63d8b1f57",
+   "name": "Absolute Jeopardy",
+   "descHash": "Ultimate Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Talent Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.",
+   "params": []
+  },
+  {
+   "id": 6,
+   "iconPath": "",
+   "artPath": "96a98e30c1f65e6175790acdc9f613cccb1d8e380c5931a58edb1365d762cbdb",
+   "name": "Feeble Pursuit",
+   "descHash": "When Pela attacks a debuffed enemy, she deals Additional Ice DMG equal to <nobr>#1[i]%</nobr> of Pela's ATK to the enemy.",
+   "params": [
+    0.4
+   ]
+  }
+ ],
+ "skillGrouping": [
+  [
+   191635
+  ],
+  [
+   907108
+  ],
+  [
+   23753
+  ],
+  [
+   508866
+  ],
+  [
+   392221
+  ]
+ ],
+ "skills": [
+  {
+   "id": 191635,
+   "name": "Frost Shot",
+   "tagHash": "Single Target",
+   "descHash": "Deals <span style=\"color:#47C7FD;\">Ice</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Pela's ATK as to a single enemy.",
+   "typeDescHash": "Basic ATK",
+   "iconPath": "09b648297b5d4032e1aa5065bf66bdd16c1f4deec4fdfa34d7e6c290bebedc46",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      0.5
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 2,
+     "params": [
+      0.6
+     ],
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 635669,
+       "count": 2
+      },
+      {
+       "id": 549438,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "params": [
+      0.7
+     ],
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 920196,
+       "count": 2
+      },
+      {
+       "id": 633379,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "params": [
+      0.8
+     ],
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 920196,
+       "count": 4
+      },
+      {
+       "id": 633379,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "params": [
+      0.9
+     ],
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 36000
+      },
+      {
+       "id": 836255,
+       "count": 2
+      },
+      {
+       "id": 717320,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "params": [
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 128000
+      },
+      {
+       "id": 836255,
+       "count": 6
+      },
+      {
+       "id": 717320,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "params": [
+      1.1
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 8,
+     "params": [
+      1.2
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 9,
+     "params": [
+      1.3
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  },
+  {
+   "id": 907108,
+   "name": "Frostbite",
+   "tagHash": "Impair",
+   "descHash": "Removes <nobr>#2[i]</nobr> <u>buff(s)</u> and deals <span style=\"color:#47C7FD;\">Ice</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Pela's ATK as to a single enemy.",
+   "typeDescHash": "Skill",
+   "iconPath": "dfdeb632f3f06431f9df010eaecbc07589ecc01077eb49f9e32d9d9e5dd858b9",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      1.05,
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 2,
+     "params": [
+      1.155,
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2000
+      },
+      {
+       "id": 549438,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "params": [
+      1.26,
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 635669,
+       "count": 2
+      },
+      {
+       "id": 549438,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "params": [
+      1.365,
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 920196,
+       "count": 2
+      },
+      {
+       "id": 633379,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "params": [
+      1.47,
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 920196,
+       "count": 4
+      },
+      {
+       "id": 633379,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "params": [
+      1.575,
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 24000
+      },
+      {
+       "id": 920196,
+       "count": 6
+      },
+      {
+       "id": 633379,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "params": [
+      1.70625,
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 36000
+      },
+      {
+       "id": 836255,
+       "count": 2
+      },
+      {
+       "id": 717320,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "params": [
+      1.8375,
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 64000
+      },
+      {
+       "id": 836255,
+       "count": 4
+      },
+      {
+       "id": 270195,
+       "count": 1
+      },
+      {
+       "id": 717320,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "params": [
+      1.96875,
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 128000
+      },
+      {
+       "id": 836255,
+       "count": 6
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "params": [
+      2.1,
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 836255,
+       "count": 11
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 11,
+     "params": [
+      2.205,
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 12,
+     "params": [
+      2.31,
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 13,
+     "params": [
+      2.415,
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 14,
+     "params": [
+      2.52,
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 15,
+     "params": [
+      2.625,
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  },
+  {
+   "id": 23753,
+   "name": "Zone Suppression",
+   "tagHash": "Impair",
+   "descHash": "Deals <span style=\"color:#47C7FD;\">Ice</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#4[i]%</nobr></span> of Pela's ATK to all enemies, with a <nobr>#1[i]%</nobr> <u>base chance</u> to inflict Exposed on all enemies.<br />When Exposed, enemies' DEF is reduced by <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#2[i]%</nobr></span> for <nobr>#3[i]</nobr> turn(s).",
+   "typeDescHash": "Ultimate",
+   "iconPath": "a3a0f84194efa75e9cd847140927c649a3bf79a4d3eda95822bd9f06ea521b43",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      1,
+      0.3,
+      2,
+      0.6
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 2,
+     "params": [
+      1,
+      0.31,
+      2,
+      0.64
+     ],
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2000
+      },
+      {
+       "id": 549438,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "params": [
+      1,
+      0.32,
+      2,
+      0.68
+     ],
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 635669,
+       "count": 2
+      },
+      {
+       "id": 549438,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "params": [
+      1,
+      0.33,
+      2,
+      0.72
+     ],
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 920196,
+       "count": 2
+      },
+      {
+       "id": 633379,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "params": [
+      1,
+      0.34,
+      2,
+      0.76
+     ],
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 920196,
+       "count": 4
+      },
+      {
+       "id": 633379,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "params": [
+      1,
+      0.35,
+      2,
+      0.8
+     ],
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 24000
+      },
+      {
+       "id": 920196,
+       "count": 6
+      },
+      {
+       "id": 633379,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "params": [
+      1,
+      0.3625,
+      2,
+      0.85
+     ],
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 36000
+      },
+      {
+       "id": 836255,
+       "count": 2
+      },
+      {
+       "id": 717320,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "params": [
+      1,
+      0.375,
+      2,
+      0.9
+     ],
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 64000
+      },
+      {
+       "id": 836255,
+       "count": 4
+      },
+      {
+       "id": 270195,
+       "count": 1
+      },
+      {
+       "id": 717320,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "params": [
+      1,
+      0.3875,
+      2,
+      0.95
+     ],
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 128000
+      },
+      {
+       "id": 836255,
+       "count": 6
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "params": [
+      1,
+      0.4,
+      2,
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 836255,
+       "count": 11
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 11,
+     "params": [
+      1,
+      0.41,
+      2,
+      1.04
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 12,
+     "params": [
+      1,
+      0.42,
+      2,
+      1.08
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 13,
+     "params": [
+      1,
+      0.43,
+      2,
+      1.12
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 14,
+     "params": [
+      1,
+      0.44,
+      2,
+      1.16
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 15,
+     "params": [
+      1,
+      0.45,
+      2,
+      1.2
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ],
+   "ultimateCost": 110
+  },
+  {
+   "id": 508866,
+   "name": "Data Collecting",
+   "tagHash": "Support",
+   "descHash": "If the enemy is <u>debuffed</u> after Pela's attack, Pela will restore <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[f1]</nobr></span> extra Energy. This effect can only be triggered 1 time per attack.",
+   "typeDescHash": "Talent",
+   "iconPath": "5c556c5f66c285518f869a0b30bc57149912888b9f5cd88852a5b64c9d640f0f",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      5
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 2,
+     "params": [
+      5.5
+     ],
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2000
+      },
+      {
+       "id": 549438,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "params": [
+      6
+     ],
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 635669,
+       "count": 2
+      },
+      {
+       "id": 549438,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "params": [
+      6.5
+     ],
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 920196,
+       "count": 2
+      },
+      {
+       "id": 633379,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "params": [
+      7
+     ],
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 920196,
+       "count": 4
+      },
+      {
+       "id": 633379,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "params": [
+      7.5
+     ],
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 24000
+      },
+      {
+       "id": 920196,
+       "count": 6
+      },
+      {
+       "id": 633379,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "params": [
+      8.125
+     ],
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 36000
+      },
+      {
+       "id": 836255,
+       "count": 2
+      },
+      {
+       "id": 717320,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "params": [
+      8.75
+     ],
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 64000
+      },
+      {
+       "id": 836255,
+       "count": 4
+      },
+      {
+       "id": 270195,
+       "count": 1
+      },
+      {
+       "id": 717320,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "params": [
+      9.375
+     ],
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 128000
+      },
+      {
+       "id": 836255,
+       "count": 6
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "params": [
+      10
+     ],
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 836255,
+       "count": 11
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 11,
+     "params": [
+      10.5
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 12,
+     "params": [
+      11
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 13,
+     "params": [
+      11.5
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 14,
+     "params": [
+      12
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 15,
+     "params": [
+      12.5
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  },
+  {
+   "id": 308280,
+   "name": "Attack",
+   "tagHash": "",
+   "descHash": "Attack an enemy, and when the battle starts, reduce their Toughness of the corresponding Type.",
+   "typeDescHash": "",
+   "iconPath": "09b648297b5d4032e1aa5065bf66bdd16c1f4deec4fdfa34d7e6c290bebedc46",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  },
+  {
+   "id": 392221,
+   "name": "Preemptive Strike",
+   "tagHash": "",
+   "descHash": "Immediately attacks the enemy. Upon entering battle, Pela deals <span style=\"color:#47C7FD;\">Ice</span> DMG equal to <nobr>#4[i]%</nobr> of her ATK to a random enemy, with a <nobr>#1[i]%</nobr> <u>base chance</u> of lowering the DEF of all enemies by <nobr>#2[i]%</nobr> for <nobr>#3[i]</nobr> turn(s).",
+   "typeDescHash": "Technique",
+   "iconPath": "ac9194c15ad3ff7b3df4060f280afd8be3d6c35eed11af341b1abc0ff9485daf",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      1,
+      0.2,
+      2,
+      0.8
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  }
+ ],
+ "skillTreePoints": [
+  {
+   "id": 1106101,
+   "type": 1,
+   "children": [
+    {
+     "id": 1106202,
+     "type": 2,
+     "children": [
+      {
+       "id": 1106203,
+       "type": 2,
+       "children": [
+        {
+         "id": 1106204,
+         "type": 2,
+         "children": [],
+         "embedBuff": {
+          "id": 661052,
+          "name": "Effect Hit Rate Boost",
+          "levelReq": 0,
+          "promotionReq": 3,
+          "iconPath": "6cee422fdfafd9cab8ce9f5a86a717d069964985d2e079d359713385c93d67fb",
+          "statusList": [
+           {
+            "key": "Effect Hit Rate",
+            "value": 0.04
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 8000
+           },
+           {
+            "id": 920196,
+            "count": 2
+           },
+           {
+            "id": 633379,
+            "count": 2
+           }
+          ]
+         }
+        }
+       ],
+       "embedBuff": {
+        "id": 661055,
+        "name": "DMG Boost: Ice",
+        "levelReq": 0,
+        "promotionReq": 3,
+        "iconPath": "61fabc866a9c5c20a0ae994d2d92a286ce89872e01eb8e1a772e28eaa9260177",
+        "statusList": [
+         {
+          "key": "<span style=\"color:#47C7FD;\">Ice</span> DMG Boost",
+          "value": 0.032
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 8000
+         },
+         {
+          "id": 920196,
+          "count": 2
+         },
+         {
+          "id": 633379,
+          "count": 2
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 661054,
+      "name": "ATK Boost",
+      "levelReq": 0,
+      "promotionReq": 2,
+      "iconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5",
+      "statusList": [
+       {
+        "key": "ATK",
+        "value": 0.04
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 4000
+       },
+       {
+        "id": 635669,
+        "count": 2
+       },
+       {
+        "id": 549438,
+        "count": 4
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "id": 660958,
+    "name": "Bash",
+    "descHash": "Deals <nobr>#1[i]%</nobr> more DMG to debuffed enemies.",
+    "iconPath": "f6e4b4730b4fbb9e78912f1845db6ca208f4b7d88db79e91ffe0f795c5d1bf2c",
+    "levelReq": 0,
+    "promotionReq": 2,
+    "levelData": [
+     {
+      "level": 1,
+      "params": [
+       0.2
+      ],
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 4000
+       },
+       {
+        "id": 635669,
+        "count": 2
+       },
+       {
+        "id": 270195,
+        "count": 1
+       }
+      ]
+     }
+    ],
+    "ultimateCost": 0
+   }
+  },
+  {
+   "id": 1106102,
+   "type": 1,
+   "children": [
+    {
+     "id": 1106205,
+     "type": 2,
+     "children": [
+      {
+       "id": 1106206,
+       "type": 2,
+       "children": [
+        {
+         "id": 1106207,
+         "type": 2,
+         "children": [],
+         "embedBuff": {
+          "id": 661051,
+          "name": "DMG Boost: Ice",
+          "levelReq": 0,
+          "promotionReq": 5,
+          "iconPath": "61fabc866a9c5c20a0ae994d2d92a286ce89872e01eb8e1a772e28eaa9260177",
+          "statusList": [
+           {
+            "key": "<span style=\"color:#47C7FD;\">Ice</span> DMG Boost",
+            "value": 0.048
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 36000
+           },
+           {
+            "id": 836255,
+            "count": 2
+           },
+           {
+            "id": 717320,
+            "count": 2
+           }
+          ]
+         }
+        }
+       ],
+       "embedBuff": {
+        "id": 661050,
+        "name": "ATK Boost",
+        "levelReq": 0,
+        "promotionReq": 5,
+        "iconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5",
+        "statusList": [
+         {
+          "key": "ATK",
+          "value": 0.06
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 36000
+         },
+         {
+          "id": 836255,
+          "count": 2
+         },
+         {
+          "id": 717320,
+          "count": 2
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 661053,
+      "name": "DMG Boost: Ice",
+      "levelReq": 0,
+      "promotionReq": 4,
+      "iconPath": "61fabc866a9c5c20a0ae994d2d92a286ce89872e01eb8e1a772e28eaa9260177",
+      "statusList": [
+       {
+        "key": "<span style=\"color:#47C7FD;\">Ice</span> DMG Boost",
+        "value": 0.048
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 920196,
+        "count": 4
+       },
+       {
+        "id": 633379,
+        "count": 3
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "id": 660961,
+    "name": "The Secret Strategy",
+    "descHash": "When Pela is on the battlefield, all allies' Effect Hit Rate increases by <nobr>#1[i]%</nobr>.",
+    "iconPath": "9fb73c131e5e9a0fc7730e2c0c77e9d284825f4070461a5097e61c9a9acafb27",
+    "levelReq": 0,
+    "promotionReq": 4,
+    "levelData": [
+     {
+      "level": 1,
+      "params": [
+       0.1
+      ],
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 920196,
+        "count": 4
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 270195,
+        "count": 1
+       }
+      ]
+     }
+    ],
+    "ultimateCost": 0
+   }
+  },
+  {
+   "id": 1106103,
+   "type": 1,
+   "children": [
+    {
+     "id": 1106208,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 661064,
+      "name": "Effect Hit Rate Boost",
+      "levelReq": 0,
+      "promotionReq": 6,
+      "iconPath": "6cee422fdfafd9cab8ce9f5a86a717d069964985d2e079d359713385c93d67fb",
+      "statusList": [
+       {
+        "key": "Effect Hit Rate",
+        "value": 0.06
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 128000
+       },
+       {
+        "id": 836255,
+        "count": 6
+       },
+       {
+        "id": 717320,
+        "count": 6
+       }
+      ]
+     }
+    },
+    {
+     "id": 1106209,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 661065,
+      "name": "ATK Boost",
+      "levelReq": 75,
+      "promotionReq": 0,
+      "iconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5",
+      "statusList": [
+       {
+        "key": "ATK",
+        "value": 0.08
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 128000
+       },
+       {
+        "id": 836255,
+        "count": 6
+       },
+       {
+        "id": 717320,
+        "count": 6
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "id": 660960,
+    "name": "Wipe Out",
+    "descHash": "Using Skill to remove buff(s) increases the DMG of the next attack by <nobr>#1[i]%</nobr>.",
+    "iconPath": "1396b70256f2f00e9349dc7b0c05f9c50144edb5b963f74796dede4eb7482829",
+    "levelReq": 0,
+    "promotionReq": 6,
+    "levelData": [
+     {
+      "level": 1,
+      "params": [
+       0.2
+      ],
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 128000
+       },
+       {
+        "id": 836255,
+        "count": 6
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 270195,
+        "count": 1
+       }
+      ]
+     }
+    ],
+    "ultimateCost": 0
+   }
+  },
+  {
+   "id": 1106201,
+   "type": 2,
+   "children": [
+    {
+     "id": 1106210,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 744997,
+      "name": "DMG Boost: Ice",
+      "levelReq": 80,
+      "promotionReq": 0,
+      "iconPath": "61fabc866a9c5c20a0ae994d2d92a286ce89872e01eb8e1a772e28eaa9260177",
+      "statusList": [
+       {
+        "key": "<span style=\"color:#47C7FD;\">Ice</span> DMG Boost",
+        "value": 0.064
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 128000
+       },
+       {
+        "id": 836255,
+        "count": 6
+       },
+       {
+        "id": 717320,
+        "count": 6
+       }
+      ]
+     }
+    }
+   ],
+   "embedBuff": {
+    "id": 661057,
+    "name": "DMG Boost: Ice",
+    "levelReq": 1,
+    "promotionReq": 0,
+    "iconPath": "61fabc866a9c5c20a0ae994d2d92a286ce89872e01eb8e1a772e28eaa9260177",
+    "statusList": [
+     {
+      "key": "<span style=\"color:#47C7FD;\">Ice</span> DMG Boost",
+      "value": 0.032
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 2000
+     },
+     {
+      "id": 549438,
+      "count": 2
+     }
+    ]
+   }
+  }
+ ],
+ "relicRecommend": {
+  "twoPcSets": [],
+  "fourPcSets": [],
+  "props": [
+   {
+    "relicTypeHash": "Body",
+    "relicTypeIcon": "87a68da58f5ca7f656d3ebf27bc84c5c32aafd164f2406af6b95c0e46277496b",
+    "propertyName": "CRIT Rate",
+    "propertyIconPath": "2bf7f8117bb4bac5bac4a4b7866f2bf3c272b526b8d945ece48991383f5f9f96"
+   },
+   {
+    "relicTypeHash": "Feet",
+    "relicTypeIcon": "5d8394f899a9cc41333630a3475d525b65c4a7cf59d16cdc4ac0acccc082259c",
+    "propertyName": "SPD",
+    "propertyIconPath": "2483a985b6f7a2c277835369c71181b7f70d5f25238745319b6328780100a3fd"
+   },
+   {
+    "relicTypeHash": "Planar Sphere",
+    "relicTypeIcon": "fd22786ef5ef0aee8953005c423739fe85fd85b16b82a3f7f18910499a4368b5",
+    "propertyName": "Ice DMG Boost",
+    "propertyIconPath": "61fabc866a9c5c20a0ae994d2d92a286ce89872e01eb8e1a772e28eaa9260177"
+   },
+   {
+    "relicTypeHash": "Link Rope",
+    "relicTypeIcon": "245bb6e30915d9ab6a042e37499ad3a0b0d022208a5fee05417b7cd3c088e357",
+    "propertyName": "ATK",
+    "propertyIconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5"
+   }
+  ]
+ },
+ "voiceItems": [
+  {
+   "id": 1,
+   "title": "First Meeting",
+   "text": "Pelageya Sergeyevna, Silvermane Guards Intelligence Officer, at your service. You can call me Pela.",
+   "unlockRequirement": "",
+   "cnUrl": "cde487534d412ca8f3a0ee3fc6325d9526720dde66294d2ddfe747fec7170b0b",
+   "jpUrl": "a5e274bb23ed68fb92fed59fcd06ab915375ad3f32fe3e1a1684cec1bf179207",
+   "enUrl": "b5aff842982d72c7ae94ea03902320b6e2462ea96109aff55e7aa9359ca2632a",
+   "krUrl": "9b1cae03c44f8ca2a340e20cf48e5905aacb9e296837e6db15f88b7b11c2a771"
+  },
+  {
+   "id": 2,
+   "title": "Greeting",
+   "text": "You ready? Let's start the records for the day.",
+   "unlockRequirement": "",
+   "cnUrl": "6434b6cd2a128f5e79f76b1881819bd1bc9f6eb3ceffdfd448a5a5b05745cb68",
+   "jpUrl": "4bbef105f3434e2c81081f884692203414528b24733b6ae319e1781f577860e4",
+   "enUrl": "6b1bc0878cf73135df1b178ad6057c586f90c2284828df2c2f425846b82e2faf",
+   "krUrl": "f0092a1dce8174fb459e95c1b66040a73809d10851d9a96d1aeaa1690d6fd0dd"
+  },
+  {
+   "id": 3,
+   "title": "Parting",
+   "text": "The reports look pretty normal today. You can go have some rest.",
+   "unlockRequirement": "",
+   "cnUrl": "084f2dfd24cbd8b1761e7186443e0db832fd67feed8c80cd56141b1986b12818",
+   "jpUrl": "bfae28aa65b511f2c956e34d4c3d52d8895d920b34899c5a81ce64dc69c33645",
+   "enUrl": "261a45947aecbf3697e0c2f2e918703cea0fa02545d3f8668fbdae4771e3d41f",
+   "krUrl": "a23740dc6f29dca0df6db8cdb85654f9f451410fc933ac53c1c13d67520a0dbb"
+  },
+  {
+   "id": 4,
+   "title": "About Self",
+   "text": "I'm good at documenting information and coming up with my analysis. Acting on that analysis is the captain's job.",
+   "unlockRequirement": "",
+   "cnUrl": "500555ec766f3fb28f6cdee0438e73a610a8920e0130543c7573b3fd496c0e18",
+   "jpUrl": "feb1d3df4f3e72ac93926fcd503d04890dfeb824e04eff067378d3bb42969544",
+   "enUrl": "68705b49f288f580e13f576a8cafbc10786c78ada33f625ef7943d3b0a1c3d32",
+   "krUrl": "abd7e47a64c9d23d1fa9f6c9c5096821c2e0c3fbf3271e783fa1dcba3c95f769"
+  },
+  {
+   "id": 5,
+   "title": "Chat: Role in the Band",
+   "text": "People don't usually notice the drummer, but if you miss a beat, everyone feels it. I like the challenge.",
+   "unlockRequirement": "",
+   "cnUrl": "69b050d046ea1a77a1a626b6bce268ab27c1d78731c14a8c1a473c5594350ee9",
+   "jpUrl": "039a3dd58c5d00791839241446d212420a37291c12dab597abf9c80cf2c25fb3",
+   "enUrl": "d4575fd58a1ce800c9815c19973d66dd5693188c560c7a082872d2c0f89e2e8b",
+   "krUrl": "e7591d7975a98b830a99993b3eed93f979531907b0b0074972bb4d7439106771"
+  },
+  {
+   "id": 6,
+   "title": "Hobbies",
+   "text": "I like to go to the library on the weekend and take out some... literature. Then when we're finished reading, me and my friends meet up to discuss it.",
+   "unlockRequirement": "",
+   "cnUrl": "58f8636a0a8e6b108657662395ae16f32c61f243763e4045605d0f485f13c7d2",
+   "jpUrl": "07cb124337b188e5c301740a006dfcbf559d653af280832a8e4da2fe0f59950a",
+   "enUrl": "654ed62e7b70cef8c4c73cde82c6a8db427521cd93ec176b775f808e83f94b7e",
+   "krUrl": "93e8fefa1493711c4a926e894c197629e61275309f696e871756ffe83bc0eae6"
+  },
+  {
+   "id": 7,
+   "title": "Annoyances",
+   "text": "*sigh* Sometimes I practice over a dozen times before reporting to my superiors, but I still can't get it right...",
+   "unlockRequirement": "",
+   "cnUrl": "5edb0e1bce198c7712ca5659a126a435d88a18d6d4ded85ec8bf813ec1a6fb9e",
+   "jpUrl": "8180555fc63d9bd95547a85fbf35af99cc214a475730d9e034ee01242016e5b9",
+   "enUrl": "1ee352feaaf7853fa9eb61543089f344e79c4e606836a60a97c8ebd0717b78ec",
+   "krUrl": "c1d98468aac509f044f39537d3c74c3cb682a758a91b45b87d29b3b35aa78e54"
+  },
+  {
+   "id": 8,
+   "title": "Something to Share",
+   "text": "There are <nobr>32</nobr> versions of my full name circulating among the troops. How do I know? I'm an intelligence officer after all.",
+   "unlockRequirement": "",
+   "cnUrl": "b18ff6a3039353cd1cd1560961d2a804c7a1eb272d7f9023aac40d706656297d",
+   "jpUrl": "5d1aa817c3014d4e1c6cb589f15121d2eb99cec3136051dbd7368c0f908077e6",
+   "enUrl": "16b05ed90ccc3f95e777fc25784354a84e89dda884b392edc4a6436f4b1e0329",
+   "krUrl": "fb612d0c1341495d656b8502545014f2438659e357d5d5055a7a9ec6f95f58e1"
+  },
+  {
+   "id": 9,
+   "title": "Knowledge",
+   "text": "*gasp* A new edition of the fanbook \"Tale of the Winterlands?\" That's one of the most sought-after series out there... H\u2014How many copies should I get... Ten? Is ten enough...?",
+   "unlockRequirement": "",
+   "cnUrl": "aaba592292df0e8c14ad61ebf29978195d227c7b42c3125738c53d7135b63eec",
+   "jpUrl": "64a05651c02ce1963c57f123a09622474aa801c6d6032243f3f0e224384e29b4",
+   "enUrl": "741ace4dcb9eae93fb2dd30573be01c9abdf9b409a4811c07486cda463656ea4",
+   "krUrl": "656a92f25554666ca83e1d8e4a658c34086e66a62edb7fc589113cb365fdc29c"
+  },
+  {
+   "id": 10,
+   "title": "About Bronya",
+   "text": "In all of Belobog, you won't find anyone who speaks more elegantly or acts more like a leader than Lady Bronya.",
+   "unlockRequirement": "",
+   "cnUrl": "1a98fcb9ccc80e6dc0476d208afd611f33870e75e3073382969ab660bbc4a7ff",
+   "jpUrl": "0ea52716e46c5f798c7a1f9e33c8d3db2761fc417361b90990239091e767fe08",
+   "enUrl": "532df0c5dd1180f2033cf287c5c00880ec919850cd7e20f85e29475d4d4b9d9d",
+   "krUrl": "2e0f47b52e0fe3ad3c45eb93105a960c955942df5a29f537a544c0dbd8ffca9c"
+  },
+  {
+   "id": 11,
+   "title": "About Serval",
+   "text": "*sigh* Serval's rule is: no rules.",
+   "unlockRequirement": "",
+   "cnUrl": "4bad5fadf946d3131585bf18756c3049861da91a0072ae672d3f69f02fb7b22e",
+   "jpUrl": "dd5e70a1f5b48823d5869849efbed54b3190e59da1b51bebb097e514472a17e0",
+   "enUrl": "029ca36267c3c609a77d1a8da216e4beac2efb7b0bac31cdce24ddfd8a2ade81",
+   "krUrl": "951441b999af838cf4390e38eaf3b52b58b875e3da838c487a98db075eb6dc14"
+  },
+  {
+   "id": 12,
+   "title": "About Gepard",
+   "text": "Captain Gepard is an honorable man and very reliable. But when it comes to his horticultural skills... all I can say is I respect his effort and wish him the best of luck.",
+   "unlockRequirement": "",
+   "cnUrl": "20bdd5b2e11abe97c89a4bc30467785013f3e097bd76f3c4f38b1aecf0e809c4",
+   "jpUrl": "ca332a75a5ef195758e312bbf3d645485172aaa6feac210305f4680c0f9ee15c",
+   "enUrl": "17a629d804b444da9df598d2bc1aca6158c4b639977dd2d2180b80ebe75cc837",
+   "krUrl": "07013257bd50ceb8e7a03ad55c699264a032f1ed1e4b2204d51cef6c8b59c7b9"
+  }
+ ],
+ "storyItems": [
+  {
+   "title": "Character Details",
+   "text": "The meticulous Intelligence Officer of the Silvermane Guards. While young, she is undeniably brilliant.<br />Whether it relates to maneuvering troops, distributing supplies, or the analyzing terrain, Pela can answer any problems with calm certainty.<br />As for her phone case... \"It has nothing to do with work, captain.\"",
+   "unlockRequirement": ""
+  },
+  {
+   "title": "Character Story: Part I",
+   "text": "The following is an excerpt from page <nobr>102</nobr> of the Silvermane Guards Recruitment Records: Intelligence Department \u2014 Vol. <nobr>24</nobr>:<br /><br />Basic information about the candidate \u2014<br /><br />\"My name is Pelageya Sergeyevna, but you can call me Pela.\"<br />\"I graduated from the Faculty of Social Sciences and the Faculty of Science and Faculty of Science from the Belobog Cadet School, with a double honorary degree in Military Studies and Cryptography.\"<br />\"My hobbies? Pardon me, I need a minute to collect myself...\"<br />\"...My hobby is studying prehistoric Belobog music. That's it.\"<br />\"No, no, I have no other hobbies... Really... Please trust me.\"",
+   "unlockRequirement": "Unlocked at Character Level <nobr>20</nobr>"
+  },
+  {
+   "title": "Character Story: Part II",
+   "text": "The following is an excerpt from page <nobr>103</nobr> of the \"Silvermane Guards Recruitment Records; Intelligence Department \u2014 Vol. <nobr>24</nobr>\".<br /><br />As for what is an honorary degree \u2014<br /><br />\"Please allow me to recite from the Belobog Sergeant Education and Degree Awarding Regulations Version 3, Chapter 5, Section <nobr>23</nobr>, Article 1, Paragraph 7...:\"<br />\"An Honorary Bachelor's degree will be conferred to students who have not met the minimum age requirement but have earned enough credits from courses of corresponding majors.\"<br />\"That's right. I currently have no plans for postgraduate study, and never will.\"<br />\"I find practice far better than theory, Madam.\"",
+   "unlockRequirement": "Unlocked at Character Level <nobr>40</nobr>"
+  },
+  {
+   "title": "Character Story: Part III",
+   "text": "One snowy Belobog evening, underneath the massive stopped clock, the laughter of girls spilled out from a warmly-lit window.<br /><br />\"Studying prehistoric Belobog music!? That's just ridiculous! Didn't Cocolia bother to ask about that?\" The slightly older woman rocks back and forth with laughter.<br /><br />\"Please address her as Madam Cocolia, Serval.\" A petite girl pouts as she take off her steamed-up round glasses. \"She has to know that I'm playing in your band.\"<br /><br />The girl in the cat ears hat \u2014 she is reluctant to take it off even when inside \u2014 chimes in. \"...You really are a piece of work. Does Madam Cocolia know what your other hobbies are?\"<br /><br />\"Ha. No way.\" The woman named Serval gets up from her bedding on the floor. \"I've lived with her for so long and never seen her pick up a novel \u2014 she says they're a complete waste of time...\"<br /><br />\"Okay. Pela, Lynx \u2014 We need to go to the Tale of the Winterlands fan meet tomorrow. Let's get some rest.\"",
+   "unlockRequirement": "Unlocked at Character Level <nobr>60</nobr>"
+  },
+  {
+   "title": "Character Story: Part IV",
+   "text": "If you're familiar with the street gossip of Belobog, then there's no way you could miss the Tale of the Winterlands. And if you're an avid Tale fan, then you'll definitely have heard of the fan meet. Its time and location are a secret, and attendance is by special invite only.<br /><br />Attendants are split into only two categories: content creators, and the consumers who love the created content. They all have a genuine love for the Tale of the Winterlands, and do their bit to support this monumental masterpiece of Belobog literature.<br /><br />Among them, a new legend is born \u2014 It is said that she is a petite woman. It is said she never missed a single meet. It is said she always wore a mask. It is said she once spent a small fortune on a limited-edition artbook. It is said that when ever she creates something, her work would cause a huge sensation among the dedicated fan base...<br /><br />\"That's a whole lot of rumors, yet none of them are related to the Silvermane Guards...\"<br />\"Looks like... My skills of disguise really are fantastic after all. Teehee!\"",
+   "unlockRequirement": "Unlocked at Character Level <nobr>80</nobr>"
+  }
+ ],
+ "archive": {
+  "cvCn": "\u5bb4\u5b81",
+  "cvJp": "\u8af8\u661f\u3059\u307f\u308c",
+  "cvKr": "\uc774\ub2e4\uc740",
+  "cvEn": "Xanthe Huynh",
+  "camp": "Belobog"
+ },
+ "calculator": {
+  "expCost": {
+   "1": 200,
+   "2": 300,
+   "3": 500,
+   "4": 600,
+   "5": 1050,
+   "6": 1670,
+   "7": 2320,
+   "8": 3060,
+   "9": 3860,
+   "10": 4740,
+   "11": 5710,
+   "12": 6730,
+   "13": 7830,
+   "14": 9000,
+   "15": 10240,
+   "16": 11550,
+   "17": 12920,
+   "18": 14360,
+   "19": 15870,
+   "20": 16580,
+   "21": 16840,
+   "22": 17100,
+   "23": 17370,
+   "24": 17640,
+   "25": 17910,
+   "26": 18190,
+   "27": 18480,
+   "28": 18760,
+   "29": 19040,
+   "30": 19340,
+   "31": 19630,
+   "32": 19930,
+   "33": 20220,
+   "34": 20530,
+   "35": 20840,
+   "36": 21140,
+   "37": 21450,
+   "38": 21760,
+   "39": 22080,
+   "40": 22390,
+   "41": 25550,
+   "42": 29140,
+   "43": 32830,
+   "44": 36600,
+   "45": 40470,
+   "46": 44430,
+   "47": 48480,
+   "48": 52630,
+   "49": 56870,
+   "50": 61190,
+   "51": 65620,
+   "52": 70130,
+   "53": 74740,
+   "54": 79450,
+   "55": 84240,
+   "56": 89120,
+   "57": 94110,
+   "58": 99190,
+   "59": 104350,
+   "60": 106240,
+   "61": 111830,
+   "62": 117530,
+   "63": 123320,
+   "64": 129210,
+   "65": 135200,
+   "66": 141290,
+   "67": 147480,
+   "68": 153780,
+   "69": 160170,
+   "70": 179260,
+   "71": 199920,
+   "72": 220920,
+   "73": 242260,
+   "74": 263930,
+   "75": 285950,
+   "76": 308300,
+   "77": 331000,
+   "78": 354040,
+   "79": 377420,
+   "80": 414350
+  },
+  "expItemConfig": {
+   "1000": 409962,
+   "5000": 409961,
+   "20000": 409960
+  },
+  "sCoinId": 29328
+ },
+ "pageId": "pela"
+}

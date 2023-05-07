@@ -1,0 +1,24 @@
+{
+ "iconPath": "83187f05670032ca8f551e9727f39bae12983f7f7953b17d84df8ab894a89978",
+ "name": "Star Rail Pass",
+ "rarity": 5,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 526574,
+  "type": 601,
+  "purposeId": 8,
+  "iconPath": "83187f05670032ca8f551e9727f39bae12983f7f7953b17d84df8ab894a89978",
+  "name": "Star Rail Pass",
+  "desc": "",
+  "lore": "Astral Express Universal Pass. Travel as far as the Star Rail stretches.<br /><br />\"Map worlds, meet people, make memories.\"",
+  "purpose": "Warp Item",
+  "rarity": 5,
+  "rewardPath": "/material/526574",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "526574"
+}

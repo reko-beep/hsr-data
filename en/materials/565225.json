@@ -1,0 +1,24 @@
+{
+ "iconPath": "0400af1e6bdc5205f50eefc4dfbc789e845befa60aaf7bf95c8cd7fa09eb0632",
+ "name": "Gift of the Pathstriders",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 565225,
+  "type": 503,
+  "purposeId": 0,
+  "iconPath": "0400af1e6bdc5205f50eefc4dfbc789e845befa60aaf7bf95c8cd7fa09eb0632",
+  "name": "Gift of the Pathstriders",
+  "desc": "Gifts between Pathstriders. Select one material of your choice.",
+  "lore": "Your companions would eventually reach their own ends. Hopefully, this gift can accompany you on an even longer journey.",
+  "purpose": "",
+  "rarity": 3,
+  "rewardPath": "/material/565225",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "565225"
+}

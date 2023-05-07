@@ -1,0 +1,26 @@
+{
+ "iconPath": "e939622ff07310220b4ae6be382615a1ef5a34b0a8830a21e5e2fd2ed6129a30",
+ "name": "Ambergris of Abundance",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 757713,
+  "type": 601,
+  "purposeId": 17,
+  "iconPath": "e939622ff07310220b4ae6be382615a1ef5a34b0a8830a21e5e2fd2ed6129a30",
+  "name": "Ambergris of Abundance",
+  "desc": "Tier 3 Synthesis Material",
+  "lore": "Jelly-like substance that contains the power of Abundance.<br />Firm but not stiff, with notes of fragrance, it fills your heart with hope the moment it touches your fingertip.<br />Do not ask what it's made of.<br /><br />\"It gives you longevity and abundance, dispelling misfortune and illness.\"",
+  "purpose": "Synthesis material",
+  "rarity": 3,
+  "rewardPath": "/material/757713",
+  "comeFrom": [
+   "Cloudford: Mara-Struck Soldiers or other enemies"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "757713"
+}

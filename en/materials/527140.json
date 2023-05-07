@@ -1,0 +1,24 @@
+{
+ "iconPath": "1c52554ba778f671593c540efe669768f1d54b62738658edaf2cd226dfd7e8a3",
+ "name": "Nameless Glory (Unopened)",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 527140,
+  "type": 501,
+  "purposeId": 14,
+  "iconPath": "1c52554ba778f671593c540efe669768f1d54b62738658edaf2cd226dfd7e8a3",
+  "name": "Nameless Glory (Unopened)",
+  "desc": "An unopened treasure. Use to gain the effect equivalent to purchasing Nameless Glory once.",
+  "lore": "",
+  "purpose": "Valuable object",
+  "rarity": 4,
+  "rewardPath": "/material/527140",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "527140"
+}
