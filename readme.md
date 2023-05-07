@@ -7,4 +7,12 @@
 
 
 
-WIP...
+# WANNA CONTRIBUTE
+
+Fork and start a pull request.
+
+# GETTING RAW DATA
+
+see ```raw_data.py``` it gets all data from site and saves it in json format.
+
+simulatedUniverse data might throw errors as date calculation is not month safe, it might throw date not exists in month type errors.
