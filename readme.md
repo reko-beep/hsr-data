@@ -20,5 +20,5 @@ simulatedUniverse data might throw errors as date calculation is not month safe,
 
 # Previous Data and Images
 
-Previous data and images are in data branch of this repo.
+Previous data and images are in [data](https://github.com/reko-beep/hsr-data/tree/data) branch of this repo.
 
