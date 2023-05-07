@@ -36,13 +36,13 @@ class SRSClient:
         params
         --
 
-        language: Languages Enum
-            - Languages.ENG, Languages.RU etc
-        route: a Routes object
-        goto: if you want to search in a specific route [True] 
-            - defaults to False
+        - language: Languages Enum
+             Languages.ENG, Languages.RU etc
+        - route: a Routes object
+        - goto: if you want to search in a specific route [True] 
+             defaults to False
         
-        item_id : id of the item you want to search in a route
+        - item_id : id of the item you want to search in a route
         
         '''
 
@@ -69,13 +69,15 @@ class SRSClient:
         params
         --
 
-        language: Languages Enum
-            - Languages.ENG, Languages.RU etc
-        route: a Routes object
-        goto: if you want to search in a specific route [True] 
-            - defaults to False
+        - language: Languages Enum
+             Languages.ENG, Languages.RU etc
+
+        - route: a Routes object
+
+        - goto: if you want to search in a specific route [True] 
+             defaults to False
         
-        item_id : id of the item you want to search in a route
+        - item_id : id of the item you want to search in a route
         
         '''
 
@@ -101,10 +103,10 @@ class SRSClient:
         params
         --
 
-        language: Languages Enum
-            - Languages.ENG, Languages.RU etc
-        type : a type object 
-            - Types.MATERIALS, Types.PLAYERCARDS, Types.CHARACTERS etc
+        - language: Languages Enum
+             Languages.ENG, Languages.RU etc
+        - type : a type object 
+             Types.MATERIALS, Types.PLAYERCARDS, Types.CHARACTERS etc
         
         
         '''
@@ -130,8 +132,8 @@ class SRSClient:
         params
         --
 
-        item: [SearchItem of Character Type] or [Character ID]
-        language: Languages Enum
+        - item: [SearchItem of Character Type] or [Character ID]
+        - language: Languages Enum
             - Languages.ENG, Languages.RU etc
         
         
