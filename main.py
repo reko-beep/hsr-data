@@ -7,6 +7,7 @@ from utils import generate_t, base36encode
 from constants import *
 from errors import *
 
+from json import dump
 
 class SRSClient:
     '''
@@ -139,6 +140,8 @@ class SRSClient:
             if item.type == Types.CHARACTERS:
 
                 response = self.fetch(language, CHARACTERS, True, item.id)
+                with open('traces.json', 'w') as f:
+                    dump(response, f, indent=1)
                 if response is not None:
                     return Character(**response)
             

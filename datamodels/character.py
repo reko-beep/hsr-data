@@ -12,6 +12,12 @@ class DamageType(BaseModel):
     name : Optional[str]
     rarity: Optional[int] 
 
+    @validator('iconPath', pre=True)
+    def get_icon_path(cls, v):
+        if v != "":
+            return IMAGE_ROUTE.format(assetId=v)
+        return ''
+
 
 
 class BaseType(BaseModel):
@@ -22,6 +28,12 @@ class BaseType(BaseModel):
     color : Optional[str] 
     rarity: Optional[int] 
     name : Optional[str]
+
+    @validator('iconPath', pre=True)
+    def get_icon_path(cls, v):
+        if v != "":
+            return IMAGE_ROUTE.format(assetId=v)
+        return ''
 
 
 class LevelData(BaseModel):
@@ -179,7 +191,12 @@ class SubSkill(BaseModel):
         list_ = []
         if len(v) != 0:
             for item in v:
-                list_.append(SubSkill(**item))
+                checker = {}                
+                checker['has_subskills'] = 'children' in item
+                checker['has_buff'] = 'buff' in item or 'embedBuff' in item
+                checker['has_bonus'] = 'embedBonusSkill' in item
+
+                list_.append(SubSkill(**{**item, **checker}))
         return list_
 
     @validator("buff", pre=True)
@@ -204,13 +221,22 @@ class SkillTreePoints(BaseModel):
     sub_skills : list = Field(alias='children')
     buff : Optional[Buff]
     bonus_skill : Optional[BonusSkill] = Field(alias='embedBonusSkill')
+    has_bonus : Optional[bool]
+    has_buff : Optional[bool]
+    has_subskills : Optional[bool]
+
     
     @validator("sub_skills", pre=True)
     def get_sub_skills(cls, v):
         list_ = []
         if len(v) != 0:
             for item in v:
-                list_.append(SubSkill(**item))
+                checker = {}                
+                checker['has_subskills'] = 'children' in item
+                checker['has_buff'] = 'buff' in item or 'embedBuff' in item
+                checker['has_bonus'] = 'embedBonusSkill' in item
+
+                list_.append(SubSkill(**{**item, **checker}))
         return list_
 
     @validator("buff", pre=True)
@@ -403,7 +429,12 @@ class Character(BaseModel):
         list_ = []
         if len(v) != 0:
             for item in v:
-                list_.append(SkillTreePoints(**item))
+                checker = {}                
+                checker['has_subskills'] = 'children' in item
+                checker['has_buff'] = 'buff' in item or 'embedBuff' in item
+                checker['has_bonus'] = 'embedBonusSkill' in item
+
+                list_.append(SkillTreePoints(**{**item, **checker}))
         return list_
 
     @validator('relics', pre=True)
