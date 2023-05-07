@@ -8,6 +8,18 @@ AUDIO_ROUTE = 'https://starrailstation.com/assets/{assetId}.mp3'
 
 
 class Routes:
+    '''
+    This class is meant to convert json files
+    to routes for navigating or going to specific Item
+
+    ---
+    example:
+    ---
+    
+    - main path is en/characters.json
+    - goto path is en/characters/id.json
+    
+    '''
 
     def __init__(self, file: str) -> None:
         self.file = file

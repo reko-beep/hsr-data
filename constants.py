@@ -5,6 +5,10 @@ from enum import Enum
 O_VALUE = '6b14cd54ea92edd2dbfc20fa8b0d5797' # idk site changes this a lot
 
 class Types(int, Enum):
+    '''
+    Search Item types
+    
+    '''
 
     CHARACTERS = 0
     LIGHTCONES = 1
@@ -19,6 +23,10 @@ class Types(int, Enum):
 
 
 class Languages(str, Enum):
+    '''
+    
+    Allowed languages
+    '''
 
     ENG = 'en'
     CN = 'cn'
@@ -36,6 +44,9 @@ class Languages(str, Enum):
         return str(self.value)
 
 class RelicTypes(str, Enum):
+    '''
+    Relic Types
+    '''
 
     BODY = 'Body'
     FEET = 'Feet'
