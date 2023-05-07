@@ -16,3 +16,9 @@ Fork and start a pull request.
 see ```raw_data.py``` it gets all data from site and saves it in json format.
 
 simulatedUniverse data might throw errors as date calculation is not month safe, it might throw date not exists in month type errors.
+
+
+# Previous Data and Images
+
+Previous data and images are in data branch of this repo.
+
