@@ -1,0 +1,27 @@
+{
+ "iconPath": "658cb5dd7c47041670545c8777310123c6e78d7465d2b2468587467b13560639",
+ "name": "Hertareum",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 152935,
+  "type": 601,
+  "purposeId": 13,
+  "iconPath": "658cb5dd7c47041670545c8777310123c6e78d7465d2b2468587467b13560639",
+  "name": "Hertareum",
+  "desc": "The cryptocurrency circulating internally in the Herta Space Station. Can be used to purchase goods in Special Stores.",
+  "lore": "Hertareum was planned as a digital currency, but eventually settled as a physical currency.<br />It's worth mentioning that even though Hertareum coins don't contain any precious metal components, the high-definition silhouette Non-Fungible Token contained inside it is much more valuable than any of them.",
+  "purpose": "World currency",
+  "rarity": 3,
+  "rewardPath": "/material/152935",
+  "comeFrom": [
+   "Exploring Herta Space Station",
+   "Adventure Missions"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "152935"
+}

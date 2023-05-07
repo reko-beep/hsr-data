@@ -1,0 +1,364 @@
+{
+ "iconPath": "5697f106bffd77cdaac463118c2612ee69e0d906afac35a2161414374437171c",
+ "name": "Immortal Aeroblossom",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 633445,
+  "type": 601,
+  "purposeId": 7,
+  "iconPath": "5697f106bffd77cdaac463118c2612ee69e0d906afac35a2161414374437171c",
+  "name": "Immortal Aeroblossom",
+  "desc": "New flowers blooming out of an ancient divine construct. Normal material used for enhancement.",
+  "lore": "The source of the Xianzhou long-life species' \"Endless Lifespan.\" The remnants of the Aeon of Abundance's influence. After endless trials, the fleet seeking the medicine of immortality was able to behold the visage of the celestial being. The divine one cast down its blessings in material form, and the Ambrosial Arbor sprouted its leaves.<br /><br />\"New buds descend into the moon, divine flowers bloom by the clouds. In the blink of a blossom's life, old wood returns to youthful grove.\"",
+  "purpose": "Trace Material<br />Character Ascension Materials",
+  "rarity": 3,
+  "rewardPath": "/material/633445",
+  "comeFrom": [
+   "Cloudford: Equilibrium Level 2+ Mara-Struck Soldiers or other enemies",
+   "Stargazer Navalia: Equilibrium Level 2+ Mara-Struck Soldiers or other enemies",
+   "Omni-Synthesizer \u2014 Material Synthesis",
+   "Simulated Universe enemies",
+   "Omni-Synthesizer \u2014 Material Exchange"
+  ]
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "0e76659bbb3b9d0b1cc6a4e0e8c63a576c7b917f2f740a4b1b8ceab260a8a595",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards"
+   ]
+  },
+  "39350": {
+   "id": 39350,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "0ea53ab2fe661e5ef5b70541b6ad835f9dbee0a1bb2f6a2a835b7d9c9a39042b",
+   "name": "Today Is Another Peaceful Day",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Erudition</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "There is the new book borrowed for lunch and she just figured out a new way to play tiles.<br />If she works slowly, the rest of her job should last exactly till the end of day.<br />She ducks easily into a corner.<br /><br />No one must disturb her in her wonderful off time<br />\u2014 not even diviner Fu.<br />Just on the off chance that she does show up...<br /><br />\"Then I'll give this milk candy ball to Diviner Fu. She can't be angry after having sweets!\"",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21034",
+   "comeFrom": []
+  },
+  "39353": {
+   "id": 39353,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "659d2259f7ad6ff3dffded3db1d4f2f2f48cf637d43285633f856a657f376a79",
+   "name": "Return to Darkness",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">The Hunt</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "Even though her sister was close by her side, she could hear nothing.<br />The only thing audible was the voice in the depths of her heart, which only grew louder by the minute.<br /><br />\"Big sis's body is cold.\"<br />\"Big sis's body is not moving.\"<br /><br />A violent surge of fury irrevocably overwhelmed her so much that she didn't even find the time to clear her mind, or to remember this crucial yet neglected fact...<br /><br />\"Big sis's body has been cold like this for a very long time.\"",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21031",
+   "comeFrom": []
+  },
+  "196474": {
+   "id": 196474,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "c5dee3abeaa2b7d6e71705a8f00e50e7555eb582324213eff15ed805a55d9047",
+   "name": "Before Dawn",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Erudition</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "\"Do not make this decision lightly, general... Think about how you will be remembered in history...\"<br />The general of the Cloud Knights listens to his subordinates' words with eyes half-closed.<br />\"History will make its own judgment, but I have no interest in my legacy.\"<br />\"If I succeed, history will state that I am currently supremely confident in my masterful strategy.\"<br />\"But if I fail, then history will state that I am currently neglecting my duties in wanton pleasure, preferring finches over my people.\"<br /><br />A finch jumps down from his shoulder, and he extends his hand to catch the small creature.<br />\"I have simply made my own decision.\"",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/lightcone/23010",
+   "comeFrom": []
+  },
+  "215955": {
+   "id": 215955,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "64ae9b299da4943e1b416a3f2242abe8388cf0c94b8137638eed88b8902164be",
+   "name": "Jing Yuan",
+   "desc": "",
+   "lore": "The Divine Foresight, one of the Seven Arbiter-Generals of the Xianzhou Alliance, leads the Cloud Knights of the Xianzhou Luofu.<br />A student of the Luofu's previous Sword Champion, though not known for his martial prowess.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/jingyuan",
+   "comeFrom": []
+  },
+  "416541": {
+   "id": 416541,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "f577f6f4c33429a9b2c5c5836f8426f78808cfed465b9baedfea917c17de2f4b",
+   "name": "Tingyun",
+   "desc": "",
+   "lore": "Amicassador of the Sky-Faring Commission of the Xianzhou Luofu.<br />She travels with business delegates, forging trade relationships and alliances with many worlds.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/character/tingyun",
+   "comeFrom": []
+  },
+  "549504": {
+   "id": 549504,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "0c1388031133950e67459c98aad3ef2f784468e8339b131b94a4da88bbd608e3",
+   "name": "Immortal Scionette",
+   "desc": "New and young shoot budding from an ancient divine construct. Crude material used for enhancement.",
+   "lore": "The source of the Xianzhou long-life species' \"Endless Lifespan.\" The remnants of the Aeon of Abundance's influence. Countless years ago, a sovereign's hubris for immortality caused the Xianzhou fleet to sail into the sea of outer space to seek divine recipes.<br /><br />\"We desire to live for endless ages and maintain the empire for all eternity. Unfortunately, human lives have limits and human capacity has its ends. Thus, we send nine Navium Astriger to sail beyond the sky, seeking divine recipes for immortality.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 2,
+   "rewardPath": "/material/549504",
+   "comeFrom": [
+    "Cloudford: Mara-Struck Soldiers or other enemies",
+    "Stargazer Navalia: Mara-Struck Soldiers or other enemies",
+    "Simulated Universe enemies",
+    "Assignment rewards",
+    "Embers Exchange",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "633348": {
+   "id": 633348,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "042dc7973ef7c36858a4aa58ef7d32335f528b3c4bc4f0c4ce2e7f401039a7c5",
+   "name": "Silvermane Insignia",
+   "desc": "Military rank insignia worn by captains of the Silvermane Guard. Normal material used for enhancement.",
+   "lore": "Maybe it's a proof of heroics that you can brag about to your family. Maybe it's a lucky charm that protects you from a bullet.<br /><br />\"Times have changed.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 3,
+   "rewardPath": "/material/633348",
+   "comeFrom": [
+    "Outlying Snow Plains: Equilibrium Level 2+ Silvermane Guards or other enemies",
+    "Corridor of Fading Echoes: Equilibrium Level 2+ Everwinter Shadewalkers or other enemies",
+    "Omni-Synthesizer \u2014 Material Synthesis",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "633349": {
+   "id": 633349,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "191ad5f4b9fd5180b9065e05d463d6df35334c87ce1428e89d8d507e69177dc7",
+   "name": "Ancient Spindle",
+   "desc": "Mechanical spindle left behind from the Old World. Normal material used for enhancement.",
+   "lore": "Once taken apart, the precision components can never be put back together. Even the maintenance veterans in Belobog's Technology Division would think twice before touching it.<br /><br />\"You idiot, the Bluecoats will only give you a few canned goods for this. Take it to Boss Svarog and you won't need to worry about food and clothing for a while.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 3,
+   "rewardPath": "/material/633349",
+   "comeFrom": [
+    "Robot Settlement: Equilibrium Level 2+ Automatons or other enemies",
+    "Great Mine: Equilibrium Level 2+ Automatons or other enemies",
+    "Omni-Synthesizer \u2014 Material Synthesis",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "633378": {
+   "id": 633378,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "69d0630f4dc8d8bb4706a8a973f720ce46452e189a62c7b8b6f2ca8d567ca8ae",
+   "name": "Usurper's Scheme",
+   "desc": "A moderate amount of anti-matter. Normal material used for enhancement.",
+   "lore": "A moderate amount of anti-matter that floats around the Voidranger: Distorter. The amount of matter and anti-matter particles has reached a dangerous balance...<br /><br />\"They are all looking forward to the moment of obliteration, when they will be reforged and fused with the entire world.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 3,
+   "rewardPath": "/material/633378",
+   "comeFrom": [
+    "Storage Zone: Equilibrium Level 2+ Voidranger: Reavers or other enemies",
+    "Supply Zone: Equilibrium Level 2+ Voidranger: Reavers or other enemies",
+    "Omni-Synthesizer \u2014 Material Synthesis",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "633379": {
+   "id": 633379,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "4f83a6b3e1cca8b6421a25a880516c3d27117937ae2f7f196180bbb0e1d28c3f",
+   "name": "Glimmering Core",
+   "desc": "The heart of a monster wandering the Fragmentum. Normal material used for enhancement.",
+   "lore": "It is a lesion that breeds evil, the impulse to sin. It is the source of the Fragmentum distortion.<br />The heart is glimmering and the veins on it indicate it's still alive.<br /><br />\"What kind of monster is this? Did you see it... Its face! It has the face of our previous leader!\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 3,
+   "rewardPath": "/material/633379",
+   "comeFrom": [
+    "Backwater Pass: Equilibrium Level 2+ Flamespawns or other enemies",
+    "Rivet Town: Equilibrium Level 2+ Flamespawns or other enemies",
+    "Omni-Synthesizer \u2014 Material Synthesis",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "633444": {
+   "id": 633444,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "1977002edbf48f44c49d08284ce2681f622e70c447d50de10a8b9491dfcb719c",
+   "name": "Artifex's Cogwheel",
+   "desc": "Parts of the Xianzhou machines. Normal material used for enhancement.",
+   "lore": "The connective components used in Xianzhou's ingenium technology. The intricate and thin teeth of the cogwheels are as minute as mustard seeds, and yet are interconnected to form a complex body, making the machine able to pass as true life.<br /><br />\"Its form lies in harmony, a parallel to nature. Its movements cyclical, echoing the cosmos.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 3,
+   "rewardPath": "/material/633444",
+   "comeFrom": [
+    "Stargazer Navalia: Equilibrium Level 2+ Entranced Ingenia or other enemies",
+    "Omni-Synthesizer \u2014 Material Synthesis",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "676262": {
+   "id": 676262,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "648dce7f005ac090148fbb9476aa2f47c8995c2d8caa486e1b72dd159437336a",
+   "name": "Multiplication",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Abundance</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.<br /><br />\"When life has lost its meaning, please continue to bestow life upon it.\"",
+   "purpose": "",
+   "rarity": 3,
+   "rewardPath": "/lightcone/20015",
+   "comeFrom": []
+  },
+  "838762": {
+   "id": 838762,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "b2c47a05f8a13b423a16c8d3f4389b6f991cbfb6e3f619bf4a74e08fa018d0aa",
+   "name": "Trend of the Universal Market",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Preservation</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "The planet is receiving a revaluation...<br /><br />\"Will this project show that it's mutually beneficial to collect any outstanding debts?\"<br />\"But we only need to convey one message \u2014 our existence.\"<br /><br />\"If it were to have a value of its own, then it must create value for the corporation.\"",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21016",
+   "comeFrom": []
+  },
+  "838775": {
+   "id": 838775,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "f8ab6ec716da1a4fd72a6560372b8db60c51fef3d3c7df27e49fe6c59675d76a",
+   "name": "Under the Blue Sky",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Destruction</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "Under the blue sky, fields of wheat were dancing.<br />The young girl was carefully weaving a flower wreath,<br />for her most beloved little sister.<br /><br />That was when they were still the same height.<br />That was when they shared the same smile.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21019",
+   "comeFrom": []
+  },
+  "955413": {
+   "id": 955413,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "f1d758f76d351d45e689394bcb42b8c8bdfd6665d52c4377f4f9836a489fb05c",
+   "name": "Geniuses' Repose",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Erudition</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "She pointed at that green rice cake.<br />\"The experiment has ended. Time to take a break. I just can't miss this freshly made dessert.\"<br /><br />She saw the puppet girl frowning in deep thought.<br />\"Well, in your current body, you can only look but not eat. I'll make you a box of new ones when the time comes.\"<br /><br />She saw the mechanical aristocrat hesitating at his own cup.<br />\"Don't worry. It's only machine oil. Perfectly safe for you to consume.\"",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21020",
+   "comeFrom": []
+  }
+ },
+ "composeData": [
+  {
+   "items": [
+    {
+     "id": 549504,
+     "count": 3
+    },
+    {
+     "id": 29328,
+     "count": 20
+    }
+   ],
+   "tag": {
+    "name": "Universal Enhancement Material",
+    "type": "Traces Activation Materials",
+    "icon": "ffdbab3c38d4fc15596f399cfde9f2eb0717184b00df444cbae165a965fb928a"
+   }
+  },
+  {
+   "items": [
+    {
+     "id": 633379,
+     "count": 2
+    },
+    {
+     "id": 633378,
+     "count": 2
+    },
+    {
+     "id": 633348,
+     "count": 2
+    },
+    {
+     "id": 633349,
+     "count": 2
+    },
+    {
+     "id": 633444,
+     "count": 2
+    }
+   ],
+   "tag": {
+    "name": "Universal Enhancement Material",
+    "type": "Material Exchange",
+    "icon": "07b7fcac4bd26cf308fecb4d737b3da33218a22ae49d9c72509601add9025ce8"
+   }
+  }
+ ],
+ "avatarUsedBy": [
+  {
+   "id": 416541,
+   "rarity": 4
+  },
+  {
+   "id": 215955,
+   "rarity": 5
+  }
+ ],
+ "equipmentUsedBy": [
+  {
+   "id": 676262,
+   "rarity": 3
+  },
+  {
+   "id": 838762,
+   "rarity": 4
+  },
+  {
+   "id": 196474,
+   "rarity": 5
+  },
+  {
+   "id": 838775,
+   "rarity": 4
+  },
+  {
+   "id": 955413,
+   "rarity": 4
+  },
+  {
+   "id": 39353,
+   "rarity": 4
+  },
+  {
+   "id": 39350,
+   "rarity": 4
+  }
+ ],
+ "pageId": "633445"
+}

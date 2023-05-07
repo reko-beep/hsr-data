@@ -1,0 +1,24 @@
+{
+ "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+ "name": "Recipe: Topological Acceleration Band",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 872198,
+  "type": 507,
+  "purposeId": 19,
+  "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+  "name": "Recipe: Topological Acceleration Band",
+  "desc": "A simple equation. When entered into the Synthesizer, it will unlock a new recipe.",
+  "lore": "",
+  "purpose": "Recipe",
+  "rarity": 4,
+  "rewardPath": "/material/872198",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "872198"
+}

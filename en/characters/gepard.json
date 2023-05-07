@@ -1,0 +1,2358 @@
+{
+ "name": "Gepard",
+ "spRequirement": 100,
+ "rarity": 5,
+ "descHash": "A captain in the Silvermane Guards and an outstanding warrior of Belobog. He is meticulous and vigilant to the core and is always true to himself.",
+ "iconPath": "0696b2bfa4fa4763b3e71ddcb8b490aaae91958a512d1e596fad958e897a87b1",
+ "bgPath": "34112491e4e2f1753f3a9feff6358cd5f2e962c7db95a2ec37203d269fa39f68",
+ "figPath": "e1621b800d1d24167145dbd903cf2a06a6738e176945dedd106bf30ff302a8f8",
+ "fgPath": "8506127b2274a60fe0f8b8fe21965e0a91400c6a20e87c59d2b4a0d8ea36adfa",
+ "artPath": "c5bcfec01ce392f42654d5be48bfeceb4ba8b53eeee3e5c9263f3c53b00a9174",
+ "miniIconPath": "cff242d83528bc8051b118c1a90ec6a5d6f63091acfaf0e139e8ba0532715f6e",
+ "splashIconPath": "e07822c72adcb2a0a71907bbfe48f7da04a9e34eda152ecbf8ce6d8ec64e313f",
+ "damageType": {
+  "id": 4,
+  "iconPath": "3a4e72fd1d4a41926980ab22b12c81cde3147050577efcfdac462e0f60271b9f",
+  "color": "#47C7FD",
+  "name": "Ice",
+  "rarity": 0
+ },
+ "baseType": {
+  "id": 0,
+  "iconPath": "129eb76a6f0c9be69f8c2263f5e53030909c36d7e4de7a0571dd5665ac645b33",
+  "altIconPath": "9d034d41c43efff65e81e11d6215e3ce43eb0a2e32036648f707751a8d0a15b6",
+  "color": "#FFFFFF",
+  "name": "Preservation",
+  "rarity": 0
+ },
+ "damageTypeId": 0,
+ "baseTypeId": 0,
+ "baseTypeTraces": {
+  "id": 6,
+  "iconPath": "7ffdd2cf6f7c119724e700bbf531b0ff62f3f1e2c32159e1a1f2bc6c77416163",
+  "color": "#FFFFFF",
+  "rarity": 0
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "0e76659bbb3b9d0b1cc6a4e0e8c63a576c7b917f2f740a4b1b8ceab260a8a595",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards"
+   ]
+  },
+  "67219": {
+   "id": 67219,
+   "type": 601,
+   "purposeId": 2,
+   "iconPath": "03a85f3ccfcb36eb4e371d602e552113e1ada82e6ca848ca9d4f2761f6991e5e",
+   "name": "Horn of Snow",
+   "desc": "Broken horn of a Frigid Prowler. Can be used for the Ascension of Ice characters.",
+   "lore": "The Silvermane Guards would host contests where the winner must take a body part from a monster and bring it back within a set time limit. This cold broken horn must have been a trophy of one such contest.<br /><br />\"Sir Bova, this is no moose horn and is certainly not fit for decoration above the Geomarrow furnace.\"",
+   "purpose": "Character Ascension Materials",
+   "rarity": 4,
+   "rewardPath": "/material/67219",
+   "comeFrom": [
+    "Stagnant Shadow (Corridor of Fading Echoes)",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "125435": {
+   "id": 125435,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "75e6d3c477385eb36716ba1798609b01a9fe10893c1b3e9f9dc81046ad10d9b0",
+   "name": "Tracks of Destiny",
+   "desc": "Advanced level-up material for Traces.",
+   "lore": "Your victory is secured by countless failures, and the small steps you have taken led you to the turning point of fate.",
+   "purpose": "Trace Materials",
+   "rarity": 5,
+   "rewardPath": "/material/125435",
+   "comeFrom": [
+    "Simulated Universe Point Rewards",
+    "Nameless Honor",
+    "Embers Exchange",
+    "Limited-Time Event Rewards"
+   ]
+  },
+  "270195": {
+   "id": 270195,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "ed0c6ddf746bb8fe5f178943cd2836c9c4f98c2647479d389e2640b5f38d1317",
+   "name": "Guardian's Lament",
+   "desc": "Advanced level-up material for Traces.",
+   "lore": "Together with this visor, the twisted wish of a Guardian also lies broken.<br />She had wanted to find a way out for her people to escape the Everwinter, but ended up becoming a puppet of a consciousness beyond her.<br /><br />\"Supreme Guardian, the title passed down to generations of Belobog's rulers, the one who looked after all the people \u2014 It never occurred to anyone that the Guardians themselves also long for care and protection.\"",
+   "purpose": "Trace Materials",
+   "rarity": 4,
+   "rewardPath": "/material/270195",
+   "comeFrom": [
+    "Echo of War (Everwinter Hill)"
+   ]
+  },
+  "409960": {
+   "id": 409960,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "607961a38d9fe4f935578e9ea7b4de093d68ff8258b0b52c3cd4261e5cd92932",
+   "name": "Traveler's Guide",
+   "desc": "Experience material for characters. Provides <nobr>20,000</nobr> Character EXP.",
+   "lore": "Required reading for world exploration. Press the \"Read\" button to tune in to an attractive voice in a language you understand, telling you about the legendary encounters of renowned adventurers across different worlds as well as the precious wisdom and knowledge that they have gathered.<br /><br />\"All-new series of the Traveler's Guide, The Chef's Manual to Galactic Cuisine, is now available for purchase.\"<br />\"For submissions, please connect to synesthesia beacon ERD<nobr>-23</nobr>\u03b8 to contact an Intelligentsia Guild representative. Method of payment can be arranged to your convenience.\"",
+   "purpose": "Character EXP Material",
+   "rarity": 4,
+   "rewardPath": "/material/409960",
+   "comeFrom": [
+    "Calyx (Outlying Snow Plains)",
+    "Forgotten Hall"
+   ]
+  },
+  "409961": {
+   "id": 409961,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "05ef6659e951dd69d862823c86470487d68c24209400d4391df1f50bbc21ab42",
+   "name": "Adventure Log",
+   "desc": "Experience material for characters. Provides <nobr>5000</nobr> Character EXP.",
+   "lore": "A neatly organized collection of educational adventure notes containing countless illustrations and texts entailing adventures from beginning to end, as well as valuable information and survival-related techniques.<br /><br />\"Why not just digitize it and save it on a photolith disk? That'd be much more convenient.\"<br />\"Advanced technology is far more fragile than you'd think when faced with stellar storms and neuron flow eruptions. Besides, I'm sure the author of this book wanted people to read it in the simplest of ways.\"",
+   "purpose": "Character EXP Material",
+   "rarity": 3,
+   "rewardPath": "/material/409961",
+   "comeFrom": [
+    "Calyx (Outlying Snow Plains)",
+    "Daily Training"
+   ]
+  },
+  "409962": {
+   "id": 409962,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "ad5070f0ef2447ee09fb3b0d859ab3c594538eaa58b71a14ffcbd4b2b493c1c5",
+   "name": "Travel Encounters",
+   "desc": "Experience material for characters. Provides <nobr>1000</nobr> Character EXP.",
+   "lore": "A travel diary with messy handwriting and random content. It's not of much use to you.<br /><br />\"Dan Heng, hurry up and finish reading it so you can throw it away.\"",
+   "purpose": "Character EXP Material",
+   "rarity": 2,
+   "rewardPath": "/material/409962",
+   "comeFrom": [
+    "Calyx (Outlying Snow Plains)",
+    "Assignment rewards"
+   ]
+  },
+  "549407": {
+   "id": 549407,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "2901efa774991b0ce2037520ce85ff99af64f37ee6364ffda560278736df6a19",
+   "name": "Silvermane Badge",
+   "desc": "Pin badge worn by soldiers of the Silvermane Guards. Crude material used for enhancement.",
+   "lore": "It is full of scratches from the erosion of wind and snow.<br /><br />\"In ancient times, there was only one way Silvermane Guards could retire: death.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 2,
+   "rewardPath": "/material/549407",
+   "comeFrom": [
+    "Outlying Snow Plains: Silvermane Guards or other enemies",
+    "Corridor of Fading Echoes: Everwinter Shadewalkers or other enemies",
+    "Simulated Universe enemies",
+    "Assignment rewards",
+    "Embers Exchange",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "633348": {
+   "id": 633348,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "042dc7973ef7c36858a4aa58ef7d32335f528b3c4bc4f0c4ce2e7f401039a7c5",
+   "name": "Silvermane Insignia",
+   "desc": "Military rank insignia worn by captains of the Silvermane Guard. Normal material used for enhancement.",
+   "lore": "Maybe it's a proof of heroics that you can brag about to your family. Maybe it's a lucky charm that protects you from a bullet.<br /><br />\"Times have changed.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 3,
+   "rewardPath": "/material/633348",
+   "comeFrom": [
+    "Outlying Snow Plains: Equilibrium Level 2+ Silvermane Guards or other enemies",
+    "Corridor of Fading Echoes: Equilibrium Level 2+ Everwinter Shadewalkers or other enemies",
+    "Omni-Synthesizer \u2014 Material Synthesis",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "635668": {
+   "id": 635668,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "751785c1795d0c216b39deec5fa263ee8119f6295a1582c75e5f4a958a17a385",
+   "name": "Endurance of Bronze",
+   "desc": "A crude but durable ancient hand-held bronze shield. Used to level up Traces slightly for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Preservation</span> characters.",
+   "lore": "Ancient legends entail a war where humans exhausted all primitive methods, following the gods into battle against overwhelmingly powerful beasts.<br />This shield is a witness to that war.<br /><br />\"There's no choice but to stop it, even if the efforts are futile.\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 2,
+   "rewardPath": "/material/635668",
+   "comeFrom": [
+    "Calyx (Supply Zone)"
+   ]
+  },
+  "717289": {
+   "id": 717289,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "ec7d9dcb72593120a29744b7c2741fc2cf9d247469b89988c274ef108dc56b38",
+   "name": "Silvermane Medal",
+   "desc": "Medal of honor worn by soldiers of the Silvermane Guards with gallant and meritorious service. Advanced material used for enhancement.",
+   "lore": "A proof of honor awarded to those that fought against Fragmentum creatures, Underworlders, and sudden disasters.<br />It is not usually pinned onto the recipient's chest, but rather placed onto his coffin.<br /><br />\"Remember, young Gepard. It is not a toy: it is the destiny and blood of the Landau family.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 4,
+   "rewardPath": "/material/717289",
+   "comeFrom": [
+    "Outlying Snow Plains: Equilibrium Level 4+ Silvermane Guards or other enemies",
+    "Corridor of Fading Echoes: Equilibrium Level 4+ Everwinter Shadewalkers or other enemies",
+    "Omni-Synthesizer \u2014 Material Synthesis",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "836254": {
+   "id": 836254,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "1313f4b8549d0b129fb33fcd3745a87a8030d13fc8c28159f0dd2868a203ac2f",
+   "name": "Safeguard of Amber",
+   "desc": "An unusual shield embedded with ambers mined from beyond the skies. Used to level up Traces significantly for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Preservation</span> characters.",
+   "lore": "The wielder of this shield is seemingly protected by an invisible shield wall, immune to fiery arrows or mountainous claws.<br />Ancient legends entail a war where a tribal hero wielding a bronze shield charged to their death against a Leviathan, together with warriors armed with fiery spears.<br />This shield is a witness to that war.<br /><br />\"Do not cross the line.\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 4,
+   "rewardPath": "/material/836254",
+   "comeFrom": [
+    "Calyx (Supply Zone)",
+    "Omni-Synthesizer \u2014 Material Synthesis"
+   ]
+  },
+  "920195": {
+   "id": 920195,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "40bec463d92cede13fc22b7ac618c83f9d27e06e1a8c95a37d32cedc83fffe17",
+   "name": "Oath of Steel",
+   "desc": "A shield forged with irreplaceable craftsmanship from an unknown alloy. Used to level up Traces moderately for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Preservation</span> characters.",
+   "lore": "It may be a large shield, but it feels as light as a feather. Even after taking on a full charge, no marks can be seen on the face of the shield.<br />Ancient legends tell of a war where high-spirited warriors wielded deathray-beaming spears and shields forged of Frost Steel, defended a nation destined to falter in the face of war.<br />This shield is a witness to that war.<br /><br />\"Powerful voices chant: 'The enemies are at our gates!'\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 3,
+   "rewardPath": "/material/920195",
+   "comeFrom": [
+    "Calyx (Supply Zone)",
+    "Omni-Synthesizer \u2014 Material Synthesis"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 4000
+    },
+    {
+     "id": 549407,
+     "count": 5
+    }
+   ],
+   "attackBase": 73.92,
+   "attackAdd": 3.696,
+   "hpBase": 190.08,
+   "hpAdd": 9.504,
+   "defenseBase": 89.1,
+   "defenseAdd": 4.455,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 150,
+   "speedBase": 92,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 8000
+    },
+    {
+     "id": 549407,
+     "count": 10
+    }
+   ],
+   "attackBase": 103.488,
+   "attackAdd": 3.696,
+   "hpBase": 266.112,
+   "hpAdd": 9.504,
+   "defenseBase": 124.74,
+   "defenseAdd": 4.455,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 150,
+   "speedBase": 92,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 16000
+    },
+    {
+     "id": 633348,
+     "count": 6
+    },
+    {
+     "id": 67219,
+     "count": 3
+    }
+   ],
+   "attackBase": 133.056,
+   "attackAdd": 3.696,
+   "hpBase": 342.144,
+   "hpAdd": 9.504,
+   "defenseBase": 160.38,
+   "defenseAdd": 4.455,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 150,
+   "speedBase": 92,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 40000
+    },
+    {
+     "id": 633348,
+     "count": 9
+    },
+    {
+     "id": 67219,
+     "count": 7
+    }
+   ],
+   "attackBase": 162.624,
+   "attackAdd": 3.696,
+   "hpBase": 418.176,
+   "hpAdd": 9.504,
+   "defenseBase": 196.02,
+   "defenseAdd": 4.455,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 150,
+   "speedBase": 92,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 80000
+    },
+    {
+     "id": 717289,
+     "count": 6
+    },
+    {
+     "id": 67219,
+     "count": 20
+    }
+   ],
+   "attackBase": 192.192,
+   "attackAdd": 3.696,
+   "hpBase": 494.208,
+   "hpAdd": 9.504,
+   "defenseBase": 231.66,
+   "defenseAdd": 4.455,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 150,
+   "speedBase": 92,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 160000
+    },
+    {
+     "id": 717289,
+     "count": 9
+    },
+    {
+     "id": 67219,
+     "count": 35
+    }
+   ],
+   "attackBase": 221.76,
+   "attackAdd": 3.696,
+   "hpBase": 570.24,
+   "hpAdd": 9.504,
+   "defenseBase": 267.3,
+   "defenseAdd": 4.455,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 150,
+   "speedBase": 92,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": [],
+   "attackBase": 251.328,
+   "attackAdd": 3.696,
+   "hpBase": 646.272,
+   "hpAdd": 9.504,
+   "defenseBase": 302.94,
+   "defenseAdd": 4.455,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 150,
+   "speedBase": 92,
+   "speedAdd": 0
+  }
+ ],
+ "ranks": [
+  {
+   "id": 1,
+   "iconPath": "",
+   "artPath": "40ea7e986a0ba510073b959d4bffb40d9e888d3bce8018f15e35ce8c6c194c30",
+   "name": "Due Diligence",
+   "descHash": "When using Skill, increases the base chance to Freeze enemies by <nobr>#1[i]%</nobr>.",
+   "params": [
+    0.35
+   ]
+  },
+  {
+   "id": 2,
+   "iconPath": "",
+   "artPath": "56b9b0d55a492e92c8e7869e8c87bfda002669772b49f11dbe69f3b41f34da18",
+   "name": "Lingering Cold",
+   "descHash": "After an enemy Frozen by Skill is unfrozen, their SPD is reduced by <nobr>#1[i]%</nobr> for <nobr>#2[i]</nobr> turn(s).",
+   "params": [
+    0.2,
+    1
+   ]
+  },
+  {
+   "id": 3,
+   "iconPath": "",
+   "artPath": "1b61fa938f72eac53422f79f17b50342e9e8c732e79b23af0027f7b0aacdc7ce",
+   "name": "Never Surrender",
+   "descHash": "Ultimate Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Talent Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.",
+   "params": []
+  },
+  {
+   "id": 4,
+   "iconPath": "",
+   "artPath": "2ac465e7f349b630aa2b0f442a0ab0e037ad2fbd51b519c65d83f278a8187c39",
+   "name": "Faith Moves Mountains",
+   "descHash": "When Gepard is in battle, all allies' Effect RES increases by <nobr>#1[i]%</nobr>.",
+   "params": [
+    0.2
+   ]
+  },
+  {
+   "id": 5,
+   "iconPath": "",
+   "artPath": "ddb303335c81a925f1215123b30ef6a25bb787db4d88b7c90adcc3cad3bb9e61",
+   "name": "Cold Iron Fist",
+   "descHash": "Skill Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Basic ATK Lv. +1, up to a maximum of Lv. <nobr>10</nobr>.",
+   "params": []
+  },
+  {
+   "id": 6,
+   "iconPath": "",
+   "artPath": "a6deb836531fc2a96fd05a74cece35d2c4399a497f4a5a71dc41172e36b41821",
+   "name": "Unyielding Resolve",
+   "descHash": "When his Talent is triggered, Gepard's action is Advanced Forward by <nobr>100%</nobr>, and he restores extra HP equal to <nobr>#1[i]%</nobr> of his Max HP.",
+   "params": [
+    0.5
+   ]
+  }
+ ],
+ "skillGrouping": [
+  [
+   866633
+  ],
+  [
+   983278
+  ],
+  [
+   67219
+  ],
+  [
+   151160
+  ],
+  [
+   468391
+  ]
+ ],
+ "skills": [
+  {
+   "id": 866633,
+   "name": "Fist of Conviction",
+   "tagHash": "Single Target",
+   "descHash": "Deals <span style=\"color:#47C7FD;\">Ice</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Gepard's ATK to a single enemy.",
+   "typeDescHash": "Basic ATK",
+   "iconPath": "86f4ab2ddba799691718737ac0d50e86939c71341075dfedff87448a7d119138",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      0.5
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 2,
+     "params": [
+      0.6
+     ],
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635668,
+       "count": 3
+      },
+      {
+       "id": 549407,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "params": [
+      0.7
+     ],
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920195,
+       "count": 3
+      },
+      {
+       "id": 633348,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "params": [
+      0.8
+     ],
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920195,
+       "count": 5
+      },
+      {
+       "id": 633348,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "params": [
+      0.9
+     ],
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836254,
+       "count": 3
+      },
+      {
+       "id": 717289,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "params": [
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836254,
+       "count": 8
+      },
+      {
+       "id": 717289,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "params": [
+      1.1
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 8,
+     "params": [
+      1.2
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 9,
+     "params": [
+      1.3
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  },
+  {
+   "id": 983278,
+   "name": "Daunting Smite",
+   "tagHash": "Impair",
+   "descHash": "Deals <span style=\"color:#47C7FD;\">Ice</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Gepard's ATK to a single enemy, with a <nobr>#2[i]%</nobr> <u>base chance</u> to Freeze the enemy for <nobr>#3[i]</nobr> turn(s).<br />While Frozen, the enemy cannot take action and will take <u>Additional</u> <span style=\"color:#47C7FD;\">Ice</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#4[i]%</nobr></span> of Gepard's ATK at the beginning of each turn.",
+   "typeDescHash": "Skill",
+   "iconPath": "b019a13d800df94a29d24ea36e0e9ef56fa814ef42a45f2e5dd3b89dd4361797",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      1,
+      0.65,
+      1,
+      0.3
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 2,
+     "params": [
+      1.1,
+      0.65,
+      1,
+      0.33
+     ],
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 549407,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "params": [
+      1.2,
+      0.65,
+      1,
+      0.36
+     ],
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635668,
+       "count": 3
+      },
+      {
+       "id": 549407,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "params": [
+      1.3,
+      0.65,
+      1,
+      0.39
+     ],
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920195,
+       "count": 3
+      },
+      {
+       "id": 633348,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "params": [
+      1.4,
+      0.65,
+      1,
+      0.42
+     ],
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920195,
+       "count": 5
+      },
+      {
+       "id": 633348,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "params": [
+      1.5,
+      0.65,
+      1,
+      0.45
+     ],
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920195,
+       "count": 7
+      },
+      {
+       "id": 633348,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "params": [
+      1.625,
+      0.65,
+      1,
+      0.4875
+     ],
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836254,
+       "count": 3
+      },
+      {
+       "id": 717289,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "params": [
+      1.75,
+      0.65,
+      1,
+      0.525
+     ],
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836254,
+       "count": 5
+      },
+      {
+       "id": 270195,
+       "count": 1
+      },
+      {
+       "id": 717289,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "params": [
+      1.875,
+      0.65,
+      1,
+      0.5625
+     ],
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836254,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "params": [
+      2,
+      0.65,
+      1,
+      0.6
+     ],
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836254,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 11,
+     "params": [
+      2.1,
+      0.65,
+      1,
+      0.63
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 12,
+     "params": [
+      2.2,
+      0.65,
+      1,
+      0.66
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 13,
+     "params": [
+      2.3,
+      0.65,
+      1,
+      0.69
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 14,
+     "params": [
+      2.4,
+      0.65,
+      1,
+      0.72
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 15,
+     "params": [
+      2.5,
+      0.65,
+      1,
+      0.75
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  },
+  {
+   "id": 67219,
+   "name": "Enduring Bulwark",
+   "tagHash": "Defense",
+   "descHash": "Applies a Shield to all allies, absorbing DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Gepard's DEF plus <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#3[i]</nobr></span> for <nobr>#2[i]</nobr> turn(s).",
+   "typeDescHash": "Ultimate",
+   "iconPath": "c1909a1a7b0f45d66ab7389d1a04384fa9353dc3ee107b5d928105020097ad41",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      0.3,
+      3,
+      150
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 2,
+     "params": [
+      0.31875,
+      3,
+      240
+     ],
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 549407,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "params": [
+      0.3375,
+      3,
+      307.5
+     ],
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635668,
+       "count": 3
+      },
+      {
+       "id": 549407,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "params": [
+      0.35625,
+      3,
+      375
+     ],
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920195,
+       "count": 3
+      },
+      {
+       "id": 633348,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "params": [
+      0.375,
+      3,
+      420
+     ],
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920195,
+       "count": 5
+      },
+      {
+       "id": 633348,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "params": [
+      0.39,
+      3,
+      465
+     ],
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920195,
+       "count": 7
+      },
+      {
+       "id": 633348,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "params": [
+      0.405,
+      3,
+      498.75
+     ],
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836254,
+       "count": 3
+      },
+      {
+       "id": 717289,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "params": [
+      0.42,
+      3,
+      532.5
+     ],
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836254,
+       "count": 5
+      },
+      {
+       "id": 270195,
+       "count": 1
+      },
+      {
+       "id": 717289,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "params": [
+      0.435,
+      3,
+      566.25
+     ],
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836254,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "params": [
+      0.45,
+      3,
+      600
+     ],
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836254,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 11,
+     "params": [
+      0.465,
+      3,
+      633.75
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 12,
+     "params": [
+      0.48,
+      3,
+      667.5
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 13,
+     "params": [
+      0.495,
+      3,
+      701.25
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 14,
+     "params": [
+      0.51,
+      3,
+      735
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 15,
+     "params": [
+      0.525,
+      3,
+      768.75
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ],
+   "ultimateCost": 100
+  },
+  {
+   "id": 151160,
+   "name": "Unyielding Will",
+   "tagHash": "Restore",
+   "descHash": "When struck with a killing blow, instead of becoming <u>knocked down</u>, Gepard's HP immediately restores to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of his Max HP. This effect can only trigger once per battle.",
+   "typeDescHash": "Talent",
+   "iconPath": "a40bef4869899186a858f02ef602213feabe267f01d5cd6792498e13b9e6c8f5",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      0.25
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 2,
+     "params": [
+      0.275
+     ],
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 549407,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "params": [
+      0.3
+     ],
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635668,
+       "count": 3
+      },
+      {
+       "id": 549407,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "params": [
+      0.325
+     ],
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920195,
+       "count": 3
+      },
+      {
+       "id": 633348,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "params": [
+      0.35
+     ],
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920195,
+       "count": 5
+      },
+      {
+       "id": 633348,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "params": [
+      0.375
+     ],
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920195,
+       "count": 7
+      },
+      {
+       "id": 633348,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "params": [
+      0.40625
+     ],
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836254,
+       "count": 3
+      },
+      {
+       "id": 717289,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "params": [
+      0.4375
+     ],
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836254,
+       "count": 5
+      },
+      {
+       "id": 270195,
+       "count": 1
+      },
+      {
+       "id": 717289,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "params": [
+      0.46875
+     ],
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836254,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "params": [
+      0.5
+     ],
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836254,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 11,
+     "params": [
+      0.525
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 12,
+     "params": [
+      0.55
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 13,
+     "params": [
+      0.575
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 14,
+     "params": [
+      0.6
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 15,
+     "params": [
+      0.625
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  },
+  {
+   "id": 351746,
+   "name": "Attack",
+   "tagHash": "",
+   "descHash": "Attack an enemy, and when the battle starts, reduce their Toughness of the corresponding Type.",
+   "typeDescHash": "",
+   "iconPath": "86f4ab2ddba799691718737ac0d50e86939c71341075dfedff87448a7d119138",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  },
+  {
+   "id": 468391,
+   "name": "Comradery",
+   "tagHash": "Defense",
+   "descHash": "After Gepard uses his Technique, when the next battle begins, a Shield will be applied to all allies, absorbing DMG equal to <nobr>#1[i]%</nobr> of Gepard's DEF plus <nobr>#3[i]</nobr> for <nobr>#2[i]</nobr> turn(s).",
+   "typeDescHash": "Technique",
+   "iconPath": "d077f03c4e71b12749241449629c3becef9b3912d3299ac7e9bfba016aa7c941",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      0.24,
+      2,
+      150
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  }
+ ],
+ "skillTreePoints": [
+  {
+   "id": 1104103,
+   "type": 1,
+   "children": [
+    {
+     "id": 1104208,
+     "type": 2,
+     "children": [
+      {
+       "id": 1104209,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 303359,
+        "name": "Effect RES Boost",
+        "levelReq": 75,
+        "promotionReq": 0,
+        "iconPath": "5e0ea9beeaea4aebaec6fa80218757c7123e5d8d63565bc255c08d6af87ebc7e",
+        "statusList": [
+         {
+          "key": "Effect RES",
+          "value": 0.08
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 160000
+         },
+         {
+          "id": 836254,
+          "count": 8
+         },
+         {
+          "id": 717289,
+          "count": 8
+         }
+        ]
+       }
+      },
+      {
+       "id": 1104210,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 419995,
+        "name": "DMG Boost: Ice",
+        "levelReq": 80,
+        "promotionReq": 0,
+        "iconPath": "61fabc866a9c5c20a0ae994d2d92a286ce89872e01eb8e1a772e28eaa9260177",
+        "statusList": [
+         {
+          "key": "<span style=\"color:#47C7FD;\">Ice</span> DMG Boost",
+          "value": 0.064
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 160000
+         },
+         {
+          "id": 836254,
+          "count": 8
+         },
+         {
+          "id": 717289,
+          "count": 8
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 303358,
+      "name": "DEF Boost",
+      "levelReq": 0,
+      "promotionReq": 6,
+      "iconPath": "2077c52919d0f523755a4d92ce338874b71561611a436572d8eb315a34f4a4c2",
+      "statusList": [
+       {
+        "key": "DEF",
+        "value": 0.075
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836254,
+        "count": 8
+       },
+       {
+        "id": 717289,
+        "count": 8
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "id": 303254,
+    "name": "Fighting Spirit",
+    "descHash": "Gepard's ATK increases by <nobr>#1[i]%</nobr> of his current DEF. This effect will refresh at the start of each turn.",
+    "iconPath": "2cd5543062f2740d57c143b05ae1d991bd895f75edfd9eb2aeea50cb10fc8750",
+    "levelReq": 0,
+    "promotionReq": 6,
+    "levelData": [
+     {
+      "level": 1,
+      "params": [
+       0.35
+      ],
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836254,
+        "count": 8
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 270195,
+        "count": 1
+       }
+      ]
+     }
+    ],
+    "ultimateCost": 0
+   }
+  },
+  {
+   "id": 1104201,
+   "type": 2,
+   "children": [
+    {
+     "id": 1104101,
+     "type": 1,
+     "children": [
+      {
+       "id": 1104202,
+       "type": 2,
+       "children": [
+        {
+         "id": 1104203,
+         "type": 2,
+         "children": [],
+         "embedBuff": {
+          "id": 303349,
+          "name": "DMG Boost: Ice",
+          "levelReq": 0,
+          "promotionReq": 3,
+          "iconPath": "61fabc866a9c5c20a0ae994d2d92a286ce89872e01eb8e1a772e28eaa9260177",
+          "statusList": [
+           {
+            "key": "<span style=\"color:#47C7FD;\">Ice</span> DMG Boost",
+            "value": 0.032
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 10000
+           },
+           {
+            "id": 920195,
+            "count": 3
+           },
+           {
+            "id": 633348,
+            "count": 3
+           }
+          ]
+         }
+        }
+       ],
+       "embedBuff": {
+        "id": 303348,
+        "name": "Effect RES Boost",
+        "levelReq": 0,
+        "promotionReq": 2,
+        "iconPath": "5e0ea9beeaea4aebaec6fa80218757c7123e5d8d63565bc255c08d6af87ebc7e",
+        "statusList": [
+         {
+          "key": "Effect RES",
+          "value": 0.04
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 5000
+         },
+         {
+          "id": 635668,
+          "count": 3
+         },
+         {
+          "id": 549407,
+          "count": 6
+         }
+        ]
+       }
+      }
+     ],
+     "embedBonusSkill": {
+      "id": 303252,
+      "name": "Integrity",
+      "descHash": "Gepard has a higher chance to be attacked by enemies.",
+      "iconPath": "2868135c9d13bee8ad2a4e6fa72393cf4c2d8c69534c266dd60130610af518fe",
+      "levelReq": 0,
+      "promotionReq": 2,
+      "levelData": [
+       {
+        "level": 1,
+        "params": [
+         3
+        ],
+        "levelReq": 0,
+        "promotionReq": 2,
+        "cost": [
+         {
+          "id": 29328,
+          "count": 5000
+         },
+         {
+          "id": 635668,
+          "count": 3
+         },
+         {
+          "id": 270195,
+          "count": 1
+         }
+        ]
+       }
+      ],
+      "ultimateCost": 0
+     }
+    },
+    {
+     "id": 1104102,
+     "type": 1,
+     "children": [
+      {
+       "id": 1104205,
+       "type": 2,
+       "children": [
+        {
+         "id": 1104206,
+         "type": 2,
+         "children": [],
+         "embedBuff": {
+          "id": 303344,
+          "name": "Effect RES Boost",
+          "levelReq": 0,
+          "promotionReq": 5,
+          "iconPath": "5e0ea9beeaea4aebaec6fa80218757c7123e5d8d63565bc255c08d6af87ebc7e",
+          "statusList": [
+           {
+            "key": "Effect RES",
+            "value": 0.06
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 45000
+           },
+           {
+            "id": 836254,
+            "count": 3
+           },
+           {
+            "id": 717289,
+            "count": 3
+           }
+          ]
+         }
+        }
+       ],
+       "embedBuff": {
+        "id": 303347,
+        "name": "DMG Boost: Ice",
+        "levelReq": 0,
+        "promotionReq": 4,
+        "iconPath": "61fabc866a9c5c20a0ae994d2d92a286ce89872e01eb8e1a772e28eaa9260177",
+        "statusList": [
+         {
+          "key": "<span style=\"color:#47C7FD;\">Ice</span> DMG Boost",
+          "value": 0.048
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 20000
+         },
+         {
+          "id": 920195,
+          "count": 5
+         },
+         {
+          "id": 633348,
+          "count": 4
+         }
+        ]
+       }
+      }
+     ],
+     "embedBonusSkill": {
+      "id": 303255,
+      "name": "Commander",
+      "descHash": "When \"Unyielding Will\" is triggered, Gepard's Energy will be restored to <nobr>100%</nobr>.",
+      "iconPath": "6763442330252266961d0d23e21bed264bd719bc788945eeb145a9abfa167df4",
+      "levelReq": 0,
+      "promotionReq": 4,
+      "levelData": [
+       {
+        "level": 1,
+        "params": [],
+        "levelReq": 0,
+        "promotionReq": 4,
+        "cost": [
+         {
+          "id": 29328,
+          "count": 20000
+         },
+         {
+          "id": 920195,
+          "count": 5
+         },
+         {
+          "id": 125435,
+          "count": 1
+         },
+         {
+          "id": 270195,
+          "count": 1
+         }
+        ]
+       }
+      ],
+      "ultimateCost": 0
+     }
+    }
+   ],
+   "embedBuff": {
+    "id": 303351,
+    "name": "DMG Boost: Ice",
+    "levelReq": 1,
+    "promotionReq": 0,
+    "iconPath": "61fabc866a9c5c20a0ae994d2d92a286ce89872e01eb8e1a772e28eaa9260177",
+    "statusList": [
+     {
+      "key": "<span style=\"color:#47C7FD;\">Ice</span> DMG Boost",
+      "value": 0.032
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 2500
+     },
+     {
+      "id": 549407,
+      "count": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": 1104204,
+   "type": 2,
+   "children": [],
+   "embedBuff": {
+    "id": 303346,
+    "name": "DEF Boost",
+    "levelReq": 0,
+    "promotionReq": 3,
+    "iconPath": "2077c52919d0f523755a4d92ce338874b71561611a436572d8eb315a34f4a4c2",
+    "statusList": [
+     {
+      "key": "DEF",
+      "value": 0.05
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 10000
+     },
+     {
+      "id": 920195,
+      "count": 3
+     },
+     {
+      "id": 633348,
+      "count": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": 1104207,
+   "type": 2,
+   "children": [],
+   "embedBuff": {
+    "id": 303345,
+    "name": "DMG Boost: Ice",
+    "levelReq": 0,
+    "promotionReq": 5,
+    "iconPath": "61fabc866a9c5c20a0ae994d2d92a286ce89872e01eb8e1a772e28eaa9260177",
+    "statusList": [
+     {
+      "key": "<span style=\"color:#47C7FD;\">Ice</span> DMG Boost",
+      "value": 0.048
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 45000
+     },
+     {
+      "id": 836254,
+      "count": 3
+     },
+     {
+      "id": 717289,
+      "count": 3
+     }
+    ]
+   }
+  }
+ ],
+ "relicRecommend": {
+  "twoPcSets": [],
+  "fourPcSets": [],
+  "props": [
+   {
+    "relicTypeHash": "Body",
+    "relicTypeIcon": "87a68da58f5ca7f656d3ebf27bc84c5c32aafd164f2406af6b95c0e46277496b",
+    "propertyName": "DEF",
+    "propertyIconPath": "2077c52919d0f523755a4d92ce338874b71561611a436572d8eb315a34f4a4c2"
+   },
+   {
+    "relicTypeHash": "Feet",
+    "relicTypeIcon": "5d8394f899a9cc41333630a3475d525b65c4a7cf59d16cdc4ac0acccc082259c",
+    "propertyName": "DEF",
+    "propertyIconPath": "2077c52919d0f523755a4d92ce338874b71561611a436572d8eb315a34f4a4c2"
+   },
+   {
+    "relicTypeHash": "Planar Sphere",
+    "relicTypeIcon": "fd22786ef5ef0aee8953005c423739fe85fd85b16b82a3f7f18910499a4368b5",
+    "propertyName": "DEF",
+    "propertyIconPath": "2077c52919d0f523755a4d92ce338874b71561611a436572d8eb315a34f4a4c2"
+   },
+   {
+    "relicTypeHash": "Link Rope",
+    "relicTypeIcon": "245bb6e30915d9ab6a042e37499ad3a0b0d022208a5fee05417b7cd3c088e357",
+    "propertyName": "Energy Regeneration Rate",
+    "propertyIconPath": "fa8f924ec11e6c11cad9d7a54d1db3dc1e9ad5a276eeb58ab17f2395a1b3522c"
+   }
+  ]
+ },
+ "voiceItems": [
+  {
+   "id": 1,
+   "title": "First Meeting",
+   "text": "My name is Gepard Landau, I'm a captain of the Silvermane Guards. If you discover anything suspicious in the city, you can always report it to me.",
+   "unlockRequirement": "",
+   "cnUrl": "72890afe2e60cec8a13be2c476db4a77ca06284e2fa56dee5440dca11f0dabf4",
+   "jpUrl": "05334b123d37ddd3fa32d0d49ef725043312feffe972acd129faac95a24cd9bf",
+   "enUrl": "690627c4f90e8c1be7d5f4c0ca7039fbe353abab94a2a110c2f57173cbe0f19c",
+   "krUrl": "bacff2e16eaadd6bcc5592239bd11a208030e9dcb3bd2c206ef4c52af293bd8f"
+  },
+  {
+   "id": 2,
+   "title": "Greeting",
+   "text": "You're here. I just finished training.",
+   "unlockRequirement": "",
+   "cnUrl": "687ea41f875942f6b7ddb63858397d17ed9b0fb4ca59f8a92476c60f2bb70f53",
+   "jpUrl": "4c04626530ca04489981c11ff82951143e83d2e0bb0ae3d2b075e33f3925d2e2",
+   "enUrl": "f769f01da9e8069af45575dad2485d9eca6ca8059a4dbc57f1e4ac6fcf76dba2",
+   "krUrl": "3a06076eecf664ca4f452419f9f2d34cf7255ba40e3efb48dc710c4843aeb172"
+  },
+  {
+   "id": 3,
+   "title": "Parting",
+   "text": "My apologies, I still have an assignment to attend to. I'll have to see you off from here.",
+   "unlockRequirement": "",
+   "cnUrl": "8bd1b5476acd7820224c088c4b1d9cc2cd53554a860037dbfe70f2a6636c3937",
+   "jpUrl": "3590be049fccc2a24253ea0929964e9d670142fd7086f0239376dbcfab936c8e",
+   "enUrl": "176269ef8f56721f126b9a037f301fef2efa23fd9d7a1184339ff6cb228295ef",
+   "krUrl": "13dfbb072bf36c0a546fffeaaf04d26f9b0a872998be18c8be394d1dc5961304"
+  },
+  {
+   "id": 4,
+   "title": "About Self",
+   "text": "As a Silvermane Guard, I observe the oath not because I fear to go against it, but because I am obliged to uphold it.",
+   "unlockRequirement": "",
+   "cnUrl": "3e7ee0366742917c10500e5c5c7618407c400a0a9d2b8c61c3e8b9c3b09f9a32",
+   "jpUrl": "0f28fb2baf29345728a29eac5e39d5708f7f69411a3c8c2da9645226c8233c28",
+   "enUrl": "d0fc506a7f81f46b34ba5f83cde262654ebdcb0cfc3139466cead3da2e249a09",
+   "krUrl": "d8f4860e173f7af060a72add20ebeeb556227a67f9cd5b1579ac536b59b1975f"
+  },
+  {
+   "id": 5,
+   "title": "Chat: Belobog",
+   "text": "Belobog is far from buried in the snow curtain. This city is the planet's last bastion against the ferocity of the Eternal Freeze.",
+   "unlockRequirement": "",
+   "cnUrl": "a487738238bfb0d1f355618787aefc68241a975a45b229b7f1de9c37b7dc207a",
+   "jpUrl": "241c7166483bdd11a50b8fcd61721564816eb18131fdd7fc1463f733d5313a38",
+   "enUrl": "bee7ec3424b4e18877e8ec362abb6a9494feaec7760b19784826859958f5d8dd",
+   "krUrl": "5bb5dacb2b1a2faa5d32cb8ea441f9ba3e8424b54b348e977abc80d9ae20a583"
+  },
+  {
+   "id": 6,
+   "title": "Hobbies",
+   "text": "I grow flowers, *sigh* ...It's just that I'm not very good at it.",
+   "unlockRequirement": "",
+   "cnUrl": "3bc60faf4d80fd7586f34be3fc4350f24fd0636146835d7001fbc4eb623a384d",
+   "jpUrl": "7eb25f4e148cf21f8c0cbaad08856621337dcb85ca884675da67fc8dfdb187b4",
+   "enUrl": "0534137ccd37613b00ed784bcbe113b2de6a4cea35761dca48a69b89f307e94e",
+   "krUrl": "b19f453253b08e2e9128b6f38d6d23f4cc6635e56b65cf258d99d0ba82b385f1"
+  },
+  {
+   "id": 7,
+   "title": "Annoyances",
+   "text": "My sister's songs are very popular among the Guards \u2014 there's always someone singing one when we're off duty. Recently I've found myself humming them without realizing, even when I'm on duty... *sigh*",
+   "unlockRequirement": "",
+   "cnUrl": "45030fcacac5d7ae81201c33550bc413ee36b778a4fa51f29009f1e2f6aa4bce",
+   "jpUrl": "82c7ca4cd2da584b20198717baa5c2469749a1f503b6f7671ff849fe5ca2b786",
+   "enUrl": "ef13ff4980ffc7690b3ff0b791fea1e208412625b068fe315ab94ab020dd88e0",
+   "krUrl": "7749e96703a6b2e3f188c9a9fc582955b98114dfed4bddef5cebd018914c9861"
+  },
+  {
+   "id": 8,
+   "title": "Something to Share",
+   "text": "The Landau family has had the honor and responsibility of serving the supreme guardians for generations. Only by becoming a shield for the people is one worthy of the title \"Architect.\"",
+   "unlockRequirement": "",
+   "cnUrl": "1fa9277e57f949fd71f9d4663a55b598958c0d99d26ece2c58e41f6b30f08a5c",
+   "jpUrl": "2b4e693fe9b3389834235a951d3a1e57ee3b4b9b22b6c3dd8d84e0fdc09fb2b9",
+   "enUrl": "0ca28d1e0bc6a570906bd59ec347eaae537a73d52a34d0bcca24fac02dcc83ac",
+   "krUrl": "77c0e589fddefe83cf24abd035fb8ab3faef29b311d6908f6dc7e52394a76660"
+  },
+  {
+   "id": 9,
+   "title": "Knowledge",
+   "text": "Lately, many children have come to ask me how to become a captain... *sigh* To be honest, the best advice I can give is to keep training and have a balanced diet.",
+   "unlockRequirement": "",
+   "cnUrl": "14307587afdbe94c1882b85a5b843b0165aa90af1f223194bf66f820e7d760c3",
+   "jpUrl": "3f3fec8f3c9d838952b4770e4f1bb4f6239b4344496a500ecbb040d772407270",
+   "enUrl": "0c6bdf0d7efde09736f4a5f68a769596da60bcefaecdbbdf8d706d91a883edce",
+   "krUrl": "f75f8c9f5a57d982889da158c5f6296f41ac13a817999d0fd466ac4475dedcdb"
+  },
+  {
+   "id": 10,
+   "title": "About Bronya",
+   "text": "Lady Bronya has ventured deep into the most dangerous regions of the front line with us \u2014 many times for that matter.",
+   "unlockRequirement": "",
+   "cnUrl": "9afdee6bf476100dbffa88b713d5452f9964acec9a5ec82263d634621ff620a0",
+   "jpUrl": "d8d1cdf8e559c4184b1528284fd0377b0c8ffaa4b015a76e58161b9b7411864a",
+   "enUrl": "0c83d5b73c6362de215164be49d67867bfb34c7b1e91ae5c22de860992eeb4ef",
+   "krUrl": "0dbeef7826cc940d561f1a5166a30ce98f2c80398b500e866d45191f5429d7f0"
+  },
+  {
+   "id": 11,
+   "title": "About Serval",
+   "text": "Many people seem to like talking about how my sister changed since she left the Guards, but in reality... she's exactly the same person.",
+   "unlockRequirement": "",
+   "cnUrl": "4353735c2d46857710214d05fc1772336b63702302be241b39506fb9197103b3",
+   "jpUrl": "8103fbca0770244c7d6ea1ef626850e977c77b1fdcc40edbb14dfa029bba4736",
+   "enUrl": "f73dfafd94ead3c30468a606e27388b3a1cfdb72011663e196e46713317804c4",
+   "krUrl": "6664010611ef9657032b03400409c434bbf12aca0ff8558aba6d5ac32af4b375"
+  },
+  {
+   "id": 12,
+   "title": "About Pela",
+   "text": "I heard my sister started asking Pela to look after my flowers when I'm away... I hope it's not too much trouble for her.",
+   "unlockRequirement": "",
+   "cnUrl": "c85485c84c4a4404df854c2b4837f6a60abd03dee27e8b8b59a1c6ea8ad2a374",
+   "jpUrl": "48ee9f40193cbc69159c4434d8d2760bbd15a4c81359c78cfe9a28a7d5f6cf04",
+   "enUrl": "3db6e08f6f5e795d35f7f7faf3cfc4e48d7ae13385b41a65707479c3f7c1dcd7",
+   "krUrl": "244d415f29fe1f4a3644fe2bf57d17e7c6a8f6f75976b1fde0377d8a8987c906"
+  },
+  {
+   "id": 13,
+   "title": "About Cocolia",
+   "text": "I've always firmly believed that no one knows this city better or loves it more than the supreme guardian.",
+   "unlockRequirement": "",
+   "cnUrl": "c318738e6b8b5b2bc9675af7974166b0f34631656ddd31060f6636e4bfc956d5",
+   "jpUrl": "c9c49f1796515332d389d9a755d515b48b41b6e7f239beceff86f7e0777411da",
+   "enUrl": "9d98191ca152189327cdcaf972f79eae927c603abd53b4bc9275ad074ca03085",
+   "krUrl": "5bc9f3f659eb244f5daded5c0574478c74838e2104713dcaf15573e50128f95d"
+  },
+  {
+   "id": 14,
+   "title": "About Sampo",
+   "text": "He's very... cunning. According to leads provided by citizens, he's got his hands on a number of ancient relics. He sold off most of them, but it seems he's using others to commit various frauds.",
+   "unlockRequirement": "",
+   "cnUrl": "8f5ee637cd2b5890d7cfa9364227a0c46f2ee7e044136e95555be538c40bd727",
+   "jpUrl": "e5490d28041fb52200abac60be2b9ddad90e13f78bca5235a192718c5a2d96e4",
+   "enUrl": "740bf5232fc24c28ffbefcc4d34e1e2b8833bdc585c41e37706e78d70fea2487",
+   "krUrl": "2f3169e56ae2e3a82ef69b84759f5e70571ca9a6b83be2444dd71263573fafa9"
+  }
+ ],
+ "storyItems": [
+  {
+   "title": "Character Details",
+   "text": "The honorable and upstanding captain of the Silvermane Guards who bears the noble Landau family name.<br />In the frost-whipped city of Belobog, life can still go on in normality...<br />This is in no small part thanks to Gepard and his Silvermane Guards who protect the peace of everyday life.",
+   "unlockRequirement": ""
+  },
+  {
+   "title": "Character Story: Part I",
+   "text": "The young captain stands atop the northern rampart.<br /><br />He surveys the pale wastelands before him, and watches the strange beings from the Fragmentum forming a broiling swarm in the distance amid the snow. He sees the fearless Silvermane Guards lining up in formation to guard the city, like a defensive parapet.<br /><br />That was his original position. Back when he was still a humble private, he'd sworn to serve as Belobog's strongest shield and pledged to live and die with his comrades. This hasn't changed when he became a captain. This isn't some fireside joke of the Silvermane Guards, because Qlipoth is testimony to this oath.<br /><br />However, right at this time, he isn't where he should be \u2014 and this is at the request of the Supreme Guardian.<br /><br />What exactly is the Supreme Guardian thinking? The young captain has no idea. But he soon forces himself to focus on the conflict at hand.<br /><br />\"Remember, Gepard Landau.\"<br />\"Doubt breeds arrogance, and doubt breeds evil. As a model for Belobog, you shouldn't overthink.\"<br /><br />The young captain stands atop the northern rampart.",
+   "unlockRequirement": "Unlocked at Character Level <nobr>20</nobr>"
+  },
+  {
+   "title": "Character Story: Part II",
+   "text": "After the most epic of battles, the few surviving Silvermane guards made their way back to Belobog. The Supreme Guardian ordered an immediate parade to celebrate this hard-earned victory. For more than three days and nights, the whole city reveled in a carnival with great laughter and joy. The celebration reached its climax at an awards ceremony for the Silvermane Guards.<br /><br />Under the watchful gaze of the crowds, the Supreme Guardian presented an award to the greatest soldiers for outstanding military service. This young captain from a noble house quietly puts on the arm armor forged out of Geomarrow \u2014 Light, flexible, and strong, while radiating a light reminiscent of auroras \u2014 That's the only impression he had of this treasure.<br /><br />How many of his comrades' lives had been exchanged for such a glorious medal? He forces himself not to think about it. For now, he could only meet the expectations of the Supreme Guardian and all of Belobog with a smile \u2014 because this is what a loyal soldier must do.<br /><br />The moment the captain finishes putting on the arm armor, a brilliant beam of light shoots out from the joints between the plates. The crowd erupts into a spontaneous and prolonged applause.<br /><br />Nobody sees the weary faces beneath the helmets of those Silvermane Guards \u2014 they merely thought this is a triumphant victory.",
+   "unlockRequirement": "Unlocked at Character Level <nobr>40</nobr>"
+  },
+  {
+   "title": "Character Story: Part III",
+   "text": "The Supreme Guardian made the correct choice.<br /><br />After the war, many residents of Belobog could finally let out a sigh of relief and pick up the pieces of their simple lives. However, not even the Captain himself could have imagined that after this facade for peace, they would face an ever more tragic all-out war. Without outside help, this protracted war would usher in the demise of all Belobog.<br /><br />Right now, he is checking whether his shield, Earthwork, is still functioning as before. This heavy force field device was hand-crafted by his sister out of an instrument case \u2014 and if anything is broken, the poor captain would have to rely on his rockstar of a sister to help fix it.<br /><br />\"Gepard, if \u2014 and I do mean, if \u2014 \" he thinks back to her words, \"If one day, the Supreme Guardian orders you to abandon the people of Belobog to complete some goal of hers... What would you do?\"<br />\"She would never do that. She is the Supreme Guardian.\" He was resolute.<br />\"I'm speaking hypothetically.\" She looked at him.<br />\"I'm not sure why you're asking, but I've pledged an Oath of Preservation to Qlipoth. I will protect Belobog and her people at any cost \u2014 including my own life, of course.\"<br />\"If one day, protecting the people means disobeying the Supreme Guardian's orders \u2014 and if either choice would land me in danger \u2014 then I'd still choose the former, because that is what I'm supposed to do.\"<br />They both fell silent, before she laughed out loud.<br />\"Gepard, oh Gepard...\"<br />\"You really are a Landau, aren't you?\"",
+   "unlockRequirement": "Unlocked at Character Level <nobr>60</nobr>"
+  },
+  {
+   "title": "Character Story: Part IV",
+   "text": "The young captain stands atop the northern rampart.<br /><br />He glances out the corner of his eye at the esteemed Guardian. He sees her head held high as she gazes into the blizzard, as if nothing in the city below has anything to do with her. Her people could not make her happy or angry, sad, or scared. There is only emptiness in those eyes.<br /><br />What exactly is the Supreme Guardian thinking? The young captain racks his brains, but could not find any answer.<br /><br />The cacophony of elegant bagpipes explodes in the air to signify the beginning of the assault, instantly shredding the snow curtain \u2014 and those brave warriors in blue uniform respond to the call, lifting up their halberds one after the other and pointing the tips at the swarming hordes of alien monsters. Beneath the cover of artillery, they commence their charge to the death.<br /><br />Gepard Landau, what should you think about this? The young captain racks his brains.<br /><br />\"Remember, Gepard Landau \u2014 \"<br />\"You will defend Belobog and her people at any cost \u2014 you will never let down the people you're supposed to protect... Never bring the Landau name into shame!\"<br /><br />This time, the young captain finally finds his answer<br />\u2014 as he strides out towards the battlefield.",
+   "unlockRequirement": "Unlocked at Character Level <nobr>80</nobr>"
+  }
+ ],
+ "archive": {
+  "cvCn": "\u9a6c\u6d0b",
+  "cvJp": "\u53e4\u5ddd\u614e",
+  "cvKr": "\ubbfc\uc2b9\uc6b0",
+  "cvEn": "Bryson Baugus",
+  "camp": "Belobog"
+ },
+ "calculator": {
+  "expCost": {
+   "1": 200,
+   "2": 300,
+   "3": 500,
+   "4": 600,
+   "5": 1050,
+   "6": 1670,
+   "7": 2320,
+   "8": 3060,
+   "9": 3860,
+   "10": 4740,
+   "11": 5710,
+   "12": 6730,
+   "13": 7830,
+   "14": 9000,
+   "15": 10240,
+   "16": 11550,
+   "17": 12920,
+   "18": 14360,
+   "19": 15870,
+   "20": 16580,
+   "21": 16840,
+   "22": 17100,
+   "23": 17370,
+   "24": 17640,
+   "25": 17910,
+   "26": 18190,
+   "27": 18480,
+   "28": 18760,
+   "29": 19040,
+   "30": 19340,
+   "31": 19630,
+   "32": 19930,
+   "33": 20220,
+   "34": 20530,
+   "35": 20840,
+   "36": 21140,
+   "37": 21450,
+   "38": 21760,
+   "39": 22080,
+   "40": 22390,
+   "41": 25550,
+   "42": 29140,
+   "43": 32830,
+   "44": 36600,
+   "45": 40470,
+   "46": 44430,
+   "47": 48480,
+   "48": 52630,
+   "49": 56870,
+   "50": 61190,
+   "51": 65620,
+   "52": 70130,
+   "53": 74740,
+   "54": 79450,
+   "55": 84240,
+   "56": 89120,
+   "57": 94110,
+   "58": 99190,
+   "59": 104350,
+   "60": 106240,
+   "61": 111830,
+   "62": 117530,
+   "63": 123320,
+   "64": 129210,
+   "65": 135200,
+   "66": 141290,
+   "67": 147480,
+   "68": 153780,
+   "69": 160170,
+   "70": 179260,
+   "71": 199920,
+   "72": 220920,
+   "73": 242260,
+   "74": 263930,
+   "75": 285950,
+   "76": 308300,
+   "77": 331000,
+   "78": 354040,
+   "79": 377420,
+   "80": 414350
+  },
+  "expItemConfig": {
+   "1000": 409962,
+   "5000": 409961,
+   "20000": 409960
+  },
+  "sCoinId": 29328
+ },
+ "pageId": "gepard"
+}

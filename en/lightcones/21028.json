@@ -1,0 +1,497 @@
+{
+ "name": "Warmth Shortens Cold Nights",
+ "rarity": 4,
+ "descHash": "Lighting a light, she glanced at her friend beside her while holding a mug of warm chocolate.<br />Watching her read the books and notes she gifted her.<br />Watching her expressing a rare smile.<br /><br />In cold nights like this, even the tiniest bit of bliss can chase away the chills.",
+ "iconPath": "aface7f32cf26b1dc23248c44e9348566dd609fdcbb51b6926514d3edeed06d8",
+ "artPath": "0464ef39608a14f9eb50620d90246e3f0442b7c4d052b7c2b58563c2729406da",
+ "mediumIconPath": "e0886093a56bf5b8a5e1bfd00a872a53e052957597ebde29802b24f51906e98e",
+ "baseType": {
+  "id": 0,
+  "iconPath": "498249f31cf5142d1e1b5285d73ac93049e853b76d92417a8d1e3691e790abd5",
+  "color": "#FFFFFF",
+  "name": "Abundance",
+  "rarity": 0
+ },
+ "baseTypeId": 0,
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "0e76659bbb3b9d0b1cc6a4e0e8c63a576c7b917f2f740a4b1b8ceab260a8a595",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards"
+   ]
+  },
+  "549438": {
+   "id": 549438,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "4b2515eee489b695028b8b790795cdd3e71cfd4b1de7a006a6030882b039706c",
+   "name": "Extinguished Core",
+   "desc": "The heart of a monster wandering the Fragmentum. Crude material used for enhancement.",
+   "lore": "It is a lesion that breeds evil, the impulse to sin. It is the source of the Fragmentum distortion.<br />A heavy blow has caused this heart to stop beating and lose its luster.<br /><br />\"Preliminary tests indicate it's some kind of hybrid: one half is primordial, and the other half is something very similar to Stellarons.\" \u2014 Department of Biology, Sarah Castro",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 2,
+   "rewardPath": "/material/549438",
+   "comeFrom": [
+    "Backwater Pass: Flamespawns or other enemies",
+    "Rivet Town: Flamespawns or other enemies",
+    "Simulated Universe enemies",
+    "Assignment rewards",
+    "Embers Exchange",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "633379": {
+   "id": 633379,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "4f83a6b3e1cca8b6421a25a880516c3d27117937ae2f7f196180bbb0e1d28c3f",
+   "name": "Glimmering Core",
+   "desc": "The heart of a monster wandering the Fragmentum. Normal material used for enhancement.",
+   "lore": "It is a lesion that breeds evil, the impulse to sin. It is the source of the Fragmentum distortion.<br />The heart is glimmering and the veins on it indicate it's still alive.<br /><br />\"What kind of monster is this? Did you see it... Its face! It has the face of our previous leader!\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 3,
+   "rewardPath": "/material/633379",
+   "comeFrom": [
+    "Backwater Pass: Equilibrium Level 2+ Flamespawns or other enemies",
+    "Rivet Town: Equilibrium Level 2+ Flamespawns or other enemies",
+    "Omni-Synthesizer \u2014 Material Synthesis",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "635671": {
+   "id": 635671,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "6a16c2294ef90c8cb62d61eff8e1fa277eb6fafdd394ce5e157bd9fd4a7bb701",
+   "name": "Seed of Abundance",
+   "desc": "A seed of blessing sown by the Aeon of Abundance. Used to level up Traces slightly for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Abundance</span> characters.",
+   "lore": "Those who come in contact with it are slowly healed of their wounds and illnesses.<br />People who pray for the blessing of life while in despair will always have their prayers answered.<br /><br />\"You shall be granted what you ask for.\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 2,
+   "rewardPath": "/material/635671",
+   "comeFrom": [
+    "Calyx (Backwater Pass)"
+   ]
+  },
+  "694487": {
+   "id": 694487,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "a5f4de7a7ad08a1676729853622d0e38b14de79b20465aa9c738e6105a8c746d",
+   "name": "Refined Aether",
+   "desc": "Enhancement material for Light Cones, provides <nobr>6000</nobr> Light Cone EXP.",
+   "lore": "A canister of aether that has been extracted and distilled using special procedures.<br /><br />\"The Garden looks forward to recreating a past glory, but it is a 'past glory' selected by them. Do you understand?\"",
+   "purpose": "Light Cone EXP Material",
+   "rarity": 4,
+   "rewardPath": "/material/694487",
+   "comeFrom": [
+    "Calyx (Backwater Pass)",
+    "Forgotten Hall"
+   ]
+  },
+  "694488": {
+   "id": 694488,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "91f62f32ecd1e7b88c9e30002d215b1a5936ac221782a17d2f34837a967ed557",
+   "name": "Condensed Aether",
+   "desc": "Enhancement material for Light Cones, provides <nobr>2000</nobr> Light Cone EXP.",
+   "lore": "A can of Aether refined through special techniques.<br /><br />\"Handle with care, do not drop or place pressure upon it. If damages and leaks occur, please refer to chapter II of the Leak Disaster Response Manual for emergency response.\"",
+   "purpose": "Light Cone EXP Material",
+   "rarity": 3,
+   "rewardPath": "/material/694488",
+   "comeFrom": [
+    "Calyx (Backwater Pass)"
+   ]
+  },
+  "694489": {
+   "id": 694489,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "554d37978b82c3f38bafee8771f8ab4248a1fe9d4e130bb5711064238666f491",
+   "name": "Sparse Aether",
+   "desc": "Enhancement material for Light Cones, provides <nobr>500</nobr> Light Cone EXP.",
+   "lore": "An imaginary substance that shouldn't exist in reality. The basic material to create Light Cones.<br />The images contained in the Light Cones become clearer when infused with this substance.<br /><br />\"I see, so this is the supposed 'Sentiention' of the Garden of Recollection. No wonder the Memokeepers can set off on galactic voyages with memories.\"",
+   "purpose": "Light Cone EXP Material",
+   "rarity": 2,
+   "rewardPath": "/material/694489",
+   "comeFrom": [
+    "Calyx (Backwater Pass)",
+    "Assignment rewards"
+   ]
+  },
+  "717320": {
+   "id": 717320,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "f32ca1d67c0e385f701d450cae1c5dea41f334e31d61eb331d4be4dc7551c378",
+   "name": "Squirming Core",
+   "desc": "The heart of a monster wandering the Fragmentum. Advanced material used for enhancement.",
+   "lore": "It is a lesion that breeds evil, the impulse to sin. It is the source of the Fragmentum distortion.<br />The heart is pulsating slowly, with a residual force powerful enough to cause a new calamity. It's best to destroy it to prevent further troubles.<br /><br />\"It's like a cancer...\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 4,
+   "rewardPath": "/material/717320",
+   "comeFrom": [
+    "Backwater Pass: Equilibrium Level 4+ Flamespawns or other enemies",
+    "Rivet Town: Equilibrium Level 4+ Flamespawns or other enemies",
+    "Omni-Synthesizer \u2014 Material Synthesis",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "836257": {
+   "id": 836257,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "8b56fa357be53126b0284b12903e0bfd41ace9d4dc155711d0297b70563b3bc7",
+   "name": "Flower of Eternity",
+   "desc": "A gorgeous flower blooming from the Sprout of Life. Used to level up Traces significantly for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Abundance</span> characters.",
+   "lore": "The stamen contains the concentrated power of the Path of Abundance, ensuring the flower's ever-lasting vitality. No fire, ice, or any harshness can hinder the growth of this magnificent life form.<br />Given time, its leaves shall feed upon starlight. Its roots shall burrow into the flesh of every being of this world, all-connected, never-perishing. Its fruits shall fulfill the promise of immortality.<br /><br />\"There be giant ships, eclipsing mountains, drifting over the void. Upon them grows the undying tree. Its consumption grants immortality.\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 4,
+   "rewardPath": "/material/836257",
+   "comeFrom": [
+    "Calyx (Backwater Pass)",
+    "Omni-Synthesizer \u2014 Material Synthesis"
+   ]
+  },
+  "920198": {
+   "id": 920198,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "084dff414a606a7be5ee10de1cda1048d08a87d2dc3587c5e545afb4399e881a",
+   "name": "Sprout of Life",
+   "desc": "A young sprout emerging from the Seed of Abundance. Used to level up Traces moderately for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Abundance</span> characters.",
+   "lore": "Radiating warmth, life and growth flourish around the place where it sinks its roots. Barren wastelands turn into luscious grass fields, withered plants rejuvenate and blossom, and springs burst through the ground to moisten the land.<br />As you get closer to it, your muscles and bones twitch and propagate with an unbearable itch.<br /><br />\"Life is unfailing where the soul abounds.\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 3,
+   "rewardPath": "/material/920198",
+   "comeFrom": [
+    "Calyx (Backwater Pass)",
+    "Omni-Synthesizer \u2014 Material Synthesis"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 4000
+    },
+    {
+     "id": 549438,
+     "count": 5
+    }
+   ],
+   "attackBase": 16.8,
+   "attackAdd": 2.52,
+   "hpBase": 48,
+   "hpAdd": 7.2,
+   "defenseBase": 18,
+   "defenseAdd": 2.7
+  },
+  {
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 8000
+    },
+    {
+     "id": 635671,
+     "count": 3
+    },
+    {
+     "id": 549438,
+     "count": 10
+    }
+   ],
+   "attackBase": 36.96,
+   "attackAdd": 2.52,
+   "hpBase": 105.6,
+   "hpAdd": 7.2,
+   "defenseBase": 39.6,
+   "defenseAdd": 2.7
+  },
+  {
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 16000
+    },
+    {
+     "id": 920198,
+     "count": 3
+    },
+    {
+     "id": 633379,
+     "count": 6
+    }
+   ],
+   "attackBase": 63.84,
+   "attackAdd": 2.52,
+   "hpBase": 182.4,
+   "hpAdd": 7.2,
+   "defenseBase": 68.4,
+   "defenseAdd": 2.7
+  },
+  {
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 40000
+    },
+    {
+     "id": 920198,
+     "count": 6
+    },
+    {
+     "id": 633379,
+     "count": 9
+    }
+   ],
+   "attackBase": 90.72,
+   "attackAdd": 2.52,
+   "hpBase": 259.2,
+   "hpAdd": 7.2,
+   "defenseBase": 97.2,
+   "defenseAdd": 2.7
+  },
+  {
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 80000
+    },
+    {
+     "id": 836257,
+     "count": 4
+    },
+    {
+     "id": 717320,
+     "count": 5
+    }
+   ],
+   "attackBase": 117.6,
+   "attackAdd": 2.52,
+   "hpBase": 336,
+   "hpAdd": 7.2,
+   "defenseBase": 126,
+   "defenseAdd": 2.7
+  },
+  {
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 160000
+    },
+    {
+     "id": 836257,
+     "count": 8
+    },
+    {
+     "id": 717320,
+     "count": 7
+    }
+   ],
+   "attackBase": 144.48,
+   "attackAdd": 2.52,
+   "hpBase": 412.8,
+   "hpAdd": 7.2,
+   "defenseBase": 154.8,
+   "defenseAdd": 2.7
+  },
+  {
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": [],
+   "attackBase": 171.36,
+   "attackAdd": 2.52,
+   "hpBase": 489.6,
+   "hpAdd": 7.2,
+   "defenseBase": 183.6,
+   "defenseAdd": 2.7
+  }
+ ],
+ "skill": {
+  "id": 21028,
+  "name": "Tiny Light",
+  "descHash": "Increases the wearer's Max HP by <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span>. When using Basic ATK or Skill, restores all allies' HP by an amount equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#2[f1]%</nobr></span> of their respective Max HP.",
+  "levelData": [
+   {
+    "level": 1,
+    "params": [
+     0.16,
+     0.02
+    ],
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "level": 2,
+    "params": [
+     0.2,
+     0.025
+    ],
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "level": 3,
+    "params": [
+     0.24,
+     0.03
+    ],
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "level": 4,
+    "params": [
+     0.28,
+     0.035
+    ],
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "level": 5,
+    "params": [
+     0.32,
+     0.04
+    ],
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   }
+  ]
+ },
+ "calculator": {
+  "expCost": {
+   "1": 50,
+   "2": 80,
+   "3": 140,
+   "4": 210,
+   "5": 300,
+   "6": 400,
+   "7": 510,
+   "8": 640,
+   "9": 780,
+   "10": 930,
+   "11": 1090,
+   "12": 1260,
+   "13": 1460,
+   "14": 1650,
+   "15": 1860,
+   "16": 2080,
+   "17": 2300,
+   "18": 2540,
+   "19": 2790,
+   "20": 2900,
+   "21": 3010,
+   "22": 3130,
+   "23": 3240,
+   "24": 3360,
+   "25": 3490,
+   "26": 3610,
+   "27": 3740,
+   "28": 3860,
+   "29": 3990,
+   "30": 4130,
+   "31": 4260,
+   "32": 4400,
+   "33": 4540,
+   "34": 4680,
+   "35": 4820,
+   "36": 4970,
+   "37": 5110,
+   "38": 5260,
+   "39": 5410,
+   "40": 5560,
+   "41": 6100,
+   "42": 6450,
+   "43": 6810,
+   "44": 7180,
+   "45": 7550,
+   "46": 7930,
+   "47": 8310,
+   "48": 8710,
+   "49": 9110,
+   "50": 9520,
+   "51": 9940,
+   "52": 10350,
+   "53": 10780,
+   "54": 11220,
+   "55": 11660,
+   "56": 12110,
+   "57": 12570,
+   "58": 13030,
+   "59": 13500,
+   "60": 13980,
+   "61": 14630,
+   "62": 15420,
+   "63": 16210,
+   "64": 17010,
+   "65": 17830,
+   "66": 18660,
+   "67": 19500,
+   "68": 20350,
+   "69": 21220,
+   "70": 22100,
+   "71": 24650,
+   "72": 26970,
+   "73": 29330,
+   "74": 31720,
+   "75": 34140,
+   "76": 36600,
+   "77": 39100,
+   "78": 41620,
+   "79": 44180,
+   "80": 0
+  },
+  "expItemConfig": {
+   "500": {
+    "itemId": 694489,
+    "cost": 250
+   },
+   "2000": {
+    "itemId": 694488,
+    "cost": 1000
+   },
+   "6000": {
+    "itemId": 694487,
+    "cost": 3000
+   }
+  },
+  "sCoinId": 29328
+ },
+ "pageId": "21028"
+}

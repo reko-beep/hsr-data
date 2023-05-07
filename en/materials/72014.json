@@ -1,0 +1,26 @@
+{
+ "iconPath": "0e478e8e79698ab7512128e32bb7be826d4a6b311e36bf0196220b15dc6d4b20",
+ "name": "Hard Chip of Nihility",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 72014,
+  "type": 601,
+  "purposeId": 17,
+  "iconPath": "0e478e8e79698ab7512128e32bb7be826d4a6b311e36bf0196220b15dc6d4b20",
+  "name": "Hard Chip of Nihility",
+  "desc": "Tier 3 Synthesis Material",
+  "lore": "A chip made of iron that seems to possess the power of the Nihility.<br />It may have been a coin that people use to buy things.<br />But apparently, as the engravings on it fade away, its value went with them.<br /><br />\"I don't know what I'm writing between these quotation marks. What's the point of this item description? My life is meaningless, so is this piece of flavor text.\"",
+  "purpose": "Synthesis material",
+  "rarity": 3,
+  "rewardPath": "/material/72014",
+  "comeFrom": [
+   "Rivet Town: Imaginary Weavers or other enemies"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "72014"
+}

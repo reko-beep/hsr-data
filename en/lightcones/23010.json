@@ -1,0 +1,502 @@
+{
+ "name": "Before Dawn",
+ "rarity": 5,
+ "descHash": "\"Do not make this decision lightly, general... Think about how you will be remembered in history...\"<br />The general of the Cloud Knights listens to his subordinates' words with eyes half-closed.<br />\"History will make its own judgment, but I have no interest in my legacy.\"<br />\"If I succeed, history will state that I am currently supremely confident in my masterful strategy.\"<br />\"But if I fail, then history will state that I am currently neglecting my duties in wanton pleasure, preferring finches over my people.\"<br /><br />A finch jumps down from his shoulder, and he extends his hand to catch the small creature.<br />\"I have simply made my own decision.\"",
+ "iconPath": "c5dee3abeaa2b7d6e71705a8f00e50e7555eb582324213eff15ed805a55d9047",
+ "artPath": "fc399c255bda7d51f2078728de1f53864f2dacb74ea5fd4aa40dc3d85d896137",
+ "mediumIconPath": "74636dc3790377a3a53ea8502990d1070df3366d60927ee622a86c8414bde399",
+ "baseType": {
+  "id": 0,
+  "iconPath": "b9e59719a64e109bbcf97e61c2cf3c99730af37cbd230758a45d291825dbd941",
+  "color": "#FFFFFF",
+  "name": "Erudition",
+  "rarity": 0
+ },
+ "baseTypeId": 0,
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "0e76659bbb3b9d0b1cc6a4e0e8c63a576c7b917f2f740a4b1b8ceab260a8a595",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards"
+   ]
+  },
+  "549504": {
+   "id": 549504,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "0c1388031133950e67459c98aad3ef2f784468e8339b131b94a4da88bbd608e3",
+   "name": "Immortal Scionette",
+   "desc": "New and young shoot budding from an ancient divine construct. Crude material used for enhancement.",
+   "lore": "The source of the Xianzhou long-life species' \"Endless Lifespan.\" The remnants of the Aeon of Abundance's influence. Countless years ago, a sovereign's hubris for immortality caused the Xianzhou fleet to sail into the sea of outer space to seek divine recipes.<br /><br />\"We desire to live for endless ages and maintain the empire for all eternity. Unfortunately, human lives have limits and human capacity has its ends. Thus, we send nine Navium Astriger to sail beyond the sky, seeking divine recipes for immortality.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 2,
+   "rewardPath": "/material/549504",
+   "comeFrom": [
+    "Cloudford: Mara-Struck Soldiers or other enemies",
+    "Stargazer Navalia: Mara-Struck Soldiers or other enemies",
+    "Simulated Universe enemies",
+    "Assignment rewards",
+    "Embers Exchange",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "633445": {
+   "id": 633445,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "5697f106bffd77cdaac463118c2612ee69e0d906afac35a2161414374437171c",
+   "name": "Immortal Aeroblossom",
+   "desc": "New flowers blooming out of an ancient divine construct. Normal material used for enhancement.",
+   "lore": "The source of the Xianzhou long-life species' \"Endless Lifespan.\" The remnants of the Aeon of Abundance's influence. After endless trials, the fleet seeking the medicine of immortality was able to behold the visage of the celestial being. The divine one cast down its blessings in material form, and the Ambrosial Arbor sprouted its leaves.<br /><br />\"New buds descend into the moon, divine flowers bloom by the clouds. In the blink of a blossom's life, old wood returns to youthful grove.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 3,
+   "rewardPath": "/material/633445",
+   "comeFrom": [
+    "Cloudford: Equilibrium Level 2+ Mara-Struck Soldiers or other enemies",
+    "Stargazer Navalia: Equilibrium Level 2+ Mara-Struck Soldiers or other enemies",
+    "Omni-Synthesizer \u2014 Material Synthesis",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "635675": {
+   "id": 635675,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "a11149500124597e50362c7c3cd94c209d1a1b48d77ce9f7dfdfac64d8840ef3",
+   "name": "Key of Inspiration",
+   "desc": "A mythical key that appears in the hands of the Meditative Scholars. Used to level up Traces slightly for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Erudition</span> characters.",
+   "lore": "It can unlock inspirations hidden deep within the conscience.<br />To take hold of the key is to grasp at the darting embers of thought that lead to the forward path.<br /><br />\"Eureka!\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 2,
+   "rewardPath": "/material/635675",
+   "comeFrom": [
+    "Calyx (Rivet Town)"
+   ]
+  },
+  "694487": {
+   "id": 694487,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "a5f4de7a7ad08a1676729853622d0e38b14de79b20465aa9c738e6105a8c746d",
+   "name": "Refined Aether",
+   "desc": "Enhancement material for Light Cones, provides <nobr>6000</nobr> Light Cone EXP.",
+   "lore": "A canister of aether that has been extracted and distilled using special procedures.<br /><br />\"The Garden looks forward to recreating a past glory, but it is a 'past glory' selected by them. Do you understand?\"",
+   "purpose": "Light Cone EXP Material",
+   "rarity": 4,
+   "rewardPath": "/material/694487",
+   "comeFrom": [
+    "Calyx (Backwater Pass)",
+    "Forgotten Hall"
+   ]
+  },
+  "694488": {
+   "id": 694488,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "91f62f32ecd1e7b88c9e30002d215b1a5936ac221782a17d2f34837a967ed557",
+   "name": "Condensed Aether",
+   "desc": "Enhancement material for Light Cones, provides <nobr>2000</nobr> Light Cone EXP.",
+   "lore": "A can of Aether refined through special techniques.<br /><br />\"Handle with care, do not drop or place pressure upon it. If damages and leaks occur, please refer to chapter II of the Leak Disaster Response Manual for emergency response.\"",
+   "purpose": "Light Cone EXP Material",
+   "rarity": 3,
+   "rewardPath": "/material/694488",
+   "comeFrom": [
+    "Calyx (Backwater Pass)"
+   ]
+  },
+  "694489": {
+   "id": 694489,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "554d37978b82c3f38bafee8771f8ab4248a1fe9d4e130bb5711064238666f491",
+   "name": "Sparse Aether",
+   "desc": "Enhancement material for Light Cones, provides <nobr>500</nobr> Light Cone EXP.",
+   "lore": "An imaginary substance that shouldn't exist in reality. The basic material to create Light Cones.<br />The images contained in the Light Cones become clearer when infused with this substance.<br /><br />\"I see, so this is the supposed 'Sentiention' of the Garden of Recollection. No wonder the Memokeepers can set off on galactic voyages with memories.\"",
+   "purpose": "Light Cone EXP Material",
+   "rarity": 2,
+   "rewardPath": "/material/694489",
+   "comeFrom": [
+    "Calyx (Backwater Pass)",
+    "Assignment rewards"
+   ]
+  },
+  "717386": {
+   "id": 717386,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "786a4710552f5db3cdbe821ed399429f2c61f1c0a70c89309cd3e3943a9918e6",
+   "name": "Immortal Lumintwig",
+   "desc": "Deciduous twigs from an ancient divine construct. Advanced material used for enhancement.",
+   "lore": "The source of the Xianzhou long-life species' \"Endless Lifespan.\" The remnants of the Aeon of Abundance's influence. After the Three Sufferings, Xianzhou laid in devastation. The Homo celestinae fell as demons, and catastrophes occurred ceaselessly.<br /><br />\"As decreed by the Ten-Lords Commission, all who are near the mara-struck state will be seized by the infernal judges and cast into the Shackling Prison.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 4,
+   "rewardPath": "/material/717386",
+   "comeFrom": [
+    "Cloudford: Equilibrium Level 4+ Mara-Struck Soldiers or other enemies",
+    "Stargazer Navalia: Equilibrium Level 4+ Mara-Struck Soldiers or other enemies",
+    "Omni-Synthesizer \u2014 Material Synthesis",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "836261": {
+   "id": 836261,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "061bb583c251ea1491996ac5de0e5abb6ad317d66eeb6746872470f0325de7a0",
+   "name": "Key of Wisdom",
+   "desc": "A mythical key that appears in the hands of the greatest prodigies of the galaxy. Used to level up Traces significantly for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Erudition</span> characters.",
+   "lore": "This is the proof of invitation to the halls of the Nous Temple.<br />Finding the door of which this key opens is a far more arduous task than obtaining the key itself. Those who pass through the doors will immediately realize the impossibility of returning to this side.<br /><br />\"The Erudition does not have answers to the universe, but it will teach you how to ask the right questions.\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 4,
+   "rewardPath": "/material/836261",
+   "comeFrom": [
+    "Calyx (Rivet Town)",
+    "Omni-Synthesizer \u2014 Material Synthesis"
+   ]
+  },
+  "920202": {
+   "id": 920202,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "974e6b2e34ddd65a7b7edc1e2edd1b85ffbf62d63b7318313e7f387747d83f4f",
+   "name": "Key of Knowledge",
+   "desc": "A mythical key that appears in the hands of the sages of the worlds. Used to level up Traces moderately for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Erudition</span> characters.",
+   "lore": "It can unlock the mysteries binding the truth of the world and grants knowledge beyond the understanding of humans.<br />No matter how the wielder attempts to display their possession of the key, no one but themselves can see its form. Some people believe that to be a gift from the heavens, while others think it's a sign of mental disorder.<br /><br />\"I had a dream of molecules coiling up into a loop like a snake biting its own tail. I woke up realizing that this is the answer I've been looking for all along!\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 3,
+   "rewardPath": "/material/920202",
+   "comeFrom": [
+    "Calyx (Rivet Town)",
+    "Omni-Synthesizer \u2014 Material Synthesis"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 5000
+    },
+    {
+     "id": 549504,
+     "count": 8
+    }
+   ],
+   "attackBase": 26.4,
+   "attackAdd": 3.96,
+   "hpBase": 48,
+   "hpAdd": 7.2,
+   "defenseBase": 21,
+   "defenseAdd": 3.15
+  },
+  {
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 10000
+    },
+    {
+     "id": 635675,
+     "count": 4
+    },
+    {
+     "id": 549504,
+     "count": 12
+    }
+   ],
+   "attackBase": 58.08,
+   "attackAdd": 3.96,
+   "hpBase": 105.6,
+   "hpAdd": 7.2,
+   "defenseBase": 46.2,
+   "defenseAdd": 3.15
+  },
+  {
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 20000
+    },
+    {
+     "id": 920202,
+     "count": 4
+    },
+    {
+     "id": 633445,
+     "count": 8
+    }
+   ],
+   "attackBase": 100.32,
+   "attackAdd": 3.96,
+   "hpBase": 182.4,
+   "hpAdd": 7.2,
+   "defenseBase": 79.8,
+   "defenseAdd": 3.15
+  },
+  {
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 50000
+    },
+    {
+     "id": 920202,
+     "count": 8
+    },
+    {
+     "id": 633445,
+     "count": 12
+    }
+   ],
+   "attackBase": 142.56,
+   "attackAdd": 3.96,
+   "hpBase": 259.2,
+   "hpAdd": 7.2,
+   "defenseBase": 113.4,
+   "defenseAdd": 3.15
+  },
+  {
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 100000
+    },
+    {
+     "id": 836261,
+     "count": 5
+    },
+    {
+     "id": 717386,
+     "count": 6
+    }
+   ],
+   "attackBase": 184.8,
+   "attackAdd": 3.96,
+   "hpBase": 336,
+   "hpAdd": 7.2,
+   "defenseBase": 147,
+   "defenseAdd": 3.15
+  },
+  {
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 200000
+    },
+    {
+     "id": 836261,
+     "count": 10
+    },
+    {
+     "id": 717386,
+     "count": 8
+    }
+   ],
+   "attackBase": 227.04,
+   "attackAdd": 3.96,
+   "hpBase": 412.8,
+   "hpAdd": 7.2,
+   "defenseBase": 180.6,
+   "defenseAdd": 3.15
+  },
+  {
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": [],
+   "attackBase": 269.28,
+   "attackAdd": 3.96,
+   "hpBase": 489.6,
+   "hpAdd": 7.2,
+   "defenseBase": 214.2,
+   "defenseAdd": 3.15
+  }
+ ],
+ "skill": {
+  "id": 23010,
+  "name": "Long Night",
+  "descHash": "Increases the wearer's CRIT DMG by <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span>. Increases the wearer's Skill and Ultimate DMG by <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#2[i]%</nobr></span>. After the wearer uses their Skill or Ultimate, they gain Somnus Corpus. Upon triggering a follow-up attack, Somnus Corpus will be consumed and the follow-up attack DMG increases by <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#3[i]%</nobr></span>.",
+  "levelData": [
+   {
+    "level": 1,
+    "params": [
+     0.36,
+     0.18,
+     0.48
+    ],
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "level": 2,
+    "params": [
+     0.42,
+     0.21,
+     0.56
+    ],
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "level": 3,
+    "params": [
+     0.48,
+     0.24,
+     0.64
+    ],
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "level": 4,
+    "params": [
+     0.54,
+     0.27,
+     0.72
+    ],
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "level": 5,
+    "params": [
+     0.6,
+     0.3,
+     0.8
+    ],
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   }
+  ]
+ },
+ "calculator": {
+  "expCost": {
+   "1": 60,
+   "2": 100,
+   "3": 170,
+   "4": 260,
+   "5": 370,
+   "6": 500,
+   "7": 640,
+   "8": 800,
+   "9": 970,
+   "10": 1160,
+   "11": 1360,
+   "12": 1580,
+   "13": 1820,
+   "14": 2060,
+   "15": 2320,
+   "16": 2600,
+   "17": 2880,
+   "18": 3180,
+   "19": 3490,
+   "20": 3620,
+   "21": 3760,
+   "22": 3910,
+   "23": 4050,
+   "24": 4200,
+   "25": 4360,
+   "26": 4510,
+   "27": 4670,
+   "28": 4830,
+   "29": 4990,
+   "30": 5160,
+   "31": 5330,
+   "32": 5500,
+   "33": 5670,
+   "34": 5850,
+   "35": 6030,
+   "36": 6210,
+   "37": 6390,
+   "38": 6580,
+   "39": 6760,
+   "40": 6950,
+   "41": 7630,
+   "42": 8060,
+   "43": 8510,
+   "44": 8970,
+   "45": 9440,
+   "46": 9910,
+   "47": 10390,
+   "48": 10890,
+   "49": 11390,
+   "50": 11900,
+   "51": 12420,
+   "52": 12940,
+   "53": 13480,
+   "54": 14020,
+   "55": 14580,
+   "56": 15140,
+   "57": 15710,
+   "58": 16290,
+   "59": 16880,
+   "60": 17470,
+   "61": 18290,
+   "62": 19270,
+   "63": 20260,
+   "64": 21260,
+   "65": 22290,
+   "66": 23320,
+   "67": 24370,
+   "68": 25440,
+   "69": 26520,
+   "70": 27620,
+   "71": 30810,
+   "72": 33710,
+   "73": 36660,
+   "74": 39650,
+   "75": 42680,
+   "76": 45750,
+   "77": 48870,
+   "78": 52030,
+   "79": 55230,
+   "80": 0
+  },
+  "expItemConfig": {
+   "500": {
+    "itemId": 694489,
+    "cost": 250
+   },
+   "2000": {
+    "itemId": 694488,
+    "cost": 1000
+   },
+   "6000": {
+    "itemId": 694487,
+    "cost": 3000
+   }
+  },
+  "sCoinId": 29328
+ },
+ "pageId": "23010"
+}

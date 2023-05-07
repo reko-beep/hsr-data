@@ -1,0 +1,24 @@
+{
+ "iconPath": "f32f0343563fe00385620060cebf96265dc354a90a3f44c6cc8c10f97e21b0ed",
+ "name": "EXP",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 728123,
+  "type": 101,
+  "purposeId": 0,
+  "iconPath": "f32f0343563fe00385620060cebf96265dc354a90a3f44c6cc8c10f97e21b0ed",
+  "name": "EXP",
+  "desc": "The depths of memory, proof of growth.",
+  "lore": "\"I am not Fuli... I only believe in myself, for the path of immortality never ends.\"",
+  "purpose": "",
+  "rarity": 3,
+  "rewardPath": "/material/728123",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "728123"
+}

@@ -1,0 +1,27 @@
+{
+ "iconPath": "66246a134a2466e730d3b928d4fb279d60ec0fadf652363019ced427acbfe988",
+ "name": "Metal",
+ "rarity": 1,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 71948,
+  "type": 601,
+  "purposeId": 17,
+  "iconPath": "66246a134a2466e730d3b928d4fb279d60ec0fadf652363019ced427acbfe988",
+  "name": "Metal",
+  "desc": "Tier 1 Synthesis Material",
+  "lore": "A substance abundant in planets' crust and the ocean.<br />Very useful, very handy.<br /><br />\"I've been to a planet where the locals consume metals to get superpowers. Please don't do that at home, as most metals are not digestible by humans.\"",
+  "purpose": "Synthesis material",
+  "rarity": 1,
+  "rewardPath": "/material/71948",
+  "comeFrom": [
+   "Found in destructible objects in the Herta Space Station",
+   "Administrative District Shop"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "71948"
+}

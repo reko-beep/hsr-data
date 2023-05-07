@@ -1,0 +1,24 @@
+{
+ "iconPath": "6a1f733efe9ec5173f7388cc96d8c53edf6224d9183719dca40b02bb16317056",
+ "name": "The Nameless EXP",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 728116,
+  "type": 101,
+  "purposeId": 0,
+  "iconPath": "6a1f733efe9ec5173f7388cc96d8c53edf6224d9183719dca40b02bb16317056",
+  "name": "The Nameless EXP",
+  "desc": "Used to increase Nameless Honor levels.",
+  "lore": "Accept the gifts of those who came before and begin your own trailblazing expedition.<br /><br />\"Experience often comes at a cost, but that is why they are irreplaceable.\"",
+  "purpose": "",
+  "rarity": 3,
+  "rewardPath": "/material/728116",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "728116"
+}

@@ -1,0 +1,2408 @@
+{
+ "name": "Yanqing",
+ "spRequirement": 140,
+ "rarity": 5,
+ "descHash": "General Jing Yuan's retainer. A gifted swordsman who hasn't even come of age. No one can best Yanqing when he holds a sword in hand.",
+ "iconPath": "80ecf0c46e1552ae89a6024a7a2b659796b102d41fd3890aef4f18d45a770476",
+ "bgPath": "fc1717c75b624406911059f99c2832da35bc16a0f6e10a3610bc2857a8073655",
+ "figPath": "008833eb9b2916ba2c4e9c03fe5dc853887e23e26fa6195ab1e48c691fc460aa",
+ "fgPath": "e5f9d287afdd963882c0d711ff35014b1fe809075483b204d6bf72830c00bba0",
+ "artPath": "ea874400ae224cc7a7b90984f3a7450d93039a7aa4c9a60940d73a69c6bf2810",
+ "miniIconPath": "399deabff741710c511cf291ef46a6749285c60f146c7acd5a8d581c2dc46fa3",
+ "splashIconPath": "1225c60547f6a6064b72314c5d99ff4e54795beee2fbec04c47fca70f65e0eb3",
+ "damageType": {
+  "id": 4,
+  "iconPath": "3a4e72fd1d4a41926980ab22b12c81cde3147050577efcfdac462e0f60271b9f",
+  "color": "#47C7FD",
+  "name": "Ice",
+  "rarity": 0
+ },
+ "baseType": {
+  "id": 0,
+  "iconPath": "f888d91738330cac6e95609d73ab3c9d4be23794bb22c5257171857c4c722262",
+  "altIconPath": "09f49c24cff05770b7c6decea7821c42fb5ddb87f1141b08d9a2c7d8d9344efc",
+  "color": "#FFFFFF",
+  "name": "The Hunt",
+  "rarity": 0
+ },
+ "damageTypeId": 0,
+ "baseTypeId": 0,
+ "baseTypeTraces": {
+  "id": 2,
+  "iconPath": "c66788e18b85100348634e29b364a9e96096bfcd10a9607ae873ceb817744d83",
+  "color": "#FFFFFF",
+  "rarity": 0
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "0e76659bbb3b9d0b1cc6a4e0e8c63a576c7b917f2f740a4b1b8ceab260a8a595",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards"
+   ]
+  },
+  "67220": {
+   "id": 67220,
+   "type": 601,
+   "purposeId": 2,
+   "iconPath": "454d7cc126855797ffe9e381f1c4516d3fa988feafd6ed05db41cfe55b21f309",
+   "name": "Gelid Chitin",
+   "desc": "Frosty chitin emitting a cold humming. Can be used for the Ascension of Ice characters.",
+   "lore": "Strange chitin peeled off from an interdimensional creature. Although not freezing cold anymore, it remains trebling, absorbing heat from its surroundings.<br /><br />\"How has no one thought of selling it to worlds where they don't have air conditioners? It works like an air conditioner and sounds as loud as one, too.\"",
+   "purpose": "Character Ascension Materials",
+   "rarity": 4,
+   "rewardPath": "/material/67220",
+   "comeFrom": [
+    "Stagnant Shadow (Cloudford)",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "125435": {
+   "id": 125435,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "75e6d3c477385eb36716ba1798609b01a9fe10893c1b3e9f9dc81046ad10d9b0",
+   "name": "Tracks of Destiny",
+   "desc": "Advanced level-up material for Traces.",
+   "lore": "Your victory is secured by countless failures, and the small steps you have taken led you to the turning point of fate.",
+   "purpose": "Trace Materials",
+   "rarity": 5,
+   "rewardPath": "/material/125435",
+   "comeFrom": [
+    "Simulated Universe Point Rewards",
+    "Nameless Honor",
+    "Embers Exchange",
+    "Limited-Time Event Rewards"
+   ]
+  },
+  "270195": {
+   "id": 270195,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "ed0c6ddf746bb8fe5f178943cd2836c9c4f98c2647479d389e2640b5f38d1317",
+   "name": "Guardian's Lament",
+   "desc": "Advanced level-up material for Traces.",
+   "lore": "Together with this visor, the twisted wish of a Guardian also lies broken.<br />She had wanted to find a way out for her people to escape the Everwinter, but ended up becoming a puppet of a consciousness beyond her.<br /><br />\"Supreme Guardian, the title passed down to generations of Belobog's rulers, the one who looked after all the people \u2014 It never occurred to anyone that the Guardians themselves also long for care and protection.\"",
+   "purpose": "Trace Materials",
+   "rarity": 4,
+   "rewardPath": "/material/270195",
+   "comeFrom": [
+    "Echo of War (Everwinter Hill)"
+   ]
+  },
+  "409960": {
+   "id": 409960,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "607961a38d9fe4f935578e9ea7b4de093d68ff8258b0b52c3cd4261e5cd92932",
+   "name": "Traveler's Guide",
+   "desc": "Experience material for characters. Provides <nobr>20,000</nobr> Character EXP.",
+   "lore": "Required reading for world exploration. Press the \"Read\" button to tune in to an attractive voice in a language you understand, telling you about the legendary encounters of renowned adventurers across different worlds as well as the precious wisdom and knowledge that they have gathered.<br /><br />\"All-new series of the Traveler's Guide, The Chef's Manual to Galactic Cuisine, is now available for purchase.\"<br />\"For submissions, please connect to synesthesia beacon ERD<nobr>-23</nobr>\u03b8 to contact an Intelligentsia Guild representative. Method of payment can be arranged to your convenience.\"",
+   "purpose": "Character EXP Material",
+   "rarity": 4,
+   "rewardPath": "/material/409960",
+   "comeFrom": [
+    "Calyx (Outlying Snow Plains)",
+    "Forgotten Hall"
+   ]
+  },
+  "409961": {
+   "id": 409961,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "05ef6659e951dd69d862823c86470487d68c24209400d4391df1f50bbc21ab42",
+   "name": "Adventure Log",
+   "desc": "Experience material for characters. Provides <nobr>5000</nobr> Character EXP.",
+   "lore": "A neatly organized collection of educational adventure notes containing countless illustrations and texts entailing adventures from beginning to end, as well as valuable information and survival-related techniques.<br /><br />\"Why not just digitize it and save it on a photolith disk? That'd be much more convenient.\"<br />\"Advanced technology is far more fragile than you'd think when faced with stellar storms and neuron flow eruptions. Besides, I'm sure the author of this book wanted people to read it in the simplest of ways.\"",
+   "purpose": "Character EXP Material",
+   "rarity": 3,
+   "rewardPath": "/material/409961",
+   "comeFrom": [
+    "Calyx (Outlying Snow Plains)",
+    "Daily Training"
+   ]
+  },
+  "409962": {
+   "id": 409962,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "ad5070f0ef2447ee09fb3b0d859ab3c594538eaa58b71a14ffcbd4b2b493c1c5",
+   "name": "Travel Encounters",
+   "desc": "Experience material for characters. Provides <nobr>1000</nobr> Character EXP.",
+   "lore": "A travel diary with messy handwriting and random content. It's not of much use to you.<br /><br />\"Dan Heng, hurry up and finish reading it so you can throw it away.\"",
+   "purpose": "Character EXP Material",
+   "rarity": 2,
+   "rewardPath": "/material/409962",
+   "comeFrom": [
+    "Calyx (Outlying Snow Plains)",
+    "Assignment rewards"
+   ]
+  },
+  "549437": {
+   "id": 549437,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "5930a427c19aedca23d55eb6ef670cc8ecf07466630281586f32f4d5e8d49409",
+   "name": "Thief's Instinct",
+   "desc": "A small amount of anti-matter. Crude material used for enhancement.",
+   "lore": "A small amount of anti-matter that emanates out of the Voidranger: Reaver like the materialization of its destructive instinct.<br /><br />\"They are all looking forward to the moment of obliteration, when they will be reforged and fused with the entire world.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 2,
+   "rewardPath": "/material/549437",
+   "comeFrom": [
+    "Storage Zone: Voidranger: Reavers or other enemies",
+    "Supply Zone: Voidranger: Reavers or other enemies",
+    "Simulated Universe enemies",
+    "Assignment rewards",
+    "Embers Exchange",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "633378": {
+   "id": 633378,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "69d0630f4dc8d8bb4706a8a973f720ce46452e189a62c7b8b6f2ca8d567ca8ae",
+   "name": "Usurper's Scheme",
+   "desc": "A moderate amount of anti-matter. Normal material used for enhancement.",
+   "lore": "A moderate amount of anti-matter that floats around the Voidranger: Distorter. The amount of matter and anti-matter particles has reached a dangerous balance...<br /><br />\"They are all looking forward to the moment of obliteration, when they will be reforged and fused with the entire world.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 3,
+   "rewardPath": "/material/633378",
+   "comeFrom": [
+    "Storage Zone: Equilibrium Level 2+ Voidranger: Reavers or other enemies",
+    "Supply Zone: Equilibrium Level 2+ Voidranger: Reavers or other enemies",
+    "Omni-Synthesizer \u2014 Material Synthesis",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "635674": {
+   "id": 635674,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "cb316badc06db5719753768d375ae94463fad49721b56569985ab88a684474c4",
+   "name": "Arrow of the Beast Hunter",
+   "desc": "An arrowhead forged with Frost Steel by the craftsmen of Xianzhou. Used to level up Traces slightly for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Hunt</span> characters.",
+   "lore": "A gift that parents give to their children who've successfully hunted their first prey at their coming of age ceremony. It is a blessing that their life would be as successful and true as an arrow heading towards its mark.<br /><br />\"May the arrow on your waist and the sword in your sheath stay true and always find its target.\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 2,
+   "rewardPath": "/material/635674",
+   "comeFrom": [
+    "Calyx (Outlying Snow Plains)"
+   ]
+  },
+  "717319": {
+   "id": 717319,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "ea7f9727e8ba2c2039043d319ab4aa087ca6dbf08ec08876b1418d42c0f8a670",
+   "name": "Conqueror's Will",
+   "desc": "Condensed anti-matter. Advanced material used for enhancement.",
+   "lore": "Highly condensed anti-matter within the body of the Voidranger: Trampler. The moment of obliteration is the trumpet call for civilizations' destruction.<br /><br />\"They are all looking forward to the moment of obliteration, when they will be reforged and fused with the entire world.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 4,
+   "rewardPath": "/material/717319",
+   "comeFrom": [
+    "Storage Zone: Equilibrium Level 4+ Voidranger: Reavers or other enemies",
+    "Supply Zone: Equilibrium Level 4+ Voidranger: Reavers or other enemies",
+    "Omni-Synthesizer \u2014 Material Synthesis",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "836260": {
+   "id": 836260,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "f0bb6fd4143f707987f651fa21b81257202d038949944fa22d7615ad342d5bfa",
+   "name": "Arrow of the Starchaser",
+   "desc": "A shard of the Sky-Shattering Lux Arrow shot by the Reignbow Arbiter. Used to level up Traces significantly for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Hunt</span> characters.",
+   "lore": "The remains of a divine construct that ordinary humans can rarely behold. What kind of force can shatter stars that are light-years away? Humanity can only imagine the power of the Lux Arrow from the ashes it left behind.<br />Only the Furnace Master, chief of the Xianzhou artisans, has the rights to reforge the shards for those who are worthy.<br /><br />\"The death of a star shall shine bright for ages to come.\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 4,
+   "rewardPath": "/material/836260",
+   "comeFrom": [
+    "Calyx (Outlying Snow Plains)",
+    "Omni-Synthesizer \u2014 Material Synthesis"
+   ]
+  },
+  "920201": {
+   "id": 920201,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "a9dabc100dfb0916188799f2d83770e60721301f4d7c930b850ae55815281ad1",
+   "name": "Arrow of the Demon Slayer",
+   "desc": "An arrowhead forged with Stellaris Essence by the craftsmen of Xianzhou. Used to level up Traces moderately for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Hunt</span> characters.",
+   "lore": "An arrow narrower than a finger's width. It can be loaded into an electromagnetic crossbow or a thermal seeking bow as ammunition. Its power is enough to penetrate the tough shells of abominations with just one strike.<br /><br />\"The celestial banished arrives from afar, great distances journeyed 'twixt oceans of stars. Like rain falls a cloudburst of arrows below, in a helmet reflected the bright lunar glow.\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 3,
+   "rewardPath": "/material/920201",
+   "comeFrom": [
+    "Calyx (Outlying Snow Plains)",
+    "Omni-Synthesizer \u2014 Material Synthesis"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 4000
+    },
+    {
+     "id": 549437,
+     "count": 5
+    }
+   ],
+   "attackBase": 92.4,
+   "attackAdd": 4.62,
+   "hpBase": 121.44,
+   "hpAdd": 6.072,
+   "defenseBase": 56.1,
+   "defenseAdd": 2.805,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 109,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 8000
+    },
+    {
+     "id": 549437,
+     "count": 10
+    }
+   ],
+   "attackBase": 129.36,
+   "attackAdd": 4.62,
+   "hpBase": 170.016,
+   "hpAdd": 6.072,
+   "defenseBase": 78.54,
+   "defenseAdd": 2.805,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 109,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 16000
+    },
+    {
+     "id": 633378,
+     "count": 6
+    },
+    {
+     "id": 67220,
+     "count": 3
+    }
+   ],
+   "attackBase": 166.32,
+   "attackAdd": 4.62,
+   "hpBase": 218.592,
+   "hpAdd": 6.072,
+   "defenseBase": 100.98,
+   "defenseAdd": 2.805,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 109,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 40000
+    },
+    {
+     "id": 633378,
+     "count": 9
+    },
+    {
+     "id": 67220,
+     "count": 7
+    }
+   ],
+   "attackBase": 203.28,
+   "attackAdd": 4.62,
+   "hpBase": 267.168,
+   "hpAdd": 6.072,
+   "defenseBase": 123.42,
+   "defenseAdd": 2.805,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 109,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 80000
+    },
+    {
+     "id": 717319,
+     "count": 6
+    },
+    {
+     "id": 67220,
+     "count": 20
+    }
+   ],
+   "attackBase": 240.24,
+   "attackAdd": 4.62,
+   "hpBase": 315.744,
+   "hpAdd": 6.072,
+   "defenseBase": 145.86,
+   "defenseAdd": 2.805,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 109,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 160000
+    },
+    {
+     "id": 717319,
+     "count": 9
+    },
+    {
+     "id": 67220,
+     "count": 35
+    }
+   ],
+   "attackBase": 277.2,
+   "attackAdd": 4.62,
+   "hpBase": 364.32,
+   "hpAdd": 6.072,
+   "defenseBase": 168.3,
+   "defenseAdd": 2.805,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 109,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": [],
+   "attackBase": 314.16,
+   "attackAdd": 4.62,
+   "hpBase": 412.896,
+   "hpAdd": 6.072,
+   "defenseBase": 190.74,
+   "defenseAdd": 2.805,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 75,
+   "speedBase": 109,
+   "speedAdd": 0
+  }
+ ],
+ "ranks": [
+  {
+   "id": 1,
+   "iconPath": "c95122a591ab9a85dcb4c4a243e8a41157659a9a96d909eb11a211d89820b39e",
+   "artPath": "d7332eae1d2cd5180bf1adba48f235143b9d4e1b697f106c702d054ea2434bb6",
+   "name": "Svelte Saber",
+   "descHash": "When Yanqing attacks a Frozen enemy, he deals Additional Ice DMG equal to <nobr>#1[i]%</nobr> of his ATK.",
+   "params": [
+    0.6
+   ]
+  },
+  {
+   "id": 2,
+   "iconPath": "6f286f50f2d880768e939a7b91e3379074f978deaab70e19e8c116ba83b59f0f",
+   "artPath": "1ea92c38b9e92d6399c5107174d0f75a98730e63aace6b0c20afc8aba7a27606",
+   "name": "Supine Serenade",
+   "descHash": "When Soulsteel Sync is active, Energy Regeneration Rate increases by an extra <nobr>#1[i]%</nobr>.",
+   "params": [
+    0.1
+   ]
+  },
+  {
+   "id": 3,
+   "iconPath": "95b33f7e3c3b8fbc7082aea29118a1a4b1c9f8de01efd705023fe3643b2a2fda",
+   "artPath": "046d4d065c3f196bb4836d053784e98e3b5b3215e7d7ba06b110d8640eeb1f4f",
+   "name": "Sword Savant",
+   "descHash": "Skill Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Basic ATK Lv. +1, up to a maximum of Lv. <nobr>10</nobr>.",
+   "params": []
+  },
+  {
+   "id": 4,
+   "iconPath": "574a65440206e0ecadce6735f9195a06a6776ba9370a4c200d4004f05293b5ca",
+   "artPath": "375b7572867629fee3a74f9e17ba80e6e750b151a4fe79021829edd5b95e3b74",
+   "name": "Searing Sting",
+   "descHash": "When the current HP percentage is <nobr>#1[i]%</nobr> or higher, Ice RES PEN increases by <nobr>#2[i]%</nobr>.",
+   "params": [
+    0.8,
+    0.12
+   ]
+  },
+  {
+   "id": 5,
+   "iconPath": "5652f0f7d190a9a85e367dae116e703ce80c0a8ace0739a248c40132d337bff6",
+   "artPath": "2f321eb6e01bfff4e9c776e2f1e1be0fd3dd76c97d735af829a23b3daf4f6ada",
+   "name": "Surging Strife",
+   "descHash": "Ultimate Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Talent Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.",
+   "params": []
+  },
+  {
+   "id": 6,
+   "iconPath": "d7ba03942f111dea8f54b5daf86ee4ed3594a6d6764ea40280ffa7ae00a32fb2",
+   "artPath": "6ab9229385954678f6d99f76cb21cc37a3d304621ca43e0e852d0e5e054ffa43",
+   "name": "Swift Swoop",
+   "descHash": "If the Ultimate's buffs are still in effect when an enemy is defeated, their duration is extended by 1 turn.",
+   "params": []
+  }
+ ],
+ "skillGrouping": [
+  [
+   531503
+  ],
+  [
+   246976
+  ],
+  [
+   363621
+  ],
+  [
+   46390
+  ],
+  [
+   962449
+  ]
+ ],
+ "skills": [
+  {
+   "id": 531503,
+   "name": "Frost Thorn",
+   "tagHash": "Single Target",
+   "descHash": "Deals <span style=\"color:#47C7FD;\">Ice</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Yanqing's ATK to a single enemy.",
+   "typeDescHash": "Basic ATK",
+   "iconPath": "94b86e53e6a709fec66829acfea0f760ebcd91bce854da28f027adebdac34091",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      0.5
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 2,
+     "params": [
+      0.6
+     ],
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635674,
+       "count": 3
+      },
+      {
+       "id": 549437,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "params": [
+      0.7
+     ],
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920201,
+       "count": 3
+      },
+      {
+       "id": 633378,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "params": [
+      0.8
+     ],
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920201,
+       "count": 5
+      },
+      {
+       "id": 633378,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "params": [
+      0.9
+     ],
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836260,
+       "count": 3
+      },
+      {
+       "id": 717319,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "params": [
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836260,
+       "count": 8
+      },
+      {
+       "id": 717319,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "params": [
+      1.1
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 8,
+     "params": [
+      1.2
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 9,
+     "params": [
+      1.3
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  },
+  {
+   "id": 246976,
+   "name": "Darting Ironthorn",
+   "tagHash": "Single Target",
+   "descHash": "Deals <span style=\"color:#47C7FD;\">Ice</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Yanqing's ATK to a single enemy and activates Soulsteel Sync for 1 turn.",
+   "typeDescHash": "Skill",
+   "iconPath": "95b33f7e3c3b8fbc7082aea29118a1a4b1c9f8de01efd705023fe3643b2a2fda",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      1.1
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 2,
+     "params": [
+      1.21
+     ],
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 549437,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "params": [
+      1.32
+     ],
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635674,
+       "count": 3
+      },
+      {
+       "id": 549437,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "params": [
+      1.43
+     ],
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920201,
+       "count": 3
+      },
+      {
+       "id": 633378,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "params": [
+      1.54
+     ],
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920201,
+       "count": 5
+      },
+      {
+       "id": 633378,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "params": [
+      1.65
+     ],
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920201,
+       "count": 7
+      },
+      {
+       "id": 633378,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "params": [
+      1.7875
+     ],
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836260,
+       "count": 3
+      },
+      {
+       "id": 717319,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "params": [
+      1.925
+     ],
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836260,
+       "count": 5
+      },
+      {
+       "id": 270195,
+       "count": 1
+      },
+      {
+       "id": 717319,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "params": [
+      2.0625
+     ],
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836260,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "params": [
+      2.2
+     ],
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836260,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 11,
+     "params": [
+      2.31
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 12,
+     "params": [
+      2.42
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 13,
+     "params": [
+      2.53
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 14,
+     "params": [
+      2.64
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 15,
+     "params": [
+      2.75
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  },
+  {
+   "id": 363621,
+   "name": "Amidst the Raining Bliss",
+   "tagHash": "Single Target",
+   "descHash": "Increases Yanqing's CRIT Rate by <nobr>#1[i]%</nobr>. When Soulsteel Sync is active, increases Yanqing's CRIT DMG by an extra <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#2[i]%</nobr></span>. This <u>buffs</u> last for one turn. Afterwards, deals <span style=\"color:#47C7FD;\">Ice</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#3[i]%</nobr></span> of Yanqing's ATK to a single enemy.",
+   "typeDescHash": "Ultimate",
+   "iconPath": "0485a706698027aea4bacff682d09d3fe2bf996cc71b79ec561f4f6b24c0a23f",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      0.6,
+      0.3,
+      2.1
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 2,
+     "params": [
+      0.6,
+      0.32,
+      2.24
+     ],
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 549437,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "params": [
+      0.6,
+      0.34,
+      2.38
+     ],
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635674,
+       "count": 3
+      },
+      {
+       "id": 549437,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "params": [
+      0.6,
+      0.36,
+      2.52
+     ],
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920201,
+       "count": 3
+      },
+      {
+       "id": 633378,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "params": [
+      0.6,
+      0.38,
+      2.66
+     ],
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920201,
+       "count": 5
+      },
+      {
+       "id": 633378,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "params": [
+      0.6,
+      0.4,
+      2.8
+     ],
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920201,
+       "count": 7
+      },
+      {
+       "id": 633378,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "params": [
+      0.6,
+      0.425,
+      2.975
+     ],
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836260,
+       "count": 3
+      },
+      {
+       "id": 717319,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "params": [
+      0.6,
+      0.45,
+      3.15
+     ],
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836260,
+       "count": 5
+      },
+      {
+       "id": 270195,
+       "count": 1
+      },
+      {
+       "id": 717319,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "params": [
+      0.6,
+      0.475,
+      3.325
+     ],
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836260,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "params": [
+      0.6,
+      0.5,
+      3.5
+     ],
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836260,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 11,
+     "params": [
+      0.6,
+      0.52,
+      3.64
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 12,
+     "params": [
+      0.6,
+      0.54,
+      3.78
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 13,
+     "params": [
+      0.6,
+      0.56,
+      3.92
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 14,
+     "params": [
+      0.6,
+      0.58,
+      4.06
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 15,
+     "params": [
+      0.6,
+      0.6,
+      4.2
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ],
+   "ultimateCost": 140
+  },
+  {
+   "id": 46390,
+   "name": "One With the Sword",
+   "tagHash": "Single Target",
+   "descHash": "When Soulsteel Sync is active, Yanqing is less likely to be attacked by enemies. Yanqing's CRIT Rate increases by <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[f1]%</nobr></span> and his CRIT DMG increases by <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#2[i]%</nobr></span>. After Yanqing attacks an enemy, there is a <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#3[i]%</nobr></span> <u>fixed chance</u> to perform a <u>follow-up attack</u>, dealing <span style=\"color:#47C7FD;\">Ice</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#4[i]%</nobr></span> of Yanqing's ATK to the enemy, which has a <nobr>#6[i]%</nobr> <u>base chance</u> to Freeze the enemy for 1 turn.<br />The Frozen target cannot take action and receives <u>Additional</u> <span style=\"color:#47C7FD;\">Ice</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#5[i]%</nobr></span> of Yanqing's ATK at the beginning of each turn.<br />When Yanqing receives DMG, the Soulsteel Sync effect will disappear.",
+   "typeDescHash": "Talent",
+   "iconPath": "3e21667bd77ed997a8ba96594c100c412f08945d75f0fe6f8b8e11bd8db04650",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      0.15,
+      0.15,
+      0.5,
+      0.25,
+      0.25,
+      0.65
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 2,
+     "params": [
+      0.155,
+      0.165,
+      0.51,
+      0.275,
+      0.275,
+      0.65
+     ],
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 549437,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "params": [
+      0.16,
+      0.18,
+      0.52,
+      0.3,
+      0.3,
+      0.65
+     ],
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635674,
+       "count": 3
+      },
+      {
+       "id": 549437,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "params": [
+      0.165,
+      0.195,
+      0.53,
+      0.325,
+      0.325,
+      0.65
+     ],
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920201,
+       "count": 3
+      },
+      {
+       "id": 633378,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "params": [
+      0.17,
+      0.21,
+      0.54,
+      0.35,
+      0.35,
+      0.65
+     ],
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920201,
+       "count": 5
+      },
+      {
+       "id": 633378,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "params": [
+      0.175,
+      0.225,
+      0.55,
+      0.375,
+      0.375,
+      0.65
+     ],
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920201,
+       "count": 7
+      },
+      {
+       "id": 633378,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "params": [
+      0.18125,
+      0.24375,
+      0.5625,
+      0.40625,
+      0.40625,
+      0.65
+     ],
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836260,
+       "count": 3
+      },
+      {
+       "id": 717319,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "params": [
+      0.1875,
+      0.2625,
+      0.575,
+      0.4375,
+      0.4375,
+      0.65
+     ],
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836260,
+       "count": 5
+      },
+      {
+       "id": 270195,
+       "count": 1
+      },
+      {
+       "id": 717319,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "params": [
+      0.19375,
+      0.28125,
+      0.5875,
+      0.46875,
+      0.46875,
+      0.65
+     ],
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836260,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "params": [
+      0.2,
+      0.3,
+      0.6,
+      0.5,
+      0.5,
+      0.65
+     ],
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836260,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 11,
+     "params": [
+      0.205,
+      0.315,
+      0.61,
+      0.525,
+      0.525,
+      0.65
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 12,
+     "params": [
+      0.21,
+      0.33,
+      0.62,
+      0.55,
+      0.55,
+      0.65
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 13,
+     "params": [
+      0.215,
+      0.345,
+      0.63,
+      0.575,
+      0.575,
+      0.65
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 14,
+     "params": [
+      0.22,
+      0.36,
+      0.64,
+      0.6,
+      0.6,
+      0.65
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 15,
+     "params": [
+      0.225,
+      0.375,
+      0.65,
+      0.625,
+      0.625,
+      0.65
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  },
+  {
+   "id": 878508,
+   "name": "Attack",
+   "tagHash": "",
+   "descHash": "Attack an enemy, and when the battle starts, reduce their Toughness of the corresponding Type.",
+   "typeDescHash": "",
+   "iconPath": "94b86e53e6a709fec66829acfea0f760ebcd91bce854da28f027adebdac34091",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  },
+  {
+   "id": 962449,
+   "name": "The One True Sword",
+   "tagHash": "Enhance",
+   "descHash": "After using his Technique, at the start of the next battle, Yanqing deals <nobr>#2[i]%</nobr> more DMG for <nobr>#3[i]</nobr> turn(s) to enemies whose current HP is <nobr>#1[i]%</nobr> or higher.",
+   "typeDescHash": "Technique",
+   "iconPath": "228bc1fc2153530933ae159926b1cbd80af9a1ceccf6cfd165015254bda7d668",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      0.5,
+      0.3,
+      2
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  }
+ ],
+ "skillTreePoints": [
+  {
+   "id": 1209101,
+   "type": 1,
+   "children": [
+    {
+     "id": 1209202,
+     "type": 2,
+     "children": [
+      {
+       "id": 1209203,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 968219,
+        "name": "ATK Boost",
+        "levelReq": 0,
+        "promotionReq": 3,
+        "iconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5",
+        "statusList": [
+         {
+          "key": "ATK",
+          "value": 0.04
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 10000
+         },
+         {
+          "id": 920201,
+          "count": 3
+         },
+         {
+          "id": 633378,
+          "count": 3
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 968218,
+      "name": "DMG Boost: Ice",
+      "levelReq": 0,
+      "promotionReq": 2,
+      "iconPath": "61fabc866a9c5c20a0ae994d2d92a286ce89872e01eb8e1a772e28eaa9260177",
+      "statusList": [
+       {
+        "key": "<span style=\"color:#47C7FD;\">Ice</span> DMG Boost",
+        "value": 0.032
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 635674,
+        "count": 3
+       },
+       {
+        "id": 549437,
+        "count": 6
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "id": 968122,
+    "name": "Icing on the Kick",
+    "descHash": "When Yanqing attacks, deals Additional <span style=\"color:#47C7FD;\">Ice</span> DMG equal to <nobr>#1[i]%</nobr> of Yanqing's ATK to enemies with <span style=\"color:#47C7FD;\">Ice</span> Weakness.",
+    "iconPath": "d50d7078e40e4808ef6e98ede676bf1a48cd6f1e8984fbbdf23c33e0d9ef01b9",
+    "levelReq": 0,
+    "promotionReq": 2,
+    "levelData": [
+     {
+      "level": 1,
+      "params": [
+       0.3
+      ],
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 635674,
+        "count": 3
+       },
+       {
+        "id": 270195,
+        "count": 1
+       }
+      ]
+     }
+    ],
+    "ultimateCost": 0
+   }
+  },
+  {
+   "id": 1209102,
+   "type": 1,
+   "children": [
+    {
+     "id": 1209205,
+     "type": 2,
+     "children": [
+      {
+       "id": 1209206,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 968214,
+        "name": "DMG Boost: Ice",
+        "levelReq": 0,
+        "promotionReq": 5,
+        "iconPath": "61fabc866a9c5c20a0ae994d2d92a286ce89872e01eb8e1a772e28eaa9260177",
+        "statusList": [
+         {
+          "key": "<span style=\"color:#47C7FD;\">Ice</span> DMG Boost",
+          "value": 0.048
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 45000
+         },
+         {
+          "id": 836260,
+          "count": 3
+         },
+         {
+          "id": 717319,
+          "count": 3
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 968217,
+      "name": "ATK Boost",
+      "levelReq": 0,
+      "promotionReq": 4,
+      "iconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5",
+      "statusList": [
+       {
+        "key": "ATK",
+        "value": 0.06
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 920201,
+        "count": 5
+       },
+       {
+        "id": 633378,
+        "count": 4
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "id": 968125,
+    "name": "Frost Favors the Brave",
+    "descHash": "When Soulsteel Sync is active, Effect RES increases by <nobr>#1[i]%</nobr>.",
+    "iconPath": "e2fd9d55e0f29713b121c6eb7e8b09178b57e0724328e952a315bd1aca1ac8d1",
+    "levelReq": 0,
+    "promotionReq": 4,
+    "levelData": [
+     {
+      "level": 1,
+      "params": [
+       0.2
+      ],
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 920201,
+        "count": 5
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 270195,
+        "count": 1
+       }
+      ]
+     }
+    ],
+    "ultimateCost": 0
+   }
+  },
+  {
+   "id": 1209103,
+   "type": 1,
+   "children": [
+    {
+     "id": 1209208,
+     "type": 2,
+     "children": [
+      {
+       "id": 1209209,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 968229,
+        "name": "DMG Boost: Ice",
+        "levelReq": 75,
+        "promotionReq": 0,
+        "iconPath": "61fabc866a9c5c20a0ae994d2d92a286ce89872e01eb8e1a772e28eaa9260177",
+        "statusList": [
+         {
+          "key": "<span style=\"color:#47C7FD;\">Ice</span> DMG Boost",
+          "value": 0.064
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 160000
+         },
+         {
+          "id": 836260,
+          "count": 8
+         },
+         {
+          "id": 717319,
+          "count": 8
+         }
+        ]
+       }
+      },
+      {
+       "id": 1209210,
+       "type": 2,
+       "children": [],
+       "embedBuff": {
+        "id": 84865,
+        "name": "ATK Boost",
+        "levelReq": 80,
+        "promotionReq": 0,
+        "iconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5",
+        "statusList": [
+         {
+          "key": "ATK",
+          "value": 0.08
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 160000
+         },
+         {
+          "id": 836260,
+          "count": 8
+         },
+         {
+          "id": 717319,
+          "count": 8
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 968228,
+      "name": "HP Boost",
+      "levelReq": 0,
+      "promotionReq": 6,
+      "iconPath": "9560c98da124f605af2e45c09f26a0b8ee24c3aa357b9701464d7c04adcd0da7",
+      "statusList": [
+       {
+        "key": "HP",
+        "value": 0.06
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836260,
+        "count": 8
+       },
+       {
+        "id": 717319,
+        "count": 8
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "id": 968124,
+    "name": "Gentle Blade",
+    "descHash": "When a CRIT Hit is triggered, increases SPD by <nobr>#1[i]%</nobr> for <nobr>#2[i]</nobr> turn(s).",
+    "iconPath": "39bf4cd8900735a3e4e41e696e1e21bd8a46e87a1bb63eb4b0ee11bce6a37e90",
+    "levelReq": 0,
+    "promotionReq": 6,
+    "levelData": [
+     {
+      "level": 1,
+      "params": [
+       0.1,
+       2
+      ],
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836260,
+        "count": 8
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 270195,
+        "count": 1
+       }
+      ]
+     }
+    ],
+    "ultimateCost": 0
+   }
+  },
+  {
+   "id": 1209201,
+   "type": 2,
+   "children": [],
+   "embedBuff": {
+    "id": 968221,
+    "name": "ATK Boost",
+    "levelReq": 1,
+    "promotionReq": 0,
+    "iconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5",
+    "statusList": [
+     {
+      "key": "ATK",
+      "value": 0.04
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 2500
+     },
+     {
+      "id": 549437,
+      "count": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": 1209204,
+   "type": 2,
+   "children": [],
+   "embedBuff": {
+    "id": 968216,
+    "name": "HP Boost",
+    "levelReq": 0,
+    "promotionReq": 3,
+    "iconPath": "9560c98da124f605af2e45c09f26a0b8ee24c3aa357b9701464d7c04adcd0da7",
+    "statusList": [
+     {
+      "key": "HP",
+      "value": 0.04
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 10000
+     },
+     {
+      "id": 920201,
+      "count": 3
+     },
+     {
+      "id": 633378,
+      "count": 3
+     }
+    ]
+   }
+  },
+  {
+   "id": 1209207,
+   "type": 2,
+   "children": [],
+   "embedBuff": {
+    "id": 968215,
+    "name": "ATK Boost",
+    "levelReq": 0,
+    "promotionReq": 5,
+    "iconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5",
+    "statusList": [
+     {
+      "key": "ATK",
+      "value": 0.06
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 45000
+     },
+     {
+      "id": 836260,
+      "count": 3
+     },
+     {
+      "id": 717319,
+      "count": 3
+     }
+    ]
+   }
+  }
+ ],
+ "relicRecommend": {
+  "twoPcSets": [],
+  "fourPcSets": [],
+  "props": [
+   {
+    "relicTypeHash": "Body",
+    "relicTypeIcon": "87a68da58f5ca7f656d3ebf27bc84c5c32aafd164f2406af6b95c0e46277496b",
+    "propertyName": "CRIT DMG",
+    "propertyIconPath": "70505c64ff7cb3df4a9faf76eb488438570422a20d9dd2f42225da1dd1c97648"
+   },
+   {
+    "relicTypeHash": "Feet",
+    "relicTypeIcon": "5d8394f899a9cc41333630a3475d525b65c4a7cf59d16cdc4ac0acccc082259c",
+    "propertyName": "SPD",
+    "propertyIconPath": "2483a985b6f7a2c277835369c71181b7f70d5f25238745319b6328780100a3fd"
+   },
+   {
+    "relicTypeHash": "Planar Sphere",
+    "relicTypeIcon": "fd22786ef5ef0aee8953005c423739fe85fd85b16b82a3f7f18910499a4368b5",
+    "propertyName": "Ice DMG Boost",
+    "propertyIconPath": "61fabc866a9c5c20a0ae994d2d92a286ce89872e01eb8e1a772e28eaa9260177"
+   },
+   {
+    "relicTypeHash": "Link Rope",
+    "relicTypeIcon": "245bb6e30915d9ab6a042e37499ad3a0b0d022208a5fee05417b7cd3c088e357",
+    "propertyName": "Energy Regeneration Rate",
+    "propertyIconPath": "fa8f924ec11e6c11cad9d7a54d1db3dc1e9ad5a276eeb58ab17f2395a1b3522c"
+   }
+  ]
+ },
+ "voiceItems": [
+  {
+   "id": 1,
+   "title": "First Meeting",
+   "text": "Yanqing, lieutenant of the Luofu Cloud Knights, reporting in! If you have some free time, Trailblazer, would you mind sparring with me? Don't worry, I won't go easy on you.",
+   "unlockRequirement": "",
+   "cnUrl": "8116e128044cbccceee6c5ba76ef88613118b40f431bb7e032df774c5e02eb8d",
+   "jpUrl": "f872414535b69e94d76c4ebd9647fa3f094a3329e5cead57dfb4b76ec3b34cf2",
+   "enUrl": "d1a69c7be752b8b0e7af34024304ada585612d3376fc9b1e521187799a0b1a21",
+   "krUrl": "25c6df5915fea5e5ec5ab0a65f94cc9fbfa45d06612027f718d0c170ce72c5b5"
+  },
+  {
+   "id": 2,
+   "title": "Greeting",
+   "text": "What kind of sword training will you do today? Do you wish for me to accompany you?",
+   "unlockRequirement": "",
+   "cnUrl": "a2e77eec8310cb41a375ba479c390f0d6f0f71e3231138537546a8ea7d7f7d8f",
+   "jpUrl": "f2eef89480056ccdaf4b912bc3fbdab5843b24ec2f1c40b22e495456c8b337c5",
+   "enUrl": "95e15ef0693965598ceb48b1261f48d047a8c81d62430ad2a727d32ea1cef483",
+   "krUrl": "4d67cd1f009fb0fdf7ba45919d576f19145d949d00c44d6d702ff46496f2a420"
+  },
+  {
+   "id": 3,
+   "title": "Parting",
+   "text": "The sword needs to return to its scabbard... See you tomorrow, Teacher!",
+   "unlockRequirement": "",
+   "cnUrl": "ab055d5bd38f6a1c13c03ae5a3e205c88e3bd55f5e7a81c8fe8d1c7159d7ef36",
+   "jpUrl": "44861747fe69387ac7ad40e25cfc8a25195a1ca50466e1115b971c2be50faa39",
+   "enUrl": "aabee501d3bf32a7193075c9feb693bfeb9367b638ce5d3fc4ccb6f71451da69",
+   "krUrl": "aef9d9e3e0acbe94252131ded9b760fd483065f3a1338db7a2b9f2e316c0edd8"
+  },
+  {
+   "id": 4,
+   "title": "About Self: Opponents",
+   "text": "There are no more fitting opponents for me on the Luofu, but out there among the stars... there may be someone yet.",
+   "unlockRequirement": "",
+   "cnUrl": "20ddbb7bf7d2d8420699ded664d1d55bbed3ef92513398194ce253a5687f9a36",
+   "jpUrl": "9570b8cd92f5a74c969d72c81447537967c708160b7dd964d116df9abc73e98c",
+   "enUrl": "259fe774574c21b255995fdbffad679580d8fb9d2dfb89b4c7a6bd60caa5b2cf",
+   "krUrl": "0f1dcb14e8196154d25c003577e044599bf2a6b3ca4ad8e18806fe5657d9f8bd"
+  },
+  {
+   "id": 5,
+   "title": "Chat: Swords from the Artisanship Commission",
+   "text": "I can talk all day about swords made by the Artisanship Commission. I always buy two swords per model: one for the battlefield and one for my collection... Buuut my allowances might run a bit short by the end of the month. I'm sure the general will buy me food and things if I nag him a bit...",
+   "unlockRequirement": "",
+   "cnUrl": "03f8dce40aafdd0bfec7f6c6a5654aca70425fbd566f9fb2419e8e0f2686ba60",
+   "jpUrl": "31d22a4169cf9e64ad52ff1349a7964192e979cf4d0dcdd5b4dead23fa907ff0",
+   "enUrl": "db4c6ce95b889193c2b82d1b17dafce7aeb03d6e1b0b5f3e67a5b2c0ddf8b2e6",
+   "krUrl": "1e9c3db65673a433f581574f9d48d5758ce1316300c821d31447b276a4930bed"
+  },
+  {
+   "id": 6,
+   "title": "Chat: Sword Champion",
+   "text": "Not having the title of Sword Champion just means my skill still needs sharpening, but the general said I don't need more skills, just more time... *sigh* How exactly am I worse than that Sword Champion...",
+   "unlockRequirement": "",
+   "cnUrl": "0689a2e295c2bb7ae19fa0bb36d17ede53ec81064a0e7f90323c02cba2752e34",
+   "jpUrl": "c1d0df1dbafc896aa9b5ca963dc99f811b59458c1e3d5dc5bf54a5ac7cc468ed",
+   "enUrl": "6f66af973a733747299940e2007b08fac043de4eaa8faaacc07798dabf36249b",
+   "krUrl": "cc2dc3f5935ae46de7c5d579286c53a05dbe0fc72d9075cb86d1d3349ef50f34"
+  },
+  {
+   "id": 7,
+   "title": "Hobbies",
+   "text": "After buying a new sword, I would spend even more effort on the scabbard. Should the body be made of black pear wood, or silk? Should the locket and the carrying ring be dragon- or tiger-shaped? And the chape, the decorative plaque... It's great fun deciding on each piece!",
+   "unlockRequirement": "",
+   "cnUrl": "99b6a73e32b68269b9f97fb4af6d149c44b6cdef433aef2e968f98db9e215e82",
+   "jpUrl": "fd1b8b5dee0b92fe67df0051afb35efd4cdb563dbc94837094200c1469897a6a",
+   "enUrl": "af45371625a385397a9dc72facb8843158ed1a0f8afaac944d03103847c4bc94",
+   "krUrl": "070b7d6616b9b1a7922136a2dc0b17ec0d9324a8e82881d92298d9c002c39b72"
+  },
+  {
+   "id": 8,
+   "title": "Annoyances",
+   "text": "Sometimes I find multiple good sheaths for a new sword, and I end up buying them all. And yet, one sword can only use one sheath...",
+   "unlockRequirement": "",
+   "cnUrl": "79e6899ef05cd8592e08fe4e55b565bd0cc0b0741b1beb980e2fa61b7ef4c14d",
+   "jpUrl": "02f2328a634a8dc2ad48739367ef0061ac71284b6205b975b750ba591e1f1d89",
+   "enUrl": "84cd2b88a1ebddee54c71f06a61b7325a7490d307269a579140b67e283a3fbc3",
+   "krUrl": "8425cad4734f122dfc53e0b722cfa6ac7fb90a9234bfc659d5ef8907e3cb4994"
+  },
+  {
+   "id": 9,
+   "title": "Something to Share",
+   "text": "\"What can one do after one has made history?\" I once asked the general this question, but he said he can't answer it because he never wanted to be a general, and that I should try to answer it myself. Um...",
+   "unlockRequirement": "",
+   "cnUrl": "bf98a6eef0ecc41da49cfd3037c9af8bcd2791579d8d6dd1adf709543efde9fb",
+   "jpUrl": "8b9acabd1f14f4d8ef631ede1cc6a89f6f5899963fd56559dcfffcd3bec026da",
+   "enUrl": "c03185cfe108791cc4e8ceb672be6a51a38d128d8c2873979005dc902cd19cb2",
+   "krUrl": "a3def2f96f9993a587f3777b243030fd2636e2c342cf02e6970f359445848d37"
+  },
+  {
+   "id": 10,
+   "title": "Knowledge",
+   "text": "Like the other Xianzhou ships, the Luofu also holds the Stellar Martial Competition to test the strength of the Cloud Knights, and whoever wins the sword competition receives the title of Sword Champion!",
+   "unlockRequirement": "",
+   "cnUrl": "cbe39629dfd2667a3844a2934d4f259b7bf714dd877f63446bd48fcd3129301f",
+   "jpUrl": "8c3414d1c6cb1b2ffae0edd9615d82dbf3337b6872a23376374a3bbaf077fce7",
+   "enUrl": "9ac8259f79de0f7d7a45b035bc2161ade891826006ef5addcd3746582a22c69a",
+   "krUrl": "c81055f2ec204e53d9f81f0224ba8d0d3ce601a310b7f12b43ec699bd8749f14"
+  },
+  {
+   "id": 11,
+   "title": "About Jing Yuan",
+   "text": "The general has no need to show his martial prowess with me around. Since he acknowledges my strength, I need to help shouder his burdens that much more!",
+   "unlockRequirement": "",
+   "cnUrl": "5fabf3bef9d297fba751cb08e06949454e9ca57df8395f26b05e7903dd042fbf",
+   "jpUrl": "c7f49ffc54b4dc217c67aa90c88e175667ea7b5aa9343fc9032d224f39c129ee",
+   "enUrl": "d9f3cb0b15e4e8eab868ad0541d62fd3d5f9708f86c551b1a2947b232e6ac875",
+   "krUrl": "6e5c0df0b6536bc68392433535dbc58b6cce5170b8d2bdc8c51f8f0652409793"
+  },
+  {
+   "id": 12,
+   "title": "About Tingyun",
+   "text": "Tingyun would ask me to write introductory pieces for blades when her Codex on Goods contains a section on them.",
+   "unlockRequirement": "",
+   "cnUrl": "e9dbd014bddbfe51f45577e8e9f67b656a435d8aaecbd4f4c67ced496e842097",
+   "jpUrl": "8116709e1e635bf6495eda3b079d01d4f57b628cb5483ed07d12ea0c2d9cb666",
+   "enUrl": "4dc8b4a798af6f01e43664fd5033fed5551fe3679931e87dd7841666cf9e6a0d",
+   "krUrl": "2294f2bf19b0e45b03f69c504ba9ff49dc34b70d1e229f7bf1dd0c7e52b7bc0e"
+  },
+  {
+   "id": 13,
+   "title": "About Sushang",
+   "text": "Sushang has a good sword, but a good sword is not always an easy-to-use sword. One needs to apply ten times more power to make it perform just one-tenth better.",
+   "unlockRequirement": "",
+   "cnUrl": "c93ea5e197bd4a3a2f1ebc9c1f3a33ab08bda6af9206b4cbbcdf1a02a8524040",
+   "jpUrl": "14d390f00f31e1922d047bc92c05dfa75d1f09616c243389f8e1ef0e4bba4dd7",
+   "enUrl": "4c7074a62103c44a5e8a73157417b90c8f14e109e85724975cd5ac163b753b3d",
+   "krUrl": "e5c18d739be8161e8d357c0397b3885510de6c80d58b707bd02177747848c8b9"
+  },
+  {
+   "id": 14,
+   "title": "About Yukong",
+   "text": "I visited the Sky-Faring Commission once and saw Madam Yukong staring alone at the leather target for a long time. She didn't fire a single arrow that day, but perhaps she did shoot thousands in her mind.",
+   "unlockRequirement": "",
+   "cnUrl": "cc53cf4fba458944bdf607743fe2d1aa6b6a21312ec83257f178728c61920477",
+   "jpUrl": "477cfd92d94ee3244f1c8fdda2690440fa272cfc0e28c27dcbbf0adcf05e4ea8",
+   "enUrl": "7b0c2fa9c7e4f9ede16bc1d6fd5a8158ad0b97b7f0e26c7a7901d11842dc20a3",
+   "krUrl": "2193a54c63f989d6de58d76a34972774c9bf9a4371dff9b71a513a0a83e217d3"
+  },
+  {
+   "id": 15,
+   "title": "About Fu Xuan",
+   "text": "So, Diviner Fu wants to be the general... Well, firstly, she needs to fix the issue where everyone just wants to nap as soon as she starts to talk.",
+   "unlockRequirement": "",
+   "cnUrl": "c14ad592bd1d8e873ab98ae1995f0eb1d77ab303241411ebf1d6ea8030397747",
+   "jpUrl": "51668f8307727d8a2729f709812be04bd2f6ed1343d640208ae199c25192fec2",
+   "enUrl": "107d16f0b38104f2efacf878b97c08a07e0e1d9eb5dcaa61b2a7e868818772a7",
+   "krUrl": "399ad214cec945341a4af4f8b5fa0568c88ff921bbafa7002dd4a7e16e77e7ab"
+  },
+  {
+   "id": 16,
+   "title": "About Luocha",
+   "text": "At first, I thought he always fights using that sword casket. That thing looks really strange... I need to figure out a way to fight him and get him to use his skills for real...",
+   "unlockRequirement": "",
+   "cnUrl": "460e9584513d6cee28536a43bf9e4110531bfa6dd08244ccfee554dd83b37794",
+   "jpUrl": "fe195a82a3374f1184678ffa0156b8ccf710969e37d4d285da871bcee155f109",
+   "enUrl": "222c6327c8b546555890f945cb4b92f8747e4a5b50f042f8a98d7bd1f70b79fe",
+   "krUrl": "a84b718a48e23d7dda2ca8df4c6baf80ff210fa50f5e4c450cca1444a6a54d68"
+  }
+ ],
+ "storyItems": [
+  {
+   "title": "Character Details",
+   "text": "The spirited lieutenant of the Xianzhou Luofu, and also its most proficient swordsman.<br />He was born for the sword and is obsessed with it. Whenever a sword rests in Yanqing's hand, none would dare underestimate this genius still in the early days of his youth.<br />Perhaps the only thing capable of dulling his treasured blade's sharp edge is time.",
+   "unlockRequirement": ""
+  },
+  {
+   "title": "Character Story: Part I",
+   "text": "Youngest lieutenant in the history of the Cloud Knights. Retainer to General Jing Yuan. Collector of antique swords from the Artisanship Commission... With all these auspicious titles and street gossip swirling around this one wunderkind, it's scarcely believable that he is still a child.<br /><br />Ever since he could remember, Yanqing would follow Jing Yuan around like a shadow, helping the Seat of Divine Foresight resolve problems. And Jing Yuan in return taught him the art of swordplay \u2014 and the art of war. After years of training, Yanqing's mind is as quick and sharp as the spotless sword he keeps.<br /><br />Cloud Knight combat drills attest that controlling six simultaneous flying daggers is something even Cloud Knight chief drillmasters can't master in a century. The phrase agreed among the Xianzhou people to describe the combat talents of Yanqing is \"A gifted swordsman born to fight.\"",
+   "unlockRequirement": "Unlocked at Character Level <nobr>20</nobr>"
+  },
+  {
+   "title": "Character Story: Part II",
+   "text": "It's recorded in the military annals of the Cloud Knights how Jing Yuan came to discover the young boy, stood his ground against public opinion, and incorporated him into the armed forces. However, in the family lineage column, Yanqing's lineage was relegated to the category of unknown.<br /><br />Most talented officers display military talent from childhood. For millennia, several talented unicorns have emerged ahead of the pack during the hunt. However, Yanqing earned a military commission before he was a teen. Some would criticize that \"the general is absurd\" on this matter.<br /><br />However, this genius' debut on the battlefield was even more explosive, and any critical voices soon fell silent.<br /><br />When hunting near a distant star, the monstrously huge mechabeast Windguard created by the Denizens of Abundance was pulverizing defense forces, as though they were ants. But this kid met against it face-to-face, claiming its scalp and routing the enemy to the point of collapse.<br /><br />As for subsequent victories: He broke the borisin's Devouring Wolf formation with Jing Yuan, beheading three Brood Lords. He also fought viciously against the wingweavers, ultimately sinking their almighty Cloudseizer Fleet... These are just a small footnote in the annals of his courageous swordplay.",
+   "unlockRequirement": "Unlocked at Character Level <nobr>40</nobr>"
+  },
+  {
+   "title": "Character Story: Part III",
+   "text": "If you ask Yanqing what other interests he has besides sword fighting, you'll be met with a simple answer \u2014<br /><br />\"Interests would only affect the speed of my sword!\"<br /><br />Like a child infatuated with toys, he spares no expense in buying most of the blades manufactured by the Artisanship Commission \u2014 flying swords controlled by qi, daggers for close combat, flexible swords that can bend and adjust... He knows different sword's spec and function like the back of his mind. He'll even buy an extra copy \u2014 one to use in combat, and one for his collection. This leaves his finances in a sorrowful situation at the end of each month, where he could only beg the general for food and daily necessities.<br /><br />It's completely natural for teenage boys to love swords, but a specific dream flickers and dances among the Xianzhou swords in his collection.<br /><br />To become the best on the Luofu \u2014 no, the best across all the Xianzhou ships. To take the title of Sword Champion on the Luofu, and even take the title of Sword Preeminence across the Alliance. <br /><br />Since the Sedition of Imbibitor Lunae, the title of Sword Champion among the Luofu Cloud Knights has remained vacant for centuries. Not that nobody wants to claim it, but for a rather more embarrassing reason:<br /><br />The previous Sword Champion, a legendary swordmaster with <nobr>13</nobr> outstanding accolades, violated the laws of heaven and resulting in her name being wiped from the face of the galaxy. Even the prestigious title that she bore became a sore spot for others.<br /><br />But for this vastly impressive teen, it's now time to turn over a new page in the annals of history and write another chapter.",
+   "unlockRequirement": "Unlocked at Character Level <nobr>60</nobr>"
+  },
+  {
+   "title": "Character Story: Part IV",
+   "text": "\"Bout #123: Yanqing, Jing Yuan.\"<br />\"General, let's call it a day! I'm exhausted...\"<br />\"Didn't you say you have the confidence to remain undefeated as long as you hold a sword? Why are you acting so weak?\"<br />\"What kind of retainer would take up arms against the person they vowed to protect? What if I accidentally hurt...\"<br />\"If your sword is half as quick as you mouth, I'd already have lost. I'll keep one hand behind my back. Now, be quick!\"<br />\"No no, two hands please! Or maybe you can consider not using the Lightning-Lord, general?\"<br />\"You think is like the Sky-Faring Commission's business, where you can barter your way out? Hmm, let me see...\"<br />\"Aha \u2014 a weakness! Watch this!\"<br />\"I knew you'd do that. Counter!\"<br />\"Ow-ow-ow, darn it! I'd been waiting for ages for my shot.\"<br />\"All's equal in war, and sneak attacks are a good idea. It's too bad your sword is so focused on the flourish and can't conceal its form. Is this what they call youthful vigor?\"<br />\"General, let's go again! This time I'll try to be as inconspicuous as possible...\"<br /><br />Jing Yuan spent much time and energy in raising Yanqing. Some speculated that he was cultivating an heir, others claimed he only kept him around just to use this kid as a secret weapon. Jing Yuan never offered a response.<br /><br />Yanqing became an unrivaled fighter aboard the Xianzhou Luofu as his skills grew more and more advanced. Jing Yuan gradually began thinking about ways to restrain Yanqing's edge, to take him down a peg without curbing his confidence.<br /><br />Too solid and it can shatter. Too sharp and it can blunt. More than just a sharp edge \u2014 a sword also needs a scabbard that can restrain it. In Jing Yuan's view, Yanqing has grown up exceedingly fast \u2014 beyond expectations. What Yanqing needs right now is not more strength, but the ability and experience of curbing that strength \u2014 something that can only manifest by the passage of time.",
+   "unlockRequirement": "Unlocked at Character Level <nobr>80</nobr>"
+  }
+ ],
+ "archive": {
+  "cvCn": "\u55b5\u9171",
+  "cvJp": "\u4e95\u4e0a\u9ebb\u91cc\u5948",
+  "cvKr": "\uc774\uc0c8\uc544",
+  "cvEn": "Amber May",
+  "camp": "Xianzhou: The Luofu"
+ },
+ "calculator": {
+  "expCost": {
+   "1": 200,
+   "2": 300,
+   "3": 500,
+   "4": 600,
+   "5": 1050,
+   "6": 1670,
+   "7": 2320,
+   "8": 3060,
+   "9": 3860,
+   "10": 4740,
+   "11": 5710,
+   "12": 6730,
+   "13": 7830,
+   "14": 9000,
+   "15": 10240,
+   "16": 11550,
+   "17": 12920,
+   "18": 14360,
+   "19": 15870,
+   "20": 16580,
+   "21": 16840,
+   "22": 17100,
+   "23": 17370,
+   "24": 17640,
+   "25": 17910,
+   "26": 18190,
+   "27": 18480,
+   "28": 18760,
+   "29": 19040,
+   "30": 19340,
+   "31": 19630,
+   "32": 19930,
+   "33": 20220,
+   "34": 20530,
+   "35": 20840,
+   "36": 21140,
+   "37": 21450,
+   "38": 21760,
+   "39": 22080,
+   "40": 22390,
+   "41": 25550,
+   "42": 29140,
+   "43": 32830,
+   "44": 36600,
+   "45": 40470,
+   "46": 44430,
+   "47": 48480,
+   "48": 52630,
+   "49": 56870,
+   "50": 61190,
+   "51": 65620,
+   "52": 70130,
+   "53": 74740,
+   "54": 79450,
+   "55": 84240,
+   "56": 89120,
+   "57": 94110,
+   "58": 99190,
+   "59": 104350,
+   "60": 106240,
+   "61": 111830,
+   "62": 117530,
+   "63": 123320,
+   "64": 129210,
+   "65": 135200,
+   "66": 141290,
+   "67": 147480,
+   "68": 153780,
+   "69": 160170,
+   "70": 179260,
+   "71": 199920,
+   "72": 220920,
+   "73": 242260,
+   "74": 263930,
+   "75": 285950,
+   "76": 308300,
+   "77": 331000,
+   "78": 354040,
+   "79": 377420,
+   "80": 414350
+  },
+  "expItemConfig": {
+   "1000": 409962,
+   "5000": 409961,
+   "20000": 409960
+  },
+  "sCoinId": 29328
+ },
+ "pageId": "yanqing"
+}

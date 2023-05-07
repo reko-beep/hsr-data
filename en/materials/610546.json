@@ -1,0 +1,26 @@
+{
+ "iconPath": "8a562c0b5e4b6dd33e83b1f4cba7af19620d5c13791c1f504513e3dbf3bf2f13",
+ "name": "Lost Crystal",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 610546,
+  "type": 601,
+  "purposeId": 6,
+  "iconPath": "8a562c0b5e4b6dd33e83b1f4cba7af19620d5c13791c1f504513e3dbf3bf2f13",
+  "name": "Lost Crystal",
+  "desc": "Enhancement material for Relics. Provides <nobr>1000</nobr> Relic EXP.",
+  "lore": "",
+  "purpose": "Relic EXP Material",
+  "rarity": 4,
+  "rewardPath": "/material/610546",
+  "comeFrom": [
+   "Forgotten Hall"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "610546"
+}

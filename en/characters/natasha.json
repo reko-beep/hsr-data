@@ -1,0 +1,2388 @@
+{
+ "name": "Natasha",
+ "spRequirement": 90,
+ "rarity": 4,
+ "descHash": "A doctor from the Underworld and a caregiver of children. Alongside her kindness and caring, she also has a hidden dangerous side.",
+ "iconPath": "d8a699554b4d7e50d86bbc952584de792de3f622224b1c45b202cbe77fe44d91",
+ "bgPath": "633c9a3cba65b43f3128606b848b3e8d0bf64d9e23c7c699889056063917bb65",
+ "figPath": "1231fb867d3a4ed02edd8cd58409599036aa8c09d97e4a48c3b8b7cb5c1bb1d4",
+ "fgPath": "a83ddfe8c14d5b28998db234b8d3bc5e8b781d697e9fd86de3c552e6528eec06",
+ "artPath": "23f11cc0972ca16f207a0914225c1a9c80c7779115c8e9671cdfb9055a31d3ba",
+ "miniIconPath": "92a851f74199ca6d556563dd70b88d91220f3f2f542e513279f29db8bb8106f9",
+ "splashIconPath": "8d749531e40fa03515c5a4e33a7f0c372f07f7f9f420a383dbbce09deff40335",
+ "damageType": {
+  "id": 1,
+  "iconPath": "ae78085438eecf2462f1256329b5aa2369f01b8cda6926ea0a08b1b8affe5108",
+  "color": "#FFFFFF",
+  "name": "Physical",
+  "rarity": 0
+ },
+ "baseType": {
+  "id": 0,
+  "iconPath": "498249f31cf5142d1e1b5285d73ac93049e853b76d92417a8d1e3691e790abd5",
+  "altIconPath": "dd526e763a520081e78efbb08b0dec9a2b2994d95fbe85569c4627b38019a614",
+  "color": "#FFFFFF",
+  "name": "Abundance",
+  "rarity": 0
+ },
+ "damageTypeId": 0,
+ "baseTypeId": 0,
+ "baseTypeTraces": {
+  "id": 7,
+  "iconPath": "352fe395cd8f2422b4d89b486957960b86537f34c4921383c1351aa6e34ee70a",
+  "color": "#FFFFFF",
+  "rarity": 0
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "0e76659bbb3b9d0b1cc6a4e0e8c63a576c7b917f2f740a4b1b8ceab260a8a595",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards"
+   ]
+  },
+  "125435": {
+   "id": 125435,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "75e6d3c477385eb36716ba1798609b01a9fe10893c1b3e9f9dc81046ad10d9b0",
+   "name": "Tracks of Destiny",
+   "desc": "Advanced level-up material for Traces.",
+   "lore": "Your victory is secured by countless failures, and the small steps you have taken led you to the turning point of fate.",
+   "purpose": "Trace Materials",
+   "rarity": 5,
+   "rewardPath": "/material/125435",
+   "comeFrom": [
+    "Simulated Universe Point Rewards",
+    "Nameless Honor",
+    "Embers Exchange",
+    "Limited-Time Event Rewards"
+   ]
+  },
+  "270195": {
+   "id": 270195,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "ed0c6ddf746bb8fe5f178943cd2836c9c4f98c2647479d389e2640b5f38d1317",
+   "name": "Guardian's Lament",
+   "desc": "Advanced level-up material for Traces.",
+   "lore": "Together with this visor, the twisted wish of a Guardian also lies broken.<br />She had wanted to find a way out for her people to escape the Everwinter, but ended up becoming a puppet of a consciousness beyond her.<br /><br />\"Supreme Guardian, the title passed down to generations of Belobog's rulers, the one who looked after all the people \u2014 It never occurred to anyone that the Guardians themselves also long for care and protection.\"",
+   "purpose": "Trace Materials",
+   "rarity": 4,
+   "rewardPath": "/material/270195",
+   "comeFrom": [
+    "Echo of War (Everwinter Hill)"
+   ]
+  },
+  "409960": {
+   "id": 409960,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "607961a38d9fe4f935578e9ea7b4de093d68ff8258b0b52c3cd4261e5cd92932",
+   "name": "Traveler's Guide",
+   "desc": "Experience material for characters. Provides <nobr>20,000</nobr> Character EXP.",
+   "lore": "Required reading for world exploration. Press the \"Read\" button to tune in to an attractive voice in a language you understand, telling you about the legendary encounters of renowned adventurers across different worlds as well as the precious wisdom and knowledge that they have gathered.<br /><br />\"All-new series of the Traveler's Guide, The Chef's Manual to Galactic Cuisine, is now available for purchase.\"<br />\"For submissions, please connect to synesthesia beacon ERD<nobr>-23</nobr>\u03b8 to contact an Intelligentsia Guild representative. Method of payment can be arranged to your convenience.\"",
+   "purpose": "Character EXP Material",
+   "rarity": 4,
+   "rewardPath": "/material/409960",
+   "comeFrom": [
+    "Calyx (Outlying Snow Plains)",
+    "Forgotten Hall"
+   ]
+  },
+  "409961": {
+   "id": 409961,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "05ef6659e951dd69d862823c86470487d68c24209400d4391df1f50bbc21ab42",
+   "name": "Adventure Log",
+   "desc": "Experience material for characters. Provides <nobr>5000</nobr> Character EXP.",
+   "lore": "A neatly organized collection of educational adventure notes containing countless illustrations and texts entailing adventures from beginning to end, as well as valuable information and survival-related techniques.<br /><br />\"Why not just digitize it and save it on a photolith disk? That'd be much more convenient.\"<br />\"Advanced technology is far more fragile than you'd think when faced with stellar storms and neuron flow eruptions. Besides, I'm sure the author of this book wanted people to read it in the simplest of ways.\"",
+   "purpose": "Character EXP Material",
+   "rarity": 3,
+   "rewardPath": "/material/409961",
+   "comeFrom": [
+    "Calyx (Outlying Snow Plains)",
+    "Daily Training"
+   ]
+  },
+  "409962": {
+   "id": 409962,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "ad5070f0ef2447ee09fb3b0d859ab3c594538eaa58b71a14ffcbd4b2b493c1c5",
+   "name": "Travel Encounters",
+   "desc": "Experience material for characters. Provides <nobr>1000</nobr> Character EXP.",
+   "lore": "A travel diary with messy handwriting and random content. It's not of much use to you.<br /><br />\"Dan Heng, hurry up and finish reading it so you can throw it away.\"",
+   "purpose": "Character EXP Material",
+   "rarity": 2,
+   "rewardPath": "/material/409962",
+   "comeFrom": [
+    "Calyx (Outlying Snow Plains)",
+    "Assignment rewards"
+   ]
+  },
+  "549408": {
+   "id": 549408,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "a01d7231993bf0450534073f8515ba34a99653c455e03f9f43053719a34aff98",
+   "name": "Ancient Part",
+   "desc": "Mechanical part left behind from the Old World. Crude material used for enhancement.",
+   "lore": "Despite its size, it was cast and polished in a way that people today would struggle to replicate.<br /><br />\"A small screw in the Old World is stronger than our armor.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 2,
+   "rewardPath": "/material/549408",
+   "comeFrom": [
+    "Robot Settlement: Automatons or other enemies",
+    "Great Mine: Automatons or other enemies",
+    "Simulated Universe enemies",
+    "Assignment rewards",
+    "Embers Exchange",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "633349": {
+   "id": 633349,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "191ad5f4b9fd5180b9065e05d463d6df35334c87ce1428e89d8d507e69177dc7",
+   "name": "Ancient Spindle",
+   "desc": "Mechanical spindle left behind from the Old World. Normal material used for enhancement.",
+   "lore": "Once taken apart, the precision components can never be put back together. Even the maintenance veterans in Belobog's Technology Division would think twice before touching it.<br /><br />\"You idiot, the Bluecoats will only give you a few canned goods for this. Take it to Boss Svarog and you won't need to worry about food and clothing for a while.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 3,
+   "rewardPath": "/material/633349",
+   "comeFrom": [
+    "Robot Settlement: Equilibrium Level 2+ Automatons or other enemies",
+    "Great Mine: Equilibrium Level 2+ Automatons or other enemies",
+    "Omni-Synthesizer \u2014 Material Synthesis",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "635671": {
+   "id": 635671,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "6a16c2294ef90c8cb62d61eff8e1fa277eb6fafdd394ce5e157bd9fd4a7bb701",
+   "name": "Seed of Abundance",
+   "desc": "A seed of blessing sown by the Aeon of Abundance. Used to level up Traces slightly for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Abundance</span> characters.",
+   "lore": "Those who come in contact with it are slowly healed of their wounds and illnesses.<br />People who pray for the blessing of life while in despair will always have their prayers answered.<br /><br />\"You shall be granted what you ask for.\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 2,
+   "rewardPath": "/material/635671",
+   "comeFrom": [
+    "Calyx (Backwater Pass)"
+   ]
+  },
+  "717290": {
+   "id": 717290,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "70ecbc31091590eedbe7999413b138778e67af4ce3797e4e47860fa6b5867fbe",
+   "name": "Ancient Engine",
+   "desc": "Mechanical engine left behind from the Old World. Advanced material used for enhancement.",
+   "lore": "It uses Geomarrow as the energy source. When powered, it spews wandering auroras, not sparkles.<br /><br />\"Only the Technology Division directly under the Supreme Guardian has access to information regarding the Old World. I lost my privileges after I was fired.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 4,
+   "rewardPath": "/material/717290",
+   "comeFrom": [
+    "Robot Settlement: Equilibrium Level 4+ Automatons or other enemies",
+    "Great Mine: Equilibrium Level 4+ Automatons or other enemies",
+    "Omni-Synthesizer \u2014 Material Synthesis",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "836257": {
+   "id": 836257,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "8b56fa357be53126b0284b12903e0bfd41ace9d4dc155711d0297b70563b3bc7",
+   "name": "Flower of Eternity",
+   "desc": "A gorgeous flower blooming from the Sprout of Life. Used to level up Traces significantly for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Abundance</span> characters.",
+   "lore": "The stamen contains the concentrated power of the Path of Abundance, ensuring the flower's ever-lasting vitality. No fire, ice, or any harshness can hinder the growth of this magnificent life form.<br />Given time, its leaves shall feed upon starlight. Its roots shall burrow into the flesh of every being of this world, all-connected, never-perishing. Its fruits shall fulfill the promise of immortality.<br /><br />\"There be giant ships, eclipsing mountains, drifting over the void. Upon them grows the undying tree. Its consumption grants immortality.\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 4,
+   "rewardPath": "/material/836257",
+   "comeFrom": [
+    "Calyx (Backwater Pass)",
+    "Omni-Synthesizer \u2014 Material Synthesis"
+   ]
+  },
+  "866633": {
+   "id": 866633,
+   "type": 601,
+   "purposeId": 2,
+   "iconPath": "d97cb9072570df0b85725f8a0783d22e500c3e06e49b7fbc8dd485e7ba1b9516",
+   "name": "Broken Teeth of Iron Wolf",
+   "desc": "Fragmented saw teeth left behind by automatons. Can be used for the Ascension of Physical characters.",
+   "lore": "It is said that the smelting techniques of the Architects allowed them to make chainsaws sturdy enough to split giant boulders. Such techniques have been long lost to history.<br /><br />\"Boss Svarog says its blade is so thin that it can cut into the gap between molecules... What are molecules?\"",
+   "purpose": "Character Ascension Materials",
+   "rarity": 4,
+   "rewardPath": "/material/866633",
+   "comeFrom": [
+    "Stagnant Shadow (Great Mine)",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "920198": {
+   "id": 920198,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "084dff414a606a7be5ee10de1cda1048d08a87d2dc3587c5e545afb4399e881a",
+   "name": "Sprout of Life",
+   "desc": "A young sprout emerging from the Seed of Abundance. Used to level up Traces moderately for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Abundance</span> characters.",
+   "lore": "Radiating warmth, life and growth flourish around the place where it sinks its roots. Barren wastelands turn into luscious grass fields, withered plants rejuvenate and blossom, and springs burst through the ground to moisten the land.<br />As you get closer to it, your muscles and bones twitch and propagate with an unbearable itch.<br /><br />\"Life is unfailing where the soul abounds.\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 3,
+   "rewardPath": "/material/920198",
+   "comeFrom": [
+    "Calyx (Backwater Pass)",
+    "Omni-Synthesizer \u2014 Material Synthesis"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 3200
+    },
+    {
+     "id": 549408,
+     "count": 4
+    }
+   ],
+   "attackBase": 64.8,
+   "attackAdd": 3.24,
+   "hpBase": 158.4,
+   "hpAdd": 7.92,
+   "defenseBase": 69,
+   "defenseAdd": 3.45,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 98,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 6400
+    },
+    {
+     "id": 549408,
+     "count": 8
+    }
+   ],
+   "attackBase": 90.72,
+   "attackAdd": 3.24,
+   "hpBase": 221.76,
+   "hpAdd": 7.92,
+   "defenseBase": 96.6,
+   "defenseAdd": 3.45,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 98,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 12800
+    },
+    {
+     "id": 633349,
+     "count": 5
+    },
+    {
+     "id": 866633,
+     "count": 2
+    }
+   ],
+   "attackBase": 116.64,
+   "attackAdd": 3.24,
+   "hpBase": 285.12,
+   "hpAdd": 7.92,
+   "defenseBase": 124.2,
+   "defenseAdd": 3.45,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 98,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 32000
+    },
+    {
+     "id": 633349,
+     "count": 8
+    },
+    {
+     "id": 866633,
+     "count": 5
+    }
+   ],
+   "attackBase": 142.56,
+   "attackAdd": 3.24,
+   "hpBase": 348.48,
+   "hpAdd": 7.92,
+   "defenseBase": 151.8,
+   "defenseAdd": 3.45,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 98,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 64000
+    },
+    {
+     "id": 717290,
+     "count": 5
+    },
+    {
+     "id": 866633,
+     "count": 15
+    }
+   ],
+   "attackBase": 168.48,
+   "attackAdd": 3.24,
+   "hpBase": 411.84,
+   "hpAdd": 7.92,
+   "defenseBase": 179.4,
+   "defenseAdd": 3.45,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 98,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 128000
+    },
+    {
+     "id": 717290,
+     "count": 7
+    },
+    {
+     "id": 866633,
+     "count": 28
+    }
+   ],
+   "attackBase": 194.4,
+   "attackAdd": 3.24,
+   "hpBase": 475.2,
+   "hpAdd": 7.92,
+   "defenseBase": 207,
+   "defenseAdd": 3.45,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 98,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": [],
+   "attackBase": 220.32,
+   "attackAdd": 3.24,
+   "hpBase": 538.56,
+   "hpAdd": 7.92,
+   "defenseBase": 234.6,
+   "defenseAdd": 3.45,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 98,
+   "speedAdd": 0
+  }
+ ],
+ "ranks": [
+  {
+   "id": 1,
+   "iconPath": "",
+   "artPath": "2b9bc6bc86209e4c870dfdf01dee811bfccdc2fe2a01f4355768639e75b7bacb",
+   "name": "Pharmacology Expertise",
+   "descHash": "After being attacked, if the current HP percentage is <nobr>#1[i]%</nobr> or lower, heals self for 1 time to restore HP by an amount equal to <nobr>#2[i]%</nobr> of Max HP plus <nobr>#3[i]</nobr>. This effect can only be triggered 1 time per battle.",
+   "params": [
+    0.3,
+    0.15,
+    400
+   ]
+  },
+  {
+   "id": 2,
+   "iconPath": "",
+   "artPath": "234132c99ec4b09c63418c319c0328bd83435525be8a80be18eb863212db9507",
+   "name": "Clinical Research",
+   "descHash": "When Natasha uses her Ultimate, grant continuous healing for <nobr>#2[i]</nobr> turn(s) to allies whose HP is at <nobr>#1[i]%</nobr> or lower. And at the beginning of their turn, their HP is restored by an amount equal to <nobr>#3[i]%</nobr> of Natasha's Max HP plus <nobr>#4[i]</nobr>.",
+   "params": [
+    0.3,
+    1,
+    0.06,
+    160
+   ]
+  },
+  {
+   "id": 3,
+   "iconPath": "",
+   "artPath": "d5523321ddb4158c1e54e36466fe80766e5fae0759e33c621b3a527a17b638d5",
+   "name": "The Right Cure",
+   "descHash": "Skill Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Basic ATK Lv. +1, up to a maximum of Lv. <nobr>10</nobr>.",
+   "params": []
+  },
+  {
+   "id": 4,
+   "iconPath": "",
+   "artPath": "bba675ae9760eb057e6248567d26431c1919537860b7a62f11cd49d9a869f13c",
+   "name": "Miracle Cure",
+   "descHash": "After being attacked, regenerates <nobr>#1[i]</nobr> extra Energy.",
+   "params": [
+    5
+   ]
+  },
+  {
+   "id": 5,
+   "iconPath": "",
+   "artPath": "18169415b78b55fa9b4a64777445bd8cc1ab6a9d023390852984906fde20383f",
+   "name": "Preventive Treatment",
+   "descHash": "Ultimate Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Talent Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.",
+   "params": []
+  },
+  {
+   "id": 6,
+   "iconPath": "",
+   "artPath": "a503aed6f5c4617d93d6130daeebe936c20c5ada444f9c77796a795b5b129f00",
+   "name": "Doctor's Grace",
+   "descHash": "Natasha's Basic ATK additionally deals Physical DMG equal to <nobr>#1[i]%</nobr> of her Max HP.",
+   "params": [
+    0.4
+   ]
+  }
+ ],
+ "skillGrouping": [
+  [
+   985668
+  ],
+  [
+   270195
+  ],
+  [
+   186254
+  ],
+  [
+   470781
+  ],
+  [
+   554722
+  ]
+ ],
+ "skills": [
+  {
+   "id": 985668,
+   "name": "Behind the Kindness",
+   "tagHash": "Single Target",
+   "descHash": "Deals <span style=\"color:#FFFFFF;\">Physical</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Natasha's ATK to a single enemy.",
+   "typeDescHash": "Basic ATK",
+   "iconPath": "6e18880adb27a24de954eb874a3666208a80ce79d4b31440eb8ddb735436920f",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      0.5
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 2,
+     "params": [
+      0.6
+     ],
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 635671,
+       "count": 2
+      },
+      {
+       "id": 549408,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "params": [
+      0.7
+     ],
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 920198,
+       "count": 2
+      },
+      {
+       "id": 633349,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "params": [
+      0.8
+     ],
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 920198,
+       "count": 4
+      },
+      {
+       "id": 633349,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "params": [
+      0.9
+     ],
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 36000
+      },
+      {
+       "id": 836257,
+       "count": 2
+      },
+      {
+       "id": 717290,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "params": [
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 128000
+      },
+      {
+       "id": 836257,
+       "count": 6
+      },
+      {
+       "id": 717290,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "params": [
+      1.1
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 8,
+     "params": [
+      1.2
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 9,
+     "params": [
+      1.3
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  },
+  {
+   "id": 270195,
+   "name": "Love, Heal, and Choose",
+   "tagHash": "Restore",
+   "descHash": "Restores a single ally for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[f1]%</nobr></span> of Natasha's Max HP plus <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#4[i]</nobr></span>. Restores the ally for another <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#2[f1]%</nobr></span> of Natasha's Max HP plus <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#5[i]</nobr></span> at the beginning of each turn for <nobr>#3[i]</nobr> turn(s).",
+   "typeDescHash": "Skill",
+   "iconPath": "a39c7966698ca938d477824695090dea69cc1d599f17fabffc8ef71ccdb52c78",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      0.07,
+      0.048,
+      2,
+      70,
+      48
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 2,
+     "params": [
+      0.074375,
+      0.051,
+      2,
+      112,
+      76.8
+     ],
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2000
+      },
+      {
+       "id": 549408,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "params": [
+      0.07875,
+      0.054,
+      2,
+      143.5,
+      98.4
+     ],
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 635671,
+       "count": 2
+      },
+      {
+       "id": 549408,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "params": [
+      0.083125,
+      0.057,
+      2,
+      175,
+      120
+     ],
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 920198,
+       "count": 2
+      },
+      {
+       "id": 633349,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "params": [
+      0.0875,
+      0.06,
+      2,
+      196,
+      134.4
+     ],
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 920198,
+       "count": 4
+      },
+      {
+       "id": 633349,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "params": [
+      0.091,
+      0.0624,
+      2,
+      217,
+      148.8
+     ],
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 24000
+      },
+      {
+       "id": 920198,
+       "count": 6
+      },
+      {
+       "id": 633349,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "params": [
+      0.0945,
+      0.0648,
+      2,
+      232.75,
+      159.6
+     ],
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 36000
+      },
+      {
+       "id": 836257,
+       "count": 2
+      },
+      {
+       "id": 717290,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "params": [
+      0.098,
+      0.0672,
+      2,
+      248.5,
+      170.4
+     ],
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 64000
+      },
+      {
+       "id": 836257,
+       "count": 4
+      },
+      {
+       "id": 270195,
+       "count": 1
+      },
+      {
+       "id": 717290,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "params": [
+      0.1015,
+      0.0696,
+      2,
+      264.25,
+      181.2
+     ],
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 128000
+      },
+      {
+       "id": 836257,
+       "count": 6
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "params": [
+      0.105,
+      0.072,
+      2,
+      280,
+      192
+     ],
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 836257,
+       "count": 11
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 11,
+     "params": [
+      0.1085,
+      0.0744,
+      2,
+      295.75,
+      202.8
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 12,
+     "params": [
+      0.112,
+      0.0768,
+      2,
+      311.5,
+      213.6
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 13,
+     "params": [
+      0.1155,
+      0.0792,
+      2,
+      327.25,
+      224.4
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 14,
+     "params": [
+      0.119,
+      0.0816,
+      2,
+      343,
+      235.2
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 15,
+     "params": [
+      0.1225,
+      0.084,
+      2,
+      358.75,
+      246
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  },
+  {
+   "id": 186254,
+   "name": "Gift of Rebirth",
+   "tagHash": "Restore",
+   "descHash": "Heals all allies for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[f1]%</nobr></span> of Natasha's Max HP plus <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#2[i]</nobr></span>.",
+   "typeDescHash": "Ultimate",
+   "iconPath": "e4113b795d199dc145b786aa8df64f9efbca4a4eb48bf2d1b32f570f030e1e6f",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      0.092,
+      92
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 2,
+     "params": [
+      0.09775,
+      147.2
+     ],
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2000
+      },
+      {
+       "id": 549408,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "params": [
+      0.1035,
+      188.6
+     ],
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 635671,
+       "count": 2
+      },
+      {
+       "id": 549408,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "params": [
+      0.10925,
+      230
+     ],
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 920198,
+       "count": 2
+      },
+      {
+       "id": 633349,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "params": [
+      0.115,
+      257.6
+     ],
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 920198,
+       "count": 4
+      },
+      {
+       "id": 633349,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "params": [
+      0.1196,
+      285.2
+     ],
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 24000
+      },
+      {
+       "id": 920198,
+       "count": 6
+      },
+      {
+       "id": 633349,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "params": [
+      0.1242,
+      305.9
+     ],
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 36000
+      },
+      {
+       "id": 836257,
+       "count": 2
+      },
+      {
+       "id": 717290,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "params": [
+      0.1288,
+      326.6
+     ],
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 64000
+      },
+      {
+       "id": 836257,
+       "count": 4
+      },
+      {
+       "id": 270195,
+       "count": 1
+      },
+      {
+       "id": 717290,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "params": [
+      0.1334,
+      347.3
+     ],
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 128000
+      },
+      {
+       "id": 836257,
+       "count": 6
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "params": [
+      0.138,
+      368
+     ],
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 836257,
+       "count": 11
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 11,
+     "params": [
+      0.1426,
+      388.7
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 12,
+     "params": [
+      0.1472,
+      409.4
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 13,
+     "params": [
+      0.1518,
+      430.1
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 14,
+     "params": [
+      0.1564,
+      450.8
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 15,
+     "params": [
+      0.161,
+      471.5
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ],
+   "ultimateCost": 90
+  },
+  {
+   "id": 470781,
+   "name": "Innervation",
+   "tagHash": "Enhance",
+   "descHash": "When healing allies with HP percentage at <nobr>#1[i]%</nobr> or lower, increases Natasha's Outgoing Healing by <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#2[i]%</nobr></span>. This effect also works on continuous healing.",
+   "typeDescHash": "Talent",
+   "iconPath": "f04c3a92828ecb5b0f575fc618baa17993aae3e1603438fe14a9460bb3512ef9",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      0.3,
+      0.25
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 2,
+     "params": [
+      0.3,
+      0.275
+     ],
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2000
+      },
+      {
+       "id": 549408,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "params": [
+      0.3,
+      0.3
+     ],
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 635671,
+       "count": 2
+      },
+      {
+       "id": 549408,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "params": [
+      0.3,
+      0.325
+     ],
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 920198,
+       "count": 2
+      },
+      {
+       "id": 633349,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "params": [
+      0.3,
+      0.35
+     ],
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 920198,
+       "count": 4
+      },
+      {
+       "id": 633349,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "params": [
+      0.3,
+      0.375
+     ],
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 24000
+      },
+      {
+       "id": 920198,
+       "count": 6
+      },
+      {
+       "id": 633349,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "params": [
+      0.3,
+      0.40625
+     ],
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 36000
+      },
+      {
+       "id": 836257,
+       "count": 2
+      },
+      {
+       "id": 717290,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "params": [
+      0.3,
+      0.4375
+     ],
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 64000
+      },
+      {
+       "id": 836257,
+       "count": 4
+      },
+      {
+       "id": 270195,
+       "count": 1
+      },
+      {
+       "id": 717290,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "params": [
+      0.3,
+      0.46875
+     ],
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 128000
+      },
+      {
+       "id": 836257,
+       "count": 6
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "params": [
+      0.3,
+      0.5
+     ],
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 836257,
+       "count": 11
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 11,
+     "params": [
+      0.3,
+      0.525
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 12,
+     "params": [
+      0.3,
+      0.55
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 13,
+     "params": [
+      0.3,
+      0.575
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 14,
+     "params": [
+      0.3,
+      0.6
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 15,
+     "params": [
+      0.3,
+      0.625
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  },
+  {
+   "id": 671367,
+   "name": "Attack",
+   "tagHash": "",
+   "descHash": "Attack an enemy, and when the battle starts, reduce their Toughness of the corresponding Type.",
+   "typeDescHash": "",
+   "iconPath": "6e18880adb27a24de954eb874a3666208a80ce79d4b31440eb8ddb735436920f",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  },
+  {
+   "id": 554722,
+   "name": "Hypnosis Research",
+   "tagHash": "",
+   "descHash": "Immediately attacks the enemy. After entering battle, deals <span style=\"color:#FFFFFF;\">Physical</span> DMG equal to <nobr>#4[i]%</nobr> of Natasha's ATK to a random enemy, with a <nobr>#1[i]%</nobr> <u>base chance</u> to Weaken all enemies.<br />While Weakened, enemies deal <nobr>#2[i]%</nobr> less DMG to allies for <nobr>#3[i]</nobr> turn(s).",
+   "typeDescHash": "Technique",
+   "iconPath": "46d2d672cb7b528c46c3b9ec2032528432312cc323aab0005fc8a7d7580e37c9",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      1,
+      0.3,
+      1,
+      0.8
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  }
+ ],
+ "skillTreePoints": [
+  {
+   "id": 1105101,
+   "type": 1,
+   "children": [
+    {
+     "id": 1105202,
+     "type": 2,
+     "children": [
+      {
+       "id": 1105203,
+       "type": 2,
+       "children": [
+        {
+         "id": 1105204,
+         "type": 2,
+         "children": [],
+         "embedBuff": {
+          "id": 622967,
+          "name": "DEF Boost",
+          "levelReq": 0,
+          "promotionReq": 3,
+          "iconPath": "2077c52919d0f523755a4d92ce338874b71561611a436572d8eb315a34f4a4c2",
+          "statusList": [
+           {
+            "key": "DEF",
+            "value": 0.05
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 8000
+           },
+           {
+            "id": 920198,
+            "count": 2
+           },
+           {
+            "id": 633349,
+            "count": 2
+           }
+          ]
+         }
+        }
+       ],
+       "embedBuff": {
+        "id": 622970,
+        "name": "HP Boost",
+        "levelReq": 0,
+        "promotionReq": 3,
+        "iconPath": "9560c98da124f605af2e45c09f26a0b8ee24c3aa357b9701464d7c04adcd0da7",
+        "statusList": [
+         {
+          "key": "HP",
+          "value": 0.04
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 8000
+         },
+         {
+          "id": 920198,
+          "count": 2
+         },
+         {
+          "id": 633349,
+          "count": 2
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 622969,
+      "name": "Effect RES Boost",
+      "levelReq": 0,
+      "promotionReq": 2,
+      "iconPath": "5e0ea9beeaea4aebaec6fa80218757c7123e5d8d63565bc255c08d6af87ebc7e",
+      "statusList": [
+       {
+        "key": "Effect RES",
+        "value": 0.04
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 4000
+       },
+       {
+        "id": 635671,
+        "count": 2
+       },
+       {
+        "id": 549408,
+        "count": 4
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "id": 622873,
+    "name": "Soothe",
+    "descHash": "The Skill removes <nobr>#1[i]</nobr> debuff(s) from a target ally.",
+    "iconPath": "be7fbf9c9e68e43e4b7840bc7f79852292338e90fc85f70f4eff844257e0a96b",
+    "levelReq": 0,
+    "promotionReq": 2,
+    "levelData": [
+     {
+      "level": 1,
+      "params": [
+       1
+      ],
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 4000
+       },
+       {
+        "id": 635671,
+        "count": 2
+       },
+       {
+        "id": 270195,
+        "count": 1
+       }
+      ]
+     }
+    ],
+    "ultimateCost": 0
+   }
+  },
+  {
+   "id": 1105102,
+   "type": 1,
+   "children": [
+    {
+     "id": 1105205,
+     "type": 2,
+     "children": [
+      {
+       "id": 1105206,
+       "type": 2,
+       "children": [
+        {
+         "id": 1105207,
+         "type": 2,
+         "children": [],
+         "embedBuff": {
+          "id": 622966,
+          "name": "HP Boost",
+          "levelReq": 0,
+          "promotionReq": 5,
+          "iconPath": "9560c98da124f605af2e45c09f26a0b8ee24c3aa357b9701464d7c04adcd0da7",
+          "statusList": [
+           {
+            "key": "HP",
+            "value": 0.06
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 36000
+           },
+           {
+            "id": 836257,
+            "count": 2
+           },
+           {
+            "id": 717290,
+            "count": 2
+           }
+          ]
+         }
+        }
+       ],
+       "embedBuff": {
+        "id": 622965,
+        "name": "Effect RES Boost",
+        "levelReq": 0,
+        "promotionReq": 5,
+        "iconPath": "5e0ea9beeaea4aebaec6fa80218757c7123e5d8d63565bc255c08d6af87ebc7e",
+        "statusList": [
+         {
+          "key": "Effect RES",
+          "value": 0.06
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 36000
+         },
+         {
+          "id": 836257,
+          "count": 2
+         },
+         {
+          "id": 717290,
+          "count": 2
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 622968,
+      "name": "HP Boost",
+      "levelReq": 0,
+      "promotionReq": 4,
+      "iconPath": "9560c98da124f605af2e45c09f26a0b8ee24c3aa357b9701464d7c04adcd0da7",
+      "statusList": [
+       {
+        "key": "HP",
+        "value": 0.06
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 920198,
+        "count": 4
+       },
+       {
+        "id": 633349,
+        "count": 3
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "id": 622876,
+    "name": "Healer",
+    "descHash": "Natasha's Outgoing Healing increases by <nobr>#1[i]%</nobr>.",
+    "iconPath": "bda4acf91d1cfe3bf92b88fd779f5b72c6f4175a4ec70654ff3532b8f4db7521",
+    "levelReq": 0,
+    "promotionReq": 4,
+    "levelData": [
+     {
+      "level": 1,
+      "params": [
+       0.1
+      ],
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 920198,
+        "count": 4
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 270195,
+        "count": 1
+       }
+      ]
+     }
+    ],
+    "ultimateCost": 0
+   }
+  },
+  {
+   "id": 1105103,
+   "type": 1,
+   "children": [
+    {
+     "id": 1105208,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 622979,
+      "name": "DEF Boost",
+      "levelReq": 0,
+      "promotionReq": 6,
+      "iconPath": "2077c52919d0f523755a4d92ce338874b71561611a436572d8eb315a34f4a4c2",
+      "statusList": [
+       {
+        "key": "DEF",
+        "value": 0.075
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 128000
+       },
+       {
+        "id": 836257,
+        "count": 6
+       },
+       {
+        "id": 717290,
+        "count": 6
+       }
+      ]
+     }
+    },
+    {
+     "id": 1105209,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 622980,
+      "name": "Effect RES Boost",
+      "levelReq": 75,
+      "promotionReq": 0,
+      "iconPath": "5e0ea9beeaea4aebaec6fa80218757c7123e5d8d63565bc255c08d6af87ebc7e",
+      "statusList": [
+       {
+        "key": "Effect RES",
+        "value": 0.08
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 128000
+       },
+       {
+        "id": 836257,
+        "count": 6
+       },
+       {
+        "id": 717290,
+        "count": 6
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "id": 622875,
+    "name": "Recuperation",
+    "descHash": "Increases the duration of Skill's continuous healing effect for <nobr>#1[i]</nobr> turn(s).",
+    "iconPath": "b34419556353e8d0ccf755f3116995088a0832f45a93645b9fcade70dda5e0fc",
+    "levelReq": 0,
+    "promotionReq": 6,
+    "levelData": [
+     {
+      "level": 1,
+      "params": [
+       1
+      ],
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 128000
+       },
+       {
+        "id": 836257,
+        "count": 6
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 270195,
+        "count": 1
+       }
+      ]
+     }
+    ],
+    "ultimateCost": 0
+   }
+  },
+  {
+   "id": 1105201,
+   "type": 2,
+   "children": [],
+   "embedBuff": {
+    "id": 622972,
+    "name": "HP Boost",
+    "levelReq": 1,
+    "promotionReq": 0,
+    "iconPath": "9560c98da124f605af2e45c09f26a0b8ee24c3aa357b9701464d7c04adcd0da7",
+    "statusList": [
+     {
+      "key": "HP",
+      "value": 0.04
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 2000
+     },
+     {
+      "id": 549408,
+      "count": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": 1105210,
+   "type": 2,
+   "children": [],
+   "embedBuff": {
+    "id": 506326,
+    "name": "HP Boost",
+    "levelReq": 80,
+    "promotionReq": 0,
+    "iconPath": "9560c98da124f605af2e45c09f26a0b8ee24c3aa357b9701464d7c04adcd0da7",
+    "statusList": [
+     {
+      "key": "HP",
+      "value": 0.08
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 128000
+     },
+     {
+      "id": 836257,
+      "count": 6
+     },
+     {
+      "id": 717290,
+      "count": 6
+     }
+    ]
+   }
+  }
+ ],
+ "relicRecommend": {
+  "twoPcSets": [],
+  "fourPcSets": [],
+  "props": [
+   {
+    "relicTypeHash": "Body",
+    "relicTypeIcon": "87a68da58f5ca7f656d3ebf27bc84c5c32aafd164f2406af6b95c0e46277496b",
+    "propertyName": "Outgoing Healing Boost",
+    "propertyIconPath": "a30cffd7e2ccc5db2ee0d1316b1480c7eebc7eb030a727d19c38ee0835cae32d"
+   },
+   {
+    "relicTypeHash": "Feet",
+    "relicTypeIcon": "5d8394f899a9cc41333630a3475d525b65c4a7cf59d16cdc4ac0acccc082259c",
+    "propertyName": "SPD",
+    "propertyIconPath": "2483a985b6f7a2c277835369c71181b7f70d5f25238745319b6328780100a3fd"
+   },
+   {
+    "relicTypeHash": "Planar Sphere",
+    "relicTypeIcon": "fd22786ef5ef0aee8953005c423739fe85fd85b16b82a3f7f18910499a4368b5",
+    "propertyName": "HP",
+    "propertyIconPath": "9560c98da124f605af2e45c09f26a0b8ee24c3aa357b9701464d7c04adcd0da7"
+   },
+   {
+    "relicTypeHash": "Link Rope",
+    "relicTypeIcon": "245bb6e30915d9ab6a042e37499ad3a0b0d022208a5fee05417b7cd3c088e357",
+    "propertyName": "HP",
+    "propertyIconPath": "9560c98da124f605af2e45c09f26a0b8ee24c3aa357b9701464d7c04adcd0da7"
+   }
+  ]
+ },
+ "voiceItems": [
+  {
+   "id": 1,
+   "title": "First Meeting",
+   "text": "Nice to meet you, I'm Natasha \u2014 an Underworld doctor. Feeling sick? Take a seat, let me take a look.",
+   "unlockRequirement": "",
+   "cnUrl": "640216e534c2f0b4b9284d8465fbb91012a0d89b899fcbb7e84f120d200a58e1",
+   "jpUrl": "b4d2bd3472536bb108deb495fabbe23257c27364ebf6ecd7cc46e1f20b83a6ef",
+   "enUrl": "ee052517d2e00a5baa606273bb81774afeb3a9f0b47f0fd5418818ab2020bb85",
+   "krUrl": "04dd6c4d51991a54eacb6e041c302d97d1caf3b5f49e62d90922451d5022c79b"
+  },
+  {
+   "id": 2,
+   "title": "Greeting",
+   "text": "I'm in today. But that is not an excuse for misbehavior.",
+   "unlockRequirement": "",
+   "cnUrl": "0152c9c5c20be3a05cf40949b0084e6f29dba7144ac7a9ffc2509d9fc231e2fc",
+   "jpUrl": "9487ff8df93b6ed1b699c4017ceaf02a4fefebb8c3ee8ec3d5af00c296eb8b95",
+   "enUrl": "6ac6b47b692b8f9b6a18c1ba58749a75831f2b767952af87127370546051154e",
+   "krUrl": "eb3453baad3a0b7535d1b13de312ef69a35fea577b53917d53da6bec54da0c79"
+  },
+  {
+   "id": 3,
+   "title": "Parting",
+   "text": "Today feels fighting fit.",
+   "unlockRequirement": "",
+   "cnUrl": "ec9ec1c1ad24390f65ae54134922e75f637a6be2d7a4218c0ab06840402ec2f4",
+   "jpUrl": "06f0e6af800787804ff2ffb0c43315395d86294081639f7dfc789bfbed42090d",
+   "enUrl": "744fb5d9075e480110fc230226eb7e96615c175f4eb35dc653e1e5629525bd9e",
+   "krUrl": "bc0cc2a05edd2ffbab647e7628e468617fa4758f97418eac8891926632a59303"
+  },
+  {
+   "id": 4,
+   "title": "About Self",
+   "text": "I see all kinds of patients. Some require a gentle touch, others need a stern talking to before they take things seriously... Haha, a doctor should always use the right cure for the right person.",
+   "unlockRequirement": "",
+   "cnUrl": "65afb1b219c78628598b8e2c576157011d2738cfa2149c282092af92d49afdef",
+   "jpUrl": "339da676d677c3a29773d814fa04794912edf1c3df13ae3cd2aff05a612527a5",
+   "enUrl": "1f3e73fd27dd9aadc4dab2a608c27891820623b5a0d5d17900f439d57a6276c3",
+   "krUrl": "bc67b1a60083fe5a79fcf96002d4c17d2c58b62bdf3285fc274cc92445cfb15c"
+  },
+  {
+   "id": 5,
+   "title": "Chat: Medicine",
+   "text": "A patient's medicine doesn't just reveal their illness. It also offers a window into their desires and needs.",
+   "unlockRequirement": "",
+   "cnUrl": "44be5086377ef5a01674df5480a70a94192a95047113101b7f6d980b591db418",
+   "jpUrl": "331979d8ede98f452cbdd71517c99e5f1df7f4944052ac6630b5a7ed02ba3f1f",
+   "enUrl": "9cf2f0be1130cf5e4a73a8e8491df60dcdc64669a0e4885fc842a8b1d200b0b6",
+   "krUrl": "b736c80dcceb0f1caffebc27c72c902124cda429fa14e785cf61c7b8e6c4e6b2"
+  },
+  {
+   "id": 6,
+   "title": "Chat: Wildfire",
+   "text": "People join Wildfire for themselves, for the newborn next door without a mother, for the elderly with no home to return to.",
+   "unlockRequirement": "",
+   "cnUrl": "6ba4bed92d1afb09430308f04cfad7154aff77dd6cea1e1d62c6161ffcbcbceb",
+   "jpUrl": "148146e37625f7cea952d8a7c1b28b765c242dbcdfc9837d464df7d8b3984f66",
+   "enUrl": "ae958ed86a39791a8f19644ffa446dd755698d169ea343e851b4f3c229668ed6",
+   "krUrl": "5e6f76b8e95e580ee5b303e0bd44f8bd4e5a67ab9c95ba47cf6d2533ad396158"
+  },
+  {
+   "id": 7,
+   "title": "Hobbies",
+   "text": "I still occasionally practice suturing on my old teddy bear, just like in the old days.",
+   "unlockRequirement": "",
+   "cnUrl": "635d19ba7c406ebcdbdea748473709bf7568eed79d52860cb5ec160af12c4ed2",
+   "jpUrl": "09a8c2de532e35cebe4f5f77633d2db6c879bbe82467693d945e006d1bba1ca4",
+   "enUrl": "bc3e5417ff64752e247fd2a61ebd0fd13d2dd48affdc733944c9d8af6a341b8f",
+   "krUrl": "4305edf8328b2fc1fe7da9a71d53f72cde6bbfb0f737b6e713f5007feb56333a"
+  },
+  {
+   "id": 8,
+   "title": "Annoyances",
+   "text": "People in the Underworld have gotten used to making the best of a bad situation. That's why I have to keep reminding myself that we're nowhere near where we need to be.",
+   "unlockRequirement": "",
+   "cnUrl": "a224dd3955a9dbe9a9bf35ee7a7ce46ad91a8f68d1aa65cc2d78e624e36598c1",
+   "jpUrl": "38a001a60f4163497cfde8a5952293a77a504fa09ac56bcbcc79a0c412a0f3ff",
+   "enUrl": "3130df707091dec5b3d905fc6fd6428799d53d133e340592f469920202aa0c0d",
+   "krUrl": "acfb35651ed9bdb1d758047b65b936b49430b0cbb21bc35c8986efb3c49cccce"
+  },
+  {
+   "id": 9,
+   "title": "Something to Share",
+   "text": "Humans long for freedom. If they go for too long without seeing the sky, they get ill... Both in body and mind.",
+   "unlockRequirement": "",
+   "cnUrl": "fff4fbf3b46cbde336f382057c5d38776b30ce6a1f169a82c890bcc3a31c5e96",
+   "jpUrl": "e15418aabc67340541ca8e24bd795efd41b81f50e8fe3b36ec37f9ab50f9e082",
+   "enUrl": "d50139005f6d0ba37b2fc5266c909d0963cfc66cdab962400192472d89dd5846",
+   "krUrl": "1b0a1f8e64e5407d07460d0e7ce4561f6c6a1d220befac61949722496b9f5823"
+  },
+  {
+   "id": 10,
+   "title": "Knowledge",
+   "text": "When the childrens' parents are away in the mines, the clinic becomes a kind of nursery... Haha, to be fair, it's me who invites them. Perhaps I need them more than they need me.",
+   "unlockRequirement": "",
+   "cnUrl": "d2135f9fe5e58000e966b0ff06bd74dfa07a66ec825573065c4275a3e0870607",
+   "jpUrl": "747c0d863f13b8c40d4d895f54f89b35600cada9ef5953de29b4a9cbbded72f6",
+   "enUrl": "15612f9d6a24068d34a904dcb2ba32ee69697e4a0baa56f124fb41c55249053e",
+   "krUrl": "c2d75c49caf1eec0b0e651c7b2e38c493561912df2b584dd530cbb3dabf31a81"
+  },
+  {
+   "id": 11,
+   "title": "About Seele",
+   "text": "Seele's already become a capable adult \u2014 I can't treat her like a child anymore.",
+   "unlockRequirement": "",
+   "cnUrl": "a25179709c83e4027f3ba35cf14001c302c3fb3ab4ad64593b48cd39aa7d8f4c",
+   "jpUrl": "4c5cbe5e2735411c5a9268e273163d33185c353b64a0b5be3c18dbd1e2a3b41a",
+   "enUrl": "a714e66e544112480db4f89c02bba7a745109e25f40e2889b94d8fdbcab5fe32",
+   "krUrl": "e77567a39a7e59eb6779af5d667195ec12ada331ec1af4885e990ce77326bf47"
+  },
+  {
+   "id": 12,
+   "title": "About Clara",
+   "text": "I heard she's been looking after the wounded vagrants. What a girl... When I first met Clara, she was replacing parts for her robots like a mechanic, but leaving her own wounds unattended. It was heartbreaking to watch.",
+   "unlockRequirement": "",
+   "cnUrl": "e74a1ed8e86db339936107bc6baf779bc8c08f190e84abf9e6af197ccbe4fc22",
+   "jpUrl": "3616206e05be82a981c1b8635425d45e46e931b5c6ed23fc82abe744b21523a5",
+   "enUrl": "eebf580f7e6c5f9db53706258437baa57089350bc997a05e1cb5a43b5cf310e9",
+   "krUrl": "33817d81d094e25746732abd28f4ed03d557bd0b46cc669d0ba1127816a19f68"
+  },
+  {
+   "id": 13,
+   "title": "About Svarog",
+   "text": "Svarog wants to preserve humanity, but he's not concerned about what humans truly think.",
+   "unlockRequirement": "",
+   "cnUrl": "ab263fa402cc9579e72f9090339848ec0df20dad9107fe5dfff07a0418f4a6b6",
+   "jpUrl": "1ba89df65f5e9a76e18d8f18fc7bbb7f82020110fff38fd396e5d493b7e0e8a4",
+   "enUrl": "9757c36475676320ae39a6b6cb24a87f97ebda4d06cbcccf7e602d84f1285ff9",
+   "krUrl": "6f20a5469c1c7b0b8b9f2a741b300e845283561857122d856954023ec3a4bece"
+  },
+  {
+   "id": 14,
+   "title": "About Sampo",
+   "text": "If I know Sampo, the last thing he wants is to owe you a favor \u2014 he'll think of any way possible to pay you back... The longer you leave a favor, the harder it is to calculate its value.",
+   "unlockRequirement": "",
+   "cnUrl": "6366d4b730096b05dcb97eb4a3f36e6faf6b9af141da61abf7ac1540af30eb63",
+   "jpUrl": "7aac7a3bd03d8c1888086d2680d1e806262bf5f8651961943c12f3794d4964aa",
+   "enUrl": "3837bf00b15d70778e868ba13a08ba519bd3e2024c172c40fc729f93b1b9f482",
+   "krUrl": "0813152905de6932631df222bbc87fa4d08c5ff10c80dd146481cdbfe09671db"
+  },
+  {
+   "id": 15,
+   "title": "About Hook",
+   "text": "Sometimes I stand at the door of the clinic and watch her running and jumping around... and my tiredness simply goes away.",
+   "unlockRequirement": "",
+   "cnUrl": "e7c6895fc983e69fbf7e9fe5418be211c8c61e11a0d1f37c27950a394e425ded",
+   "jpUrl": "fe71ddaa7b07b2f2e544e28770429fcc9aa9012e103a6566f43086d4a8aebfdc",
+   "enUrl": "040797f6eab41265f111311342b10b2a0ed11d4116a521d9cc5299e50a0e1997",
+   "krUrl": "72980ebb9d6b07d42b96c627b5ec40057020045b0496a8a7ae29b173567ca994"
+  },
+  {
+   "id": 16,
+   "title": "About Oleg",
+   "text": "We both came from the Overworld. Maybe that's why we're so eager to turn back the clock \u2014 to return to when life below ground was no harder than life on the surface.",
+   "unlockRequirement": "Unlocked after completing Trailblaze Mission \"The Return.\"",
+   "cnUrl": "11c88a49b8ed3456e12e809fb689ea79cc723c36035a30d4d72d897fac7cf6ab",
+   "jpUrl": "b55bbe03d048ad25a986361305e1ee73b8560dea7cdd0574d490fa18c73bc4ef",
+   "enUrl": "5960e927f8c7ff469ac576b08a99b6d44fe4766e68e36aeae30fa8934764eb29",
+   "krUrl": "20718de2eaeae1d17e4cdc44d29bce22647f30a954aa8463912d0c1aadb7cf64"
+  }
+ ],
+ "storyItems": [
+  {
+   "title": "Character Details",
+   "text": "A fastidious doctor who always wears an enigmatic smile.<br />In the Underworld where medical resources are scarce, Natasha is one of the very few doctors whom the people can turn to.<br />Even the rambunctious Hook would politely greet her... \"Hi, big sis Natasha.\"",
+   "unlockRequirement": ""
+  },
+  {
+   "title": "Character Story: Part I",
+   "text": "\"Quick, press down here! Press down hard to staunch the bleeding!\"<br /><br />Natasha shoots a panicked look at her brother. Before her lay a man covered in bandages from head to toe, his torso twitching and twisting with severe pain as he muttered nonsense.<br /><br />\"What are you waiting for?! Quick, hold it down!\"<br /><br />There is anger in her brother's order and \u2014 she is sharp enough to tell \u2014 a hint of disappointment. Natasha hurries to hold onto the man's right arm, and musters all her strength to press down the cotton gauze onto his shoulder.<br /><br />The man lets out a heart-wrenching moan, but she can't stop until her brother orders her to.<br /><br />After who knows how long, the patient before her stops breathing, and she stares blankly at the lifeless body.<br /><br />\"You did your best,\" her brother says. His voice returning to its usual impassive tone. \"Get some rest real quick. Some of them are still waiting to be patched up.\"<br /><br />She turns over the man's red palm. His fingers are already stiff as the stench of blood fills the air. Natasha allows the smell to rile up her emotions \u2014 she know she must get used to this if she were to continue down this road.",
+   "unlockRequirement": "Unlocked at Character Level <nobr>20</nobr>"
+  },
+  {
+   "title": "Character Story: Part II",
+   "text": "\"Excellent... excellent as always,\" the professor says to herself as she flips through the notes, \"With your grades and clinical performance... You'll be an outstanding candidate whether you're in the hospital or in the armed forces.\"<br /><br />Natasha's pulse races, and her fingers subconsciously clench up. The professor notices her body language.<br /><br />\"What's the matter, child? Have you got something to say?\"<br /><br />Natasha composes herself \u2014 she wants to convey her decision with confidence and conviction.<br /><br />\"I want to go back to the Underworld, Professor. I know I can help more people down there.\"<br /><br />The old woman is stunned for a brief moment, before slowly pushing her glasses upwards. Then, she lowers her head and continues on reading the file she is holding.<br /><br />\"I see. That's exactly what your mother said... I wish you all the best then, Natasha.\"<br /><br />Natasha stands up and solemnly bows. As she walks through that white corridor at Belobog Medical Academy for the last time, her heart is filled with determination.",
+   "unlockRequirement": "Unlocked at Character Level <nobr>40</nobr>"
+  },
+  {
+   "title": "Character Story: Part III",
+   "text": "Dearest mother and father,<br /><br />How have you been?<br /><br />Please forgive me for replying so late. There's been lots of trouble in the Underworld, and the orphanage is overcrowded with the injured, so I haven't had time to do anything apart from treating the wounded. I even had to send some of the younger children to foster families in town, because I didn't want them to see the carnage inside the orphanage.<br /><br />As for your previous question \u2014 yes, I've heard rumors about the Supreme Guardian about to order a blockade between the Over- and Underworlds. I understand your concerns, but from my point of view, there is no way I can abandon the people down here right now. During this extraordinary state of panic, I can only hope to use my modest skills to bring a modicum of comfort to the needy.<br /><br />Fortunately, I know you'll respect my decision. I still remember when I was fresh out of college and Dad told me, \"Anyone going into medicine to just get a decent job will come to regret their decision sooner or later.\" I think I understand more than ever what you meant back then.<br /><br />I don't know when we'll ever be able to see each other again, but I hope you can be healthy and happy. Your daughter is a big girl now, and can take care of herself, so you don't have to worry about me.<br /><br /><align=\"right\">Your daughter, with love, </align><br /><align=\"right\">Natasha</align>",
+   "unlockRequirement": "Unlocked at Character Level <nobr>60</nobr>"
+  },
+  {
+   "title": "Character Story: Part IV",
+   "text": "The man lying on the hospital bed is tanned and about fifty years old. His muscles are chiseled like a sculpture, but are now covered in layers of scars and bloody stains. He is breathing heavily, his chest heaving violently \u2014 he is right at death's door.<br /><br />Natasha's eyes move quickly over to the patient, searching for anything fatal that could rob him of his life. She soon locates a wound on his lower left abdomen. Although it isn't large, the bleeding is constant and it's likely that his internal organs had been injured by some kind of sharp weapon.<br /><br />She put on a new pair of gloves and tears a large piece of bandage off the roll. She skillfully and tightly wraps it tightly around the patient's waist, pressing down on the area that is bleeding. A dark red spreads through the surface of the bandage, but Natasha maintains her pressure without betraying the slightest hint of panic.<br /><br />After a short while, the man's breathing is no longer rapid and the tense expression on his face eases. Natasha knows he is out of danger and has safely fallen asleep.<br /><br />She slowly takes off her gloves and leans against the clinic's window sill in a brief repose.<br /><br />\"Please don't die, Oleg...\"<br /><br />She whispers to herself as she gazes at the bed.<br /><br />\"...There're still a lot of duties we need to complete.\"",
+   "unlockRequirement": "Unlocked at Character Level <nobr>80</nobr>"
+  }
+ ],
+ "archive": {
+  "cvCn": "\u79e6\u7d2b\u7ffc",
+  "cvJp": "\u5185\u5c71\u5915\u5b9f",
+  "cvKr": "\uac15\uc740\uc560",
+  "cvEn": "Elizabeth Maxwell",
+  "camp": "Belobog"
+ },
+ "calculator": {
+  "expCost": {
+   "1": 200,
+   "2": 300,
+   "3": 500,
+   "4": 600,
+   "5": 1050,
+   "6": 1670,
+   "7": 2320,
+   "8": 3060,
+   "9": 3860,
+   "10": 4740,
+   "11": 5710,
+   "12": 6730,
+   "13": 7830,
+   "14": 9000,
+   "15": 10240,
+   "16": 11550,
+   "17": 12920,
+   "18": 14360,
+   "19": 15870,
+   "20": 16580,
+   "21": 16840,
+   "22": 17100,
+   "23": 17370,
+   "24": 17640,
+   "25": 17910,
+   "26": 18190,
+   "27": 18480,
+   "28": 18760,
+   "29": 19040,
+   "30": 19340,
+   "31": 19630,
+   "32": 19930,
+   "33": 20220,
+   "34": 20530,
+   "35": 20840,
+   "36": 21140,
+   "37": 21450,
+   "38": 21760,
+   "39": 22080,
+   "40": 22390,
+   "41": 25550,
+   "42": 29140,
+   "43": 32830,
+   "44": 36600,
+   "45": 40470,
+   "46": 44430,
+   "47": 48480,
+   "48": 52630,
+   "49": 56870,
+   "50": 61190,
+   "51": 65620,
+   "52": 70130,
+   "53": 74740,
+   "54": 79450,
+   "55": 84240,
+   "56": 89120,
+   "57": 94110,
+   "58": 99190,
+   "59": 104350,
+   "60": 106240,
+   "61": 111830,
+   "62": 117530,
+   "63": 123320,
+   "64": 129210,
+   "65": 135200,
+   "66": 141290,
+   "67": 147480,
+   "68": 153780,
+   "69": 160170,
+   "70": 179260,
+   "71": 199920,
+   "72": 220920,
+   "73": 242260,
+   "74": 263930,
+   "75": 285950,
+   "76": 308300,
+   "77": 331000,
+   "78": 354040,
+   "79": 377420,
+   "80": 414350
+  },
+  "expItemConfig": {
+   "1000": 409962,
+   "5000": 409961,
+   "20000": 409960
+  },
+  "sCoinId": 29328
+ },
+ "pageId": "natasha"
+}

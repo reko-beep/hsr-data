@@ -1,0 +1,26 @@
+{
+ "iconPath": "50291de9f52348fc3e223665229c1396e19aca8a5a2f405592a499f2dd0ec609",
+ "name": "Fuel",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 526607,
+  "type": 601,
+  "purposeId": 10,
+  "iconPath": "50291de9f52348fc3e223665229c1396e19aca8a5a2f405592a499f2dd0ec609",
+  "name": "Fuel",
+  "desc": "Item used to replenish Trailblaze Power. Provides <nobr>60</nobr> Trailblaze Power.",
+  "lore": "Fuel canisters filled up with the dreams and courage of the Nameless.<br /><br />\"Idealism? I prefer to call it the observer effect and human self-actualization.\"",
+  "purpose": "Consumables",
+  "rarity": 4,
+  "rewardPath": "/material/526607",
+  "comeFrom": [
+   "Level Rewards"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "526607"
+}

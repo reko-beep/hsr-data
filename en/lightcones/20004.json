@@ -1,0 +1,497 @@
+{
+ "name": "Void",
+ "rarity": 3,
+ "descHash": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.<br /><br />\"He stared into the void, hanging high like the dark sun at the end of all matter, or a mouth that answered all questions. It said: \u2588\u2588\u2588 \u2588 \u2588\u2588\u2588 \u2588\u2588 The answer couldn't be expressed in any human language, but could be understood by all.\"",
+ "iconPath": "5642254b3bcf6ce3e5bf53cf8b590f358da2f8a575681221bf079c6a44a460e4",
+ "artPath": "d513ac8b0eeb81b470a31842467869ea6a76a8b285319128135bc74699bfca93",
+ "mediumIconPath": "8a1597a45e995debfc5523feeb8671b561dac47f9f1e984987229670d06c13e9",
+ "baseType": {
+  "id": 0,
+  "iconPath": "ef1c10d1a5c22dc9e9294e81827aae2ec71c4a79633349c8c9d699a9568a6e00",
+  "color": "#FFFFFF",
+  "name": "Nihility",
+  "rarity": 0
+ },
+ "baseTypeId": 0,
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "0e76659bbb3b9d0b1cc6a4e0e8c63a576c7b917f2f740a4b1b8ceab260a8a595",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards"
+   ]
+  },
+  "549408": {
+   "id": 549408,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "a01d7231993bf0450534073f8515ba34a99653c455e03f9f43053719a34aff98",
+   "name": "Ancient Part",
+   "desc": "Mechanical part left behind from the Old World. Crude material used for enhancement.",
+   "lore": "Despite its size, it was cast and polished in a way that people today would struggle to replicate.<br /><br />\"A small screw in the Old World is stronger than our armor.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 2,
+   "rewardPath": "/material/549408",
+   "comeFrom": [
+    "Robot Settlement: Automatons or other enemies",
+    "Great Mine: Automatons or other enemies",
+    "Simulated Universe enemies",
+    "Assignment rewards",
+    "Embers Exchange",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "633349": {
+   "id": 633349,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "191ad5f4b9fd5180b9065e05d463d6df35334c87ce1428e89d8d507e69177dc7",
+   "name": "Ancient Spindle",
+   "desc": "Mechanical spindle left behind from the Old World. Normal material used for enhancement.",
+   "lore": "Once taken apart, the precision components can never be put back together. Even the maintenance veterans in Belobog's Technology Division would think twice before touching it.<br /><br />\"You idiot, the Bluecoats will only give you a few canned goods for this. Take it to Boss Svarog and you won't need to worry about food and clothing for a while.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 3,
+   "rewardPath": "/material/633349",
+   "comeFrom": [
+    "Robot Settlement: Equilibrium Level 2+ Automatons or other enemies",
+    "Great Mine: Equilibrium Level 2+ Automatons or other enemies",
+    "Omni-Synthesizer \u2014 Material Synthesis",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "635669": {
+   "id": 635669,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "eb2e2feca2b8c63d7bd3d8b8e5a296d336fa0e30ca425e8e5489df4c015d1685",
+   "name": "Obsidian of Dread",
+   "desc": "A fragment of dark matter captured from the void. Used to level up Traces slightly for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Nihility</span> characters.",
+   "lore": "Nothing can prove its noumenon.<br />Touch gently to hear an unclear murmur from the shard.<br /><br />\"\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588 \u2588\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 2,
+   "rewardPath": "/material/635669",
+   "comeFrom": [
+    "Calyx (Great Mine)"
+   ]
+  },
+  "694487": {
+   "id": 694487,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "a5f4de7a7ad08a1676729853622d0e38b14de79b20465aa9c738e6105a8c746d",
+   "name": "Refined Aether",
+   "desc": "Enhancement material for Light Cones, provides <nobr>6000</nobr> Light Cone EXP.",
+   "lore": "A canister of aether that has been extracted and distilled using special procedures.<br /><br />\"The Garden looks forward to recreating a past glory, but it is a 'past glory' selected by them. Do you understand?\"",
+   "purpose": "Light Cone EXP Material",
+   "rarity": 4,
+   "rewardPath": "/material/694487",
+   "comeFrom": [
+    "Calyx (Backwater Pass)",
+    "Forgotten Hall"
+   ]
+  },
+  "694488": {
+   "id": 694488,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "91f62f32ecd1e7b88c9e30002d215b1a5936ac221782a17d2f34837a967ed557",
+   "name": "Condensed Aether",
+   "desc": "Enhancement material for Light Cones, provides <nobr>2000</nobr> Light Cone EXP.",
+   "lore": "A can of Aether refined through special techniques.<br /><br />\"Handle with care, do not drop or place pressure upon it. If damages and leaks occur, please refer to chapter II of the Leak Disaster Response Manual for emergency response.\"",
+   "purpose": "Light Cone EXP Material",
+   "rarity": 3,
+   "rewardPath": "/material/694488",
+   "comeFrom": [
+    "Calyx (Backwater Pass)"
+   ]
+  },
+  "694489": {
+   "id": 694489,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "554d37978b82c3f38bafee8771f8ab4248a1fe9d4e130bb5711064238666f491",
+   "name": "Sparse Aether",
+   "desc": "Enhancement material for Light Cones, provides <nobr>500</nobr> Light Cone EXP.",
+   "lore": "An imaginary substance that shouldn't exist in reality. The basic material to create Light Cones.<br />The images contained in the Light Cones become clearer when infused with this substance.<br /><br />\"I see, so this is the supposed 'Sentiention' of the Garden of Recollection. No wonder the Memokeepers can set off on galactic voyages with memories.\"",
+   "purpose": "Light Cone EXP Material",
+   "rarity": 2,
+   "rewardPath": "/material/694489",
+   "comeFrom": [
+    "Calyx (Backwater Pass)",
+    "Assignment rewards"
+   ]
+  },
+  "717290": {
+   "id": 717290,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "70ecbc31091590eedbe7999413b138778e67af4ce3797e4e47860fa6b5867fbe",
+   "name": "Ancient Engine",
+   "desc": "Mechanical engine left behind from the Old World. Advanced material used for enhancement.",
+   "lore": "It uses Geomarrow as the energy source. When powered, it spews wandering auroras, not sparkles.<br /><br />\"Only the Technology Division directly under the Supreme Guardian has access to information regarding the Old World. I lost my privileges after I was fired.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 4,
+   "rewardPath": "/material/717290",
+   "comeFrom": [
+    "Robot Settlement: Equilibrium Level 4+ Automatons or other enemies",
+    "Great Mine: Equilibrium Level 4+ Automatons or other enemies",
+    "Omni-Synthesizer \u2014 Material Synthesis",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "836255": {
+   "id": 836255,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "328bab8dd4185cff98748182d80e550a23f12b7288da5caa228cc8407cea56df",
+   "name": "Obsidian of Obsession",
+   "desc": "A sizable piece of dark matter captured from the void. Used to level up Traces significantly for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Nihility</span> characters.",
+   "lore": "The weak-minded and soft-willed will spend their eternity in chaos from just a simple glance into the prism.<br /><br />\"         \"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 4,
+   "rewardPath": "/material/836255",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Omni-Synthesizer \u2014 Material Synthesis"
+   ]
+  },
+  "920196": {
+   "id": 920196,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "ce4a765c779cfd1480029c5f6daa7ea755b5c3ec5661609bfd2dd5191b55f2d0",
+   "name": "Obsidian of Desolation",
+   "desc": "A chunk of dark matter captured from the void. Used to level up Traces moderately for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Nihility</span> characters.",
+   "lore": "No reflections can be seen on the surface of the black prism. Not only does it suck in all the light, it seems to also absorb the wielder's emotions, leaving only a faint feeling of emptiness.<br /><br />\"...\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 3,
+   "rewardPath": "/material/920196",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Omni-Synthesizer \u2014 Material Synthesis"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 3000
+    },
+    {
+     "id": 549408,
+     "count": 4
+    }
+   ],
+   "attackBase": 14.4,
+   "attackAdd": 2.16,
+   "hpBase": 38.4,
+   "hpAdd": 5.76,
+   "defenseBase": 12,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 6000
+    },
+    {
+     "id": 635669,
+     "count": 2
+    },
+    {
+     "id": 549408,
+     "count": 8
+    }
+   ],
+   "attackBase": 31.68,
+   "attackAdd": 2.16,
+   "hpBase": 84.48,
+   "hpAdd": 5.76,
+   "defenseBase": 26.4,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 12000
+    },
+    {
+     "id": 920196,
+     "count": 2
+    },
+    {
+     "id": 633349,
+     "count": 4
+    }
+   ],
+   "attackBase": 54.72,
+   "attackAdd": 2.16,
+   "hpBase": 145.92,
+   "hpAdd": 5.76,
+   "defenseBase": 45.6,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 30000
+    },
+    {
+     "id": 920196,
+     "count": 4
+    },
+    {
+     "id": 633349,
+     "count": 6
+    }
+   ],
+   "attackBase": 77.76,
+   "attackAdd": 2.16,
+   "hpBase": 207.36,
+   "hpAdd": 5.76,
+   "defenseBase": 64.8,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 60000
+    },
+    {
+     "id": 836255,
+     "count": 3
+    },
+    {
+     "id": 717290,
+     "count": 3
+    }
+   ],
+   "attackBase": 100.8,
+   "attackAdd": 2.16,
+   "hpBase": 268.8,
+   "hpAdd": 5.76,
+   "defenseBase": 84,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 120000
+    },
+    {
+     "id": 836255,
+     "count": 6
+    },
+    {
+     "id": 717290,
+     "count": 5
+    }
+   ],
+   "attackBase": 123.84,
+   "attackAdd": 2.16,
+   "hpBase": 330.24,
+   "hpAdd": 5.76,
+   "defenseBase": 103.2,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": [],
+   "attackBase": 146.88,
+   "attackAdd": 2.16,
+   "hpBase": 391.68,
+   "hpAdd": 5.76,
+   "defenseBase": 122.4,
+   "defenseAdd": 1.8
+  }
+ ],
+ "skill": {
+  "id": 20004,
+  "name": "Fallen",
+  "descHash": "At the start of the battle, the wearer's Effect Hit Rate increases by <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span> for <nobr>#2[i]</nobr> turn(s).",
+  "levelData": [
+   {
+    "level": 1,
+    "params": [
+     0.2,
+     3
+    ],
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "level": 2,
+    "params": [
+     0.25,
+     3
+    ],
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "level": 3,
+    "params": [
+     0.3,
+     3
+    ],
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "level": 4,
+    "params": [
+     0.35,
+     3
+    ],
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "level": 5,
+    "params": [
+     0.4,
+     3
+    ],
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   }
+  ]
+ },
+ "calculator": {
+  "expCost": {
+   "1": 40,
+   "2": 60,
+   "3": 100,
+   "4": 160,
+   "5": 220,
+   "6": 300,
+   "7": 380,
+   "8": 480,
+   "9": 580,
+   "10": 700,
+   "11": 820,
+   "12": 950,
+   "13": 1090,
+   "14": 1240,
+   "15": 1390,
+   "16": 1560,
+   "17": 1730,
+   "18": 1910,
+   "19": 2090,
+   "20": 2170,
+   "21": 2260,
+   "22": 2350,
+   "23": 2430,
+   "24": 2520,
+   "25": 2620,
+   "26": 2710,
+   "27": 2800,
+   "28": 2900,
+   "29": 2990,
+   "30": 3100,
+   "31": 3200,
+   "32": 3300,
+   "33": 3400,
+   "34": 3510,
+   "35": 3620,
+   "36": 3730,
+   "37": 3830,
+   "38": 3950,
+   "39": 4060,
+   "40": 4170,
+   "41": 4580,
+   "42": 4840,
+   "43": 5110,
+   "44": 5380,
+   "45": 5660,
+   "46": 5950,
+   "47": 6230,
+   "48": 6530,
+   "49": 6830,
+   "50": 7140,
+   "51": 7450,
+   "52": 7760,
+   "53": 8090,
+   "54": 8410,
+   "55": 8750,
+   "56": 9080,
+   "57": 9430,
+   "58": 9770,
+   "59": 10130,
+   "60": 10480,
+   "61": 10970,
+   "62": 11560,
+   "63": 12160,
+   "64": 12760,
+   "65": 13370,
+   "66": 13990,
+   "67": 14620,
+   "68": 15260,
+   "69": 15910,
+   "70": 16570,
+   "71": 18490,
+   "72": 20230,
+   "73": 22000,
+   "74": 23790,
+   "75": 25610,
+   "76": 27450,
+   "77": 29320,
+   "78": 31220,
+   "79": 33140,
+   "80": 0
+  },
+  "expItemConfig": {
+   "500": {
+    "itemId": 694489,
+    "cost": 250
+   },
+   "2000": {
+    "itemId": 694488,
+    "cost": 1000
+   },
+   "6000": {
+    "itemId": 694487,
+    "cost": 3000
+   }
+  },
+  "sCoinId": 29328
+ },
+ "pageId": "20004"
+}

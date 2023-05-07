@@ -1,0 +1,24 @@
+{
+ "iconPath": "85406673e8a50fc5b79a3ae611542481d45924584fd3823fe91760a6c3c4de51",
+ "name": "Superimposer (Custom-made)",
+ "rarity": 5,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 209376,
+  "type": 601,
+  "purposeId": 14,
+  "iconPath": "85406673e8a50fc5b79a3ae611542481d45924584fd3823fe91760a6c3c4de51",
+  "name": "Superimposer (Custom-made)",
+  "desc": "A special gadget made by Herta. It can Superimpose special Light Cones obtained from the Simulated Universe.",
+  "lore": "A special gadget made by Herta. Its principles are not stated.<br /><br />\"Be grateful, Trailblazer. I've prepared everything for you.\"",
+  "purpose": "Valuable object",
+  "rarity": 5,
+  "rewardPath": "/material/209376",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "209376"
+}

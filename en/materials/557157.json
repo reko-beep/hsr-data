@@ -1,0 +1,28 @@
+{
+ "iconPath": "a3312b403220e7c88f83773bc362fc380d8110ab29027bf04598a7b2f9facf05",
+ "name": "Meteoric Alloy",
+ "rarity": 2,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 557157,
+  "type": 601,
+  "purposeId": 17,
+  "iconPath": "a3312b403220e7c88f83773bc362fc380d8110ab29027bf04598a7b2f9facf05",
+  "name": "Meteoric Alloy",
+  "desc": "Tier 2 Synthesis Material",
+  "lore": "Resilient meteoric ironsand.<br />Its tenacity is far superior to solid boulders.<br /><br />\"Let's grab as much as we can. Qlipoth will need them.\"<br />\"I have no idea whether the Aeon need them or not. All I know is that the IPC will pay big bucks for them.\"",
+  "purpose": "Synthesis material",
+  "rarity": 2,
+  "rewardPath": "/material/557157",
+  "comeFrom": [
+   "Robot Settlement: Automatons or other enemies",
+   "Found in destructible objects in Jarilo-VI",
+   "Administrative District Shop"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "557157"
+}

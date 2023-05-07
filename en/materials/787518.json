@@ -1,0 +1,27 @@
+{
+ "iconPath": "361423a2291c50f0bb5a644d0cb7fb8747cb8306fc7d7af70fe2a751186a9b0c",
+ "name": "Quantum Ripples",
+ "rarity": 2,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 787518,
+  "type": 601,
+  "purposeId": 17,
+  "iconPath": "361423a2291c50f0bb5a644d0cb7fb8747cb8306fc7d7af70fe2a751186a9b0c",
+  "name": "Quantum Ripples",
+  "desc": "Tier 2 Synthesis Material",
+  "lore": "Ripples in the Sea of Quanta.<br />Although called \"ripples,\" they are in fact the most basic form of energy fluctuation.<br /><br />\"Time, there's so much time.\"<br />\"All the time there is.\"",
+  "purpose": "Synthesis material",
+  "rarity": 2,
+  "rewardPath": "/material/787518",
+  "comeFrom": [
+   "Rivet Town: Imaginary Weavers or other enemies",
+   "Administrative District Shop"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "787518"
+}

@@ -1,0 +1,27 @@
+{
+ "iconPath": "05ef6659e951dd69d862823c86470487d68c24209400d4391df1f50bbc21ab42",
+ "name": "Adventure Log",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 409961,
+  "type": 601,
+  "purposeId": 1,
+  "iconPath": "05ef6659e951dd69d862823c86470487d68c24209400d4391df1f50bbc21ab42",
+  "name": "Adventure Log",
+  "desc": "Experience material for characters. Provides <nobr>5000</nobr> Character EXP.",
+  "lore": "A neatly organized collection of educational adventure notes containing countless illustrations and texts entailing adventures from beginning to end, as well as valuable information and survival-related techniques.<br /><br />\"Why not just digitize it and save it on a photolith disk? That'd be much more convenient.\"<br />\"Advanced technology is far more fragile than you'd think when faced with stellar storms and neuron flow eruptions. Besides, I'm sure the author of this book wanted people to read it in the simplest of ways.\"",
+  "purpose": "Character EXP Material",
+  "rarity": 3,
+  "rewardPath": "/material/409961",
+  "comeFrom": [
+   "Calyx (Outlying Snow Plains)",
+   "Daily Training"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "409961"
+}

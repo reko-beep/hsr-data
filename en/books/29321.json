@@ -1,0 +1,14 @@
+{
+ "name": "Mining Equipment Order List",
+ "iconPath": "405319a2f549be8628150bdc7e35362215fa60e6cfa5794f4e2ed15b4ed1340f",
+ "desc": "An issued list of mining equipment to be ordered. Evidence of times when the Underworld was still prosperous and business was booming.",
+ "volumes": [
+  {
+   "title": "Mining Equipment Order List",
+   "localTitle": "Mining Equipment Order List",
+   "localDesc": "*You only discovered this single page of the purchase order. The front and back parts have been lost.*<br /><br />#547<br />Order No.: <nobr>693910</nobr>-<nobr>0002</nobr><br />Order Date: September <nobr>10</nobr><br />Buyer: Southeast Sandfox Town Mining Team 3<br />Contact: Anthony Karachi<br />Item No.: 1-<nobr>43</nobr><br />Item Name: New-Type Crushing Station<br />Model: Fortification Type-1<br />Sum Owed: <nobr>25,000</nobr> shield per day<br /><br />#548<br />Order No.: <nobr>693910</nobr>-<nobr>0003</nobr><br />Order Date: September <nobr>10</nobr><br />Buyer: Boulder Town Great Mine Team<br />Contact: Steve Nocci<br />Item No.: 2-<nobr>65</nobr><br />Item Name: Pneumatic Rock Drill<br />Model: Rivet Type-2<br />Sum Owed: <nobr>7250</nobr> shield per day<br /><br />#549<br />Order No.: <nobr>693911</nobr>-<nobr>0001</nobr><br />Order Date: September <nobr>11</nobr><br />Buyer: North Termite Town Mining Team 1<br />Contact: Rouen Busquets<br />Item No.: 4-<nobr>01</nobr><br />Item Name: Movable Screening Station<br />Model: Beetle Type-4<br />Sum Owed: <nobr>12,300</nobr> shield per day<br /><br />#550<br />Order No.: <nobr>693913</nobr>-<nobr>0001</nobr><br />Order Date: September <nobr>13</nobr><br />Buyer: Southwest Boulder Town Mining Team 4<br />Contact: Harvey Alfonso<br />Item No.: 3-<nobr>96</nobr><br />Item Name: Bucket Wheel Stacker Reclaimer<br />Model: Windmill Type-3<br />Sum Owed: <nobr>30,000</nobr> shield per day",
+   "images": []
+  }
+ ],
+ "pageId": "29321"
+}

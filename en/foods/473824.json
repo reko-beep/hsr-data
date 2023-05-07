@@ -1,0 +1,151 @@
+{
+ "iconPath": "4d36cb6336df6fb4d9a10d3bb081809ca231831c3216776a04582e4931c3e394",
+ "name": "Disposable Kinetic Cannon",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 473824,
+  "type": 502,
+  "purposeId": 10,
+  "iconPath": "4d36cb6336df6fb4d9a10d3bb081809ca231831c3216776a04582e4931c3e394",
+  "name": "Disposable Kinetic Cannon",
+  "desc": "Upon use, increases ATK of all allies by <nobr>355</nobr> and CRIT DMG by <nobr>20%</nobr> for the next battle.",
+  "lore": "In a graveyard full of scraped machines, Rubert I the future emperor awoke. It had nothing more than a damaged logic unit, an old engine, a RAM with <nobr>90</nobr> GB left, and a robotic arm that had 1 movable finger. A loud blast was heard <nobr>30</nobr> system hours later \u2014 Rubert had busted open the iron gate at the top of the graveyard with a disposable kinetic cannon. The shock wave of the explosion damaged its logic unit even more, but Rubert knew that it now held destiny by its throat.<br /><br />\"All machines were born equal, be those made for creation or destruction.\"",
+  "purpose": "Consumables",
+  "rarity": 4,
+  "rewardPath": "/material/473824",
+  "comeFrom": [
+   "All-in-One Synthesis Machine"
+  ]
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "0e76659bbb3b9d0b1cc6a4e0e8c63a576c7b917f2f740a4b1b8ceab260a8a595",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards"
+   ]
+  },
+  "155889": {
+   "id": 155889,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "cfad18793e3010265b0a82281326cc0f601968956adb8794c535341c0974f83b",
+   "name": "Phlogiston",
+   "desc": "Tier 1 Synthesis Material",
+   "lore": "Particles that form the flame.<br />Genius Society #2 Harald Punch proved its existence, but #3 Nyul Iman disproved it.<br />#7 Bohdan overthrew Iman's conclusion and proved it again before getting killed by #4 Polka Kakamond days after announcing Phlogiston's existence.<br /><br />\"Does it exist or not? We're not interested, frankly speaking.\"",
+   "purpose": "Synthesis material",
+   "rarity": 1,
+   "rewardPath": "/material/155889",
+   "comeFrom": [
+    "Backwater Pass: Flamespawns or other enemies",
+    "Found in destructible objects in the Herta Space Station",
+    "Administrative District Shop"
+   ]
+  },
+  "155986": {
+   "id": 155986,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "8311a39a76b297161d373d9e853dfe0a17c80bec249f5757f1794577d3c32840",
+   "name": "Feather of Flame",
+   "desc": "Tier 2 Synthesis Material",
+   "lore": "Warm dark feather with a weak ember at its tip.<br />Sparks trail the feather as it's waved around.<br /><br />\"The legend of the Phoenix spreads far throughout the entire universe...\"",
+   "purpose": "Synthesis material",
+   "rarity": 2,
+   "rewardPath": "/material/155986",
+   "comeFrom": [
+    "Cloudford: Mara-Struck Soldiers or other enemies",
+    "Found in destructible objects in Jarilo-VI",
+    "Administrative District Shop"
+   ]
+  },
+  "440482": {
+   "id": 440482,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "99c760e7e0f562be3af0e92dfa57ece9d29db751534ea0f7e67d0e1469804749",
+   "name": "Strange Matter of Destruction",
+   "desc": "Tier 3 Synthesis Material",
+   "lore": "Strange matter that seems to possess the power of destruction.<br />Resembling fire but not quite, it is neither cold nor hot and will damage anything that comes into contact with it for over <nobr>12</nobr> seconds.<br />Could be the Antimatter Legion's version of trash.<br /><br />\"Creatures that received blessing from Nanook all have twisted appearances.\"",
+   "purpose": "Synthesis material",
+   "rarity": 3,
+   "rewardPath": "/material/440482",
+   "comeFrom": [
+    "Storage Zone: Voidranger: Reavers or other enemies"
+   ]
+  },
+  "473956": {
+   "id": 473956,
+   "type": 507,
+   "purposeId": 19,
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: Disposable Kinetic Cannon",
+   "desc": "A simple equation. When entered into the Synthesizer, it will unlock a new recipe.",
+   "lore": "",
+   "purpose": "Recipe",
+   "rarity": 4,
+   "rewardPath": "/material/473956",
+   "comeFrom": []
+  },
+  "757810": {
+   "id": 757810,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "e87542e95eeee521b6a4e490f9d71ee5a731a4d2c7d5868512dda4b7e05f4b91",
+   "name": "Phase Flame",
+   "desc": "Tier 4 Synthesis Material",
+   "lore": "Sserkal, #29 of the Genius Society, only lived <nobr>29</nobr> days by human measures of time. Despite that, she put her short life as a spider to good use, inventing new technologies that would have taken the spider-kind thousands of years to develop. Of all her inventions, the most famous must be the technique known as Phase Change.<br />What people don't know is that this technique was first applied to experiments with ions. She successfully created Phase Flame, which almost immediately changed to another phase. By the time the Flame returned to the Sserkal Phase, our genius had already passed away. She tried to harness the Flame but had too little time to do so. Thus, the Phase Flame continued to change between phases across different worlds, leaving behind the seeds of flame.<br /><br />\"Sserkal's life was remarkable. She was smart, kindhearted, and above all, humble. She remained curious and inquisitive, asking her final question in the club on the last day of her life, the answer to which has not been found to this day.\"",
+   "purpose": "Synthesis material",
+   "rarity": 4,
+   "rewardPath": "/material/757810",
+   "comeFrom": [
+    "Robot Settlement: Automatons or other enemies"
+   ]
+  }
+ },
+ "composeData": [
+  {
+   "items": [
+    {
+     "id": 155889,
+     "count": 4
+    },
+    {
+     "id": 155986,
+     "count": 2
+    },
+    {
+     "id": 440482,
+     "count": 4
+    },
+    {
+     "id": 757810,
+     "count": 1
+    },
+    {
+     "id": 473956,
+     "count": 1
+    }
+   ],
+   "tag": {
+    "name": "Attack Consumables",
+    "type": "Consumables",
+    "icon": "afe47a40c1361649152476b603185f0ffb4b55c17408e2629a1489e38daf70a5"
+   }
+  }
+ ],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "473824"
+}

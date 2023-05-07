@@ -1,0 +1,95 @@
+{
+ "iconPath": "3bdaf19dc7a8a73c20888e07022d535b643781c20b3c6708bc4fc02ed86e13f2",
+ "name": "Comfort Food",
+ "rarity": 1,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 988614,
+  "type": 502,
+  "purposeId": 10,
+  "iconPath": "3bdaf19dc7a8a73c20888e07022d535b643781c20b3c6708bc4fc02ed86e13f2",
+  "name": "Comfort Food",
+  "desc": "Upon use, immediately heals a single ally by <nobr>15%</nobr> of their Max HP plus <nobr>150</nobr> extra HP.",
+  "lore": "Simple food that lacks character. But give credit where credit is due, they do make you feel stuffed.<br /><br />\"Remember that hunger is still a real problem for many people around the world.\"",
+  "purpose": "Consumables",
+  "rarity": 1,
+  "rewardPath": "/material/988614",
+  "comeFrom": [
+   "All-in-One Synthesis Machine"
+  ]
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "0e76659bbb3b9d0b1cc6a4e0e8c63a576c7b917f2f740a4b1b8ceab260a8a595",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards"
+   ]
+  },
+  "440416": {
+   "id": 440416,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "5f6ef03c4f12b96cc2193222e934c3229bacddb41cbda2d3d0380af6be039443",
+   "name": "Solid Water",
+   "desc": "Tier 1 Synthesis Material",
+   "lore": "Compound composed of hydrogen and oxygen, essential to support carbon-based life. <br />Keeping it in the solid state makes it easy to carry.<br /><br />\"...Isn't it ice?\"<br />\"No, no, no. Ice is ice, this is water, just in the solid state.\"<br />\"...Isn't that the definition of ice?\"",
+   "purpose": "Synthesis material",
+   "rarity": 1,
+   "rewardPath": "/material/440416",
+   "comeFrom": [
+    "Storage Zone: Baryons or other enemies",
+    "Found in destructible objects in Jarilo-VI",
+    "Administrative District Shop"
+   ]
+  },
+  "757647": {
+   "id": 757647,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "55c753d85b97ea3bc3edbc6670d7957e812c7e408fdd5a609f86fbe52be0e0da",
+   "name": "Basic Ingredients",
+   "desc": "Tier 1 Synthesis Material",
+   "lore": "Ingredients that keep you fed but taste less than ideal.<br />Not particularly good, but keep you fed.<br /><br />\"Can I eat it? Is it good? What do I eat it with?\"",
+   "purpose": "Synthesis material",
+   "rarity": 1,
+   "rewardPath": "/material/757647",
+   "comeFrom": [
+    "Found in destructible objects in the Herta Space Station",
+    "Administrative District Shop"
+   ]
+  }
+ },
+ "composeData": [
+  {
+   "items": [
+    {
+     "id": 440416,
+     "count": 1
+    },
+    {
+     "id": 757647,
+     "count": 1
+    }
+   ],
+   "tag": {
+    "name": "Restorative Consumables",
+    "type": "Consumables",
+    "icon": "afe47a40c1361649152476b603185f0ffb4b55c17408e2629a1489e38daf70a5"
+   }
+  }
+ ],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "988614"
+}

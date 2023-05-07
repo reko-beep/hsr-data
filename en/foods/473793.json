@@ -1,0 +1,115 @@
+{
+ "iconPath": "9127326df37ad5c0b45ce4a43a9915b47befcba3537ecc4f2e02c106e34d7dd9",
+ "name": "Energy Drink (sugar-free)",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 473793,
+  "type": 502,
+  "purposeId": 10,
+  "iconPath": "9127326df37ad5c0b45ce4a43a9915b47befcba3537ecc4f2e02c106e34d7dd9",
+  "name": "Energy Drink (sugar-free)",
+  "desc": "Upon use, immediately regenerates <nobr>50%</nobr> of Max Energy for a single ally.",
+  "lore": "A bottle of Energy Drink. Some may call it soulless, but honestly, it's not that bad.<br /><br />\"Being slim is more about tricking the eye. It doesn't necessarily have to do with my weight.\"",
+  "purpose": "Consumables",
+  "rarity": 3,
+  "rewardPath": "/material/473793",
+  "comeFrom": [
+   "All-in-One Synthesis Machine"
+  ]
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "0e76659bbb3b9d0b1cc6a4e0e8c63a576c7b917f2f740a4b1b8ceab260a8a595",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards"
+   ]
+  },
+  "155889": {
+   "id": 155889,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "cfad18793e3010265b0a82281326cc0f601968956adb8794c535341c0974f83b",
+   "name": "Phlogiston",
+   "desc": "Tier 1 Synthesis Material",
+   "lore": "Particles that form the flame.<br />Genius Society #2 Harald Punch proved its existence, but #3 Nyul Iman disproved it.<br />#7 Bohdan overthrew Iman's conclusion and proved it again before getting killed by #4 Polka Kakamond days after announcing Phlogiston's existence.<br /><br />\"Does it exist or not? We're not interested, frankly speaking.\"",
+   "purpose": "Synthesis material",
+   "rarity": 1,
+   "rewardPath": "/material/155889",
+   "comeFrom": [
+    "Backwater Pass: Flamespawns or other enemies",
+    "Found in destructible objects in the Herta Space Station",
+    "Administrative District Shop"
+   ]
+  },
+  "356541": {
+   "id": 356541,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "253bb7948ea55d68037ca9f96574e2af6e647b9d76d46967f2d4e2899bfb9d69",
+   "name": "Tree Bark of Erudition",
+   "desc": "Tier 3 Synthesis Material",
+   "lore": "Dried tree bark that seems to possess the power of the Erudition.<br />Its creases tell the story of the years passed and the wisdom of nature.<br />It says a lot more when beaten into pulp used for papermaking.<br /><br />\"The wisdom of mankind is contained in this one word.\"",
+   "purpose": "Synthesis material",
+   "rarity": 3,
+   "rewardPath": "/material/356541",
+   "comeFrom": [
+    "Robot Settlement: Automatons or other enemies"
+   ]
+  },
+  "757744": {
+   "id": 757744,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "268a72e23652901539d20e40ce25f9b04cacc505a518f49b3e0953d31a51a3cd",
+   "name": "Virtual Particle",
+   "desc": "Tier 2 Synthesis Material",
+   "lore": "Tiny particles commonly found in the universe but cannot be observed in theory.<br />Scientists are good at transforming theories into reality.<br /><br />\"I've got a virtual particle and an anti virtual particle here. How do we turn them into a real particle and a real antiparticle? Now, look closely...\"",
+   "purpose": "Synthesis material",
+   "rarity": 2,
+   "rewardPath": "/material/757744",
+   "comeFrom": [
+    "Storage Zone: Baryons or other enemies",
+    "Found in destructible objects in the Herta Space Station",
+    "Grocery Stand"
+   ]
+  }
+ },
+ "composeData": [
+  {
+   "items": [
+    {
+     "id": 155889,
+     "count": 4
+    },
+    {
+     "id": 757744,
+     "count": 2
+    },
+    {
+     "id": 356541,
+     "count": 2
+    }
+   ],
+   "tag": {
+    "name": "Restorative Consumables",
+    "type": "Consumables",
+    "icon": "afe47a40c1361649152476b603185f0ffb4b55c17408e2629a1489e38daf70a5"
+   }
+  }
+ ],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "473793"
+}

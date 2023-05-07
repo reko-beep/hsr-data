@@ -1,0 +1,27 @@
+{
+ "iconPath": "5db97bdea9c76ccfce23e02737cd906c0dd066dd18fef2935c7e5e0617770096",
+ "name": "Seed",
+ "rarity": 1,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 272534,
+  "type": 601,
+  "purposeId": 17,
+  "iconPath": "5db97bdea9c76ccfce23e02737cd906c0dd066dd18fef2935c7e5e0617770096",
+  "name": "Seed",
+  "desc": "Tier 1 Synthesis Material",
+  "lore": "Reproductive unit unique to plants.<br />Most of them symbolize life, some of them taste pretty good.<br /><br />\"Sow in the spring, harvest in the Autumn.\"",
+  "purpose": "Synthesis material",
+  "rarity": 1,
+  "rewardPath": "/material/272534",
+  "comeFrom": [
+   "Found in destructible objects in Jarilo-VI",
+   "Grocery Stand"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "272534"
+}

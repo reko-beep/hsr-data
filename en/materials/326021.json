@@ -1,0 +1,28 @@
+{
+ "iconPath": "aa5ed263695b55e4cb83cb5f97ca8eddecd821454c9d55de86d1bde1c7a87a9c",
+ "name": "Lucent Afterglow",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 326021,
+  "type": 601,
+  "purposeId": 11,
+  "iconPath": "aa5ed263695b55e4cb83cb5f97ca8eddecd821454c9d55de86d1bde1c7a87a9c",
+  "name": "Lucent Afterglow",
+  "desc": "Exchange for Light Cones at the Express's Messenger",
+  "lore": "An aftermirage of bygone days, invaluable to the Garden of Recollection.<br /><br />The Garden of Recollection has its own rules: Exchange time for time and memory for memory. The Garden of Recollection can even bring back to you a lost, irrevocable past for the right cost...",
+  "purpose": "Common currency",
+  "rarity": 4,
+  "rewardPath": "/material/326021",
+  "comeFrom": [
+   "Forgotten Hall",
+   "Echo of War (Supply Zone)",
+   "Echo of War (Everwinter Hill)"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "326021"
+}

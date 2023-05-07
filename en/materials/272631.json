@@ -1,0 +1,28 @@
+{
+ "iconPath": "c56d9ab576f8077b55249ba302320edab04dd431bb233c6aa40fd2e8d689dcb8",
+ "name": "Vortex of Wind",
+ "rarity": 2,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 272631,
+  "type": 601,
+  "purposeId": 17,
+  "iconPath": "c56d9ab576f8077b55249ba302320edab04dd431bb233c6aa40fd2e8d689dcb8",
+  "name": "Vortex of Wind",
+  "desc": "Tier 2 Synthesis Material",
+  "lore": "The eye of the storm remains stagnant.<br />Even when put in vacuum, the grains involved in the vortex continue to revolve around the eye of the storm.<br /><br />\"Look, they won't stop no matter what happens. They just keep whirling. You know what that reminds me of?\"<br />\"Trailblazing!\"<br />\"...That's right, Pom-Pom. Promise me that our trailblazing journey will never come to a stop.\"",
+  "purpose": "Synthesis material",
+  "rarity": 2,
+  "rewardPath": "/material/272631",
+  "comeFrom": [
+   "Cloudford: Mara-Struck Soldiers or other enemies",
+   "Found in destructible objects in Jarilo-VI",
+   "Grocery Stand"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "272631"
+}

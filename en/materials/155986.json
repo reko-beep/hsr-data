@@ -1,0 +1,28 @@
+{
+ "iconPath": "8311a39a76b297161d373d9e853dfe0a17c80bec249f5757f1794577d3c32840",
+ "name": "Feather of Flame",
+ "rarity": 2,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 155986,
+  "type": 601,
+  "purposeId": 17,
+  "iconPath": "8311a39a76b297161d373d9e853dfe0a17c80bec249f5757f1794577d3c32840",
+  "name": "Feather of Flame",
+  "desc": "Tier 2 Synthesis Material",
+  "lore": "Warm dark feather with a weak ember at its tip.<br />Sparks trail the feather as it's waved around.<br /><br />\"The legend of the Phoenix spreads far throughout the entire universe...\"",
+  "purpose": "Synthesis material",
+  "rarity": 2,
+  "rewardPath": "/material/155986",
+  "comeFrom": [
+   "Cloudford: Mara-Struck Soldiers or other enemies",
+   "Found in destructible objects in Jarilo-VI",
+   "Administrative District Shop"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "155986"
+}

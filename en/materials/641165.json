@@ -1,0 +1,26 @@
+{
+ "iconPath": "dd455f01643b5e280e9a70b288071367d21326e8968aa3bee9b71d488f8f14a1",
+ "name": "Tear Crystal of Glorious Death",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 641165,
+  "type": 601,
+  "purposeId": 17,
+  "iconPath": "dd455f01643b5e280e9a70b288071367d21326e8968aa3bee9b71d488f8f14a1",
+  "name": "Tear Crystal of Glorious Death",
+  "desc": "Tier 4 Synthesis Material",
+  "lore": "A Mourning Actor took a gondola and rowed towards a silent world of barrenness, humming an elegy for civilizations long gone. Not a single soul could be found at the site of the doomsday battlefield, but like nacre, the world that had turned into ashes gave birth to pearls of sorrow. The ghosts of the past condensed into clouds and rained down crystals like teardrops. The Actor held a fine grain of such crystal in hand and immediately heard in a dream the glorious chorus of civilizations at their height \u2014 heroes with godly might, starships like towering mountains, the whimper of stars, and the rage of the enemy. The Actor became restless in sleep, dragged into silent dreams.<br /><br />\"Every single joy I had in my dreams breaks my heart.\"",
+  "purpose": "Synthesis material",
+  "rarity": 4,
+  "rewardPath": "/material/641165",
+  "comeFrom": [
+   "Corridor of Fading Echoes: Everwinter Shadewalkers or other enemies"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "641165"
+}

@@ -1,0 +1,24 @@
+{
+ "iconPath": "d2c1ce1f74db4ab33ca1815959cb274f129d5c387c6151d449a0ea437e3cea8b",
+ "name": "Lost Essence",
+ "rarity": 5,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 610545,
+  "type": 601,
+  "purposeId": 6,
+  "iconPath": "d2c1ce1f74db4ab33ca1815959cb274f129d5c387c6151d449a0ea437e3cea8b",
+  "name": "Lost Essence",
+  "desc": "Enhancement material for Relics. Provides <nobr>2000</nobr> Relic EXP.",
+  "lore": "",
+  "purpose": "Relic EXP Material",
+  "rarity": 5,
+  "rewardPath": "/material/610545",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "610545"
+}

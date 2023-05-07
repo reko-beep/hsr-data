@@ -1,0 +1,499 @@
+{
+ "name": "Resolution Shines As Pearls of Sweat",
+ "rarity": 4,
+ "descHash": "The limelight cast on the boxing ring is bright, but no brighter than all those beads of sweat running down his back.<br /><br />He has long been determined to use his two fists to protect those he cherishes the most.<br />After all, they are the ones who ignited his determination in the first place.<br />They are the ones who have always been there for him, be it inside or outside the boxing ring.",
+ "iconPath": "7a4dee4fdd0b6acdeef19c646af6284e95a0d65f4d75aa47276fbc0436655b7a",
+ "artPath": "8228b6d8dac2c5b1b8782525ff5b9681f676d496efa90ae0b274392738e144f5",
+ "mediumIconPath": "f3f596ef6d0ac10cb14d9110003386d9ffced97d32b1e02097a41ba38866fc8b",
+ "baseType": {
+  "id": 0,
+  "iconPath": "ef1c10d1a5c22dc9e9294e81827aae2ec71c4a79633349c8c9d699a9568a6e00",
+  "color": "#FFFFFF",
+  "name": "Nihility",
+  "rarity": 0
+ },
+ "baseTypeId": 0,
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "0e76659bbb3b9d0b1cc6a4e0e8c63a576c7b917f2f740a4b1b8ceab260a8a595",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards"
+   ]
+  },
+  "549503": {
+   "id": 549503,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "fcb7215a2a17b09cd16362b5e1b398eaaf2fde23a94057c5f961151885a620c5",
+   "name": "Artifex's Module",
+   "desc": "Components used in Xianzhou's ingenium creations. Crude material used for enhancement.",
+   "lore": "The foundation of Xianzhou's ingenium technology. The smallest constituent of all machine parts. Breaking it apart would be akin to destroying the cellular structure of a living being.<br /><br />\"The Intelligentsia Guild put up a bounty of two million credits for technical plans that can flawlessly disassemble Xianzhou mechanical puppets.\"<br />\"If you know Screwllum, then these two millions are basically yours to take...\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 2,
+   "rewardPath": "/material/549503",
+   "comeFrom": [
+    "Stargazer Navalia: Entranced Ingenia or other enemies",
+    "Simulated Universe enemies",
+    "Assignment rewards",
+    "Embers Exchange",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "633444": {
+   "id": 633444,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "1977002edbf48f44c49d08284ce2681f622e70c447d50de10a8b9491dfcb719c",
+   "name": "Artifex's Cogwheel",
+   "desc": "Parts of the Xianzhou machines. Normal material used for enhancement.",
+   "lore": "The connective components used in Xianzhou's ingenium technology. The intricate and thin teeth of the cogwheels are as minute as mustard seeds, and yet are interconnected to form a complex body, making the machine able to pass as true life.<br /><br />\"Its form lies in harmony, a parallel to nature. Its movements cyclical, echoing the cosmos.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 3,
+   "rewardPath": "/material/633444",
+   "comeFrom": [
+    "Stargazer Navalia: Equilibrium Level 2+ Entranced Ingenia or other enemies",
+    "Omni-Synthesizer \u2014 Material Synthesis",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "635669": {
+   "id": 635669,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "eb2e2feca2b8c63d7bd3d8b8e5a296d336fa0e30ca425e8e5489df4c015d1685",
+   "name": "Obsidian of Dread",
+   "desc": "A fragment of dark matter captured from the void. Used to level up Traces slightly for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Nihility</span> characters.",
+   "lore": "Nothing can prove its noumenon.<br />Touch gently to hear an unclear murmur from the shard.<br /><br />\"\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588 \u2588\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 2,
+   "rewardPath": "/material/635669",
+   "comeFrom": [
+    "Calyx (Great Mine)"
+   ]
+  },
+  "694487": {
+   "id": 694487,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "a5f4de7a7ad08a1676729853622d0e38b14de79b20465aa9c738e6105a8c746d",
+   "name": "Refined Aether",
+   "desc": "Enhancement material for Light Cones, provides <nobr>6000</nobr> Light Cone EXP.",
+   "lore": "A canister of aether that has been extracted and distilled using special procedures.<br /><br />\"The Garden looks forward to recreating a past glory, but it is a 'past glory' selected by them. Do you understand?\"",
+   "purpose": "Light Cone EXP Material",
+   "rarity": 4,
+   "rewardPath": "/material/694487",
+   "comeFrom": [
+    "Calyx (Backwater Pass)",
+    "Forgotten Hall"
+   ]
+  },
+  "694488": {
+   "id": 694488,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "91f62f32ecd1e7b88c9e30002d215b1a5936ac221782a17d2f34837a967ed557",
+   "name": "Condensed Aether",
+   "desc": "Enhancement material for Light Cones, provides <nobr>2000</nobr> Light Cone EXP.",
+   "lore": "A can of Aether refined through special techniques.<br /><br />\"Handle with care, do not drop or place pressure upon it. If damages and leaks occur, please refer to chapter II of the Leak Disaster Response Manual for emergency response.\"",
+   "purpose": "Light Cone EXP Material",
+   "rarity": 3,
+   "rewardPath": "/material/694488",
+   "comeFrom": [
+    "Calyx (Backwater Pass)"
+   ]
+  },
+  "694489": {
+   "id": 694489,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "554d37978b82c3f38bafee8771f8ab4248a1fe9d4e130bb5711064238666f491",
+   "name": "Sparse Aether",
+   "desc": "Enhancement material for Light Cones, provides <nobr>500</nobr> Light Cone EXP.",
+   "lore": "An imaginary substance that shouldn't exist in reality. The basic material to create Light Cones.<br />The images contained in the Light Cones become clearer when infused with this substance.<br /><br />\"I see, so this is the supposed 'Sentiention' of the Garden of Recollection. No wonder the Memokeepers can set off on galactic voyages with memories.\"",
+   "purpose": "Light Cone EXP Material",
+   "rarity": 2,
+   "rewardPath": "/material/694489",
+   "comeFrom": [
+    "Calyx (Backwater Pass)",
+    "Assignment rewards"
+   ]
+  },
+  "717385": {
+   "id": 717385,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "058379eb2e88612f2b1f78a6c3195c457e124c9b6de602d6dd2fe0b2d17245f3",
+   "name": "Artifex's Gyreheart",
+   "desc": "Components used in Xianzhou's ingenium creations. Advanced material used for enhancement.",
+   "lore": "The core of Xianzhou's ingenium technology. The armillary sphere roils and vibrates like the essence of a heart, making the machine think like a living being.<br /><br />\"Do not be startled. Taking away its heart would make him... her?... No, make it lose its sentience and return to its mechanical sources.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 4,
+   "rewardPath": "/material/717385",
+   "comeFrom": [
+    "Stargazer Navalia: Equilibrium Level 4+ Entranced Ingenia or other enemies",
+    "Omni-Synthesizer \u2014 Material Synthesis",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "836255": {
+   "id": 836255,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "328bab8dd4185cff98748182d80e550a23f12b7288da5caa228cc8407cea56df",
+   "name": "Obsidian of Obsession",
+   "desc": "A sizable piece of dark matter captured from the void. Used to level up Traces significantly for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Nihility</span> characters.",
+   "lore": "The weak-minded and soft-willed will spend their eternity in chaos from just a simple glance into the prism.<br /><br />\"         \"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 4,
+   "rewardPath": "/material/836255",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Omni-Synthesizer \u2014 Material Synthesis"
+   ]
+  },
+  "920196": {
+   "id": 920196,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "ce4a765c779cfd1480029c5f6daa7ea755b5c3ec5661609bfd2dd5191b55f2d0",
+   "name": "Obsidian of Desolation",
+   "desc": "A chunk of dark matter captured from the void. Used to level up Traces moderately for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Nihility</span> characters.",
+   "lore": "No reflections can be seen on the surface of the black prism. Not only does it suck in all the light, it seems to also absorb the wielder's emotions, leaving only a faint feeling of emptiness.<br /><br />\"...\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 3,
+   "rewardPath": "/material/920196",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Omni-Synthesizer \u2014 Material Synthesis"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 4000
+    },
+    {
+     "id": 549503,
+     "count": 5
+    }
+   ],
+   "attackBase": 21.6,
+   "attackAdd": 3.24,
+   "hpBase": 43.2,
+   "hpAdd": 6.48,
+   "defenseBase": 15,
+   "defenseAdd": 2.25
+  },
+  {
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 8000
+    },
+    {
+     "id": 635669,
+     "count": 3
+    },
+    {
+     "id": 549503,
+     "count": 10
+    }
+   ],
+   "attackBase": 47.52,
+   "attackAdd": 3.24,
+   "hpBase": 95.04,
+   "hpAdd": 6.48,
+   "defenseBase": 33,
+   "defenseAdd": 2.25
+  },
+  {
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 16000
+    },
+    {
+     "id": 920196,
+     "count": 3
+    },
+    {
+     "id": 633444,
+     "count": 6
+    }
+   ],
+   "attackBase": 82.08,
+   "attackAdd": 3.24,
+   "hpBase": 164.16,
+   "hpAdd": 6.48,
+   "defenseBase": 57,
+   "defenseAdd": 2.25
+  },
+  {
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 40000
+    },
+    {
+     "id": 920196,
+     "count": 6
+    },
+    {
+     "id": 633444,
+     "count": 9
+    }
+   ],
+   "attackBase": 116.64,
+   "attackAdd": 3.24,
+   "hpBase": 233.28,
+   "hpAdd": 6.48,
+   "defenseBase": 81,
+   "defenseAdd": 2.25
+  },
+  {
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 80000
+    },
+    {
+     "id": 836255,
+     "count": 4
+    },
+    {
+     "id": 717385,
+     "count": 5
+    }
+   ],
+   "attackBase": 151.2,
+   "attackAdd": 3.24,
+   "hpBase": 302.4,
+   "hpAdd": 6.48,
+   "defenseBase": 105,
+   "defenseAdd": 2.25
+  },
+  {
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 160000
+    },
+    {
+     "id": 836255,
+     "count": 8
+    },
+    {
+     "id": 717385,
+     "count": 7
+    }
+   ],
+   "attackBase": 185.76,
+   "attackAdd": 3.24,
+   "hpBase": 371.52,
+   "hpAdd": 6.48,
+   "defenseBase": 129,
+   "defenseAdd": 2.25
+  },
+  {
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": [],
+   "attackBase": 220.32,
+   "attackAdd": 3.24,
+   "hpBase": 440.64,
+   "hpAdd": 6.48,
+   "defenseBase": 153,
+   "defenseAdd": 2.25
+  }
+ ],
+ "skill": {
+  "id": 21015,
+  "name": "Glance Back",
+  "descHash": "When the wearer hits an enemy and if the hit enemy is not already Ensnared, then there is a <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span> base chance to Ensnare the hit enemy. Ensnared enemies' DEF decreases by <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#2[i]%</nobr></span> for <nobr>#3[i]</nobr> turn(s).",
+  "levelData": [
+   {
+    "level": 1,
+    "params": [
+     0.6,
+     0.12,
+     1
+    ],
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "level": 2,
+    "params": [
+     0.7,
+     0.13,
+     1
+    ],
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "level": 3,
+    "params": [
+     0.8,
+     0.14,
+     1
+    ],
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "level": 4,
+    "params": [
+     0.9,
+     0.15,
+     1
+    ],
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "level": 5,
+    "params": [
+     1,
+     0.16,
+     1
+    ],
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   }
+  ]
+ },
+ "calculator": {
+  "expCost": {
+   "1": 50,
+   "2": 80,
+   "3": 140,
+   "4": 210,
+   "5": 300,
+   "6": 400,
+   "7": 510,
+   "8": 640,
+   "9": 780,
+   "10": 930,
+   "11": 1090,
+   "12": 1260,
+   "13": 1460,
+   "14": 1650,
+   "15": 1860,
+   "16": 2080,
+   "17": 2300,
+   "18": 2540,
+   "19": 2790,
+   "20": 2900,
+   "21": 3010,
+   "22": 3130,
+   "23": 3240,
+   "24": 3360,
+   "25": 3490,
+   "26": 3610,
+   "27": 3740,
+   "28": 3860,
+   "29": 3990,
+   "30": 4130,
+   "31": 4260,
+   "32": 4400,
+   "33": 4540,
+   "34": 4680,
+   "35": 4820,
+   "36": 4970,
+   "37": 5110,
+   "38": 5260,
+   "39": 5410,
+   "40": 5560,
+   "41": 6100,
+   "42": 6450,
+   "43": 6810,
+   "44": 7180,
+   "45": 7550,
+   "46": 7930,
+   "47": 8310,
+   "48": 8710,
+   "49": 9110,
+   "50": 9520,
+   "51": 9940,
+   "52": 10350,
+   "53": 10780,
+   "54": 11220,
+   "55": 11660,
+   "56": 12110,
+   "57": 12570,
+   "58": 13030,
+   "59": 13500,
+   "60": 13980,
+   "61": 14630,
+   "62": 15420,
+   "63": 16210,
+   "64": 17010,
+   "65": 17830,
+   "66": 18660,
+   "67": 19500,
+   "68": 20350,
+   "69": 21220,
+   "70": 22100,
+   "71": 24650,
+   "72": 26970,
+   "73": 29330,
+   "74": 31720,
+   "75": 34140,
+   "76": 36600,
+   "77": 39100,
+   "78": 41620,
+   "79": 44180,
+   "80": 0
+  },
+  "expItemConfig": {
+   "500": {
+    "itemId": 694489,
+    "cost": 250
+   },
+   "2000": {
+    "itemId": 694488,
+    "cost": 1000
+   },
+   "6000": {
+    "itemId": 694487,
+    "cost": 3000
+   }
+  },
+  "sCoinId": 29328
+ },
+ "pageId": "21015"
+}

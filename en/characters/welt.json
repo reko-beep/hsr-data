@@ -1,0 +1,2379 @@
+{
+ "name": "Welt",
+ "spRequirement": 120,
+ "rarity": 5,
+ "descHash": "A seasoned member of the Express Crew. The passion buried in his heart burns anew as he enjoys this fresh adventure. Occasionally, he would sketch the experiences in a notebook.",
+ "iconPath": "259c3885c12479f2cb2ab0a569732ed73e08bcec91b3611069e66b8df1d6d601",
+ "bgPath": "edea03805623a704dd3d9236af2838ee54a236e42125ae036f82e4a134c2a0f1",
+ "figPath": "06bc67e60271c9eed7d51fd5820a33bb8f9ad04a5b7e42c7ad609d38eb4ae1b9",
+ "fgPath": "1812b6a49c253110c6b989d8f6138b1a5abc3013c49d8e6dd065885d62d0e536",
+ "artPath": "39a91089bb88993764ecfb4f989f1c92c24f38e355ed528031f1845a8885e87d",
+ "miniIconPath": "2b3a25ef0c12e85b5e78c78b5f08a03e745d7b2e35c5ca564c1d1d96bcd7688b",
+ "splashIconPath": "e4ed0c8ee9065f8d6fd03fdec21b70e1883b05816d890e684e6038bb79ba9e06",
+ "damageType": {
+  "id": 64,
+  "iconPath": "87df7632a4ea2535a7794d3283255fe4f2a80d20e0cf266659a11dbae7549d5b",
+  "color": "#F4D258",
+  "name": "Imaginary",
+  "rarity": 0
+ },
+ "baseType": {
+  "id": 0,
+  "iconPath": "ef1c10d1a5c22dc9e9294e81827aae2ec71c4a79633349c8c9d699a9568a6e00",
+  "altIconPath": "0df2cbf11d8f19f8c650742d8717144159e74ae7608dfb17c31734925e8ee7c3",
+  "color": "#FFFFFF",
+  "name": "Nihility",
+  "rarity": 0
+ },
+ "damageTypeId": 0,
+ "baseTypeId": 0,
+ "baseTypeTraces": {
+  "id": 5,
+  "iconPath": "46809b2e4ea3502400dc31a9af1552ced0d5890b1b96f43ab9ac6fdc73fdd5f5",
+  "color": "#FFFFFF",
+  "rarity": 0
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "0e76659bbb3b9d0b1cc6a4e0e8c63a576c7b917f2f740a4b1b8ceab260a8a595",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards"
+   ]
+  },
+  "125435": {
+   "id": 125435,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "75e6d3c477385eb36716ba1798609b01a9fe10893c1b3e9f9dc81046ad10d9b0",
+   "name": "Tracks of Destiny",
+   "desc": "Advanced level-up material for Traces.",
+   "lore": "Your victory is secured by countless failures, and the small steps you have taken led you to the turning point of fate.",
+   "purpose": "Trace Materials",
+   "rarity": 5,
+   "rewardPath": "/material/125435",
+   "comeFrom": [
+    "Simulated Universe Point Rewards",
+    "Nameless Honor",
+    "Embers Exchange",
+    "Limited-Time Event Rewards"
+   ]
+  },
+  "409960": {
+   "id": 409960,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "607961a38d9fe4f935578e9ea7b4de093d68ff8258b0b52c3cd4261e5cd92932",
+   "name": "Traveler's Guide",
+   "desc": "Experience material for characters. Provides <nobr>20,000</nobr> Character EXP.",
+   "lore": "Required reading for world exploration. Press the \"Read\" button to tune in to an attractive voice in a language you understand, telling you about the legendary encounters of renowned adventurers across different worlds as well as the precious wisdom and knowledge that they have gathered.<br /><br />\"All-new series of the Traveler's Guide, The Chef's Manual to Galactic Cuisine, is now available for purchase.\"<br />\"For submissions, please connect to synesthesia beacon ERD<nobr>-23</nobr>\u03b8 to contact an Intelligentsia Guild representative. Method of payment can be arranged to your convenience.\"",
+   "purpose": "Character EXP Material",
+   "rarity": 4,
+   "rewardPath": "/material/409960",
+   "comeFrom": [
+    "Calyx (Outlying Snow Plains)",
+    "Forgotten Hall"
+   ]
+  },
+  "409961": {
+   "id": 409961,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "05ef6659e951dd69d862823c86470487d68c24209400d4391df1f50bbc21ab42",
+   "name": "Adventure Log",
+   "desc": "Experience material for characters. Provides <nobr>5000</nobr> Character EXP.",
+   "lore": "A neatly organized collection of educational adventure notes containing countless illustrations and texts entailing adventures from beginning to end, as well as valuable information and survival-related techniques.<br /><br />\"Why not just digitize it and save it on a photolith disk? That'd be much more convenient.\"<br />\"Advanced technology is far more fragile than you'd think when faced with stellar storms and neuron flow eruptions. Besides, I'm sure the author of this book wanted people to read it in the simplest of ways.\"",
+   "purpose": "Character EXP Material",
+   "rarity": 3,
+   "rewardPath": "/material/409961",
+   "comeFrom": [
+    "Calyx (Outlying Snow Plains)",
+    "Daily Training"
+   ]
+  },
+  "409962": {
+   "id": 409962,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "ad5070f0ef2447ee09fb3b0d859ab3c594538eaa58b71a14ffcbd4b2b493c1c5",
+   "name": "Travel Encounters",
+   "desc": "Experience material for characters. Provides <nobr>1000</nobr> Character EXP.",
+   "lore": "A travel diary with messy handwriting and random content. It's not of much use to you.<br /><br />\"Dan Heng, hurry up and finish reading it so you can throw it away.\"",
+   "purpose": "Character EXP Material",
+   "rarity": 2,
+   "rewardPath": "/material/409962",
+   "comeFrom": [
+    "Calyx (Outlying Snow Plains)",
+    "Assignment rewards"
+   ]
+  },
+  "468391": {
+   "id": 468391,
+   "type": 601,
+   "purposeId": 2,
+   "iconPath": "e8d74f9705754fb743acb234866d6e64a1f2354cb71bf2263579546b256a8913",
+   "name": "Golden Crown of the Past Shadow",
+   "desc": "Headwear of the Decaying Shadow. Can be used for the Ascension of Imaginary characters.",
+   "lore": "Accessory left behind by the shadow of a past Guardian, telling tales of the city of Everwinter.<br /><br />\"Alina the Loving \u2014 her kindness as lofty as the sky and her compassion as brilliant as gold.\"",
+   "purpose": "Character Ascension Materials",
+   "rarity": 4,
+   "rewardPath": "/material/468391",
+   "comeFrom": [
+    "Stagnant Shadow (Backwater Pass)",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "549407": {
+   "id": 549407,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "2901efa774991b0ce2037520ce85ff99af64f37ee6364ffda560278736df6a19",
+   "name": "Silvermane Badge",
+   "desc": "Pin badge worn by soldiers of the Silvermane Guards. Crude material used for enhancement.",
+   "lore": "It is full of scratches from the erosion of wind and snow.<br /><br />\"In ancient times, there was only one way Silvermane Guards could retire: death.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 2,
+   "rewardPath": "/material/549407",
+   "comeFrom": [
+    "Outlying Snow Plains: Silvermane Guards or other enemies",
+    "Corridor of Fading Echoes: Everwinter Shadewalkers or other enemies",
+    "Simulated Universe enemies",
+    "Assignment rewards",
+    "Embers Exchange",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "633348": {
+   "id": 633348,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "042dc7973ef7c36858a4aa58ef7d32335f528b3c4bc4f0c4ce2e7f401039a7c5",
+   "name": "Silvermane Insignia",
+   "desc": "Military rank insignia worn by captains of the Silvermane Guard. Normal material used for enhancement.",
+   "lore": "Maybe it's a proof of heroics that you can brag about to your family. Maybe it's a lucky charm that protects you from a bullet.<br /><br />\"Times have changed.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 3,
+   "rewardPath": "/material/633348",
+   "comeFrom": [
+    "Outlying Snow Plains: Equilibrium Level 2+ Silvermane Guards or other enemies",
+    "Corridor of Fading Echoes: Equilibrium Level 2+ Everwinter Shadewalkers or other enemies",
+    "Omni-Synthesizer \u2014 Material Synthesis",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "635669": {
+   "id": 635669,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "eb2e2feca2b8c63d7bd3d8b8e5a296d336fa0e30ca425e8e5489df4c015d1685",
+   "name": "Obsidian of Dread",
+   "desc": "A fragment of dark matter captured from the void. Used to level up Traces slightly for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Nihility</span> characters.",
+   "lore": "Nothing can prove its noumenon.<br />Touch gently to hear an unclear murmur from the shard.<br /><br />\"\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588 \u2588\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 2,
+   "rewardPath": "/material/635669",
+   "comeFrom": [
+    "Calyx (Great Mine)"
+   ]
+  },
+  "717289": {
+   "id": 717289,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "ec7d9dcb72593120a29744b7c2741fc2cf9d247469b89988c274ef108dc56b38",
+   "name": "Silvermane Medal",
+   "desc": "Medal of honor worn by soldiers of the Silvermane Guards with gallant and meritorious service. Advanced material used for enhancement.",
+   "lore": "A proof of honor awarded to those that fought against Fragmentum creatures, Underworlders, and sudden disasters.<br />It is not usually pinned onto the recipient's chest, but rather placed onto his coffin.<br /><br />\"Remember, young Gepard. It is not a toy: it is the destiny and blood of the Landau family.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 4,
+   "rewardPath": "/material/717289",
+   "comeFrom": [
+    "Outlying Snow Plains: Equilibrium Level 4+ Silvermane Guards or other enemies",
+    "Corridor of Fading Echoes: Equilibrium Level 4+ Everwinter Shadewalkers or other enemies",
+    "Omni-Synthesizer \u2014 Material Synthesis",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "836255": {
+   "id": 836255,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "328bab8dd4185cff98748182d80e550a23f12b7288da5caa228cc8407cea56df",
+   "name": "Obsidian of Obsession",
+   "desc": "A sizable piece of dark matter captured from the void. Used to level up Traces significantly for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Nihility</span> characters.",
+   "lore": "The weak-minded and soft-willed will spend their eternity in chaos from just a simple glance into the prism.<br /><br />\"         \"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 4,
+   "rewardPath": "/material/836255",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Omni-Synthesizer \u2014 Material Synthesis"
+   ]
+  },
+  "920196": {
+   "id": 920196,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "ce4a765c779cfd1480029c5f6daa7ea755b5c3ec5661609bfd2dd5191b55f2d0",
+   "name": "Obsidian of Desolation",
+   "desc": "A chunk of dark matter captured from the void. Used to level up Traces moderately for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Nihility</span> characters.",
+   "lore": "No reflections can be seen on the surface of the black prism. Not only does it suck in all the light, it seems to also absorb the wielder's emotions, leaving only a faint feeling of emptiness.<br /><br />\"...\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 3,
+   "rewardPath": "/material/920196",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Omni-Synthesizer \u2014 Material Synthesis"
+   ]
+  },
+  "985668": {
+   "id": 985668,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "91205616cca581bc299d91a1af94a91981d58328675779f8e66ccbaf679e5e94",
+   "name": "Destroyer's Final Road",
+   "desc": "Advanced level-up material for Traces.",
+   "lore": "The Leviathan's heart has stopped beating, but its mind lives on despite being trapped in a case. As long as the lid is closed, its mind is simultaneously both alive and dead, driving the engine of destruction.<br /><br />\"Doomsday Beast, a blight made in the Warforge using what's left of a Leviathan and the weeping bones of thousands of the dead. It longs for the destruction of the universe and itself.\"",
+   "purpose": "Trace Materials",
+   "rarity": 4,
+   "rewardPath": "/material/985668",
+   "comeFrom": [
+    "Echo of War (Supply Zone)"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 4000
+    },
+    {
+     "id": 549407,
+     "count": 5
+    }
+   ],
+   "attackBase": 84.48,
+   "attackAdd": 4.224,
+   "hpBase": 153.12,
+   "hpAdd": 7.656,
+   "defenseBase": 69.3,
+   "defenseAdd": 3.465,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 102,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 8000
+    },
+    {
+     "id": 549407,
+     "count": 10
+    }
+   ],
+   "attackBase": 118.272,
+   "attackAdd": 4.224,
+   "hpBase": 214.368,
+   "hpAdd": 7.656,
+   "defenseBase": 97.02,
+   "defenseAdd": 3.465,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 102,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 16000
+    },
+    {
+     "id": 633348,
+     "count": 6
+    },
+    {
+     "id": 468391,
+     "count": 3
+    }
+   ],
+   "attackBase": 152.064,
+   "attackAdd": 4.224,
+   "hpBase": 275.616,
+   "hpAdd": 7.656,
+   "defenseBase": 124.74,
+   "defenseAdd": 3.465,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 102,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 40000
+    },
+    {
+     "id": 633348,
+     "count": 9
+    },
+    {
+     "id": 468391,
+     "count": 7
+    }
+   ],
+   "attackBase": 185.856,
+   "attackAdd": 4.224,
+   "hpBase": 336.864,
+   "hpAdd": 7.656,
+   "defenseBase": 152.46,
+   "defenseAdd": 3.465,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 102,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 80000
+    },
+    {
+     "id": 717289,
+     "count": 6
+    },
+    {
+     "id": 468391,
+     "count": 20
+    }
+   ],
+   "attackBase": 219.648,
+   "attackAdd": 4.224,
+   "hpBase": 398.112,
+   "hpAdd": 7.656,
+   "defenseBase": 180.18,
+   "defenseAdd": 3.465,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 102,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 160000
+    },
+    {
+     "id": 717289,
+     "count": 9
+    },
+    {
+     "id": 468391,
+     "count": 35
+    }
+   ],
+   "attackBase": 253.44,
+   "attackAdd": 4.224,
+   "hpBase": 459.36,
+   "hpAdd": 7.656,
+   "defenseBase": 207.9,
+   "defenseAdd": 3.465,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 102,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": [],
+   "attackBase": 287.232,
+   "attackAdd": 4.224,
+   "hpBase": 520.608,
+   "hpAdd": 7.656,
+   "defenseBase": 235.62,
+   "defenseAdd": 3.465,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 102,
+   "speedAdd": 0
+  }
+ ],
+ "ranks": [
+  {
+   "id": 1,
+   "iconPath": "",
+   "artPath": "74a4c38f0b18576adef9f83b63d4d6123045c88945d01bae0d17cb2f26e13d2a",
+   "name": "Legacy of Honor",
+   "descHash": "After Welt uses his Ultimate, his abilities are enhanced. The next <nobr>#3[i]</nobr> time(s) he uses his Basic ATK or Skill, deals Additional DMG to the target equal to <nobr>#1[i]%</nobr> of his Basic ATK's DMG multiplier or <nobr>#2[i]%</nobr> of his Skill's DMG multiplier respectively.",
+   "params": [
+    0.5,
+    0.8,
+    2
+   ]
+  },
+  {
+   "id": 2,
+   "iconPath": "",
+   "artPath": "278203a4bba3464b54bbf52c0f4ed6bcc419368d6569142c4868edf03f80ed63",
+   "name": "Conflux of Stars",
+   "descHash": "When his Talent is triggered, Welt regenerates <nobr>#1[i]</nobr> Energy.",
+   "params": [
+    3
+   ]
+  },
+  {
+   "id": 3,
+   "iconPath": "",
+   "artPath": "4f5b75ec3cbcba5f38c7013d6f113057ced8ce01c9f55a930c41c50d22f8eb22",
+   "name": "Prayer of Peace",
+   "descHash": "Skill Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Basic ATK Lv. +1, up to a maximum of Lv. <nobr>10</nobr>.",
+   "params": []
+  },
+  {
+   "id": 4,
+   "iconPath": "",
+   "artPath": "8ccbb790bfa1a3d9a4a5181abd6e9be84c476b27ad68b75fed51a02f5c384239",
+   "name": "Appellation of Justice",
+   "descHash": "Base chance for Skill to inflict SPD Reduction increases by <nobr>#1[i]%</nobr>.",
+   "params": [
+    0.35
+   ]
+  },
+  {
+   "id": 5,
+   "iconPath": "",
+   "artPath": "60499953206aeb7368d645e7beb6ee5d4a91ce6908a183c77b5364843d97b4dd",
+   "name": "Power of Kindness",
+   "descHash": "Ultimate Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Talent Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.",
+   "params": []
+  },
+  {
+   "id": 6,
+   "iconPath": "",
+   "artPath": "62213bc928310f53b4517686cfb0c67fbc8857db37367eed80acc9992037aa15",
+   "name": "Prospect of Glory",
+   "descHash": "When using Skill, deals DMG for 1 extra time to a random enemy.",
+   "params": []
+  }
+ ],
+ "skillGrouping": [
+  [
+   628516
+  ],
+  [
+   913043
+  ],
+  [
+   796398
+  ],
+  [
+   80925
+  ],
+  [
+   197570
+  ]
+ ],
+ "skills": [
+  {
+   "id": 628516,
+   "name": "Gravity Suppression",
+   "tagHash": "Single Target",
+   "descHash": "Deals <span style=\"color:#F4D258;\">Imaginary</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Welt's ATK to a single enemy.",
+   "typeDescHash": "Basic ATK",
+   "iconPath": "4d5a9f69256e0a7ee7bee351369cab621be7ddd503606e818108a2a7358901af",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      0.5
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 2,
+     "params": [
+      0.6
+     ],
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635669,
+       "count": 3
+      },
+      {
+       "id": 549407,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "params": [
+      0.7
+     ],
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920196,
+       "count": 3
+      },
+      {
+       "id": 633348,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "params": [
+      0.8
+     ],
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920196,
+       "count": 5
+      },
+      {
+       "id": 633348,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "params": [
+      0.9
+     ],
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836255,
+       "count": 3
+      },
+      {
+       "id": 717289,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "params": [
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836255,
+       "count": 8
+      },
+      {
+       "id": 717289,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "params": [
+      1.1
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 8,
+     "params": [
+      1.2
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 9,
+     "params": [
+      1.3
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  },
+  {
+   "id": 913043,
+   "name": "Edge of the Void",
+   "tagHash": "Bounce",
+   "descHash": "Deals <span style=\"color:#F4D258;\">Imaginary</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Welt's ATK to a single enemy and further deals DMG 2 extra times, with each time dealing <span style=\"color:#F4D258;\">Imaginary</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Welt's ATK to a random enemy. On hit, there is a <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#2[i]%</nobr></span> <u>base chance</u> to reduce the enemy's SPD by <nobr>#3[i]%</nobr> for <nobr>#4[i]</nobr> turn(s).",
+   "typeDescHash": "Skill",
+   "iconPath": "084baa923b3eacb28b4134d6b468e2feb2acade78fc90754912d82fcbc72469c",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      0.36,
+      0.65,
+      0.1,
+      2
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 2,
+     "params": [
+      0.396,
+      0.66,
+      0.1,
+      2
+     ],
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 549407,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "params": [
+      0.432,
+      0.67,
+      0.1,
+      2
+     ],
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635669,
+       "count": 3
+      },
+      {
+       "id": 549407,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "params": [
+      0.468,
+      0.68,
+      0.1,
+      2
+     ],
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920196,
+       "count": 3
+      },
+      {
+       "id": 633348,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "params": [
+      0.504,
+      0.69,
+      0.1,
+      2
+     ],
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920196,
+       "count": 5
+      },
+      {
+       "id": 633348,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "params": [
+      0.54,
+      0.7,
+      0.1,
+      2
+     ],
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920196,
+       "count": 7
+      },
+      {
+       "id": 633348,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "params": [
+      0.585,
+      0.7125,
+      0.1,
+      2
+     ],
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836255,
+       "count": 3
+      },
+      {
+       "id": 717289,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "params": [
+      0.63,
+      0.725,
+      0.1,
+      2
+     ],
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836255,
+       "count": 5
+      },
+      {
+       "id": 985668,
+       "count": 1
+      },
+      {
+       "id": 717289,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "params": [
+      0.675,
+      0.7375,
+      0.1,
+      2
+     ],
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836255,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 985668,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "params": [
+      0.72,
+      0.75,
+      0.1,
+      2
+     ],
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836255,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 985668,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 11,
+     "params": [
+      0.756,
+      0.76,
+      0.1,
+      2
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 12,
+     "params": [
+      0.792,
+      0.77,
+      0.1,
+      2
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 13,
+     "params": [
+      0.828,
+      0.78,
+      0.1,
+      2
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 14,
+     "params": [
+      0.864,
+      0.79,
+      0.1,
+      2
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 15,
+     "params": [
+      0.9,
+      0.8,
+      0.1,
+      2
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  },
+  {
+   "id": 796398,
+   "name": "Synthetic Black Hole",
+   "tagHash": "AoE",
+   "descHash": "Deals <span style=\"color:#F4D258;\">Imaginary</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Welt's ATK to all enemies, with a <nobr>#3[i]%</nobr> <u>base chance</u> for enemies hit by this ability to be Imprisoned for 1 turn.<br />Imprisoned enemies have their <u>actions delayed</u> by <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#2[i]%</nobr></span> and SPD reduced by <nobr>#4[i]%</nobr>.",
+   "typeDescHash": "Ultimate",
+   "iconPath": "facf8dcbcd26a421baf6f2f925816e303710efc98b2e4e943348941515f0e14f",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      0.9,
+      0.32,
+      1,
+      0.1
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 2,
+     "params": [
+      0.96,
+      0.328,
+      1,
+      0.1
+     ],
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 549407,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "params": [
+      1.02,
+      0.336,
+      1,
+      0.1
+     ],
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635669,
+       "count": 3
+      },
+      {
+       "id": 549407,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "params": [
+      1.08,
+      0.344,
+      1,
+      0.1
+     ],
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920196,
+       "count": 3
+      },
+      {
+       "id": 633348,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "params": [
+      1.14,
+      0.352,
+      1,
+      0.1
+     ],
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920196,
+       "count": 5
+      },
+      {
+       "id": 633348,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "params": [
+      1.2,
+      0.36,
+      1,
+      0.1
+     ],
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920196,
+       "count": 7
+      },
+      {
+       "id": 633348,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "params": [
+      1.275,
+      0.37,
+      1,
+      0.1
+     ],
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836255,
+       "count": 3
+      },
+      {
+       "id": 717289,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "params": [
+      1.35,
+      0.38,
+      1,
+      0.1
+     ],
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836255,
+       "count": 5
+      },
+      {
+       "id": 985668,
+       "count": 1
+      },
+      {
+       "id": 717289,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "params": [
+      1.425,
+      0.39,
+      1,
+      0.1
+     ],
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836255,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 985668,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "params": [
+      1.5,
+      0.4,
+      1,
+      0.1
+     ],
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836255,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 985668,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 11,
+     "params": [
+      1.56,
+      0.408,
+      1,
+      0.1
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 12,
+     "params": [
+      1.62,
+      0.416,
+      1,
+      0.1
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 13,
+     "params": [
+      1.68,
+      0.424,
+      1,
+      0.1
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 14,
+     "params": [
+      1.74,
+      0.432,
+      1,
+      0.1
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 15,
+     "params": [
+      1.8,
+      0.44,
+      1,
+      0.1
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ],
+   "ultimateCost": 120
+  },
+  {
+   "id": 80925,
+   "name": "Time Distortion",
+   "tagHash": "Enhance",
+   "descHash": "When hitting an enemy that is already Slowed, Welt deals <u>Additional</u> <span style=\"color:#F4D258;\">Imaginary</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of his ATK to the enemy.",
+   "typeDescHash": "Talent",
+   "iconPath": "1246a59021fd8715e501a7ecb61da2af77aa8dc3b1d2b5bee3510fc9f45ebb3d",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      0.3
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 2,
+     "params": [
+      0.33
+     ],
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2500
+      },
+      {
+       "id": 549407,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "params": [
+      0.36
+     ],
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 5000
+      },
+      {
+       "id": 635669,
+       "count": 3
+      },
+      {
+       "id": 549407,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "params": [
+      0.39
+     ],
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 10000
+      },
+      {
+       "id": 920196,
+       "count": 3
+      },
+      {
+       "id": 633348,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "params": [
+      0.42
+     ],
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 20000
+      },
+      {
+       "id": 920196,
+       "count": 5
+      },
+      {
+       "id": 633348,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "params": [
+      0.45
+     ],
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 30000
+      },
+      {
+       "id": 920196,
+       "count": 7
+      },
+      {
+       "id": 633348,
+       "count": 6
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "params": [
+      0.4875
+     ],
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 45000
+      },
+      {
+       "id": 836255,
+       "count": 3
+      },
+      {
+       "id": 717289,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "params": [
+      0.525
+     ],
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 80000
+      },
+      {
+       "id": 836255,
+       "count": 5
+      },
+      {
+       "id": 985668,
+       "count": 1
+      },
+      {
+       "id": 717289,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "params": [
+      0.5625
+     ],
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 160000
+      },
+      {
+       "id": 836255,
+       "count": 8
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 985668,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "params": [
+      0.6
+     ],
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 300000
+      },
+      {
+       "id": 836255,
+       "count": 14
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 985668,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 11,
+     "params": [
+      0.63
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 12,
+     "params": [
+      0.66
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 13,
+     "params": [
+      0.69
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 14,
+     "params": [
+      0.72
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 15,
+     "params": [
+      0.75
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  },
+  {
+   "id": 281511,
+   "name": "Attack",
+   "tagHash": "",
+   "descHash": "Attack an enemy, and when the battle starts, reduce their Toughness of the corresponding Type.",
+   "typeDescHash": "",
+   "iconPath": "4d5a9f69256e0a7ee7bee351369cab621be7ddd503606e818108a2a7358901af",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  },
+  {
+   "id": 197570,
+   "name": "Gravitational Imprisonment",
+   "tagHash": "Impair",
+   "descHash": "After using Welt's Technique, create a dimension that lasts for <nobr>#4[i]</nobr> second(s). Enemies in this dimension have their Movement SPD reduced by <nobr>#5[i]%</nobr>. After entering battle with enemies in the dimension, there is a <nobr>#1[i]%</nobr> <u>base chance</u> to Imprison the enemies for 1 turn.<br />Imprisoned enemies have their <u>actions delayed</u> by <nobr>#2[i]%</nobr> and SPD reduced by <nobr>#3[i]%</nobr>. Only 1 dimension created by allies can exist at the same time.",
+   "typeDescHash": "Technique",
+   "iconPath": "17fe637afc7300308a612d9c30c10641334d3205ad16835fb4efb4ab873b23b8",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      1,
+      0.2,
+      0.1,
+      15,
+      0.5
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  }
+ ],
+ "skillTreePoints": [
+  {
+   "id": 1004101,
+   "type": 1,
+   "children": [
+    {
+     "id": 1004202,
+     "type": 2,
+     "children": [
+      {
+       "id": 1004203,
+       "type": 2,
+       "children": [
+        {
+         "id": 1004204,
+         "type": 2,
+         "children": [],
+         "embedBuff": {
+          "id": 233111,
+          "name": "Effect RES Boost",
+          "levelReq": 0,
+          "promotionReq": 3,
+          "iconPath": "5e0ea9beeaea4aebaec6fa80218757c7123e5d8d63565bc255c08d6af87ebc7e",
+          "statusList": [
+           {
+            "key": "Effect RES",
+            "value": 0.04
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 10000
+           },
+           {
+            "id": 920196,
+            "count": 3
+           },
+           {
+            "id": 633348,
+            "count": 3
+           }
+          ]
+         }
+        }
+       ],
+       "embedBuff": {
+        "id": 233114,
+        "name": "ATK Boost",
+        "levelReq": 0,
+        "promotionReq": 3,
+        "iconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5",
+        "statusList": [
+         {
+          "key": "ATK",
+          "value": 0.04
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 10000
+         },
+         {
+          "id": 920196,
+          "count": 3
+         },
+         {
+          "id": 633348,
+          "count": 3
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 233113,
+      "name": "DMG Boost: Imaginary",
+      "levelReq": 0,
+      "promotionReq": 2,
+      "iconPath": "b10a43943e57ac6452d5a3a6d13a98d314da19edcff2fe7de6e53bc2d55a6894",
+      "statusList": [
+       {
+        "key": "<span style=\"color:#F4D258;\">Imaginary</span> DMG Boost",
+        "value": 0.032
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 635669,
+        "count": 3
+       },
+       {
+        "id": 549407,
+        "count": 6
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "id": 233017,
+    "name": "Retribution",
+    "descHash": "When using Ultimate, there is a <nobr>#1[i]%</nobr> base chance to increase the DMG received by the targets by <nobr>#2[i]%</nobr> for <nobr>#3[i]</nobr> turn(s).",
+    "iconPath": "403909fefee57375af0936741017c662b3f1c6efc5ac0e6df27638de746b6caf",
+    "levelReq": 0,
+    "promotionReq": 2,
+    "levelData": [
+     {
+      "level": 1,
+      "params": [
+       1,
+       0.12,
+       2
+      ],
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 5000
+       },
+       {
+        "id": 635669,
+        "count": 3
+       },
+       {
+        "id": 985668,
+        "count": 1
+       }
+      ]
+     }
+    ],
+    "ultimateCost": 0
+   }
+  },
+  {
+   "id": 1004102,
+   "type": 1,
+   "children": [
+    {
+     "id": 1004205,
+     "type": 2,
+     "children": [
+      {
+       "id": 1004206,
+       "type": 2,
+       "children": [
+        {
+         "id": 1004207,
+         "type": 2,
+         "children": [],
+         "embedBuff": {
+          "id": 233110,
+          "name": "ATK Boost",
+          "levelReq": 0,
+          "promotionReq": 5,
+          "iconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5",
+          "statusList": [
+           {
+            "key": "ATK",
+            "value": 0.06
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 45000
+           },
+           {
+            "id": 836255,
+            "count": 3
+           },
+           {
+            "id": 717289,
+            "count": 3
+           }
+          ]
+         }
+        }
+       ],
+       "embedBuff": {
+        "id": 233109,
+        "name": "DMG Boost: Imaginary",
+        "levelReq": 0,
+        "promotionReq": 5,
+        "iconPath": "b10a43943e57ac6452d5a3a6d13a98d314da19edcff2fe7de6e53bc2d55a6894",
+        "statusList": [
+         {
+          "key": "<span style=\"color:#F4D258;\">Imaginary</span> DMG Boost",
+          "value": 0.048
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 45000
+         },
+         {
+          "id": 836255,
+          "count": 3
+         },
+         {
+          "id": 717289,
+          "count": 3
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 233112,
+      "name": "ATK Boost",
+      "levelReq": 0,
+      "promotionReq": 4,
+      "iconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5",
+      "statusList": [
+       {
+        "key": "ATK",
+        "value": 0.06
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 920196,
+        "count": 5
+       },
+       {
+        "id": 633348,
+        "count": 4
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "id": 233020,
+    "name": "Judgment",
+    "descHash": "Using Ultimate additionally regenerates <nobr>#1[i]</nobr> Energy.",
+    "iconPath": "8e01536eba5376e99f029ae105813e242864b0cd3bb72a38e5ee8195ffe28c30",
+    "levelReq": 0,
+    "promotionReq": 4,
+    "levelData": [
+     {
+      "level": 1,
+      "params": [
+       10
+      ],
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 20000
+       },
+       {
+        "id": 920196,
+        "count": 5
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 985668,
+        "count": 1
+       }
+      ]
+     }
+    ],
+    "ultimateCost": 0
+   }
+  },
+  {
+   "id": 1004103,
+   "type": 1,
+   "children": [
+    {
+     "id": 1004208,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 233123,
+      "name": "Effect RES Boost",
+      "levelReq": 0,
+      "promotionReq": 6,
+      "iconPath": "5e0ea9beeaea4aebaec6fa80218757c7123e5d8d63565bc255c08d6af87ebc7e",
+      "statusList": [
+       {
+        "key": "Effect RES",
+        "value": 0.06
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836255,
+        "count": 8
+       },
+       {
+        "id": 717289,
+        "count": 8
+       }
+      ]
+     }
+    },
+    {
+     "id": 1004209,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 233124,
+      "name": "DMG Boost: Imaginary",
+      "levelReq": 75,
+      "promotionReq": 0,
+      "iconPath": "b10a43943e57ac6452d5a3a6d13a98d314da19edcff2fe7de6e53bc2d55a6894",
+      "statusList": [
+       {
+        "key": "<span style=\"color:#F4D258;\">Imaginary</span> DMG Boost",
+        "value": 0.064
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836255,
+        "count": 8
+       },
+       {
+        "id": 717289,
+        "count": 8
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "id": 233019,
+    "name": "Punishment",
+    "descHash": "Deals <nobr>#1[i]%</nobr> more DMG to enemies inflicted with Weakness Break.",
+    "iconPath": "9d283cb660f1692a0aa9a55416ccec4a9347af6ec37be41c655cfbdd61481739",
+    "levelReq": 0,
+    "promotionReq": 6,
+    "levelData": [
+     {
+      "level": 1,
+      "params": [
+       0.2
+      ],
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836255,
+        "count": 8
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 985668,
+        "count": 1
+       }
+      ]
+     }
+    ],
+    "ultimateCost": 0
+   }
+  },
+  {
+   "id": 1004201,
+   "type": 2,
+   "children": [
+    {
+     "id": 1004210,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 149174,
+      "name": "ATK Boost",
+      "levelReq": 80,
+      "promotionReq": 0,
+      "iconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5",
+      "statusList": [
+       {
+        "key": "ATK",
+        "value": 0.08
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 160000
+       },
+       {
+        "id": 836255,
+        "count": 8
+       },
+       {
+        "id": 717289,
+        "count": 8
+       }
+      ]
+     }
+    }
+   ],
+   "embedBuff": {
+    "id": 233116,
+    "name": "ATK Boost",
+    "levelReq": 1,
+    "promotionReq": 0,
+    "iconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5",
+    "statusList": [
+     {
+      "key": "ATK",
+      "value": 0.04
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 2500
+     },
+     {
+      "id": 549407,
+      "count": 2
+     }
+    ]
+   }
+  }
+ ],
+ "relicRecommend": {
+  "twoPcSets": [],
+  "fourPcSets": [],
+  "props": [
+   {
+    "relicTypeHash": "Body",
+    "relicTypeIcon": "87a68da58f5ca7f656d3ebf27bc84c5c32aafd164f2406af6b95c0e46277496b",
+    "propertyName": "CRIT Rate",
+    "propertyIconPath": "2bf7f8117bb4bac5bac4a4b7866f2bf3c272b526b8d945ece48991383f5f9f96"
+   },
+   {
+    "relicTypeHash": "Feet",
+    "relicTypeIcon": "5d8394f899a9cc41333630a3475d525b65c4a7cf59d16cdc4ac0acccc082259c",
+    "propertyName": "ATK",
+    "propertyIconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5"
+   },
+   {
+    "relicTypeHash": "Planar Sphere",
+    "relicTypeIcon": "fd22786ef5ef0aee8953005c423739fe85fd85b16b82a3f7f18910499a4368b5",
+    "propertyName": "Imaginary DMG Boost",
+    "propertyIconPath": "b10a43943e57ac6452d5a3a6d13a98d314da19edcff2fe7de6e53bc2d55a6894"
+   },
+   {
+    "relicTypeHash": "Link Rope",
+    "relicTypeIcon": "245bb6e30915d9ab6a042e37499ad3a0b0d022208a5fee05417b7cd3c088e357",
+    "propertyName": "Energy Regeneration Rate",
+    "propertyIconPath": "fa8f924ec11e6c11cad9d7a54d1db3dc1e9ad5a276eeb58ab17f2395a1b3522c"
+   }
+  ]
+ },
+ "voiceItems": [
+  {
+   "id": 1,
+   "title": "First Meeting",
+   "text": "Hi, I'm Welt Yang. If there's something you need help with, you can come find me anytime.",
+   "unlockRequirement": "",
+   "cnUrl": "73ff29016b93df55bbadf295ea91ed7d8a115b3ce2a88983138e1251ef81a1f0",
+   "jpUrl": "db10baf821028b5d6182a0568db5ea947c130eba92f117c57ebef9f38859409e",
+   "enUrl": "d495175df468c35708ceff1f5a095e989c0631a69a9417a039c4c6d4afdeb5cb",
+   "krUrl": "c15fccc53c0f2eeb86cabbdb1e27cf3042a6de006f5bed60e347f0a6313069d4"
+  },
+  {
+   "id": 2,
+   "title": "Greeting",
+   "text": "Hm? Still half asleep? Don't force yourself. You should get some more rest.",
+   "unlockRequirement": "",
+   "cnUrl": "64bc4cc5a86ca4fd37a452e531e182df1ca037eeaf37c70b78a16db94055cd33",
+   "jpUrl": "03f89368c1a100615cded81104a7045a517996a0d8f583886489fb4168d25a18",
+   "enUrl": "15542196ca688d295d17fa3c132d1394e3440d67ace9dd4ee3afdc48047ee00e",
+   "krUrl": "f7b3ed96bfc133efb79573ef9e0b7da9c04ce4fa6d4b2a331c6044dec2a71478"
+  },
+  {
+   "id": 3,
+   "title": "Parting",
+   "text": "Can't sleep? I understand \u2014 inspiration always comes knocking in the small hours. It's hard to ignore, right?",
+   "unlockRequirement": "",
+   "cnUrl": "6f195e34734dd515d9c337640b411fc4e57140318e31073f4215e71f2b3c772e",
+   "jpUrl": "f7a5be5dc4f23e19d10996b8f80be0834cf1ba7d0f1fe58a2d4702d911f88a7e",
+   "enUrl": "a0c2acec202226152d9731a66af44319094defe76df7ea6af4d08a3b2e13791b",
+   "krUrl": "81ac31efbf38be605c6fa5dafca7e191ceaf68569143dc0263797cd5a14871fd"
+  },
+  {
+   "id": 4,
+   "title": "About Self: Previous Profession",
+   "text": "I was an animator for eight years \u2014 my life was pretty routine. I guess it was a little dull compared with adventuring, but work is a very worthwhile thing. It brings dreams to life.",
+   "unlockRequirement": "",
+   "cnUrl": "99a12268636a813dec1816dadfa9ad50de9dc5f4ef4f11c56cf8c01890729db7",
+   "jpUrl": "918277f3bc65901396a1ec2a6f13baa1c04af678cc229a6385ce9622d89065d7",
+   "enUrl": "c4818d17d50bad422bd18b8e26aa592fae152a61a66e33d86ad89fd0499f1a5b",
+   "krUrl": "a7676053c8ea26070f863476dc4f72a3ce1aa8f20860e355a591d132faeadfe7"
+  },
+  {
+   "id": 5,
+   "title": "About Self: Reason for Boarding the Express",
+   "text": "*sigh* It's a long story, and it involves a lot of people and incidents that everyone would like to forget about, haha. Best not to talk about it. In essence, I got lost in the universe, but was fortunate enough to come across Himeko driving the Express.",
+   "unlockRequirement": "",
+   "cnUrl": "fba44bec149aa44b9a5bf3472c10dc2375df9dcff3e379aa4a365cc8d87b1086",
+   "jpUrl": "ddb841368322e0c93c09c1f899a90cd240214797e5f994f20072a65c45d0cb9f",
+   "enUrl": "ae20bc431322519f0768718700357eec35842800b6b94a010a856d61646f76fa",
+   "krUrl": "62947163cb6bd875953c4ce89484ce6ec30062ea477404da924cc586f296683f"
+  },
+  {
+   "id": 6,
+   "title": "Chat: Arahato",
+   "text": "Oh, there's a lot to say there. They only aired that series on my home world \u2014 I don't know if there's anywhere else in the universe that'd have it... I can use my mimicry power to show you a few episodes, but I can't guarantee the resolution.",
+   "unlockRequirement": "",
+   "cnUrl": "36b7b128e8817edf1ef158ba0641acb06137d41b0ee25c912325d81e5a064555",
+   "jpUrl": "525140cee1b537d700118c50dcc176170dff347b9aee247c87cfaa0cb314fac2",
+   "enUrl": "3cbf13adb6836ec36820740271b42875d01d8e3f68481ad0168eae0cff18d1ac",
+   "krUrl": "08d10d42c359d07085d6f29385e9b8eca74f4789061a44605bebaaccc485ad30"
+  },
+  {
+   "id": 7,
+   "title": "Hobbies",
+   "text": "Researching history and producing animations... I'd say they go hand in hand.",
+   "unlockRequirement": "",
+   "cnUrl": "1b88c407cc55a58755024eaa7e3c39b69fa87befcadc749ae245b5dfb6f40e6e",
+   "jpUrl": "5c748a2b1b61918e165f4e2b24b9ccf4635542ca76052be65061738f5f6bfd52",
+   "enUrl": "087e60e7cead4db6267f5a1698eca8a95ec76166e7142167ed321fb6d75f646b",
+   "krUrl": "ebb4eaeabf755a5565e764033b55e4b8eb120098a49f1a81fc647abf69df8bc9"
+  },
+  {
+   "id": 8,
+   "title": "Annoyances",
+   "text": "Y'know Trailblazer, you remind me of the main character in a cartoon or something \u2014 you seem to attract companions out of thin air... *sigh* I hope you don't mind me saying that. It's just... it seems like my own chances of going on an adventure have plummeted again...",
+   "unlockRequirement": "",
+   "cnUrl": "df305fab297279b0371a991b4ef54d02def98b1636f69f11b8a5d055aa5a4305",
+   "jpUrl": "30a549e1fcfd87ca873c682e07859193afcb682941f7f4bb400329385c3abccf",
+   "enUrl": "0b379165d5197c5f06374a4322e7bde5c8bf6cf49560fa218fade76aac976dfa",
+   "krUrl": "a30f358e2bf70fe8803518b503ac0dd2c2375c97fee67eb5b94f633b053c7a31"
+  },
+  {
+   "id": 9,
+   "title": "Something to Share",
+   "text": "My home was corroded by a force known as Honkai, but that hasn't stopped it from being a warm and beautiful world.",
+   "unlockRequirement": "",
+   "cnUrl": "85abc8ecf58e4973c0e08e1feb60a907db1aca33db42660504487bed640ebec8",
+   "jpUrl": "ce9390740720b0a1cd9988dfddcca2ea82ff0382e613332a2929185e5ff3fb26",
+   "enUrl": "29defee10ef462d5e9f2a442895acfbfd2a0c564bd3484aec10b1f2e2bd2b3a9",
+   "krUrl": "5b4ad61fc47e77dd239e03c14ff7ffecbc90b528aacb995744773550fe801e5d"
+  },
+  {
+   "id": 10,
+   "title": "Knowledge",
+   "text": "Do you know how the followers of Qlipoth the Preservation became the Interastral Peace Corporation? The Aeon wanted to build a wall, and humanity started searching for building materials so they could follow in Qlipoth's footsteps... it's pretty funny when you think about it.",
+   "unlockRequirement": "",
+   "cnUrl": "af1d9c1124be288b98121e0a09f9116f9b95946f7f945d62b7192a24276b4a50",
+   "jpUrl": "6d22e4a34099c89ae4b1f2d6103853b9500a92c36175821a228272abc21357db",
+   "enUrl": "065f392e41fd9053dcb2399c6e242a1651bfb6ed3e1e20753deff25d49f2a9e2",
+   "krUrl": "f9233da06628096d6e7640e66529534a483347dbf4c0e80e3338f3a253e8a14e"
+  },
+  {
+   "id": 11,
+   "title": "About March 7th",
+   "text": "March is curious about everything, and she's always getting me to do combat poses. She thinks I pull them off pretty well, apparently. You think so too? Hmm...",
+   "unlockRequirement": "",
+   "cnUrl": "9f057cade67443063e916f39b0fb9b28b5529375716e0bbe89d358b88ada9975",
+   "jpUrl": "ab5562b67d3909d14cb2562043c577641e087e7eb608a3d508428a9d06832a0e",
+   "enUrl": "04ae754934b6f106629c2271e151d55fc7454ef1c4b1674df3900e054832ab9a",
+   "krUrl": "4d26e8dce26b80548e83962b9b9f511f00709160aa2214a376bcd10f43f48ac4"
+  },
+  {
+   "id": 12,
+   "title": "About Dan Heng",
+   "text": "He's safe. I know he has his doubts... but he's one of the crew now. Himeko and I won't let anyone harm him.",
+   "unlockRequirement": "",
+   "cnUrl": "8e0493bd5317ca42ba384820713e3474f2a60da0d280921cf304e52c65a8f246",
+   "jpUrl": "e6fd21002e27662ebde56aa78221ce72151c65e636555b1b56df8790656c4fb5",
+   "enUrl": "d1f11628d868f7b31631c066f9bb07f85342e8f9ddc042318662c6aad23fa754",
+   "krUrl": "190d45ffa87bca622ba4c995650c04350f2514ab9a2a1a5ffcd71f2865b868d7"
+  },
+  {
+   "id": 13,
+   "title": "About Himeko",
+   "text": "Himeko's the kind of person that... gives off her own light. Even though we're traveling across the train's old route, you can see Himeko's dreams flashing before her eyes when you look at her. It's almost as if she's been on the train from the very beginning \u2014 always moving starward.",
+   "unlockRequirement": "",
+   "cnUrl": "8c96a67743ac371c6958bb7a289f4304b4987aa5884911375d7148149f636f9c",
+   "jpUrl": "93cb7d9dcb415d824af74bef50caec3119852d84b486676cdfc4b4976a4241bc",
+   "enUrl": "935efcbd56bb64ccf8d269a99df9474447a1cb26db33f2245c773cc045f738d7",
+   "krUrl": "25635a390b6eb4061169939ca72a2e549009bb1da598b977169c48dcefd9c6f6"
+  },
+  {
+   "id": 14,
+   "title": "About Pom-Pom",
+   "text": "Pom-Pom's always there to lend a helping hand, but I'd refrain from teasing them if I were you. The last person that did that...",
+   "unlockRequirement": "",
+   "cnUrl": "73e6ccb913c8d8a51ea0a8d31139aeacc44a17eafb95ce5adfbd149b1f50ca97",
+   "jpUrl": "5a109ff19a6cbc733c4f35fde52878709e0b42e3b1fe583932c54654cfe6396c",
+   "enUrl": "b9bd44144c03c7a40b11c20f60cf31354c0a654af1478b1ec7fb7244d1295a7a",
+   "krUrl": "273b83b6cc3382a15856e0e9e52e26d7f81bc11b39fdb5851d0b1bdeb8923729"
+  }
+ ],
+ "storyItems": [
+  {
+   "title": "Character Details",
+   "text": "The wise and experienced former Anti-Entropy Sovereign who inherited the name of the world \u2014 Welt. He has saved Earth from annihilation time and time again.<br />After the incident with St. Fountain came to a close, Welt had no choice but to venture with the initiator of the incident to the other side of the portal.<br />Perhaps even he did not expect the new journey nor companions that awaited him there.",
+   "unlockRequirement": ""
+  },
+  {
+   "title": "Character Story: Part I",
+   "text": "On the way to the portal, Welt took out a pen and started outlining a sketch. For the eight years prior to that moment, he'd been repeating this job.<br /><br />Going back further in time, he would construct objects in a different way, as long as the images could be pictured in his mind. But he could never regard that as \"creation,\" because they were just the way the original is. Those had nothing to do with his mind.<br /><br />This is just the duty of the man who inherited the name of the world. If the world needs him to save it, then he will become that hero without hesitation. He has fallen down many times and been mocked even more, but he will always stand before everyone either in the past or the future \u2014 he will never change.<br /><br />Only now, he finds himself embarking on a new journey.",
+   "unlockRequirement": "Unlocked at Character Level <nobr>20</nobr>"
+  },
+  {
+   "title": "Character Story: Part II",
+   "text": "When Welt returned to that dangerous cosmic battlefield, he could feel his blood start to boil once more.<br /><br />Even when his spaceship lost power and was drifting aimlessly through space, he joked casually with his companion: \"The end of one adventure is often the beginning of another.\"<br /><br />When a passing-by Himeko managed to save them and informed them that they couldn't go back home, he kept up his jokes: \"This is like something out of a cartoon, and it's far too coincidental to be real.\"<br /><br />Life really is this coincidental.<br /><br />Since he can't find his way back home and can't live out a peaceful existence for the time being, why doesn't he take up arms again and fight?<br /><br />This time, there is no burden or destiny to bear. Everything shall obey his own will",
+   "unlockRequirement": "Unlocked at Character Level <nobr>40</nobr>"
+  },
+  {
+   "title": "Character Story: Part III",
+   "text": "These days, Welt rarely fights, and it remains unknown whether or not he retains the strength from his heyday. Gravity manipulation has remained his usual combat means, ever since his cane was transformed from the Star of Eden.<br /><br />He suppresses his enemies with gravity, even creating a kind of mini-black hole \u2014 what he considered his everyday powers are met with amazement by the youngsters on the Express.<br /><br />\"Mr. Yang's incredible, amazing!\"<br />\"If you need help with anything, Trailblazer, go ask Mr. Yang.\"<br />\"You need to take turns. Let him rest a little while...\"<br /><br />He is shocked to realize that his carelessness and surety are the results of his countless experiences, marks of the relentless passage of time he had endured. However, the youths aboard the Express are like blank pieces of paper, writing out their own lives.<br /><br />What kind of responsibilities should he take on in their lives?<br /><br />He couldn't help but think of the names of people throughout his life who had helped him before.",
+   "unlockRequirement": "Unlocked at Character Level <nobr>60</nobr>"
+  },
+  {
+   "title": "Character Story: Part IV",
+   "text": "\u2014 Welt's Log \u2588\u2588/\u2588\u2588/\u2588\u2588\u2588\u2588.<br /><br />\u2588\u2588\u2588's relationship with the protagonists:<br /><br />\u2588\u2014\u2588\u2588\u2588's sparkling personality is just like the protagonist in a cartoon. Go for it!<br />\u2588\u2588\u2588 \u2014 A lively youth. I hope she can keep being imaginative, and not feel guilty even if she stumbles. Youths are always going to make mistakes, and \u2588\u2588\u2588 will be able to support her.<br />\u2588\u2588 \u2014 A reliable youth. There's no need to worry about him. I hope he can chat more with \u2588\u2588\u2588, but if he doesn't want to, then that's fine.<br />\u2588\u2588 \u2014 I can trust this companion with my life, \u2588\u2588\u2588 believes she will make the right decision.<br />\u2588\u2588 \u2014 A common character in cartoons. Seemingly just a normal creature, but actually possesses frighteningly powerful abilities and a complicated background.<br /><br />Note: If I ever get back home, consider making a cartoon out of this.",
+   "unlockRequirement": "Unlocked at Character Level <nobr>80</nobr>"
+  }
+ ],
+ "archive": {
+  "cvCn": "\u5f6d\u535a",
+  "cvJp": "\u7d30\u8c37\u4f73\u6b63",
+  "cvKr": "\ud55c\uc2e0",
+  "cvEn": "Corey Landis",
+  "camp": "Astral Express"
+ },
+ "calculator": {
+  "expCost": {
+   "1": 200,
+   "2": 300,
+   "3": 500,
+   "4": 600,
+   "5": 1050,
+   "6": 1670,
+   "7": 2320,
+   "8": 3060,
+   "9": 3860,
+   "10": 4740,
+   "11": 5710,
+   "12": 6730,
+   "13": 7830,
+   "14": 9000,
+   "15": 10240,
+   "16": 11550,
+   "17": 12920,
+   "18": 14360,
+   "19": 15870,
+   "20": 16580,
+   "21": 16840,
+   "22": 17100,
+   "23": 17370,
+   "24": 17640,
+   "25": 17910,
+   "26": 18190,
+   "27": 18480,
+   "28": 18760,
+   "29": 19040,
+   "30": 19340,
+   "31": 19630,
+   "32": 19930,
+   "33": 20220,
+   "34": 20530,
+   "35": 20840,
+   "36": 21140,
+   "37": 21450,
+   "38": 21760,
+   "39": 22080,
+   "40": 22390,
+   "41": 25550,
+   "42": 29140,
+   "43": 32830,
+   "44": 36600,
+   "45": 40470,
+   "46": 44430,
+   "47": 48480,
+   "48": 52630,
+   "49": 56870,
+   "50": 61190,
+   "51": 65620,
+   "52": 70130,
+   "53": 74740,
+   "54": 79450,
+   "55": 84240,
+   "56": 89120,
+   "57": 94110,
+   "58": 99190,
+   "59": 104350,
+   "60": 106240,
+   "61": 111830,
+   "62": 117530,
+   "63": 123320,
+   "64": 129210,
+   "65": 135200,
+   "66": 141290,
+   "67": 147480,
+   "68": 153780,
+   "69": 160170,
+   "70": 179260,
+   "71": 199920,
+   "72": 220920,
+   "73": 242260,
+   "74": 263930,
+   "75": 285950,
+   "76": 308300,
+   "77": 331000,
+   "78": 354040,
+   "79": 377420,
+   "80": 414350
+  },
+  "expItemConfig": {
+   "1000": 409962,
+   "5000": 409961,
+   "20000": 409960
+  },
+  "sCoinId": 29328
+ },
+ "pageId": "welt"
+}

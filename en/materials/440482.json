@@ -1,0 +1,26 @@
+{
+ "iconPath": "99c760e7e0f562be3af0e92dfa57ece9d29db751534ea0f7e67d0e1469804749",
+ "name": "Strange Matter of Destruction",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 440482,
+  "type": 601,
+  "purposeId": 17,
+  "iconPath": "99c760e7e0f562be3af0e92dfa57ece9d29db751534ea0f7e67d0e1469804749",
+  "name": "Strange Matter of Destruction",
+  "desc": "Tier 3 Synthesis Material",
+  "lore": "Strange matter that seems to possess the power of destruction.<br />Resembling fire but not quite, it is neither cold nor hot and will damage anything that comes into contact with it for over <nobr>12</nobr> seconds.<br />Could be the Antimatter Legion's version of trash.<br /><br />\"Creatures that received blessing from Nanook all have twisted appearances.\"",
+  "purpose": "Synthesis material",
+  "rarity": 3,
+  "rewardPath": "/material/440482",
+  "comeFrom": [
+   "Storage Zone: Voidranger: Reavers or other enemies"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "440482"
+}

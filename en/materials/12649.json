@@ -1,0 +1,24 @@
+{
+ "iconPath": "7e8e4a861c9e0765c5267616795c5fbf86cdae38e527e71e4a169dff71027db8",
+ "name": "Ability Point",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 12649,
+  "type": 101,
+  "purposeId": 0,
+  "iconPath": "7e8e4a861c9e0765c5267616795c5fbf86cdae38e527e71e4a169dff71027db8",
+  "name": "Ability Point",
+  "desc": "Indescribable materials used to unlock abilities in the Simulated Universe.",
+  "lore": "A number you can accumulate or spend to strengthen Support systems in the Simulated Universe.<br /><br />\"It even took Screwllum two system hours to develop an anti-cheat module.\"",
+  "purpose": "",
+  "rarity": 3,
+  "rewardPath": "/material/12649",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "12649"
+}

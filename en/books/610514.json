@@ -1,0 +1,16 @@
+{
+ "name": "Asta's Equipment Purchase Contract",
+ "iconPath": "43df4ebbe92632aeab37fc7c04ae2b7346eebf4a58b1a0a8398fc384ee90908a",
+ "desc": "An equipment purchase contract signed by Asta to buy equipment for the space station out of her own pocket. It somehow fell into the hands of the wrong person.",
+ "volumes": [
+  {
+   "title": "Asta's Equipment Purchase Contract",
+   "localTitle": "Asta's Equipment Purchase Contract",
+   "localDesc": "Contract No.: <nobr>27149</nobr><br />Content: Custom instrument procurement<br /><br />Purchaser: Asta<br />Supplier: Interastral Peace Appliances<br /><br />1. Procurement content:<br />1. Purchase of Service-type Levitating Mini Robots - Space Station Customized Version - 3x6 units {Img#1}<br />2. Purchase of Object Finder \"Richard\" - Version <nobr>0.63</nobr> - Master model - Annual Limited Edition with charging dock - <nobr>10</nobr>x<nobr>10</nobr> units<br /><br />2. Quality Requirement:<br />Compliant to the Galactic General Testing Standard (<nobr>10086</nobr>) and Purchaser's specification<br /><br />3. Payment Method and Deadline:<br />Payment Method: Online Payment<br />Payment Deadline: Upon Delivery<br /><br />4. Delivery Address and Date:<br />Delivery Address: Asta, Herta Space Station, coordinates *****, *****<br />Delivery Due Date: <nobr>15</nobr> business days after the order is made<br /><br />5. Method of Receipt: On-site Receipt<br /><br />Purchaser (Stamp):<br />Representative (Signature):<br /><br />Supplier (Stamp): Interastral Peace Appliances External Sales Stamp<br />Representative (Signature): Charlie<br /><br />(This invoice is a deduction copy invoice. The stamp and signature must be uploaded to the company's platform after completion in order to conduct third-party audit verification.)",
+   "images": [
+    "1aebbbc379ab591f81481cf5924b9c55ef163be298a7625ac17b434189c8339f"
+   ]
+  }
+ ],
+ "pageId": "610514"
+}

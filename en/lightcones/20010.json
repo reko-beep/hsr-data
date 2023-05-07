@@ -1,0 +1,492 @@
+{
+ "name": "Defense",
+ "rarity": 3,
+ "descHash": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate. <br /><br />\"If you ever doubt these walls will lead us to victory, just look at these brave souls standing atop them.\"",
+ "iconPath": "ce043c4821f233e294ec39edd93e7178d3658e7c7f1bd419b56a443ec110cb32",
+ "artPath": "162f3eddf8f35ece79093f9cb7752db281f58b820a96f0d479c05301167940af",
+ "mediumIconPath": "060fe6c70b56d4ca6ef34e66717a3c5013be8559bfaefa3591c77b410d41ff1d",
+ "baseType": {
+  "id": 0,
+  "iconPath": "129eb76a6f0c9be69f8c2263f5e53030909c36d7e4de7a0571dd5665ac645b33",
+  "color": "#FFFFFF",
+  "name": "Preservation",
+  "rarity": 0
+ },
+ "baseTypeId": 0,
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "0e76659bbb3b9d0b1cc6a4e0e8c63a576c7b917f2f740a4b1b8ceab260a8a595",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards"
+   ]
+  },
+  "549437": {
+   "id": 549437,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "5930a427c19aedca23d55eb6ef670cc8ecf07466630281586f32f4d5e8d49409",
+   "name": "Thief's Instinct",
+   "desc": "A small amount of anti-matter. Crude material used for enhancement.",
+   "lore": "A small amount of anti-matter that emanates out of the Voidranger: Reaver like the materialization of its destructive instinct.<br /><br />\"They are all looking forward to the moment of obliteration, when they will be reforged and fused with the entire world.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 2,
+   "rewardPath": "/material/549437",
+   "comeFrom": [
+    "Storage Zone: Voidranger: Reavers or other enemies",
+    "Supply Zone: Voidranger: Reavers or other enemies",
+    "Simulated Universe enemies",
+    "Assignment rewards",
+    "Embers Exchange",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "633378": {
+   "id": 633378,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "69d0630f4dc8d8bb4706a8a973f720ce46452e189a62c7b8b6f2ca8d567ca8ae",
+   "name": "Usurper's Scheme",
+   "desc": "A moderate amount of anti-matter. Normal material used for enhancement.",
+   "lore": "A moderate amount of anti-matter that floats around the Voidranger: Distorter. The amount of matter and anti-matter particles has reached a dangerous balance...<br /><br />\"They are all looking forward to the moment of obliteration, when they will be reforged and fused with the entire world.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 3,
+   "rewardPath": "/material/633378",
+   "comeFrom": [
+    "Storage Zone: Equilibrium Level 2+ Voidranger: Reavers or other enemies",
+    "Supply Zone: Equilibrium Level 2+ Voidranger: Reavers or other enemies",
+    "Omni-Synthesizer \u2014 Material Synthesis",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "635668": {
+   "id": 635668,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "751785c1795d0c216b39deec5fa263ee8119f6295a1582c75e5f4a958a17a385",
+   "name": "Endurance of Bronze",
+   "desc": "A crude but durable ancient hand-held bronze shield. Used to level up Traces slightly for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Preservation</span> characters.",
+   "lore": "Ancient legends entail a war where humans exhausted all primitive methods, following the gods into battle against overwhelmingly powerful beasts.<br />This shield is a witness to that war.<br /><br />\"There's no choice but to stop it, even if the efforts are futile.\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 2,
+   "rewardPath": "/material/635668",
+   "comeFrom": [
+    "Calyx (Supply Zone)"
+   ]
+  },
+  "694487": {
+   "id": 694487,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "a5f4de7a7ad08a1676729853622d0e38b14de79b20465aa9c738e6105a8c746d",
+   "name": "Refined Aether",
+   "desc": "Enhancement material for Light Cones, provides <nobr>6000</nobr> Light Cone EXP.",
+   "lore": "A canister of aether that has been extracted and distilled using special procedures.<br /><br />\"The Garden looks forward to recreating a past glory, but it is a 'past glory' selected by them. Do you understand?\"",
+   "purpose": "Light Cone EXP Material",
+   "rarity": 4,
+   "rewardPath": "/material/694487",
+   "comeFrom": [
+    "Calyx (Backwater Pass)",
+    "Forgotten Hall"
+   ]
+  },
+  "694488": {
+   "id": 694488,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "91f62f32ecd1e7b88c9e30002d215b1a5936ac221782a17d2f34837a967ed557",
+   "name": "Condensed Aether",
+   "desc": "Enhancement material for Light Cones, provides <nobr>2000</nobr> Light Cone EXP.",
+   "lore": "A can of Aether refined through special techniques.<br /><br />\"Handle with care, do not drop or place pressure upon it. If damages and leaks occur, please refer to chapter II of the Leak Disaster Response Manual for emergency response.\"",
+   "purpose": "Light Cone EXP Material",
+   "rarity": 3,
+   "rewardPath": "/material/694488",
+   "comeFrom": [
+    "Calyx (Backwater Pass)"
+   ]
+  },
+  "694489": {
+   "id": 694489,
+   "type": 601,
+   "purposeId": 5,
+   "iconPath": "554d37978b82c3f38bafee8771f8ab4248a1fe9d4e130bb5711064238666f491",
+   "name": "Sparse Aether",
+   "desc": "Enhancement material for Light Cones, provides <nobr>500</nobr> Light Cone EXP.",
+   "lore": "An imaginary substance that shouldn't exist in reality. The basic material to create Light Cones.<br />The images contained in the Light Cones become clearer when infused with this substance.<br /><br />\"I see, so this is the supposed 'Sentiention' of the Garden of Recollection. No wonder the Memokeepers can set off on galactic voyages with memories.\"",
+   "purpose": "Light Cone EXP Material",
+   "rarity": 2,
+   "rewardPath": "/material/694489",
+   "comeFrom": [
+    "Calyx (Backwater Pass)",
+    "Assignment rewards"
+   ]
+  },
+  "717319": {
+   "id": 717319,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "ea7f9727e8ba2c2039043d319ab4aa087ca6dbf08ec08876b1418d42c0f8a670",
+   "name": "Conqueror's Will",
+   "desc": "Condensed anti-matter. Advanced material used for enhancement.",
+   "lore": "Highly condensed anti-matter within the body of the Voidranger: Trampler. The moment of obliteration is the trumpet call for civilizations' destruction.<br /><br />\"They are all looking forward to the moment of obliteration, when they will be reforged and fused with the entire world.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 4,
+   "rewardPath": "/material/717319",
+   "comeFrom": [
+    "Storage Zone: Equilibrium Level 4+ Voidranger: Reavers or other enemies",
+    "Supply Zone: Equilibrium Level 4+ Voidranger: Reavers or other enemies",
+    "Omni-Synthesizer \u2014 Material Synthesis",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "836254": {
+   "id": 836254,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "1313f4b8549d0b129fb33fcd3745a87a8030d13fc8c28159f0dd2868a203ac2f",
+   "name": "Safeguard of Amber",
+   "desc": "An unusual shield embedded with ambers mined from beyond the skies. Used to level up Traces significantly for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Preservation</span> characters.",
+   "lore": "The wielder of this shield is seemingly protected by an invisible shield wall, immune to fiery arrows or mountainous claws.<br />Ancient legends entail a war where a tribal hero wielding a bronze shield charged to their death against a Leviathan, together with warriors armed with fiery spears.<br />This shield is a witness to that war.<br /><br />\"Do not cross the line.\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 4,
+   "rewardPath": "/material/836254",
+   "comeFrom": [
+    "Calyx (Supply Zone)",
+    "Omni-Synthesizer \u2014 Material Synthesis"
+   ]
+  },
+  "920195": {
+   "id": 920195,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "40bec463d92cede13fc22b7ac618c83f9d27e06e1a8c95a37d32cedc83fffe17",
+   "name": "Oath of Steel",
+   "desc": "A shield forged with irreplaceable craftsmanship from an unknown alloy. Used to level up Traces moderately for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Preservation</span> characters.",
+   "lore": "It may be a large shield, but it feels as light as a feather. Even after taking on a full charge, no marks can be seen on the face of the shield.<br />Ancient legends tell of a war where high-spirited warriors wielded deathray-beaming spears and shields forged of Frost Steel, defended a nation destined to falter in the face of war.<br />This shield is a witness to that war.<br /><br />\"Powerful voices chant: 'The enemies are at our gates!'\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 3,
+   "rewardPath": "/material/920195",
+   "comeFrom": [
+    "Calyx (Supply Zone)",
+    "Omni-Synthesizer \u2014 Material Synthesis"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 3000
+    },
+    {
+     "id": 549437,
+     "count": 4
+    }
+   ],
+   "attackBase": 12,
+   "attackAdd": 1.8,
+   "hpBase": 43.2,
+   "hpAdd": 6.48,
+   "defenseBase": 12,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 6000
+    },
+    {
+     "id": 635668,
+     "count": 2
+    },
+    {
+     "id": 549437,
+     "count": 8
+    }
+   ],
+   "attackBase": 26.4,
+   "attackAdd": 1.8,
+   "hpBase": 95.04,
+   "hpAdd": 6.48,
+   "defenseBase": 26.4,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 12000
+    },
+    {
+     "id": 920195,
+     "count": 2
+    },
+    {
+     "id": 633378,
+     "count": 4
+    }
+   ],
+   "attackBase": 45.6,
+   "attackAdd": 1.8,
+   "hpBase": 164.16,
+   "hpAdd": 6.48,
+   "defenseBase": 45.6,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 30000
+    },
+    {
+     "id": 920195,
+     "count": 4
+    },
+    {
+     "id": 633378,
+     "count": 6
+    }
+   ],
+   "attackBase": 64.8,
+   "attackAdd": 1.8,
+   "hpBase": 233.28,
+   "hpAdd": 6.48,
+   "defenseBase": 64.8,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 60000
+    },
+    {
+     "id": 836254,
+     "count": 3
+    },
+    {
+     "id": 717319,
+     "count": 3
+    }
+   ],
+   "attackBase": 84,
+   "attackAdd": 1.8,
+   "hpBase": 302.4,
+   "hpAdd": 6.48,
+   "defenseBase": 84,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 120000
+    },
+    {
+     "id": 836254,
+     "count": 6
+    },
+    {
+     "id": 717319,
+     "count": 5
+    }
+   ],
+   "attackBase": 103.2,
+   "attackAdd": 1.8,
+   "hpBase": 371.52,
+   "hpAdd": 6.48,
+   "defenseBase": 103.2,
+   "defenseAdd": 1.8
+  },
+  {
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": [],
+   "attackBase": 122.4,
+   "attackAdd": 1.8,
+   "hpBase": 440.64,
+   "hpAdd": 6.48,
+   "defenseBase": 122.4,
+   "defenseAdd": 1.8
+  }
+ ],
+ "skill": {
+  "id": 20010,
+  "name": "Revitalization",
+  "descHash": "When the wearer unleashes their Ultimate, they restore HP by <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of their Max HP.",
+  "levelData": [
+   {
+    "level": 1,
+    "params": [
+     0.18
+    ],
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "level": 2,
+    "params": [
+     0.21
+    ],
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "level": 3,
+    "params": [
+     0.24
+    ],
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "level": 4,
+    "params": [
+     0.27
+    ],
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   },
+   {
+    "level": 5,
+    "params": [
+     0.3
+    ],
+    "levelReq": 0,
+    "promotionReq": 0,
+    "cost": []
+   }
+  ]
+ },
+ "calculator": {
+  "expCost": {
+   "1": 40,
+   "2": 60,
+   "3": 100,
+   "4": 160,
+   "5": 220,
+   "6": 300,
+   "7": 380,
+   "8": 480,
+   "9": 580,
+   "10": 700,
+   "11": 820,
+   "12": 950,
+   "13": 1090,
+   "14": 1240,
+   "15": 1390,
+   "16": 1560,
+   "17": 1730,
+   "18": 1910,
+   "19": 2090,
+   "20": 2170,
+   "21": 2260,
+   "22": 2350,
+   "23": 2430,
+   "24": 2520,
+   "25": 2620,
+   "26": 2710,
+   "27": 2800,
+   "28": 2900,
+   "29": 2990,
+   "30": 3100,
+   "31": 3200,
+   "32": 3300,
+   "33": 3400,
+   "34": 3510,
+   "35": 3620,
+   "36": 3730,
+   "37": 3830,
+   "38": 3950,
+   "39": 4060,
+   "40": 4170,
+   "41": 4580,
+   "42": 4840,
+   "43": 5110,
+   "44": 5380,
+   "45": 5660,
+   "46": 5950,
+   "47": 6230,
+   "48": 6530,
+   "49": 6830,
+   "50": 7140,
+   "51": 7450,
+   "52": 7760,
+   "53": 8090,
+   "54": 8410,
+   "55": 8750,
+   "56": 9080,
+   "57": 9430,
+   "58": 9770,
+   "59": 10130,
+   "60": 10480,
+   "61": 10970,
+   "62": 11560,
+   "63": 12160,
+   "64": 12760,
+   "65": 13370,
+   "66": 13990,
+   "67": 14620,
+   "68": 15260,
+   "69": 15910,
+   "70": 16570,
+   "71": 18490,
+   "72": 20230,
+   "73": 22000,
+   "74": 23790,
+   "75": 25610,
+   "76": 27450,
+   "77": 29320,
+   "78": 31220,
+   "79": 33140,
+   "80": 0
+  },
+  "expItemConfig": {
+   "500": {
+    "itemId": 694489,
+    "cost": 250
+   },
+   "2000": {
+    "itemId": 694488,
+    "cost": 1000
+   },
+   "6000": {
+    "itemId": 694487,
+    "cost": 3000
+   }
+  },
+  "sCoinId": 29328
+ },
+ "pageId": "20010"
+}
