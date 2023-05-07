@@ -13,7 +13,7 @@ from datetime import datetime
 
 
 
-save_path = getcwd()
+save_path = f"{getcwd()}/raw_data"
 client = SRSClient()
 
 routes = {
