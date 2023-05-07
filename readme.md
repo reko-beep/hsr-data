@@ -24,7 +24,7 @@ This repository contains data that [starrailstation](https://starrailstation.com
 
 # API Wrapper
 
-[click here to go to **DEV BRANCH**](https://github.com/reko-beep/hsr-data/tree/dev)
 
- api wrapper is under development under **dev** branch.
+
+api wrapper is under development [master](https://github.com/reko-beep/hsr-data/tree/master) branch.
 If you want to contribule, fork it and open pull request.
