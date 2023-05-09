@@ -39,6 +39,7 @@ def base36encode(number):
         base36 = '-' + base36
 
     return base36.lower() or alphabet[0].lower()
+
 class ImageManipulation:
 
     @classmethod

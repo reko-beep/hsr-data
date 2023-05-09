@@ -1,0 +1,445 @@
+[
+    {
+        "id": 1001103,
+        "type": 1,
+        "children": [
+            {
+                "id": 1001208,
+                "type": 2,
+                "children": [
+                    {
+                        "id": 1001209,
+                        "type": 2,
+                        "children": [],
+                        "embedBuff": {
+                            "id": 877747,
+                            "name": "DMG Boost: Ice",
+                            "levelReq": 75,
+                            "promotionReq": 0,
+                            "iconPath": "61fabc866a9c5c20a0ae994d2d92a286ce89872e01eb8e1a772e28eaa9260177",
+                            "statusList": [
+                                {
+                                    "key": "<span style=\"color:#47C7FD;\">Ice</span> DMG Boost",
+                                    "value": 0.064
+                                }
+                            ],
+                            "cost": [
+                                {
+                                    "id": 29328,
+                                    "count": 128000
+                                },
+                                {
+                                    "id": 836254,
+                                    "count": 6
+                                },
+                                {
+                                    "id": 717319,
+                                    "count": 6
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": 1001210,
+                        "type": 2,
+                        "children": [],
+                        "embedBuff": {
+                            "id": 961679,
+                            "name": "DEF Boost",
+                            "levelReq": 80,
+                            "promotionReq": 0,
+                            "iconPath": "2077c52919d0f523755a4d92ce338874b71561611a436572d8eb315a34f4a4c2",
+                            "statusList": [
+                                {
+                                    "key": "DEF",
+                                    "value": 0.1
+                                }
+                            ],
+                            "cost": [
+                                {
+                                    "id": 29328,
+                                    "count": 128000
+                                },
+                                {
+                                    "id": 836254,
+                                    "count": 6
+                                },
+                                {
+                                    "id": 717319,
+                                    "count": 6
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "embedBuff": {
+                    "id": 877746,
+                    "name": "DMG Boost: Ice",
+                    "levelReq": 0,
+                    "promotionReq": 6,
+                    "iconPath": "61fabc866a9c5c20a0ae994d2d92a286ce89872e01eb8e1a772e28eaa9260177",
+                    "statusList": [
+                        {
+                            "key": "<span style=\"color:#47C7FD;\">Ice</span> DMG Boost",
+                            "value": 0.048
+                        }
+                    ],
+                    "cost": [
+                        {
+                            "id": 29328,
+                            "count": 128000
+                        },
+                        {
+                            "id": 836254,
+                            "count": 6
+                        },
+                        {
+                            "id": 717319,
+                            "count": 6
+                        }
+                    ]
+                }
+            }
+        ],
+        "embedBonusSkill": {
+            "id": 877642,
+            "name": "Ice Spell",
+            "descHash": "Increases Ultimate's base chance to Freeze enemies by <nobr>#1[i]%</nobr>.",
+            "iconPath": "4f68b9672c134013190b556a1a98cc7bc5f133f469154126e2381624443393f3",
+            "levelReq": 0,
+            "promotionReq": 6,
+            "levelData": [
+                {
+                    "level": 1,
+                    "params": [
+                        0.15
+                    ],
+                    "levelReq": 0,
+                    "promotionReq": 6,
+                    "cost": [
+                        {
+                            "id": 29328,
+                            "count": 128000
+                        },
+                        {
+                            "id": 836254,
+                            "count": 6
+                        },
+                        {
+                            "id": 125435,
+                            "count": 1
+                        },
+                        {
+                            "id": 985668,
+                            "count": 1
+                        }
+                    ]
+                }
+            ],
+            "ultimateCost": 0
+        }
+    },
+    {
+        "id": 1001201,
+        "type": 2,
+        "children": [
+            {
+                "id": 1001101,
+                "type": 1,
+                "children": [
+                    {
+                        "id": 1001202,
+                        "type": 2,
+                        "children": [
+                            {
+                                "id": 1001203,
+                                "type": 2,
+                                "children": [],
+                                "embedBuff": {
+                                    "id": 877737,
+                                    "name": "DMG Boost: Ice",
+                                    "levelReq": 0,
+                                    "promotionReq": 3,
+                                    "iconPath": "61fabc866a9c5c20a0ae994d2d92a286ce89872e01eb8e1a772e28eaa9260177",
+                                    "statusList": [
+                                        {
+                                            "key": "<span style=\"color:#47C7FD;\">Ice</span> DMG Boost",
+                                            "value": 0.032
+                                        }
+                                    ],
+                                    "cost": [
+                                        {
+                                            "id": 29328,
+                                            "count": 8000
+                                        },
+                                        {
+                                            "id": 920195,
+                                            "count": 2
+                                        },
+                                        {
+                                            "id": 633378,
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "embedBuff": {
+                            "id": 877736,
+                            "name": "DEF Boost",
+                            "levelReq": 0,
+                            "promotionReq": 2,
+                            "iconPath": "2077c52919d0f523755a4d92ce338874b71561611a436572d8eb315a34f4a4c2",
+                            "statusList": [
+                                {
+                                    "key": "DEF",
+                                    "value": 0.05
+                                }
+                            ],
+                            "cost": [
+                                {
+                                    "id": 29328,
+                                    "count": 4000
+                                },
+                                {
+                                    "id": 635668,
+                                    "count": 2
+                                },
+                                {
+                                    "id": 549437,
+                                    "count": 4
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "embedBonusSkill": {
+                    "id": 877640,
+                    "name": "Purify",
+                    "descHash": "Skill removes 1 debuff from an ally.",
+                    "iconPath": "1259a1d60430b175f8053cf0998bfa4da258d88048a4a7433ba2f50b7472ae52",
+                    "levelReq": 0,
+                    "promotionReq": 2,
+                    "levelData": [
+                        {
+                            "level": 1,
+                            "params": [],
+                            "levelReq": 0,
+                            "promotionReq": 2,
+                            "cost": [
+                                {
+                                    "id": 29328,
+                                    "count": 4000
+                                },
+                                {
+                                    "id": 635668,
+                                    "count": 2
+                                },
+                                {
+                                    "id": 985668,
+                                    "count": 1
+                                }
+                            ]
+                        }
+                    ],
+                    "ultimateCost": 0
+                }
+            },
+            {
+                "id": 1001102,
+                "type": 1,
+                "children": [
+                    {
+                        "id": 1001205,
+                        "type": 2,
+                        "children": [
+                            {
+                                "id": 1001206,
+                                "type": 2,
+                                "children": [],
+                                "embedBuff": {
+                                    "id": 877732,
+                                    "name": "Effect RES Boost",
+                                    "levelReq": 0,
+                                    "promotionReq": 5,
+                                    "iconPath": "5e0ea9beeaea4aebaec6fa80218757c7123e5d8d63565bc255c08d6af87ebc7e",
+                                    "statusList": [
+                                        {
+                                            "key": "Effect RES",
+                                            "value": 0.06
+                                        }
+                                    ],
+                                    "cost": [
+                                        {
+                                            "id": 29328,
+                                            "count": 36000
+                                        },
+                                        {
+                                            "id": 836254,
+                                            "count": 2
+                                        },
+                                        {
+                                            "id": 717319,
+                                            "count": 2
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "embedBuff": {
+                            "id": 877735,
+                            "name": "DMG Boost: Ice",
+                            "levelReq": 0,
+                            "promotionReq": 4,
+                            "iconPath": "61fabc866a9c5c20a0ae994d2d92a286ce89872e01eb8e1a772e28eaa9260177",
+                            "statusList": [
+                                {
+                                    "key": "<span style=\"color:#47C7FD;\">Ice</span> DMG Boost",
+                                    "value": 0.048
+                                }
+                            ],
+                            "cost": [
+                                {
+                                    "id": 29328,
+                                    "count": 16000
+                                },
+                                {
+                                    "id": 920195,
+                                    "count": 4
+                                },
+                                {
+                                    "id": 633378,
+                                    "count": 3
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "embedBonusSkill": {
+                    "id": 877643,
+                    "name": "Reinforce",
+                    "descHash": "The duration of the Shield generated from Skill is extended for <nobr>#1[i]</nobr> turn(s).",
+                    "iconPath": "01fea7d5e30c789a502db09d89d71f788db21f2a2b1521232e9f0624551fea58",
+                    "levelReq": 0,
+                    "promotionReq": 4,
+                    "levelData": [
+                        {
+                            "level": 1,
+                            "params": [
+                                1
+                            ],
+                            "levelReq": 0,
+                            "promotionReq": 4,
+                            "cost": [
+                                {
+                                    "id": 29328,
+                                    "count": 16000
+                                },
+                                {
+                                    "id": 920195,
+                                    "count": 4
+                                },
+                                {
+                                    "id": 125435,
+                                    "count": 1
+                                },
+                                {
+                                    "id": 985668,
+                                    "count": 1
+                                }
+                            ]
+                        }
+                    ],
+                    "ultimateCost": 0
+                }
+            }
+        ],
+        "embedBuff": {
+            "id": 877739,
+            "name": "DMG Boost: Ice",
+            "levelReq": 1,
+            "promotionReq": 0,
+            "iconPath": "61fabc866a9c5c20a0ae994d2d92a286ce89872e01eb8e1a772e28eaa9260177",
+            "statusList": [
+                {
+                    "key": "<span style=\"color:#47C7FD;\">Ice</span> DMG Boost",
+                    "value": 0.032
+                }
+            ],
+            "cost": [
+                {
+                    "id": 29328,
+                    "count": 2000
+                },
+                {
+                    "id": 549437,
+                    "count": 2
+                }
+            ]
+        }
+    },
+    {
+        "id": 1001204,
+        "type": 2,
+        "children": [],
+        "embedBuff": {
+            "id": 877734,
+            "name": "Effect RES Boost",
+            "levelReq": 0,
+            "promotionReq": 3,
+            "iconPath": "5e0ea9beeaea4aebaec6fa80218757c7123e5d8d63565bc255c08d6af87ebc7e",
+            "statusList": [
+                {
+                    "key": "Effect RES",
+                    "value": 0.04
+                }
+            ],
+            "cost": [
+                {
+                    "id": 29328,
+                    "count": 8000
+                },
+                {
+                    "id": 920195,
+                    "count": 2
+                },
+                {
+                    "id": 633378,
+                    "count": 2
+                }
+            ]
+        }
+    },
+    {
+        "id": 1001207,
+        "type": 2,
+        "children": [],
+        "embedBuff": {
+            "id": 877733,
+            "name": "DEF Boost",
+            "levelReq": 0,
+            "promotionReq": 5,
+            "iconPath": "2077c52919d0f523755a4d92ce338874b71561611a436572d8eb315a34f4a4c2",
+            "statusList": [
+                {
+                    "key": "DEF",
+                    "value": 0.075
+                }
+            ],
+            "cost": [
+                {
+                    "id": 29328,
+                    "count": 36000
+                },
+                {
+                    "id": 836254,
+                    "count": 2
+                },
+                {
+                    "id": 717319,
+                    "count": 2
+                }
+            ]
+        }
+    }
+]
