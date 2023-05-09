@@ -1,12 +1,11 @@
 from abc import ABC
 from backend import BackendAdapter
-from datamodels import trace
+import datamodels as models
 
 
 # Public facing api client.
 class HsrClient:
     def __init__(self):
-      
         # abstract away multiple backends. with a single backend adapter. 
         # i guess this is too much.
         # just using SRSBackend here would have been enough.
@@ -15,20 +14,17 @@ class HsrClient:
         # our own api related logic goes here
         # in this case, looping and searching.
         # here we have the convinience of working with our own data models. (ex: Trace)
-    def find_trace(self, trace_name) -> trace.Trace:
-        for trace in self.adapter().fetch_traces():
-            if trace.name  == trace_name:
-                return trace
-        
-        
+    def find_trace(self, trace_name) -> models.trace.Trace:
+        # for trace in self.adapter().fetch_traces():
+        #     if trace.name  == trace_name:
+        #         return 
+        ...
 
+    def get_character(self, chara_name) -> models.chara.Character:
+        # nothing else to do here.
+        return self.adapter().get_character(chara_name)
 
-    def fetch_image(self):
-        return self.adapter().fetch_image()  
-        # or use a different backend.
-        return self.adapter(HoyolabBackend).fetch_image()
 
 if __name__ == "__main__":
     client = HsrClient()
-    print(client.find_trace("abc"))
-    print(client.fetch_image())
+    print(client.get_character("march 7th")) 

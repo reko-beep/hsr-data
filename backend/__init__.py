@@ -1,4 +1,3 @@
-from datamodels import trace
 from .util import Backend
 
 from .srs_backend import SRSBackend

@@ -1,57 +1,43 @@
-from pydantic import BaseModel, validator, Field, Extra
+
 from typing import Optional
+from pydantic import BaseModel, validator, Field, Extra
+
 from enum import Enum
 
-
 class Type(Enum):
+    """type of trace (Stat Bonus, Skill, Bonus Ability)"""
     BONUS_ABILITY = 1
     STAT_BONUS = 2
     SKILL = 3
 
+
 class UnlockCriteria(BaseModel):
-    ascension: int
-    level: int
-    # mats: 
+    """criteria to satisfy before this trace can be unlocked."""
+    # character ascension required.
+    ascension: Optional[int]
+    # character level required
+    level: Optional[int]
+    # trace to be unlocked before.
+    trace: Optional['Trace']
+  
+    
 
 
-# type 1: "Bonus Ability"
-# type 2: "Stat Bonus"
+
+# TODO: decide all the parameters
 class Trace(BaseModel):
-
+    """Traces possessed by the `Character`"""
+    # name of the trace.
     name : str
+    # type of trace.
     type : Type
-    description: str
-    unlock_criteria: UnlockCriteria
+    # description of the trace.
+    description: Optional[str]
+    # criteria to satisfy before this trace can be unlocked.
+    unlock_criteria: Optional[UnlockCriteria]
+    # trace level.
     level: Optional[int]
 
-
-if __name__ == "__main__":
-
-    import json
-    with open("test/single_trace.json") as f:
-        trace_data = json.load(f)
-
-        for trace in trace_data:
-
-            ...
-
-def parse_trace_data(data, traces=[]) -> list[Trace]:
-
-    pass
+UnlockCriteria.update_forward_refs()
 
 
-def get_trace_name(data):
-    trace_name = None
-    containers = ["embedBuff", "embedBonusSkill"]
-
-    for container in containers:
-
-        try:
-            trace_name = data[container]["name"]
-        except KeyError:
-            continue
-
-    if trace_name is not None:
-        return trace_name
-    else:
-        raise ValueError
