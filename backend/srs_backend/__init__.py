@@ -43,7 +43,7 @@ class SRSBackend(Backend):
         --
 
         - language: Languages Enum
-             Languages.ENG, Languages.RU etc
+             Languages.EN, Languages.RU etc
         - route: a Routes object
         - goto: if you want to search in a specific route [True] 
              defaults to False

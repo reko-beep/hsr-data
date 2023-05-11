@@ -37,7 +37,7 @@ class SRSClient:
         --
 
         - language: Languages Enum
-             Languages.ENG, Languages.RU etc
+             Languages.EN, Languages.RU etc
         - route: a Routes object
         - goto: if you want to search in a specific route [True] 
              defaults to False
@@ -72,7 +72,7 @@ class SRSClient:
         --
 
         - language: Languages Enum
-             Languages.ENG, Languages.RU etc
+             Languages.EN, Languages.RU etc
 
         - route: a Routes object
 
@@ -97,7 +97,7 @@ class SRSClient:
                 return data
             
 
-    def get_all_items(self,  type: Types = None, language: Languages = Languages.ENG) -> list[SearchItem]:
+    def get_all_items(self,  type: Types = None, language: Languages = Languages.EN) -> list[SearchItem]:
         '''
         
         :fetches all items from api route
@@ -106,7 +106,7 @@ class SRSClient:
         --
 
         - language: Languages Enum
-             Languages.ENG, Languages.RU etc
+             Languages.EN, Languages.RU etc
         - type : a type object 
              Types.MATERIALS, Types.PLAYERCARDS, Types.CHARACTERS etc
         
@@ -126,7 +126,7 @@ class SRSClient:
       
             return all_items
         
-    def get_all_character_details(self,item: Union[SearchItem , int], language: Languages = Languages.ENG) -> Character:
+    def get_all_character_details(self,item: Union[SearchItem , int], language: Languages = Languages.EN) -> Character:
         '''
         
         :fetches character details from api route provided a search item or character id
@@ -136,7 +136,7 @@ class SRSClient:
 
         - item: [SearchItem of Character Type] or [Character ID]
         - language: Languages Enum
-            - Languages.ENG, Languages.RU etc
+            - Languages.EN, Languages.RU etc
         
         
         '''

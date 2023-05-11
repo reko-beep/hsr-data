@@ -57,7 +57,7 @@ def convert(seconds: int | float):
 
 START_TIME = datetime.now()
 
-language = Languages.ENG
+language = Languages.EN
 '''
 iterate over all languages to get data in all languages
 '''

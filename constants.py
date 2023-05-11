@@ -28,7 +28,7 @@ class Languages(str, Enum):
     Allowed languages
     '''
 
-    ENG = 'en'
+    EN = 'en'
     CN = 'cn'
     DE = 'de'
     ES = 'es'
