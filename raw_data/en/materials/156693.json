@@ -1,0 +1,24 @@
+{
+ "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+ "name": "Recipe: Vomit Inducing Agent",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 156693,
+  "type": 507,
+  "purposeId": 19,
+  "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+  "name": "Recipe: Vomit Inducing Agent",
+  "desc": "A simple equation. When entered into the Synthesizer, it will unlock a new recipe.",
+  "lore": "",
+  "purpose": "Recipe",
+  "rarity": 3,
+  "rewardPath": "/material/156693",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "156693"
+}

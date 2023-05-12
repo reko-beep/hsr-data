@@ -1,0 +1,26 @@
+{
+ "iconPath": "eb5d92e88ecb15a07c78b7532e6c3204ce295d91c3f23e44346d8092c0646d35",
+ "name": "Self-Modeling Resin",
+ "rarity": 5,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 610543,
+  "type": 601,
+  "purposeId": 10,
+  "iconPath": "eb5d92e88ecb15a07c78b7532e6c3204ce295d91c3f23e44346d8092c0646d35",
+  "name": "Self-Modeling Resin",
+  "desc": "Rare material used to custom-make Relics. It can model itself according to expectations.",
+  "lore": "This unknown resin is as smooth to the touch as finely-grained dust. It seems to be from the Fragmentum, and has been shaped into the form of a wish by an invisible hand.<br /><br />\"Based on the Guild's research, the Self-Modeling Resin may be the basis of the Fragmentum's capacity to replicate entities...\"",
+  "purpose": "Consumables",
+  "rarity": 5,
+  "rewardPath": "/material/610543",
+  "comeFrom": [
+   "Nameless Honor"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "610543"
+}

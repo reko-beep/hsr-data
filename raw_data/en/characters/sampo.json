@@ -1,0 +1,2400 @@
+{
+ "name": "Sampo",
+ "spRequirement": 120,
+ "rarity": 4,
+ "descHash": "A merchant who freely travels between the Overworld and the Underworld. He acts like he is everyone's friend, is enthusiastically humorous, and is good at bantering.",
+ "iconPath": "081f215e852fda9d7d093d8233e0925f4e6ce557f6d2645fa580b862dfd4df70",
+ "bgPath": "94ae5659dd46e1d46691ef4ad3f4b23f57455afca9c5bfe3b720af60c8d8ac01",
+ "figPath": "41c0ea3bd1fd051d0db4486b2a6bae560552f1c3353195293b127c489aa249a8",
+ "fgPath": "a64ab8dfd9ab6bcc02418394e637a1df36a05ec65b860ecc6a3a9be3e98ae3df",
+ "artPath": "ecb70e9b09da01a44ac87c25dcf7bd155c261bb457782a3ac5456c8ce80da3b5",
+ "miniIconPath": "f4b35a0b3ac81dab0e3384e0736f95068b7ca3130ae1df5b0cb916db3b7ea377",
+ "splashIconPath": "6e439dff39727f8f2f7c334bce51980fce8b28a87d88fec654f7b24108b8681c",
+ "damageType": {
+  "id": 16,
+  "iconPath": "a77d91df3b1045f9fa66ce1300c4d921c0f89e51135df8208904334e8a0f0b80",
+  "color": "#00FF9C",
+  "name": "Wind",
+  "rarity": 0
+ },
+ "baseType": {
+  "id": 0,
+  "iconPath": "ef1c10d1a5c22dc9e9294e81827aae2ec71c4a79633349c8c9d699a9568a6e00",
+  "altIconPath": "0df2cbf11d8f19f8c650742d8717144159e74ae7608dfb17c31734925e8ee7c3",
+  "color": "#FFFFFF",
+  "name": "Nihility",
+  "rarity": 0
+ },
+ "damageTypeId": 0,
+ "baseTypeId": 0,
+ "baseTypeTraces": {
+  "id": 5,
+  "iconPath": "46809b2e4ea3502400dc31a9af1552ced0d5890b1b96f43ab9ac6fdc73fdd5f5",
+  "color": "#FFFFFF",
+  "rarity": 0
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "0e76659bbb3b9d0b1cc6a4e0e8c63a576c7b917f2f740a4b1b8ceab260a8a595",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards"
+   ]
+  },
+  "125435": {
+   "id": 125435,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "75e6d3c477385eb36716ba1798609b01a9fe10893c1b3e9f9dc81046ad10d9b0",
+   "name": "Tracks of Destiny",
+   "desc": "Advanced level-up material for Traces.",
+   "lore": "Your victory is secured by countless failures, and the small steps you have taken led you to the turning point of fate.",
+   "purpose": "Trace Materials",
+   "rarity": 5,
+   "rewardPath": "/material/125435",
+   "comeFrom": [
+    "Simulated Universe Point Rewards",
+    "Nameless Honor",
+    "Embers Exchange",
+    "Limited-Time Event Rewards"
+   ]
+  },
+  "267805": {
+   "id": 267805,
+   "type": 601,
+   "purposeId": 2,
+   "iconPath": "822b1e8c023333b210f71f503cce58516c58ffc4f47c709a4ba4bc03387fdd68",
+   "name": "Storm Eye",
+   "desc": "Arrows belonged to a Stormbringer. Can be used for the Ascension of Wind characters.",
+   "lore": "Used to belong to a certain Fragmentum monster modeled after a certain kind of Voidrangers. An arrowhead can be barely seen buried in the center of the vortex.<br /><br />\"Those who perish in the Fragmentum shall rise again where they met their demise.\"",
+   "purpose": "Character Ascension Materials",
+   "rarity": 4,
+   "rewardPath": "/material/267805",
+   "comeFrom": [
+    "Stagnant Shadow (Rivet Town)",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "270195": {
+   "id": 270195,
+   "type": 601,
+   "purposeId": 4,
+   "iconPath": "ed0c6ddf746bb8fe5f178943cd2836c9c4f98c2647479d389e2640b5f38d1317",
+   "name": "Guardian's Lament",
+   "desc": "Advanced level-up material for Traces.",
+   "lore": "Together with this visor, the twisted wish of a Guardian also lies broken.<br />She had wanted to find a way out for her people to escape the Everwinter, but ended up becoming a puppet of a consciousness beyond her.<br /><br />\"Supreme Guardian, the title passed down to generations of Belobog's rulers, the one who looked after all the people \u2014 It never occurred to anyone that the Guardians themselves also long for care and protection.\"",
+   "purpose": "Trace Materials",
+   "rarity": 4,
+   "rewardPath": "/material/270195",
+   "comeFrom": [
+    "Echo of War (Everwinter Hill)"
+   ]
+  },
+  "409960": {
+   "id": 409960,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "607961a38d9fe4f935578e9ea7b4de093d68ff8258b0b52c3cd4261e5cd92932",
+   "name": "Traveler's Guide",
+   "desc": "Experience material for characters. Provides <nobr>20,000</nobr> Character EXP.",
+   "lore": "Required reading for world exploration. Press the \"Read\" button to tune in to an attractive voice in a language you understand, telling you about the legendary encounters of renowned adventurers across different worlds as well as the precious wisdom and knowledge that they have gathered.<br /><br />\"All-new series of the Traveler's Guide, The Chef's Manual to Galactic Cuisine, is now available for purchase.\"<br />\"For submissions, please connect to synesthesia beacon ERD<nobr>-23</nobr>\u03b8 to contact an Intelligentsia Guild representative. Method of payment can be arranged to your convenience.\"",
+   "purpose": "Character EXP Material",
+   "rarity": 4,
+   "rewardPath": "/material/409960",
+   "comeFrom": [
+    "Calyx (Outlying Snow Plains)",
+    "Forgotten Hall"
+   ]
+  },
+  "409961": {
+   "id": 409961,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "05ef6659e951dd69d862823c86470487d68c24209400d4391df1f50bbc21ab42",
+   "name": "Adventure Log",
+   "desc": "Experience material for characters. Provides <nobr>5000</nobr> Character EXP.",
+   "lore": "A neatly organized collection of educational adventure notes containing countless illustrations and texts entailing adventures from beginning to end, as well as valuable information and survival-related techniques.<br /><br />\"Why not just digitize it and save it on a photolith disk? That'd be much more convenient.\"<br />\"Advanced technology is far more fragile than you'd think when faced with stellar storms and neuron flow eruptions. Besides, I'm sure the author of this book wanted people to read it in the simplest of ways.\"",
+   "purpose": "Character EXP Material",
+   "rarity": 3,
+   "rewardPath": "/material/409961",
+   "comeFrom": [
+    "Calyx (Outlying Snow Plains)",
+    "Daily Training"
+   ]
+  },
+  "409962": {
+   "id": 409962,
+   "type": 601,
+   "purposeId": 1,
+   "iconPath": "ad5070f0ef2447ee09fb3b0d859ab3c594538eaa58b71a14ffcbd4b2b493c1c5",
+   "name": "Travel Encounters",
+   "desc": "Experience material for characters. Provides <nobr>1000</nobr> Character EXP.",
+   "lore": "A travel diary with messy handwriting and random content. It's not of much use to you.<br /><br />\"Dan Heng, hurry up and finish reading it so you can throw it away.\"",
+   "purpose": "Character EXP Material",
+   "rarity": 2,
+   "rewardPath": "/material/409962",
+   "comeFrom": [
+    "Calyx (Outlying Snow Plains)",
+    "Assignment rewards"
+   ]
+  },
+  "549408": {
+   "id": 549408,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "a01d7231993bf0450534073f8515ba34a99653c455e03f9f43053719a34aff98",
+   "name": "Ancient Part",
+   "desc": "Mechanical part left behind from the Old World. Crude material used for enhancement.",
+   "lore": "Despite its size, it was cast and polished in a way that people today would struggle to replicate.<br /><br />\"A small screw in the Old World is stronger than our armor.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 2,
+   "rewardPath": "/material/549408",
+   "comeFrom": [
+    "Robot Settlement: Automatons or other enemies",
+    "Great Mine: Automatons or other enemies",
+    "Simulated Universe enemies",
+    "Assignment rewards",
+    "Embers Exchange",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "633349": {
+   "id": 633349,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "191ad5f4b9fd5180b9065e05d463d6df35334c87ce1428e89d8d507e69177dc7",
+   "name": "Ancient Spindle",
+   "desc": "Mechanical spindle left behind from the Old World. Normal material used for enhancement.",
+   "lore": "Once taken apart, the precision components can never be put back together. Even the maintenance veterans in Belobog's Technology Division would think twice before touching it.<br /><br />\"You idiot, the Bluecoats will only give you a few canned goods for this. Take it to Boss Svarog and you won't need to worry about food and clothing for a while.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 3,
+   "rewardPath": "/material/633349",
+   "comeFrom": [
+    "Robot Settlement: Equilibrium Level 2+ Automatons or other enemies",
+    "Great Mine: Equilibrium Level 2+ Automatons or other enemies",
+    "Omni-Synthesizer \u2014 Material Synthesis",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "635669": {
+   "id": 635669,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "eb2e2feca2b8c63d7bd3d8b8e5a296d336fa0e30ca425e8e5489df4c015d1685",
+   "name": "Obsidian of Dread",
+   "desc": "A fragment of dark matter captured from the void. Used to level up Traces slightly for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Nihility</span> characters.",
+   "lore": "Nothing can prove its noumenon.<br />Touch gently to hear an unclear murmur from the shard.<br /><br />\"\u2588\u2588\u2588\u2588 \u2588\u2588 \u2588 \u2588\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 2,
+   "rewardPath": "/material/635669",
+   "comeFrom": [
+    "Calyx (Great Mine)"
+   ]
+  },
+  "717290": {
+   "id": 717290,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "70ecbc31091590eedbe7999413b138778e67af4ce3797e4e47860fa6b5867fbe",
+   "name": "Ancient Engine",
+   "desc": "Mechanical engine left behind from the Old World. Advanced material used for enhancement.",
+   "lore": "It uses Geomarrow as the energy source. When powered, it spews wandering auroras, not sparkles.<br /><br />\"Only the Technology Division directly under the Supreme Guardian has access to information regarding the Old World. I lost my privileges after I was fired.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 4,
+   "rewardPath": "/material/717290",
+   "comeFrom": [
+    "Robot Settlement: Equilibrium Level 4+ Automatons or other enemies",
+    "Great Mine: Equilibrium Level 4+ Automatons or other enemies",
+    "Omni-Synthesizer \u2014 Material Synthesis",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "836255": {
+   "id": 836255,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "328bab8dd4185cff98748182d80e550a23f12b7288da5caa228cc8407cea56df",
+   "name": "Obsidian of Obsession",
+   "desc": "A sizable piece of dark matter captured from the void. Used to level up Traces significantly for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Nihility</span> characters.",
+   "lore": "The weak-minded and soft-willed will spend their eternity in chaos from just a simple glance into the prism.<br /><br />\"         \"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 4,
+   "rewardPath": "/material/836255",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Omni-Synthesizer \u2014 Material Synthesis"
+   ]
+  },
+  "920196": {
+   "id": 920196,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "ce4a765c779cfd1480029c5f6daa7ea755b5c3ec5661609bfd2dd5191b55f2d0",
+   "name": "Obsidian of Desolation",
+   "desc": "A chunk of dark matter captured from the void. Used to level up Traces moderately for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Nihility</span> characters.",
+   "lore": "No reflections can be seen on the surface of the black prism. Not only does it suck in all the light, it seems to also absorb the wielder's emotions, leaving only a faint feeling of emptiness.<br /><br />\"...\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 3,
+   "rewardPath": "/material/920196",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Omni-Synthesizer \u2014 Material Synthesis"
+   ]
+  }
+ },
+ "levelData": [
+  {
+   "promotion": 0,
+   "maxLevel": 20,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 3200
+    },
+    {
+     "id": 549408,
+     "count": 4
+    }
+   ],
+   "attackBase": 84,
+   "attackAdd": 4.2,
+   "hpBase": 139.2,
+   "hpAdd": 6.96,
+   "defenseBase": 54,
+   "defenseAdd": 2.7,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 102,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 1,
+   "maxLevel": 30,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 6400
+    },
+    {
+     "id": 549408,
+     "count": 8
+    }
+   ],
+   "attackBase": 117.6,
+   "attackAdd": 4.2,
+   "hpBase": 194.88,
+   "hpAdd": 6.96,
+   "defenseBase": 75.6,
+   "defenseAdd": 2.7,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 102,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 2,
+   "maxLevel": 40,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 12800
+    },
+    {
+     "id": 633349,
+     "count": 5
+    },
+    {
+     "id": 267805,
+     "count": 2
+    }
+   ],
+   "attackBase": 151.2,
+   "attackAdd": 4.2,
+   "hpBase": 250.56,
+   "hpAdd": 6.96,
+   "defenseBase": 97.2,
+   "defenseAdd": 2.7,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 102,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 3,
+   "maxLevel": 50,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 32000
+    },
+    {
+     "id": 633349,
+     "count": 8
+    },
+    {
+     "id": 267805,
+     "count": 5
+    }
+   ],
+   "attackBase": 184.8,
+   "attackAdd": 4.2,
+   "hpBase": 306.24,
+   "hpAdd": 6.96,
+   "defenseBase": 118.8,
+   "defenseAdd": 2.7,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 102,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 4,
+   "maxLevel": 60,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 64000
+    },
+    {
+     "id": 717290,
+     "count": 5
+    },
+    {
+     "id": 267805,
+     "count": 15
+    }
+   ],
+   "attackBase": 218.4,
+   "attackAdd": 4.2,
+   "hpBase": 361.92,
+   "hpAdd": 6.96,
+   "defenseBase": 140.4,
+   "defenseAdd": 2.7,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 102,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 5,
+   "maxLevel": 70,
+   "cost": [
+    {
+     "id": 29328,
+     "count": 128000
+    },
+    {
+     "id": 717290,
+     "count": 7
+    },
+    {
+     "id": 267805,
+     "count": 28
+    }
+   ],
+   "attackBase": 252,
+   "attackAdd": 4.2,
+   "hpBase": 417.6,
+   "hpAdd": 6.96,
+   "defenseBase": 162,
+   "defenseAdd": 2.7,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 102,
+   "speedAdd": 0
+  },
+  {
+   "promotion": 6,
+   "maxLevel": 80,
+   "cost": [],
+   "attackBase": 285.6,
+   "attackAdd": 4.2,
+   "hpBase": 473.28,
+   "hpAdd": 6.96,
+   "defenseBase": 183.6,
+   "defenseAdd": 2.7,
+   "crate": 0.05,
+   "cdmg": 0.5,
+   "aggro": 100,
+   "speedBase": 102,
+   "speedAdd": 0
+  }
+ ],
+ "ranks": [
+  {
+   "id": 1,
+   "iconPath": "",
+   "artPath": "6150faa4e0b1645e2309af7539ab64983cd15cf3fd708ff479876b4f420ea08f",
+   "name": "Rising Love",
+   "descHash": "When using Skill, deals DMG for <nobr>#1[i]</nobr> extra time(s) to a random enemy.",
+   "params": [
+    1
+   ]
+  },
+  {
+   "id": 2,
+   "iconPath": "",
+   "artPath": "3bbdffdf361cbed69736dc1d65f2b6d7715e708b094903a0cdaf9d2cf82b85cb",
+   "name": "Infectious Enthusiasm",
+   "descHash": "Defeating an enemy with Wind Shear has a <nobr>#1[i]%</nobr> base chance to inflict all enemies with <nobr>#2[i]</nobr> stack(s) of Wind Shear, equivalent to the Talent's Wind Shear.",
+   "params": [
+    1,
+    1
+   ]
+  },
+  {
+   "id": 3,
+   "iconPath": "",
+   "artPath": "8b5ed606803e17e31f37faea7fc48768e5c8ad52faea66926afb222b990af912",
+   "name": "Big Money!",
+   "descHash": "Skill Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Basic ATK Lv. +1, up to a maximum of Lv. <nobr>10</nobr>.",
+   "params": []
+  },
+  {
+   "id": 4,
+   "iconPath": "",
+   "artPath": "e12c093f2b9d701b3b67058576b782cb2a45c2887e5dc9fa961e17bdb134939d",
+   "name": "The Deeper the Love, the Stronger the Hate",
+   "descHash": "When Skill hits an enemy with <nobr>#1[i]</nobr> or more stack(s) of Wind Shear, the enemy immediately takes <nobr>#2[i]%</nobr> of current Wind Shear DMG.",
+   "params": [
+    5,
+    0.08
+   ]
+  },
+  {
+   "id": 5,
+   "iconPath": "",
+   "artPath": "7fde87a94f7b016f973ba62dac8312babb2623aefa70224cf88bc19dd04a9092",
+   "name": "Huuuuge Money!",
+   "descHash": "Ultimate Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.<br />Talent Lv. +2, up to a maximum of Lv. <nobr>15</nobr>.",
+   "params": []
+  },
+  {
+   "id": 6,
+   "iconPath": "",
+   "artPath": "9830dbce5369faa6f44e2385b0d0455272fcdb5639917c0739af84913f1873e7",
+   "name": "Increased Spending",
+   "descHash": "Talent's Wind Shear DMG multiplier increases by <nobr>#1[i]%</nobr>.",
+   "params": [
+    0.15
+   ]
+  }
+ ],
+ "skillGrouping": [
+  [
+   849349
+  ],
+  [
+   933290
+  ],
+  [
+   49935
+  ],
+  [
+   364236
+  ],
+  [
+   648763
+  ]
+ ],
+ "skills": [
+  {
+   "id": 849349,
+   "name": "Dazzling Blades",
+   "tagHash": "Single Target",
+   "descHash": "Deals <span style=\"color:#00FF9C;\">Wind</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Sampo's ATK to a single enemy.",
+   "typeDescHash": "Basic ATK",
+   "iconPath": "e124f432c6d6584df9101416b7c3fbdea275f89c899150ff48c695a329c9f823",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      0.5
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 2,
+     "params": [
+      0.6
+     ],
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 635669,
+       "count": 2
+      },
+      {
+       "id": 549408,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "params": [
+      0.7
+     ],
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 920196,
+       "count": 2
+      },
+      {
+       "id": 633349,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "params": [
+      0.8
+     ],
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 920196,
+       "count": 4
+      },
+      {
+       "id": 633349,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "params": [
+      0.9
+     ],
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 36000
+      },
+      {
+       "id": 836255,
+       "count": 2
+      },
+      {
+       "id": 717290,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "params": [
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 128000
+      },
+      {
+       "id": 836255,
+       "count": 6
+      },
+      {
+       "id": 717290,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "params": [
+      1.1
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 8,
+     "params": [
+      1.2
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 9,
+     "params": [
+      1.3
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  },
+  {
+   "id": 933290,
+   "name": "Ricochet Love",
+   "tagHash": "Bounce",
+   "descHash": "Deals <span style=\"color:#00FF9C;\">Wind</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#2[i]%</nobr></span> of Sampo's ATK to a single enemy, and further deals DMG for <nobr>#1[i]</nobr> extra time(s), with each time dealing <span style=\"color:#00FF9C;\">Wind</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#2[i]%</nobr></span> of Sampo's ATK to a random enemy.",
+   "typeDescHash": "Skill",
+   "iconPath": "7bfe182a258c7fe6c994becd0f4cc319644011f1b804bd60df1df3288ec42b39",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      4,
+      0.28
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 2,
+     "params": [
+      4,
+      0.308
+     ],
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2000
+      },
+      {
+       "id": 549408,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "params": [
+      4,
+      0.336
+     ],
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 635669,
+       "count": 2
+      },
+      {
+       "id": 549408,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "params": [
+      4,
+      0.364
+     ],
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 920196,
+       "count": 2
+      },
+      {
+       "id": 633349,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "params": [
+      4,
+      0.392
+     ],
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 920196,
+       "count": 4
+      },
+      {
+       "id": 633349,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "params": [
+      4,
+      0.42
+     ],
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 24000
+      },
+      {
+       "id": 920196,
+       "count": 6
+      },
+      {
+       "id": 633349,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "params": [
+      4,
+      0.455
+     ],
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 36000
+      },
+      {
+       "id": 836255,
+       "count": 2
+      },
+      {
+       "id": 717290,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "params": [
+      4,
+      0.49
+     ],
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 64000
+      },
+      {
+       "id": 836255,
+       "count": 4
+      },
+      {
+       "id": 270195,
+       "count": 1
+      },
+      {
+       "id": 717290,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "params": [
+      4,
+      0.525
+     ],
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 128000
+      },
+      {
+       "id": 836255,
+       "count": 6
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "params": [
+      4,
+      0.56
+     ],
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 836255,
+       "count": 11
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 11,
+     "params": [
+      4,
+      0.588
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 12,
+     "params": [
+      4,
+      0.616
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 13,
+     "params": [
+      4,
+      0.644
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 14,
+     "params": [
+      4,
+      0.672
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 15,
+     "params": [
+      4,
+      0.7
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  },
+  {
+   "id": 49935,
+   "name": "Surprise Present",
+   "tagHash": "Impair",
+   "descHash": "Deals <span style=\"color:#00FF9C;\">Wind</span> DMG equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#1[i]%</nobr></span> of Sampo's ATK to all enemies, with a <nobr>#4[i]%</nobr> <u>base chance</u> to increase the targets' DoT taken by <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#2[i]%</nobr></span> for <nobr>#3[i]</nobr> turn(s).",
+   "typeDescHash": "Ultimate",
+   "iconPath": "c8958a189a2e897573d60a4166b2c3f89c74173ffeda1edec62bedf42d165eb1",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      0.96,
+      0.2,
+      2,
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 2,
+     "params": [
+      1.024,
+      0.21,
+      2,
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2000
+      },
+      {
+       "id": 549408,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "params": [
+      1.088,
+      0.22,
+      2,
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 635669,
+       "count": 2
+      },
+      {
+       "id": 549408,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "params": [
+      1.152,
+      0.23,
+      2,
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 920196,
+       "count": 2
+      },
+      {
+       "id": 633349,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "params": [
+      1.216,
+      0.24,
+      2,
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 920196,
+       "count": 4
+      },
+      {
+       "id": 633349,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "params": [
+      1.28,
+      0.25,
+      2,
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 24000
+      },
+      {
+       "id": 920196,
+       "count": 6
+      },
+      {
+       "id": 633349,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "params": [
+      1.36,
+      0.2625,
+      2,
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 36000
+      },
+      {
+       "id": 836255,
+       "count": 2
+      },
+      {
+       "id": 717290,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "params": [
+      1.44,
+      0.275,
+      2,
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 64000
+      },
+      {
+       "id": 836255,
+       "count": 4
+      },
+      {
+       "id": 270195,
+       "count": 1
+      },
+      {
+       "id": 717290,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "params": [
+      1.52,
+      0.2875,
+      2,
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 128000
+      },
+      {
+       "id": 836255,
+       "count": 6
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "params": [
+      1.6,
+      0.3,
+      2,
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 836255,
+       "count": 11
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 11,
+     "params": [
+      1.664,
+      0.31,
+      2,
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 12,
+     "params": [
+      1.728,
+      0.32,
+      2,
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 13,
+     "params": [
+      1.792,
+      0.33,
+      2,
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 14,
+     "params": [
+      1.856,
+      0.34,
+      2,
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 15,
+     "params": [
+      1.92,
+      0.35,
+      2,
+      1
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ],
+   "ultimateCost": 120
+  },
+  {
+   "id": 364236,
+   "name": "Windtorn Dagger",
+   "tagHash": "Enhance",
+   "descHash": "Sampo's attacks have a <nobr>#1[i]%</nobr> <u>base chance</u> to inflict <span style=\"color:#00FF9C;\">Wind</span> Shear for <nobr>#3[i]</nobr> turn(s).<br />Enemies inflicted with <span style=\"color:#00FF9C;\">Wind</span> Shear will take <span style=\"color:#00FF9C;\">Wind</span> DoT equal to <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\"><nobr>#2[i]%</nobr></span> of Sampo's ATK at the beginning of each turn. <span style=\"color:#00FF9C;\">Wind</span> Shear can stack up to <nobr>#4[i]</nobr> time(s).",
+   "typeDescHash": "Talent",
+   "iconPath": "b59c336ba6c2c3c0d7a68c487affaf33fcc401777b222e35e63c1b664b75de4d",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      0.65,
+      0.2,
+      3,
+      5
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 2,
+     "params": [
+      0.65,
+      0.22,
+      3,
+      5
+     ],
+     "levelReq": 0,
+     "promotionReq": 1,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 2000
+      },
+      {
+       "id": 549408,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "params": [
+      0.65,
+      0.24,
+      3,
+      5
+     ],
+     "levelReq": 0,
+     "promotionReq": 2,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 4000
+      },
+      {
+       "id": 635669,
+       "count": 2
+      },
+      {
+       "id": 549408,
+       "count": 4
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "params": [
+      0.65,
+      0.26,
+      3,
+      5
+     ],
+     "levelReq": 0,
+     "promotionReq": 3,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 8000
+      },
+      {
+       "id": 920196,
+       "count": 2
+      },
+      {
+       "id": 633349,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "level": 5,
+     "params": [
+      0.65,
+      0.28,
+      3,
+      5
+     ],
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 16000
+      },
+      {
+       "id": 920196,
+       "count": 4
+      },
+      {
+       "id": 633349,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 6,
+     "params": [
+      0.65,
+      0.31,
+      3,
+      5
+     ],
+     "levelReq": 0,
+     "promotionReq": 4,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 24000
+      },
+      {
+       "id": 920196,
+       "count": 6
+      },
+      {
+       "id": 633349,
+       "count": 5
+      }
+     ]
+    },
+    {
+     "level": 7,
+     "params": [
+      0.65,
+      0.35,
+      3,
+      5
+     ],
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 36000
+      },
+      {
+       "id": 836255,
+       "count": 2
+      },
+      {
+       "id": 717290,
+       "count": 2
+      }
+     ]
+    },
+    {
+     "level": 8,
+     "params": [
+      0.65,
+      0.4,
+      3,
+      5
+     ],
+     "levelReq": 0,
+     "promotionReq": 5,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 64000
+      },
+      {
+       "id": 836255,
+       "count": 4
+      },
+      {
+       "id": 270195,
+       "count": 1
+      },
+      {
+       "id": 717290,
+       "count": 3
+      }
+     ]
+    },
+    {
+     "level": 9,
+     "params": [
+      0.65,
+      0.46,
+      3,
+      5
+     ],
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 128000
+      },
+      {
+       "id": 836255,
+       "count": 6
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 10,
+     "params": [
+      0.65,
+      0.52,
+      3,
+      5
+     ],
+     "levelReq": 0,
+     "promotionReq": 6,
+     "cost": [
+      {
+       "id": 29328,
+       "count": 240000
+      },
+      {
+       "id": 836255,
+       "count": 11
+      },
+      {
+       "id": 125435,
+       "count": 1
+      },
+      {
+       "id": 270195,
+       "count": 1
+      }
+     ]
+    },
+    {
+     "level": 11,
+     "params": [
+      0.65,
+      0.546,
+      3,
+      5
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 12,
+     "params": [
+      0.65,
+      0.572,
+      3,
+      5
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 13,
+     "params": [
+      0.65,
+      0.598,
+      3,
+      5
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 14,
+     "params": [
+      0.65,
+      0.624,
+      3,
+      5
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    },
+    {
+     "level": 15,
+     "params": [
+      0.65,
+      0.65,
+      3,
+      5
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  },
+  {
+   "id": 564822,
+   "name": "Attack",
+   "tagHash": "",
+   "descHash": "Attack an enemy, and when the battle starts, reduce their Toughness of the corresponding Type.",
+   "typeDescHash": "",
+   "iconPath": "e124f432c6d6584df9101416b7c3fbdea275f89c899150ff48c695a329c9f823",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  },
+  {
+   "id": 648763,
+   "name": "Shining Bright",
+   "tagHash": "Impair",
+   "descHash": "After Sampo uses his Technique, enemies in a set area are inflicted with Blind for <nobr>#1[i]</nobr> second(s). Blinded enemies cannot detect your team.<br />When initiating combat against a Blinded enemy, there is a <nobr>#2[i]%</nobr> <u>fixed chance</u> to delay all enemies' action by <nobr>#3[i]%</nobr>.",
+   "typeDescHash": "Technique",
+   "iconPath": "47d83ca715bf3ed0cc556cbbf750bc5644df38ad4a4a30c4fcbc3ac2277df425",
+   "levelReq": 0,
+   "promotionReq": 0,
+   "levelData": [
+    {
+     "level": 1,
+     "params": [
+      10,
+      1,
+      0.25
+     ],
+     "levelReq": 0,
+     "promotionReq": 0,
+     "cost": []
+    }
+   ],
+   "ultimateCost": 0
+  }
+ ],
+ "skillTreePoints": [
+  {
+   "id": 1108102,
+   "type": 1,
+   "children": [
+    {
+     "id": 1108205,
+     "type": 2,
+     "children": [
+      {
+       "id": 1108206,
+       "type": 2,
+       "children": [
+        {
+         "id": 1108207,
+         "type": 2,
+         "children": [],
+         "embedBuff": {
+          "id": 286061,
+          "name": "ATK Boost",
+          "levelReq": 0,
+          "promotionReq": 5,
+          "iconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5",
+          "statusList": [
+           {
+            "key": "ATK",
+            "value": 0.06
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 36000
+           },
+           {
+            "id": 836255,
+            "count": 2
+           },
+           {
+            "id": 717290,
+            "count": 2
+           }
+          ]
+         }
+        }
+       ],
+       "embedBuff": {
+        "id": 286060,
+        "name": "Effect Hit Rate Boost",
+        "levelReq": 0,
+        "promotionReq": 5,
+        "iconPath": "6cee422fdfafd9cab8ce9f5a86a717d069964985d2e079d359713385c93d67fb",
+        "statusList": [
+         {
+          "key": "Effect Hit Rate",
+          "value": 0.06
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 36000
+         },
+         {
+          "id": 836255,
+          "count": 2
+         },
+         {
+          "id": 717290,
+          "count": 2
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 286063,
+      "name": "ATK Boost",
+      "levelReq": 0,
+      "promotionReq": 4,
+      "iconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5",
+      "statusList": [
+       {
+        "key": "ATK",
+        "value": 0.06
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 920196,
+        "count": 4
+       },
+       {
+        "id": 633349,
+        "count": 3
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "id": 285971,
+    "name": "Defensive Position",
+    "descHash": "Using Ultimate additionally regenerates <nobr>#1[i]</nobr> Energy.",
+    "iconPath": "ad61a89bb232a760efd6249c97e7a7ac94bbbd280df52cda7a1427f8ab7f0284",
+    "levelReq": 0,
+    "promotionReq": 4,
+    "levelData": [
+     {
+      "level": 1,
+      "params": [
+       10
+      ],
+      "levelReq": 0,
+      "promotionReq": 4,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 16000
+       },
+       {
+        "id": 920196,
+        "count": 4
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 270195,
+        "count": 1
+       }
+      ]
+     }
+    ],
+    "ultimateCost": 0
+   }
+  },
+  {
+   "id": 1108103,
+   "type": 1,
+   "children": [
+    {
+     "id": 1108208,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 286074,
+      "name": "Effect RES Boost",
+      "levelReq": 0,
+      "promotionReq": 6,
+      "iconPath": "5e0ea9beeaea4aebaec6fa80218757c7123e5d8d63565bc255c08d6af87ebc7e",
+      "statusList": [
+       {
+        "key": "Effect RES",
+        "value": 0.06
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 128000
+       },
+       {
+        "id": 836255,
+        "count": 6
+       },
+       {
+        "id": 717290,
+        "count": 6
+       }
+      ]
+     }
+    },
+    {
+     "id": 1108209,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 286075,
+      "name": "Effect Hit Rate Boost",
+      "levelReq": 75,
+      "promotionReq": 0,
+      "iconPath": "6cee422fdfafd9cab8ce9f5a86a717d069964985d2e079d359713385c93d67fb",
+      "statusList": [
+       {
+        "key": "Effect Hit Rate",
+        "value": 0.08
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 128000
+       },
+       {
+        "id": 836255,
+        "count": 6
+       },
+       {
+        "id": 717290,
+        "count": 6
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "id": 285970,
+    "name": "Spice Up",
+    "descHash": "Enemies with <span style=\"color:#00FF9C;\">Wind</span> Shear effect deal <nobr>#1[i]%</nobr> less DMG to Sampo.",
+    "iconPath": "f3807259480abf963c205ba7528c727b26aaf770ffbca65b3b82c28faf2ac197",
+    "levelReq": 0,
+    "promotionReq": 6,
+    "levelData": [
+     {
+      "level": 1,
+      "params": [
+       0.15
+      ],
+      "levelReq": 0,
+      "promotionReq": 6,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 128000
+       },
+       {
+        "id": 836255,
+        "count": 6
+       },
+       {
+        "id": 125435,
+        "count": 1
+       },
+       {
+        "id": 270195,
+        "count": 1
+       }
+      ]
+     }
+    ],
+    "ultimateCost": 0
+   }
+  },
+  {
+   "id": 1108201,
+   "type": 2,
+   "children": [
+    {
+     "id": 1108210,
+     "type": 2,
+     "children": [],
+     "embedBuff": {
+      "id": 370007,
+      "name": "ATK Boost",
+      "levelReq": 80,
+      "promotionReq": 0,
+      "iconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5",
+      "statusList": [
+       {
+        "key": "ATK",
+        "value": 0.08
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 128000
+       },
+       {
+        "id": 836255,
+        "count": 6
+       },
+       {
+        "id": 717290,
+        "count": 6
+       }
+      ]
+     }
+    }
+   ],
+   "embedBuff": {
+    "id": 286067,
+    "name": "ATK Boost",
+    "levelReq": 1,
+    "promotionReq": 0,
+    "iconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5",
+    "statusList": [
+     {
+      "key": "ATK",
+      "value": 0.04
+     }
+    ],
+    "cost": [
+     {
+      "id": 29328,
+      "count": 2000
+     },
+     {
+      "id": 549408,
+      "count": 2
+     }
+    ]
+   }
+  },
+  {
+   "id": 1108101,
+   "type": 1,
+   "children": [
+    {
+     "id": 1108202,
+     "type": 2,
+     "children": [
+      {
+       "id": 1108203,
+       "type": 2,
+       "children": [
+        {
+         "id": 1108204,
+         "type": 2,
+         "children": [],
+         "embedBuff": {
+          "id": 286062,
+          "name": "Effect RES Boost",
+          "levelReq": 0,
+          "promotionReq": 3,
+          "iconPath": "5e0ea9beeaea4aebaec6fa80218757c7123e5d8d63565bc255c08d6af87ebc7e",
+          "statusList": [
+           {
+            "key": "Effect RES",
+            "value": 0.04
+           }
+          ],
+          "cost": [
+           {
+            "id": 29328,
+            "count": 8000
+           },
+           {
+            "id": 920196,
+            "count": 2
+           },
+           {
+            "id": 633349,
+            "count": 2
+           }
+          ]
+         }
+        }
+       ],
+       "embedBuff": {
+        "id": 286065,
+        "name": "ATK Boost",
+        "levelReq": 0,
+        "promotionReq": 3,
+        "iconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5",
+        "statusList": [
+         {
+          "key": "ATK",
+          "value": 0.04
+         }
+        ],
+        "cost": [
+         {
+          "id": 29328,
+          "count": 8000
+         },
+         {
+          "id": 920196,
+          "count": 2
+         },
+         {
+          "id": 633349,
+          "count": 2
+         }
+        ]
+       }
+      }
+     ],
+     "embedBuff": {
+      "id": 286064,
+      "name": "Effect Hit Rate Boost",
+      "levelReq": 0,
+      "promotionReq": 2,
+      "iconPath": "6cee422fdfafd9cab8ce9f5a86a717d069964985d2e079d359713385c93d67fb",
+      "statusList": [
+       {
+        "key": "Effect Hit Rate",
+        "value": 0.04
+       }
+      ],
+      "cost": [
+       {
+        "id": 29328,
+        "count": 4000
+       },
+       {
+        "id": 635669,
+        "count": 2
+       },
+       {
+        "id": 549408,
+        "count": 4
+       }
+      ]
+     }
+    }
+   ],
+   "embedBonusSkill": {
+    "id": 285968,
+    "name": "Trap",
+    "descHash": "Extends the duration of <span style=\"color:#00FF9C;\">Wind</span> Shear caused by Talent by <nobr>#1[i]</nobr> turn(s).",
+    "iconPath": "fcf499c20092da938c118623dec6b09ebb8e0b89e1ec0e4186c478a8444e915b",
+    "levelReq": 0,
+    "promotionReq": 2,
+    "levelData": [
+     {
+      "level": 1,
+      "params": [
+       1
+      ],
+      "levelReq": 0,
+      "promotionReq": 2,
+      "cost": [
+       {
+        "id": 29328,
+        "count": 4000
+       },
+       {
+        "id": 635669,
+        "count": 2
+       },
+       {
+        "id": 270195,
+        "count": 1
+       }
+      ]
+     }
+    ],
+    "ultimateCost": 0
+   }
+  }
+ ],
+ "relicRecommend": {
+  "twoPcSets": [],
+  "fourPcSets": [],
+  "props": [
+   {
+    "relicTypeHash": "Body",
+    "relicTypeIcon": "87a68da58f5ca7f656d3ebf27bc84c5c32aafd164f2406af6b95c0e46277496b",
+    "propertyName": "ATK",
+    "propertyIconPath": "2d1ce81848ae3af0e819f7f98badde6930dd127f20a6d2686eb806bc963989d5"
+   },
+   {
+    "relicTypeHash": "Feet",
+    "relicTypeIcon": "5d8394f899a9cc41333630a3475d525b65c4a7cf59d16cdc4ac0acccc082259c",
+    "propertyName": "SPD",
+    "propertyIconPath": "2483a985b6f7a2c277835369c71181b7f70d5f25238745319b6328780100a3fd"
+   },
+   {
+    "relicTypeHash": "Planar Sphere",
+    "relicTypeIcon": "fd22786ef5ef0aee8953005c423739fe85fd85b16b82a3f7f18910499a4368b5",
+    "propertyName": "Wind DMG Boost",
+    "propertyIconPath": "fe44fb655f65017dcad0c260b4dcffe14de4b14816734239c2c60d4624cf8163"
+   },
+   {
+    "relicTypeHash": "Link Rope",
+    "relicTypeIcon": "245bb6e30915d9ab6a042e37499ad3a0b0d022208a5fee05417b7cd3c088e357",
+    "propertyName": "Energy Regeneration Rate",
+    "propertyIconPath": "fa8f924ec11e6c11cad9d7a54d1db3dc1e9ad5a276eeb58ab17f2395a1b3522c"
+   }
+  ]
+ },
+ "voiceItems": [
+  {
+   "id": 1,
+   "title": "First Meeting",
+   "text": "Hey, Trailblazer! Y'know, with Sampo Koski by your side, you've got a businessman, chaperon, and problem-solving conversationalist, all rolled into one! Pretty sweet deal, huh?",
+   "unlockRequirement": "",
+   "cnUrl": "09963ac540efd7233b997527b6c7112b569ab5bac322f0f8a50633571b19c5cc",
+   "jpUrl": "f33541e54fd27fdd0f05766af2a67afdad6fa2520375e8f6e99886ead6eaf0f3",
+   "enUrl": "c6463ab3e549cc2a4d7dc4b8e8d6c7e9efdd7c4045b7ad4295639c0b0bad90d9",
+   "krUrl": "bc1f9bfeff43e0cc9cc0b1e133be14f2c500f3feb81a8231fa46064e44216793"
+  },
+  {
+   "id": 2,
+   "title": "Greeting",
+   "text": "So, what's the job this time around? If you've got the cash, I've got the... No cash? N\u2014Not a problem! Haha, just say the word, pal...",
+   "unlockRequirement": "",
+   "cnUrl": "c89efc9bcf9abb4f5884675ac28d8509f0cb62b7a26e31467028ab65965b5847",
+   "jpUrl": "a49d22d07f648a9bffd8933df3b514a408d6b3c033017d3cad39262b868e60d5",
+   "enUrl": "d64c5883cb82fb633baee91c5a4edff221613075d34d15efc8e7010e38ec543d",
+   "krUrl": "c48b67f490008d2d8d5dec7c46f336b997601562857b57d802be61bc400405b7"
+  },
+  {
+   "id": 3,
+   "title": "Parting",
+   "text": "Come on, get some rest already! What's the matter? I'm not going anywhere.",
+   "unlockRequirement": "",
+   "cnUrl": "d95a3ed85b0b9c69ab4d91a64c1c942713f027f96368ed638787194fad9bd2c2",
+   "jpUrl": "fe1f2cb364f4fb056656b6bc29c365feada9741e753b26450c8929e35935b365",
+   "enUrl": "893b261a96f85152f1303c88397963af052660ae741d17e6af46e7dc044cb9ab",
+   "krUrl": "29018a06993cd1937395c868514910db4ba4609a0158f80b2734ba181ed16b09"
+  },
+  {
+   "id": 4,
+   "title": "About Self",
+   "text": "Me? I'm just an easygoing fella that looks out for the little guy \u2014 free of charge I might add \u2014 who somehow gets pulled into everyone else's business with nothing to show for it! Tsk, like I say, I'm an easygoing fella.",
+   "unlockRequirement": "",
+   "cnUrl": "53e81e36aaa2c4b4e1deab183a59041a9a437eeeafd8239e6b6038e2511c96cc",
+   "jpUrl": "818661abe86134045e2f8ddf0b0a3980dcadf2ea0ea62dc71d528a3cf8571011",
+   "enUrl": "b8bcc513966f1ee1ae9e4817d861376918a79deb3ed72a4ea629cf5b289d03e5",
+   "krUrl": "422b72a25ccb7294175b77526679a2379c83549e7bda1c86e202a7e64581c344"
+  },
+  {
+   "id": 5,
+   "title": "Chat: Intel",
+   "text": "If you package it right, you can sell the same piece of intel to different people! That, my friend, is called \"maximizing your profit.\"",
+   "unlockRequirement": "",
+   "cnUrl": "49e6d889c2bd0cdfc4f4d55d629abd48b2f2d08cdf896896e1bbcbc481980f60",
+   "jpUrl": "3f43aa3230f75c98044ca2d1d4ee75622ea4fe7f0189cebfb196ea4fb5b6e2ee",
+   "enUrl": "625453f353079c0a3da7778883c8368e92d03f47573f947185c021b6b9d46d82",
+   "krUrl": "d3fde37b14226f814e480154cdfba2df02f3a1a147b4746a42b18d4f1283f76c"
+  },
+  {
+   "id": 6,
+   "title": "Hobbies",
+   "text": "I'm a firm believer in \"small talk brings big clients.\"",
+   "unlockRequirement": "",
+   "cnUrl": "a1f848dece1ea4a5399158ab34c35b99be02f99d7069f75c07e24dd1b2311389",
+   "jpUrl": "3a2060763b5b17c4cec5ddf58df230ab6ff5273842f6247afde9e8381bdf5072",
+   "enUrl": "6c0eb958e34e74a74c30cc354db2daafc47360091f57f4d3e1c30e3c728088be",
+   "krUrl": "9dfe6b0df2040ffdff707740d39285f721d6036596e708b79435ba7cd8341737"
+  },
+  {
+   "id": 7,
+   "title": "Annoyances",
+   "text": "I sell things that buyers want to buy \u2014 and they call me a con man! It's outrageous!",
+   "unlockRequirement": "",
+   "cnUrl": "b5ed41aff4f42b5ded2417c515c2106baeddd0c2bf3363242a194a7dfeb1f714",
+   "jpUrl": "22c6505edc3d15fccb182635be037c6f9b6ba93a31d406d5c3f2396caec65fd9",
+   "enUrl": "5040265eeb52fa884492c1dab15ce15c581c1efba4ffc274fd1fe6522e7f5136",
+   "krUrl": "9619bbdba0702c589a39178785dabb94903b186955fd97e2361ccc00b5cc7160"
+  },
+  {
+   "id": 8,
+   "title": "Something to Share",
+   "text": "You'd think in a place as isolated as Belobog, people would be more willing to share what they have. Well, it's the exact opposite. And I'm more than happy to make up the shortfall.",
+   "unlockRequirement": "",
+   "cnUrl": "61770f11755e33a4089e03082bca84943397ccbebad41322f191a68272e22786",
+   "jpUrl": "cba88bf1713b67a4f90fb4467e8e197e39c3ee21b30c0b7c1a7f8c7adcbd095e",
+   "enUrl": "0ac04b9c4de830a723d00b433374e891000decad83008e181686c0f49d9fab1a",
+   "krUrl": "6b76251434ad71baf1f7350d8cdf7217cb518ee6b4507de683d5c44dcebd02fa"
+  },
+  {
+   "id": 9,
+   "title": "Knowledge",
+   "text": "Come on, how did you guys end up in the middle of the Snow Plains? UFO? Let me guess, you took a train, haha. Seriously though.",
+   "unlockRequirement": "",
+   "cnUrl": "657f3f713bb6eace3301e9a3bcf658660354a9e38635e7090a32ab0e3edf94a8",
+   "jpUrl": "ca3796a9c7d10f9c2819f4b9b4dfdb1e56b8b8b9ee85089c9d2f9c650e8770e3",
+   "enUrl": "769895ba2c5362dffa80b1572fa21256cfa5ad5db95295374e0ef2e004d46fb6",
+   "krUrl": "29713b6ee6f83d0a55e78398041a616b3f99f8f5d594415425a2164804b30a71"
+  },
+  {
+   "id": 10,
+   "title": "About Natasha",
+   "text": "Back when I first arrived in the Underworld, I used to bring Natasha the medicines she needed. I did that for a while, and before long it was medicines and intel. You know how these things work.",
+   "unlockRequirement": "",
+   "cnUrl": "a363306db6b33a0e9cfc1403e05e042f9bc5a79b27b706deacae832bd25c7127",
+   "jpUrl": "7d5152f844a41ae163e5ac4c8afca0175ab95eb5d4cf012ee4322e73fad98d8d",
+   "enUrl": "d7c876facbf2a98623d918dbcf86dabc006b8a076b7427ce27ee7a3e0493d752",
+   "krUrl": "f0c199d1227dcea31217a9f94ca742175d951373a3692c7a5130418ccdd80af6"
+  },
+  {
+   "id": 11,
+   "title": "About Svarog",
+   "text": "If anyone out there ever managed to strike a deal with Svarog, they'd earn my heartfelt admiration!",
+   "unlockRequirement": "",
+   "cnUrl": "fd85916a75c80e11187deec3ab55fe5103a6c3fd7b808e4310c2ac7cf6766ba9",
+   "jpUrl": "efc2d4e1e6bb1d6eeb00f6a0a9c7acfa56315e3872bd351218ee0d0835ccc78b",
+   "enUrl": "23b7da99f9155f1a412ee120aa69d658a2487e05c642c7625d29f7065509b9c6",
+   "krUrl": "6677cf0b0e32077c3e01e4589d3554f7226d65c88385d4ab17ac5e8fc061d43e"
+  },
+  {
+   "id": 12,
+   "title": "About Clara",
+   "text": "Our little girl in red is truly impressive. How did she get that giant tinhead to listen to her?",
+   "unlockRequirement": "",
+   "cnUrl": "c074d3e72ec9e806048b88dc2bc311868019b39b45766f52640e9383c87fd3e6",
+   "jpUrl": "26977842beced007e525200861597dc171eaeae96f648cf28eb8f67a14298342",
+   "enUrl": "e4de6dea230571c6113242f86be64bf8bfa08cb9c0321b1c8e9223acfb78862e",
+   "krUrl": "1cb99d34ba1a82f9e08a36800b9f144318e566290f4ab90dd6287106145ed94c"
+  },
+  {
+   "id": 13,
+   "title": "About Seele",
+   "text": "If she had it her way, Miss Seele would spend less time yelling at me and more time actively trying to hit me. Can someone explain what I did to deserve her?",
+   "unlockRequirement": "",
+   "cnUrl": "0949f5bf6a48242816749a1a5f72def2a7de7309b406a0c547e71b557d13b6d4",
+   "jpUrl": "b4c787ef31ce375ff0da27f5220ca52bc2d27580fca1bb9a84c90e5e06879ea9",
+   "enUrl": "0ebf46cf879ff8b3a3fc4faa9cf2f4c5dd699d39e2099365b3321646536f972e",
+   "krUrl": "348e44cea51b9c9bdc4049156252d9dd6a7050725e65d94fda9723bc9b307852"
+  },
+  {
+   "id": 14,
+   "title": "About Gepard",
+   "text": "Ah, we see each other pretty often \u2014 usually it's me running away and him running after me. Gotta say, I'm gradually beginning to enjoy the attention, hehe.",
+   "unlockRequirement": "",
+   "cnUrl": "f10e39060048957b7fca1d4791fcbc081e4049e5efb213c912ed83fb8fcc657e",
+   "jpUrl": "41eb806ba60fe0e7c5e4bcf449c885ea050e480f1932fa12733bb5a032fb7e33",
+   "enUrl": "819ecb3c48d38ede428d28fe5fb40b8758c8700f3a7ef7d88967e28e2586f35b",
+   "krUrl": "275163f23081e5f1d68621a3c561899573d3337cf989400af033dad911e3019e"
+  },
+  {
+   "id": 15,
+   "title": "About Serval",
+   "text": "We used to be good pals, but now... Let's just say her brother put in a bad word for me.",
+   "unlockRequirement": "",
+   "cnUrl": "df46dd0d848b652b7ab9d7b244bf83c25b0a19156b7f7629c8f5e669e9d0867b",
+   "jpUrl": "2760ca7c947abe7c83f539024595b773dc79b7488985ff7a166667d352232918",
+   "enUrl": "ad929f64cb3f74a89fa117d46aca0e7f6ce8fd753f9e0f0b486c85d9a143640c",
+   "krUrl": "3388ea55d731d6c25cb24bb640e2f38e2ed805bc122a71833912725487587602"
+  },
+  {
+   "id": 16,
+   "title": "About Bronya",
+   "text": "My only wish is to get acquainted with the supreme guardian-to-be. Any introduction will do \u2014 even a painful one!",
+   "unlockRequirement": "",
+   "cnUrl": "b043f2974da123943d8dfb1aa6ecda8667ea9cbdaf12b7152cb41e19dc1ede6e",
+   "jpUrl": "540ce5eaf18c6e75cff608519c0af7b3c6c6d4434482d372ce8f15ffb08b9a3e",
+   "enUrl": "f4a597abaefdae4482e6267f0cec146848eed3cfc8d5e31537ae2e7265bc1b4b",
+   "krUrl": "7be4250a8c32029fa399aa408aaa9467965e63d3b4ccd9e63b3c43b7210e55ad"
+  }
+ ],
+ "storyItems": [
+  {
+   "title": "Character Details",
+   "text": "A silver-tongued salesman. Where there is profit to be made, you can be sure Sampo is nearby.<br />The information that only Sampo possesses makes it hard not to approach him for help, but becoming his \"customer\" is not necessarily a good thing.<br />After all, \"customers\" can quickly turn into \"commodities\" for the right price.",
+   "unlockRequirement": ""
+  },
+  {
+   "title": "Character Story: Part I",
+   "text": "\"Hello everyone! This is Brughel Poisson from the Crystal Daily, and I'm here at Fountain Plaza in the Administrative District. Standing next to me is someone who calls themselves a member of the Dark-Blue Scam Victims' Association, and I am about to conduct a short interview with him.\"<br /><br />\"Hello there, sir. Could you please tell me and the audience about your experience of getting scammed?\"<br /><br />\"Oh... I'm so utterly enraged! That blue-haired punk... I hope he dies!\"<br /><br />\"Sir, we're live right now... please calm down.\"<br /><br />\"Ahem... Fine. The Crystal Daily, right? That's it. You should report more on the suffering of everyday people and pay less attention to gossip about the Architects...\"<br /><br />\"I'm telling you, that blue-haired punk has slipped off into the Administrative District again! Yesterday he pinched three catties of rye bread spices from my store \u2014 three whole catties! Do you know how long those will last for the dignitaries? Next thing, he'll be robbing a spice factory!\"<br /><br />\"Please calm down, sir! We sympathize deeply with your plight. Now then, you just mentioned the Belobog spice factory, didn't you?\"<br /><br />\"Err... Sure, I mentioned it. Was that important?\"<br /><br />\"This factory... are you able to tell me its exact location?\"<br /><br />\"Err... Why?\"<br /><br />\"Well you see, as journalists, we want to contribute to social justice causes \u2014 and only by knowing the exact location can our Silvermane Guards and righteous citizens reduce burglaries. Wouldn't you agree?\"<br /><br />\"Err... That makes sense. Then listen up, the address of the factory is...\"",
+   "unlockRequirement": "Unlocked at Character Level <nobr>20</nobr>"
+  },
+  {
+   "title": "Character Story: Part II",
+   "text": "\"Name.\"<br /><br />\"Alexey. Alexey Bulger.\"<br /><br />\"Rank.\"<br /><br />\"Private First-Class.\"<br /><br />\"Hello, Private First-Class Alexey. I'm Brughel Poisson, senior human resources specialist for the Silvermane Guards. Captain Gepard asked me to approve your application for personal leave.\"<br /><br />\"It's a pleasure to meet you, Madam Brughel.\"<br /><br />\"Let's see... It says here that you were wounded four months ago during a defensive operation, with a total of five fractures... Yet despite all this, you have continued to carry out your duties right up until now. Admirable!\"<br /><br />\"Thank you, Madam Brughel.\"<br /><br />\"You guard the... 3rd Arsenal at the Silvermane Guard Restricted Zone, yes? Terrific! As far as I know, that's an extremely important military zone where the most expensive... Ahem, the most valuable Silvermane military resources are stored.\"<br /><br />\"You're right, ma'am.\"<br /><br />\"Let me see... Hmm, no problem. Private First-Class Alexey, at this stage you are cleared to go home next Tuesday.\"<br /><br />\"...What? So soon? As far as I know, this kind of high-level guard duty usually takes at least a month to process handovers \u2014\"<br /><br />\"...Don't worry, Private First-Class. I appreciate your determination to the cause, but nothing is more important to me than protecting the physical and mental well-being of one of our best Silvermane Guards! Don't worry. I've already picked out someone to fill in for you, so everything's taken care of.\"<br /><br />\"...I understand. Thank you very much, ma'am.\"<br /><br />\"That's the one! Remember, next Tuesday \u2014 I want you and your luggage out of the restricted zone before <nobr>20</nobr>:<nobr>17</nobr>!\"",
+   "unlockRequirement": "Unlocked at Character Level <nobr>40</nobr>"
+  },
+  {
+   "title": "Character Story: Part III",
+   "text": "\"Yo, my man.\"<br /><br />\"Yo, you're here working for Poisson, too?\"<br /><br />\"Yeah. Are you in charge of demolitions?\"<br /><br />\"Yup. Are you the lockpick?\"<br /><br />\"Uh-huh.\"<br /><br />\"Nice. Then we're ready. Let's get to work.\"<br /><br />\"Unh... Unh... Done. Now let's just wait.\"<br /><br />\"That doesn't look very reliable... Can this tiny thing blow through this steel door?\"<br /><br />\"I didn't doubt your professionalism. Why are you doubting me? Trust me. I've bombed mine shafts more times than you've had hot dinners.\"<br /><br />\"Err... okay. Getting back on topic, what did that girl tell you again?\"<br /><br />\"The factory's abandoned, as it's completely unguarded. Just take what you want. I've never heard of such an easy job.\"<br /><br />\"Mmm, yeah that's what she told me too. But something seems kinda off to me...\"<br /><br />\"Money's money. Don't ask so many questions. Come on, plug up your ears. It's fireworks time!\"<br /><br />\"...\"<br /><br />\"...Holy moly! That's too much, man... Just spectacular!\"<br /><br />\"I told you already. Don't question my professionalism. Let's go. It's over to you now.\"<br /><br />\"Shh! Don't say anything. Can't you hear? I can hear voices inside!\"<br /><br />\"What? N\u2014No way, she said there were no guards.\"<br /><br />\"It's the Silvermane Guards. The Silvermane Guards! It's the end of the line for us, bro. Scram!\"<br /><br />\"Darn it. Poisson must've set us up! That piece of scum. This isn't finished yet!\"",
+   "unlockRequirement": "Unlocked at Character Level <nobr>60</nobr>"
+  },
+  {
+   "title": "Character Story: Part IV",
+   "text": "\"Good morning, ma'am, I hope I haven't disturbed you.\"<br /><br />\"...Who are you? Why are the Silvermane Guards knocking on my door first thing in the morning?\"<br /><br />\"I'm sorry, ma'am. We're just carrying out building-to-building searches as ordered by the Architects.\"<br /><br />\"Uh... searches? What are you searching for? I don't have anything...\"<br /><br />\"Please calm down, ma'am \u2014 we are not targeting you. Everyone in the city is subject to questioning.\"<br /><br />\"Has something... something big happened?\"<br /><br />\"Please trust us. Everything will turn out fine if you cooperate with us. I just have one question: Do you have any wigs at home?\"<br /><br />\"What... Wigs? No, I don't have any. As you can see, my hair is great... Why are you asking about that?\"<br /><br />\"Are you sure? Please think again. The Silvermane Guards have been ordered to gather up all the wigs in Belobog City. Refusal to submit may result in serious consequences...\"<br /><br />\"No, I'm sure. I don't have any of those at home \u2014 if you don't believe me, come inside and have a look.\"<br /><br />\"Ah, that won't be necessary. I'm sure you have nothing to hide. Goodbye, ma'\u2014\"<br /><br />\"...Hold on a minute, can I ask what happened?\"<br /><br />\"Oh, there's no harm in telling you. Recently, a male thief disguised as a woman has stowed away up here into the Overworld and is swindling everyone. This person is extremely slippery and changes appearance often. The Silvermane Guards have not been able to locate him. Apparently, the Minister of Security was absolutely furious at yesterday's briefing, and ordered the confiscation of all wigs in the city...\"<br /><br />\"...Is that so? How outrageous!\"<br /><br />\"I'll level with you. We all feel the same way as you do. We need to keep up our search, so I won't bother you any longer... Wishing you a good day, Madam Poisson.\"",
+   "unlockRequirement": "Unlocked at Character Level <nobr>80</nobr>"
+  }
+ ],
+ "archive": {
+  "cvCn": "\u5218\u5723\u535a",
+  "cvJp": "\u5e73\u5ddd\u5927\u8f14",
+  "cvKr": "\uc815\uc7ac\ud5cc",
+  "cvEn": "Roger Rose",
+  "camp": "Belobog"
+ },
+ "calculator": {
+  "expCost": {
+   "1": 200,
+   "2": 300,
+   "3": 500,
+   "4": 600,
+   "5": 1050,
+   "6": 1670,
+   "7": 2320,
+   "8": 3060,
+   "9": 3860,
+   "10": 4740,
+   "11": 5710,
+   "12": 6730,
+   "13": 7830,
+   "14": 9000,
+   "15": 10240,
+   "16": 11550,
+   "17": 12920,
+   "18": 14360,
+   "19": 15870,
+   "20": 16580,
+   "21": 16840,
+   "22": 17100,
+   "23": 17370,
+   "24": 17640,
+   "25": 17910,
+   "26": 18190,
+   "27": 18480,
+   "28": 18760,
+   "29": 19040,
+   "30": 19340,
+   "31": 19630,
+   "32": 19930,
+   "33": 20220,
+   "34": 20530,
+   "35": 20840,
+   "36": 21140,
+   "37": 21450,
+   "38": 21760,
+   "39": 22080,
+   "40": 22390,
+   "41": 25550,
+   "42": 29140,
+   "43": 32830,
+   "44": 36600,
+   "45": 40470,
+   "46": 44430,
+   "47": 48480,
+   "48": 52630,
+   "49": 56870,
+   "50": 61190,
+   "51": 65620,
+   "52": 70130,
+   "53": 74740,
+   "54": 79450,
+   "55": 84240,
+   "56": 89120,
+   "57": 94110,
+   "58": 99190,
+   "59": 104350,
+   "60": 106240,
+   "61": 111830,
+   "62": 117530,
+   "63": 123320,
+   "64": 129210,
+   "65": 135200,
+   "66": 141290,
+   "67": 147480,
+   "68": 153780,
+   "69": 160170,
+   "70": 179260,
+   "71": 199920,
+   "72": 220920,
+   "73": 242260,
+   "74": 263930,
+   "75": 285950,
+   "76": 308300,
+   "77": 331000,
+   "78": 354040,
+   "79": 377420,
+   "80": 414350
+  },
+  "expItemConfig": {
+   "1000": 409962,
+   "5000": 409961,
+   "20000": 409960
+  },
+  "sCoinId": 29328
+ },
+ "pageId": "sampo"
+}

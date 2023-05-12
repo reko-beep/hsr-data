@@ -1,0 +1,24 @@
+{
+ "iconPath": "c4982c2386092a121781ab284e6bfed5e4543ac6a0ae9667d443db24d31c9fcf",
+ "name": "Steamed Puffergoat Milk",
+ "rarity": 2,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 476982,
+  "type": 502,
+  "purposeId": 10,
+  "iconPath": "c4982c2386092a121781ab284e6bfed5e4543ac6a0ae9667d443db24d31c9fcf",
+  "name": "Steamed Puffergoat Milk",
+  "desc": "Upon use, immediately heals one downed character for <nobr>10%</nobr> of the character's Max HP.",
+  "lore": "Puffergoat milk, also known as Gentle Halcyon milk, is a specialty of the Xianzhou Alliance.<br />The milk is difficult to preserve and rarely seen outside Xianzhou.<br />It is sweet after warming without needing extra sugar, but it becomes bitter after cooling, so it must be drunk while hot.<br /><br />\"According to the Lifitide magazine, General Jing Yuan has to drink a large bowl of freshly squeezed Puffergoat milk every morning. The Seat of Divine Foresight has denied this report.\"",
+  "purpose": "Consumables",
+  "rarity": 2,
+  "rewardPath": "/material/476982",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "476982"
+}

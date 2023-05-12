@@ -1,0 +1,24 @@
+{
+ "iconPath": "f1074719cc77c1b9353514c295a8f5444452be3050e3f5f38c97a2156450bf32",
+ "name": "Wild Herb Soup",
+ "rarity": 2,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 791283,
+  "type": 502,
+  "purposeId": 10,
+  "iconPath": "f1074719cc77c1b9353514c295a8f5444452be3050e3f5f38c97a2156450bf32",
+  "name": "Wild Herb Soup",
+  "desc": "Upon use, immediately causes all allies to lose HP equal to <nobr>15%</nobr> of their Max HP and increases their ATK by <nobr>200</nobr> for the next battle.",
+  "lore": "Soup made of a type of moss that has a soothing bluish glow and can be found everywhere underground.<br />This kind of moss ball is said to have the effect of clearing away heat and detoxifying, but it is generally not recommended to consume Corrosive Ore Moss products that are still glowing.<br /><br />\"Drink it \u2014 it's Belobogians' fate.\"",
+  "purpose": "Consumables",
+  "rarity": 2,
+  "rewardPath": "/material/791283",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "791283"
+}

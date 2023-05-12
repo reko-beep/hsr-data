@@ -1,0 +1,27 @@
+{
+ "iconPath": "3e8616a355dbba92b0731b9a9e29967d09cd8e9a69ab2a1ec0b9896db6660aed",
+ "name": "Trailblaze EXP",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 12650,
+  "type": 101,
+  "purposeId": 0,
+  "iconPath": "3e8616a355dbba92b0731b9a9e29967d09cd8e9a69ab2a1ec0b9896db6660aed",
+  "name": "Trailblaze EXP",
+  "desc": "A measure of your Trailblaze Progress. Accumulate Trailblaze EXP to increase Trailblaze Level.",
+  "lore": "\"I came, I saw, I trailblazed.\"",
+  "purpose": "",
+  "rarity": 3,
+  "rewardPath": "/material/12650",
+  "comeFrom": [
+   "Mission rewards",
+   "Trailblaze Power consumption"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "12650"
+}

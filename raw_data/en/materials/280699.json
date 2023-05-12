@@ -1,0 +1,24 @@
+{
+ "iconPath": "992f0a93ef4437227174fa630e83181f8752369cb73fc56257673d98431da8d1",
+ "name": "Treasure of the Starry Seas",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 280699,
+  "type": 503,
+  "purposeId": 0,
+  "iconPath": "992f0a93ef4437227174fa630e83181f8752369cb73fc56257673d98431da8d1",
+  "name": "Treasure of the Starry Seas",
+  "desc": "A treasure left by the Nameless. Select one Light Cone of your choice.",
+  "lore": "Treasure hidden amongst the starry seas by the bygone Nameless. These items encourage future explorers to step onward bravely and ceaselessly.",
+  "purpose": "",
+  "rarity": 4,
+  "rewardPath": "/material/280699",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "280699"
+}

@@ -1,0 +1,28 @@
+{
+ "iconPath": "0c84c872d25ee920b5cd47d5babd1af5b11a0e5546aaf85dec532e1ebe04d393",
+ "name": "Mechanical Parts",
+ "rarity": 2,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 440513,
+  "type": 601,
+  "purposeId": 17,
+  "iconPath": "0c84c872d25ee920b5cd47d5babd1af5b11a0e5546aaf85dec532e1ebe04d393",
+  "name": "Mechanical Parts",
+  "desc": "Tier 2 Synthesis Material",
+  "lore": "Essential components of all machines with strange shapes and specific functions.<br />Without them, nothing can be made.<br /><br />\"With the same parts, Screwllum can make entire planets and create cyborgs. But you can only make me a watch that runs seven seconds late every day.\"<br />\"Seven seconds is good enough! Just a hair later than the clocks they use in observatories.\"",
+  "purpose": "Synthesis material",
+  "rarity": 2,
+  "rewardPath": "/material/440513",
+  "comeFrom": [
+   "Robot Settlement: Automatons or other enemies",
+   "Found in destructible objects in the Herta Space Station",
+   "Administrative District Shop"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "440513"
+}

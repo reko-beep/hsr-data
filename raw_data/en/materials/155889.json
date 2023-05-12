@@ -1,0 +1,28 @@
+{
+ "iconPath": "cfad18793e3010265b0a82281326cc0f601968956adb8794c535341c0974f83b",
+ "name": "Phlogiston",
+ "rarity": 1,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 155889,
+  "type": 601,
+  "purposeId": 17,
+  "iconPath": "cfad18793e3010265b0a82281326cc0f601968956adb8794c535341c0974f83b",
+  "name": "Phlogiston",
+  "desc": "Tier 1 Synthesis Material",
+  "lore": "Particles that form the flame.<br />Genius Society #2 Harald Punch proved its existence, but #3 Nyul Iman disproved it.<br />#7 Bohdan overthrew Iman's conclusion and proved it again before getting killed by #4 Polka Kakamond days after announcing Phlogiston's existence.<br /><br />\"Does it exist or not? We're not interested, frankly speaking.\"",
+  "purpose": "Synthesis material",
+  "rarity": 1,
+  "rewardPath": "/material/155889",
+  "comeFrom": [
+   "Backwater Pass: Flamespawns or other enemies",
+   "Found in destructible objects in the Herta Space Station",
+   "Administrative District Shop"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "155889"
+}

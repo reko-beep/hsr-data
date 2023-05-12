@@ -1,0 +1,26 @@
+{
+ "iconPath": "c2c0c181db42dcfcb2b6d8cc2ad0b69cb38b87fb661dec642104a76a6b6fb311",
+ "name": "Interdimensional Leaf",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 440579,
+  "type": 601,
+  "purposeId": 17,
+  "iconPath": "c2c0c181db42dcfcb2b6d8cc2ad0b69cb38b87fb661dec642104a76a6b6fb311",
+  "name": "Interdimensional Leaf",
+  "desc": "Tier 4 Synthesis Material",
+  "lore": "The gravity of the planet Arivanta is not fixed. Rather, it changes all the time according to a Bode plot due to the influence of Arivanta's three moons. Ordinary life forms cannot survive such volatility, so the planet developed its unique eco-system, in which the herbal plant Interdimensional Tree is the most famous.<br />For plants in a world where gravity is constantly subject to change, their leaves often have a hard time landing on the planet's ancient and solid ground. It is for this reason that the Interdimensional Trees tend to shake off their leaves rather late in the year. To help their leaves land, these trees, in the course of evolution, gave their leaves the ability to conduct fast short-distance warp-jumps towards the ground at frequencies that cannot be observed by naked eyes. Even so, not every leaf gets to land on the ground. Those lucky enough to make it watch others rise into the sky and burn as they are devoured by the atmosphere.<br /><br />\"Wow.\"",
+  "purpose": "Synthesis material",
+  "rarity": 4,
+  "rewardPath": "/material/440579",
+  "comeFrom": [
+   "Cloudford: Mara-Struck Soldiers or other enemies"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "440579"
+}

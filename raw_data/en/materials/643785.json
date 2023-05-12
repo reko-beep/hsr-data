@@ -1,0 +1,24 @@
+{
+ "iconPath": "1cb2bab15dc1dfb64ba3e9e415b72e5a39e6be5da1b9d8243f93552553d21fb7",
+ "name": "Nameless Medal (Unopened)",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 643785,
+  "type": 501,
+  "purposeId": 14,
+  "iconPath": "1cb2bab15dc1dfb64ba3e9e415b72e5a39e6be5da1b9d8243f93552553d21fb7",
+  "name": "Nameless Medal (Unopened)",
+  "desc": "An unopened treasure. Use to gain the effect equivalent to purchasing Nameless Medal once.",
+  "lore": "",
+  "purpose": "Valuable object",
+  "rarity": 4,
+  "rewardPath": "/material/643785",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "643785"
+}

@@ -1,0 +1,24 @@
+{
+ "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+ "name": "Recipe: Camo Paint",
+ "rarity": 2,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 273305,
+  "type": 507,
+  "purposeId": 19,
+  "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+  "name": "Recipe: Camo Paint",
+  "desc": "A simple equation. When entered into the Synthesizer, it will unlock a new recipe.",
+  "lore": "",
+  "purpose": "Recipe",
+  "rarity": 2,
+  "rewardPath": "/material/273305",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "273305"
+}

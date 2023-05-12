@@ -1,0 +1,24 @@
+{
+ "iconPath": "a047ec528781335b883dd5e7aafe4c3b2a1622eccdbaa57bbf35f3644ff8dd8a",
+ "name": "Trailblaze Timer",
+ "rarity": 5,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 443596,
+  "type": 101,
+  "purposeId": 0,
+  "iconPath": "a047ec528781335b883dd5e7aafe4c3b2a1622eccdbaa57bbf35f3644ff8dd8a",
+  "name": "Trailblaze Timer",
+  "desc": "Permanently increase max Technique Points by 1.",
+  "lore": "The Relic of a Nameless. An item that might have been a pocket watch or a compass.<br />It is said that the first part to break was the chain. It suddenly snapped during a warp jump, the links scattering everywhere.<br />Then, it was the back. Hit by a lead bullet, it was on the verge of falling apart.<br />Lastly, it was the markings on the face. They were gradually worn flat over the long years, becoming no longer visible.<br />It broke countless times and underwent endless repairs. Its former shape was no longer discernible, and only the stilled sharp hands were pointing ever forward.<br /><br />Take it, Legwork. It's yours now... Then, continue onward...",
+  "purpose": "",
+  "rarity": 5,
+  "rewardPath": "/material/443596",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "443596"
+}

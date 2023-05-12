@@ -1,0 +1,26 @@
+{
+ "iconPath": "8de44042e38f299001ea2711773722f38e9e17713e631f8083b5cf998208d2cf",
+ "name": "Undying Starlight",
+ "rarity": 5,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 41493,
+  "type": 601,
+  "purposeId": 0,
+  "iconPath": "8de44042e38f299001ea2711773722f38e9e17713e631f8083b5cf998208d2cf",
+  "name": "Undying Starlight",
+  "desc": "",
+  "lore": "Splendid gems formed when a shooting star fell from the sky.<br /><br />\"Precious things stay precious.\"",
+  "purpose": "",
+  "rarity": 5,
+  "rewardPath": "/material/41493",
+  "comeFrom": [
+   "Warp"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "41493"
+}

@@ -1,0 +1,27 @@
+{
+ "iconPath": "3652795592451684da31b73d554dd630aad6965b2db09dd1cd2a8b66e2b8516b",
+ "name": "Leaf of Imaginary",
+ "rarity": 2,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 703577,
+  "type": 601,
+  "purposeId": 17,
+  "iconPath": "3652795592451684da31b73d554dd630aad6965b2db09dd1cd2a8b66e2b8516b",
+  "name": "Leaf of Imaginary",
+  "desc": "Tier 2 Synthesis Material",
+  "lore": "A leaf of unknown origin.<br />It doesn't belong to any plant and is more of a representation of something more abstract.<br />The ancient light nourishes the leaf through its veins, displaying its faded but remnant power.<br /><br />\"One leaf, one world.\"",
+  "purpose": "Synthesis material",
+  "rarity": 2,
+  "rewardPath": "/material/703577",
+  "comeFrom": [
+   "Backwater Pass: Flamespawns or other enemies",
+   "Grocery Stand"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "703577"
+}

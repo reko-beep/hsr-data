@@ -1,0 +1,27 @@
+{
+ "iconPath": "607961a38d9fe4f935578e9ea7b4de093d68ff8258b0b52c3cd4261e5cd92932",
+ "name": "Traveler's Guide",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 409960,
+  "type": 601,
+  "purposeId": 1,
+  "iconPath": "607961a38d9fe4f935578e9ea7b4de093d68ff8258b0b52c3cd4261e5cd92932",
+  "name": "Traveler's Guide",
+  "desc": "Experience material for characters. Provides <nobr>20,000</nobr> Character EXP.",
+  "lore": "Required reading for world exploration. Press the \"Read\" button to tune in to an attractive voice in a language you understand, telling you about the legendary encounters of renowned adventurers across different worlds as well as the precious wisdom and knowledge that they have gathered.<br /><br />\"All-new series of the Traveler's Guide, The Chef's Manual to Galactic Cuisine, is now available for purchase.\"<br />\"For submissions, please connect to synesthesia beacon ERD<nobr>-23</nobr>\u03b8 to contact an Intelligentsia Guild representative. Method of payment can be arranged to your convenience.\"",
+  "purpose": "Character EXP Material",
+  "rarity": 4,
+  "rewardPath": "/material/409960",
+  "comeFrom": [
+   "Calyx (Outlying Snow Plains)",
+   "Forgotten Hall"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "409960"
+}

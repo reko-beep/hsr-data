@@ -1,0 +1,336 @@
+{
+ "iconPath": "e50443a4312313a9e0eac79179944cf272f37c4a395e09c74f76542b13531122",
+ "name": "Worldbreaker Blade",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 836259,
+  "type": 601,
+  "purposeId": 3,
+  "iconPath": "e50443a4312313a9e0eac79179944cf272f37c4a395e09c74f76542b13531122",
+  "name": "Worldbreaker Blade",
+  "desc": "Broken weapon left behind by members of the Antimatter Legion. Used to level up Traces significantly for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Destruction</span> characters.",
+  "lore": "This weapon represents its owner's rank and accomplishments in the name of Destruction.<br />The owner of this weapon makes their appearance at the end of a war to fan the embers to consume the world. Regardless of the glories of the past or the blessing of its deities, this planet is destined to return to the ashes it came from, and to wither away in the depths of the starry sky.<br /><br />The bearer of this brand is tasked with purifying the world.",
+  "purpose": "Trace Material<br />Light Cone Ascension Material",
+  "rarity": 4,
+  "rewardPath": "/material/836259",
+  "comeFrom": [
+   "Calyx (Storage Zone)",
+   "Omni-Synthesizer \u2014 Material Synthesis"
+  ]
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "0e76659bbb3b9d0b1cc6a4e0e8c63a576c7b917f2f740a4b1b8ceab260a8a595",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards"
+   ]
+  },
+  "39351": {
+   "id": 39351,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "9a5989e695e79a083de5aa398b731835bf7b94076d8faf4610db9ee85bde576c",
+   "name": "Nowhere to Run",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Destruction</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "This isn't the first time he's seen this man.<br />This man had become his own inseparable shadow.<br />No matter how many times he runs this man through with his spear, the man always comes back.<br /><br />He can neither lose to this man, nor truly win.<br />Though he wants to run away, there is nowhere to run.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21033",
+   "comeFrom": []
+  },
+  "61765": {
+   "id": 61765,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "ac8a9eb26e24f09b6343fd984cbaadf23a722e6b84355b7fef4e36411b15b3e8",
+   "name": "Arlan",
+   "desc": "",
+   "lore": "The head of Herta Space Station's Security Department.<br />This quiet boy hopes to protect the researchers who value their pursuit of knowledge, and to help them to complete their work.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/character/arlan",
+   "comeFrom": []
+  },
+  "79827": {
+   "id": 79827,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "6055da303bb75b0bd788ff1f7c95eed8bbde4bc2ba24805df60eb0ce633d2dad",
+   "name": "Something Irreplaceable",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Destruction</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "\"Should a day come when even I'm not here anymore, please look after this database, Svarog.\"<br />(Who is this... Why is this message in my records...)<br />\"Do you have something that's irreplaceable, Svarog?\"<br />(Irreplaceable... broken parts... can simply be replaced...)<br />\"You'll definitely find it one day, Svarog.\"<br />(Such things... will only cause trouble...)<br /><br />\"When that time comes... You should leave this place behind.\"",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/lightcone/23002",
+   "comeFrom": []
+  },
+  "107621": {
+   "id": 107621,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "3febfe576e6aeecabb43a8e36fdc076d6caea775cffb17224c218b5aed10ed52",
+   "name": "Hook",
+   "desc": "",
+   "lore": "Boss (self-proclaimed) of an Underworld adventure squad, The Moles.<br />She loves freedom and sees life as a series of adventures.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/character/hook",
+   "comeFrom": []
+  },
+  "142908": {
+   "id": 142908,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "d145da74911f5549ab569a0f034e34baa4e998f8327e814d10df604b4f5c4b18",
+   "name": "On the Fall of an Aeon",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Destruction</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "It began with a flash of light.<br />One by one, they fell as the threat of expiration loomed over them.<br />They had to stop self-replicating and rushed to embrace each other,<br />trying to offer the right to reproduce in exchange for a possibility of survival.<br />They held hands in a show of unprecedented unity.<br />...But the Paths met an abrupt end,<br />and they were headed to a true death.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/lightcone/24000",
+   "comeFrom": []
+  },
+  "170099": {
+   "id": 170099,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "ed14eb05f7ce0df1e6d7320432d226dfd078b38e366d6a9bfbaf940e95b298f6",
+   "name": "Clara",
+   "desc": "",
+   "lore": "A vagrant girl who lives with robots.<br />She is introverted, gentle, and has a pure heart.<br />She wishes for all Underworlders to become a family.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/clara",
+   "comeFrom": []
+  },
+  "175713": {
+   "id": 175713,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "f43b619415520e92c63ac94bfd8f3ee6549e93db005820f66930fe060f5f50dc",
+   "name": "Trailblazer",
+   "desc": "",
+   "lore": "",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/playerboy",
+   "comeFrom": []
+  },
+  "460240": {
+   "id": 460240,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "49c86bee23a1299d009fec8b67d38f0759dd4a35470643219317db4e498a8f37",
+   "name": "Trailblazer",
+   "desc": "",
+   "lore": "",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/playergirl",
+   "comeFrom": []
+  },
+  "676261": {
+   "id": 676261,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "8a4f9e4cbf341d8ea7f5f446a8cff63edda8db06feefefa95f3bdb2bb54278c1",
+   "name": "Mutual Demise",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Destruction</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.<br /><br />\"How does one make perfect the past of a planet? Now \u2014 immediately \u2014 rend the planet asunder.\"",
+   "purpose": "",
+   "rarity": 3,
+   "rewardPath": "/lightcone/20016",
+   "comeFrom": []
+  },
+  "754822": {
+   "id": 754822,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "1438f682f950a421e8e52b633c3a923e00677229586fa59be0eacb3d64bec04b",
+   "name": "The Moles Welcome You",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Destruction</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "\"Moles, moles,\"<br />\"Leaving our holes,\"<br />\"Smart moles fear naught foes,\"<br />\"Moles, moles,\"<br />\"Bite your toes!\"",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21005",
+   "comeFrom": []
+  },
+  "792910": {
+   "id": 792910,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "17fddcf3643b03d56cea887150680fb2163b6711b5a12d5bdf8199cd66f011d0",
+   "name": "Collapsing Sky",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Destruction</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.<br /><br />\"The death of all things is as natural as their birth. Time erodes everything, turning all tangible entities to dust.\"",
+   "purpose": "",
+   "rarity": 3,
+   "rewardPath": "/lightcone/20002",
+   "comeFrom": []
+  },
+  "792919": {
+   "id": 792919,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "a229598642066f42a7be480584ed03e12b000744080f4b4cbad7785f5453bba3",
+   "name": "Shattered Home",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Destruction</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate. <br /><br />\"Absolute control comes from the ability to inflict total destruction.\"",
+   "purpose": "",
+   "rarity": 3,
+   "rewardPath": "/lightcone/20009",
+   "comeFrom": []
+  },
+  "838766": {
+   "id": 838766,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "8dbd150ab2e1b6e0409338b255272350d1c9aae5eb53fbe0eec564e4ccd672ab",
+   "name": "A Secret Vow",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Destruction</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "The boy would always make sure that his gloves and elbow guards were in good shape before leaving.<br />He treasured his gloves more than anything because they were tight enough to hide secrets.<br />With this layer of protection, no one could see the bandages on his hand and the wound beneath them.<br />He would be treated as if he was normal, and he would be greeted just like everyone else.<br /><br />That was all he asked for.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21012",
+   "comeFrom": []
+  },
+  "838775": {
+   "id": 838775,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "f8ab6ec716da1a4fd72a6560372b8db60c51fef3d3c7df27e49fe6c59675d76a",
+   "name": "Under the Blue Sky",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Destruction</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "Under the blue sky, fields of wheat were dancing.<br />The young girl was carefully weaving a flower wreath,<br />for her most beloved little sister.<br /><br />That was when they were still the same height.<br />That was when they shared the same smile.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21019",
+   "comeFrom": []
+  },
+  "920200": {
+   "id": 920200,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "8e1da1734309fa1e0ed5035575293caab81cfa7723f7bf4a81d36d9833d80b36",
+   "name": "Lifeless Blade",
+   "desc": "Weapon remnants left behind by members of the Antimatter Legion. Used to level up Traces moderately for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Destruction</span> characters.",
+   "lore": "This brand represents their rank and accomplishments in the name of Destruction.<br />The master of this weapon carries a strong hatred for all sentient beings. They relish in the lament of intelligent beings as sweet melodies and topple civilizations with millennia of history in the blink of an eye.<br /><br />\"The bearer of this brand is tasked with stopping breath among the living.\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 3,
+   "rewardPath": "/material/920200",
+   "comeFrom": [
+    "Calyx (Storage Zone)",
+    "Omni-Synthesizer \u2014 Material Synthesis"
+   ]
+  },
+  "955407": {
+   "id": 955407,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "edde98a3b72cb162122712f99681e701b8f34fb7c5668a4e0705fe6db15c04bb",
+   "name": "Woof! Walk Time!",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Destruction</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "Pity that no one has seen it...<br />Seen it screw up its nose and sniff around and dive into an empty path.<br /><br />Pity that no one has seen it...<br />Seen it retract its claws, enter the password, and leap into the embraces of freedom.<br /><br />Has nobody seen it still...?<br />A grown dog can now walk itself in space!",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21026",
+   "comeFrom": []
+  }
+ },
+ "composeData": [
+  {
+   "items": [
+    {
+     "id": 920200,
+     "count": 3
+    },
+    {
+     "id": 29328,
+     "count": 20
+    }
+   ],
+   "tag": {
+    "name": "Traces Leveling Material",
+    "type": "Traces Activation Materials",
+    "icon": "ffdbab3c38d4fc15596f399cfde9f2eb0717184b00df444cbae165a965fb928a"
+   }
+  }
+ ],
+ "avatarUsedBy": [
+  {
+   "id": 61765,
+   "rarity": 4
+  },
+  {
+   "id": 170099,
+   "rarity": 5
+  },
+  {
+   "id": 107621,
+   "rarity": 4
+  },
+  {
+   "id": 175713,
+   "rarity": 5
+  },
+  {
+   "id": 460240,
+   "rarity": 5
+  }
+ ],
+ "equipmentUsedBy": [
+  {
+   "id": 792910,
+   "rarity": 3
+  },
+  {
+   "id": 792919,
+   "rarity": 3
+  },
+  {
+   "id": 676261,
+   "rarity": 3
+  },
+  {
+   "id": 754822,
+   "rarity": 4
+  },
+  {
+   "id": 838766,
+   "rarity": 4
+  },
+  {
+   "id": 142908,
+   "rarity": 5
+  },
+  {
+   "id": 838775,
+   "rarity": 4
+  },
+  {
+   "id": 955407,
+   "rarity": 4
+  },
+  {
+   "id": 39351,
+   "rarity": 4
+  },
+  {
+   "id": 79827,
+   "rarity": 5
+  }
+ ],
+ "pageId": "836259"
+}

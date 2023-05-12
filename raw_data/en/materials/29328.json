@@ -1,0 +1,28 @@
+{
+ "iconPath": "0e76659bbb3b9d0b1cc6a4e0e8c63a576c7b917f2f740a4b1b8ceab260a8a595",
+ "name": "Credit",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 29328,
+  "type": 101,
+  "purposeId": 11,
+  "iconPath": "0e76659bbb3b9d0b1cc6a4e0e8c63a576c7b917f2f740a4b1b8ceab260a8a595",
+  "name": "Credit",
+  "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+  "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+  "purpose": "Common currency",
+  "rarity": 3,
+  "rewardPath": "/material/29328",
+  "comeFrom": [
+   "Calyx (Great Mine)",
+   "Mission rewards",
+   "Assignment rewards"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "29328"
+}

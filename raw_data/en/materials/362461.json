@@ -1,0 +1,24 @@
+{
+ "iconPath": "12ee09dd1dde25c933aee6e7070bcaa19cf4f7f622ab75128a9e628bc9cfc415",
+ "name": "Star of Honor",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 362461,
+  "type": 101,
+  "purposeId": 0,
+  "iconPath": "12ee09dd1dde25c933aee6e7070bcaa19cf4f7f622ab75128a9e628bc9cfc415",
+  "name": "Star of Honor",
+  "desc": "Virtual goods from Cosmic Warfare. Collect enough of them to receive rewards.",
+  "lore": "",
+  "purpose": "",
+  "rarity": 3,
+  "rewardPath": "/material/362461",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "362461"
+}

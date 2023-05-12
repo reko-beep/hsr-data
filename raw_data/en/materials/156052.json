@@ -1,0 +1,26 @@
+{
+ "iconPath": "8946b2666635fce3e3ddde78442609d32f68743d2b45df662d9e7ee7fe7c7221",
+ "name": "Mythus Knots",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 156052,
+  "type": 601,
+  "purposeId": 17,
+  "iconPath": "8946b2666635fce3e3ddde78442609d32f68743d2b45df662d9e7ee7fe7c7221",
+  "name": "Mythus Knots",
+  "desc": "Tier 4 Synthesis Material",
+  "lore": "To make the divine revelations of the Mythus even more mysterious, the History Fictionologists whipped up something known as Mythus Knots that contain a blend of rumors, secrets, legends, and myths. Historians would then blend such misinformation into what was supposed to be certain and rigid historical facts, with the aim to bring about a future of uncertainty for the universe. According to the History Fictionologists, the course of history is limited by the \"narrative drive\" in the minds of its observers. If something can be done to mix myths into facts, the universe will be covered in the \"mist of uncertainty,\" allowing it to escape the calamity that is doomed to happen.<br /><br />\"Scammers try to predict the future themselves, but prophets resort to higher powers.\"",
+  "purpose": "Synthesis material",
+  "rarity": 4,
+  "rewardPath": "/material/156052",
+  "comeFrom": [
+   "Rivet Town: Imaginary Weavers or other enemies"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "156052"
+}

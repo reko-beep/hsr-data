@@ -1,0 +1,24 @@
+{
+ "iconPath": "7a3c23b747faa58bfe3cc64383e4914be65ab64d56e1e906f391bcd398306fcd",
+ "name": "Relic Coffret: Champion of Streetwise Boxing",
+ "rarity": 5,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 751498,
+  "type": 501,
+  "purposeId": 15,
+  "iconPath": "7a3c23b747faa58bfe3cc64383e4914be65ab64d56e1e906f391bcd398306fcd",
+  "name": "Relic Coffret: Champion of Streetwise Boxing",
+  "desc": "A device used to collect and restore the Lightdust in the Fragmentum to its original form. Use this to obtain a random 5-star relic from the Champion of Streetwise Boxing set.",
+  "lore": "You never know what's in the box until you open it.<br /><br />\"So it's essentially like buying a lottery ticket?\"<br />\"At least we don't need to worry about finding a cat that is both dead and alive.\"",
+  "purpose": "Relic Coffret",
+  "rarity": 5,
+  "rewardPath": "/material/751498",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "751498"
+}

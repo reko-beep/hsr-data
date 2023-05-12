@@ -1,0 +1,131 @@
+{
+ "iconPath": "bcd786b4337910400687d37849c3dde7fcb355b01690c1ba644d502a8737b605",
+ "name": "Enhancement Paste: Wind",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 357147,
+  "type": 502,
+  "purposeId": 10,
+  "iconPath": "bcd786b4337910400687d37849c3dde7fcb355b01690c1ba644d502a8737b605",
+  "name": "Enhancement Paste: Wind",
+  "desc": "Upon use, increases Wind DMG of all allies by <nobr>24%</nobr> for the next battle.",
+  "lore": "A cream made from a mixture of Path materials and other things.<br />Apply it to the right weapon to boost combat effectiveness.<br /><br />\"Half the effort, double the result.\"",
+  "purpose": "Consumables",
+  "rarity": 3,
+  "rewardPath": "/material/357147",
+  "comeFrom": [
+   "All-in-One Synthesis Machine"
+  ]
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "0e76659bbb3b9d0b1cc6a4e0e8c63a576c7b917f2f740a4b1b8ceab260a8a595",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards"
+   ]
+  },
+  "272631": {
+   "id": 272631,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "c56d9ab576f8077b55249ba302320edab04dd431bb233c6aa40fd2e8d689dcb8",
+   "name": "Vortex of Wind",
+   "desc": "Tier 2 Synthesis Material",
+   "lore": "The eye of the storm remains stagnant.<br />Even when put in vacuum, the grains involved in the vortex continue to revolve around the eye of the storm.<br /><br />\"Look, they won't stop no matter what happens. They just keep whirling. You know what that reminds me of?\"<br />\"Trailblazing!\"<br />\"...That's right, Pom-Pom. Promise me that our trailblazing journey will never come to a stop.\"",
+   "purpose": "Synthesis material",
+   "rarity": 2,
+   "rewardPath": "/material/272631",
+   "comeFrom": [
+    "Cloudford: Mara-Struck Soldiers or other enemies",
+    "Found in destructible objects in Jarilo-VI",
+    "Grocery Stand"
+   ]
+  },
+  "356475": {
+   "id": 356475,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "9dd77277c28117c06c0fb78cdf1accc3736022cb5bb39fd15fab2d13e9a8675e",
+   "name": "Gaseous liquid",
+   "desc": "Tier 1 Synthesis Material",
+   "lore": "Is it fog, rain, or wind?<br />You can't tell if it's still in the container without lifting the lid.<br /><br />\"The answer my friend, is blowing in the gaseous liquid...\"<br />\"The answer is blowing in the gaseous liquid.\"",
+   "purpose": "Synthesis material",
+   "rarity": 1,
+   "rewardPath": "/material/356475",
+   "comeFrom": [
+    "Found in destructible objects in Jarilo-VI",
+    "Grocery Stand"
+   ]
+  },
+  "357279": {
+   "id": 357279,
+   "type": 507,
+   "purposeId": 19,
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: Enhancement Paste: Wind",
+   "desc": "A simple equation. When entered into the Synthesizer, it will unlock a new recipe.",
+   "lore": "",
+   "purpose": "Recipe",
+   "rarity": 3,
+   "rewardPath": "/material/357279",
+   "comeFrom": []
+  },
+  "641068": {
+   "id": 641068,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "e75e51963b701a4d4b40b49f6074ade438199004d4c89d645a2777f14db50804",
+   "name": "Stone of The Hunt",
+   "desc": "Tier 3 Synthesis Material",
+   "lore": "Small stone with the power of The Hunt.<br />As if guided by someone's will, it moves by itself towards a certain direction.<br />Sounds like what a magnet would do? I assure you it is not.<br /><br />\"The destination lies where my arrow is heading.\"",
+   "purpose": "Synthesis material",
+   "rarity": 3,
+   "rewardPath": "/material/641068",
+   "comeFrom": [
+    "Grocery Stand"
+   ]
+  }
+ },
+ "composeData": [
+  {
+   "items": [
+    {
+     "id": 356475,
+     "count": 5
+    },
+    {
+     "id": 272631,
+     "count": 2
+    },
+    {
+     "id": 641068,
+     "count": 2
+    },
+    {
+     "id": 357279,
+     "count": 1
+    }
+   ],
+   "tag": {
+    "name": "Attack Consumables",
+    "type": "Consumables",
+    "icon": "afe47a40c1361649152476b603185f0ffb4b55c17408e2629a1489e38daf70a5"
+   }
+  }
+ ],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "357147"
+}

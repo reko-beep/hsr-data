@@ -1,0 +1,24 @@
+{
+ "iconPath": "1cb2bab15dc1dfb64ba3e9e415b72e5a39e6be5da1b9d8243f93552553d21fb7",
+ "name": "Honor Badge (Unopened)",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 958086,
+  "type": 501,
+  "purposeId": 14,
+  "iconPath": "1cb2bab15dc1dfb64ba3e9e415b72e5a39e6be5da1b9d8243f93552553d21fb7",
+  "name": "Honor Badge (Unopened)",
+  "desc": "An unopened treasure. Use it to upgrade the Nameless Glory to the Nameless Medal.",
+  "lore": "",
+  "purpose": "Valuable object",
+  "rarity": 4,
+  "rewardPath": "/material/958086",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "958086"
+}

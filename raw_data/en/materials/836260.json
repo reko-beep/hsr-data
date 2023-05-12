@@ -1,0 +1,336 @@
+{
+ "iconPath": "f0bb6fd4143f707987f651fa21b81257202d038949944fa22d7615ad342d5bfa",
+ "name": "Arrow of the Starchaser",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 836260,
+  "type": 601,
+  "purposeId": 3,
+  "iconPath": "f0bb6fd4143f707987f651fa21b81257202d038949944fa22d7615ad342d5bfa",
+  "name": "Arrow of the Starchaser",
+  "desc": "A shard of the Sky-Shattering Lux Arrow shot by the Reignbow Arbiter. Used to level up Traces significantly for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Hunt</span> characters.",
+  "lore": "The remains of a divine construct that ordinary humans can rarely behold. What kind of force can shatter stars that are light-years away? Humanity can only imagine the power of the Lux Arrow from the ashes it left behind.<br />Only the Furnace Master, chief of the Xianzhou artisans, has the rights to reforge the shards for those who are worthy.<br /><br />\"The death of a star shall shine bright for ages to come.\"",
+  "purpose": "Trace Material<br />Light Cone Ascension Material",
+  "rarity": 4,
+  "rewardPath": "/material/836260",
+  "comeFrom": [
+   "Calyx (Outlying Snow Plains)",
+   "Omni-Synthesizer \u2014 Material Synthesis"
+  ]
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "0e76659bbb3b9d0b1cc6a4e0e8c63a576c7b917f2f740a4b1b8ceab260a8a595",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards"
+   ]
+  },
+  "39353": {
+   "id": 39353,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "659d2259f7ad6ff3dffded3db1d4f2f2f48cf637d43285633f856a657f376a79",
+   "name": "Return to Darkness",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">The Hunt</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "Even though her sister was close by her side, she could hear nothing.<br />The only thing audible was the voice in the depths of her heart, which only grew louder by the minute.<br /><br />\"Big sis's body is cold.\"<br />\"Big sis's body is not moving.\"<br /><br />A violent surge of fury irrevocably overwhelmed her so much that she didn't even find the time to clear her mind, or to remember this crucial yet neglected fact...<br /><br />\"Big sis's body has been cold like this for a very long time.\"",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21031",
+   "comeFrom": []
+  },
+  "48073": {
+   "id": 48073,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "ebad922c3652e677f45b86d689cd06d161c3af19f682d1c0742012b043027505",
+   "name": "Sushang",
+   "desc": "",
+   "lore": "Born on the Xianzhou Yaoqing, sent to the Cloud Knights of the Luofu for military training.<br />She wields her family sword, a gift from her mother, and longs for the future she will go on to write.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/character/sushang",
+   "comeFrom": []
+  },
+  "79828": {
+   "id": 79828,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "8140a05ece6e783f02642882f87073893e2b50633bbb7d4f51cb9ce4cc692ed0",
+   "name": "In the Night",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">The Hunt</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "A young girl smiles subtly.<br />\"How?\"<br />\"Right here, right now, I am alone...\"<br />\"But it feels... very lively.\"",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/lightcone/23001",
+   "comeFrom": []
+  },
+  "142907": {
+   "id": 142907,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "55020259d03d4da06f62e7a38648eb01cdc47e3cf1b6e3bce421e29cd1f463df",
+   "name": "Cruising in the Stellar Sea",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">The Hunt</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "Coursing 'tween the sea of stars,<br />they cruise with the speed of a rainbow's chromatic flash.<br />A journey of hunting undying abominations,<br />collecting cures and miracles,<br />and seeking deliverance.<br />Akin to a vow unbroken, their voyage will be,<br />ad infinitum.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/lightcone/24001",
+   "comeFrom": []
+  },
+  "196472": {
+   "id": 196472,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "33c3d4d30df774ba408d9bca6da0866a11204c2de0d4e5520f5864c17618d80b",
+   "name": "Sleep Like the Dead",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">The Hunt</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "The boy is still tightly grasping the sword even when fast asleep against the general's shoulder.<br />The general gently taps the boy's cheek, and the boy mutters in his sleep.<br />\"General... I finally... won.\"<br /><br />The general pauses. He suddenly realizes that, compared to the boy trying to improve every day,<br />he himself has endured too many years and is used to stagnation.<br /><br />\"You will soon be better than everyone, and that will only be the beginning...\"",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/lightcone/23012",
+   "comeFrom": []
+  },
+  "270122": {
+   "id": 270122,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "80ecf0c46e1552ae89a6024a7a2b659796b102d41fd3890aef4f18d45a770476",
+   "name": "Yanqing",
+   "desc": "",
+   "lore": "General Jing Yuan's retainer. A gifted swordsman who hasn't even come of age.<br />No one can best Yanqing when he holds a sword in hand.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/yanqing",
+   "comeFrom": []
+  },
+  "454626": {
+   "id": 454626,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "82af8b28075e3b76482cd8c9a67106bb819646927a136753603250e879e14c58",
+   "name": "Seele",
+   "desc": "",
+   "lore": "A resident of the Underworld and the backbone of Wildfire. She goes by the alias \"Babochka.\"<br />She has a frank personality, but there is a delicate and sensitive hidden side to her deep in her heart.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/seele",
+   "comeFrom": []
+  },
+  "460007": {
+   "id": 460007,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "e1e77d134a9a40a1924ccf07ba1a79fa1c2a8f5462aa5e9367292c108bbed09b",
+   "name": "Dan Heng",
+   "desc": "",
+   "lore": "A cold and reserved young man who is reticent about his past.<br />To avoid his kin, he decided to travel with the Astral Express.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/character/danheng",
+   "comeFrom": []
+  },
+  "676263": {
+   "id": 676263,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "848a049d2354c1f77ac6762b2d3376cc80ee276fc9f9bf57aef0e8a8c666c535",
+   "name": "Adversarial",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">The Hunt</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.<br /><br />\"Freedom fighters will never die, as their stories will forever be told.\"",
+   "purpose": "",
+   "rarity": 3,
+   "rewardPath": "/lightcone/20014",
+   "comeFrom": []
+  },
+  "754824": {
+   "id": 754824,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "4db9a8d9accd05d8334fdc4eeae8e4a0f828723cf1de98f3bd1a0fa38e0a2262",
+   "name": "Only Silence Remains",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">The Hunt</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "\"Shouldn't we get off? It's our stop.\"<br />A chuckle came from above. His eyes moved, but he didn't look up.<br /><br />\"To be clear, March always says you're expressionless, but I don't agree.\"<br />\"The train's data bank show traces of an update, but the results weren't saved.\"<br />\"So... which entry were you having trouble with?\"<br /><br />He grasped his pen tighter as he looked at the bloody scene drawn in the notebook from memory.<br /><br />\"I see. It was the one about you...\"",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21003",
+   "comeFrom": []
+  },
+  "792905": {
+   "id": 792905,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "618d559fc90972bcad57bcf11ba5ee296895d580963c383b077218ac6b5ac35c",
+   "name": "Darting Arrow",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">The Hunt</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate. <br /><br />\"The battle has begun. Arrows are thirsty for blood.\"",
+   "purpose": "",
+   "rarity": 3,
+   "rewardPath": "/lightcone/20007",
+   "comeFrom": []
+  },
+  "792912": {
+   "id": 792912,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "c6f40a38c08af9b8a029fb6eba3194ecb3ef6046052350dfea11fb4bd147f022",
+   "name": "Arrows",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">The Hunt</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.<br /><br />\"The hunter's eyes are the clearest when they pull back the bowstring with the arrow notched.\"",
+   "purpose": "",
+   "rarity": 3,
+   "rewardPath": "/lightcone/20000",
+   "comeFrom": []
+  },
+  "838761": {
+   "id": 838761,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "ae58dcc97625b0e8a36073f923bacc6d3ec0badcf4f1087ed2721fa6ccb9fc38",
+   "name": "Subscribe for More!",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">The Hunt</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "\"Yo, yo. What is up! Is everything coming through?\"<br /><br />The orange-haired girl slowly lifts a sledgehammer while shouting enthusiastically at the camera.<br />\"Ever seen a pretty girl doing the cinder-block-smashed-on-chest stunt?\"<br /><br />\"I didn't sign up for this!\"<br />The brunette girl cried out loud, only to be met with a sly smile from the girl with the orange hair.<br />\"Please. Just let me do this. This is what people would've wanted.\"",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21017",
+   "comeFrom": []
+  },
+  "838768": {
+   "id": 838768,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "09017ba4ae5694fc300f9812149618f264af8ad38b8a7c918da9a5d5b1aca551",
+   "name": "Swordplay",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">The Hunt</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "Looking rather skeptical, the girl thrust the small sword at her imaginary enemy in an attempt to convince herself that this thing was useful.<br />How can something so feeble compete with my two-handed sword? Do enemies even notice when they get stabbed?<br /><br />The owner of the sword did not seem to care about its size.<br />After all, enemies are defeated by strategy, not swords.<br />It doesn't matter whether the sword is heavy or light, as long as you use the pointy end.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21010",
+   "comeFrom": []
+  },
+  "920201": {
+   "id": 920201,
+   "type": 601,
+   "purposeId": 3,
+   "iconPath": "a9dabc100dfb0916188799f2d83770e60721301f4d7c930b850ae55815281ad1",
+   "name": "Arrow of the Demon Slayer",
+   "desc": "An arrowhead forged with Stellaris Essence by the craftsmen of Xianzhou. Used to level up Traces moderately for <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Hunt</span> characters.",
+   "lore": "An arrow narrower than a finger's width. It can be loaded into an electromagnetic crossbow or a thermal seeking bow as ammunition. Its power is enough to penetrate the tough shells of abominations with just one strike.<br /><br />\"The celestial banished arrives from afar, great distances journeyed 'twixt oceans of stars. Like rain falls a cloudburst of arrows below, in a helmet reflected the bright lunar glow.\"",
+   "purpose": "Trace Material<br />Light Cone Ascension Material",
+   "rarity": 3,
+   "rewardPath": "/material/920201",
+   "comeFrom": [
+    "Calyx (Outlying Snow Plains)",
+    "Omni-Synthesizer \u2014 Material Synthesis"
+   ]
+  },
+  "955409": {
+   "id": 955409,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "8b78d8f98b46a3c08affa1bb1b45c55bc76bfb4a859bef72685671d77cee598c",
+   "name": "River Flows in Spring",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">The Hunt</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "The young boy took a short break from his sword practice.<br />The sunlight was baking his already heated neck. He slowly got into the water, whose coldness touched his bare feet.<br />When the bell chimes and birds tweet, even the people far away would know that springtime had arrived.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21024",
+   "comeFrom": []
+  }
+ },
+ "composeData": [
+  {
+   "items": [
+    {
+     "id": 920201,
+     "count": 3
+    },
+    {
+     "id": 29328,
+     "count": 20
+    }
+   ],
+   "tag": {
+    "name": "Traces Leveling Material",
+    "type": "Traces Activation Materials",
+    "icon": "ffdbab3c38d4fc15596f399cfde9f2eb0717184b00df444cbae165a965fb928a"
+   }
+  }
+ ],
+ "avatarUsedBy": [
+  {
+   "id": 460007,
+   "rarity": 4
+  },
+  {
+   "id": 454626,
+   "rarity": 5
+  },
+  {
+   "id": 48073,
+   "rarity": 4
+  },
+  {
+   "id": 270122,
+   "rarity": 5
+  }
+ ],
+ "equipmentUsedBy": [
+  {
+   "id": 792912,
+   "rarity": 3
+  },
+  {
+   "id": 792905,
+   "rarity": 3
+  },
+  {
+   "id": 676263,
+   "rarity": 3
+  },
+  {
+   "id": 754824,
+   "rarity": 4
+  },
+  {
+   "id": 838768,
+   "rarity": 4
+  },
+  {
+   "id": 838761,
+   "rarity": 4
+  },
+  {
+   "id": 79828,
+   "rarity": 5
+  },
+  {
+   "id": 196472,
+   "rarity": 5
+  },
+  {
+   "id": 142907,
+   "rarity": 5
+  },
+  {
+   "id": 955409,
+   "rarity": 4
+  },
+  {
+   "id": 39353,
+   "rarity": 4
+  }
+ ],
+ "pageId": "836260"
+}

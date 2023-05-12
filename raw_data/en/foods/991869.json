@@ -1,0 +1,24 @@
+{
+ "iconPath": "9b226cd99a46cbfb8f6e33f4e3fffa5dcc25c0a33c890fc76d58ff97ebcd7793",
+ "name": "Mung Bean Soda",
+ "rarity": 2,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 991869,
+  "type": 502,
+  "purposeId": 10,
+  "iconPath": "9b226cd99a46cbfb8f6e33f4e3fffa5dcc25c0a33c890fc76d58ff97ebcd7793",
+  "name": "Mung Bean Soda",
+  "desc": "Upon use, ATK of all allies increases by 5% plus an extra <nobr>170</nobr> for the next battle.",
+  "lore": "Made from fermented legume-based products. It smells sour and pungent, but tastes cool and refreshing.<br />If you can drink a big bottle of mung bean soda and remain calm, you will definitely impress the gormandizers on the Luofu.<br /><br />\"Like mung beans? Like soda? Then what are you complaining about!?\"",
+  "purpose": "Consumables",
+  "rarity": 2,
+  "rewardPath": "/material/991869",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "991869"
+}

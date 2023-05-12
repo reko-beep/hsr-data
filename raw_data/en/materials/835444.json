@@ -1,0 +1,24 @@
+{
+ "iconPath": "89f5c282838fae9425e1b4eb92aba28ba135ae1f09591fcd21ec836e3b6d321c",
+ "name": "Relic Coffret: Sprightly Vonwacq",
+ "rarity": 5,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 835444,
+  "type": 501,
+  "purposeId": 15,
+  "iconPath": "89f5c282838fae9425e1b4eb92aba28ba135ae1f09591fcd21ec836e3b6d321c",
+  "name": "Relic Coffret: Sprightly Vonwacq",
+  "desc": "A device used to collect and restore the Lightdust in the Fragmentum to its original form. Use this to obtain a random 5-star relic from the Sprightly Vonwacq set.",
+  "lore": "You never know what's in the box until you open it.<br /><br />\"So it's essentially like buying a lottery ticket?\"<br />\"At least we don't need to worry about finding a cat that is both dead and alive.\"",
+  "purpose": "Relic Coffret",
+  "rarity": 5,
+  "rewardPath": "/material/835444",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "835444"
+}

@@ -1,0 +1,653 @@
+{
+ "iconPath": "4f83a6b3e1cca8b6421a25a880516c3d27117937ae2f7f196180bbb0e1d28c3f",
+ "name": "Glimmering Core",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 633379,
+  "type": 601,
+  "purposeId": 7,
+  "iconPath": "4f83a6b3e1cca8b6421a25a880516c3d27117937ae2f7f196180bbb0e1d28c3f",
+  "name": "Glimmering Core",
+  "desc": "The heart of a monster wandering the Fragmentum. Normal material used for enhancement.",
+  "lore": "It is a lesion that breeds evil, the impulse to sin. It is the source of the Fragmentum distortion.<br />The heart is glimmering and the veins on it indicate it's still alive.<br /><br />\"What kind of monster is this? Did you see it... Its face! It has the face of our previous leader!\"",
+  "purpose": "Trace Material<br />Character Ascension Materials",
+  "rarity": 3,
+  "rewardPath": "/material/633379",
+  "comeFrom": [
+   "Backwater Pass: Equilibrium Level 2+ Flamespawns or other enemies",
+   "Rivet Town: Equilibrium Level 2+ Flamespawns or other enemies",
+   "Omni-Synthesizer \u2014 Material Synthesis",
+   "Simulated Universe enemies",
+   "Omni-Synthesizer \u2014 Material Exchange"
+  ]
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "0e76659bbb3b9d0b1cc6a4e0e8c63a576c7b917f2f740a4b1b8ceab260a8a595",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards"
+   ]
+  },
+  "53454": {
+   "id": 53454,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "0d268365922a8480563e12ba32d63b946e39df9d589492687fc3031fe4a2fb45",
+   "name": "Pela",
+   "desc": "",
+   "lore": "A secretarial officer for the Silvermane Guards.<br />She has a serious personality and is revered by other members of the Silvermane Guards.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/character/pela",
+   "comeFrom": []
+  },
+  "61765": {
+   "id": 61765,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "ac8a9eb26e24f09b6343fd984cbaadf23a722e6b84355b7fef4e36411b15b3e8",
+   "name": "Arlan",
+   "desc": "",
+   "lore": "The head of Herta Space Station's Security Department.<br />This quiet boy hopes to protect the researchers who value their pursuit of knowledge, and to help them to complete their work.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/character/arlan",
+   "comeFrom": []
+  },
+  "79829": {
+   "id": 79829,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "9a14b8f28502cf5ceb4cb50e75ef11e332b6bf8b149b3fbbc2fb036168f45c88",
+   "name": "Night on the Milky Way",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Erudition</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "If you are concerned for the road, just look up again.<br />When the stars look gently down, the heart would already be soaring.<br />Every thought and every whisper,<br />becomes a life experience that would never leave.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/lightcone/23000",
+   "comeFrom": []
+  },
+  "142906": {
+   "id": 142906,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "fc8258b0bfd49682a8cd24e02e01c0d652b9052db066d52d53ba4d271123c9bf",
+   "name": "Texture of Memories",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Preservation</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "The universe was like a badland filled with rubbish.<br />There were the occasional treasure that lies undiscovered.<br />They looked through the cracks of the past, choosing seeds of memory.<br />...If a new life was to be born, its seed has to be dead.<br />Precious stones of pink, blue, and white were brought forth,<br />twinkling gently in their seed plot,<br />even though the universe held onto its enigmatic silence.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/lightcone/24002",
+   "comeFrom": []
+  },
+  "142907": {
+   "id": 142907,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "55020259d03d4da06f62e7a38648eb01cdc47e3cf1b6e3bce421e29cd1f463df",
+   "name": "Cruising in the Stellar Sea",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">The Hunt</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "Coursing 'tween the sea of stars,<br />they cruise with the speed of a rainbow's chromatic flash.<br />A journey of hunting undying abominations,<br />collecting cures and miracles,<br />and seeking deliverance.<br />Akin to a vow unbroken, their voyage will be,<br />ad infinitum.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/lightcone/24001",
+   "comeFrom": []
+  },
+  "142908": {
+   "id": 142908,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "d145da74911f5549ab569a0f034e34baa4e998f8327e814d10df604b4f5c4b18",
+   "name": "On the Fall of an Aeon",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Destruction</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "It began with a flash of light.<br />One by one, they fell as the threat of expiration loomed over them.<br />They had to stop self-replicating and rushed to embrace each other,<br />trying to offer the right to reproduce in exchange for a possibility of survival.<br />They held hands in a show of unprecedented unity.<br />...But the Paths met an abrupt end,<br />and they were headed to a true death.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/lightcone/24000",
+   "comeFrom": []
+  },
+  "196471": {
+   "id": 196471,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "e4250b2f9a6e238646e989f9ec186d11be75b48ff11758025f47f2b14d0d6436",
+   "name": "Time Waits for No One",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Abundance</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "She had spent many days next to the window.<br /><br />Flowers were blooming outside when she made gentle medicines with mint and nepeta.<br />Rain was falling outside when she made strong medicines with mosla and ginger.<br />Leaves were falling outside when she made sour medicines with peony roots and dry plums.<br />And snow was falling outside when she made bitter medicines with skullcaps and anemarrhena.<br /><br />Time flows endlessly, but this window and the person sitting next to it remain forever the same.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/lightcone/23013",
+   "comeFrom": []
+  },
+  "376066": {
+   "id": 376066,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "0cbbd0a9edba3981d2d72a570ab7f21697b2260f9df1235b048374b2fd3d70e4",
+   "name": "Himeko",
+   "desc": "",
+   "lore": "The one who repaired the Astral Express.<br />To witness the vast starry sky, she decided to travel with the Astral Express.<br />Her hobby is brewing hand-made coffee.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/himeko",
+   "comeFrom": []
+  },
+  "376067": {
+   "id": 376067,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "0370a9361da99a8ded5747197b038720dc88fe85cd2e249dd53825b15a606294",
+   "name": "Herta",
+   "desc": "",
+   "lore": "Member <nobr>83</nobr> of the Genius Society. The real master of the space station.<br />An incredibly intelligent yet unsympathetic scientist.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/character/herta",
+   "comeFrom": []
+  },
+  "460007": {
+   "id": 460007,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "e1e77d134a9a40a1924ccf07ba1a79fa1c2a8f5462aa5e9367292c108bbed09b",
+   "name": "Dan Heng",
+   "desc": "",
+   "lore": "A cold and reserved young man who is reticent about his past.<br />To avoid his kin, he decided to travel with the Astral Express.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/character/danheng",
+   "comeFrom": []
+  },
+  "500483": {
+   "id": 500483,
+   "type": 201,
+   "purposeId": 0,
+   "iconPath": "c062e9f04132a2162baa865baf305e526794937fe50c2503d70e13979456e3ec",
+   "name": "Bailu",
+   "desc": "",
+   "lore": "The High Elder of the Vidyadhara, who is also known as the \"Healer Lady\" on the Luofu.<br />She uses her unique medical science and the medical treatment that can only be provided by the Vidyadhara dragon race to save lives.",
+   "purpose": "",
+   "rarity": 5,
+   "rewardPath": "/character/bailu",
+   "comeFrom": []
+  },
+  "549438": {
+   "id": 549438,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "4b2515eee489b695028b8b790795cdd3e71cfd4b1de7a006a6030882b039706c",
+   "name": "Extinguished Core",
+   "desc": "The heart of a monster wandering the Fragmentum. Crude material used for enhancement.",
+   "lore": "It is a lesion that breeds evil, the impulse to sin. It is the source of the Fragmentum distortion.<br />A heavy blow has caused this heart to stop beating and lose its luster.<br /><br />\"Preliminary tests indicate it's some kind of hybrid: one half is primordial, and the other half is something very similar to Stellarons.\" \u2014 Department of Biology, Sarah Castro",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 2,
+   "rewardPath": "/material/549438",
+   "comeFrom": [
+    "Backwater Pass: Flamespawns or other enemies",
+    "Rivet Town: Flamespawns or other enemies",
+    "Simulated Universe enemies",
+    "Assignment rewards",
+    "Embers Exchange",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "633348": {
+   "id": 633348,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "042dc7973ef7c36858a4aa58ef7d32335f528b3c4bc4f0c4ce2e7f401039a7c5",
+   "name": "Silvermane Insignia",
+   "desc": "Military rank insignia worn by captains of the Silvermane Guard. Normal material used for enhancement.",
+   "lore": "Maybe it's a proof of heroics that you can brag about to your family. Maybe it's a lucky charm that protects you from a bullet.<br /><br />\"Times have changed.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 3,
+   "rewardPath": "/material/633348",
+   "comeFrom": [
+    "Outlying Snow Plains: Equilibrium Level 2+ Silvermane Guards or other enemies",
+    "Corridor of Fading Echoes: Equilibrium Level 2+ Everwinter Shadewalkers or other enemies",
+    "Omni-Synthesizer \u2014 Material Synthesis",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "633349": {
+   "id": 633349,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "191ad5f4b9fd5180b9065e05d463d6df35334c87ce1428e89d8d507e69177dc7",
+   "name": "Ancient Spindle",
+   "desc": "Mechanical spindle left behind from the Old World. Normal material used for enhancement.",
+   "lore": "Once taken apart, the precision components can never be put back together. Even the maintenance veterans in Belobog's Technology Division would think twice before touching it.<br /><br />\"You idiot, the Bluecoats will only give you a few canned goods for this. Take it to Boss Svarog and you won't need to worry about food and clothing for a while.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 3,
+   "rewardPath": "/material/633349",
+   "comeFrom": [
+    "Robot Settlement: Equilibrium Level 2+ Automatons or other enemies",
+    "Great Mine: Equilibrium Level 2+ Automatons or other enemies",
+    "Omni-Synthesizer \u2014 Material Synthesis",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "633378": {
+   "id": 633378,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "69d0630f4dc8d8bb4706a8a973f720ce46452e189a62c7b8b6f2ca8d567ca8ae",
+   "name": "Usurper's Scheme",
+   "desc": "A moderate amount of anti-matter. Normal material used for enhancement.",
+   "lore": "A moderate amount of anti-matter that floats around the Voidranger: Distorter. The amount of matter and anti-matter particles has reached a dangerous balance...<br /><br />\"They are all looking forward to the moment of obliteration, when they will be reforged and fused with the entire world.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 3,
+   "rewardPath": "/material/633378",
+   "comeFrom": [
+    "Storage Zone: Equilibrium Level 2+ Voidranger: Reavers or other enemies",
+    "Supply Zone: Equilibrium Level 2+ Voidranger: Reavers or other enemies",
+    "Omni-Synthesizer \u2014 Material Synthesis",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "633444": {
+   "id": 633444,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "1977002edbf48f44c49d08284ce2681f622e70c447d50de10a8b9491dfcb719c",
+   "name": "Artifex's Cogwheel",
+   "desc": "Parts of the Xianzhou machines. Normal material used for enhancement.",
+   "lore": "The connective components used in Xianzhou's ingenium technology. The intricate and thin teeth of the cogwheels are as minute as mustard seeds, and yet are interconnected to form a complex body, making the machine able to pass as true life.<br /><br />\"Its form lies in harmony, a parallel to nature. Its movements cyclical, echoing the cosmos.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 3,
+   "rewardPath": "/material/633444",
+   "comeFrom": [
+    "Stargazer Navalia: Equilibrium Level 2+ Entranced Ingenia or other enemies",
+    "Omni-Synthesizer \u2014 Material Synthesis",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "633445": {
+   "id": 633445,
+   "type": 601,
+   "purposeId": 7,
+   "iconPath": "5697f106bffd77cdaac463118c2612ee69e0d906afac35a2161414374437171c",
+   "name": "Immortal Aeroblossom",
+   "desc": "New flowers blooming out of an ancient divine construct. Normal material used for enhancement.",
+   "lore": "The source of the Xianzhou long-life species' \"Endless Lifespan.\" The remnants of the Aeon of Abundance's influence. After endless trials, the fleet seeking the medicine of immortality was able to behold the visage of the celestial being. The divine one cast down its blessings in material form, and the Ambrosial Arbor sprouted its leaves.<br /><br />\"New buds descend into the moon, divine flowers bloom by the clouds. In the blink of a blossom's life, old wood returns to youthful grove.\"",
+   "purpose": "Trace Material<br />Character Ascension Materials",
+   "rarity": 3,
+   "rewardPath": "/material/633445",
+   "comeFrom": [
+    "Cloudford: Equilibrium Level 2+ Mara-Struck Soldiers or other enemies",
+    "Stargazer Navalia: Equilibrium Level 2+ Mara-Struck Soldiers or other enemies",
+    "Omni-Synthesizer \u2014 Material Synthesis",
+    "Simulated Universe enemies",
+    "Omni-Synthesizer \u2014 Material Exchange"
+   ]
+  },
+  "676260": {
+   "id": 676260,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "08fa6a67e0350820177ad9229d1c936a85bcca3ad67436cd60b511ee4f7544a1",
+   "name": "Pioneering",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Preservation</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.<br /><br />\"We will no longer fight alone. The IPC will stand alongside everyone in assistance.\"",
+   "purpose": "",
+   "rarity": 3,
+   "rewardPath": "/lightcone/20017",
+   "comeFrom": []
+  },
+  "676264": {
+   "id": 676264,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "ce2c46a2bd53676d8c4c9d29f5e474eb38fd87d4f2721db62df2fbec16e01b44",
+   "name": "Passkey",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Erudition</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate. <br /><br />\"Knowledge is locked behind a gate, the key to which is hidden from those seeking answers from others, while made obvious for those determined to find it on their own.\"",
+   "purpose": "",
+   "rarity": 3,
+   "rewardPath": "/lightcone/20013",
+   "comeFrom": []
+  },
+  "676274": {
+   "id": 676274,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "5ecf5d21966ea38bb3ece174a5847b71ddaa9f9b327ce4bedaa1ac319dbf358e",
+   "name": "Mediation",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Harmony</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate. <br /><br />\"What can be more joyous than purging disharmony?\"",
+   "purpose": "",
+   "rarity": 3,
+   "rewardPath": "/lightcone/20019",
+   "comeFrom": []
+  },
+  "754825": {
+   "id": 754825,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "c2e20657ed52e6ecb34febf581d627f4d6a394854fd8ba3301f2a0af16d927ea",
+   "name": "Day One of My New Life",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Preservation</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "\"So happy I got to see Pom-Pom in new clothes today! I like it~\"<br />\"Today's my birthday! I'm still as cute as ever.\"<br />\"Today, I finally finally finally have a junior! Isn't that right, Trailblazer?\"<br /><br />We click the shutter many times without thinking.<br />Do we do that to capture the happiness at that moment?<br />Or to capture ourselves at that moment?",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21002",
+   "comeFrom": []
+  },
+  "754827": {
+   "id": 754827,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "c5b214212b1db9ee497d25ec04b02576d1857ed2dd39ebac656ab8a1bfa1bb69",
+   "name": "Post-Op Conversation",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Abundance</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "\"You're awake... Thank you.\"<br />\"You... saved my life, Natasha. The one who should be saying thanks... is me.\"<br />\"No, I should be thanking you... for holding on until I finished the surgery.\"<br /><br />The doctor and patient smiled wearily at each other and said nothing more.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21000",
+   "comeFrom": []
+  },
+  "754834": {
+   "id": 754834,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "f7315eef452c093475a620ffd48550e682ff880641a61b440e10a8cde8e7552c",
+   "name": "Landau's Choice",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Preservation</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "\"Did you not hear me? Don't go there ever again! What good can peasants learn in a group!\"<br />\"But I've never heard of the Belobog stories they tell...\"<br /><br />She pulled her brother behind her, denying him the chance to talk back.<br />\"You are both Landaus! One day, you'll face hard choices. Especially you, Serval.\"<br /><br />She knew that her brother did nothing wrong, but she couldn't think of a rebuttal.<br />She went to bed angry after the argument, vowing to herself:<br />\"I will be a grown-up one day. And when that day comes, I will make choices...\"<br />\"My own choices...\"",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21009",
+   "comeFrom": []
+  },
+  "792906": {
+   "id": 792906,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "e97f9d673be927b03df7da4e4b2bc29f764c45ea23737e7f4fa77f0448b69907",
+   "name": "Data Bank",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Erudition</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.<br /><br />\"Human extinction is inevitable, but the library will live on: lonely, immobile, and hidden from the public. Its vast collection is useless, yet pure from corruption.\"",
+   "purpose": "",
+   "rarity": 3,
+   "rewardPath": "/lightcone/20006",
+   "comeFrom": []
+  },
+  "792909": {
+   "id": 792909,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "296d5d96702c53ba00eaecbc4798c7b484057b2a5ae92a1bb1af5a4cd27d3158",
+   "name": "Amber",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Preservation</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.<br /><br />\"Only those who aren't affected by time can survive in time.\"",
+   "purpose": "",
+   "rarity": 3,
+   "rewardPath": "/lightcone/20003",
+   "comeFrom": []
+  },
+  "792919": {
+   "id": 792919,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "a229598642066f42a7be480584ed03e12b000744080f4b4cbad7785f5453bba3",
+   "name": "Shattered Home",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Destruction</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate. <br /><br />\"Absolute control comes from the ability to inflict total destruction.\"",
+   "purpose": "",
+   "rarity": 3,
+   "rewardPath": "/lightcone/20009",
+   "comeFrom": []
+  },
+  "792920": {
+   "id": 792920,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "7c76063ab0e5b2ce0d8ccfc1ec1ba7eae0e51b4f3af070ce88d07611b68aab08",
+   "name": "Fine Fruit",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Abundance</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate. <br /><br />\"Everything tastes sweet for those desperate for water.\"",
+   "purpose": "",
+   "rarity": 3,
+   "rewardPath": "/lightcone/20008",
+   "comeFrom": []
+  },
+  "838768": {
+   "id": 838768,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "09017ba4ae5694fc300f9812149618f264af8ad38b8a7c918da9a5d5b1aca551",
+   "name": "Swordplay",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">The Hunt</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "Looking rather skeptical, the girl thrust the small sword at her imaginary enemy in an attempt to convince herself that this thing was useful.<br />How can something so feeble compete with my two-handed sword? Do enemies even notice when they get stabbed?<br /><br />The owner of the sword did not seem to care about its size.<br />After all, enemies are defeated by strategy, not swords.<br />It doesn't matter whether the sword is heavy or light, as long as you use the pointy end.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21010",
+   "comeFrom": []
+  },
+  "955406": {
+   "id": 955406,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "89a780723d8e86fa2df5907689faf1496e6657fe490b0e96df72d3b0f0d5eef8",
+   "name": "The Seriousness of Breakfast",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Erudition</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "Though the table is set...<br />Some people want a cup of tea first.<br />Some people want to take a picture first.<br />Some people want to read the newspaper first.<br />Some people want to write a page in their notebook first.<br />Some people want to play on their phone first.<br /><br />\"All of you, eat while the food is hot!\"",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21027",
+   "comeFrom": []
+  },
+  "955407": {
+   "id": 955407,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "edde98a3b72cb162122712f99681e701b8f34fb7c5668a4e0705fe6db15c04bb",
+   "name": "Woof! Walk Time!",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Destruction</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "Pity that no one has seen it...<br />Seen it screw up its nose and sniff around and dive into an empty path.<br /><br />Pity that no one has seen it...<br />Seen it retract its claws, enter the password, and leap into the embraces of freedom.<br /><br />Has nobody seen it still...?<br />A grown dog can now walk itself in space!",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21026",
+   "comeFrom": []
+  },
+  "955408": {
+   "id": 955408,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "3f04a75ad5633c8f4ce3acdd5539d6c5710f22328b5ac6b6740da50491964c03",
+   "name": "Past and Future",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Harmony</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "The wings of the paper kite in her hands were broken, brutally reminding her of her beloved's tragic passing.<br />She kneeled next to the fire of war, eyes full of sorrow.<br /><br />\"If you are the only one left to do this, then our sacrifice would...\"<br /><br />Gunfire raged on, painting the sky red without dampening its majesty.<br />She looked up at the sky, eyes full of fury.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21025",
+   "comeFrom": []
+  },
+  "955421": {
+   "id": 955421,
+   "type": 301,
+   "purposeId": 0,
+   "iconPath": "aface7f32cf26b1dc23248c44e9348566dd609fdcbb51b6926514d3edeed06d8",
+   "name": "Warmth Shortens Cold Nights",
+   "desc": "Light Cone for the Path of <span style=\"display: inline-block; color: #f29e38ff; text-align:center; font-weight:bold;\">Abundance</span>. The Light Cone ability is only effective for characters of this Path.",
+   "lore": "Lighting a light, she glanced at her friend beside her while holding a mug of warm chocolate.<br />Watching her read the books and notes she gifted her.<br />Watching her expressing a rare smile.<br /><br />In cold nights like this, even the tiniest bit of bliss can chase away the chills.",
+   "purpose": "",
+   "rarity": 4,
+   "rewardPath": "/lightcone/21028",
+   "comeFrom": []
+  }
+ },
+ "composeData": [
+  {
+   "items": [
+    {
+     "id": 549438,
+     "count": 3
+    },
+    {
+     "id": 29328,
+     "count": 20
+    }
+   ],
+   "tag": {
+    "name": "Universal Enhancement Material",
+    "type": "Traces Activation Materials",
+    "icon": "ffdbab3c38d4fc15596f399cfde9f2eb0717184b00df444cbae165a965fb928a"
+   }
+  },
+  {
+   "items": [
+    {
+     "id": 633378,
+     "count": 2
+    },
+    {
+     "id": 633348,
+     "count": 2
+    },
+    {
+     "id": 633349,
+     "count": 2
+    },
+    {
+     "id": 633445,
+     "count": 2
+    },
+    {
+     "id": 633444,
+     "count": 2
+    }
+   ],
+   "tag": {
+    "name": "Universal Enhancement Material",
+    "type": "Material Exchange",
+    "icon": "07b7fcac4bd26cf308fecb4d737b3da33218a22ae49d9c72509601add9025ce8"
+   }
+  }
+ ],
+ "avatarUsedBy": [
+  {
+   "id": 460007,
+   "rarity": 4
+  },
+  {
+   "id": 376066,
+   "rarity": 5
+  },
+  {
+   "id": 61765,
+   "rarity": 4
+  },
+  {
+   "id": 376067,
+   "rarity": 4
+  },
+  {
+   "id": 53454,
+   "rarity": 4
+  },
+  {
+   "id": 500483,
+   "rarity": 5
+  }
+ ],
+ "equipmentUsedBy": [
+  {
+   "id": 792909,
+   "rarity": 3
+  },
+  {
+   "id": 792906,
+   "rarity": 3
+  },
+  {
+   "id": 792920,
+   "rarity": 3
+  },
+  {
+   "id": 792919,
+   "rarity": 3
+  },
+  {
+   "id": 676264,
+   "rarity": 3
+  },
+  {
+   "id": 676260,
+   "rarity": 3
+  },
+  {
+   "id": 676274,
+   "rarity": 3
+  },
+  {
+   "id": 754827,
+   "rarity": 4
+  },
+  {
+   "id": 754825,
+   "rarity": 4
+  },
+  {
+   "id": 754834,
+   "rarity": 4
+  },
+  {
+   "id": 838768,
+   "rarity": 4
+  },
+  {
+   "id": 955421,
+   "rarity": 4
+  },
+  {
+   "id": 196471,
+   "rarity": 5
+  },
+  {
+   "id": 142908,
+   "rarity": 5
+  },
+  {
+   "id": 142907,
+   "rarity": 5
+  },
+  {
+   "id": 142906,
+   "rarity": 5
+  },
+  {
+   "id": 79829,
+   "rarity": 5
+  },
+  {
+   "id": 955407,
+   "rarity": 4
+  },
+  {
+   "id": 955406,
+   "rarity": 4
+  },
+  {
+   "id": 955408,
+   "rarity": 4
+  }
+ ],
+ "pageId": "633379"
+}

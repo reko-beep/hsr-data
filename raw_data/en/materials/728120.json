@@ -1,0 +1,24 @@
+{
+ "iconPath": "8f4e646b6e15421453cff9feee84e56bafd2b8fe83abca36ed66834c5b367305",
+ "name": "Trailblaze Power",
+ "rarity": 4,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 728120,
+  "type": 101,
+  "purposeId": 0,
+  "iconPath": "8f4e646b6e15421453cff9feee84e56bafd2b8fe83abca36ed66834c5b367305",
+  "name": "Trailblaze Power",
+  "desc": "A complex power hidden in the engines of the Astral Express that protects travelers on the Trailblaze path.",
+  "lore": "\"Explore, understand, establish, and connect \u2014 that is what it means to trailblaze. Akivili may have fallen, but their legacy continues!\"",
+  "purpose": "",
+  "rarity": 4,
+  "rewardPath": "/material/728120",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "728120"
+}

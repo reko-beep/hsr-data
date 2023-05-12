@@ -1,0 +1,24 @@
+{
+ "iconPath": "3603508772eb0384c68779b5d8017f1052f90f1f468c886ab1f6ad875d00dfce",
+ "name": "Oneiric Shard",
+ "rarity": 5,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 29327,
+  "type": 101,
+  "purposeId": 12,
+  "iconPath": "3603508772eb0384c68779b5d8017f1052f90f1f468c886ab1f6ad875d00dfce",
+  "name": "Oneiric Shard",
+  "desc": "",
+  "lore": "Lights flicking in a sea of stars, stirring the dream of a Leviathan. The past turns into candles that light the darkness ahead.",
+  "purpose": "Rare currency",
+  "rarity": 5,
+  "rewardPath": "/material/29327",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "29327"
+}

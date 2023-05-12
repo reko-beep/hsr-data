@@ -1,0 +1,24 @@
+{
+ "iconPath": "b553076008cb3e4f538999c07ccd51d64ad91d52a0577acb02ff3a6de13d77f7",
+ "name": "Cosmic Fragment",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 728122,
+  "type": 101,
+  "purposeId": 0,
+  "iconPath": "b553076008cb3e4f538999c07ccd51d64ad91d52a0577acb02ff3a6de13d77f7",
+  "name": "Cosmic Fragment",
+  "desc": "A unique currency obtained through exploring Simulated Universe. Will be cleared after Simulated Universe is restarted.",
+  "lore": "File fragments generated when the Simulated Universe is running. When they pile up, the performance of Simulated Universe will be significantly affected.<br /><br />\"Sort them regularly. In return, the admin can perhaps change your stats every now and then.\"",
+  "purpose": "",
+  "rarity": 3,
+  "rewardPath": "/material/728122",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "728122"
+}

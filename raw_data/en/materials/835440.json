@@ -1,0 +1,24 @@
+{
+ "iconPath": "5b8e8b61c45c44cf07bc14f7eddd33e32ea8761627aab1052979c83a7bb326ed",
+ "name": "Relic Coffret: Belobog of the Architects",
+ "rarity": 5,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 835440,
+  "type": 501,
+  "purposeId": 15,
+  "iconPath": "5b8e8b61c45c44cf07bc14f7eddd33e32ea8761627aab1052979c83a7bb326ed",
+  "name": "Relic Coffret: Belobog of the Architects",
+  "desc": "A device used to collect and restore the Lightdust in the Fragmentum to its original form. Use this to obtain a random 5-star relic from the Belobog of the Architects set.",
+  "lore": "You never know what's in the box until you open it.<br /><br />\"So it's essentially like buying a lottery ticket?\"<br />\"At least we don't need to worry about finding a cat that is both dead and alive.\"",
+  "purpose": "Relic Coffret",
+  "rarity": 5,
+  "rewardPath": "/material/835440",
+  "comeFrom": []
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "835440"
+}

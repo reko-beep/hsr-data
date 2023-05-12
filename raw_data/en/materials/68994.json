@@ -1,0 +1,27 @@
+{
+ "iconPath": "3d7ac38cf7bedeca2e738c766ff861df8dc2c0861bbb21b5fb34764f152d9991",
+ "name": "Shield",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 68994,
+  "type": 601,
+  "purposeId": 13,
+  "iconPath": "3d7ac38cf7bedeca2e738c766ff861df8dc2c0861bbb21b5fb34764f152d9991",
+  "name": "Shield",
+  "desc": "The official currency circulating in Belobog. Can be used to purchase goods in Special Stores.",
+  "lore": "After a long era of blockades, the Overworld and Underworld denizens of Belobog have developed vastly different standards for currency.<br />The current exchange rate of shield to credits is now 1:<nobr>50</nobr>... Speaking of, why are credits still an official currency of Belobog? It seems people have already forgotten the answer to this question.",
+  "purpose": "World currency",
+  "rarity": 3,
+  "rewardPath": "/material/68994",
+  "comeFrom": [
+   "Exploring Jarilo-VI",
+   "Adventure Missions"
+  ]
+ },
+ "itemReferences": {},
+ "composeData": [],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "68994"
+}

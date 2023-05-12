@@ -1,0 +1,132 @@
+{
+ "iconPath": "db6930d4174944203fa0239efab25dfb9080e518be7373292126e52c79d55d2b",
+ "name": "Enhancement Paste: Fire",
+ "rarity": 3,
+ "purposeId": 0,
+ "embeddedItem": {
+  "id": 273206,
+  "type": 502,
+  "purposeId": 10,
+  "iconPath": "db6930d4174944203fa0239efab25dfb9080e518be7373292126e52c79d55d2b",
+  "name": "Enhancement Paste: Fire",
+  "desc": "Upon use, increases Fire DMG of all allies by <nobr>24%</nobr> for the next battle.",
+  "lore": "A cream made from a mixture of Path materials and other things.<br />Apply it to the right weapon to boost combat effectiveness.<br /><br />\"Half the effort, double the result.\"",
+  "purpose": "Consumables",
+  "rarity": 3,
+  "rewardPath": "/material/273206",
+  "comeFrom": [
+   "All-in-One Synthesis Machine"
+  ]
+ },
+ "itemReferences": {
+  "29328": {
+   "id": 29328,
+   "type": 101,
+   "purposeId": 11,
+   "iconPath": "0e76659bbb3b9d0b1cc6a4e0e8c63a576c7b917f2f740a4b1b8ceab260a8a595",
+   "name": "Credit",
+   "desc": "This currency, used by the Interastral Peace Corporation to settle accounts with its customers, is now widely accepted as the hard currency for space travel.",
+   "lore": "\"People run around fighting and trading for numbers in a terminal, but the truly precious cannot be bought.\"",
+   "purpose": "Common currency",
+   "rarity": 3,
+   "rewardPath": "/material/29328",
+   "comeFrom": [
+    "Calyx (Great Mine)",
+    "Mission rewards",
+    "Assignment rewards"
+   ]
+  },
+  "155889": {
+   "id": 155889,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "cfad18793e3010265b0a82281326cc0f601968956adb8794c535341c0974f83b",
+   "name": "Phlogiston",
+   "desc": "Tier 1 Synthesis Material",
+   "lore": "Particles that form the flame.<br />Genius Society #2 Harald Punch proved its existence, but #3 Nyul Iman disproved it.<br />#7 Bohdan overthrew Iman's conclusion and proved it again before getting killed by #4 Polka Kakamond days after announcing Phlogiston's existence.<br /><br />\"Does it exist or not? We're not interested, frankly speaking.\"",
+   "purpose": "Synthesis material",
+   "rarity": 1,
+   "rewardPath": "/material/155889",
+   "comeFrom": [
+    "Backwater Pass: Flamespawns or other enemies",
+    "Found in destructible objects in the Herta Space Station",
+    "Administrative District Shop"
+   ]
+  },
+  "155986": {
+   "id": 155986,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "8311a39a76b297161d373d9e853dfe0a17c80bec249f5757f1794577d3c32840",
+   "name": "Feather of Flame",
+   "desc": "Tier 2 Synthesis Material",
+   "lore": "Warm dark feather with a weak ember at its tip.<br />Sparks trail the feather as it's waved around.<br /><br />\"The legend of the Phoenix spreads far throughout the entire universe...\"",
+   "purpose": "Synthesis material",
+   "rarity": 2,
+   "rewardPath": "/material/155986",
+   "comeFrom": [
+    "Cloudford: Mara-Struck Soldiers or other enemies",
+    "Found in destructible objects in Jarilo-VI",
+    "Administrative District Shop"
+   ]
+  },
+  "273338": {
+   "id": 273338,
+   "type": 507,
+   "purposeId": 19,
+   "iconPath": "0b1e78d893ca9c503885fa5660a2112dff52a5cf1961854a7d0c39e0926dc45a",
+   "name": "Recipe: Enhancement Paste: Fire",
+   "desc": "A simple equation. When entered into the Synthesizer, it will unlock a new recipe.",
+   "lore": "",
+   "purpose": "Recipe",
+   "rarity": 3,
+   "rewardPath": "/material/273338",
+   "comeFrom": []
+  },
+  "440482": {
+   "id": 440482,
+   "type": 601,
+   "purposeId": 17,
+   "iconPath": "99c760e7e0f562be3af0e92dfa57ece9d29db751534ea0f7e67d0e1469804749",
+   "name": "Strange Matter of Destruction",
+   "desc": "Tier 3 Synthesis Material",
+   "lore": "Strange matter that seems to possess the power of destruction.<br />Resembling fire but not quite, it is neither cold nor hot and will damage anything that comes into contact with it for over <nobr>12</nobr> seconds.<br />Could be the Antimatter Legion's version of trash.<br /><br />\"Creatures that received blessing from Nanook all have twisted appearances.\"",
+   "purpose": "Synthesis material",
+   "rarity": 3,
+   "rewardPath": "/material/440482",
+   "comeFrom": [
+    "Storage Zone: Voidranger: Reavers or other enemies"
+   ]
+  }
+ },
+ "composeData": [
+  {
+   "items": [
+    {
+     "id": 155889,
+     "count": 5
+    },
+    {
+     "id": 155986,
+     "count": 2
+    },
+    {
+     "id": 440482,
+     "count": 2
+    },
+    {
+     "id": 273338,
+     "count": 1
+    }
+   ],
+   "tag": {
+    "name": "Attack Consumables",
+    "type": "Consumables",
+    "icon": "afe47a40c1361649152476b603185f0ffb4b55c17408e2629a1489e38daf70a5"
+   }
+  }
+ ],
+ "avatarUsedBy": [],
+ "equipmentUsedBy": [],
+ "pageId": "273206"
+}
