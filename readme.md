@@ -2,23 +2,25 @@
   <img src="https://raw.githubusercontent.com/reko-beep/hsr-data/dev/logo.png?raw=true" />
 </p>
 
+# What is this?
+
+* provides a fully typed python API for Honkai: Star Rail Data.
+* Is an API wrapper over [starrailstation](https://starrailstation.com) and others like Hoylab.
+* Python API is still work in progress, contributions are welcome.
+
+# Raw Data and Images
+
+If you're just looking for raw data (json) for characters, lightcones etc.,  images , check [data](https://github.com/reko-beep/hsr-data/tree/data) branch of this repo.
+
+Alternatively, see ```raw_data.py``` to generate it yourself, it gets all data from [starrailstation](https://starrailstation.com/) and saves it in json format.
+
+WARN: simulatedUniverse data might throw errors as date calculation is not month safe, it might throw date not exists in month type errors.
 
 
-
-
-
-# WANNA CONTRIBUTE
+# Want to Contribute ?
 
 Fork and start a pull request.
 
-# GETTING RAW DATA
-
-see ```raw_data.py``` it gets all data from site and saves it in json format.
-
-simulatedUniverse data might throw errors as date calculation is not month safe, it might throw date not exists in month type errors.
 
 
-# Previous Data and Images
-
-Previous data and images are in [data](https://github.com/reko-beep/hsr-data/tree/data) branch of this repo.
 
