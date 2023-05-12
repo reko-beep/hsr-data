@@ -1,5 +1,5 @@
 
-from typing import Optional, Union, List, NewType
+from typing import Optional, Union, List, NewType, Tuple
 from pydantic import BaseModel, validator, Field, Extra, ValidationError
 
 from enum import Enum
@@ -18,7 +18,7 @@ class UnlockPrerequisite(BaseModel):
   
     
 
-class BonusAbility:
+class BonusAbility(BaseModel):
     # name of the trace.
     name : str
     # description of the trace.
@@ -26,7 +26,7 @@ class BonusAbility:
     # trace level.
     level: int = 1
     # list of materials required to activate the trace.
-    activation_mats: List[(Material, int)]
+    activation_mats: List[Tuple[Material, int]]
     # criteria to satisfy before this trace can be unlocked.
     unlock_prerequisite: Optional[UnlockPrerequisite]
 
@@ -41,7 +41,7 @@ StatBonus = NewType('StatBonus', BonusAbility)
 
 class LevelScaling(BaseModel):
     level: int
-    upgrade_mats: List[(Material, int)]
+    upgrade_mats: List[Tuple[Material, int]]
     description: str
     
 
