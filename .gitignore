@@ -4,3 +4,4 @@
 venv/
 /*.ipynb
 /.ipynb_checkpoints
+/raw_data
