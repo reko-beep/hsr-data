@@ -1,7 +1,7 @@
 # for VS Code intellisense only.
 from typing import List
 from abc import ABC
-import datamodels as models
+import hsr_client.datamodels as models
 from requests_cache import CachedSession
 
 class Backend(ABC):

@@ -4,14 +4,14 @@ import json
 from typing import List, Union
 from requests_cache import CachedSession
 
-from constants import Languages, Types
-from datamodels.character import Character
-from datamodels.searchItem import SearchItem
-from errors import InvalidItemType, InvalidLanguage
-from routes import  MAIN_ROUTE, Routes, IMAGE_ROUTE, SEARCH
-from utils import base36encode, generate_t
+from hsr_client.constants import Languages, Types
+from hsr_client.datamodels.character import Character
+from hsr_client.datamodels.searchItem import SearchItem
+from hsr_client.errors import InvalidItemType, InvalidLanguage
+from hsr_client.routes import  MAIN_ROUTE, Routes, IMAGE_ROUTE, SEARCH
+from hsr_client.utils import base36encode, generate_t
 from ..util import Backend
-import datamodels as models
+import hsr_client.datamodels as models
 from .parsers import trace as trace_parser
 
 
@@ -98,7 +98,7 @@ class SRSBackend(Backend):
             else:
                 return data
 
-    def get_all_items(self,  type: Types = None, language: Languages = Languages.ENG) -> list[SearchItem]:
+    def get_all_items(self,  type: Types = None, language: Languages = Languages.EN) -> list[SearchItem]:
             '''
             
             :fetches all items from api route
