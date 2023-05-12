@@ -2,3 +2,5 @@
 /srs.cache
 /__pycache__
 venv/
+/*.ipynb
+/.ipynb_checkpoints
