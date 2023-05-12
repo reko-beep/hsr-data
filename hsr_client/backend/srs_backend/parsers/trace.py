@@ -1,4 +1,4 @@
-import datamodels as models
+import hsr_client.datamodels as models
 
 
 def get_trace_name(trace_node):

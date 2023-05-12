@@ -1,6 +1,6 @@
 from abc import ABC
-from backend import BackendAdapter
-import datamodels as models
+from .backend import BackendAdapter
+from . import datamodels as models
 
 
 # Public facing api client.

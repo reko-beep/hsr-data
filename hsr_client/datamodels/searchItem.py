@@ -1,7 +1,7 @@
 from pydantic import BaseModel, validator, Field, Extra
 from typing import Optional
-from routes import IMAGE_ROUTE
-from constants import Types
+from hsr_client.routes import IMAGE_ROUTE
+from hsr_client.constants import Types
 
 
 class SearchItem(BaseModel):

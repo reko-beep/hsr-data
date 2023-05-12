@@ -1,8 +1,8 @@
 from pydantic import BaseModel, validator, Field, Extra
 from typing import Optional
-from routes import IMAGE_ROUTE, AUDIO_ROUTE
-from constants import Types, RelicTypes
-from datamodels.searchItem import SearchItem
+from hsr_client.routes import IMAGE_ROUTE, AUDIO_ROUTE
+from hsr_client.constants import Types, RelicTypes
+from hsr_client.datamodels.searchItem import SearchItem
 
 class DamageType(BaseModel):
 

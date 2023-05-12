@@ -1,6 +1,6 @@
 from main import SRSClient
-from constants import Types, Languages
-from routes import *
+from hsr_client.constants import Types, Languages
+from hsr_client.routes import *
 from os import getcwd, mkdir
 from os.path import exists
 

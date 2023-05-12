@@ -1,11 +1,11 @@
 from requests_cache import CachedSession
-from datamodels.searchItem import *
-from datamodels.character import Character
-from routes import *
+from hsr_client.datamodels.searchItem import *
+from hsr_client.datamodels.character import Character
+from hsr_client.routes import *
 from typing import Union, List
-from utils import generate_t, base36encode
-from constants import *
-from errors import *
+from hsr_client.utils import generate_t, base36encode
+from hsr_client.constants import *
+from hsr_client.errors import *
 
 from json import dump
 

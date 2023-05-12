@@ -1,5 +1,5 @@
 
-from constants import O_VALUE
+from hsr_client.constants import O_VALUE
 from datetime import datetime, date
 
 MAIN_ROUTE = f'https://starrailstation.com/api/v1/data/{O_VALUE}/'
