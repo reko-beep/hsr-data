@@ -6,7 +6,7 @@
 
 * provides a fully typed python API for Honkai: Star Rail Data.
 * Is an API wrapper over [starrailstation](https://starrailstation.com) and others like Hoylab.
-* Python API is still work in progress, contributions are welcome.
+* Python library is still work in progress, contributions are welcome.
 
 # Raw Data and Images
 
@@ -19,8 +19,6 @@ WARN: simulatedUniverse data might throw errors as date calculation is not month
 
 # Want to Contribute ?
 
-Fork and start a pull request.
-
-
-
+any kind of help is welcome,
+Fork and start a pull request, or just create an issue.
 
