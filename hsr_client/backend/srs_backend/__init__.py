@@ -11,7 +11,7 @@ from hsr_client.errors import InvalidItemType, InvalidLanguage
 from hsr_client.routes import  MAIN_ROUTE, Routes, IMAGE_ROUTE, SEARCH
 from hsr_client.utils import base36encode, generate_t
 from ..util import Backend
-import hsr_client.datamodels as models
+import datamodels as models
 from .parsers import trace as trace_parser
 
 
@@ -98,7 +98,7 @@ class SRSBackend(Backend):
             else:
                 return data
 
-    def get_all_items(self,  type: Types = None, language: Languages = Languages.EN) -> list[SearchItem]:
+    def get_all_items(self,  type: Types = None, language: Languages = Languages.ENG) -> list[SearchItem]:
             '''
             
             :fetches all items from api route
