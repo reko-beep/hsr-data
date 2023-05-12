@@ -16,15 +16,6 @@ class SearchItem(BaseModel):
     class Config:
         extra = Extra.allow
 
-    @validator('iconPath', pre=True)
-    def get_icon_url(cls, v):
-        return IMAGE_ROUTE.format(assetId=v)
-
-    @validator('type', pre=True)
-    def get_item_type(cls, v):
-        if isinstance(v, int) and v < 7:
-            return Types(v)
-        
-    
+   
   
     

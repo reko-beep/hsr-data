@@ -4,14 +4,14 @@ import json
 from typing import List, Union
 from requests_cache import CachedSession
 
-from hsr_client.constants import Languages, Types
-from hsr_client.datamodels.character import Character
-from hsr_client.datamodels.searchItem import SearchItem
-from hsr_client.errors import InvalidItemType, InvalidLanguage
-from hsr_client.routes import CHARACTERS, MAIN_ROUTE, Routes
-from hsr_client.utils import base36encode, generate_t
+from constants import Languages, Types
+from datamodels.character import Character
+from datamodels.searchItem import SearchItem
+from errors import InvalidItemType, InvalidLanguage
+from routes import  MAIN_ROUTE, Routes, IMAGE_ROUTE, SEARCH
+from utils import base36encode, generate_t
 from ..util import Backend
-import hsr_client.datamodels as models
+import datamodels as models
 from .parsers import trace as trace_parser
 
 
@@ -23,14 +23,10 @@ class SRSBackend(Backend):
 
 
     def __init__(self) -> None:
-            
-        self.session = CachedSession(cache_name='srs.cache', backend='sqlite', expire_after=3600)
+        super().__init__()
+        #self.session = CachedSession(cache_name='srs.cache', backend='sqlite', expire_after=3600)
 
-        self.session.headers.update(
-            {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.68',
-            'referer': 'https://starrailstation.com/'}
-        )
-
+        
 
 
     def generate_hash_route(self, language: Languages, route: Routes, goto: bool = False, item_id : str=''):
@@ -43,7 +39,7 @@ class SRSBackend(Backend):
         --
 
         - language: Languages Enum
-             Languages.EN, Languages.RU etc
+             Languages.ENG, Languages.RU etc
         - route: a Routes object
         - goto: if you want to search in a specific route [True] 
              defaults to False
@@ -65,6 +61,71 @@ class SRSBackend(Backend):
         return  f"{MAIN_ROUTE}{hashed_path}"
 
 
+    def __fetch(self, language: Languages , route: Routes, goto: bool = False, item_id : str = '') -> List[dict] | dict | None:
+        '''
+        
+        :fetches data from the api route
+        --
+        params
+        --
+
+        - language: Languages Enum
+             Languages.EN, Languages.RU etc
+
+        - route: a Routes object
+
+        - goto: if you want to search in a specific route [True] 
+             defaults to False
+        
+        - item_id : id of the item you want to search in a route
+        
+        '''
+
+        if not isinstance(language, Languages):
+            raise InvalidLanguage
+
+        self.session.headers.update(
+            {'referer': 'https://starrailstation.com/'}
+        )
+
+        response = self.session.get(self.generate_hash_route(language, route, goto, item_id))
+    
+
+        if response.status_code  < 300:
+            data = response.json()
+            if 'entries' in data:
+                return data['entries']
+            else:
+                return data
+
+    def get_all_items(self,  type: Types = None, language: Languages = Languages.ENG) -> list[SearchItem]:
+            '''
+            
+            :fetches all items from api route
+            --
+            params
+            --
+
+            - language: Languages Enum
+                Languages.EN, Languages.RU etc
+            - type : a type object 
+                Types.MATERIALS, Types.PLAYERCARDS, Types.CHARACTERS etc
+            
+            
+            '''
+
+            if not isinstance(language, Languages):
+                raise InvalidLanguage
+
+            response = self.__fetch(language, SEARCH, False)
+
+            if response is not None:
+                all_items = [SearchItem(**{ **d, **{'id': d['url'].split("/")[1]}, 'iconPath': IMAGE_ROUTE.format(assetId=d['iconPath'])}) for d in response]
+                if type is not None:
+                    return list(filter(lambda x: x.type == type, all_items))
+            
+        
+                return all_items
 
 
 
