@@ -13,14 +13,15 @@ This repository contains data that [starrailstation](https://starrailstation.com
 
 # How to Use this
 
-- run **data.py** to fetch all data from site.
-- run **ascension.py** to create ascension images.
+- run **raw_data.py** to save all data.
+
 
 # NOTE
 
 
 * Open an issue if script stops working or data is outdated.
 * You can clone and run the script yourself.
+* the **ascension.py** doesnot generate images for now, it needs to be fixed. Check back later. sorry. :(
 
 # API Wrapper
 
