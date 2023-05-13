@@ -1,10 +1,9 @@
 # for VS Code intellisense only.
 from typing import List
-from abc import ABC
 import hsr_client.datamodels as models
 from requests_cache import CachedSession
 
-class Backend(ABC):
+class Backend():
 
     def __init__(self) -> None:
         super().__init__()
