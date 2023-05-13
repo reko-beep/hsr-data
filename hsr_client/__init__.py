@@ -1,6 +1,8 @@
 from abc import ABC
-from .backend import BackendAdapter
-from . import datamodels as models
+
+from hsr_client.constants import Languages, Types
+from hsr_client.backend import BackendAdapter
+from hsr_client import datamodels as models
 
 
 # Public facing api client.
@@ -25,6 +27,11 @@ class HsrClient:
         return self.adapter().get_character(chara_name)
 
 
+
+    def get_lightcones(self):
+        self.adapter().get_lightcones()
+
 if __name__ == "__main__":
     client = HsrClient()
-    print(client.get_character("march 7th")) 
+    # print(client.get_character("march 7th")) 
+    print(client.get_lightcones())

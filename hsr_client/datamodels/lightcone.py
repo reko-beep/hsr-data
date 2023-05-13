@@ -1,8 +1,8 @@
 from typing import Dict, List, Tuple
 from pydantic import BaseModel
-from datamodels.material import Material
+from hsr_client.datamodels.material import Material
 from hsr_client.stats import Stats
-from paths import Path
+from hsr_client.paths import Path
 
 class Stats(BaseModel):
     ATK: int
@@ -26,9 +26,13 @@ class Lightcone(BaseModel):
         level_scaling: lightcone scaling by leve. {level: Scaling}
     """
     name: str
+    # ligthcone rarity
+    rarity: int
     description: str
     stats: Stats
     path: Path
     # lightcone scaling by level. `{level: Scaling}`
-    level_scaling: Dict[int, Scaling]
+    scaling: Dict[int, Scaling]
+    # light cone ability by superimposition
+    ability: Dict[int, str]
 

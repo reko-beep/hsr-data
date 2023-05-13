@@ -1,11 +1,11 @@
 import json
 from typing import List, Union
 from requests_cache import CachedSession
-from datamodels.character import Character
-from datamodels.searchItem import SearchItem
-from errors import InvalidItemType, InvalidLanguage
+from hsr_client.datamodels.character import Character
+from hsr_client.datamodels.searchItem import SearchItem
+from hsr_client.errors import InvalidItemType, InvalidLanguage
 from ..util import Backend
-import datamodels as models
+import hsr_client.datamodels as models
 from .constants import Types
 from .routes import *
 from .parsers import searchItem
