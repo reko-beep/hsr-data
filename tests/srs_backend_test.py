@@ -1,7 +1,7 @@
 
 import unittest
-from backend.srs_backend import SRSBackend
-from backend.srs_backend.parsers.trace import parse_trace_data
+from hsr_client.backend.srs_backend import SRSBackend
+from hsr_client.backend.srs_backend.parsers.trace import parse_trace_data
 
 
 
