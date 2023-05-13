@@ -1,5 +1,5 @@
 **/__pycache__/
-/srs.cache
+*.cache
 /__pycache__
 venv/
 /*.ipynb

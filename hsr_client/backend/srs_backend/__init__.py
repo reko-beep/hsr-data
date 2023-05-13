@@ -4,12 +4,12 @@ import json
 from typing import List, Union
 from requests_cache import CachedSession
 
-from constants import Languages, Types
-from hsr_client.datamodels.character import Character
-from hsr_client.datamodels.searchItem import SearchItem
-from hsr_client.errors import InvalidItemType, InvalidLanguage
-from hsr_client.routes import  MAIN_ROUTE, Routes, IMAGE_ROUTE, SEARCH
-from hsr_client.utils import base36encode, generate_t
+from hsr_client.constants import Languages, Types
+from hsr_client.hsr_client.datamodels.character import Character
+from hsr_client.hsr_client.datamodels.searchItem import SearchItem
+from hsr_client.hsr_client.errors import InvalidItemType, InvalidLanguage
+from hsr_client.hsr_client.routes import  MAIN_ROUTE, Routes, IMAGE_ROUTE, SEARCH
+from hsr_client.hsr_client.utils import base36encode, generate_t
 from ..util import Backend
 import datamodels as models
 from .parsers import trace as trace_parser

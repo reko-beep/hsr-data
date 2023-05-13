@@ -1,7 +1,7 @@
-from typing import Dict, Optional, Union, List, NewType
-from pydantic import BaseModel, validator, Field, Extra, ValidationError
+from typing import Dict, List, Tuple
+from pydantic import BaseModel
 from datamodels.material import Material
-from stats import Stats
+from hsr_client.stats import Stats
 from paths import Path
 
 class Stats(BaseModel):
@@ -13,7 +13,7 @@ class Stats(BaseModel):
 
 class Scaling(BaseModel):
     """light cone scaling for a given level."""
-    upgrade_mats: List[(Material, int)]
+    upgrade_mats: List[Tuple[Material, int]]
     description: str
 
 class Lightcone(BaseModel):
@@ -31,4 +31,4 @@ class Lightcone(BaseModel):
     path: Path
     # lightcone scaling by level. `{level: Scaling}`
     level_scaling: Dict[int, Scaling]
-    superimposition: 
+
