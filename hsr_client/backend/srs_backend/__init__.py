@@ -98,7 +98,7 @@ class SRSBackend(Backend):
             else:
                 return data
 
-    def get_all_items(self,  type: Types = None, language: Languages = Languages.ENG) -> list[SearchItem]:
+    def get_all_items(self,  type: Types = None, language: Languages = Languages.EN) -> list[SearchItem]:
             '''
             
             :fetches all items from api route
