@@ -19,11 +19,6 @@ class AscensionMaterial(BaseModel):
     material: Material
     count: int
 
-    def __init__(self, **kwargs):
-        super().__init__(**kwargs)
-
-    def __iter__(self):
-        return iter(self.mats)
 
 
 
@@ -52,7 +47,7 @@ class Lightcone(BaseModel):
 
     # TODO: type too long? should we break it down?
     # ascension materials required to level up beyond given `Level` (int)
-    ascension_mats: Dict[Level, List[Dict[Material, Count]]]
+    ascension_mats: Dict[Level, List[AscensionMaterial]]
 
 
 if __name__ == "__main__":
@@ -74,16 +69,16 @@ if __name__ == "__main__":
         },
         ascension_mats={
         20: [
-            {Material(name="foo1", description="bar1"): 1},
-            {Material(name="foo2", description="bar2"): 2}
+            AscensionMaterial(material=Material(name="foo1", description="bar1"), count=1),
+            AscensionMaterial(material=Material(name="foo2", description="bar2"), count=2),
         ],
         30: [
-            {Material(name="foo3", description="bar3"): 3}
+            AscensionMaterial(material=Material(name="foo3", description="bar3"), count=3),
         ]
     })
 
     lvl_20_ascension_mats = lightcone.ascension_mats[20] # TODO: this doesn't read well. what does ascension_mats[20] mean, unless u look at the type.
 
-    for mats in lvl_20_ascension_mats:
-        print("mats:" , mats.keys())
-        print("count: ", mats.values())
+    for mat in lvl_20_ascension_mats:
+        print("mat: ", mat.material)
+        print("count: ", mat.count)
