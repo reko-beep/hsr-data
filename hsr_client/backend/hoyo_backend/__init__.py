@@ -46,18 +46,24 @@ class HoyoBackend(Backend):
 
 
 
-    def __entries(self, type : Types) -> list[SearchItem]:
+    def __entries(self, type : Types, **params) -> list[SearchItem]:
         """gets all entries from api route of given type
 
         Args:
             type (Types): type enum. Types.CHARACTERS, Types.MATERIALS
+            ---
+            allowed kwargs
+            ---
+            page_num : int [1..... 99]
+            page_size : int [number of items in one page]
+
 
         Returns:
             list[SearchItem]: returns a list of SearchItem
         """       
 
-
-        response = self.__get_response('POST', ENTRY_LIST, filters=[], menu_id=type, page_num=1, page_size=30, use_es=True)
+        params.update({'user_es': True})
+        response = self.__get_response('POST', ENTRY_LIST, filters=[], menu_id=type, **params)
 
         if response is not None:            
             return [SearchItem(**searchItem.make_model_compatible(item, type)) for item in response]
