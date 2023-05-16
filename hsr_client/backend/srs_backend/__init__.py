@@ -8,7 +8,7 @@ from hsr_client.constants import Languages, Types
 from hsr_client.datamodels.character import Character
 from hsr_client.datamodels.lightcone import Lightcone
 from hsr_client.datamodels.searchItem import SearchItem
-from hsr_client.errors import InvalidItemType, InvalidLanguage
+from hsr_client.errors import *
 from hsr_client.routes import  *
 from hsr_client.utils import base36encode, generate_t
 from hsr_client.backend.util import Backend
@@ -141,14 +141,25 @@ class SRSBackend(Backend):
 
         return lightcones
     
-    def get_lightcone_detail(self, item : SearchItem, language: Languages = Languages.EN):
-        """get details of a lightcone
+    def get_lightcone_detail(self, item : SearchItem, language: Languages = Languages.EN) -> Lightcone:
+        """get details of a light cone
 
         Args:
             item (SearchItem): SearchItem of Lightcone type.
-        """      
+            language (Languages, optional):  Defaults to Languages.EN.
+
+        Raises:
+            InvalidItemType: if SearchItem is not of Lightcone Type
+
+        Returns:
+            Lightcone: Lightcone object
+        """        
 
         if isinstance(item, SearchItem):
+            
+            if item.type != Types.LIGHTCONES:
+                raise InvalidItemType
+            
             response = self.__fetch(language, LIGHTCONES, True, item.id)  
             if response is not None:
 
@@ -157,7 +168,7 @@ class SRSBackend(Backend):
         
         else:
 
-            raise InvalidItemType
+            raise InvalidSearchItem
 
     def get_character(self, target_name) -> models.chara.Character:
 
