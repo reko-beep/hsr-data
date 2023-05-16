@@ -150,7 +150,7 @@ class SRSBackend(Backend):
 
         Raises:
             InvalidItemType: if SearchItem is not of Lightcone Type
-
+            InvalidSearchItem: if item is not a SearchItem
         Returns:
             Lightcone: Lightcone object
         """        
