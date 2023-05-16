@@ -87,7 +87,7 @@ for type in Types:
             print(f'[downloading] [Language: {language}]', Types(entry.type).name, entry.name)
             with open(f'{save_path}/{language}/{folders[entry.type]}/{entry.id}.json', 'w') as f:
                 dump(data, f, indent=1)
-            sleep(2)
+
 
 print(f'[downloading] [Language: {language}]', 'ACHIEVEMENTS')   
 data = client.fetch(language, ACHIEVEMENTS, None)
