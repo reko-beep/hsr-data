@@ -28,8 +28,11 @@ class HsrClient:
 
 
 
-    def get_lightcones(self):
-        self.adapter().get_lightcones()
+    def get_lightcones(self) -> List[Lightcone]:
+        return self.adapter().get_lightcones()
+        # return []
+
+
 
 if __name__ == "__main__":
     client = HsrClient()

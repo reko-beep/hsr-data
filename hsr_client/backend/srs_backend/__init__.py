@@ -3,19 +3,30 @@
 import json
 from typing import List, Union
 from requests_cache import CachedSession
+from hsr_client.backend.srs_backend.parsers.lightcone import parse_lightcone
 
 from hsr_client.constants import Languages, Types
 from hsr_client.datamodels.character import Character
 from hsr_client.datamodels.lightcone import Lightcone
 from hsr_client.datamodels.searchItem import SearchItem
 from hsr_client.errors import InvalidItemType, InvalidLanguage
-from hsr_client.routes import  MAIN_ROUTE, Routes, IMAGE_ROUTE, SEARCH
+from hsr_client import routes
 from hsr_client.utils import base36encode, generate_t
 from hsr_client.backend.util import Backend
 import hsr_client.datamodels as models
 from .parsers import trace as trace_parser
 
 
+route_mapping = {
+    Types.CHARACTERS : routes.CHARACTERS,
+    Types.PLAYERCARDS : routes.PLAYERCARDS,
+    Types.FOODS : routes.CONSUMABLES,
+    Types.RELICS : routes.RELICS,
+    Types.LIGHTCONES : routes.LIGHTCONES,
+    Types.BOOKS : routes.BOOKS,
+    Types.MATERIALS : routes.MATERIALS,    
+
+}
 
 
 
@@ -30,7 +41,7 @@ class SRSBackend(Backend):
         
 
 
-    def generate_hash_route(self, language: Languages, route: Routes, goto: bool = False, item_id : str=''):
+    def generate_hash_route(self, language: Languages, route: routes.Routes, goto: bool = False, item_id : str=''):
         '''
         
         :generates hashed route for fetching data
@@ -59,10 +70,10 @@ class SRSBackend(Backend):
 
         hashed_path = base36encode(generate_t(url))
 
-        return  f"{MAIN_ROUTE}{hashed_path}"
+        return  f"{routes.MAIN_ROUTE}{hashed_path}"
 
 
-    def __fetch(self, language: Languages , route: Routes, goto: bool = False, item_id : str = '') -> List[dict] | dict | None:
+    def __fetch(self, language: Languages , route: routes.Routes, goto: bool = False, item_id : str = '') -> List[dict] | dict | None:
         '''
         
         :fetches data from the api route
@@ -118,10 +129,10 @@ class SRSBackend(Backend):
             if not isinstance(language, Languages):
                 raise InvalidLanguage
 
-            response = self.__fetch(language, SEARCH, False)
+            response = self.__fetch(language, routes.SEARCH, False)
 
             if response is not None:
-                all_items = [SearchItem(**{ **d, **{'id': d['url'].split("/")[1]}, 'iconPath': IMAGE_ROUTE.format(assetId=d['iconPath'])}) for d in response]
+                all_items = [SearchItem(**{ **d, **{'id': d['url'].split("/")[1]}, 'iconPath': routes.IMAGE_ROUTE.format(assetId=d['iconPath'])}) for d in response]
                 if type is not None:
                     return list(filter(lambda x: x.type == type, all_items))
             
@@ -129,10 +140,24 @@ class SRSBackend(Backend):
                 return all_items
 
 
-    def get_lightcones(self) -> List[Lightcone]:
-        lightcones = self.get_all_items(Types.LIGHTCONES, language=Languages.EN)
+    from pathlib import Path
 
-        print(lightcones)
+
+
+
+
+    def get_lightcones(self) -> List[Lightcone]:
+        lc_search_results = self.get_all_items(Types.LIGHTCONES, language=Languages.EN)
+
+        for lc_entry in lc_search_results:
+            print(lc_entry)
+            print("\n\n\n")
+            data = self.__fetch(Languages.EN, route_mapping[lc_entry.type], True, lc_entry.id)              
+            print(json.dumps(data))
+
+            lightcone = parse_lightcone(data)
+        return [lightcone]
+
 
     def get_character(self, target_name) -> models.chara.Character:
 
