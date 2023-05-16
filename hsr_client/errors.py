@@ -4,5 +4,9 @@ class InvalidLanguage(Exception):
     pass
 
 class InvalidItemType(Exception):
-    "Raised when the passed item is not of required type"
+    "Raised when the passed SearchItem is not of required type"
+    pass
+
+class InvalidSearchItem(Exception):
+    "Raised provided item is not a SearchItem"
     pass

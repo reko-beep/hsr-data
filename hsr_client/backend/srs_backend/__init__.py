@@ -140,24 +140,46 @@ class SRSBackend(Backend):
                 return all_items
 
 
-    from pathlib import Path
+    def get_lightcones(self, language: Languages = Languages.EN) -> List[SearchItem]:
 
+        """gets all lightcones from api
 
+        Returns:
+            List[SearchItem]: SearchItem of Lightcones type.
+        """        
 
+        lightcones = self.get_all_items(Types.LIGHTCONES, language)
 
+        return lightcones
+    
+    def get_lightcone_detail(self, item : SearchItem, language: Languages = Languages.EN) -> Lightcone:
+        """get details of a light cone
 
-    def get_lightcones(self) -> List[Lightcone]:
-        lc_search_results = self.get_all_items(Types.LIGHTCONES, language=Languages.EN)
+        Args:
+            item (SearchItem): SearchItem of Lightcone type.
+            language (Languages, optional):  Defaults to Languages.EN.
 
-        for lc_entry in lc_search_results:
-            print(lc_entry)
-            print("\n\n\n")
-            data = self.__fetch(Languages.EN, route_mapping[lc_entry.type], True, lc_entry.id)              
-            print(json.dumps(data))
+        Raises:
+            InvalidItemType: if SearchItem is not of Lightcone Type
+            InvalidSearchItem: if item is not a SearchItem
+        Returns:
+            Lightcone: Lightcone object
+        """        
 
-            lightcone = parse_lightcone(data)
-        return [lightcone]
+        if isinstance(item, SearchItem):
+            
+            if item.type != Types.LIGHTCONES:
+                raise InvalidItemType
+            
+            response = self.__fetch(language, LIGHTCONES, True, item.id)  
+            if response is not None:
 
+                #todo: parse lightcone raw data here
+                return Lightcone(**response)
+        
+        else:
+
+            raise InvalidSearchItem
 
     def get_character(self, target_name) -> models.chara.Character:
 
