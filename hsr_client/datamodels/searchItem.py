@@ -2,9 +2,26 @@ from pydantic import BaseModel, validator, Field, Extra
 from typing import Optional
 from hsr_client.routes import IMAGE_ROUTE
 from hsr_client.constants import Types
-
+from hsr_client.backend.hoyo_backend.constants import Types as HoyoTypes
 
 class SearchItem(BaseModel):
+    """SearchItem
+
+    Attributes:
+
+    url : site url for item
+    iconPath : icon url of the  item
+    type: type of item - lightcones, materials, characters
+    rarity: rarity of the item
+    id : ID of the item
+
+    Filters:
+
+        - available_filters()
+            to see the attributes you can filter item on   
+
+    
+    """    
 
     url : Optional[str]
     iconPath : Optional[str]
@@ -16,6 +33,20 @@ class SearchItem(BaseModel):
     class Config:
         extra = Extra.allow
 
-   
+    def available_filters(self):
+
+        return [f for f in self.__dict__.keys()]
+
+    def __str__(self):
+        if self.type > 50:
+            return str(f"<{HoyoTypes(str(self.type)).name} name={self.name} rarity={self.rarity} iconPath={self.iconPath}>")
+        return str(f"<{Types(self.type).name} name={self.name} rarity={self.rarity} iconPath={self.iconPath}>")
+    
+    def __repr__(self):
+
+        if self.type > 50:
+            return str(f"<{HoyoTypes(str(self.type)).name} name={self.name} rarity={self.rarity} iconPath={self.iconPath}>")
+        return str(f"<{Types(self.type).name} name={self.name} rarity={self.rarity} iconPath={self.iconPath}>")
+     
   
     
