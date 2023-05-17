@@ -25,11 +25,11 @@ class Material(BaseModel):
 
  
     name : str
-    type: int
+    # type: int
 
 
     # material rarity
-    rarity : int
+    # rarity : int
 
     #material description
     description : str
