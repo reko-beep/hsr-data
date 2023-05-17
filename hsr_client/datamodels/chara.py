@@ -6,11 +6,6 @@ from . import trace
 from enum import Enum
 
 
-class Type(Enum):
-    """type of trace (Stat Bonus, Skill, Bonus Ability)"""
-    BONUS_ABILITY = 1
-    STAT_BONUS = 2
-    SKILL = 3
 
 
 
