@@ -9,7 +9,7 @@ from hsr_client.constants import Languages, Types
 from hsr_client.datamodels.character import Character
 from hsr_client.datamodels.lightcone import Lightcone
 from hsr_client.datamodels.searchItem import SearchItem
-from hsr_client.errors import InvalidItemType, InvalidLanguage
+from hsr_client.errors import InvalidItemType, InvalidLanguage, InvalidSearchItem
 from hsr_client import routes
 from hsr_client.utils import base36encode, generate_t
 from hsr_client.backend.util import Backend
@@ -152,6 +152,18 @@ class SRSBackend(Backend):
 
         return lightcones
     
+    def get_lightcones_boby(self) -> List[Lightcone]:
+        lc_search_results = self.get_all_items(Types.LIGHTCONES, language=Languages.EN)
+
+        for lc_entry in lc_search_results:
+            print(lc_entry)
+            print("\n\n\n")
+            data = self.__fetch(Languages.EN, route_mapping[lc_entry.type], True, lc_entry.id)              
+            print(json.dumps(data))
+
+            lightcone = parse_lightcone(data)
+            return [lightcone]
+    
     def get_lightcone_detail(self, item : SearchItem, language: Languages = Languages.EN) -> Lightcone:
         """get details of a light cone
 
@@ -171,7 +183,7 @@ class SRSBackend(Backend):
             if item.type != Types.LIGHTCONES:
                 raise InvalidItemType
             
-            response = self.__fetch(language, LIGHTCONES, True, item.id)  
+            response = self.__fetch(language, routes.LIGHTCONES, True, item.id)  
             if response is not None:
 
                 #todo: parse lightcone raw data here
@@ -180,6 +192,19 @@ class SRSBackend(Backend):
         else:
 
             raise InvalidSearchItem
+        
+
+    def get_lightcone_by_name(self, name) -> Lightcone:
+        
+        import json
+
+        # get this from ROUTE
+        with open("tests/data/lightcone.json") as f:
+            lightcone_raw = json.load(f)
+
+        return parse_lightcone(lightcone_raw)
+    
+    
 
     def get_character(self, target_name) -> models.chara.Character:
 
