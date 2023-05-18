@@ -1,13 +1,17 @@
 
 from __future__ import annotations
 
-import typing
+from hsr_client.datamodels.searchItem import SearchItem
+from hsr_client.errors import InvalidFilter
 
+from typing import Any, Union
 from dataclasses import dataclass
+from pydantic import BaseModel
+
+from PIL import Image, ImageChops, ImageOps, ImageDraw, ImageFont, ImageFilter
 
 from datetime import datetime
 import inspect
-from PIL import Image, ImageChops, ImageOps, ImageDraw, ImageFont, ImageFilter
 import requests
 from io import BytesIO
 from colorthief import ColorThief
@@ -40,7 +44,51 @@ def base36encode(number):
 
     return base36.lower() or alphabet[0].lower()
 
+def check(model : Union[BaseModel, SearchItem], attribute : str, value : Union[str, bool, int]) -> SearchItem:
+    """checks in a model for attribute and returns it if attributes matches the value given
+    to be used for 
+
+    Args:
+        model (SearchItem): SearchItem model
+        attribute (str): attribute of searchItem
+        value (Union[str, bool, int]): value to match
+
+    Raises:
+        InvalidFilter: raised when provided attribute [filter] doesnot exist in search item
+
+    Returns:
+        SearchItem: 
+    """    
+
+    if hasattr(model, attribute):
+
+
+        if isinstance(model.__getattribute__(attribute), str):
+            if value.lower() in model.__getattribute__(attribute).lower():
+                return model
+        
+        if value == model.__getattribute__(attribute):
+            return model
+    
+    raise InvalidFilter(model.available_filters())
+        
+
+
+
+
+
+
+
+
+
+
 class ImageManipulation:
+    """ImageManipulation
+
+    Modified PIL library for conveniently generating XP, Ascension cards and manipulating images.
+
+   
+    """    
 
     @classmethod
     def mask_image(cls, image_original: Image, gradient_levels: int, inverse:bool= False) -> Image:   

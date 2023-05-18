@@ -35,7 +35,7 @@ class SearchItem(BaseModel):
 
     def available_filters(self):
 
-        return [f for f in self.__dict__.keys()]
+        return [f for f in self.__dict__.keys() if f not in ['url', 'iconPath', 'id']]
 
     def __str__(self):
         if self.type > 50:

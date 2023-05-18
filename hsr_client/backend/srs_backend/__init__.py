@@ -11,7 +11,7 @@ from hsr_client.datamodels.lightcone import Lightcone
 from hsr_client.datamodels.searchItem import SearchItem
 from hsr_client.errors import InvalidItemType, InvalidLanguage, InvalidSearchItem
 from hsr_client import routes
-from hsr_client.utils import base36encode, generate_t
+from hsr_client.utils import base36encode, generate_t, check
 from hsr_client.backend.util import Backend
 import hsr_client.datamodels as models
 from .parsers import trace as trace_parser
@@ -145,7 +145,7 @@ class SRSBackend(Backend):
         """gets all lightcones from api
 
         Returns:
-            List[SearchItem]: SearchItem of Lightcones type.
+            List[SearchItem]: List of SearchItem of Lightcones type.
         """        
 
         lightcones = self.get_all_items(Types.LIGHTCONES, language)
@@ -186,25 +186,34 @@ class SRSBackend(Backend):
             response = self.__fetch(language, routes.LIGHTCONES, True, item.id)  
             if response is not None:
 
-                #todo: parse lightcone raw data here
-                return Lightcone(**response)
+                return parse_lightcone(response)
         
         else:
 
             raise InvalidSearchItem
         
 
-    def get_lightcone_by_name(self, name) -> Lightcone:
-        
-        import json
+    def get_lightcone_by_name(self, name: str, language: Languages = Languages.EN) -> Lightcone:
+        """Gets lightcone by name
 
-        # get this from ROUTE
-        with open("tests/data/lightcone.json") as f:
-            lightcone_raw = json.load(f)
+        Args:
+            name (str): name of the lightcone
+            language (Languages, optional): Defaults to Languages.EN.
 
-        return parse_lightcone(lightcone_raw)
-    
-    
+        Returns:
+            Lightcone: 
+        """        
+        lightcones = self.get_lightcones(language)
+
+        for lightcone in lightcones:
+            '''
+            use check to filter search item
+            '''
+            item = check(lightcone, 'name', name)
+            if item is not None:
+
+                return self.get_lightcone_detail(item)
+            
 
     def get_character(self, target_name) -> models.chara.Character:
 
