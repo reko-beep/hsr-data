@@ -3,17 +3,15 @@ from hsr_client.datamodels.material import Material
 from hsr_client.paths import Path
 from bs4 import BeautifulSoup
 
+
 def parse_lightcone(data) -> Lightcone:
-    
-
-
     # name
     lc_name = data["name"]
     # rarity
     lc_rarity = data["rarity"]
     # description
-    lc_description = data["descHash"]
-    
+    lc_description = BeautifulSoup(data["descHash"], features="lxml").get_text()
+
     # path
     lc_path = None
     raw_path = data["baseType"]["name"]
@@ -36,12 +34,13 @@ def parse_lightcone(data) -> Lightcone:
     else:
         raise Exception(f"failed to parse lightcone, raw_path unknown: ${raw_path}")
 
-
     # ability
     lc_ability = {}
-    ability_desc_template = BeautifulSoup(data["skill"]["descHash"], features="lxml").get_text()
+    ability_desc_template = BeautifulSoup(
+        data["skill"]["descHash"], features="lxml"
+    ).get_text()
     simp_template_params = map(lambda si: si["params"], data["skill"]["levelData"])
-    
+
     for simp_no, template_params in enumerate(simp_template_params, start=1):
         ability_desc = ability_desc_template
         for slot_no, template_param in enumerate(template_params, start=1):
@@ -51,7 +50,6 @@ def parse_lightcone(data) -> Lightcone:
 
         lc_ability[simp_no] = ability_desc
 
-
     lightcone = Lightcone(
         name=lc_name,
         rarity=lc_rarity,
@@ -60,17 +58,22 @@ def parse_lightcone(data) -> Lightcone:
         ability=lc_ability,
         ascension_mats={
             20: [
-                AscensionMaterial(material=Material(name="foo1", description="bar1"), count=1),
-                AscensionMaterial(material=Material(name="foo2", description="bar2"), count=2),
+                AscensionMaterial(
+                    material=Material(name="foo1", description="bar1"), count=1
+                ),
+                AscensionMaterial(
+                    material=Material(name="foo2", description="bar2"), count=2
+                ),
             ],
             30: [
-                AscensionMaterial(material=Material(name="foo3", description="bar3"), count=3),
-            ]
-        }
+                AscensionMaterial(
+                    material=Material(name="foo3", description="bar3"), count=3
+                ),
+            ],
+        },
     )
 
     # _stats (has to be done after object creation)
-    setattr(lightcone, '_stats', data["levelData"])
+    setattr(lightcone, "_stats", data["levelData"])
 
     return lightcone
-    

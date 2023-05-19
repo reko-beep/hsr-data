@@ -27,7 +27,7 @@ class SRSClient:
              'referer': 'https://starrailstation.com/'}
         )
 
-    def generate_hash_route(self, language: Languages, route: Routes, goto: bool = False, item_id : str=''):
+    def generate_hash_route(self, language: Language, route: Routes, goto: bool = False, item_id : str=''):
         '''
         
         :generates hashed route for fetching data
@@ -46,7 +46,7 @@ class SRSClient:
         
         '''
 
-        if not isinstance(language, Languages):
+        if not isinstance(language, Language):
             raise InvalidLanguage
         
         url = route.generate_main_lang_path(language)
@@ -63,7 +63,7 @@ class SRSClient:
 
         
     
-    def fetch(self, language: Languages , route: Routes, goto: bool = False, item_id : str = '') -> List[dict] | dict | None:
+    def fetch(self, language: Language , route: Routes, goto: bool = False, item_id : str = '') -> List[dict] | dict | None:
         '''
         
         :fetches data from the api route
@@ -83,7 +83,7 @@ class SRSClient:
         
         '''
 
-        if not isinstance(language, Languages):
+        if not isinstance(language, Language):
             raise InvalidLanguage
 
         response = self.__session.get(self.generate_hash_route(language, route, goto, item_id))
@@ -97,7 +97,7 @@ class SRSClient:
                 return data
             
 
-    def get_all_items(self,  type: Types = None, language: Languages = Languages.EN) -> list[SearchItem]:
+    def get_all_items(self,  type: Item = None, language: Language = Language.EN) -> list[SearchItem]:
         '''
         
         :fetches all items from api route
@@ -113,7 +113,7 @@ class SRSClient:
         
         '''
 
-        if not isinstance(language, Languages):
+        if not isinstance(language, Language):
             raise InvalidLanguage
 
         response = self.fetch(language, SEARCH, False)
@@ -126,7 +126,7 @@ class SRSClient:
       
             return all_items
         
-    def get_all_character_details(self,item: Union[SearchItem , int], language: Languages = Languages.EN) -> Character:
+    def get_all_character_details(self,item: Union[SearchItem , int], language: Language = Language.EN) -> Character:
         '''
         
         :fetches character details from api route provided a search item or character id
@@ -141,7 +141,7 @@ class SRSClient:
         
         '''
         if isinstance(item, SearchItem):
-            if item.type == Types.CHARACTERS:
+            if item.type == Item.CHARACTERS:
 
                 response = self.fetch(language, CHARACTERS, True, item.id)
                 with open('traces.json', 'w') as f:

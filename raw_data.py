@@ -1,5 +1,5 @@
 from main import SRSClient
-from hsr_client.constants import Types, Languages
+from hsr_client.constants import Item, Language
 from hsr_client.routes import *
 from os import getcwd, mkdir
 from os.path import exists
@@ -17,24 +17,24 @@ save_path = f"{getcwd()}/raw_data"
 client = SRSClient()
 
 routes = {
-    Types.CHARACTERS : CHARACTERS,
-    Types.PLAYERCARDS : PLAYERCARDS,
-    Types.FOODS : CONSUMABLES,
-    Types.RELICS : RELICS,
-    Types.LIGHTCONES : LIGHTCONES,
-    Types.BOOKS : BOOKS,
-    Types.MATERIALS : MATERIALS,    
+    Item.CHARACTERS : CHARACTERS,
+    Item.PLAYERCARDS : PLAYERCARDS,
+    Item.FOODS : CONSUMABLES,
+    Item.RELICS : RELICS,
+    Item.LIGHTCONES : LIGHTCONES,
+    Item.BOOKS : BOOKS,
+    Item.MATERIALS : MATERIALS,    
 
 }
 
 folders = {
-    Types.CHARACTERS : 'characters/',
-    Types.PLAYERCARDS : 'playercards/',
-    Types.FOODS : 'foods/',
-    Types.RELICS : 'relics/',
-    Types.LIGHTCONES : 'lightcones/',
-    Types.BOOKS : 'books/',
-    Types.MATERIALS : 'materials/'
+    Item.CHARACTERS : 'characters/',
+    Item.PLAYERCARDS : 'playercards/',
+    Item.FOODS : 'foods/',
+    Item.RELICS : 'relics/',
+    Item.LIGHTCONES : 'lightcones/',
+    Item.BOOKS : 'books/',
+    Item.MATERIALS : 'materials/'
 }
 
 def create_path(path :str):
@@ -57,7 +57,7 @@ def convert(seconds: int | float):
 
 START_TIME = datetime.now()
 
-language = Languages.EN
+language = Language.EN
 '''
 iterate over all languages to get data in all languages
 '''
@@ -69,7 +69,7 @@ iterate over all languages to get data in all languages
 iterate over all languages to get data in all languages
 '''
 
-for type in Types: 
+for type in Item: 
     '''
 
     Iterate over all types to get all data
@@ -84,7 +84,7 @@ for type in Types:
             fetches data
             '''
             data = client.fetch(language, routes[entry.type], True, entry.id)              
-            print(f'[downloading] [Language: {language}]', Types(entry.type).name, entry.name)
+            print(f'[downloading] [Language: {language}]', Item(entry.type).name, entry.name)
             with open(f'{save_path}/{language}/{folders[entry.type]}/{entry.id}.json', 'w') as f:
                 dump(data, f, indent=1)
 
