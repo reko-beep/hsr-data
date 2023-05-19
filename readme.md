@@ -9,7 +9,7 @@
   <p align="center">
     <!-- Fully typed python API for Honkai: Star Rail's Data
     <br /> -->
-    <a style="color: orange" href="https://reko-beep.githubpages.io/hsr-data">Documentation (🚧 only for feedback 🚧) »</strong></a>
+    <a style="color: orange" href="https://reko-beep.github.io/hsr-data">Documentation (🚧 only for feedback 🚧) »</strong></a>
     <br />
     <a style="color: orange"  href="https://github.com/reko-beep/hsr-data/issues">Report a Bug</a>
     ·
