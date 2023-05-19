@@ -9,4 +9,5 @@
     "python.testing.pytestEnabled": false,
     "python.testing.unittestEnabled": true,
     "python.formatting.provider": "black",
+    "python.analysis.typeCheckingMode": "basic",
 }
