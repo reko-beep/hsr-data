@@ -10,13 +10,13 @@ class Item(int, Enum):
 
     """
 
-    CHARACTERS = 0
-    LIGHTCONES = 1
-    RELICS = 2
-    BOOKS = 3
-    MATERIALS = 4
-    PLAYERCARDS = 5
-    FOODS = 6
+    CHARACTER = 0
+    LIGHTCONE = 1
+    RELIC = 2
+    BOOK = 3
+    MATERIAL = 4
+    PLAYERCARD = 5
+    FOOD = 6
 
     def __str__(self) -> int:
         return self.value
@@ -44,7 +44,7 @@ class Language(str, Enum):
         return str(self.value)
 
 
-class RelicTypes(str, Enum):
+class _RelicTypes(str, Enum):
     """
     Relic Types
     """

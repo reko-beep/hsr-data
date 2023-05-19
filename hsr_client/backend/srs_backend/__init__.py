@@ -16,13 +16,13 @@ from .parsers import trace as trace_parser
 
 
 route_mapping = {
-    Item.CHARACTERS: routes.CHARACTERS,
-    Item.PLAYERCARDS: routes.PLAYERCARDS,
-    Item.FOODS: routes.CONSUMABLES,
-    Item.RELICS: routes.RELICS,
-    Item.LIGHTCONES: routes.LIGHTCONES,
-    Item.BOOKS: routes.BOOKS,
-    Item.MATERIALS: routes.MATERIALS,
+    Item.CHARACTER: routes.CHARACTERS,
+    Item.PLAYERCARD: routes.PLAYERCARDS,
+    Item.FOOD: routes.CONSUMABLES,
+    Item.RELIC: routes.RELICS,
+    Item.LIGHTCONE: routes.LIGHTCONES,
+    Item.BOOK: routes.BOOKS,
+    Item.MATERIAL: routes.MATERIALS,
 }
 
 
@@ -175,7 +175,7 @@ class SRSBackend(Backend):
         """
 
         if isinstance(search_item, SearchItem):
-            if search_item.type != Item.LIGHTCONES:
+            if search_item.type != Item.LIGHTCONE:
                 raise InvalidSearchItem(
                     "Expected Type.LIGHTCONES, found: " + search_item.type
                 )
@@ -199,7 +199,7 @@ class SRSBackend(Backend):
         Returns:
             Lightcone:
         """
-        lightcones = self.search_item(Item.LIGHTCONES)
+        lightcones = self.search_item(Item.LIGHTCONE)
 
         for lightcone in lightcones:
             # use check to filter search item

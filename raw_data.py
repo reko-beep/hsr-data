@@ -18,23 +18,23 @@ client = SRSClient()
 
 routes = {
     Item.CHARACTERS : CHARACTERS,
-    Item.PLAYERCARDS : PLAYERCARDS,
-    Item.FOODS : CONSUMABLES,
-    Item.RELICS : RELICS,
-    Item.LIGHTCONES : LIGHTCONES,
-    Item.BOOKS : BOOKS,
-    Item.MATERIALS : MATERIALS,    
+    Item.PLAYERCARD : PLAYERCARDS,
+    Item.FOOD : CONSUMABLES,
+    Item.RELIC : RELICS,
+    Item.LIGHTCONE : LIGHTCONES,
+    Item.BOOK : BOOKS,
+    Item.MATERIAL : MATERIALS,    
 
 }
 
 folders = {
     Item.CHARACTERS : 'characters/',
-    Item.PLAYERCARDS : 'playercards/',
-    Item.FOODS : 'foods/',
-    Item.RELICS : 'relics/',
-    Item.LIGHTCONES : 'lightcones/',
-    Item.BOOKS : 'books/',
-    Item.MATERIALS : 'materials/'
+    Item.PLAYERCARD : 'playercards/',
+    Item.FOOD : 'foods/',
+    Item.RELIC : 'relics/',
+    Item.LIGHTCONE : 'lightcones/',
+    Item.BOOK : 'books/',
+    Item.MATERIAL : 'materials/'
 }
 
 def create_path(path :str):
