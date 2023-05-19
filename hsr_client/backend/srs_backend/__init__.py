@@ -124,7 +124,7 @@ class SRSBackend(Backend):
         - language: Languages Enum
             Languages.EN, Languages.RU etc
         - type : a type object
-            Types.MATERIALS, Types.PLAYERCARDS, Types.CHARACTERS etc
+            Item.MATERIALS, Item.PLAYERCARDS, Item.CHARACTERS etc
 
 
         """

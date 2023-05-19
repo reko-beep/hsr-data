@@ -1,12 +1,9 @@
-import json
 from typing import List, Union
-from requests_cache import CachedSession
-from hsr_client.datamodels.character import Character
 from hsr_client.datamodels.searchItem import SearchItem
 from hsr_client.errors import  InvalidLanguage
 from ..util import Backend
 import hsr_client.datamodels as models
-from .constants import Types
+from .constants import Item
 from .routes import *
 from .parsers import searchItem
 
@@ -46,7 +43,7 @@ class HoyoBackend(Backend):
 
 
 
-    def __entries(self, type : Types, **params) -> list[SearchItem]:
+    def __entries(self, item : Item, **params) -> list[SearchItem]:
         """gets all entries from api route of given type
 
         Args:
@@ -62,11 +59,11 @@ class HoyoBackend(Backend):
             list[SearchItem]: returns a list of SearchItem
         """       
 
-        params.update({'user_es': True})
-        response = self.__get_response('POST', ENTRY_LIST, filters=[], menu_id=type, **params)
+        params.update({'use_es': True})
+        response = self.__get_response('POST', ENTRY_LIST, filters=[], menu_id=item, **params)
 
         if response is not None:            
-            return [SearchItem(**searchItem.make_model_compatible(item, type)) for item in response]
+            return [SearchItem(**searchItem.make_model_compatible(item, item)) for item in response]
 
     def __entry_detail(self, item : Union[SearchItem, int]) -> dict:
         """gets the detail of a search item

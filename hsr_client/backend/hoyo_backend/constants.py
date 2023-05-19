@@ -2,7 +2,7 @@ from enum import Enum
 
 
 
-class Types(str, Enum):
+class Item(str, Enum):
     
     '''
     HoYoLab Wiki Entries
