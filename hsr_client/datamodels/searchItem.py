@@ -2,7 +2,7 @@ from pydantic import BaseModel, validator, Field, Extra
 from typing import Optional
 from hsr_client.routes import IMAGE_ROUTE
 from hsr_client.constants import Item
-from hsr_client.backend.hoyo_backend.constants import Types as HoyoTypes
+from hsr_client.backend.hoyo_backend.constants import Item as HoyoItems
 
 
 class SearchItem(BaseModel):
@@ -42,7 +42,7 @@ class SearchItem(BaseModel):
     def __str__(self):
         if self.type > 50:
             return str(
-                f"<{HoyoTypes(str(self.type)).name} name={self.name} rarity={self.rarity} iconPath={self.iconPath}>"
+                f"<{HoyoItems(str(self.type)).name} name={self.name} rarity={self.rarity} iconPath={self.iconPath}>"
             )
         return str(
             f"<{Item(self.type).name} name={self.name} rarity={self.rarity} iconPath={self.iconPath}>"
@@ -51,7 +51,7 @@ class SearchItem(BaseModel):
     def __repr__(self):
         if self.type > 50:
             return str(
-                f"<{HoyoTypes(str(self.type)).name} name={self.name} rarity={self.rarity} iconPath={self.iconPath}>"
+                f"<{HoyoItems(str(self.type)).name} name={self.name} rarity={self.rarity} iconPath={self.iconPath}>"
             )
         return str(
             f"<{Item(self.type).name} name={self.name} rarity={self.rarity} iconPath={self.iconPath}>"
