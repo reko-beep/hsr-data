@@ -47,7 +47,7 @@ class HoyoBackend(Backend):
         """gets all entries from api route of given type
 
         Args:
-            type (Types): type enum. Types.CHARACTERS, Types.MATERIALS
+            item (Item): Item enum. Item.CHARACTERS, Item.MATERIALS
             ---
             allowed kwargs
             ---

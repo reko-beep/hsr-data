@@ -1,9 +1,9 @@
 
 
-from ..constants import Types
+from ..constants import Item
 from ..routes import ENTRY_URL_ROUTE
 
-def make_model_compatible(raw_data : dict, type: Types):
+def make_model_compatible(raw_data : dict, item: Item):
 
 
     __compatibledict = {
@@ -13,8 +13,7 @@ def make_model_compatible(raw_data : dict, type: Types):
     __compatibledict['name'] = raw_data['name']
     __compatibledict['iconPath'] = raw_data['icon_url']
     __compatibledict['id'] = raw_data['entry_page_id']
-    print(type, int(type))
-    __compatibledict['type'] = int(type)
+    __compatibledict['type'] = int(item)
 
     exclude = {'name', 'icon_url', 'id'}
 
