@@ -6,7 +6,7 @@ class Item(str, Enum):
     
     '''
     HoYoLab Wiki Entries
-    Types | Codes
+    Item | Codes
 
     - PATHS : 102
     - CHARACTERS : 104

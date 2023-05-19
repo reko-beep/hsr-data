@@ -72,7 +72,7 @@ iterate over all languages to get data in all languages
 for type in Item: 
     '''
 
-    Iterate over all types to get all data
+    Iterate over all Item to get all data
     '''
     entries = client.get_all_items(None, language) # this gets all items that exist in search database of starrailstation.com
     
