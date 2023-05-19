@@ -1,7 +1,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/reko-beep/hsr-data">
-    <img src="https://raw.githubusercontent.com/reko-beep/hsr-data/dev/logo.png?raw=true" alt="Logo" width="140" height="140">
+    <img src="https://raw.githubusercontent.com/reko-beep/hsr-data/dev/logo.png?raw=true" alt="Logo">
   </a>
 <!-- 
    <h3 align="center">hsr-data</h3> -->
