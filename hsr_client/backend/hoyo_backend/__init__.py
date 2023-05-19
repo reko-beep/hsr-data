@@ -3,7 +3,7 @@ from typing import List, Union
 from requests_cache import CachedSession
 from hsr_client.datamodels.character import Character
 from hsr_client.datamodels.searchItem import SearchItem
-from hsr_client.errors import InvalidItemType, InvalidLanguage
+from hsr_client.errors import  InvalidLanguage
 from ..util import Backend
 import hsr_client.datamodels as models
 from .constants import Types
