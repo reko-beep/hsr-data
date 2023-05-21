@@ -14,7 +14,7 @@ Count = int
 Superimposition = int
 
 
-class AscensionMaterial(BaseModel):
+class MaterialCount(BaseModel):
 
     material: Material
     count: int
@@ -61,7 +61,7 @@ class Lightcone(BaseModel):
 
     # TODO: type too long? should we break it down?
     # ascension materials required to level up beyond given `Level` (int)
-    ascension_mats: Dict[Level, List[AscensionMaterial]]
+    ascension_mats: Dict[Level, List[MaterialCount]]
 
 
     def stats(self, level: Level, ascended=False):
@@ -103,11 +103,11 @@ if __name__ == "__main__":
         },
         ascension_mats={
         20: [
-            AscensionMaterial(material=Material(name="foo1", description="bar1"), count=1),
-            AscensionMaterial(material=Material(name="foo2", description="bar2"), count=2),
+            MaterialCount(material=Material(name="foo1", description="bar1"), count=1),
+            MaterialCount(material=Material(name="foo2", description="bar2"), count=2),
         ],
         30: [
-            AscensionMaterial(material=Material(name="foo3", description="bar3"), count=3),
+            MaterialCount(material=Material(name="foo3", description="bar3"), count=3),
         ]
     })
 

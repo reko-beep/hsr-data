@@ -1,4 +1,4 @@
-from hsr_client.datamodels.lightcone import AscensionMaterial, Lightcone
+from hsr_client.datamodels.lightcone import MaterialCount, Lightcone
 from hsr_client.datamodels.material import Material
 from hsr_client.paths import Path
 from bs4 import BeautifulSoup
@@ -58,15 +58,15 @@ def parse_lightcone(data) -> Lightcone:
         ability=lc_ability,
         ascension_mats={
             20: [
-                AscensionMaterial(
+                MaterialCount(
                     material=Material(name="foo1", description="bar1"), count=1
                 ),
-                AscensionMaterial(
+                MaterialCount(
                     material=Material(name="foo2", description="bar2"), count=2
                 ),
             ],
             30: [
-                AscensionMaterial(
+                MaterialCount(
                     material=Material(name="foo3", description="bar3"), count=3
                 ),
             ],
