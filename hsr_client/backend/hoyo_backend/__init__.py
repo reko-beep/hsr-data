@@ -82,6 +82,9 @@ class HoyoBackend(Backend):
         response = self.__get_response('GET', ENTRY_PAGE, entry_page_id=entry_page_id)
 
         if response is not None:            
-            return response
+            return response # type: ignore
 
     
+    def get_trace_description(self) -> str:
+        """if you'd like to get the trace's description later."""
+        pass

@@ -2,6 +2,7 @@ from typing import List
 from hsr_client.constants import Language, Item
 from hsr_client.backend import BackendAdapter
 from hsr_client import datamodels as models
+from hsr_client.datamodels.chara import Character
 from hsr_client.datamodels.lightcone import Lightcone
 from hsr_client.datamodels.searchItem import SearchItem
 
@@ -39,6 +40,19 @@ class HsrClient:
         else:
             raise Exception("either name or searchItem is necessary")
 
+
+    def get_character(self, name=None, searchItem=None) -> Character:
+        """
+        Get Character by name or `SearchItem`
+        """
+        if name is not None:
+            return self.adapter().get_character_by_name(name)
+        elif searchItem is not None:
+            return self.adapter().character_lightcone(searchItem)
+        else:
+            raise Exception("either name or searchItem is necessary")
+
+
     def search_item(
         self,
         item_type: Item,
@@ -49,6 +63,6 @@ class HsrClient:
 
 if __name__ == "__main__":
     client = HsrClient()
-    # print(client.get_character("march 7th"))
-    print(client.get_lightcone(name="Arrows"))
-    print(client.search_item(Item.CHARACTERS))
+    # print(client.get_lightcone(name="Arrows"))
+    # print(client.search_item(Item.CHARACTERS))
+    print(client.get_character(name="March 7th"))

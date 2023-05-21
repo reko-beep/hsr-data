@@ -4,7 +4,8 @@ from requests_cache import CachedSession
 from hsr_client.backend.srs_backend.parsers.lightcone import parse_lightcone
 
 from hsr_client.constants import Language, Item
-from hsr_client.datamodels.character import Character
+from hsr_client.datamodels import chara
+from hsr_client.datamodels.chara import Character
 from hsr_client.datamodels.lightcone import Lightcone
 from hsr_client.datamodels.searchItem import SearchItem
 from hsr_client.errors import InvalidLanguage, InvalidSearchItem
@@ -12,7 +13,8 @@ from hsr_client import routes
 from hsr_client.utils import base36encode, generate_t, check
 from hsr_client.backend.util import Backend
 import hsr_client.datamodels as models
-from .parsers import trace as trace_parser
+from .parsers.trace  import parse_traces
+from .parsers.character import parse_character
 
 
 route_mapping = {
@@ -177,7 +179,7 @@ class SRSBackend(Backend):
         if isinstance(search_item, SearchItem):
             if search_item.type != Item.LIGHTCONE:
                 raise InvalidSearchItem(
-                    "Expected Type.LIGHTCONES, found: " + search_item.type
+                    "Expected Type.LIGHTCONES, found: " + str(search_item.type)
                 )
 
             response = self.__fetch(language, routes.LIGHTCONES, True, search_item.id)
@@ -207,16 +209,20 @@ class SRSBackend(Backend):
             if item is not None:
                 return self.resolve_lightcone(item)
 
-    def get_character(self, target_name) -> models.chara.Character:
-        import json
 
-        # get this from ROUTE
+    def get_character_by_name(
+        self, name: str, language: Language = Language.EN
+    ) -> Character:
+        """Gets lightcone by name
+
+        Args:
+            name (str): name of the lightcone
+            language (Language, optional): Defaults to Language.EN.
+
+        Returns:
+            Character:
+        """
         with open("tests/data/character.json") as f:
             character_raw = json.load(f)
-
-        chara_name = character_raw["name"]
-        traces_raw = character_raw["skillTreePoints"]
-        traces = []
-        trace_parser.parse_trace_data(traces_raw, traces)
-
-        return models.chara.Character(name=chara_name, traces=traces)
+        character = parse_character(character_raw)
+        return character
