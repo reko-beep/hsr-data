@@ -25,20 +25,28 @@ class MaterialCount(BaseModel):
 
 class Lightcone(BaseModel):
     """
-    Lightcone
-    
-   Attributes:
-        name: name of the lightcone
-        description: description of the lightcone
-        path: Path association of the Lightcone
-        ability: lightcone ability description for given superimposition (int)
-        ascension_mats: ascension materials required to level up beyond given `Level` (int)
+    Model to represent a Lightcone
+
+
+
+    Attributes:
+
+        - name: name of the lightcone
+        - description: description of the lightcone
+        - path: Path association of the Lightcone
+        - ability: lightcone ability description for given superimposition (int)
+        - ascension_mats: ascension materials required to level up beyond given `Level` (int)
+
     """
+
     name: str
-    # ligthcone rarity
+    "name of the lightcone"
     rarity: int
+    """rarity of the lightcone"""
     description: str
+    """short description of the lightcone"""
     path: Path
+    """Path association of the lightcone"""
 
 
 
@@ -65,7 +73,10 @@ class Lightcone(BaseModel):
 
 
     def stats(self, level: Level, ascended=False):
-
+        """
+        Get Ligthcone's Stats for the given level. when ascended=True is used
+        on levels that can cap, gives `Stats` for ascended levels instead.
+        """
         if level < 1 or level > 80:
             raise ValueError(" 1 <= level <= 80 criteria not satisfied.")
         
