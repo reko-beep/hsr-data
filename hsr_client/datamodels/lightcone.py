@@ -75,7 +75,8 @@ class Lightcone(BaseModel):
     def stats(self, level: Level, ascended=False):
         """
         Get Ligthcone's Stats for the given level. when ascended=True is used
-        on levels that can cap, gives `Stats` for ascended levels instead.
+        on levels where ascension is possible, gives `Stats` for ascended levels
+        instead.
         """
         if level < 1 or level > 80:
             raise ValueError(" 1 <= level <= 80 criteria not satisfied.")
