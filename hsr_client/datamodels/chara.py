@@ -17,6 +17,7 @@ class Stats(BaseModel):
     CRIT: float
     CDMG: float
     SPD: float
+    TAUNT: float
 
 
 # TODO: decide all the parameters
@@ -43,6 +44,24 @@ class Character(BaseModel):
 
 
     def stats(self, level, ascended=False) -> Stats:
-        # TODO: implemented this
-        pass
-
+        """
+        Get Character's Stats for the given level. when `ascended=True` is used
+        on levels that can cap, gives `Stats` for ascended levels instead.
+        """
+        if level < 1 or level > 80: # TODO: or is this 90?
+            raise ValueError(" 1 <= level <= 80 criteria not satisfied.")
+        
+        for ascension_entry in self._stats:
+            if level <= ascension_entry["maxLevel"]:
+                if ascension_entry["maxLevel"] == level and ascended == True:
+                    continue
+                
+                return Stats(
+                    ATK=ascension_entry["attackBase"] + ascension_entry["attackAdd"] * (level - 1),
+                    HP=ascension_entry["hpBase"] + ascension_entry["hpAdd"] * (level - 1),
+                    DEF=ascension_entry["defenseBase"] + ascension_entry["defenseAdd"] * (level - 1),
+                    SPD=ascension_entry["speedBase"] + ascension_entry["speedAdd"] * (level - 1),
+                    CRIT=ascension_entry["crate"] * 100,
+                    CDMG=ascension_entry["cdmg"] * 100,
+                    TAUNT=ascension_entry["aggro"],
+                )

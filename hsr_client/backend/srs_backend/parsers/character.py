@@ -83,6 +83,6 @@ def parse_character(raw_data) -> Character:
     )
 
     # _stats (has to be done after object creation)
-    # setattr(lightcone, "_stats", raw_data["levelData"])
+    setattr(character, "_stats", raw_data["levelData"])
 
     return character

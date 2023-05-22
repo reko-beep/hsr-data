@@ -65,4 +65,6 @@ if __name__ == "__main__":
     client = HsrClient()
     # print(client.get_lightcone(name="Arrows"))
     # print(client.search_item(Item.CHARACTERS))
-    print(client.get_character(name="March 7th"))
+    chara = client.get_character(name="March 7th")
+    print(chara)
+    print(chara.stats(level=13))
