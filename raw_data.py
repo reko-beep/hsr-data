@@ -17,7 +17,7 @@ save_path = f"{getcwd()}/raw_data"
 client = SRSClient()
 
 routes = {
-    Item.CHARACTERS : CHARACTERS,
+    Item.CHARACTER : CHARACTERS,
     Item.PLAYERCARD : PLAYERCARDS,
     Item.FOOD : CONSUMABLES,
     Item.RELIC : RELICS,
@@ -28,7 +28,7 @@ routes = {
 }
 
 folders = {
-    Item.CHARACTERS : 'characters/',
+    Item.CHARACTER : 'characters/',
     Item.PLAYERCARD : 'playercards/',
     Item.FOOD : 'foods/',
     Item.RELIC : 'relics/',
@@ -74,30 +74,30 @@ for type in Item:
 
     Iterate over all Item to get all data
     '''
-    entries = client.get_all_items(None, language) # this gets all items that exist in search database of starrailstation.com
+    entries = client.get_all_items(type, language) # this gets all items that exist in search database of starrailstation.com
     
     for entry in entries:
-        create_path(f'{language}/{folders[entry.type]}')
-        if not exists(f'{save_path}/{language}/{folders[entry.type]}/{entry.id}.json'):
+        create_path(f'{language}/{folders[type]}')
+        if not exists(f'{save_path}/{language}/{folders[type]}/{entry.id}.json'):
 
             '''
             fetches data
             '''
-            data = client.fetch(language, routes[entry.type], True, entry.id)              
+            data = client.fetch(language, routes[type], True, str(entry.id))              
             print(f'[downloading] [Language: {language}]', Item(entry.type).name, entry.name)
-            with open(f'{save_path}/{language}/{folders[entry.type]}/{entry.id}.json', 'w') as f:
+            with open(f'{save_path}/{language}/{folders[type]}/{entry.id}.json', 'w') as f:
                 dump(data, f, indent=1)
 
 
 print(f'[downloading] [Language: {language}]', 'ACHIEVEMENTS')   
-data = client.fetch(language, ACHIEVEMENTS, None)
+data = client.fetch(language, ACHIEVEMENTS, False)
 with open(f'{save_path}/{language}/achievements.json', 'w') as f:
     dump(data, f, indent=1)
 
 
 print(f'[downloading] [Language: {language}]', 'SIMULATED UNIVERSE', 'Date', ROUGE_DATE)     
 
-data = client.fetch(language, ROUGES, None)
+data = client.fetch(language, ROUGES, False)
 with open(f'{save_path}/{language}/simulatedUniverse.json', 'w') as f:
     dump(data, f, indent=1)
 
