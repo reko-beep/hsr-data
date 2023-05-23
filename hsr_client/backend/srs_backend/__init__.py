@@ -1,5 +1,5 @@
 import json
-from typing import List, Union
+from typing import List, Union, Optional, Literal
 from requests_cache import CachedSession
 from hsr_client.backend.srs_backend.parsers.lightcone import parse_lightcone
 
@@ -8,7 +8,7 @@ from hsr_client.datamodels import chara
 from hsr_client.datamodels.chara import Character
 from hsr_client.datamodels.lightcone import Lightcone
 from hsr_client.datamodels.searchItem import SearchItem
-from hsr_client.errors import InvalidLanguage, InvalidSearchItem
+from hsr_client.errors import InvalidLanguage, InvalidSearchItem, EmptyResponse
 from hsr_client import routes
 from hsr_client.utils import base36encode, generate_t, check
 from hsr_client.backend.util import Backend
@@ -38,7 +38,7 @@ class SRSBackend(Backend):
         language: Language,
         route: routes.Routes,
         goto: bool = False,
-        item_id: str = "",
+        item_id: Union[int, str] = "",
     ):
         """
 
@@ -75,7 +75,7 @@ class SRSBackend(Backend):
         language: Language,
         route: routes.Routes,
         goto: bool = False,
-        item_id: str = "",
+        item_id: Union[int, str] = "",
     ) -> List[dict] | dict | None:
         """
 
@@ -113,8 +113,9 @@ class SRSBackend(Backend):
                 return data
 
     def search_item(
-        self, item_type: Item = None, language: Language = Language.EN
-    ) -> list[SearchItem]:
+        self, item_type: Optional[Item] = None, 
+        language: Language = Language.EN
+        ) -> list[SearchItem]:
         """
 
         :fetches all items from api route
@@ -150,6 +151,8 @@ class SRSBackend(Backend):
                 return list(filter(lambda x: x.type == item_type, all_items))
 
             return all_items
+        else:
+            raise EmptyResponse
 
     # TODO: fix this: what if searchitem was result of a search with different language
     # thatn the language passed to this function. maybe language can be a part of
@@ -160,8 +163,9 @@ class SRSBackend(Backend):
     # or maybe even models?
 
     def resolve_lightcone(
-        self, search_item: SearchItem, language: Language = Language.EN
-    ) -> Lightcone:
+        self, search_item: SearchItem, 
+        language: Language = Language.EN
+        ) -> Lightcone:
         """get details of a light cone
 
         Args:
@@ -184,13 +188,16 @@ class SRSBackend(Backend):
             response = self.__fetch(language, routes.LIGHTCONES, True, search_item.id)
             if response is not None:
                 return parse_lightcone(response)
+            else:
+                raise EmptyResponse
 
         else:
             raise TypeError("provided argument is not a `SearchItem`")
 
     def get_lightcone_by_name(
-        self, name: str, language: Language = Language.EN
-    ) -> Lightcone:
+        self, name: str,
+        language: Language = Language.EN
+        ) -> Lightcone:
         """Gets lightcone by name
 
         Args:
@@ -207,11 +214,19 @@ class SRSBackend(Backend):
             item = check(lightcone, "name", name)
             if item is not None:
                 return self.resolve_lightcone(item)
+   
+        '''
+        Function with declared type of "Lightcone" must return value on all code paths
+        Type "None" cannot be assigned to type "Lightcone"
+        '''
+        #TODO: fix this typing issue 
+        raise EmptyResponse
 
 
     def get_character_by_name(
-        self, name: str, language: Language = Language.EN
-    ) -> Character:
+        self, name: str, 
+        language: Language = Language.EN
+        ) -> Character:
         """Gets lightcone by name
 
         Args:
@@ -229,3 +244,5 @@ class SRSBackend(Backend):
 
 
         return character
+     
+        

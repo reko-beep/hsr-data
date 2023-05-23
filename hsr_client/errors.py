@@ -19,3 +19,6 @@ class InvalidFilter(Exception):
 
     def __str__(self) -> str:
         return f"Provided parameter doesnot exist in search item, available paramaters for filter [{' ,'.join(self.filters)}]"
+    
+class EmptyResponse(Exception):
+    """Raised when returned data is empty, 404 response is got"""

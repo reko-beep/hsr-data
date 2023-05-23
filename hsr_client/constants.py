@@ -1,10 +1,10 @@
-from enum import Enum
+from enum import Enum, IntEnum
 
 
 O_VALUE = "6b14cd54ea92edd2dbfc20fa8b0d5797"  # idk site changes this a lot
 
 
-class Item(int, Enum):
+class Item(IntEnum):
     """
     Search Item types
 
