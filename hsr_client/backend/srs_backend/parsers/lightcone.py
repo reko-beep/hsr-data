@@ -41,15 +41,23 @@ def parse_lightcone(data) -> Lightcone:
     ).get_text()
     simp_template_params = map(lambda si: si["params"], data["skill"]["levelData"])
 
-    for simp_no, template_params in enumerate(simp_template_params, start=1):
+    for simp_no, template_params_per_simp in enumerate(simp_template_params, start=1):
         ability_desc = ability_desc_template
-        for slot_no, template_param in enumerate(template_params, start=1):
+        for slot_no, template_param in enumerate(template_params_per_simp, start=1):
             replace_text = f"#{slot_no}[i]"
             # print("replacing: " + replace_text + " with " + str(template_param) + " in " + ability_desc)
             ability_desc = ability_desc.replace(replace_text, str(template_param))
 
         lc_ability[simp_no] = ability_desc
 
+
+
+    # ascension mats
+
+    
+
+
+    # prepare actual lightcone.
     lightcone = Lightcone(
         name=lc_name,
         rarity=lc_rarity,

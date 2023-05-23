@@ -1,7 +1,7 @@
 from typing import Dict, List, NewType, Tuple, Iterable
 from pydantic import BaseModel, PrivateAttr
 from hsr_client.datamodels.material import Material
-from hsr_client.stats import Stats
+from hsr_client.hsr_types import  Superimposition, Level
 from hsr_client.paths import Path
 
 class Stats(BaseModel):
@@ -9,9 +9,7 @@ class Stats(BaseModel):
     HP: int
     DEF: int
 
-Level = int
-Count = int
-Superimposition = int
+
 
 
 class MaterialCount(BaseModel):

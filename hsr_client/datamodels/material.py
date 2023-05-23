@@ -1,4 +1,4 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, PrivateAttr
 from typing import Optional, Dict, List
 
 
@@ -43,3 +43,4 @@ class Material(BaseModel):
     """Where to obtain the Material"""
         
    
+    _meta: PrivateAttr()

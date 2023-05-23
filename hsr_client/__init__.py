@@ -67,4 +67,13 @@ if __name__ == "__main__":
     # print(client.search_item(Item.CHARACTERS))
     chara = client.get_character(name="March 7th")
     print(chara)
-    print(chara.stats(level=13))
+    print("--" * 50)
+    print(chara.stats(level=72))
+    
+    print("--" * 50)
+    print(chara.ascension_mats())
+
+    
+    print("--" * 50)
+
+    print(chara.skills()[0].scaling[1].description)

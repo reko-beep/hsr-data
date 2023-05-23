@@ -13,8 +13,7 @@ from hsr_client import routes
 from hsr_client.utils import base36encode, generate_t, check
 from hsr_client.backend.util import Backend
 import hsr_client.datamodels as models
-from .parsers.trace  import parse_traces
-from .parsers.character import parse_character
+
 
 
 route_mapping = {
@@ -224,5 +223,9 @@ class SRSBackend(Backend):
         """
         with open("tests/data/character.json") as f:
             character_raw = json.load(f)
-        character = parse_character(character_raw)
+
+        from .parsers.character import parse_character
+        character = parse_character(character_raw, self)
+
+
         return character

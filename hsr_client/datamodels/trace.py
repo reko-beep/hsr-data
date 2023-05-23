@@ -1,11 +1,12 @@
 
-from typing import Optional, Union, List, NewType, Tuple
+from typing import Dict, Optional, Union, List, NewType, Tuple
 from pydantic import BaseModel, validator, Field, Extra, ValidationError
 
 from enum import Enum
 
 from hsr_client.datamodels.lightcone import MaterialCount
 from hsr_client.datamodels.material import Material
+from hsr_client.hsr_types import Level
 
 
 
@@ -44,8 +45,7 @@ class StatBonus(BonusAbility):
     pass
 
 class LevelScaling(BaseModel):
-    level: int
-    upgrade_mats: List[Tuple[Material, int]]
+    upgrade_mats: List[MaterialCount]
     description: str
     
 
@@ -55,7 +55,7 @@ class Skill(BaseModel):
     # name of the trace.
     name : str
     # how the trace scales with level
-    level_scaling: LevelScaling
+    scaling: Dict[Level, LevelScaling]
 
 Trace = Union[Skill, StatBonus, BonusAbility]
    
