@@ -22,3 +22,9 @@ class InvalidFilter(Exception):
     
 class EmptyResponse(Exception):
     """Raised when returned data is empty, 404 response is got"""
+
+class BackendError(Exception):
+    """
+    Raised when a problem is detected with backend, mostly happens when
+    backend changes , please report such errors
+    """
