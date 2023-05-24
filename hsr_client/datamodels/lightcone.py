@@ -1,6 +1,6 @@
 from typing import Dict, List, NewType, Tuple, Iterable
 from pydantic import BaseModel, PrivateAttr
-from hsr_client.datamodels.material import Material
+from hsr_client.datamodels.material import Material, MaterialCount
 from hsr_client.hsr_types import  Superimposition, Level
 from hsr_client.paths import Path
 
@@ -10,12 +10,6 @@ class Stats(BaseModel):
     DEF: int
 
 
-
-
-class MaterialCount(BaseModel):
-
-    material: Material
-    count: int
 
 
 
@@ -113,11 +107,11 @@ if __name__ == "__main__":
         },
         ascension_mats={
         20: [
-            MaterialCount(material=Material(name="foo1", description="bar1"), count=1),
-            MaterialCount(material=Material(name="foo2", description="bar2"), count=2),
+            MaterialCount(material=Material(name="foo1", description="bar1", rarity=4, source=["somewhere"], lore="nice lore"), count=1),
+            MaterialCount(material=Material(name="foo2", description="bar2", rarity=4, source=["somewhere"], lore="nice lore"), count=2),
         ],
         30: [
-            MaterialCount(material=Material(name="foo3", description="bar3"), count=3),
+            MaterialCount(material=Material(name="foo3", description="bar3", rarity=4, source=["somewhere"], lore="nice lore"), count=3),
         ]
     })
 
