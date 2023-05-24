@@ -3,6 +3,12 @@ from typing import Optional, Dict, List
 
 
 
+
+
+
+
+
+
 #     MODIFICATION NOTES: obtain will be replaced by source. which can be a type of its own.
 #            iconPath is starrail specific. need something more general that fits with hoyolab aswell
 #            id has no place as a visible attribute, maybe it can be an internal attribute for reference purpose
@@ -43,4 +49,11 @@ class Material(BaseModel):
     """Where to obtain the Material"""
         
    
-    _meta: PrivateAttr()
+    _meta = PrivateAttr()
+
+
+
+
+class MaterialCount(BaseModel):
+    material: Material
+    count: int
