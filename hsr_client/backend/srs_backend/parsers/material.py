@@ -22,6 +22,6 @@ def parse_material(mat_id, be: SRSBackend) -> Material:
         description="mat description",
         lore = "some lore",
         source=["somewhere"]
-    )
+    ) # type: ignore
 
     return material

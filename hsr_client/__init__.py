@@ -63,8 +63,10 @@ class HsrClient:
 
 if __name__ == "__main__":
     client = HsrClient()
-    # print(client.get_lightcone(name="Arrows"))
-    # print(client.search_item(Item.CHARACTERS))
+    print(client.get_lightcone(name="Arrows"))
+    print("--" * 50)
+    print(client.search_item(Item.CHARACTER))
+    print("--" * 50)
     chara = client.get_character(name="March 7th")
     print(chara)
     print("--" * 50)
