@@ -1,7 +1,4 @@
 
-from hsr_client.backend.srs_backend import SRSBackend
-from hsr_client.datamodels.chara import Character
-from hsr_client.datamodels.eidolon import Eidolon
 from bs4 import BeautifulSoup
 from ....constants import MaterialTypes
 from hsr_client.datamodels.material import Material

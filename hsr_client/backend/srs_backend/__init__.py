@@ -1,7 +1,7 @@
 import json
 from typing import List, Union, Optional, Literal
 from requests_cache import CachedSession
-from hsr_client.backend.srs_backend.parsers.lightcone import parse_lightcone
+
 from hsr_client.backend.srs_backend.parsers.material import parse_material
 
 from hsr_client.constants import Language, Item
@@ -181,6 +181,7 @@ class SRSBackend(Backend):
         Returns:
             Lightcone: Lightcone object
         """
+        from hsr_client.backend.srs_backend.parsers.lightcone import parse_lightcone
 
         if isinstance(search_item, SearchItem):
             if search_item.type != Item.LIGHTCONE:
