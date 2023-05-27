@@ -48,7 +48,7 @@ class HsrClient:
         if name is not None:
             return self.adapter().get_character_by_name(name)
         elif searchItem is not None:
-            return self.adapter().character_lightcone(searchItem)
+            return self.adapter().resolve_character(searchItem)
         else:
             raise Exception("either name or searchItem is necessary")
 

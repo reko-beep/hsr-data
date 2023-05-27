@@ -194,6 +194,14 @@ class SRSBackend(Backend):
         else:
             raise TypeError("provided argument is not a `SearchItem`")
 
+
+    def resolve_character(
+        self, search_item: SearchItem, 
+        language: Language = Language.EN
+        ) -> Character:
+        # unimplemented
+        pass
+
     def get_lightcone_by_name(
         self, name: str,
         language: Language = Language.EN
