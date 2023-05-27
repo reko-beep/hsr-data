@@ -4,7 +4,7 @@ from hsr_client.backend.srs_backend import SRSBackend
 import hsr_client.datamodels as models
 from hsr_client.datamodels.material import MaterialCount
 
-import hsr_client.datamodels.trace
+from  hsr_client.datamodels import trace
 from hsr_client.errors import BackendError
 
 
