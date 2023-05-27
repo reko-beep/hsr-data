@@ -1,20 +1,26 @@
 from hsr_client.datamodels.lightcone import MaterialCount, Lightcone
 from hsr_client.datamodels.material import Material
+from hsr_client.datamodels.searchItem import SearchItem
+from hsr_client.constants import Item
+
 from hsr_client.paths import Path
+from hsr_client.constants import MaterialTypes
+from hsr_client.backend.srs_backend import SRSBackend
+
 from bs4 import BeautifulSoup
 
 
-def parse_lightcone(data) -> Lightcone:
+def parse_lightcone(raw_data, be: SRSBackend) -> Lightcone:
     # name
-    lc_name = data["name"]
+    lc_name = raw_data["name"]
     # rarity
-    lc_rarity = data["rarity"]
+    lc_rarity = raw_data["rarity"]
     # description
-    lc_description = BeautifulSoup(data["descHash"], features="lxml").get_text()
+    lc_description = BeautifulSoup(raw_data["descHash"], features="lxml").get_text()
 
     # path
     lc_path = None
-    raw_path = data["baseType"]["name"]
+    raw_path = raw_data["baseType"]["name"]
 
     if raw_path == "The Hunt":
         lc_path = Path.HUNT
@@ -37,9 +43,9 @@ def parse_lightcone(data) -> Lightcone:
     # ability
     lc_ability = {}
     ability_desc_template = BeautifulSoup(
-        data["skill"]["descHash"], features="lxml"
+        raw_data["skill"]["descHash"], features="lxml"
     ).get_text()
-    simp_template_params = map(lambda si: si["params"], data["skill"]["levelData"])
+    simp_template_params = map(lambda si: si["params"], raw_data["skill"]["levelData"])
 
     for simp_no, template_params_per_simp in enumerate(simp_template_params, start=1):
         ability_desc = ability_desc_template
@@ -53,8 +59,21 @@ def parse_lightcone(data) -> Lightcone:
 
 
     # ascension mats
+    ascension_mats = []
 
-    
+    for lvl in raw_data['levelData']:
+        __lvl = lvl['maxLevel']
+        __mtrls = list()
+        if 'cost' in lvl:
+            for mtrl in lvl['cost']:
+                '''
+                create an dummy SearchItem just for fetching with ID param and Type            
+                '''
+                
+                __mtrlobj = be.resolve_material(SearchItem(id=int(mtrl['id']), type=Item.MATERIAL, url='', iconPath='', rarity=0, name=''))
+                __mtrls.append(MaterialCount(material=__mtrlobj, count=mtrl['count']))
+        ascension_mats.append((__lvl, __mtrls))
+
 
 
     # prepare actual lightcone.
@@ -64,18 +83,10 @@ def parse_lightcone(data) -> Lightcone:
         description=lc_description,
         path=lc_path,
         ability=lc_ability,
-        ascension_mats={
-        20: [
-            MaterialCount(material=Material(name="foo1", description="bar1", rarity=4, source=["somewhere"], lore="nice lore"), count=1),
-            MaterialCount(material=Material(name="foo2", description="bar2", rarity=4, source=["somewhere"], lore="nice lore"), count=2),
-        ],
-        30: [
-            MaterialCount(material=Material(name="foo3", description="bar3", rarity=4, source=["somewhere"], lore="nice lore"), count=3),
-        ]
-    },
+        ascension_mats=dict(ascension_mats),
     )
 
     # _stats (has to be done after object creation)
-    setattr(lightcone, "_stats", data["levelData"])
+    setattr(lightcone, "_stats", raw_data["levelData"])
 
     return lightcone

@@ -1,6 +1,7 @@
+
 from pydantic import BaseModel, PrivateAttr
 from typing import Optional, Dict, List
-
+from ..constants import MaterialTypes
 
 
 
@@ -43,6 +44,7 @@ class Material(BaseModel):
     # TODO: determine icon stratergy
     # is it image, or url or what?
 
+    type : MaterialTypes
     # This will be a string for now. maybe own type later? 
     # i don't find any use for now.
     source: List[str]
@@ -51,7 +53,7 @@ class Material(BaseModel):
    
     _meta = PrivateAttr()
 
-
+    
 
 
 class MaterialCount(BaseModel):
