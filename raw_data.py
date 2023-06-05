@@ -36,7 +36,6 @@ folders = {
     Item.MATERIAL.name : 'materials/'
      }
 
-print(folders)
 def create_path(path :str):
     path_ = Path(f'{save_path}/{path}')
     if not exists(f'{save_path}/{path}'):
@@ -58,6 +57,8 @@ def convert(seconds: int | float):
 START_TIME = datetime.now()
 
 language = Language.EN
+
+
 '''
 iterate over all languages to get data in all languages
 '''
