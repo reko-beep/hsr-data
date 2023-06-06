@@ -283,7 +283,7 @@ class SRSBackend(Backend):
 
             response = self.__fetch(language, routes.MATERIALS, True, search_item.id)
             if response is not None:
-                return parse_material(response)
+                return parse_material(response, self)
             else:
                 raise EmptyResponse
 

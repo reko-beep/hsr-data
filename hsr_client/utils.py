@@ -4,21 +4,11 @@ from __future__ import annotations
 from hsr_client.errors import InvalidFilter
 
 from typing import Any, Union
-from dataclasses import dataclass
-from pydantic import BaseModel
-
-from PIL import Image, ImageChops, ImageOps, ImageDraw, ImageFont, ImageFilter
-
-from datetime import datetime
 import inspect
-import requests
-from io import BytesIO
-from colorthief import ColorThief
-
-from datetime import date, timedelta
+from datetime import date, timedelta, datetime
 import calendar
 
-import random
+
 
 def generate_t(input):
     t = 0
@@ -45,7 +35,7 @@ def base36encode(number):
 
     return base36.lower() or alphabet[0].lower()
 
-def check(model : BaseModel, attribute : str, value : Union[str, bool, int]) -> BaseModel:
+def check(model, attribute : str, value : Union[str, bool, int]):
     """checks in a model for attribute and returns it if attributes matches the value given
     to be used for 
 
@@ -60,7 +50,9 @@ def check(model : BaseModel, attribute : str, value : Union[str, bool, int]) -> 
     Returns:
         SearchItem: 
     """    
-
+    
+    from hsr_client.datamodels.searchItem import SearchItem
+    model : SearchItem
     if hasattr(model, attribute):
 
 

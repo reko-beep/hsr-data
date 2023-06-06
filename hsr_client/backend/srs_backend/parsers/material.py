@@ -3,17 +3,18 @@ from bs4 import BeautifulSoup
 from ....constants import MaterialTypes
 from hsr_client.datamodels.material import Material
 
+from hsr_client.backend.srs_backend import SRSBackend
 
-def parse_material(raw_data) -> Material:
+def parse_material(raw_data, be: SRSBackend) -> Material:
 
 
-
+    print(raw_data)
 
 
     mtrl_name = raw_data['embeddedItem']['name']
     mtrl_desc = BeautifulSoup(raw_data['embeddedItem']['desc'], features='lxml').get_text()
     mtrl_lore = BeautifulSoup(raw_data['embeddedItem']['lore'], features='lxml').get_text()
-    mrtl_source= raw_data['source']
+    mrtl_source= raw_data['embeddedItem']['comeFrom']
     mtrl_type = MaterialTypes(raw_data['embeddedItem']['purposeId'])
 
     mtrl_rarity = raw_data['embeddedItem']['rarity']
