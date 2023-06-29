@@ -3,9 +3,9 @@ from bs4 import BeautifulSoup
 from ....constants import MaterialTypes
 from hsr_client.datamodels.material import Material
 
-from hsr_client.backend.srs_backend import SRSBackend
 
-def parse_material(raw_data, be: SRSBackend) -> Material:
+
+def parse_material(raw_data, be) -> Material:
 
 
     print(raw_data)
