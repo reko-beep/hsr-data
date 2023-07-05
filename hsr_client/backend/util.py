@@ -19,14 +19,3 @@ class Backend():
             }
    
         )
-
-    def fetch_traces(self) -> List[models.trace.Trace]:
-        # some default implementations
-        ...
-
-    def fetch_image(self) -> str:
-        # some default implementation.
-        ...
-
-    def get_character(self, target_name) -> models.chara.Character:
-        pass

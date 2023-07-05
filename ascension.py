@@ -1,7 +1,7 @@
 from os import listdir, getcwd
 from os.path import isdir, isfile, exists
 from json import load, dump
-from utils import ImageManipulation as img
+from hsr_client.utils import ImageManipulation as img
 from PIL import Image
 
 BASE_CHAR = getcwd()+"/characters/"

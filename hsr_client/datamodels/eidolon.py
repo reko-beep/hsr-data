@@ -6,8 +6,9 @@ class Eidolon(BaseModel):
     """Character's Eidolon"""
     # eidolon name
     name : str
-    # eidolon number.
-    number: int
-    # eidolon description.
+    """Eidolon's Name"""
+    resonance: int
+    """Eidolon Number/Resonance/Rank"""
     description: Optional[str]
+    """Eidolon short description."""
     # TODO: add eidolon icon property.

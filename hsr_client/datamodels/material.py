@@ -1,5 +1,11 @@
-from pydantic import BaseModel
-from typing import Optional, Dict
+from pydantic import BaseModel, PrivateAttr
+from typing import Optional, Dict, List
+
+
+
+
+
+
 
 
 
@@ -25,30 +31,29 @@ class Material(BaseModel):
 
  
     name : str
-    type: int
+    # type: int
 
 
-    # material rarity
     rarity : int
-
-    #material description
+    """Rarity of the Material"""
     description : str
-
-    # material lore
+    """Description of the Material"""
     lore : Optional[str]
-      
+    """Lore/Notes/Comments on the Material"""      
     # TODO: determine icon stratergy
     # is it image, or url or what?
 
-
+    # This will be a string for now. maybe own type later? 
+    # i don't find any use for now.
+    source: List[str]
+    """Where to obtain the Material"""
         
-#     obtain : Optional[list[str]]
-#     '''
-#     usage should contain both equipment and  characters
-#     either it can be both or one or empty
-#     '''
-
-#     usage: Optional[Dict[str , list]]
-
-
    
+    _meta = PrivateAttr()
+
+
+
+
+class MaterialCount(BaseModel):
+    material: Material
+    count: int

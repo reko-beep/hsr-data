@@ -1,7 +1,7 @@
 from pydantic import BaseModel, validator, Field, Extra
 from typing import Optional
 from hsr_client.routes import IMAGE_ROUTE, AUDIO_ROUTE
-from hsr_client.constants import Types, RelicTypes
+from hsr_client.constants import Item, _RelicTypes
 from hsr_client.datamodels.searchItem import SearchItem
 
 class DamageType(BaseModel):
@@ -253,14 +253,14 @@ class SkillTreePoints(BaseModel):
         return ''
     
 class RelicProps(BaseModel):
-    type : RelicTypes = Field(alias='relicTypeHash')
+    type : _RelicTypes = Field(alias='relicTypeHash')
     type_icon : str = Field(alias='relicTypeIcon')
     prop : str = Field(alias='propertyName')    
     prop_icon : str = Field(alias='propertyIconPath')
 
     @validator('type', pre=True)
     def get_relic_type(cls, v):
-        return RelicTypes(v)
+        return _RelicTypes(v)
     
     @validator('type_icon', pre=True)
     def get_relic_type_icon(cls, v):

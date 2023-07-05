@@ -1,11 +1,14 @@
 
-from typing import Optional, Union, List, NewType, Tuple
+from typing import Dict, Optional, Union, List, NewType, Tuple
 from pydantic import BaseModel, validator, Field, Extra, ValidationError
 
 from enum import Enum
 
-class Material(BaseModel):
-    pass
+from hsr_client.datamodels.lightcone import MaterialCount
+from hsr_client.datamodels.material import Material
+from hsr_client.hsr_types import Level
+
+
 
 class UnlockPrerequisite(BaseModel):
     """criteria to satisfy before this trace can be unlocked."""
@@ -23,10 +26,11 @@ class BonusAbility(BaseModel):
     name : str
     # description of the trace.
     description: Optional[str]
-    # trace level.
-    level: int = 1
+
+
+
     # list of materials required to activate the trace.
-    activation_mats: List[Tuple[Material, int]]
+    activation_mats: List[MaterialCount]
     # criteria to satisfy before this trace can be unlocked.
     unlock_prerequisite: Optional[UnlockPrerequisite]
 
@@ -36,12 +40,12 @@ class BonusAbility(BaseModel):
     #     if level is not 1:
     #         raise ValidationError("Bonus Ability's level can only be equal to 1")
 
-StatBonus = NewType('StatBonus', BonusAbility)
-
+# StatBonus = NewType('StatBonus', BonusAbility)
+class StatBonus(BonusAbility):
+    pass
 
 class LevelScaling(BaseModel):
-    level: int
-    upgrade_mats: List[Tuple[Material, int]]
+    upgrade_mats: List[MaterialCount]
     description: str
     
 
@@ -51,7 +55,7 @@ class Skill(BaseModel):
     # name of the trace.
     name : str
     # how the trace scales with level
-    level_scaling: LevelScaling
+    scaling: Dict[Level, LevelScaling]
 
 Trace = Union[Skill, StatBonus, BonusAbility]
    

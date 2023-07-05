@@ -1,58 +1,59 @@
+from enum import Enum, IntEnum
 
-from enum import Enum
+
+O_VALUE = "6b14cd54ea92edd2dbfc20fa8b0d5797"  # idk site changes this a lot
 
 
-O_VALUE = '6b14cd54ea92edd2dbfc20fa8b0d5797' # idk site changes this a lot
-
-class Types(int, Enum):
-    '''
+class Item(IntEnum):
+    """
     Search Item types
-    
-    '''
 
-    CHARACTERS = 0
-    LIGHTCONES = 1
-    RELICS = 2
-    BOOKS = 3
-    MATERIALS = 4    
-    PLAYERCARDS = 5
-    FOODS = 6
+    """
+
+    CHARACTER = 0
+    LIGHTCONE = 1
+    RELIC = 2
+    BOOK = 3
+    MATERIAL = 4
+    PLAYERCARD = 5
+    FOOD = 6
 
     def __str__(self) -> int:
         return self.value
 
 
-class Languages(str, Enum):
-    '''
-    
-    Allowed languages
-    '''
+class Language(str, Enum):
+    """
 
-    EN = 'en'
-    CN = 'cn'
-    DE = 'de'
-    ES = 'es'
-    FR = 'fr'
-    ID = 'id'
-    JP = 'jp'
-    KR = 'kr'
-    PT = 'pt'
-    RU = 'ru'
-    TH = 'th'
+    Allowed languages
+    """
+
+    EN = "en"
+    CN = "cn"
+    DE = "de"
+    ES = "es"
+    FR = "fr"
+    ID = "id"
+    JP = "jp"
+    KR = "kr"
+    PT = "pt"
+    RU = "ru"
+    TH = "th"
 
     def __str__(self) -> str:
         return str(self.value)
 
-class RelicTypes(str, Enum):
-    '''
-    Relic Types
-    '''
 
-    BODY = 'Body'
-    FEET = 'Feet'
-    PLANAR_SPHERE = 'Planar Sphere'
-    LINK_ROPE = 'Link Rope'
-    HANDS = 'Hands'
+class _RelicTypes(str, Enum):
+    """
+    Relic Types
+    """
+
+    BODY = "Body"
+    FEET = "Feet"
+    PLANAR_SPHERE = "Planar Sphere"
+    LINK_ROPE = "Link Rope"
+    HANDS = "Hands"
 
     def __str__(self) -> str:
         return str(self.value)

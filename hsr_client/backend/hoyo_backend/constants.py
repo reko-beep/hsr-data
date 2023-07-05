@@ -1,12 +1,12 @@
-from enum import Enum
+from enum import Enum, IntEnum
 
 
 
-class Types(str, Enum):
+class Item(IntEnum):
     
     '''
     HoYoLab Wiki Entries
-    Types | Codes
+    Item | Codes
 
     - PATHS : 102
     - CHARACTERS : 104
@@ -18,14 +18,14 @@ class Types(str, Enum):
     - ENEMIES : 112
     '''
     
-    PATHS = '102'
-    CHARACTERS = '104'
-    NPCS = '105'
-    LIGHTCONES = '107'
-    RELICS = '108'
-    MATERIALS = '110'
-    MUSIC_DISKS = '117'
-    ENEMIES = '112'
+    PATHS = 102
+    CHARACTERS = 104
+    NPCS = 105
+    LIGHTCONES = 107
+    RELICS = 108
+    MATERIALS = 110
+    MUSIC_DISKS = 117
+    ENEMIES = 112
 
     def __str__(self) -> str:
         return str(self.value)

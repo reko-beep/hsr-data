@@ -1,5 +1,5 @@
 from main import SRSClient
-from hsr_client.constants import Types, Languages
+from hsr_client.constants import Item, Language
 from hsr_client.routes import *
 from os import getcwd, mkdir
 from os.path import exists
@@ -17,26 +17,26 @@ save_path = f"{getcwd()}/raw_data"
 client = SRSClient()
 
 routes = {
-    Types.CHARACTERS : CHARACTERS,
-    Types.PLAYERCARDS : PLAYERCARDS,
-    Types.FOODS : CONSUMABLES,
-    Types.RELICS : RELICS,
-    Types.LIGHTCONES : LIGHTCONES,
-    Types.BOOKS : BOOKS,
-    Types.MATERIALS : MATERIALS,    
-
-}
+    Item.CHARACTER.name : CHARACTERS,
+    Item.PLAYERCARD.name : PLAYERCARDS,
+    Item.FOOD.name : CONSUMABLES,
+    Item.RELIC.name : RELICS,
+    Item.LIGHTCONE.name : LIGHTCONES,
+    Item.BOOK.name : BOOKS,
+    Item.MATERIAL.name : MATERIALS
+    }
 
 folders = {
-    Types.CHARACTERS : 'characters/',
-    Types.PLAYERCARDS : 'playercards/',
-    Types.FOODS : 'foods/',
-    Types.RELICS : 'relics/',
-    Types.LIGHTCONES : 'lightcones/',
-    Types.BOOKS : 'books/',
-    Types.MATERIALS : 'materials/'
-}
+    Item.CHARACTER.name : 'characters/',
+    Item.PLAYERCARD.name : 'playercards/',
+    Item.FOOD.name : 'foods/',
+    Item.RELIC.name : 'relics/',
+    Item.LIGHTCONE.name : 'lightcones/',
+    Item.BOOK.name : 'books/',
+    Item.MATERIAL.name : 'materials/'
+     }
 
+print(folders)
 def create_path(path :str):
     path_ = Path(f'{save_path}/{path}')
     if not exists(f'{save_path}/{path}'):
@@ -57,7 +57,7 @@ def convert(seconds: int | float):
 
 START_TIME = datetime.now()
 
-language = Languages.EN
+language = Language.EN
 '''
 iterate over all languages to get data in all languages
 '''
@@ -69,35 +69,30 @@ iterate over all languages to get data in all languages
 iterate over all languages to get data in all languages
 '''
 
-for type in Types: 
-    '''
+entries = client.get_all_items(None, language) # this gets all items that exist in search database of starrailstation.com
 
-    Iterate over all types to get all data
-    '''
-    entries = client.get_all_items(None, language) # this gets all items that exist in search database of starrailstation.com
-    
-    for entry in entries:
-        create_path(f'{language}/{folders[entry.type]}')
-        if not exists(f'{save_path}/{language}/{folders[entry.type]}/{entry.id}.json'):
-
-            '''
-            fetches data
-            '''
-            data = client.fetch(language, routes[entry.type], True, entry.id)              
-            print(f'[downloading] [Language: {language}]', Types(entry.type).name, entry.name)
-            with open(f'{save_path}/{language}/{folders[entry.type]}/{entry.id}.json', 'w') as f:
-                dump(data, f, indent=1)
+for entry in entries:
+    create_path(f'{language}/{folders[entry.type.name]}')
+    if not exists(f'{save_path}/{language}/{folders[entry.type.name]}/{entry.id}.json'):
+        
+        '''
+        fetches data
+        '''
+        data = client.fetch(language, routes[entry.type.name], True, entry.id)              
+        print(f'[downloading] [Language: {language}]', Item(entry.type).name, entry.name)
+        with open(f'{save_path}/{language}/{folders[entry.type.name]}/{entry.id}.json', 'w') as f:
+            dump(data, f, indent=1)
 
 
 print(f'[downloading] [Language: {language}]', 'ACHIEVEMENTS')   
-data = client.fetch(language, ACHIEVEMENTS, None)
+data = client.fetch(language, ACHIEVEMENTS, False)
 with open(f'{save_path}/{language}/achievements.json', 'w') as f:
     dump(data, f, indent=1)
 
 
 print(f'[downloading] [Language: {language}]', 'SIMULATED UNIVERSE', 'Date', ROUGE_DATE)     
 
-data = client.fetch(language, ROUGES, None)
+data = client.fetch(language, ROUGES, False)
 with open(f'{save_path}/{language}/simulatedUniverse.json', 'w') as f:
     dump(data, f, indent=1)
 

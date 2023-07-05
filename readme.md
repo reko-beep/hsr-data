@@ -1,6 +1,24 @@
+<br />
 <p align="center">
-  <img src="https://raw.githubusercontent.com/reko-beep/hsr-data/dev/logo.png?raw=true" />
+  <a href="https://github.com/reko-beep/hsr-data">
+    <img src="https://raw.githubusercontent.com/reko-beep/hsr-data/dev/logo.png?raw=true" alt="Logo">
+  </a>
+<!-- 
+   <h3 align="center">hsr-data</h3> -->
+
+  <p align="center">
+    <!-- Fully typed python API for Honkai: Star Rail's Data
+    <br /> -->
+    <a style="color: orange" href="https://reko-beep.github.io/hsr-data">Documentation (🚧 only for feedback 🚧) »</strong></a>
+    <br />
+    <a style="color: orange"  href="https://github.com/reko-beep/hsr-data/issues">Report a Bug</a>
+    ·
+    <a style="color: orange"  href="https://discord.gg/sanctuarypk">Discord</a>
+  </p>
 </p>
+
+
+
 
 # What is this?
 
