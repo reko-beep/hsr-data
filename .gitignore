@@ -8,4 +8,5 @@ venv/
 /docs/
 .idea/
 Lib/
+Scripts/
 pyvenv.cfg
