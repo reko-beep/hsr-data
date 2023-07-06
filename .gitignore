@@ -6,3 +6,4 @@ venv/
 /.ipynb_checkpoints
 /raw_data
 /docs/
+.idea/
