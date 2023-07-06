@@ -1,5 +1,4 @@
 import json
-import os
 import sys
 from collections import defaultdict
 from typing import Dict, Generator, Tuple, List, Any
@@ -9,7 +8,7 @@ from data_query.shared_data.shared_var import SharedVar
 
 
 class Character:
-    def __init__(self, name: str = None) -> None:
+    def __init__(self, name: str | None = None) -> None:
         if name is not None:
             with open(f"raw_data/en/characters/{name}.json") as file:
                 self.content: Dict = json.loads(file.read())
@@ -66,7 +65,7 @@ class Character:
         """
         level_list = SharedVar.level()
         if level in level_list:
-            stat_dict: Dict = self.content["levelData"]
+            stat_dict: List[Dict] = self.content["levelData"]
             for data in stat_dict:
                 if data["maxLevel"] == level:
                     return data

@@ -3,7 +3,7 @@ from itertools import count
 from data_query.character_data import Character
 from typing import Generator, Tuple, List, Dict
 from data_query.query_errors.error_msg import QueryError
-
+from data_query.shared_data.shared_var import SharedVar
 char_name = "arlan"
 test_char = Character(char_name)
 
@@ -31,8 +31,7 @@ class TestCharacter(unittest.TestCase):
         self.assertEqual(path, "Destruction")
 
     def test_stat_data_onlevel(self):
-        level_iterator = count(start=20, step=10)
-        level_list: List = list(next(level_iterator) for _ in range(7))
+        level_list : List[int] = SharedVar.level()
         stat_data_onlevel_20 = test_char.stat_data_onlevel(20)
         self.assertEqual(isinstance(stat_data_onlevel_20, Dict), True)
         for num in range(101):
