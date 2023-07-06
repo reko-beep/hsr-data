@@ -34,17 +34,11 @@ class Character:
             else:
                 yield data, value
 
-    def stat_at_max(self) -> Tuple[float, float, float, float]:
-        max_stats: Dict = defaultdict(str)
-        stat: str
-        value: float
+    def stat_at_max(self) -> dict:
+        max_stats: Dict = defaultdict(float)
         for stat, value in self.stat_data_max():
-            max_stats[stat] = value
-        base_attack: float = max_stats["attackBase"]
-        base_hp: float = max_stats["hpBase"]
-        base_def: float = max_stats["defenseBase"]
-        base_speed: float = max_stats["speedBase"]
-        return base_attack, base_hp, base_def, base_speed
+            max_stats[stat] = float(value)
+        return max_stats
 
     def skills(self) -> dict:
         skills_data: List = self.content["skills"]
@@ -57,3 +51,28 @@ class Character:
                 if skills["name"] == name:
                     skill_dict[name] = skills
         return skill_dict
+
+    def trace(self) -> Generator[dict, None, None]:
+        traces_data: List = self.content["skillTreePoints"]
+        for data in traces_data:
+            trace = data.get("embedBonusSkill")
+            if trace is not None:
+                yield trace
+            else:
+                pass
+
+    def constellation(
+        self,
+    ) -> (
+        Generator[Tuple[str, str, List[float]], None, None]
+        | Generator[Tuple[str, str, None], None, None]
+    ):
+        const_data: List = self.content["ranks"]
+        for data in const_data:
+            const_name: str = data.get("name")
+            const_desc: str = data.get("descHash")
+            const_params: List[float] = data.get("params")
+            if len(const_params) != 0:
+                yield const_name, const_desc, const_params
+            else:
+                yield const_name, const_desc, None
