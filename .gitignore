@@ -7,3 +7,5 @@ venv/
 /raw_data
 /docs/
 .idea/
+Lib/
+pyvenv.cfg

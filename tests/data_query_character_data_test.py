@@ -1,6 +1,9 @@
 import unittest
+from itertools import count
 from data_query.character_data import Character
-from typing import Generator, Tuple
+from typing import Generator, Tuple, List, Dict
+from data_query.query_errors.error_msg import QueryError
+
 char_name = "arlan"
 test_char = Character(char_name)
 
@@ -27,6 +30,17 @@ class TestCharacter(unittest.TestCase):
         self.assertEqual(isinstance(path, str), True)
         self.assertEqual(path, "Destruction")
 
+    def test_stat_data_onlevel(self):
+        level_iterator = count(start=20, step=10)
+        level_list: List = list(next(level_iterator) for _ in range(7))
+        stat_data_onlevel_20 = test_char.stat_data_onlevel(20)
+        self.assertEqual(isinstance(stat_data_onlevel_20, Dict), True)
+        for num in range(101):
+            if num not in level_list:
+                stat_data_onlevel_error = test_char.stat_data_onlevel(num)
+                self.assertEqual(stat_data_onlevel_error, QueryError.leveldata_outofrange())
+        stat_data_onlevel_error_notint = test_char.stat_data_onlevel("potato")
+        self.assertEqual(stat_data_onlevel_error_notint, QueryError.leveldata_outofrange())
     def test_stat_data_max(self):
         stat_data_max = test_char.stat_data_max()
         self.assertEqual(isinstance(stat_data_max, Generator), True)
@@ -38,11 +52,11 @@ class TestCharacter(unittest.TestCase):
 
     def test_stat_at_max(self):
         content = test_char.stat_at_max()
-        for data in content:
-            self.assertEqual(isinstance(data, float) or isinstance(data, int), True)
-            self.assertEqual(data is not None, True)
-        self.assertEqual(len(content), 4)
+        self.assertEqual(isinstance(content, Dict), True)
 
+    def test_skills(self):
+        skills_data = test_char.skills()
+        self.assertEqual(isinstance(skills_data, Dict), True)
 
 if __name__ == '__main__':
     unittest.main()

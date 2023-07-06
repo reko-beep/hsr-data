@@ -1,15 +1,14 @@
 import json
 import os
 from collections import defaultdict
-from typing import Dict, Generator, Tuple, List, Any, LiteralString
-
+from typing import Dict, Generator, Tuple, List, Any
+from itertools import count
+from data_query.query_errors.error_msg import QueryError
 
 class Character:
     def __init__(self, name: str) -> None:
-        self.content: Dict
-        os.chdir(r"K:\GitHub_Desktop\hsr-data-bot")
         with open(f"raw_data/en/characters/{name}.json") as file:
-            self.content = json.loads(file.read())
+            self.content: Dict = json.loads(file.read())
 
     def json_data(self) -> List[str]:
         category: str
@@ -24,9 +23,18 @@ class Character:
     def path(self) -> str:
         return self.content["baseType"]["name"]
 
+    def stat_data_onlevel(self, level: int) -> Dict | str:
+        level_iterator = count(start = 20, step = 10)
+        level_list: List = list(next(level_iterator) for _ in range(7))
+        if level in level_list:
+            stat_dict: Dict = self.content["levelData"]
+            for data in stat_dict:
+                if data["maxLevel"] == level:
+                    return data
+        else:
+            return QueryError.leveldata_outofrange()
+
     def stat_data_max(self) -> Generator[Tuple[str, float], None, None]:
-        data: str
-        value: float
         stat_dict = self.content["levelData"][-1]
         for data, value in stat_dict.items():
             if isinstance(value, list) and len(value) == 0:
@@ -76,3 +84,4 @@ class Character:
                 yield const_name, const_desc, const_params
             else:
                 yield const_name, const_desc, None
+
