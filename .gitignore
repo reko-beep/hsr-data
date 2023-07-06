@@ -10,3 +10,4 @@ venv/
 Lib/
 Scripts/
 pyvenv.cfg
+.mypy_cache/

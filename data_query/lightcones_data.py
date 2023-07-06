@@ -1,11 +1,12 @@
 import json
 import os
-from typing import Dict, List
+from typing import Dict, List, Any
 from data_query.shared_data.shared_var import SharedVar
+from data_query.query_errors.error_msg import QueryError
 
 
 class LightCone:
-    def __init__(self, name: str = None) -> None:
+    def __init__(self, name: int | None = None) -> None:
         with open(f"raw_data/en/lightcones/{name}.json") as file:
             self.content: Dict = json.loads(file.read())
 
@@ -21,21 +22,18 @@ class LightCone:
     def level_data(self) -> List[Dict]:
         return self.content["levelData"]
 
-    def level_data_onlevel(self, level: int = 80) -> Dict | str:
+    def level_data_onlevel(self, level: int = 80) -> Dict | str | None:
         level_list: List[int] = SharedVar.level()
         levelData: List[Dict] = self.level_data()
         if level in level_list:
             for data in levelData:
                 if data["maxLevel"] == level:
                     return data
-
+                else:
+                    return None
         else:
             return QueryError.leveldata_outofrange()
 
-    def skill(self):
+    def skill(self) -> Dict:
         skills_data = self.content["skill"]
         return skills_data
-
-
-lc = LightCone("20000")
-print(lc.name())
