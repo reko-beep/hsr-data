@@ -3,7 +3,7 @@ import sys
 from collections import defaultdict
 from typing import Dict, Generator, Tuple, List, Any
 from itertools import count
-from data_query.query_errors.error_msg import QueryError
+from data_query.query_errors.errors import *
 from data_query.shared_data.shared_var import SharedVar
 
 
@@ -64,13 +64,13 @@ class Character:
         print(Character("character_name").stat_data_onlevel(80))
         """
         level_list = SharedVar.level()
-        if level in level_list:
+        if level in level_list and isinstance(level, int):
             stat_dict: List[Dict] = self.content["levelData"]
             for data in stat_dict:
                 if data["maxLevel"] == level:
                     return data
         else:
-            return QueryError.leveldata_outofrange()
+            raise LevelOutOfRangeError
 
     def stat_data_max(self) -> Generator[Tuple[str, float], None, None]:
         """
