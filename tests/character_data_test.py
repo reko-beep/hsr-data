@@ -2,14 +2,14 @@ import unittest
 from itertools import count
 from data_query.character_data import Character
 from typing import Generator, Tuple, List, Dict
-from data_query.query_errors.error_msg import QueryError
+from data_query.query_errors.errors import *
 from data_query.shared_data.shared_var import SharedVar
+
 char_name = "arlan"
 test_char = Character(char_name)
 
 
 class TestCharacter(unittest.TestCase):
-
     def test_json_data(self):
         json_data = test_char.json_data()
         for i in json_data:
@@ -31,15 +31,16 @@ class TestCharacter(unittest.TestCase):
         self.assertEqual(path, "Destruction")
 
     def test_stat_data_onlevel(self):
-        level_list : List[int] = SharedVar.level()
+        level_list: List[int] = SharedVar.level()
         stat_data_onlevel_20 = test_char.stat_data_onlevel(20)
-        self.assertEqual(isinstance(stat_data_onlevel_20, Dict), True)
+        self.assertEqual(isinstance(test_char.stat_data_onlevel(20), Dict), True)
         for num in range(101):
             if num not in level_list:
-                stat_data_onlevel_error = test_char.stat_data_onlevel(num)
-                self.assertEqual(stat_data_onlevel_error, QueryError.leveldata_outofrange())
-        stat_data_onlevel_error_notint = test_char.stat_data_onlevel("potato")
-        self.assertEqual(stat_data_onlevel_error_notint, QueryError.leveldata_outofrange())
+                self.assertRaises(
+                    LevelOutOfRangeError, test_char.stat_data_onlevel, num
+                )
+        self.assertRaises(LevelOutOfRangeError, test_char.stat_data_onlevel, "potato")
+
     def test_stat_data_max(self):
         stat_data_max = test_char.stat_data_max()
         self.assertEqual(isinstance(stat_data_max, Generator), True)
@@ -57,5 +58,13 @@ class TestCharacter(unittest.TestCase):
         skills_data = test_char.skills()
         self.assertEqual(isinstance(skills_data, Dict), True)
 
-if __name__ == '__main__':
+    def test_trace(self):
+        for data in test_char.trace():
+            self.assertEqual(isinstance(data, dict), True)
+
+    def test_constellation(self):
+        for data in test_char.constellation():
+            self.assertEqual(isinstance(data, tuple), True)
+
+if __name__ == "__main__":
     unittest.main()
