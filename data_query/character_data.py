@@ -1,5 +1,6 @@
 import json
 import sys
+import re
 from collections import defaultdict
 from typing import Dict, Generator, Tuple, List, Any
 from itertools import count
@@ -101,22 +102,13 @@ class Character:
             max_stats[stat] = float(value)
         return max_stats
 
-    def skills(self) -> dict:
+    def get_skill_data(self) -> dict:
         """
         Returns character's Skill data
 
         print(Character("character_name").skills())
         """
-        skills_data: List = self.content["skills"]
-        skill_dict: Dict = {}
-        skill_name: List = []
-        for skills in skills_data:
-            skill_name.append(skills["name"])
-        for name in skill_name:
-            for skills in skills_data:
-                if skills["name"] == name:
-                    skill_dict[name] = skills
-        return skill_dict
+        return self.content["skills"]
 
     def trace(self) -> Generator[dict, None, None]:
         """
@@ -156,3 +148,31 @@ class Character:
                 yield const_name, const_desc, const_params
             else:
                 yield const_name, const_desc, None
+
+    # TODO: Separate Skill based on BasicATK, Skill, Ultimate, Talent, Technique
+
+    def skill_general(self, typeDesc: str) -> Dict[str, Any]:
+        for data in self.get_skill_data():
+            if data["typeDescHash"] == typeDesc:
+                basicatk_data: Dict = data
+                break
+        return basicatk_data
+
+    def skill_basicatk(self) -> Dict[str, Any]:
+        return self.skill_general("Basic ATK")
+
+    def skill_skill(self):
+        return self.skill_general("Skill")
+
+    def skill_ultimate(self):
+        return self.skill_general("Ultimate")
+
+    def skill_talent(self):
+        return self.skill_general("Talent")
+
+    def skill_technique(self):
+        return self.skill_general("Technique")
+
+
+char = Character("arlan")
+print(char.skill_skill())
