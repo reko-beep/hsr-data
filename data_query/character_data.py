@@ -149,30 +149,45 @@ class Character:
             else:
                 yield const_name, const_desc, None
 
-    # TODO: Separate Skill based on BasicATK, Skill, Ultimate, Talent, Technique
+    def skill_general(self, typeDesc: str, level: int = 1) -> Dict[str, Any]:
+        current_skill = self.get_typeDescHash(typeDesc)
+        skill_params = self.get_skillparams_onlevel(typeDesc, level)
+        atktype = current_skill["tagHash"]
+        descHash = current_skill["descHash"]
+        descHash_cleaned: str = re.sub("<[^\>]+.", "", descHash)
+        return skill_params
 
-    def skill_general(self, typeDesc: str) -> Dict[str, Any]:
+    def get_skillparams_onlevel(self, typeDesc, level):
+        get_skill_category = self.get_typeDescHash(typeDesc)
+        levelData = get_skill_category["levelData"]
+        max_level = len(levelData)
+        if level > max_level:
+            raise SkillLevelOutOfrange
+        else:
+            for params in levelData:
+                if params["level"] == level:
+                    return params
+
+    def get_typeDescHash(self, get_data):
         for data in self.get_skill_data():
-            if data["typeDescHash"] == typeDesc:
+            if data["typeDescHash"] == get_data:
                 basicatk_data: Dict = data
-                break
         return basicatk_data
 
-    def skill_basicatk(self) -> Dict[str, Any]:
-        return self.skill_general("Basic ATK")
+    def skill_basicatk(self, level: int):
+        return self.skill_general("Basic ATK", level)
 
-    def skill_skill(self):
-        return self.skill_general("Skill")
+    def skill_skill(self, level: int):
+        return self.skill_general("Skill", level)
 
-    def skill_ultimate(self):
-        return self.skill_general("Ultimate")
+    def skill_ultimate(self, level: int):
+        return self.skill_general("Ultimate", level)
 
-    def skill_talent(self):
-        return self.skill_general("Talent")
+    def skill_talent(self, level: int):
+        return self.skill_general("Talent", level)
 
-    def skill_technique(self):
-        return self.skill_general("Technique")
+    def skill_technique(self, level: int):
+        return self.skill_general("Technique", level)
 
-
-char = Character("arlan")
-print(char.skill_skill())
+char = Character("bailu")
+print(char.skill_technique(1))
