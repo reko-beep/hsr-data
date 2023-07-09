@@ -6,6 +6,7 @@ from typing import Dict, Generator, Tuple, List, Any
 from itertools import count
 from data_query.query_errors.errors import *
 import data_query.shared_data.shared_var as SharedVar
+import data_query.character_skill.skill_description as skill_desc
 
 
 class Character:
@@ -100,7 +101,7 @@ class Character:
         max_stats: Dict = defaultdict(float)
         for stat, value in self.stat_data_max():
             max_stats[stat] = float(value)
-        return max_stats
+        return dict(max_stats)
 
     def get_skill_data(self) -> dict:
         """
@@ -128,10 +129,7 @@ class Character:
 
     def constellation(
         self,
-    ) -> (
-        Generator[Tuple[str, str, List[float]], None, None]
-        | Generator[Tuple[str, str, None], None, None]
-    ):
+    ) -> Generator[str, None, None]:
         """
         Returns a generator object containing characater's Constellation data.
 
@@ -144,50 +142,24 @@ class Character:
             const_name: str = data.get("name")
             const_desc: str = data.get("descHash")
             const_params: List[float] = data.get("params")
-            if len(const_params) != 0:
-                yield const_name, const_desc, const_params
-            else:
-                yield const_name, const_desc, None
-
-    def skill_general(self, typeDesc: str, level: int):
-        current_skill: Dict[str, str] = self.get_typeDescHash(typeDesc)
-        skill_params: List[float] = self.get_skillparams_onlevel(typeDesc, level)[
-            "params"
-        ]
-        atktype: str = current_skill["tagHash"]
-        descHash: str = current_skill["descHash"]
-        descHash_cleaned: str = re.sub("<[^\>]+.", "", descHash)
-        return SharedVar.skill_description(
-            typeDesc, skill_params, descHash_cleaned, level
-        )
-
-    def get_skillparams_onlevel(self, typeDesc: str, level: int) -> Dict:
-        get_skill_category: Dict = self.get_typeDescHash(typeDesc)
-        levelData: List = get_skill_category["levelData"]
-        max_level: int = len(levelData)
-        if level > max_level:
-            raise SkillLevelOutOfRange
-        else:
-            for params in levelData:
-                if params["level"] == level:
-                    return params
-
-    def get_typeDescHash(self, get_data) -> Dict | None:
-        for data in self.get_skill_data():
-            if data["typeDescHash"] == get_data:
-                return data
+            const_desc_cleaned: str = re.sub("<[^\>]+.", "", const_desc)
+            descHash = SharedVar.readable_descHash(
+                const_name, const_params, const_desc_cleaned, "Max"
+            )
+            yield re.sub(r"[\.!%,:;?](?!$| )", r"\g<0> ", descHash)
 
     def skill_basicatk(self, level: int = 9):
-        return self.skill_general("Basic ATK", level)
+        return skill_desc.skill_general("Basic ATK", level, self.get_skill_data())
 
     def skill_skill(self, level: int = 15):
-        return self.skill_general("Skill", level)
+        return skill_desc.skill_general("Skill", level, self.get_skill_data())
 
     def skill_ultimate(self, level: int = 15):
-        return self.skill_general("Ultimate", level)
+        return skill_desc.skill_general("Ultimate", level, self.get_skill_data())
 
     def skill_talent(self, level: int = 15):
-        return self.skill_general("Talent", level)
+        return skill_desc.skill_general("Talent", level, self.get_skill_data())
 
     def skill_technique(self, level: int = 1):
-        return self.skill_general("Technique", level)
+        return skill_desc.skill_general("Technique", level, self.get_skill_data())
+
