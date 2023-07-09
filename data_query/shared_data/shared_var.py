@@ -8,14 +8,16 @@ def level() -> List[int]:
     return level_list
 
 
-def skill_description(
-    typeDesc: str, skill_params: List[float], deschash_cleaned: str, level: int
+def readable_descHash(
+    typeDesc: str, skill_params: List[float], deschash_cleaned: str, level: int | str
 ) -> str:
     value_params: Tuple = tuple(
         f"{value * 100:.1f}" if isinstance(value, float) else str(value)
         for value in skill_params
     )
     descHash_list: List = []
+    if "#1[i]" not in deschash_cleaned:
+        return f"{typeDesc} Lv.{level}: {deschash_cleaned}"
     for index in range(len(skill_params)):
         if len(descHash_list) == 0:
             descHash_first: str = deschash_cleaned.replace(
