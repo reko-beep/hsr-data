@@ -166,7 +166,7 @@ class Character:
         levelData: List = get_skill_category["levelData"]
         max_level: int = len(levelData)
         if level > max_level:
-            raise SkillLevelOutOfrange
+            raise SkillLevelOutOfRange
         else:
             for params in levelData:
                 if params["level"] == level:
