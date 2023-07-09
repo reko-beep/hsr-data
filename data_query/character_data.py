@@ -5,7 +5,7 @@ from collections import defaultdict
 from typing import Dict, Generator, Tuple, List, Any
 from itertools import count
 from data_query.query_errors.errors import *
-from data_query.shared_data.shared_var import SharedVar
+import data_query.shared_data.shared_var as SharedVar
 
 
 class Character:
@@ -191,7 +191,3 @@ class Character:
 
     def skill_technique(self, level: int = 1):
         return self.skill_general("Technique", level)
-
-
-char = Character("bailu")
-print(char.skill_technique())

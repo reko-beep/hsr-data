@@ -2,7 +2,7 @@ import json
 import re
 from itertools import count
 from typing import Dict, List, Any, Iterator, Tuple
-from data_query.shared_data.shared_var import SharedVar
+import data_query.shared_data.shared_var as SharedVar
 from data_query.query_errors.errors import *
 
 
