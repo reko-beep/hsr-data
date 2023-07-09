@@ -3,7 +3,7 @@ from itertools import count
 from data_query.character_data import Character
 from typing import Generator, Tuple, List, Dict
 from data_query.query_errors.errors import *
-from data_query.shared_data.shared_var import SharedVar
+import data_query.shared_data.shared_var as SharedVar
 
 char_name = "arlan"
 test_char = Character(char_name)
@@ -55,7 +55,7 @@ class TestCharacter(unittest.TestCase):
         self.assertEqual(isinstance(content, Dict), True)
 
     def test_skills(self):
-        skills_data = test_char.skills()
+        skills_data = test_char.get_skill_data()
         self.assertEqual(isinstance(skills_data, Dict), True)
 
     def test_trace(self):
@@ -64,7 +64,17 @@ class TestCharacter(unittest.TestCase):
 
     def test_constellation(self):
         for data in test_char.constellation():
+            print(data)
             self.assertEqual(isinstance(data, tuple), True)
+
+    def test_skills(self):
+        print(test_char.name())
+        print(test_char.skill_basicatk())
+        print(test_char.skill_skill())
+        print(test_char.skill_talent())
+        print(test_char.skill_ultimate())
+        print(test_char.skill_technique())
+
 
 if __name__ == "__main__":
     unittest.main()

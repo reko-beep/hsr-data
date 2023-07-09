@@ -149,18 +149,22 @@ class Character:
             else:
                 yield const_name, const_desc, None
 
-    def skill_general(self, typeDesc: str, level: int = 1) -> Dict[str, Any]:
-        current_skill = self.get_typeDescHash(typeDesc)
-        skill_params = self.get_skillparams_onlevel(typeDesc, level)
-        atktype = current_skill["tagHash"]
-        descHash = current_skill["descHash"]
+    def skill_general(self, typeDesc: str, level: int):
+        current_skill: Dict[str, str] = self.get_typeDescHash(typeDesc)
+        skill_params: List[float] = self.get_skillparams_onlevel(typeDesc, level)[
+            "params"
+        ]
+        atktype: str = current_skill["tagHash"]
+        descHash: str = current_skill["descHash"]
         descHash_cleaned: str = re.sub("<[^\>]+.", "", descHash)
-        return skill_params
+        return SharedVar.skill_description(
+            typeDesc, skill_params, descHash_cleaned, level
+        )
 
-    def get_skillparams_onlevel(self, typeDesc, level):
-        get_skill_category = self.get_typeDescHash(typeDesc)
-        levelData = get_skill_category["levelData"]
-        max_level = len(levelData)
+    def get_skillparams_onlevel(self, typeDesc: str, level: int) -> Dict:
+        get_skill_category: Dict = self.get_typeDescHash(typeDesc)
+        levelData: List = get_skill_category["levelData"]
+        max_level: int = len(levelData)
         if level > max_level:
             raise SkillLevelOutOfrange
         else:
@@ -168,26 +172,26 @@ class Character:
                 if params["level"] == level:
                     return params
 
-    def get_typeDescHash(self, get_data):
+    def get_typeDescHash(self, get_data) -> Dict | None:
         for data in self.get_skill_data():
             if data["typeDescHash"] == get_data:
-                basicatk_data: Dict = data
-        return basicatk_data
+                return data
 
-    def skill_basicatk(self, level: int):
+    def skill_basicatk(self, level: int = 9):
         return self.skill_general("Basic ATK", level)
 
-    def skill_skill(self, level: int):
+    def skill_skill(self, level: int = 15):
         return self.skill_general("Skill", level)
 
-    def skill_ultimate(self, level: int):
+    def skill_ultimate(self, level: int = 15):
         return self.skill_general("Ultimate", level)
 
-    def skill_talent(self, level: int):
+    def skill_talent(self, level: int = 15):
         return self.skill_general("Talent", level)
 
-    def skill_technique(self, level: int):
+    def skill_technique(self, level: int = 1):
         return self.skill_general("Technique", level)
 
+
 char = Character("bailu")
-print(char.skill_technique(1))
+print(char.skill_technique())

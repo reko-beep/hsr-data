@@ -23,7 +23,7 @@ class LightCone:
     def level_data(self) -> List[Dict]:
         return self.content["levelData"]
 
-    def level_data_onlevel(self, level: int = 80) -> Dict :
+    def level_data_onlevel(self, level: int = 80) -> Dict:
         level_list: List[int] = SharedVar.level()
         levelData: List[Dict] = self.level_data()
         if level in level_list:
@@ -56,20 +56,8 @@ class LightCone:
         name: str = self.skill_data()["name"]
         skill_params: List = skill_onlevel_data["params"]
         descHash_cleaned: str = re.sub("<[^\>]+.", "", descHash)
-        value_params: Tuple = tuple(
-            f"{value * 100:.1f}" if isinstance(value, float) else str(value)
-            for value in skill_params
-        )
-        descHash_list: List = []
-        for index in range(len(skill_params)):
-            if len(descHash_list) == 0:
-                descHash_first: str = descHash_cleaned.replace(
-                    f"#{index+1}[i]", value_params[index]
-                )
-                descHash_list.append(descHash_first)
-            else:
-                descHash_next: str = descHash_list[index - 1].replace(
-                    f"#{index+1}[i]", value_params[index]
-                )
-                descHash_list.append(descHash_next)
-        return f"{name} Lv.{level}: {descHash_list[-1]}"
+        return SharedVar.skill_description(name, skill_params, descHash_cleaned, level)
+
+
+lc = LightCone(20000)
+print(lc.skill_descHash())

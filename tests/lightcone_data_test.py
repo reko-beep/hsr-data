@@ -2,7 +2,7 @@ import unittest
 from data_query.lightcones_data import LightCone
 from typing import Generator, Tuple, List, Dict
 from data_query.query_errors.errors import *
-from data_query.shared_data.shared_var import SharedVar
+import data_query.shared_data.shared_var as SharedVar
 
 test_lc = LightCone(20000)
 
