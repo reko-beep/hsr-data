@@ -1,13 +1,20 @@
 from typing import Dict, List, NewType, Tuple, Iterable
 from pydantic import BaseModel, PrivateAttr
 from hsr_client.datamodels.material import Material, MaterialCount
+from hsr_client.errors import BackendError
 from hsr_client.hsr_types import  Superimposition, Level
 from hsr_client.paths import Path
 
 class Stats(BaseModel):
+    """
+    Lightcone's base stats
+    """
     ATK: int
+    """Lightcone base ATK"""
     HP: int
+    """Lightcone base HP"""
     DEF: int
+    """Lightcone DEF"""
 
 
 
@@ -52,19 +59,19 @@ class Lightcone(BaseModel):
     # model via json() etc., the stats wont be a part of it.
     # but i feel limitation is better than making breaking change.
     _stats = PrivateAttr()
+
     # # lightcone stats scaling by `Level` (int)
     # stats: Dict[Level, Stats]
     
     
-    # lightcone ability description for given `Superimposition` (int)
-    ability: Dict[Superimposition, str]
 
-    # TODO: type too long? should we break it down?
+    ability: Dict[Superimposition, str]
+    """lightcone ability description for given `Superimposition (int)`"""
     # ascension materials required to level up beyond given `Level` (int)
     ascension_mats: Dict[Level, List[MaterialCount]]
+    """ascension mats required to level up beyond the given `Level (int)` """
 
-
-    def stats(self, level: Level, ascended=False):
+    def stats(self, level: Level, ascended=False) -> Stats:
         """
         Get Ligthcone's Stats for the given level. when ascended=True is used
         on levels where ascension is possible, gives `Stats` for ascended levels
@@ -84,6 +91,9 @@ class Lightcone(BaseModel):
                     DEF=ascension_entry["defenseBase"] + ascension_entry["defenseAdd"] * (level - 1),
                 )
 
+        raise BackendError("levelData for Stats appears to be emtpy, this most"
+                           "likely hints Library out of date with backend sources"
+                           "please report this bug.")
          
 
      

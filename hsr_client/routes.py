@@ -1,6 +1,7 @@
 
 from hsr_client.constants import O_VALUE
 from datetime import datetime, date
+from hsr_client.utils import get_monday
 
 MAIN_ROUTE = f'https://starrailstation.com/api/v1/data/{O_VALUE}/'
 IMAGE_ROUTE = 'https://starrailstation.com/assets/{assetId}.webp'
@@ -51,8 +52,7 @@ not month safe calculation for now
 
 '''
 CURRENT_DATE  = datetime.now().date()
-ROUGE_DIFF_DATE = 0 - CURRENT_DATE.weekday()
-ROUGE_DATE =  date(CURRENT_DATE.year, CURRENT_DATE.month, CURRENT_DATE.day + (ROUGE_DIFF_DATE) )
+ROUGE_DATE =  get_monday(CURRENT_DATE)
 
 
 ROUGES = Routes(file=f'rogue/{str(ROUGE_DATE)}.json', path=f'rogue/{str(ROUGE_DATE)}.json') #idk site has rogue spelling

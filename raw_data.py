@@ -36,7 +36,6 @@ folders = {
     Item.MATERIAL.name : 'materials/'
      }
 
-print(folders)
 def create_path(path :str):
     path_ = Path(f'{save_path}/{path}')
     if not exists(f'{save_path}/{path}'):
@@ -58,6 +57,8 @@ def convert(seconds: int | float):
 START_TIME = datetime.now()
 
 language = Language.EN
+
+
 '''
 iterate over all languages to get data in all languages
 '''
@@ -96,7 +97,10 @@ data = client.fetch(language, ROUGES, False)
 with open(f'{save_path}/{language}/simulatedUniverse.json', 'w') as f:
     dump(data, f, indent=1)
 
-
+gachaConfig = Routes(file='gachaConfig.json', path='')
+data = client.fetch(language, gachaConfig, False)
+with open(f'{save_path}/{language}/gachaConfig.json', 'w') as f:
+    dump(data, f, indent=1)
 
 END_TIME = datetime.now()
 print(f' [HSR-DATA] download completed in {convert((END_TIME - START_TIME).total_seconds())}')

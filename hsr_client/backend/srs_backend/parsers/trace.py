@@ -2,9 +2,10 @@ from typing import List
 from bs4 import BeautifulSoup
 from hsr_client.backend.srs_backend import SRSBackend
 import hsr_client.datamodels as models
-from hsr_client.datamodels.lightcone import MaterialCount
+from hsr_client.datamodels.material import MaterialCount
 
-
+from  hsr_client.datamodels import trace
+from hsr_client.errors import BackendError
 
 
 def additional_info(trace_node):
@@ -15,7 +16,7 @@ def additional_info(trace_node):
     return container
 
 
-def parse_non_skill_traces(trace_nodes, traces=[], parent=None) -> List[models.trace.Trace]:
+def parse_non_skill_traces(trace_nodes, traces=[], parent=None) -> List[trace.Trace]:
     for trace_node in trace_nodes:
         
         info = additional_info(trace_node)
@@ -42,7 +43,7 @@ def parse_non_skill_traces(trace_nodes, traces=[], parent=None) -> List[models.t
 
 
         # prepare unlock preprequisite
-        unlock_prerequisite = models.trace.UnlockPrerequisite(
+        unlock_prerequisite = trace.UnlockPrerequisite(
                 trace=parent,
                 level=info["levelReq"],
                 ascension=additional_info(trace_node)["promotionReq"]
@@ -50,7 +51,7 @@ def parse_non_skill_traces(trace_nodes, traces=[], parent=None) -> List[models.t
 
         # prepare tht trace itself.
         if trace_node["type"] == 1:
-            _trace = models.trace.BonusAbility(
+            _trace = trace.BonusAbility(
                 name=name,
                 description=t_description,
                 activation_mats=[],
@@ -58,21 +59,25 @@ def parse_non_skill_traces(trace_nodes, traces=[], parent=None) -> List[models.t
             )
 
         elif trace_node["type"] == 2:
-            _trace = models.trace.StatBonus(
+            _trace = trace.StatBonus(
                 name=name,
                 description=t_description,
                 activation_mats=[],
                 unlock_prerequisite=unlock_prerequisite
             )
+        
+        else:
+            raise BackendError("Invalid trace type(int) found: ", trace_node["type"])
 
         traces.append(_trace)
 
         # parse child traces
         children = trace_node.get("children")
-        if children is not None:
+        if children is not None or children != []:
             parse_non_skill_traces(children, traces, parent=_trace)
 
 
+    return []
 
 # def parse_skill_traces(raw_skills, srs_be: SRSBackend):
 #     for raw_skill in raw_skills:

@@ -1,13 +1,16 @@
 import json
 from typing import List, Union, Optional, Literal
 from requests_cache import CachedSession
-from hsr_client.backend.srs_backend.parsers.lightcone import parse_lightcone
+
+from hsr_client.backend.srs_backend.parsers.material import parse_material
 
 from hsr_client.constants import Language, Item
 from hsr_client.datamodels import chara
 from hsr_client.datamodels.chara import Character
 from hsr_client.datamodels.lightcone import Lightcone
 from hsr_client.datamodels.searchItem import SearchItem
+from hsr_client.datamodels.material import Material
+
 from hsr_client.errors import InvalidLanguage, InvalidSearchItem, EmptyResponse
 from hsr_client import routes
 from hsr_client.utils import base36encode, generate_t, check
@@ -178,6 +181,7 @@ class SRSBackend(Backend):
         Returns:
             Lightcone: Lightcone object
         """
+        from hsr_client.backend.srs_backend.parsers.lightcone import parse_lightcone
 
         if isinstance(search_item, SearchItem):
             if search_item.type != Item.LIGHTCONE:
@@ -187,12 +191,20 @@ class SRSBackend(Backend):
 
             response = self.__fetch(language, routes.LIGHTCONES, True, search_item.id)
             if response is not None:
-                return parse_lightcone(response)
+                return parse_lightcone(response, self)
             else:
                 raise EmptyResponse
 
         else:
             raise TypeError("provided argument is not a `SearchItem`")
+
+
+    def resolve_character(
+        self, search_item: SearchItem, 
+        language: Language = Language.EN
+        ) :
+        # unimplemented
+        pass
 
     def get_lightcone_by_name(
         self, name: str,
@@ -245,4 +257,36 @@ class SRSBackend(Backend):
 
         return character
      
+
+    def resolve_material(
+            self, search_item : SearchItem,
+            language : Language = Language.EN
+        ) -> Material:
+        """get details of a Material
+
+        Args:
+            item (SearchItem): SearchItem of Material type.
+            language (Languages, optional):  Defaults to Languages.EN.
+
+        Raises:
+            InvalidItemType: if SearchItem is not of Material Type
+            InvalidSearchItem: if item is not a SearchItem
+        Returns:
+            Material : Material object
+        """
+
+        if isinstance(search_item, SearchItem):
+            if search_item.type != Item.MATERIAL:
+                raise InvalidSearchItem(
+                    "Expected Item.MATERIAL, found: " + str(search_item.type)
+                )
+
+            response = self.__fetch(language, routes.MATERIALS, True, search_item.id)
+            if response is not None:
+                return parse_material(response, self)
+            else:
+                raise EmptyResponse
+
+        else:
+            raise TypeError("provided argument is not a `SearchItem`")
         
