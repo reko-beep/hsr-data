@@ -13,7 +13,7 @@ def hsr_character(name: str):
     for stat in char.stat_data_max():
         print(stat)
     print(char.stat_at_max())
-    print(char.skills())
+    print(char.get_skill_data())
     for trace in char.trace():
         print(trace)
     for const in char.constellation():
