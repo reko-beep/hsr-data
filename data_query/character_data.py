@@ -74,43 +74,7 @@ class Character:
         else:
             raise LevelOutOfRangeError
 
-    def stat_data_max(self) -> Generator[Tuple[str, float], None, None]:
-        """
-        Returns a generator object containing the base stat data of a
-        character at max level.
-
-        stat_data_max = Character("character_name").stat_data_max()
-        for data in stat_data_max():
-            print(data)
-        """
-        stat_dict = self.content["levelData"][-1]
-        for data, value in stat_dict.items():
-            if isinstance(value, list) and len(value) == 0:
-                pass
-            else:
-                yield data, value
-
-    def stat_at_max(self) -> dict:
-        """
-        Returns character's base stat at max level
-
-        stat_data_max = Character("character_name").stat_data_max()
-        for data in stat_data_max():
-            print(data)
-        """
-        max_stats: Dict = defaultdict(float)
-        for stat, value in self.stat_data_max():
-            max_stats[stat] = float(value)
-        return dict(max_stats)
-
-    def get_skill_data(self) -> dict:
-        """
-        Returns character's Skill data
-
-        print(Character("character_name").skills())
-        """
-        return self.content["skills"]
-
+    # TODO: trace -> return a cleaned up descHash
     def trace(self) -> Generator[dict, None, None]:
         """
         Returns a generator object containing character's Traces data
@@ -148,18 +112,17 @@ class Character:
             )
             yield re.sub(r"[\.!%,:;?](?!$| )", r"\g<0> ", descHash)
 
-    def skill_basicatk(self, level: int = 9):
-        return skill_desc.skill_general("Basic ATK", level, self.get_skill_data())
+    def skill_basicatk(self, level: int = 9) -> str:
+        return skill_desc.skill_general("Basic ATK", level, self.content["skills"])
 
-    def skill_skill(self, level: int = 15):
-        return skill_desc.skill_general("Skill", level, self.get_skill_data())
+    def skill_skill(self, level: int = 15) -> str:
+        return skill_desc.skill_general("Skill", level, self.content["skills"])
 
-    def skill_ultimate(self, level: int = 15):
-        return skill_desc.skill_general("Ultimate", level, self.get_skill_data())
+    def skill_ultimate(self, level: int = 15) -> str:
+        return skill_desc.skill_general("Ultimate", level, self.content["skills"])
 
-    def skill_talent(self, level: int = 15):
-        return skill_desc.skill_general("Talent", level, self.get_skill_data())
+    def skill_talent(self, level: int = 15) -> str:
+        return skill_desc.skill_general("Talent", level, self.content["skills"])
 
-    def skill_technique(self, level: int = 1):
-        return skill_desc.skill_general("Technique", level, self.get_skill_data())
-
+    def skill_technique(self, level: int = 1) -> str:
+        return skill_desc.skill_general("Technique", level, self.content["skills"])

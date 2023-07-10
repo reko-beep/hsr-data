@@ -20,12 +20,10 @@ class LightCone:
     def rarity(self) -> int:
         return self.content["rarity"]
 
-    def level_data(self) -> List[Dict]:
-        return self.content["levelData"]
-
     def level_data_onlevel(self, level: int = 80) -> Dict:
+        level_data = self.content["levelData"]
         level_list: List[int] = SharedVar.level()
-        levelData: List[Dict] = self.level_data()
+        levelData: List[Dict] = level_data
         if level in level_list:
             for data in levelData:
                 if data["maxLevel"] == level:
@@ -57,4 +55,3 @@ class LightCone:
         skill_params: List = skill_onlevel_data["params"]
         descHash_cleaned: str = re.sub("<[^\>]+.", "", descHash)
         return SharedVar.readable_descHash(name, skill_params, descHash_cleaned, level)
-
