@@ -53,5 +53,4 @@ class LightCone:
         descHash: str = self.skill_data()["descHash"]
         name: str = self.skill_data()["name"]
         skill_params: List = skill_onlevel_data["params"]
-        descHash_cleaned: str = re.sub("<[^\>]+.", "", descHash)
-        return SharedVar.readable_descHash(name, skill_params, descHash_cleaned, level)
+        return SharedVar.readable_descHash(name, skill_params, descHash, level)

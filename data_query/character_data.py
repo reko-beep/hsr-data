@@ -106,9 +106,9 @@ class Character:
             const_name: str = data.get("name")
             const_desc: str = data.get("descHash")
             const_params: List[float] = data.get("params")
-            const_desc_cleaned: str = re.sub("<[^\>]+.", "", const_desc)
+            output = "constellation"
             descHash = SharedVar.readable_descHash(
-                const_name, const_params, const_desc_cleaned, "Max"
+                const_name, const_params, const_desc, "Max", output
             )
             yield re.sub(r"[\.!%,:;?](?!$| )", r"\g<0> ", descHash)
 

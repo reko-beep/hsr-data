@@ -31,7 +31,6 @@ def skill_general(typeDesc: str, level: int, skill_data) -> str:
     if current_skill is not None:
         atktype: str = current_skill["tagHash"]
         descHash: str = current_skill["descHash"]
-        descHash_cleaned: str = re.sub("<[^\>]+.", "", descHash)
         return SharedVar.readable_descHash(
-            typeDesc, skill_params, descHash_cleaned, level
+            typeDesc, skill_params, descHash, level, typeDesc
         )
