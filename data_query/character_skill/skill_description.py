@@ -4,10 +4,10 @@ from typing import Dict, List
 from data_query.query_errors.errors import SkillLevelOutOfRange
 
 
-def get_skillparams_onlevel(typeDesc: str, level: int, current_skill) -> Dict:
+def get_skillparams_onlevel(typeDesc: str, level: int, current_skill) -> dict:
     get_skill_category: Dict | None = current_skill
     if get_skill_category is not None:
-        levelData: List = get_skill_category["levelData"]
+        levelData: dict = get_skill_category["levelData"]
         max_level: int = len(levelData)
         if level > max_level:
             raise SkillLevelOutOfRange
@@ -17,14 +17,14 @@ def get_skillparams_onlevel(typeDesc: str, level: int, current_skill) -> Dict:
                     return params
 
 
-def get_typeDescHash(get_data, skill_data) -> Dict | None:
+def get_typeDescHash(get_data, skill_data) -> dict | None:
     for data in skill_data:
         if data["typeDescHash"] == get_data:
             return data
 
 
-def skill_general(typeDesc: str, level: int, skill_data):
-    current_skill: Dict | None = get_typeDescHash(typeDesc, skill_data)
+def skill_general(typeDesc: str, level: int, skill_data) -> str:
+    current_skill: dict | None = get_typeDescHash(typeDesc, skill_data)
     skill_params: List[float] = get_skillparams_onlevel(typeDesc, level, current_skill)[
         "params"
     ]

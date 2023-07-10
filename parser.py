@@ -4,20 +4,21 @@ from data_query.lightcones_data import LightCone
 
 def hsr_character(name: str):
     char = Character(name)
-    print(char.json_data())
-    print(char.name())
-    print(char.rarity())
-    print(char.damage_type())
-    print(char.path())
-    print(char.stat_data_onlevel(60))
-    for stat in char.stat_data_max():
-        print(stat)
-    print(char.stat_at_max())
-    print(char.get_skill_data())
+    # print(char.json_data())
+    # print(char.name())
+    # print(char.rarity())
+    # print(char.damage_type())
+    # print(char.path())
+    # print(char.stat_data_onlevel(80))
     for trace in char.trace():
         print(trace)
-    for const in char.constellation():
-        print(const)
+    # for const in char.constellation():
+    #     print(const)
+    # print(char.skill_basicatk())
+    # print(char.skill_skill())
+    # print(char.skill_talent())
+    # print(char.skill_ultimate())
+    # print(char.skill_technique())
 
 
 def hsr_lightcone(name_id: int):
@@ -25,7 +26,6 @@ def hsr_lightcone(name_id: int):
     print(lc.json_data())
     print(lc.name())
     print(lc.rarity())
-    print(lc.level_data())
     print(lc.level_data_onlevel(60))
     print(lc.skill_data())
     print(lc.skill_data_onlevel(4))
@@ -34,4 +34,4 @@ def hsr_lightcone(name_id: int):
 
 hsr_character("arlan")
 print()
-hsr_lightcone(20000)
+# hsr_lightcone(20000)
