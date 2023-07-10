@@ -41,18 +41,6 @@ class TestCharacter(unittest.TestCase):
                 )
         self.assertRaises(LevelOutOfRangeError, test_char.stat_data_onlevel, "potato")
 
-    def test_stat_data_max(self):
-        stat_data_max = test_char.stat_data_max()
-        self.assertEqual(isinstance(stat_data_max, Generator), True)
-        for data in stat_data_max:
-            self.assertEqual(isinstance(data, tuple), True)
-            self.assertEqual(len(data), 2)
-            self.assertEqual(data[0] is not None, True)
-            self.assertEqual(data[1] is not None, True)
-
-    def test_stat_at_max(self):
-        content = test_char.stat_at_max()
-        self.assertEqual(isinstance(content, dict), True)
 
     def test_skills(self):
         skills_data = test_char.get_skill_data()

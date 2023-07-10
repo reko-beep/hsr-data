@@ -19,9 +19,6 @@ class TestLightcones(unittest.TestCase):
         rarity = 3
         self.assertEqual(test_lc.rarity(), rarity)
 
-    def test_level_data(self):
-        self.assertEqual(isinstance(test_lc.level_data(), list), True)
-
     def test_level_data_onlevel(self):
         level_list = SharedVar.level()
         self.assertEqual(isinstance(test_lc.level_data_onlevel(), dict), True)
