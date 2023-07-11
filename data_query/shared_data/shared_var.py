@@ -2,6 +2,7 @@ from typing import List, Tuple
 from itertools import count
 import re
 
+
 def level() -> List[int]:
     level_iterator: count = count(start=20, step=10)
     level_list: List = list(next(level_iterator) for _ in range(7))
@@ -11,12 +12,19 @@ def level() -> List[int]:
 def readable_descHash(
     typeDesc: str, skill_params: List[float], desc: str, level: int | str, output=None
 ) -> str:
-    char_skill = ["Basic ATK", "Skill", "Ultimate", "Talent", "Technique", "constellation"]
+    char_skill = [
+        "Basic ATK",
+        "Skill",
+        "Ultimate",
+        "Talent",
+        "Technique",
+        "constellation",
+    ]
     value_params: Tuple = tuple(
         f"{value * 100:.1f}" if isinstance(value, float) else str(value)
         for value in skill_params
     )
-    deschash_cleaned:str = re.sub("<[^\>]+.", "", desc)
+    deschash_cleaned: str = re.sub("<[^\>]+.", "", desc)
     descHash_list: List = []
     if "#1[i]" not in deschash_cleaned:
         if output in char_skill:
@@ -42,5 +50,3 @@ def readable_descHash(
         return f"{typeDesc} {level}-set: {descHash_list[-1]}"
     else:
         pass
-
-

@@ -15,4 +15,3 @@ class Materials:
 
     def rarity(self) -> str:
         return self.content.get("rarity")
-
