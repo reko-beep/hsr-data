@@ -47,32 +47,50 @@ class Relic:
                 )
             return pieces_effect_list
 
-    def piece_main_stat(self) -> Generator[[dict[str, Any]], None, None]:
+    def main_stat(self, stat: str = "main") -> Generator[[dict[str, Any]], None, None]:
         pieces_data: list[dict] = self.pieces_effect_data()
         for data in pieces_data:
-            name = data.get("name")
-            piece_part = data.get("baseTypeText")
-            rarity_data = data.get("rarityData")
+            name: str = data.get("name")
+            piece_part: str = data.get("baseTypeText")
+            rarity_data: str = data.get("rarityData")
             for key in rarity_data.keys():
-                main_stat_raw: dict = rarity_data[key]
-                main_stat: list = main_stat_raw.get("mainAffixes")
+                stat_raw: dict = rarity_data[key]
+                propertyicon_path: str = stat_raw.get("propertyIconPath")
+                max_level: int = stat_raw.get("maxLevel")
+                main_stat: list = stat_raw.get("mainAffixes")
                 yield {
-                    "rarity": key,
+                    "rarity": int(key),
                     "name": name,
                     "baseTypeText": piece_part,
+                    "maxLevel": max_level,
                     "mainAffixes": main_stat,
                 }
 
-
-if __name__ == "__main__":
-    # for filename in os.listdir("raw_data/en/relics"):
-    #     if ".json" in filename:
-    #         id = filename.replace(".json", "")
-    #         relic = Relic(id)
-    #         for data in relic.set_bonus():
-    #             print(data)
-    relic = Relic(101)
-    # print(relic.pieces_effect_data())
-    for data in relic.piece_main_stat():
-        if data.get("baseTypeText") == "Hands":
-            print(data)
+    def sub_stat(self) -> Generator[[dict[str, Any]], None, None]:
+        pieces_data: list[dict] = self.pieces_effect_data()
+        for data in pieces_data:
+            name: str = data.get("name")
+            piece_part: str = data.get("baseTypeText")
+            rarity_data: str = data.get("rarityData")
+            for key in rarity_data.keys():
+                stat_raw: dict = rarity_data[key]
+                sub_stats: list = stat_raw.get("subAffixes")
+                for sub_stat in sub_stats:
+                    sub_stat_name: str = sub_stat.get("propertyName")
+                    sub_stat_propertyicon: str = sub_stat.get("propertyIconPath")
+                    sub_stat_ispercent: bool = sub_stat.get("isPercent")
+                    base_value: float | int = sub_stat.get("baseValue")
+                    level_add: float | int = sub_stat.get("levelAdd")
+                    step_value: float | int = sub_stat.get("stepValue")
+                    max_step: int = sub_stat.get("maxStep")
+                    yield {
+                        "name": name,
+                        "isPercent": sub_stat_ispercent,
+                        "baseTypeText": piece_part,
+                        "rarity": int(key),
+                        "propertyName": sub_stat_name,
+                        "propertyIconPath": sub_stat_propertyicon,
+                        "baseValue": base_value,
+                        "levelAdd": level_add,
+                        "stepValue": step_value,
+                    }
