@@ -1,14 +1,13 @@
 import sqlite3 as sql
-from typing import Callable
 import os
 from data_query.character_data import Character
+from dotenv import dotenv_values
 
-
-hsr_database = r"data_query/hsr_database/db/hsr_database.db"
+key = dotenv_values(".env")
 
 
 def db_connect():
-    return sql.connect(self.hsr_database)
+    return sql.connect(key["DB_LOCATION"])
 
 
 def create_table(conn) -> None:
@@ -42,7 +41,7 @@ def insert_data_names(conn) -> None:
 
 
 def check_db() -> list[tuple]:
-    new_con = sql.connect(hsr_database)
+    new_con = sql.connect(key["DB_LOCATION"])
     cursor = new_con.cursor()
     res = cursor.execute("SELECT * FROM char_names")
     return res.fetchall()
