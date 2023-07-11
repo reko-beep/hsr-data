@@ -7,7 +7,7 @@ key = dotenv_values(".env")
 
 
 def db_connect():
-    return sql.connect(key["DB_LOCATION"])
+    return sql.connect(key["FSEARCH_DB_LOCATION"])
 
 
 def create_table(conn):

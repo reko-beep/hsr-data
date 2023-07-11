@@ -7,7 +7,7 @@ key = dotenv_values(".env")
 
 
 def db_connect():
-    return sql.connect(key["DB_LOCATION"])
+    return sql.connect(key["FSEARCH_DB_LOCATION"])
 
 
 def create_table(conn):
@@ -29,7 +29,7 @@ def insert_data(conn):
 
 
 def check_db():
-    new_con = sql.connect(key["DB_LOCATION"])
+    new_con = sql.connect(key["FSEARCH_DB_LOCATION"])
     cursor = new_con.cursor()
     res = cursor.execute("SELECT * FROM lc_names")
     print(res.fetchall())
