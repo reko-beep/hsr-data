@@ -15,6 +15,9 @@ class Relic:
         if data is not None:
             return data
 
+    def id(self) -> int:
+        return int(self.content.get("pageId"))
+
     def set_bonus(self) -> Generator[str, None, None]:
         skill_data: list[dict] | None = self.content.get("skills")
         if skill_data is not None:
