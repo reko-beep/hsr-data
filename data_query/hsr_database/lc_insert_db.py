@@ -162,3 +162,46 @@ def insert_data_level_onlevel(conn):
     )
     conn.commit()
     conn.close()
+
+
+def create_table_skilldeschash(conn):
+    cursor = conn.cursor()
+    Q_CREATE_TABLE_SKILLDESCHASH = """CREATE TABLE IF NOT EXISTS lc_skill_desc(
+    lc_id INTEGER,
+    level INTEGER,
+    skill_deschash TEXT,
+    FOREIGN KEY(lc_id) REFERENCES lightcones(lc_id)
+    )
+    """
+    cursor.execute(Q_CREATE_TABLE_SKILLDESCHASH)
+
+
+def insert_skill_deschash(conn):
+    cursor = conn.cursor()
+    lc_ids: list[int] = cursor.execute("SELECT lc_id FROM lightcones")
+    data_skill_deschash = []
+    for id in lc_ids:
+        for index in range(5):
+            lc_id: int = id[0]
+            level: int = index + 1
+            description: str = LightCone(id[0]).skill_descHash(index + 1)
+
+            data_skill_deschash.append(
+                {"lc_id": lc_id, "level": level, "skill_descHash": description}
+            )
+    Q_INSERT_INTO_LC_SKILL_DESC = """INSERT INTO lc_skill_desc(
+    lc_id,
+    level,
+    skill_deschash
+    ) VALUES(
+    :lc_id,
+    :level,
+    :skill_descHash
+    )
+    """
+    cursor.executemany(Q_INSERT_INTO_LC_SKILL_DESC, data_skill_deschash)
+    conn.commit()
+    conn.close()
+
+
+insert_skill_deschash(db_connect("lc"))
