@@ -72,7 +72,6 @@ def create_table_level_onlevel(conn):
         lc_id INTEGER,
         promotion INTEGER,
         cost TEXT,
-        FOREIGN KEY(promotion) REFERENCES lc_level(promotion),
         FOREIGN KEY(lc_id) REFERENCES lightcones(lc_id)
         )
         """
@@ -103,27 +102,63 @@ def insert_data_level_onlevel(conn):
             defense_base = level_data["defenseBase"]
             defense_add = level_data["defenseAdd"]
             data_lc_level.append(
-                (
-                    lc_id,
-                    promotion,
-                    max_level,
-                    attack_base,
-                    attack_add,
-                    hp_base,
-                    hp_add,
-                    defense_base,
-                    defense_add,
-                )
+                {
+                    "lc_id": lc_id,
+                    "promotion": promotion,
+                    "max_level": max_level,
+                    "attack_base": attack_base,
+                    "attack_add": attack_add,
+                    "hp_base": hp_base,
+                    "hp_add": hp_add,
+                    "defense_base": defense_base,
+                    "defense_add": defense_add,
+                }
             )
-            data_lc_level_cost.append((lc_id, promotion, json.dumps(cost)))
+            data_lc_level_cost.append(
+                {"lc_id": lc_id, "promotion": promotion, "cost": json.dumps(cost)}
+            )
+    Q_INSERT_INTO_LC_LEVEL = """INSERT INTO lc_level(
+            lc_id,
+            promotion,
+            max_level,
+            attack_base,
+            attack_add,
+            hp_base,
+            hp_add,
+            defense_base,
+            defense_add
+            ) VALUES(
+        :lc_id,
+        :promotion,
+        :max_level,
+        :attack_base,
+        :attack_add,
+        :hp_base,
+        :hp_add,
+        :defense_base,
+        :defense_add
+        )
+    """
 
-    Q_INSERT_INTO_LC_LEVEL = "INSERT INTO lc_level VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?)"
-    Q_INSERT_INTO_LC_LEVEL_COST = "INSERT INTO lc_level_cost VALUES(?, ?, ?)"
-    cursor.executemany(Q_INSERT_INTO_LC_LEVEL, data_lc_level)
+    Q_INSERT_INTO_LC_LEVEL_COST = """INSERT INTO lc_level_cost(
+    lc_id,
+    promotion,
+    cost
+    ) VALUES(
+    :lc_id,
+    :promotion,
+    :cost
+    )
+    """
+
+    cursor.executemany(
+        Q_INSERT_INTO_LC_LEVEL,
+        data_lc_level,
+    )
     conn.commit()
-    cursor.executemany(Q_INSERT_INTO_LC_LEVEL_COST, data_lc_level_cost)
+    cursor.executemany(
+        Q_INSERT_INTO_LC_LEVEL_COST,
+        data_lc_level_cost,
+    )
     conn.commit()
     conn.close()
-
-insert_data_level_onlevel(db_connect("lc"))
-# create_table_level_onlevel(db_connect("lc"))
