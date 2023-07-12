@@ -11,7 +11,7 @@ def level() -> List[int]:
 
 def readable_descHash(
     typeDesc: str, skill_params: List[float], desc: str, level: int | str, output=None
-) -> str:
+) -> str | None:
     char_skill = [
         "Basic ATK",
         "Skill",
@@ -50,4 +50,4 @@ def readable_descHash(
     elif output == "relic":
         return f"{typeDesc} {level}-set: {descHash_list[-1]}"
     else:
-        pass
+        return None
