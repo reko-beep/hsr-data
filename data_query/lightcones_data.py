@@ -17,6 +17,9 @@ class LightCone:
     def name(self) -> str:
         return self.content["name"]
 
+    def lc_id(self) -> int:
+        return int(self.content["pageId"])
+
     def rarity(self) -> int:
         return self.content["rarity"]
 
@@ -53,4 +56,5 @@ class LightCone:
         descHash: str = self.skill_data()["descHash"]
         name: str = self.skill_data()["name"]
         skill_params: List = skill_onlevel_data["params"]
-        return SharedVar.readable_descHash(name, skill_params, descHash, level)
+        output = "lightcone"
+        return SharedVar.readable_descHash(name, skill_params, descHash, level, output)

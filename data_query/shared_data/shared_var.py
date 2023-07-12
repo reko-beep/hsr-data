@@ -19,6 +19,7 @@ def readable_descHash(
         "Talent",
         "Technique",
         "constellation",
+        "lightcone",
     ]
     value_params: Tuple = tuple(
         f"{value * 100:.1f}" if isinstance(value, float) else str(value)
