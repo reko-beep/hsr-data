@@ -54,13 +54,12 @@ class LightCone:
         if isinstance(skill_onlevel_data, str):
             return skill_onlevel_data
         else:
-            if skill_onlevel_data is not None:
-                descHash: str = self.skill_data()["descHash"]
-                name: str = self.skill_data()["name"]
-                skill_params: list = skill_onlevel_data["params"]
-                output = "lightcone"
-                return SharedVar.readable_descHash(
-                    name, skill_params, descHash, level, output
-                )
-            else:
-                return None
+            if skill_onlevel_data is None: return
+            descHash: str = self.skill_data()["descHash"]
+            name: str = self.skill_data()["name"]
+            skill_params: list = skill_onlevel_data["params"]
+            output = "lightcone"
+            return SharedVar.readable_descHash(
+                name, skill_params, descHash, level, output
+            )
+

@@ -13,16 +13,17 @@ class Materials:
         else:
             return None
 
+
     def id(self) -> str | None:
         embedded_item: dict | None = self.content.get("embeddedItem")
-        if embedded_item is not None:
-            id = embedded_item.get("id")
-            if id is not None:
-                return id
-            else:
-                return None
+        if embedded_item is not None: return
+        id = embedded_item.get("id")
+        if id is not None:
+            return id
         else:
             return None
+
+
 
     def rarity(self) -> str | None:
         rarity = self.content.get("rarity")
@@ -30,3 +31,5 @@ class Materials:
             return rarity
         else:
             return None
+
+

@@ -86,10 +86,9 @@ class Character:
         traces_data: List = self.content["skillTreePoints"]
         for data in traces_data:
             trace = data.get("embedBonusSkill")
-            if trace is not None:
-                yield trace
-            else:
-                pass
+            if trace is None: return
+            yield trace
+
 
     def constellation(
         self,
@@ -110,8 +109,8 @@ class Character:
             descHash: str | None = SharedVar.readable_descHash(
                 const_name, const_params, const_desc, "Max", output
             )
-            if descHash is not None:
-                yield re.sub(r"[\.!%,:;?](?!$| )", r"\g<0> ", descHash)
+            if descHash is None: return
+            yield re.sub(r"[\.!%,:;?](?!$| )", r"\g<0> ", descHash)
 
     def skill_basicatk(self, level: int = 9) -> str | None:
         skill_basicatk: str | None = skill_desc.skill_general(
