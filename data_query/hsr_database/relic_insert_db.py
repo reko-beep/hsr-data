@@ -1,4 +1,5 @@
 import sqlite3
+import json
 from dotenv import dotenv_values
 from data_query.relics_data import Relic
 
@@ -89,5 +90,67 @@ def insert_data_set_bonus(conn: sqlite3.Connection):
     )
     """
     cursor.executemany(Q_INSERT_INTO_SET_BONUS, data_set_bonus)
+    conn.commit()
+    conn.close()
+
+# main_stat_schema
+# yield {
+#     "rarity": int(key),
+#     "name": name,
+#     "baseTypeText": piece_part,
+#     "maxLevel": max_level,
+#     "mainAffixes": main_stat, -> json string?
+# }
+
+def create_table_main_stat(conn: sqlite3.Connection):
+    cursor = conn.cursor()
+    cursor.execute("CREATE TABLE IF NOT EXISTS relic_main_stat("
+                   "relic_id INTEGER,"
+                   "name TEXT,"
+                   "rarity INTEGER,"
+                   "baseTypeText TEXT,"
+                   "max_level INTEGER,"
+                   "main_affixes TEXT,"
+                   "FOREIGN KEY(relic_id) REFERENCES relics(relic_id)"
+                   ")")
+
+def insert_data_main_stat(conn: sqlite3.Connection):
+    cursor = conn.cursor()
+    relic_ids = cursor.execute("SELECT relic_id FROM relics")
+    data_main_stat = []
+    for relic_id in relic_ids:
+        id: int = relic_id[0]
+        main_stat = Relic(id).main_stat()
+        for stat in main_stat:
+            rarity: int = stat.get("rarity")
+            name: str = stat.get("name")
+            piece_part: str = stat.get("baseTypeText")
+            max_level: int = stat.get("maxLevel")
+            main: list[dict] = stat.get("mainAffixes")
+            data_main_stat.append({
+                "relic_id": id,
+                "rarity": rarity,
+                "name": name,
+                "baseTypeText": piece_part,
+                "maxLevel": max_level,
+                "mainAffixes": json.dumps(main)
+            })
+    Q_INSERT_INTO_RELIC_MAIN_STAT = """INSERT INTO relic_main_stat(
+    relic_id,
+    name,
+    rarity,
+    baseTypeText,
+    max_level,
+    main_affixes
+    ) VALUES(
+    :relic_id,
+    :rarity,
+    :name,
+    :baseTypeText,
+    :maxLevel,
+    :mainAffixes
+    )
+    """
+    cursor.executemany(Q_INSERT_INTO_RELIC_MAIN_STAT, data_main_stat)
     conn.commit()
     conn.close()
