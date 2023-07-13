@@ -30,7 +30,7 @@ class Relic:
             return
         return int(rarity)
 
-    def set_bonus(self) -> Generator[dict | None, None, None]:
+    def set_bonus(self) -> Generator[tuple[int, str] | None, None, None]:
         skill_data: list[dict] | None = self.content.get("skills")
         if skill_data is None:
             return

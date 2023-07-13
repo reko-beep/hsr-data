@@ -7,7 +7,7 @@ key = dotenv_values(".env")
 
 
 def db_connect():
-    return sql.connect(key["FSEARCH_DB_LOCATION"])
+    return sql.connect(key["FSEARCH_DB"])
 
 
 def create_table(conn: sql.Connection) -> None:
@@ -43,8 +43,8 @@ def insert_data_names(conn: sql.Connection) -> None:
 
 
 def check_db() -> list[tuple] | None:
-    if key["FSEARCH_DB_LOCATION"] is not None:
-        new_con: sql.Connection = sql.connect(key["FSEARCH_DB_LOCATION"])
+    if key["FSEARCH_DB"] is not None:
+        new_con: sql.Connection = sql.connect(key["FSEARCH_DB"])
         cursor: sql.Cursor = new_con.cursor()
         res: sql.Cursor = cursor.execute("SELECT * FROM char_names")
         return res.fetchall()
