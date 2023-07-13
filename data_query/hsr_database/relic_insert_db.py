@@ -93,26 +93,21 @@ def insert_data_set_bonus(conn: sqlite3.Connection):
     conn.commit()
     conn.close()
 
-# main_stat_schema
-# yield {
-#     "rarity": int(key),
-#     "name": name,
-#     "baseTypeText": piece_part,
-#     "maxLevel": max_level,
-#     "mainAffixes": main_stat, -> json string?
-# }
 
 def create_table_main_stat(conn: sqlite3.Connection):
     cursor = conn.cursor()
-    cursor.execute("CREATE TABLE IF NOT EXISTS relic_main_stat("
-                   "relic_id INTEGER,"
-                   "name TEXT,"
-                   "rarity INTEGER,"
-                   "baseTypeText TEXT,"
-                   "max_level INTEGER,"
-                   "main_affixes TEXT,"
-                   "FOREIGN KEY(relic_id) REFERENCES relics(relic_id)"
-                   ")")
+    cursor.execute(
+        "CREATE TABLE IF NOT EXISTS relic_main_stat("
+        "relic_id INTEGER,"
+        "name TEXT,"
+        "rarity INTEGER,"
+        "baseTypeText TEXT,"
+        "max_level INTEGER,"
+        "main_affixes TEXT,"
+        "FOREIGN KEY(relic_id) REFERENCES relics(relic_id)"
+        ")"
+    )
+
 
 def insert_data_main_stat(conn: sqlite3.Connection):
     cursor = conn.cursor()
@@ -127,14 +122,16 @@ def insert_data_main_stat(conn: sqlite3.Connection):
             piece_part: str = stat.get("baseTypeText")
             max_level: int = stat.get("maxLevel")
             main: list[dict] = stat.get("mainAffixes")
-            data_main_stat.append({
-                "relic_id": id,
-                "rarity": rarity,
-                "name": name,
-                "baseTypeText": piece_part,
-                "maxLevel": max_level,
-                "mainAffixes": json.dumps(main)
-            })
+            data_main_stat.append(
+                {
+                    "relic_id": id,
+                    "rarity": rarity,
+                    "name": name,
+                    "baseTypeText": piece_part,
+                    "maxLevel": max_level,
+                    "mainAffixes": json.dumps(main),
+                }
+            )
     Q_INSERT_INTO_RELIC_MAIN_STAT = """INSERT INTO relic_main_stat(
     relic_id,
     name,
@@ -144,8 +141,8 @@ def insert_data_main_stat(conn: sqlite3.Connection):
     main_affixes
     ) VALUES(
     :relic_id,
-    :rarity,
     :name,
+    :rarity,
     :baseTypeText,
     :maxLevel,
     :mainAffixes
