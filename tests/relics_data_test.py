@@ -11,6 +11,9 @@ class TestRelics(unittest.TestCase):
     def test_id(self):
         self.assertEqual(test_relic.id(), 101)
 
+    def test_rarity(self):
+        rarity = 5
+        self.assertEqual(test_relic.rarity(), rarity)
     def test_set_bonus(self):
         for data in test_relic.set_bonus():
             self.assertEqual(isinstance(data, str), True)

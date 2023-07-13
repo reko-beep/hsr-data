@@ -11,11 +11,10 @@ import data_query.character_skill.skill_description as skill_desc
 
 class Character:
     def __init__(self, name: str | None = None) -> None:
-        if name is not None:
-            with open(f"raw_data/en/characters/{name}.json") as file:
-                self.content: Dict = json.loads(file.read())
-        else:
+        if name is None:
             sys.exit("Missing 1 argument: name of character")
+        with open(f"raw_data/en/characters/{name}.json") as file:
+            self.content: Dict = json.loads(file.read())
 
     def json_data(self) -> List[str]:
         """
@@ -66,13 +65,12 @@ class Character:
         print(Character("character_name").stat_data_onlevel(80))
         """
         level_list = SharedVar.level()
-        if level in level_list and isinstance(level, int):
-            stat_dict: List[Dict] = self.content["levelData"]
-            for data in stat_dict:
-                if data["maxLevel"] == level:
-                    return data
-        else:
+        if level not in level_list or isinstance(level, int) == False:
             raise LevelOutOfRangeError
+        stat_dict: List[Dict] = self.content["levelData"]
+        for data in stat_dict:
+            if data["maxLevel"] == level:
+                return data
 
     # TODO: trace -> return a cleaned up descHash
     def trace(self) -> Generator[dict, None, None]:
@@ -86,9 +84,9 @@ class Character:
         traces_data: List = self.content["skillTreePoints"]
         for data in traces_data:
             trace = data.get("embedBonusSkill")
-            if trace is None: return
+            if trace is None:
+                return
             yield trace
-
 
     def constellation(
         self,
@@ -109,50 +107,46 @@ class Character:
             descHash: str | None = SharedVar.readable_descHash(
                 const_name, const_params, const_desc, "Max", output
             )
-            if descHash is None: return
+            if descHash is None:
+                return
             yield re.sub(r"[\.!%,:;?](?!$| )", r"\g<0> ", descHash)
 
     def skill_basicatk(self, level: int = 9) -> str | None:
         skill_basicatk: str | None = skill_desc.skill_general(
             "Basic ATK", level, self.content["skills"]
         )
-        if skill_basicatk is not None:
-            return skill_basicatk
-        else:
-            return None
+        if skill_basicatk is None:
+            return
+        return skill_basicatk
 
     def skill_skill(self, level: int = 15) -> str | None:
         skill_skill: str | None = skill_desc.skill_general(
             "Skill", level, self.content["skills"]
         )
-        if skill_skill is not None:
-            return skill_skill
-        else:
-            return None
+        if skill_skill is None:
+            return
+        return skill_skill
 
     def skill_ultimate(self, level: int = 15) -> str | None:
         skill_ultimate: str | None = skill_desc.skill_general(
             "Ultimate", level, self.content["skills"]
         )
-        if skill_ultimate is not None:
-            return skill_ultimate
-        else:
-            return None
+        if skill_ultimate is None:
+            return
+        return skill_ultimate
 
     def skill_talent(self, level: int = 15) -> str | None:
         skill_talent: str | None = skill_desc.skill_general(
             "Talent", level, self.content["skills"]
         )
-        if skill_talent is not None:
-            return skill_talent
-        else:
-            return None
+        if skill_talent is None:
+            return
+        return skill_talent
 
     def skill_technique(self, level: int = 1) -> str | None:
         skill_techinique: str | None = skill_desc.skill_general(
             "Technique", level, self.content["skills"]
         )
-        if skill_techinique is not None:
-            return skill_techinique
-        else:
-            return None
+        if skill_techinique is None:
+            return
+        return skill_techinique
