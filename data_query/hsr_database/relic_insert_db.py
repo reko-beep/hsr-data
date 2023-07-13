@@ -8,8 +8,10 @@ key = dotenv_values(".env")
 def db_connect(choice: str | None = None):
     if choice is None:
         return
-    if choice == "relics":
-        return sqlite3.connect("db/relics.db")
+    if choice == "relic":
+        return sqlite3.connect(key["RELIC"])
+    elif choice == "fsearch":
+        return sqlite3.connect(key["FSEARCH_DB"])
 
 
 def create_table_primary(conn: sqlite3.Connection):
@@ -21,3 +23,71 @@ def create_table_primary(conn: sqlite3.Connection):
         "rarity INTEGER"
         ")"
     )
+
+
+def insert_data_primary(conn: sqlite3.Connection):
+    cursor = conn.cursor()
+    conn_fsearch = db_connect("fsearch")
+    cursor_fsearch = conn_fsearch.cursor()
+    relics_name_id = cursor_fsearch.execute("SELECT id FROM relics_name")
+    data_relic_primary = []
+    for relic_id in relics_name_id:
+        id: int = relic_id[0]
+        id_relic: int = Relic(id).id()
+        name: str = Relic(id).name()
+        rarity: int = Relic(id).rarity()
+        data_relic_primary.append({"id": id_relic, "name": name, "rarity": rarity})
+    Q_INSERT_INTO_RELIC_PRIMARY = """INSERT INTO relics(
+    relic_id,
+    name,
+    rarity
+    ) VALUES(
+    :id,
+    :name,
+    :rarity
+    )
+    """
+
+    cursor.executemany(Q_INSERT_INTO_RELIC_PRIMARY, data_relic_primary)
+    conn.commit()
+    conn.close()
+
+
+def create_table_set_bonus(conn: sqlite3.Connection):
+    cursor = conn.cursor()
+    cursor.execute(
+        "CREATE TABLE IF NOT EXISTS relic_set_bonus("
+        "relic_id INTEGER,"
+        "use_num INTEGER,"
+        "descHash TEXT,"
+        "FOREIGN KEY(relic_id) REFERENCES relics(relic_id)"
+        ")"
+    )
+
+
+def insert_data_set_bonus(conn: sqlite3.Connection):
+    cursor = conn.cursor()
+    cursor.execute("SELECT relic_id from relics")
+    data_set_bonus = []
+    for id in cursor:
+        set_bonus_data = Relic(id[0]).set_bonus()
+        for bonus in set_bonus_data:
+            relic_id = id[0]
+            use_num = bonus[0]
+            desc_hash = bonus[1]
+            data_set_bonus.append(
+                {"id": relic_id, "useNum": use_num, "descHash": desc_hash}
+            )
+    Q_INSERT_INTO_SET_BONUS = """INSERT INTO relic_set_bonus(
+    relic_id,
+    use_num,
+    descHash
+    ) VALUES(
+    :id,
+    :useNum,
+    :descHash
+    )
+    """
+    cursor.executemany(Q_INSERT_INTO_SET_BONUS, data_set_bonus)
+    conn.commit()
+    conn.close()

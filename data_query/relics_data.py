@@ -30,7 +30,7 @@ class Relic:
             return
         return int(rarity)
 
-    def set_bonus(self) -> Generator[str | None, None, None]:
+    def set_bonus(self) -> Generator[dict | None, None, None]:
         skill_data: list[dict] | None = self.content.get("skills")
         if skill_data is None:
             return
@@ -42,7 +42,10 @@ class Relic:
             name: str | None = self.name()
             if desc and params and set_num and name is None:
                 return
-            yield readable_descHash(name, params, desc, set_num, output)
+            yield (
+                set_num,
+                readable_descHash(name, params, desc, set_num, output),
+            )
 
     def pieces_effect_data(self) -> list[dict] | None:
         pieces_data: dict | None = self.content.get("pieces")
