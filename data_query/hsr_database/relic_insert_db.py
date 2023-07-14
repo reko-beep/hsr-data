@@ -59,6 +59,7 @@ def create_table_set_bonus(conn: sqlite3.Connection):
     cursor = conn.cursor()
     cursor.execute(
         "CREATE TABLE IF NOT EXISTS relic_set_bonus("
+        "p_key INTEGER PRIMARY KEY,"
         "relic_id INTEGER,"
         "use_num INTEGER,"
         "descHash TEXT,"
@@ -100,6 +101,7 @@ def create_table_main_stat(conn: sqlite3.Connection):
     cursor = conn.cursor()
     cursor.execute(
         "CREATE TABLE IF NOT EXISTS relic_main_stat("
+        "p_key INTEGER PRIMARY KEY,"
         "relic_id INTEGER,"
         "name TEXT,"
         "rarity INTEGER,"

@@ -63,6 +63,7 @@ def insert_data_primary(conn: sqlite3.Connection) -> None:
 def create_table_level_onlevel(conn: sqlite3.Connection) -> None:
     cursor: sqlite3.Cursor = conn.cursor()
     Q_CREATE_LC_LEVEL = """CREATE TABLE IF NOT EXISTS lc_level(
+        p_key INTEGER PRIMARY KEY,
         lc_id INTEGER, 
         promotion INTEGER, 
         max_level INTEGER, 
@@ -78,6 +79,7 @@ def create_table_level_onlevel(conn: sqlite3.Connection) -> None:
         """
 
     Q_CREATE_LC_LEVEL_COST = """CREATE TABLE IF NOT EXISTS lc_level_cost(
+        p_key INTEGER PRIMARY KEY,
         lc_id INTEGER,
         promotion INTEGER,
         cost TEXT,
@@ -179,6 +181,7 @@ def insert_data_level_onlevel(conn: sqlite3.Connection) -> None:
 def create_table_skilldeschash(conn: sqlite3.Connection):
     cursor: sqlite3.Cursor = conn.cursor()
     Q_CREATE_TABLE_SKILLDESCHASH = """CREATE TABLE IF NOT EXISTS lc_skill_desc(
+    p_key INTEGER PRIMARY KEY,
     lc_id INTEGER,
     level INTEGER,
     skill_deschash TEXT,
@@ -189,7 +192,7 @@ def create_table_skilldeschash(conn: sqlite3.Connection):
     cursor.execute(Q_CREATE_TABLE_SKILLDESCHASH)
 
 
-def insert_skill_deschash(conn: sqlite3.Connection) -> None:
+def insert_data_skill_deschash(conn: sqlite3.Connection) -> None:
     cursor: sqlite3.Cursor = conn.cursor()
     lc_ids: sqlite3.Cursor = cursor.execute("SELECT lc_id FROM lightcones")
     data_skill_deschash = []
