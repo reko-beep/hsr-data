@@ -15,9 +15,11 @@ def create_relic_db():
     relic_db.create_table_primary(relic_db.db_connect("relic"))
     relic_db.create_table_main_stat(relic_db.db_connect("relic"))
     relic_db.create_table_set_bonus(relic_db.db_connect("relic"))
+    relic_db.create_table_sub_stat(relic_db.db_connect("relic"))
     relic_db.insert_data_primary(relic_db.db_connect("relic"))
     relic_db.insert_data_set_bonus(relic_db.db_connect("relic"))
     relic_db.insert_data_main_stat(relic_db.db_connect("relic"))
+    relic_db.insert_data_sub_stat(relic_db.db_connect("relic"))
 
 
 create_relic_db()

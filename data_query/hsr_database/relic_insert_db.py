@@ -156,3 +156,92 @@ def insert_data_main_stat(conn: sqlite3.Connection):
     cursor.executemany(Q_INSERT_INTO_RELIC_MAIN_STAT, data_main_stat)
     conn.commit()
     conn.close()
+
+
+def create_table_sub_stat(conn: sqlite3.Connection):
+    cursor = conn.cursor()
+    cursor.execute(
+        "CREATE TABLE IF NOT EXISTS relic_sub_stat("
+        "p_key INTEGER PRIMARY KEY, "
+        "relic_id INTEGER, "
+        "name TEXT, "
+        "is_percent INTEGER, "
+        "baseTypeText TEXT, "
+        "rarity INTEGER , "
+        "property_name TEXT,"
+        "property_iconpath TEXT, "
+        "base_value REAL, "
+        "level_add REAL, "
+        "step_value REAL, "
+        "CHECK (is_percent = 0 OR is_percent = 1),"
+        "FOREIGN KEY(relic_id) REFERENCES relics(relic_id)"
+        ")"
+        "STRICT"
+    )
+
+
+def insert_data_sub_stat(conn: sqlite3.Connection):
+    cursor = conn.cursor()
+    relic_ids = cursor.execute("SELECT relic_id FROM relics")
+    data_sub_stat = []
+    for relic_id in relic_ids:
+        id: int = relic_id[0]
+        sub_stat = Relic(id).sub_stat()
+        for stat in sub_stat:
+            id_relic: int = id
+            name: str = stat.get("name")
+            is_percent_bool: bool = stat.get("isPercent")
+            if is_percent_bool:
+                is_percent = 1
+            else:
+                is_percent = 0
+            basetypetext: str = stat.get("baseTypeText")
+            rarity: int = stat.get("rarity")
+            property_name: str = stat.get("propertyName")
+            property_iconpath: str = stat.get("propertyIconPath")
+            base_value = float(stat.get("baseValue"))
+            level_add = float(stat.get("levelAdd"))
+            step_value: float = stat.get("stepValue")
+            data_sub_stat.append(
+                {
+                    "relic_id": id_relic,
+                    "name": name,
+                    "is_percent": is_percent,
+                    "baseTypeText": basetypetext,
+                    "rarity": rarity,
+                    "property_name": property_name,
+                    "property_iconpath": property_iconpath,
+                    "base_value": base_value,
+                    "level_add": level_add,
+                    "step_value": step_value,
+                }
+            )
+
+    Q_INSERT_INTO_SUB_STAT = """INSERT INTO relic_sub_stat(
+    relic_id, 
+    name, 
+    is_percent, 
+    baseTypeText, 
+    rarity, 
+    property_name,
+    property_iconpath, 
+    base_value, 
+    level_add, 
+    step_value 
+    ) VALUES(
+    :relic_id,
+    :name,
+    :is_percent,
+    :baseTypeText,
+    :rarity,
+    :property_name,
+    :property_iconpath,
+    :base_value,
+    :level_add,
+    :step_value
+    )
+    """
+
+    cursor.executemany(Q_INSERT_INTO_SUB_STAT, data_sub_stat)
+    conn.commit()
+    conn.close()
