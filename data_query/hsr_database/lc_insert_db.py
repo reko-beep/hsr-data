@@ -40,6 +40,7 @@ def create_table_primary(conn: sqlite3.Connection) -> None:
         "lc_id INTEGER PRIMARY KEY, "
         "name TEXT, "
         "rarity INTEGER)"
+        "STRICT"
     )
 
 
@@ -65,14 +66,15 @@ def create_table_level_onlevel(conn: sqlite3.Connection) -> None:
         lc_id INTEGER, 
         promotion INTEGER, 
         max_level INTEGER, 
-        attack_base FLOAT, 
-        attack_add FLOAT, 
-        hp_base FLOAT, 
-        hp_add FLOAT, 
-        defense_base FLOAT, 
-        defense_add FLOAT,
+        attack_base REAL, 
+        attack_add REAL, 
+        hp_base REAL, 
+        hp_add REAL, 
+        defense_base REAL, 
+        defense_add REAL,
         FOREIGN KEY(lc_id) REFERENCES lightcones(lc_id)
         )
+        STRICT
         """
 
     Q_CREATE_LC_LEVEL_COST = """CREATE TABLE IF NOT EXISTS lc_level_cost(
@@ -81,6 +83,7 @@ def create_table_level_onlevel(conn: sqlite3.Connection) -> None:
         cost TEXT,
         FOREIGN KEY(lc_id) REFERENCES lightcones(lc_id)
         )
+        STRICT
         """
     cursor.execute(Q_CREATE_LC_LEVEL)
     cursor.execute(Q_CREATE_LC_LEVEL_COST)
@@ -181,6 +184,7 @@ def create_table_skilldeschash(conn: sqlite3.Connection):
     skill_deschash TEXT,
     FOREIGN KEY(lc_id) REFERENCES lightcones(lc_id)
     )
+    STRICT
     """
     cursor.execute(Q_CREATE_TABLE_SKILLDESCHASH)
 

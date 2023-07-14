@@ -23,6 +23,7 @@ def create_table_primary(conn: sqlite3.Connection):
         "name TEXT,"
         "rarity INTEGER"
         ")"
+        "STRICT"
     )
 
 
@@ -63,6 +64,7 @@ def create_table_set_bonus(conn: sqlite3.Connection):
         "descHash TEXT,"
         "FOREIGN KEY(relic_id) REFERENCES relics(relic_id)"
         ")"
+        "STRICT"
     )
 
 
@@ -106,6 +108,7 @@ def create_table_main_stat(conn: sqlite3.Connection):
         "main_affixes TEXT,"
         "FOREIGN KEY(relic_id) REFERENCES relics(relic_id)"
         ")"
+        "STRICT"
     )
 
 
