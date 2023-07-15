@@ -77,7 +77,7 @@ class Character:
                 return data
 
     # TODO: trace -> return a cleaned up descHash
-    def trace(self) -> Generator[dict, None, None]:
+    def trace(self) -> tuple:
         """
         Returns a generator object containing character's Traces data
 

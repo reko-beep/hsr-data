@@ -1,6 +1,7 @@
 import json
 import re
 import os
+from pathlib import Path
 from typing import Generator, Any
 from data_query.shared_data.shared_var import readable_descHash
 
@@ -9,6 +10,7 @@ class Relic:
     def __init__(self, relic_id: int = None):
         if relic_id is None:
             sys.exit("Missing 1 argument: id of relic")
+        os.chdir(Path(__file__).parent.parent)
         with open(f"raw_data/en/relics/{relic_id}.json") as file:
             self.content: dict = json.loads(file.read())
 

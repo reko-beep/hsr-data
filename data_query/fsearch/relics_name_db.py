@@ -1,8 +1,10 @@
 import sqlite3 as sql
 import os
+from pathlib import Path
 from data_query.relics_data import Relic
 from dotenv import dotenv_values
 
+os.chdir(Path(__file__).parent.parent.parent)
 key = dotenv_values(".env")
 
 

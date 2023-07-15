@@ -1,5 +1,7 @@
 import json
 import re
+import os
+from pathlib import Path
 from itertools import count
 from typing import Any, Iterator
 import data_query.shared_data.shared_var as SharedVar
@@ -8,6 +10,7 @@ from data_query.query_errors.errors import *
 
 class LightCone:
     def __init__(self, name: int | None = None) -> None:
+        os.chdir(Path(__file__).parent.parent)
         with open(f"raw_data/en/lightcones/{name}.json") as file:
             self.content: dict = json.loads(file.read())
 

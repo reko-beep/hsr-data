@@ -1,8 +1,10 @@
 import sqlite3 as sql
 import os
+from pathlib import Path
 from data_query.character_data import Character
 from dotenv import dotenv_values
 
+os.chdir(Path(__file__).parent.parent.parent)
 key = dotenv_values(".env")
 
 
@@ -56,5 +58,5 @@ if __name__ == "__main__":
     # create_table(db_connect())
     # insert_data()
     # print(show_table_content())
-    print(check_db())
+    # print(check_db())
     pass
