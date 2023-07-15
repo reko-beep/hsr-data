@@ -5,13 +5,11 @@ from pathlib import Path
 from typing import Generator
 
 
-class Character:
-    def __init__(self, name: str | None = None) -> None:
-        if name is None:
-            sys.exit("Missing 1 argument: name of character")
-        os.chdir(Path(__file__).parent.parent)
-        with open(f"raw_data/en/characters/{name}.json") as file:
-            self.content: dict = json.loads(file.read())
+class TracesEmbedBuff:
+    def __init__(self, content: dict | None = None) -> None:
+        if content is None:
+            sys.exit("Missing 1 argument: json file content")
+        self.content = content
 
     def skilltree_points(self) -> Generator[dict, None, None]:
         traces_data: list = self.content["skillTreePoints"]
@@ -21,6 +19,8 @@ class Character:
     def traces(self):
         for data in self.skilltree_points():
             embed_bonus_skill = data.get("embedBonusSkill")
+            if embed_bonus_skill is None:
+                continue
             yield embed_bonus_skill
 
     def skilltreepoints_children1(self):
@@ -46,6 +46,13 @@ class Character:
                     continue
                 yield children3
 
+    def skilltreepoints_embedbuff_children0(self):
+        for data in self.skilltree_points():
+            embedBuff0 = data.get("embedBuff")
+            if embedBuff0 is None:
+                continue
+            yield embedBuff0
+
     def skilltreepoints_embedbuff_children1(self):
         for datas in self.skilltreepoints_children1():
             embed_buff1 = datas.get("embedBuff")
@@ -68,9 +75,3 @@ class Character:
                 if embed_buff3 is None:
                     continue
                 yield embed_buff3
-
-
-char = Character("bailu")
-for data in char.skilltreepoints_embedbuff_children3():
-    print(data)
-    print()

@@ -1,18 +1,22 @@
 import json
 import sys
 import re
+import os
+from pathlib import Path
 from collections import defaultdict
 from typing import Dict, Generator, Tuple, List, Any
 from itertools import count
 from data_query.query_errors.errors import *
+from data_query.character_module.traces_embed_buff import TracesEmbedBuff
 import data_query.shared_data.shared_var as SharedVar
-import data_query.character_skill.skill_description as skill_desc
+import data_query.character_module.skill_description as skill_desc
 
 
 class Character:
     def __init__(self, name: str | None = None) -> None:
         if name is None:
             sys.exit("Missing 1 argument: name of character")
+        os.chdir(Path(__file__).parent.parent)
         with open(f"raw_data/en/characters/{name}.json") as file:
             self.content: Dict = json.loads(file.read())
 
@@ -81,12 +85,26 @@ class Character:
         for data in trace:
             print(data)
         """
-        traces_data: List = self.content["skillTreePoints"]
-        for data in traces_data:
-            trace = data.get("embedBonusSkill")
-            if trace is None:
-                return
-            yield trace
+        traces_data: List = self.content.get("skillTreePoints")
+        embed_buffs = TracesEmbedBuff(self.content)
+        named_traceslist = []
+        for index, data in enumerate(traces_data):
+            trace_skill = data.get("embedBonusSkill")
+            children1 = data.get("children")
+            if trace_skill is None:
+                continue
+            name = trace_skill.get("name")
+            deschash = trace_skill.get("descHash")
+            level_data = trace_skill.get("levelData")
+            for data in level_data:
+                level = data.get("level")
+                params = data.get("params")
+            output = "trace"
+            readable_deschash = SharedVar.readable_descHash(
+                name, params, deschash, level, output
+            )
+            named_traceslist.append((readable_deschash, children1))
+        return named_traceslist
 
     def constellation(
         self,
@@ -144,9 +162,13 @@ class Character:
         return skill_talent
 
     def skill_technique(self, level: int = 1) -> str | None:
-        skill_techinique: str | None = skill_desc.skill_general(
+        skill_technique: str | None = skill_desc.skill_general(
             "Technique", level, self.content["skills"]
         )
-        if skill_techinique is None:
+        if skill_technique is None:
             return
-        return skill_techinique
+        return skill_technique
+
+
+char = Character("bailu")
+print(char.trace())
