@@ -3,8 +3,9 @@ import sqlite3 as sql
 from data_query.materials_data import Materials
 from dotenv import dotenv_values
 
+
 key = dotenv_values(".env")
-conn = sql.connect(key["FSEARCH_DB_LOCATION"])
+conn = sql.connect(key["FSEARCH_DB"])
 
 
 class TestMaterials(unittest.TestCase):
@@ -29,4 +30,3 @@ class TestMaterials(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-    conn.close()

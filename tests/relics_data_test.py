@@ -16,7 +16,7 @@ class TestRelics(unittest.TestCase):
         self.assertEqual(test_relic.rarity(), rarity)
     def test_set_bonus(self):
         for data in test_relic.set_bonus():
-            self.assertEqual(isinstance(data, str), True)
+            self.assertEqual(isinstance(data, tuple), True)
 
     def test_pieces_effect_data(self):
         self.assertEqual(isinstance(test_relic.pieces_effect_data(), list), True)
