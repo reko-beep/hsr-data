@@ -2,6 +2,8 @@ import json
 import sys
 import re
 import os
+import sqlite3
+from dotenv import dotenv_values
 from pathlib import Path
 from collections import defaultdict
 from typing import Dict, Generator, Tuple, List, Any
@@ -76,8 +78,7 @@ class Character:
             if data["maxLevel"] == level:
                 return data
 
-    # TODO: trace -> return a cleaned up descHash
-    def trace(self) -> tuple:
+    def trace(self) -> dict:
         """
         Returns a generator object containing character's Traces data
 
@@ -88,6 +89,7 @@ class Character:
         traces_data: List = self.content.get("skillTreePoints")
         embed_buffs = TracesEmbedBuff(self.content)
         named_traceslist = []
+        embedskill_buffs = defaultdict(list)
         for index, data in enumerate(traces_data):
             trace_skill = data.get("embedBonusSkill")
             children1 = data.get("children")
@@ -104,7 +106,24 @@ class Character:
                 name, params, deschash, level, output
             )
             named_traceslist.append((readable_deschash, children1))
-        return named_traceslist
+        for data in named_traceslist:
+            name: str = data[0]
+            infos: list = data[1]  # list with length 1 :)
+            for info in infos:
+                childrens: dict = info
+                embed_buff0 = childrens.get("embedBuff")
+                embedskill_buffs[name] += [embed_buff0]
+                children1 = childrens.get("children")
+                for data1 in children1:
+                    embed_buff1 = data1.get("embedBuff")
+                    embedskill_buffs[name] += [embed_buff1]
+                    children2 = data1.get("children")
+                    if len(children2) == 0:
+                        embed_buff2 = None
+                    for data2 in children2:
+                        embed_buff2 = data2.get("embedBuff")
+                        embedskill_buffs[name] += [embed_buff2]
+        return embedskill_buffs
 
     def constellation(
         self,
@@ -168,7 +187,3 @@ class Character:
         if skill_technique is None:
             return
         return skill_technique
-
-
-char = Character("bailu")
-print(char.trace())
