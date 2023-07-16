@@ -1,12 +1,15 @@
 import unittest
+import sqlite3
+import data_query.shared_data.shared_var as SharedVar
 from itertools import count
 from data_query.character_data import Character
 from typing import Generator
 from data_query.query_errors.errors import *
-import data_query.shared_data.shared_var as SharedVar
+from dotenv import dotenv_values
 
 char_name = "arlan"
 test_char = Character(char_name)
+key = dotenv_values(".env")
 
 
 class TestCharacter(unittest.TestCase):
@@ -41,14 +44,20 @@ class TestCharacter(unittest.TestCase):
                 )
         self.assertRaises(LevelOutOfRangeError, test_char.stat_data_onlevel, "potato")
 
-
     def test_skills(self):
         skills_data = test_char.get_skill_data()
         self.assertEqual(isinstance(skills_data, list), True)
 
     def test_trace(self):
-        for data in test_char.trace():
-            self.assertEqual(isinstance(data, dict), True)
+        data = test_char.trace()
+        self.assertEqual(isinstance(data, dict), True)
+        conn = sqlite3.connect(key["FSEARCH_DB"])
+        cursor = conn.cursor()
+        cursor.execute("SELECT filename FROM char_names")
+        for name in cursor:
+            trace_data = Character(name[0]).trace()
+            self.assertEqual(isinstance(trace_data, dict), True)
+        conn.close()
 
     def test_constellation(self):
         for data in test_char.constellation():

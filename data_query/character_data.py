@@ -105,7 +105,10 @@ class Character:
             readable_deschash = SharedVar.readable_descHash(
                 name, params, deschash, level, output
             )
-            named_traceslist.append((readable_deschash, children1))
+            readable_deschash_punctuations = SharedVar.correct_punctuations(
+                readable_deschash
+            )
+            named_traceslist.append((readable_deschash_punctuations, children1))
         for data in named_traceslist:
             name: str = data[0]
             infos: list = data[1]  # list with length 1 :)
@@ -146,7 +149,7 @@ class Character:
             )
             if descHash is None:
                 return
-            yield re.sub(r"[\.!%,:;?](?!$| )", r"\g<0> ", descHash)
+            yield SharedVar.correct_punctuations(descHash)
 
     def skill_basicatk(self, level: int = 9) -> str | None:
         skill_basicatk: str | None = skill_desc.skill_general(

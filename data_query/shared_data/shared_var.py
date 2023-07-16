@@ -52,3 +52,7 @@ def readable_descHash(
         return f"{typeDesc} {level}-set: {descHash_list[-1]}"
     else:
         return None
+
+
+def correct_punctuations(readable_deschashes) -> str:
+    return re.sub(r"[\.!%,:;?](?!$| )", r"\g<0> ", readable_deschashes)
