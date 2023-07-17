@@ -9,7 +9,6 @@ from collections import defaultdict
 from typing import Generator, Any
 from itertools import count
 from data_query.query_errors.errors import *
-from data_query.character_module.traces_embed_buff import TracesEmbedBuff
 import data_query.character_module.trace_module as TraceModule
 import data_query.shared_data.shared_var as SharedVar
 import data_query.character_module.skill_description as skill_desc
