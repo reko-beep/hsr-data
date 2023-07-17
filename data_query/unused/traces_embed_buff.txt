@@ -46,7 +46,7 @@ class TracesEmbedBuff:
                     continue
                 yield children3
 
-    def skilltreepoints_embedbuff_children0(self):
+    def skilltreepoints_embedbuff_children0(self):  # detached embed buffs
         for data in self.skilltree_points():
             embedBuff0 = data.get("embedBuff")
             if embedBuff0 is None:
