@@ -31,3 +31,7 @@ class Materials:
         if rarity is None:
             return
         return rarity
+
+    def drop_location(self):
+        droplocation = self.content.get("comeFrom")
+        return droplocation

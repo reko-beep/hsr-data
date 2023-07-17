@@ -14,7 +14,8 @@ class Books:
             self.content: dict = json.loads(file.read())
 
     def name(self) -> str:
-        return self.content.get("name")
+        name = self.content.get("name")
+        return SharedVar.readable_deschash_text(name)
 
     def book_id(self) -> int:
         return int(self.content.get("pageId"))

@@ -3,6 +3,7 @@ import os
 from pathlib import Path
 import data_query.shared_data.shared_var as SharedVar
 
+
 class Foods:
     def __init__(self, food_id: int):
         os.chdir(Path(__file__).parent.parent)
@@ -31,10 +32,10 @@ class Foods:
             food_type = tag.get("name")
             return food_type
 
-
     def drop_location(self) -> list:
         embedded_item: dict = self.content.get("embeddedItem")
         come_from: list = embedded_item.get("comeFrom")
         return come_from
+
 
 print(Foods(991869).drop_location())
