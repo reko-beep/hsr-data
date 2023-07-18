@@ -57,11 +57,13 @@ class TestCharacter(unittest.TestCase):
         for name in cursor:
             trace_data = Character(name[0]).trace()
             self.assertEqual(isinstance(trace_data, dict), True)
+            print(trace_data)
         conn.close()
 
     def test_constellation(self):
         for data in test_char.constellation():
             self.assertEqual(isinstance(data, str), True)
+            print(data)
 
     def test_skills(self):
         self.assertEqual(test_char.name(), "Arlan")

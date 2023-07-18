@@ -55,7 +55,11 @@ def readable_descHash(
 
 
 def correct_punctuations(readable_deschashes) -> str:
-    return re.sub(r"[\.!%,:;?](?!$| )", r"\g<0> ", readable_deschashes)
+    return re.sub(r"([\.!,:;?])([a-zA-Z])", r"\g<1> \g<2>", readable_deschashes)
+
+
+def correct_punctuations_lv(readable_deschashes) -> str:
+    return re.sub(r"[\.!,:;?](?!$| )", r"\g<0>", readable_deschashes)
 
 
 def readable_deschash_text(deschash):
