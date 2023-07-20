@@ -15,7 +15,7 @@ class LightCone:
             self.content: dict = json.loads(file.read())
 
     def json_data(self) -> list[str]:
-        return [data for data in self.content.keys()]
+        return [data for data in self.content]
 
     def name(self) -> str:
         return self.content["name"]
@@ -26,8 +26,11 @@ class LightCone:
     def rarity(self) -> int:
         return self.content["rarity"]
 
+    def level_data(self):
+        return self.content.get("levelData")
+
     def level_data_onlevel(self, level: int = 80) -> dict | None:  # type: ignore
-        level_data = self.content["levelData"]
+        level_data = self.level_data()
         level_list: list[int] = SharedVar.level()
         levelData: list[dict] = level_data
         if level in level_list:

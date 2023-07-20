@@ -19,6 +19,17 @@ class Foods:
     def rarity(self) -> int:
         return self.content.get("rarity")
 
+    def compose_data(self):
+        compose_data: list = self.content.get("composeData")  # list of length 1 :)
+        for data in compose_data:
+            return {"items": data.get("items")}
+
+    def purpose(self) -> dict:
+        embedded_item: dict = self.content.get("embeddedItem")
+        purpose_id: int = embedded_item.get("purposeId")
+        purpose: str = embedded_item.get("purpose")
+        return {"purposeId": purpose_id, "purpose": purpose}
+
     def description(self) -> str:
         embedded_item: dict = self.content.get("embeddedItem")
         food_desc: str = embedded_item.get("desc")
@@ -36,6 +47,3 @@ class Foods:
         embedded_item: dict = self.content.get("embeddedItem")
         come_from: list = embedded_item.get("comeFrom")
         return come_from
-
-
-print(Foods(991869).drop_location())

@@ -26,7 +26,7 @@ class Books:
     def description(self) -> str:
         return self.content.get("desc")
 
-    def volumes(self):
+    def volumes(self) -> list:
         volumes: list = self.content.get("volumes")
         volumes_dict = defaultdict(str)
         volumes_list = []

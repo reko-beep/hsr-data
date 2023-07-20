@@ -26,6 +26,25 @@ class Materials:
             return
         return id
 
+    def type(self) -> None | int:
+        embedded_item: dict | None = self.content.get("embeddedItem")
+        if embedded_item is None:
+            return
+        type: int | None = embedded_item.get("type")
+        if type is None:
+            return
+        return type
+
+    def purpose(self) -> dict | None:
+        embedded_item: dict | None = self.content.get("embeddedItem")
+        if embedded_item is None:
+            return
+        purpose_id: int | None = embedded_item.get("purposeId")
+        purpose: str | None = embedded_item.get("purpose")
+        if purpose_id or purpose is None:
+            return
+        return {"purposeId": purpose_id, "purpose": purpose}
+
     def rarity(self) -> str | None:
         rarity = self.content.get("rarity")
         if rarity is None:
