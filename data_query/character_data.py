@@ -113,7 +113,7 @@ class Character:
             )
             if descHash is None:
                 return
-            yield SharedVar.correct_punctuations_lv(descHash)
+            yield SharedVar.correct_punctuations(descHash, output)
 
     def skill_basicatk(self, level: int = 9) -> str | None:
         skill_basicatk: str | None = skill_desc.skill_general(

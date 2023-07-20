@@ -18,7 +18,6 @@ def readable_descHash(
         "Ultimate",
         "Talent",
         "Technique",
-        "constellation",
         "lightcone",
         "trace",
     ]
@@ -33,6 +32,8 @@ def readable_descHash(
             return f"{typeDesc} Lv.{level}: {deschash_cleaned}"
         elif output == "relic":
             return f"{typeDesc} {level}-set: {deschash_cleaned}"
+        elif output == "constellation":
+            return f"{typeDesc}: {deschash_cleaned}"
         else:
             pass
     for index in range(len(skill_params)):
@@ -50,17 +51,22 @@ def readable_descHash(
         return f"{typeDesc} Lv.{level}: {descHash_list[-1]}"
     elif output == "relic":
         return f"{typeDesc} {level}-set: {descHash_list[-1]}"
+    elif output == "constellation":
+        return f"{typeDesc}: {descHash_list[-1]}"
     else:
         return None
 
 
-def correct_punctuations(readable_deschashes) -> str:
-    return re.sub(r"([\.!,:;?])([a-zA-Z])", r"\g<1> \g<2>", readable_deschashes)
+def correct_punctuations(readable_deschashes, output=None) -> str:
+    default = re.sub(r"([\.!,:;?])([a-zA-Z])", r"\g<1> \g<2>", readable_deschashes)
+    if output is None:
+        return default
+    elif output == "constellation":
+        const = re.sub(r"([\.])\s([+?\d])", r"\g<1>\g<2>", default)
+        return const
+    else:
+        pass
 
 
-def correct_punctuations_lv(readable_deschashes) -> str:
-    return re.sub(r"[\.!,:;?](?!$| )", r"\g<0>", readable_deschashes)
-
-
-def readable_deschash_text(deschash):
+def readable_deschash_text(deschash) -> str:
     return re.sub("<[^\>]+.", "", deschash)
