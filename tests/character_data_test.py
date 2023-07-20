@@ -91,6 +91,75 @@ class TestCharacter(unittest.TestCase):
             "Technique Lv.1: Immediately attacks the enemy. After entering battle, deals Lightning DMG equal to 80.0% of Arlan's ATK to all enemies.",
         )
 
+        bailu = Character("bailu")
+
+        self.assertEqual(
+            bailu.skill_basicatk(),
+            "Basic ATK Lv.9: Deals Lightning DMG equal to 130.0% of Bailu's ATK to a single enemy.",
+        )
+        self.assertEqual(
+            bailu.skill_skill(),
+            "Skill Lv.15: Heals a single ally for 13.7% of Bailu's Max HP plus 399.75. Bailu then heals random allies 2 time(s). After each healing, HP restored from the next healing is reduced by 15.0%.",
+        )
+        self.assertEqual(
+            bailu.skill_talent(),
+            "Talent Lv.15: After an ally with Invigoration is hit, restores the ally's HP for 6.3% of Bailu's Max HP plus 184.5. This effect can trigger 2 time(s). When an ally receives a killing blow, they will not be knocked down. Bailu immediately heals the ally for 21.0% of Bailu's Max HP plus 615 HP. This effect can be triggered 1 time per battle.",
+        )
+        self.assertEqual(
+            bailu.skill_ultimate(),
+            "Ultimate Lv.15: Heals all allies for 15.8% of Bailu's Max HP plus 461.25. Bailu applies Invigoration to allies that are not already Invigorated. For those already Invigorated, Bailu extends the duration of their Invigoration by 1 turn. The effect of Invigoration can last for 2 turn(s). This effect cannot stack.",
+        )
+        self.assertEqual(
+            bailu.skill_technique(),
+            "Technique Lv.1: After using Technique, at the start of the next battle, all allies are granted Invigoration for 2 turn(s).",
+        )
+
+        bronya = Character("bronya")
+
+        self.assertEqual(
+            bronya.skill_basicatk(),
+            "Basic ATK Lv.9: Deals Wind DMG equal to 130.0% of Bronya's ATK to a single enemy.",
+        )
+        self.assertEqual(
+            bronya.skill_skill(),
+            "Skill Lv.15: Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by 82.5% for 1 turn(s). When this Skill is used on Bronya herself, she cannot immediately take action again.",
+        )
+        self.assertEqual(
+            bronya.skill_talent(),
+            "Talent Lv.15: After using her Basic ATK, Bronya's next action will be Advanced Forward by 37.5%.",
+        )
+        self.assertEqual(
+            bronya.skill_ultimate(),
+            "Ultimate Lv.15: Increases the ATK of all allies by 66.0%, and increases their CRIT DMG equal to 18.0% of Bronya's CRIT DMG plus 24.0% for 2 turn(s).",
+        )
+        self.assertEqual(
+            bronya.skill_technique(),
+            "Technique Lv.1: After using Bronya's Technique, at the start of the next battle, all allies' ATK increases by 15.0% for 2 turn(s).",
+        )
+
+        pela = Character("pela")
+
+        self.assertEqual(
+            pela.skill_basicatk(),
+            "Basic ATK Lv.9: Deals Ice DMG equal to 130.0% of Pela's ATK as to a single enemy.",
+        )
+        self.assertEqual(
+            pela.skill_skill(),
+            "Skill Lv.15: Removes 1 buff(s) and deals Ice DMG equal to 262.5% of Pela's ATK as to a single enemy.",
+        )
+        self.assertEqual(
+            pela.skill_talent(),
+            "Talent Lv.15: If the enemy is debuffed after Pela's attack, Pela will restore 12.5 extra Energy. This effect can only be triggered 1 time per attack.",
+        )
+        self.assertEqual(
+            pela.skill_ultimate(),
+            "Ultimate Lv.15: Deals Ice DMG equal to 120.0% of Pela's ATK to all enemies, with a 1% base chance to inflict Exposed on all enemies. When Exposed, enemies' DEF is reduced by 45.0% for 2 turn(s).",
+        )
+        self.assertEqual(
+            pela.skill_technique(),
+            "Technique Lv.1: Immediately attacks the enemy. Upon entering battle, Pela deals Ice DMG equal to 80.0% of her ATK to a random enemy, with a 1% base chance of lowering the DEF of all enemies by 20.0% for 2 turn(s).",
+        )
+
 
 if __name__ == "__main__":
     unittest.main()
