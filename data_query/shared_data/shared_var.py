@@ -22,7 +22,7 @@ def readable_descHash(
         "trace",
     ]
     value_params: Tuple = tuple(
-        f"{value * 100:.1f}" if isinstance(value, float) and value < 3.0 else str(value)
+        f"{value * 100:.1f}" if isinstance(value, float) and value < 4.0 else str(value)
         for value in skill_params
     )
     deschash_cleaned: str = re.sub("<[^\>]+.", "", desc)
