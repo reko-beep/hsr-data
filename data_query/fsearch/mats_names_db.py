@@ -14,7 +14,14 @@ def db_connect():
 
 def create_table(conn):
     cursor = conn.cursor()
-    cursor.execute("CREATE TABLE IF NOT EXISTS mats_names(id, name, rarity)")
+    cursor.execute(
+        "CREATE TABLE IF NOT EXISTS mats_names("
+        "id INTEGER PRIMARY KEY,"
+        "name TEXT,"
+        "rarity INTEGER"
+        ")"
+        "STRICT"
+    )
 
 
 def insert_data_materials(conn):

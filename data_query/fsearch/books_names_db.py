@@ -17,6 +17,7 @@ def create_table_books(conn: sqlite3.Connection):
         "id INTEGER PRIMARY KEY,"
         "name TEXT"
         ")"
+        "STRICT"
     )
 
 

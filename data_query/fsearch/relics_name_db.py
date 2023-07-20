@@ -14,7 +14,13 @@ def db_connect():
 
 def create_table(conn):
     cursor = conn.cursor()
-    cursor.execute("CREATE TABLE IF NOT EXISTS relics_name(id, name)")
+    cursor.execute(
+        "CREATE TABLE IF NOT EXISTS relics_name("
+        "id INTEGER PRIMARY KEY,"
+        "name TEXT"
+        ")"
+        "STRICT"
+    )
 
 
 def insert_data_relics(conn):

@@ -14,7 +14,13 @@ def db_connect():
 
 def create_table(conn):
     cursor = conn.cursor()
-    cursor.execute("CREATE TABLE IF NOT EXISTS lc_names(id, name)")
+    cursor.execute(
+        "CREATE TABLE IF NOT EXISTS lc_names("
+        "id INTEGER PRIMARY KEY, "
+        "name TEXT"
+        ")"
+        "STRICT"
+    )
 
 
 def insert_data_lightcones(conn):

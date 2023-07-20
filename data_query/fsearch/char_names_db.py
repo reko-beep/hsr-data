@@ -14,7 +14,13 @@ def db_connect():
 
 def create_table(conn: sql.Connection) -> None:
     cursor: sql.Cursor = conn.cursor()
-    cursor.execute("CREATE TABLE IF NOT EXISTS char_names(filename, name)")
+    cursor.execute(
+        "CREATE TABLE IF NOT EXISTS char_names("
+        "filename TEXT, "
+        "name TEXT PRIMARY KEY"
+        ")"
+        "STRICT"
+    )
 
 
 def check_files_rawdata() -> list[str]:

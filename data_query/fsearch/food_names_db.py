@@ -18,6 +18,7 @@ def create_table_foods(conn: sqlite3.Connection):
         "name TEXT,"
         "rarity INTEGER"
         ")"
+        "STRICT"
     )
 
 
