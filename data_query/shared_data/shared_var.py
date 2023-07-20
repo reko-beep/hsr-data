@@ -22,11 +22,13 @@ def readable_descHash(
         "trace",
     ]
     value_params: Tuple = tuple(
-        f"{value * 100:.1f}" if isinstance(value, float) else str(value)
+        f"{value * 100:.1f}" if isinstance(value, float) and value < 3.0 else str(value)
         for value in skill_params
     )
     deschash_cleaned: str = re.sub("<[^\>]+.", "", desc)
     descHash_list: List = []
+    if "[f1]" in deschash_cleaned:
+        deschash_cleaned = deschash_cleaned.replace("[f1]", "[i]")
     if "#1[i]" not in deschash_cleaned:
         if output in char_skill:
             return f"{typeDesc} Lv.{level}: {deschash_cleaned}"
@@ -48,7 +50,7 @@ def readable_descHash(
             )
             descHash_list.append(descHash_next)
     if output in char_skill:
-        return f"{typeDesc} Lv.{level}: {descHash_list[-1]}"
+        return correct_punctuations(f"{typeDesc} Lv.{level}: {descHash_list[-1]}")
     elif output == "relic":
         return f"{typeDesc} {level}-set: {descHash_list[-1]}"
     elif output == "constellation":
