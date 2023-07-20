@@ -17,7 +17,7 @@ def create_table(conn):
     cursor.execute("CREATE TABLE IF NOT EXISTS relics_name(id, name)")
 
 
-def insert_data(conn):
+def insert_data_relics(conn):
     cursor = conn.cursor()
     filename = [
         int(filename.replace(".json", ""))
@@ -25,7 +25,6 @@ def insert_data(conn):
         if ".json" in filename
     ]
     data = [(Relic(num).id(), Relic(num).name()) for num in filename]
-    q = "INSERT INTO relics_name VALUES (?, ?)"
+    q = "INSERT OR IGNORE INTO relics_name VALUES (?, ?)"
     cursor.executemany(q, data)
     conn.commit()
-    conn.close()

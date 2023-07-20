@@ -34,7 +34,7 @@ def insert_data_books(conn: sqlite3.Connection):
         books_id: int = books.book_id()
         data_books.append({"name": name, "id": books_id})
 
-    Q_INSERT_INTO_BOOKS_FSEARCH = """INSERT INTO books_names(
+    Q_INSERT_INTO_BOOKS_FSEARCH = """INSERT OR IGNORE INTO books_names(
     id,
     name
     ) VALUES(
@@ -44,4 +44,3 @@ def insert_data_books(conn: sqlite3.Connection):
     """
     cursor.executemany(Q_INSERT_INTO_BOOKS_FSEARCH, data_books)
     conn.commit()
-    conn.close()

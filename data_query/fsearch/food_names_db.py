@@ -36,7 +36,7 @@ def insert_data_food(conn: sqlite3.Connection):
         rarity: int = foods.rarity()
         data_foods.append({"name": name, "id": foods_id, "rarity": rarity})
 
-    Q_INSERT_INTO_FOODS_FSEARCH = """INSERT INTO foods_names(
+    Q_INSERT_INTO_FOODS_FSEARCH = """INSERT OR IGNORE INTO foods_names(
     id,
     name,
     rarity
@@ -48,4 +48,3 @@ def insert_data_food(conn: sqlite3.Connection):
     """
     cursor.executemany(Q_INSERT_INTO_FOODS_FSEARCH, data_foods)
     conn.commit()
-    conn.close()

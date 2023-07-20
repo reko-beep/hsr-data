@@ -17,7 +17,7 @@ def create_table(conn):
     cursor.execute("CREATE TABLE IF NOT EXISTS mats_names(id, name, rarity)")
 
 
-def insert_data(conn):
+def insert_data_materials(conn):
     cursor = conn.cursor()
     filenames = os.listdir("raw_data/en/materials")
     mats_id = [
@@ -28,10 +28,9 @@ def insert_data(conn):
         for id in mats_id
     ]
     ordered_data = sorted(data, key=lambda x: x[0])
-    q = "INSERT INTO mats_names VALUES(?, ? ,?)"
+    q = "INSERT OR IGNORE INTO mats_names VALUES(?, ? ,?)"
     cursor.executemany(q, data)
     conn.commit()
-    conn.close()
 
 
 def check_db():

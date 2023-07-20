@@ -17,17 +17,16 @@ def create_table(conn):
     cursor.execute("CREATE TABLE IF NOT EXISTS lc_names(id, name)")
 
 
-def insert_data(conn):
+def insert_data_lightcones(conn):
     cursor = conn.cursor()
     filenames = os.listdir("raw_data/en/lightcones")
     lcs_id = [
         int(lc_id.replace(".json", "")) for lc_id in filenames if ".json" in lc_id
     ]
     data = [(id, LightCone(id).name()) for id in lcs_id]
-    q = "INSERT INTO lc_names VALUES (?, ?)"
+    q = "INSERT OR IGNORE INTO lc_names VALUES (?, ?)"
     cursor.executemany(q, data)
     conn.commit()
-    conn.close()
 
 
 def check_db():
