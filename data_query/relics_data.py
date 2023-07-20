@@ -32,6 +32,15 @@ class Relic:
             return
         return int(rarity)
 
+    def embeddedBaseTypes(self):
+        piece_partid: dict = self.content.get("embeddedBaseTypes")
+        piece_part_dict = {}
+        for _, data in piece_partid.items():
+            name: str = data.get("name")
+            id: int = data.get("id")
+            piece_part_dict[name] = id
+        return piece_part_dict
+
     def set_bonus(self) -> Generator[tuple[int, str] | None, None, None]:
         skill_data: list[dict] | None = self.content.get("skills")
         if skill_data is None:

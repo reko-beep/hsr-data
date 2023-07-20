@@ -42,7 +42,7 @@ def insert_data_primary(conn: sqlite3.Connection):
         name: str = Relic(id).name()
         rarity: int = Relic(id).rarity()
         data_relic_primary.append({"id": id_relic, "name": name, "rarity": rarity})
-    Q_INSERT_INTO_RELIC_PRIMARY = """INSERT INTO relics(
+    Q_INSERT_INTO_RELIC_PRIMARY = """INSERT OR IGNORE INTO relics(
     relic_id,
     name,
     rarity
@@ -55,7 +55,6 @@ def insert_data_primary(conn: sqlite3.Connection):
 
     cursor.executemany(Q_INSERT_INTO_RELIC_PRIMARY, data_relic_primary)
     conn.commit()
-    conn.close()
 
 
 def create_table_set_bonus(conn: sqlite3.Connection):
@@ -79,17 +78,25 @@ def insert_data_set_bonus(conn: sqlite3.Connection):
     for id in cursor:
         set_bonus_data = Relic(id[0]).set_bonus()
         for bonus in set_bonus_data:
-            relic_id = id[0]
-            use_num = bonus[0]
-            desc_hash = bonus[1]
+            relic_id: int = id[0]
+            use_num: int = bonus[0]
+            p_key_setbonus: int = int(str(use_num) + str(relic_id))
+            desc_hash: str = bonus[1]
             data_set_bonus.append(
-                {"id": relic_id, "useNum": use_num, "descHash": desc_hash}
+                {
+                    "p_key": p_key_setbonus,
+                    "id": relic_id,
+                    "useNum": use_num,
+                    "descHash": desc_hash,
+                }
             )
-    Q_INSERT_INTO_SET_BONUS = """INSERT INTO relic_set_bonus(
+    Q_INSERT_INTO_SET_BONUS = """INSERT OR IGNORE INTO relic_set_bonus(
+    p_key,
     relic_id,
     use_num,
     descHash
     ) VALUES(
+    :p_key,
     :id,
     :useNum,
     :descHash
@@ -97,7 +104,6 @@ def insert_data_set_bonus(conn: sqlite3.Connection):
     """
     cursor.executemany(Q_INSERT_INTO_SET_BONUS, data_set_bonus)
     conn.commit()
-    conn.close()
 
 
 def create_table_main_stat(conn: sqlite3.Connection):
@@ -124,14 +130,18 @@ def insert_data_main_stat(conn: sqlite3.Connection):
     for relic_id in relic_ids:
         id: int = relic_id[0]
         main_stat = Relic(id).main_stat()
+        baseTypeText_dict: dict = Relic(id).embeddedBaseTypes()
         for stat in main_stat:
             rarity: int = stat.get("rarity")
             name: str = stat.get("name")
             piece_part: str = stat.get("baseTypeText")
+            baseTypeText_id = baseTypeText_dict.get(piece_part)
             max_level: int = stat.get("maxLevel")
+            p_key_mainstat: int = int(str(baseTypeText_id) + str(id))
             main: list[dict] = stat.get("mainAffixes")
             data_main_stat.append(
                 {
+                    "p_key": p_key_mainstat,
                     "relic_id": id,
                     "rarity": rarity,
                     "name": name,
@@ -140,7 +150,8 @@ def insert_data_main_stat(conn: sqlite3.Connection):
                     "mainAffixes": json.dumps(main),
                 }
             )
-    Q_INSERT_INTO_RELIC_MAIN_STAT = """INSERT INTO relic_main_stat(
+    Q_INSERT_INTO_RELIC_MAIN_STAT = """INSERT OR IGNORE INTO relic_main_stat(
+    p_key,
     relic_id,
     name,
     rarity,
@@ -148,6 +159,7 @@ def insert_data_main_stat(conn: sqlite3.Connection):
     max_level,
     main_affixes
     ) VALUES(
+    :p_key,
     :relic_id,
     :name,
     :rarity,
@@ -158,7 +170,6 @@ def insert_data_main_stat(conn: sqlite3.Connection):
     """
     cursor.executemany(Q_INSERT_INTO_RELIC_MAIN_STAT, data_main_stat)
     conn.commit()
-    conn.close()
 
 
 def create_table_sub_stat(conn: sqlite3.Connection):
@@ -190,6 +201,7 @@ def insert_data_sub_stat(conn: sqlite3.Connection):
     for relic_id in relic_ids:
         id: int = relic_id[0]
         sub_stat = Relic(id).sub_stat()
+        baseTypeText_parts = Relic(id).embeddedBaseTypes()
         for stat in sub_stat:
             id_relic: int = id
             name: str = stat.get("name")
@@ -199,6 +211,8 @@ def insert_data_sub_stat(conn: sqlite3.Connection):
             else:
                 is_percent = 0
             basetypetext: str = stat.get("baseTypeText")
+            baseTypeText_id: int = baseTypeText_parts.get(basetypetext)
+            p_key_substat: int = int(str(baseTypeText_id) + str(id_relic))
             rarity: int = stat.get("rarity")
             property_name: str = stat.get("propertyName")
             property_iconpath: str = stat.get("propertyIconPath")
@@ -207,6 +221,7 @@ def insert_data_sub_stat(conn: sqlite3.Connection):
             step_value: float = stat.get("stepValue")
             data_sub_stat.append(
                 {
+                    "p_key": p_key_substat,
                     "relic_id": id_relic,
                     "name": name,
                     "is_percent": is_percent,
@@ -220,7 +235,8 @@ def insert_data_sub_stat(conn: sqlite3.Connection):
                 }
             )
 
-    Q_INSERT_INTO_SUB_STAT = """INSERT INTO relic_sub_stat(
+    Q_INSERT_INTO_SUB_STAT = """INSERT OR IGNORE INTO relic_sub_stat(
+    p_key,
     relic_id, 
     name, 
     is_percent, 
@@ -232,6 +248,7 @@ def insert_data_sub_stat(conn: sqlite3.Connection):
     level_add, 
     step_value 
     ) VALUES(
+    :p_key,
     :relic_id,
     :name,
     :is_percent,
@@ -247,4 +264,10 @@ def insert_data_sub_stat(conn: sqlite3.Connection):
 
     cursor.executemany(Q_INSERT_INTO_SUB_STAT, data_sub_stat)
     conn.commit()
-    conn.close()
+
+
+if __name__ == "__main__":
+    try:
+        conn.close()
+    except Exception:
+        pass

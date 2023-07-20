@@ -14,6 +14,7 @@ def create_relic_db():
     relic_db.create_table_set_bonus(relic_db.db_connect("relic"))
     relic_db.create_table_sub_stat(relic_db.db_connect("relic"))
 
+
 if __name__ == "__main__":
     create_relic_db()
     create_lightcone_db()

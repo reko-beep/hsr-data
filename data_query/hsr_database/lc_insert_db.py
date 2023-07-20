@@ -25,23 +25,14 @@ def db_connect(choice: str | None = None) -> sqlite3.Connection | None:
         return
 
 
-def fuzzysearch(entry: str, conn: sqlite3.Connection) -> str | None:
-    cursor: sqlite3.Cursor = conn.cursor()
-    names: sqlite3.Cursor = cursor.execute("SELECT name FROM lc_names")
-    names_list = [name[0] for name in names]
-    fsearch_name: str | None = fsearch(entry, names_list)
-    if fsearch_name is None:
-        return
-    return fsearch_name
-
-
 def create_table_primary(conn: sqlite3.Connection) -> None:
     cursor: sqlite3.Cursor = conn.cursor()
     cursor.execute(
         "CREATE TABLE IF NOT EXISTS lightcones("
         "lc_id INTEGER PRIMARY KEY, "
         "name TEXT, "
-        "rarity INTEGER)"
+        "rarity INTEGER"
+        ")"
         "STRICT"
     )
 
@@ -56,7 +47,7 @@ def insert_data_primary(conn: sqlite3.Connection) -> None:
         (LightCone(id).lc_id(), LightCone(id).name(), LightCone(id).rarity())
         for id in lcs_id
     ]
-    q: str = "INSERT INTO lightcones VALUES (?, ?, ?)"
+    q: str = "INSERT OR IGNORE INTO lightcones VALUES (?, ?, ?)"
     cursor.executemany(q, data)
     conn.commit()
     conn.close()
@@ -65,30 +56,30 @@ def insert_data_primary(conn: sqlite3.Connection) -> None:
 def create_table_level_onlevel(conn: sqlite3.Connection) -> None:
     cursor: sqlite3.Cursor = conn.cursor()
     Q_CREATE_LC_LEVEL = """CREATE TABLE IF NOT EXISTS lc_level(
-        p_key INTEGER PRIMARY KEY,
-        lc_id INTEGER, 
-        promotion INTEGER, 
-        max_level INTEGER, 
-        attack_base REAL, 
-        attack_add REAL, 
-        hp_base REAL, 
-        hp_add REAL, 
-        defense_base REAL, 
-        defense_add REAL,
-        FOREIGN KEY(lc_id) REFERENCES lightcones(lc_id)
-        )
-        STRICT
-        """
+    p_key INTEGER PRIMARY KEY,
+    lc_id INTEGER, 
+    promotion INTEGER, 
+    max_level INTEGER, 
+    attack_base REAL, 
+    attack_add REAL, 
+    hp_base REAL, 
+    hp_add REAL, 
+    defense_base REAL, 
+    defense_add REAL,
+    FOREIGN KEY(lc_id) REFERENCES lightcones(lc_id)
+    )
+    STRICT
+    """
 
     Q_CREATE_LC_LEVEL_COST = """CREATE TABLE IF NOT EXISTS lc_level_cost(
-        p_key INTEGER PRIMARY KEY,
-        lc_id INTEGER,
-        promotion INTEGER,
-        cost TEXT,
-        FOREIGN KEY(lc_id) REFERENCES lightcones(lc_id)
-        )
-        STRICT
-        """
+    p_key INTEGER PRIMARY KEY,
+    lc_id INTEGER,
+    promotion INTEGER,
+    cost TEXT,
+    FOREIGN KEY(lc_id) REFERENCES lightcones(lc_id)
+    )
+    STRICT
+    """
     cursor.execute(Q_CREATE_LC_LEVEL)
     cursor.execute(Q_CREATE_LC_LEVEL_COST)
 
@@ -110,6 +101,8 @@ def insert_data_level_onlevel(conn: sqlite3.Connection) -> None:
                 return
             promotion: int = level_data["promotion"]
             max_level: int = level_data["maxLevel"]
+            p_key_onlevel: int = int(str(max_level) + str(lc_id))
+            p_key_cost: int = int(str(promotion) + str(lc_id))
             cost: list = level_data["cost"]
             attack_base: float = level_data["attackBase"]
             attack_add: float = level_data["attackAdd"]
@@ -119,6 +112,7 @@ def insert_data_level_onlevel(conn: sqlite3.Connection) -> None:
             defense_add: float = level_data["defenseAdd"]
             data_lc_level.append(
                 {
+                    "p_key": p_key_onlevel,
                     "lc_id": lc_id,
                     "promotion": promotion,
                     "max_level": max_level,
@@ -131,36 +125,45 @@ def insert_data_level_onlevel(conn: sqlite3.Connection) -> None:
                 }
             )
             data_lc_level_cost.append(
-                {"lc_id": lc_id, "promotion": promotion, "cost": json.dumps(cost)}
+                {
+                    "p_key": p_key_cost,
+                    "lc_id": lc_id,
+                    "promotion": promotion,
+                    "cost": json.dumps(cost),
+                }
             )
     Q_INSERT_INTO_LC_LEVEL = """INSERT INTO lc_level(
-            lc_id,
-            promotion,
-            max_level,
-            attack_base,
-            attack_add,
-            hp_base,
-            hp_add,
-            defense_base,
-            defense_add
-            ) VALUES(
-        :lc_id,
-        :promotion,
-        :max_level,
-        :attack_base,
-        :attack_add,
-        :hp_base,
-        :hp_add,
-        :defense_base,
-        :defense_add
-        )
+    p_key,
+    lc_id,
+    promotion,
+    max_level,
+    attack_base,
+    attack_add,
+    hp_base,
+    hp_add,
+    defense_base,
+    defense_add
+    ) VALUES(
+    :p_key,
+    :lc_id,
+    :promotion,
+    :max_level,
+    :attack_base,
+    :attack_add,
+    :hp_base,
+    :hp_add,
+    :defense_base,
+    :defense_add
+    )
     """
 
-    Q_INSERT_INTO_LC_LEVEL_COST = """INSERT INTO lc_level_cost(
+    Q_INSERT_INTO_LC_LEVEL_COST = """INSERT OR IGNORE INTO lc_level_cost(
+    p_key,
     lc_id,
     promotion,
     cost
     ) VALUES(
+    :p_key,
     :lc_id,
     :promotion,
     :cost
@@ -202,16 +205,24 @@ def insert_data_skill_deschash(conn: sqlite3.Connection) -> None:
         for index in range(5):
             lc_id: int = id[0]
             level: int = index + 1
+            p_key_skilldesc: int = int(str(level) + str(lc_id))
             description: str | None = LightCone(id[0]).skill_descHash(index + 1)
 
             data_skill_deschash.append(
-                {"lc_id": lc_id, "level": level, "skill_descHash": description}
+                {
+                    "p_key": p_key_skilldesc,
+                    "lc_id": lc_id,
+                    "level": level,
+                    "skill_descHash": description,
+                }
             )
-    Q_INSERT_INTO_LC_SKILL_DESC = """INSERT INTO lc_skill_desc(
+    Q_INSERT_INTO_LC_SKILL_DESC = """INSERT OR IGNORE INTO lc_skill_desc(
+    p_key,
     lc_id,
     level,
     skill_deschash
     ) VALUES(
+    :p_key,
     :lc_id,
     :level,
     :skill_descHash
@@ -219,4 +230,3 @@ def insert_data_skill_deschash(conn: sqlite3.Connection) -> None:
     """
     cursor.executemany(Q_INSERT_INTO_LC_SKILL_DESC, data_skill_deschash)
     conn.commit()
-    conn.close()
