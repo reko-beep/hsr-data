@@ -1,7 +1,7 @@
 from enum import Enum, IntEnum
 
 
-O_VALUE = "ba55e291a27b9d4ce59be8430ba2f214"
+O_VALUE = "a179bc7f408c16403ad6db83281cda00"
 class Item(IntEnum):
     """
     Search Item types
