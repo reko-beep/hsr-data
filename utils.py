@@ -15,6 +15,21 @@ from colorthief import ColorThief
 
 import random
 
+def get_globalenv():
+    """
+
+    DEPLOYMENT_ID key is the O_VALUE
+    """
+    src = get('https://starrailstation.com/en').content
+
+    scripts = BeautifulSoup(src, 'lxml').find_all('script')
+    globalenv_dict = []
+    for script in scripts:
+        if 'GLOBAL_ENV' in script.text:
+            globalenv_dict = dict([it.split('=') for it in script.text.split(',window.')])['GLOBAL_ENV']
+            
+    return globalenv_dict
+    
 def generate_t(input):
     t = 0
 
