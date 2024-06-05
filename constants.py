@@ -2,7 +2,7 @@
 from enum import Enum
 
 
-O_VALUE = '6b14cd54ea92edd2dbfc20fa8b0d5797' # idk site changes this a lot
+O_VALUE = 'a179bc7f408c16403ad6db83281cda00' # idk site changes this a lot
 
 class Types(int, Enum):
     '''
